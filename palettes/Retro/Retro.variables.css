@@ -1,0 +1,31 @@
+:root {
+  --name: 'Retro';
+  --black: #13a10e;
+  --red: #13a10e;
+  --green: #13a10e;
+  --yellow: #13a10e;
+  --blue: #13a10e;
+  --purple: #13a10e;
+  --cyan: #13a10e;
+  --white: #13a10e;
+  --brightBlack: #16ba10;
+  --brightRed: #16ba10;
+  --brightGreen: #16ba10;
+  --brightYellow: #16ba10;
+  --brightBlue: #16ba10;
+  --brightPurple: #16ba10;
+  --brightCyan: #16ba10;
+  --brightWhite: #16ba10;
+  --background: #000000;
+  --foreground: #13a10e;
+  --cursorColor: #13a10e;
+  --selectionBackground: #ffffff;
+  --creditTo: 'roblatour';
+  --creditToLink: 'https://github.com/roblatour';
+  --Luma: 0;
+  --Contrast: 0.471362;
+  --PaletteName: 'Retro';
+  --PaletteFileName: 'Retro';
+  --IsBright: 0;
+  --IsDark: 1;
+}
