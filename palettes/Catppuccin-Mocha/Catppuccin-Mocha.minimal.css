@@ -1,0 +1,39 @@
+:root {
+  --name: 'Catppuccin Mocha';
+  --black: #45475a;
+  --red: #f38ba8;
+  --green: #a6e3a1;
+  --yellow: #f9e2af;
+  --blue: #89b4fa;
+  --purple: #f5c2e7;
+  --cyan: #94e2d5;
+  --white: #a6adc8;
+  --brightBlack: #585b70;
+  --brightRed: #f37799;
+  --brightGreen: #89d88b;
+  --brightYellow: #ebd391;
+  --brightBlue: #74a8fc;
+  --brightPurple: #f2aede;
+  --brightCyan: #6bd7ca;
+  --brightWhite: #bac2de;
+  --background: #1e1e2e;
+  --foreground: #cdd6f4;
+  --cursorColor: #f5e0dc;
+  --selectionBackground: #585b70;
+  --Luma: 0.122177;
+  --Contrast: 0.718029;
+  --PaletteName: 'Catppuccin Mocha';
+  --PaletteFileName: 'Catppuccin-Mocha';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
