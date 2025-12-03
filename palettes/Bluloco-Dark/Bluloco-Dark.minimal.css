@@ -1,0 +1,39 @@
+:root {
+  --name: 'Bluloco Dark';
+  --black: #41444d;
+  --red: #fc2f52;
+  --green: #25a45c;
+  --yellow: #ff936a;
+  --blue: #3476ff;
+  --purple: #7a82da;
+  --cyan: #4483aa;
+  --white: #cdd4e0;
+  --brightBlack: #8f9aae;
+  --brightRed: #ff6480;
+  --brightGreen: #3fc56b;
+  --brightYellow: #f9c859;
+  --brightBlue: #10b1fe;
+  --brightPurple: #ff78f8;
+  --brightCyan: #5fb9bc;
+  --brightWhite: #ffffff;
+  --background: #282c34;
+  --foreground: #b9c0cb;
+  --cursorColor: #ffcc00;
+  --selectionBackground: #b9c0ca;
+  --Luma: 0.171479;
+  --Contrast: 0.578741;
+  --PaletteName: 'Bluloco Dark';
+  --PaletteFileName: 'Bluloco-Dark';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
