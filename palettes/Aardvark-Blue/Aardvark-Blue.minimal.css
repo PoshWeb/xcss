@@ -1,0 +1,41 @@
+:root {
+  --name: 'Aardvark Blue';
+  --black: #191919;
+  --red: #aa342e;
+  --green: #4b8c0f;
+  --yellow: #dbba00;
+  --blue: #1370d3;
+  --purple: #c43ac3;
+  --cyan: #008eb0;
+  --white: #bebebe;
+  --brightBlack: #525252;
+  --brightRed: #f05b50;
+  --brightGreen: #95dc55;
+  --brightYellow: #ffe763;
+  --brightBlue: #60a4ec;
+  --brightPurple: #e26be2;
+  --brightCyan: #60b6cb;
+  --brightWhite: #f7f7f7;
+  --background: #102040;
+  --foreground: #dddddd;
+  --cursorColor: #007acc;
+  --selectionBackground: #bfdbfe;
+  --creditTo: 'joshka';
+  --creditToLink: 'https://github.com/joshka';
+  --Luma: 0.121211;
+  --Contrast: 0.745456;
+  --PaletteName: 'Aardvark Blue';
+  --PaletteFileName: 'Aardvark-Blue';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
