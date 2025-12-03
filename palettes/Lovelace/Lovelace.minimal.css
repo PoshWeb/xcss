@@ -1,0 +1,41 @@
+:root {
+  --name: 'Lovelace';
+  --black: #282a36;
+  --red: #f37f97;
+  --green: #5adecd;
+  --yellow: #f2a272;
+  --blue: #8897f4;
+  --purple: #c574dd;
+  --cyan: #79e6f3;
+  --white: #fdfdfd;
+  --brightBlack: #4e5165;
+  --brightRed: #ff4971;
+  --brightGreen: #18e3c8;
+  --brightYellow: #ff8037;
+  --brightBlue: #556fff;
+  --brightPurple: #b043d1;
+  --brightCyan: #3fdcee;
+  --brightWhite: #bebec1;
+  --background: #1d1f28;
+  --foreground: #fdfdfd;
+  --cursorColor: #c574dd;
+  --selectionBackground: #c1deff;
+  --creditTo: 'nalanbar';
+  --creditToLink: 'https://github.com/nalanbar';
+  --Luma: 0.122449;
+  --Contrast: 0.869708;
+  --PaletteName: 'Lovelace';
+  --PaletteFileName: 'Lovelace';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
