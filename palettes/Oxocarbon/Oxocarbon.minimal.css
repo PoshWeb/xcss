@@ -1,0 +1,41 @@
+:root {
+  --name: 'Oxocarbon';
+  --black: #161616;
+  --red: #00dfdb;
+  --green: #00b4ff;
+  --yellow: #ff4297;
+  --blue: #00c15a;
+  --purple: #c693ff;
+  --cyan: #ff74b8;
+  --white: #f2f4f8;
+  --brightBlack: #585858;
+  --brightRed: #00dfdb;
+  --brightGreen: #00b4ff;
+  --brightYellow: #ff4297;
+  --brightBlue: #00c15a;
+  --brightPurple: #c693ff;
+  --brightCyan: #ff74b8;
+  --brightWhite: #f2f4f8;
+  --background: #161616;
+  --foreground: #f2f4f8;
+  --cursorColor: #ffffff;
+  --selectionBackground: #393939;
+  --creditTo: 'nyoom-engineering';
+  --creditToLink: 'https://github.com/nyoom-engineering';
+  --Luma: 0.086275;
+  --Contrast: 0.870053;
+  --PaletteName: 'Oxocarbon';
+  --PaletteFileName: 'Oxocarbon';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
