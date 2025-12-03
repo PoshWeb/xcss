@@ -1,0 +1,40 @@
+:root {
+  --name: 'Aurora';
+  --black: #23262e;
+  --red: #f0266f;
+  --green: #8fd46d;
+  --yellow: #ffe66d;
+  --blue: #102ee4;
+  --purple: #ee5d43;
+  --cyan: #03d6b8;
+  --white: #c74ded;
+  --brightBlack: #4f545e;
+  --brightRed: #f92672;
+  --brightGreen: #8fd46d;
+  --brightYellow: #ffe66d;
+  --brightBlue: #03d6b8;
+  --brightPurple: #ee5d43;
+  --brightCyan: #03d6b8;
+  --brightWhite: #c74ded;
+  --background: #23262e;
+  --foreground: #ffca28;
+  --cursorColor: #ee5d43;
+  --selectionBackground: #292e38;
+  --creditToLink: 'https://github.com/';
+  --Luma: 0.148784;
+  --Contrast: 0.641692;
+  --PaletteName: 'Aurora';
+  --PaletteFileName: 'Aurora';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
