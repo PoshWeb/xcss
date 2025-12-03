@@ -1,0 +1,41 @@
+:root {
+  --name: 'GitLab Light';
+  --black: #303030;
+  --red: #a31700;
+  --green: #0a7f3d;
+  --yellow: #af551d;
+  --blue: #006cd8;
+  --purple: #583cac;
+  --cyan: #00798a;
+  --white: #303030;
+  --brightBlack: #303030;
+  --brightRed: #a31700;
+  --brightGreen: #0a7f3d;
+  --brightYellow: #af551d;
+  --brightBlue: #006cd8;
+  --brightPurple: #583cac;
+  --brightCyan: #00798a;
+  --brightWhite: #303030;
+  --background: #fafaff;
+  --foreground: #303030;
+  --cursorColor: #303030;
+  --selectionBackground: #ad95e9;
+  --creditTo: 'apcamargo';
+  --creditToLink: 'https://github.com/apcamargo';
+  --Luma: 0.981808;
+  --Contrast: 0.793573;
+  --PaletteName: 'GitLab Light';
+  --PaletteFileName: 'GitLab-Light';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
