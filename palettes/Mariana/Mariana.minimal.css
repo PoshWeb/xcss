@@ -1,0 +1,39 @@
+:root {
+  --name: 'Mariana';
+  --black: #000000;
+  --red: #ec5f66;
+  --green: #99c794;
+  --yellow: #f9ae58;
+  --blue: #6699cc;
+  --purple: #c695c6;
+  --cyan: #5fb4b4;
+  --white: #f7f7f7;
+  --brightBlack: #666666;
+  --brightRed: #f97b58;
+  --brightGreen: #acd1a8;
+  --brightYellow: #fac761;
+  --brightBlue: #85add6;
+  --brightPurple: #d8b6d8;
+  --brightCyan: #82c4c4;
+  --brightWhite: #ffffff;
+  --background: #343d46;
+  --foreground: #d8dee9;
+  --cursorColor: #fcbb6a;
+  --selectionBackground: #4e5a65;
+  --Luma: 0.23426;
+  --Contrast: 0.63444;
+  --PaletteName: 'Mariana';
+  --PaletteFileName: 'Mariana';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
