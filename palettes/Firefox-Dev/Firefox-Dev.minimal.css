@@ -1,0 +1,39 @@
+:root {
+  --name: 'Firefox Dev';
+  --black: #002831;
+  --red: #e63853;
+  --green: #5eb83c;
+  --yellow: #a57706;
+  --blue: #359ddf;
+  --purple: #d75cff;
+  --cyan: #4b73a2;
+  --white: #dcdcdc;
+  --brightBlack: #26444d;
+  --brightRed: #e1003f;
+  --brightGreen: #1d9000;
+  --brightYellow: #cd9409;
+  --brightBlue: #006fc0;
+  --brightPurple: #a200da;
+  --brightCyan: #005794;
+  --brightWhite: #e2e2e2;
+  --background: #0e1011;
+  --foreground: #7c8fa4;
+  --cursorColor: #708284;
+  --selectionBackground: #163c61;
+  --Luma: 0.061361;
+  --Contrast: 0.489528;
+  --PaletteName: 'Firefox Dev';
+  --PaletteFileName: 'Firefox-Dev';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
