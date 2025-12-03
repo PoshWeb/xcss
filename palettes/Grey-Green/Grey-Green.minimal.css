@@ -1,0 +1,39 @@
+:root {
+  --name: 'Grey Green';
+  --black: #000000;
+  --red: #fe1414;
+  --green: #74ff00;
+  --yellow: #f1ff01;
+  --blue: #00deff;
+  --purple: #ff00f0;
+  --cyan: #00ffbc;
+  --white: #ffffff;
+  --brightBlack: #666666;
+  --brightRed: #ff3939;
+  --brightGreen: #00ff44;
+  --brightYellow: #ffd100;
+  --brightBlue: #00afff;
+  --brightPurple: #ff008a;
+  --brightCyan: #00ffd3;
+  --brightWhite: #f5ecec;
+  --background: #002a1a;
+  --foreground: #ffffff;
+  --cursorColor: #fff400;
+  --selectionBackground: #517e50;
+  --Luma: 0.125159;
+  --Contrast: 0.874841;
+  --PaletteName: 'Grey Green';
+  --PaletteFileName: 'Grey-Green';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
