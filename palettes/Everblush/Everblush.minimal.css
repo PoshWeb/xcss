@@ -1,0 +1,40 @@
+:root {
+  --name: 'Everblush';
+  --black: #232a2d;
+  --red: #e57474;
+  --green: #8ccf7e;
+  --yellow: #e5c76b;
+  --blue: #67b0e8;
+  --purple: #c47fd5;
+  --cyan: #6cbfbf;
+  --white: #b3b9b8;
+  --brightBlack: #464e50;
+  --brightRed: #ef7e7e;
+  --brightGreen: #96d988;
+  --brightYellow: #f4d67a;
+  --brightBlue: #71baf2;
+  --brightPurple: #ce89df;
+  --brightCyan: #67cbe7;
+  --brightWhite: #bdc3c2;
+  --background: #141b1e;
+  --foreground: #dadada;
+  --cursorColor: #dadada;
+  --selectionBackground: #141b1e;
+  --creditToLink: 'https://github.com/';
+  --Luma: 0.100896;
+  --Contrast: 0.754006;
+  --PaletteName: 'Everblush';
+  --PaletteFileName: 'Everblush';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
