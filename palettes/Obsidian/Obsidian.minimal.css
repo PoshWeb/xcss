@@ -1,0 +1,41 @@
+:root {
+  --name: 'Obsidian';
+  --black: #000000;
+  --red: #b30d0e;
+  --green: #00bb00;
+  --yellow: #fecd22;
+  --blue: #3a9bdb;
+  --purple: #bb00bb;
+  --cyan: #00bbbb;
+  --white: #bbbbbb;
+  --brightBlack: #555555;
+  --brightRed: #ff0003;
+  --brightGreen: #93c863;
+  --brightYellow: #fef874;
+  --brightBlue: #a1d7ff;
+  --brightPurple: #ff55ff;
+  --brightCyan: #55ffff;
+  --brightWhite: #ffffff;
+  --background: #283033;
+  --foreground: #cdcdcd;
+  --cursorColor: #c0cad0;
+  --selectionBackground: #3e4c4f;
+  --creditTo: 'Indyandie';
+  --creditToLink: 'https://github.com/Indyandie';
+  --Luma: 0.182415;
+  --Contrast: 0.621507;
+  --PaletteName: 'Obsidian';
+  --PaletteFileName: 'Obsidian';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
