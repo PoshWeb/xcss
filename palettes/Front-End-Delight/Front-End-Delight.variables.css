@@ -1,0 +1,29 @@
+:root {
+  --name: 'Front End Delight';
+  --black: #242526;
+  --red: #f8511b;
+  --green: #565747;
+  --yellow: #fa771d;
+  --blue: #2c70b7;
+  --purple: #f02e4f;
+  --cyan: #3ca1a6;
+  --white: #adadad;
+  --brightBlack: #5fac6d;
+  --brightRed: #f74319;
+  --brightGreen: #74ec4c;
+  --brightYellow: #fdc325;
+  --brightBlue: #3393ca;
+  --brightPurple: #e75e4f;
+  --brightCyan: #4fbce6;
+  --brightWhite: #8c735b;
+  --background: #1b1c1d;
+  --foreground: #adadad;
+  --cursorColor: #cdcdcd;
+  --selectionBackground: #ea6154;
+  --Luma: 0.109253;
+  --Contrast: 0.569178;
+  --PaletteName: 'Front End Delight';
+  --PaletteFileName: 'Front-End-Delight';
+  --IsBright: 0;
+  --IsDark: 1;
+}
