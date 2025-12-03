@@ -1,0 +1,41 @@
+:root {
+  --name: 'Overnight Slumber';
+  --black: #0a1222;
+  --red: #ffa7c4;
+  --green: #85cc95;
+  --yellow: #ffcb8b;
+  --blue: #8dabe1;
+  --purple: #c792eb;
+  --cyan: #78ccf0;
+  --white: #ffffff;
+  --brightBlack: #575656;
+  --brightRed: #ffa7c4;
+  --brightGreen: #85cc95;
+  --brightYellow: #ffcb8b;
+  --brightBlue: #8dabe1;
+  --brightPurple: #c792eb;
+  --brightCyan: #ffa7c4;
+  --brightWhite: #ffffff;
+  --background: #0e1729;
+  --foreground: #ced2d6;
+  --cursorColor: #ffa7c4;
+  --selectionBackground: #1f2b41;
+  --creditTo: 'cevr';
+  --creditToLink: 'https://github.com/cevr';
+  --Luma: 0.087789;
+  --Contrast: 0.733538;
+  --PaletteName: 'Overnight Slumber';
+  --PaletteFileName: 'Overnight-Slumber';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
