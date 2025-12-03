@@ -1,0 +1,41 @@
+:root {
+  --name: 'Coffee Theme';
+  --black: #000000;
+  --red: #c91b00;
+  --green: #00c200;
+  --yellow: #adaa00;
+  --blue: #0225c7;
+  --purple: #ca30c7;
+  --cyan: #00b8ba;
+  --white: #a1a1a1;
+  --brightBlack: #686868;
+  --brightRed: #ff6e67;
+  --brightGreen: #1fba28;
+  --brightYellow: #b2af1b;
+  --brightBlue: #6871ff;
+  --brightPurple: #f26af2;
+  --brightCyan: #20bdbf;
+  --brightWhite: #ffffff;
+  --background: #f5deb3;
+  --foreground: #000000;
+  --cursorColor: #a1a1a1;
+  --selectionBackground: #c1deff;
+  --creditTo: 'cbitterfield';
+  --creditToLink: 'https://github.com/cbitterfield';
+  --Luma: 0.877589;
+  --Contrast: 0.877589;
+  --PaletteName: 'Coffee Theme';
+  --PaletteFileName: 'Coffee-Theme';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
