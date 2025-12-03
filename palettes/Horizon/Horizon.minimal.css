@@ -1,0 +1,41 @@
+:root {
+  --name: 'Horizon';
+  --black: #000000;
+  --red: #e95678;
+  --green: #29d398;
+  --yellow: #fab795;
+  --blue: #26bbd9;
+  --purple: #ee64ac;
+  --cyan: #59e1e3;
+  --white: #e5e5e5;
+  --brightBlack: #666666;
+  --brightRed: #ec6a88;
+  --brightGreen: #3fdaa4;
+  --brightYellow: #fbc3a7;
+  --brightBlue: #3fc4de;
+  --brightPurple: #f075b5;
+  --brightCyan: #6be4e6;
+  --brightWhite: #e5e5e5;
+  --background: #1c1e26;
+  --foreground: #d5d8da;
+  --cursorColor: #6c6f93;
+  --selectionBackground: #6c6f93;
+  --creditTo: 'apcamargo';
+  --creditToLink: 'https://github.com/apcamargo';
+  --Luma: 0.118245;
+  --Contrast: 0.726879;
+  --PaletteName: 'Horizon';
+  --PaletteFileName: 'Horizon';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
