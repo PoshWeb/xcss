@@ -1,0 +1,39 @@
+:root {
+  --name: 'Melange Dark';
+  --black: #34302c;
+  --red: #bd8183;
+  --green: #78997a;
+  --yellow: #e49b5d;
+  --blue: #7f91b2;
+  --purple: #b380b0;
+  --cyan: #7b9695;
+  --white: #c1a78e;
+  --brightBlack: #867462;
+  --brightRed: #d47766;
+  --brightGreen: #85b695;
+  --brightYellow: #ebc06d;
+  --brightBlue: #a3a9ce;
+  --brightPurple: #cf9bc2;
+  --brightCyan: #89b3b6;
+  --brightWhite: #ece1d7;
+  --background: #292522;
+  --foreground: #ece1d7;
+  --cursorColor: #ece1d7;
+  --selectionBackground: #ece1d7;
+  --Luma: 0.147584;
+  --Contrast: 0.741109;
+  --PaletteName: 'Melange Dark';
+  --PaletteFileName: 'Melange-Dark';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
