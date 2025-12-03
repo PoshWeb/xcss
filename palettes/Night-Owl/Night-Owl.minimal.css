@@ -1,0 +1,41 @@
+:root {
+  --name: 'Night Owl';
+  --black: #011627;
+  --red: #ef5350;
+  --green: #22da6e;
+  --yellow: #addb67;
+  --blue: #82aaff;
+  --purple: #c792ea;
+  --cyan: #21c7a8;
+  --white: #ffffff;
+  --brightBlack: #575656;
+  --brightRed: #ef5350;
+  --brightGreen: #22da6e;
+  --brightYellow: #ffeb95;
+  --brightBlue: #82aaff;
+  --brightPurple: #c792ea;
+  --brightCyan: #7fdbca;
+  --brightWhite: #ffffff;
+  --background: #011627;
+  --foreground: #d6deeb;
+  --cursorColor: #7e57c2;
+  --selectionBackground: #5f7e97;
+  --creditTo: 'praveenpuglia';
+  --creditToLink: 'https://github.com/praveenpuglia';
+  --Luma: 0.07358;
+  --Contrast: 0.794019;
+  --PaletteName: 'Night Owl';
+  --PaletteFileName: 'Night-Owl';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
