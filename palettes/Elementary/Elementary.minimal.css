@@ -1,0 +1,39 @@
+:root {
+  --name: 'Elementary';
+  --black: #242424;
+  --red: #d71c15;
+  --green: #5aa513;
+  --yellow: #fdb40c;
+  --blue: #134899;
+  --purple: #e40038;
+  --cyan: #2595e1;
+  --white: #efefef;
+  --brightBlack: #4b4b4b;
+  --brightRed: #fc1c18;
+  --brightGreen: #6bc219;
+  --brightYellow: #fec80e;
+  --brightBlue: #0955ff;
+  --brightPurple: #fb0050;
+  --brightCyan: #3ea8fc;
+  --brightWhite: #8c00ec;
+  --background: #181818;
+  --foreground: #efefef;
+  --cursorColor: #bbbbbb;
+  --selectionBackground: #b5d5ff;
+  --Luma: 0.094118;
+  --Contrast: 0.843137;
+  --PaletteName: 'Elementary';
+  --PaletteFileName: 'Elementary';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
