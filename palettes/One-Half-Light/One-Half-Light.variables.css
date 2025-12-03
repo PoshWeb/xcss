@@ -1,0 +1,29 @@
+:root {
+  --name: 'One Half Light';
+  --black: #383a42;
+  --red: #e45649;
+  --green: #50a14f;
+  --yellow: #c18401;
+  --blue: #0184bc;
+  --purple: #a626a4;
+  --cyan: #0997b3;
+  --white: #bababa;
+  --brightBlack: #4f525e;
+  --brightRed: #e06c75;
+  --brightGreen: #98c379;
+  --brightYellow: #d8b36e;
+  --brightBlue: #61afef;
+  --brightPurple: #c678dd;
+  --brightCyan: #56b6c2;
+  --brightWhite: #ffffff;
+  --background: #fafafa;
+  --foreground: #383a42;
+  --cursorColor: #a5b4e5;
+  --selectionBackground: #bfceff;
+  --Luma: 0.980392;
+  --Contrast: 0.752343;
+  --PaletteName: 'One Half Light';
+  --PaletteFileName: 'One-Half-Light';
+  --IsBright: 0;
+  --IsDark: 1;
+}
