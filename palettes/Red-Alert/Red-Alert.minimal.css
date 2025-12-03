@@ -1,0 +1,39 @@
+:root {
+  --name: 'Red Alert';
+  --black: #000000;
+  --red: #d62e4e;
+  --green: #71be6b;
+  --yellow: #beb86b;
+  --blue: #489bee;
+  --purple: #e979d7;
+  --cyan: #6bbeb8;
+  --white: #d6d6d6;
+  --brightBlack: #666666;
+  --brightRed: #e02553;
+  --brightGreen: #aff08c;
+  --brightYellow: #dfddb7;
+  --brightBlue: #65aaf1;
+  --brightPurple: #ddb7df;
+  --brightCyan: #b7dfdd;
+  --brightWhite: #ffffff;
+  --background: #762423;
+  --foreground: #ffffff;
+  --cursorColor: #ffffff;
+  --selectionBackground: #073642;
+  --Luma: 0.209259;
+  --Contrast: 0.790741;
+  --PaletteName: 'Red Alert';
+  --PaletteFileName: 'Red-Alert';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
