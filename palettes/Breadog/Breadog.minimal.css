@@ -1,0 +1,39 @@
+:root {
+  --name: 'Breadog';
+  --black: #362c24;
+  --red: #b10b00;
+  --green: #007232;
+  --yellow: #8b4c00;
+  --blue: #005cb4;
+  --purple: #9b0097;
+  --cyan: #006a78;
+  --white: #baa99d;
+  --brightBlack: #514337;
+  --brightRed: #de1100;
+  --brightGreen: #008f40;
+  --brightYellow: #ae6000;
+  --brightBlue: #0074e1;
+  --brightPurple: #c300bd;
+  --brightCyan: #008697;
+  --brightWhite: #eae1da;
+  --background: #f1ebe6;
+  --foreground: #362c24;
+  --cursorColor: #362c24;
+  --selectionBackground: #362c24;
+  --Luma: 0.925155;
+  --Contrast: 0.746534;
+  --PaletteName: 'Breadog';
+  --PaletteFileName: 'Breadog';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
