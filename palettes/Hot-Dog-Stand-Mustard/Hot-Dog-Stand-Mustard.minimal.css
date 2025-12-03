@@ -1,0 +1,39 @@
+:root {
+  --name: 'Hot Dog Stand (Mustard)';
+  --black: #000000;
+  --red: #ea3323;
+  --green: #ea3323;
+  --yellow: #ea3323;
+  --blue: #000000;
+  --purple: #ea3323;
+  --cyan: #000000;
+  --white: #b9b9b9;
+  --brightBlack: #000000;
+  --brightRed: #ea3323;
+  --brightGreen: #ea3323;
+  --brightYellow: #ea3323;
+  --brightBlue: #000000;
+  --brightPurple: #ea3323;
+  --brightCyan: #000000;
+  --brightWhite: #c6c6c6;
+  --background: #ffff54;
+  --foreground: #000000;
+  --cursorColor: #ea3323;
+  --selectionBackground: #ea3323;
+  --Luma: 0.951584;
+  --Contrast: 0.951584;
+  --PaletteName: 'Hot Dog Stand (Mustard)';
+  --PaletteFileName: 'Hot-Dog-Stand-Mustard';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
