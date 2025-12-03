@@ -1,0 +1,39 @@
+:root {
+  --name: 'Gruvbox Material Light';
+  --black: #fbf1c7;
+  --red: #c14a4a;
+  --green: #6c782e;
+  --yellow: #b47109;
+  --blue: #45707a;
+  --purple: #945e80;
+  --cyan: #4c7a5d;
+  --white: #654735;
+  --brightBlack: #a89984;
+  --brightRed: #c14a4a;
+  --brightGreen: #6c782e;
+  --brightYellow: #b47109;
+  --brightBlue: #45707a;
+  --brightPurple: #945e80;
+  --brightCyan: #4c7a5d;
+  --brightWhite: #4f3829;
+  --background: #fbf1c7;
+  --foreground: #654735;
+  --cursorColor: #654735;
+  --selectionBackground: #654735;
+  --Luma: 0.941544;
+  --Contrast: 0.643197;
+  --PaletteName: 'Gruvbox Material Light';
+  --PaletteFileName: 'Gruvbox-Material-Light';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
