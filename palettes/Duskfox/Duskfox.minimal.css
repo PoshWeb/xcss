@@ -1,0 +1,39 @@
+:root {
+  --name: 'Duskfox';
+  --black: #393552;
+  --red: #eb6f92;
+  --green: #a3be8c;
+  --yellow: #f6c177;
+  --blue: #569fba;
+  --purple: #c4a7e7;
+  --cyan: #9ccfd8;
+  --white: #e0def4;
+  --brightBlack: #544d8a;
+  --brightRed: #f083a2;
+  --brightGreen: #b1d196;
+  --brightYellow: #f9cb8c;
+  --brightBlue: #65b1cd;
+  --brightPurple: #ccb1ed;
+  --brightCyan: #a6dae3;
+  --brightWhite: #e2e0f7;
+  --background: #232136;
+  --foreground: #e0def4;
+  --cursorColor: #e0def4;
+  --selectionBackground: #433c59;
+  --Luma: 0.137025;
+  --Contrast: 0.74146;
+  --PaletteName: 'Duskfox';
+  --PaletteFileName: 'Duskfox';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
