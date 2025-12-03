@@ -1,0 +1,39 @@
+:root {
+  --name: 'IBM 5153 CGA (Black)';
+  --black: #000000;
+  --red: #c40000;
+  --green: #00c400;
+  --yellow: #c47e00;
+  --blue: #0000c4;
+  --purple: #c400c4;
+  --cyan: #00c4c4;
+  --white: #c4c4c4;
+  --brightBlack: #4e4e4e;
+  --brightRed: #dc4e4e;
+  --brightGreen: #4edc4e;
+  --brightYellow: #f3f34e;
+  --brightBlue: #4e4edc;
+  --brightPurple: #f34ef3;
+  --brightCyan: #4ef3f3;
+  --brightWhite: #ffffff;
+  --background: #000000;
+  --foreground: #c4c4c4;
+  --cursorColor: #c4c4c4;
+  --selectionBackground: #c4c4c4;
+  --Luma: 0;
+  --Contrast: 0.768627;
+  --PaletteName: 'IBM 5153 CGA (Black)';
+  --PaletteFileName: 'IBM-5153-CGA-Black';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
