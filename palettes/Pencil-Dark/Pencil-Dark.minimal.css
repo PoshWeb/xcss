@@ -1,0 +1,41 @@
+:root {
+  --name: 'Pencil Dark';
+  --black: #212121;
+  --red: #c30771;
+  --green: #10a778;
+  --yellow: #a89c14;
+  --blue: #008ec4;
+  --purple: #5f4986;
+  --cyan: #20a5ba;
+  --white: #d9d9d9;
+  --brightBlack: #4f4f4f;
+  --brightRed: #fb007a;
+  --brightGreen: #5fd7af;
+  --brightYellow: #f3e430;
+  --brightBlue: #20bbfc;
+  --brightPurple: #6855de;
+  --brightCyan: #4fb8cc;
+  --brightWhite: #f1f1f1;
+  --background: #212121;
+  --foreground: #f1f1f1;
+  --cursorColor: #20bbfc;
+  --selectionBackground: #b6d6fd;
+  --creditTo: 'mattly';
+  --creditToLink: 'https://github.com/mattly';
+  --Luma: 0.129412;
+  --Contrast: 0.815686;
+  --PaletteName: 'Pencil Dark';
+  --PaletteFileName: 'Pencil-Dark';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
