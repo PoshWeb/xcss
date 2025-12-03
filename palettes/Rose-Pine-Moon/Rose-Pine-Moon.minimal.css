@@ -1,0 +1,39 @@
+:root {
+  --name: 'Rose Pine Moon';
+  --black: #393552;
+  --red: #eb6f92;
+  --green: #3e8fb0;
+  --yellow: #f6c177;
+  --blue: #9ccfd8;
+  --purple: #c4a7e7;
+  --cyan: #ea9a97;
+  --white: #e0def4;
+  --brightBlack: #6e6a86;
+  --brightRed: #eb6f92;
+  --brightGreen: #3e8fb0;
+  --brightYellow: #f6c177;
+  --brightBlue: #9ccfd8;
+  --brightPurple: #c4a7e7;
+  --brightCyan: #ea9a97;
+  --brightWhite: #e0def4;
+  --background: #232136;
+  --foreground: #e0def4;
+  --cursorColor: #e0def4;
+  --selectionBackground: #44415a;
+  --Luma: 0.137025;
+  --Contrast: 0.74146;
+  --PaletteName: 'Rose Pine Moon';
+  --PaletteFileName: 'Rose-Pine-Moon';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
