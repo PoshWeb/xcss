@@ -1,0 +1,39 @@
+:root {
+  --name: 'Idle Toes';
+  --black: #323232;
+  --red: #d25252;
+  --green: #7fe173;
+  --yellow: #ffc66d;
+  --blue: #4099ff;
+  --purple: #f680ff;
+  --cyan: #bed6ff;
+  --white: #eeeeec;
+  --brightBlack: #606060;
+  --brightRed: #f07070;
+  --brightGreen: #9dff91;
+  --brightYellow: #ffe48b;
+  --brightBlue: #5eb7f7;
+  --brightPurple: #ff9dff;
+  --brightCyan: #dcf4ff;
+  --brightWhite: #ffffff;
+  --background: #323232;
+  --foreground: #ffffff;
+  --cursorColor: #d6d6d6;
+  --selectionBackground: #5b5b5b;
+  --Luma: 0.196078;
+  --Contrast: 0.803922;
+  --PaletteName: 'Idle Toes';
+  --PaletteFileName: 'Idle-Toes';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
