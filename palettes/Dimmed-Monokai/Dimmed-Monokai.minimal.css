@@ -1,0 +1,39 @@
+:root {
+  --name: 'Dimmed Monokai';
+  --black: #3a3d43;
+  --red: #be3f48;
+  --green: #879a3b;
+  --yellow: #c5a635;
+  --blue: #4f76a1;
+  --purple: #855c8d;
+  --cyan: #578fa4;
+  --white: #b9bcba;
+  --brightBlack: #888987;
+  --brightRed: #fb001f;
+  --brightGreen: #0f722f;
+  --brightYellow: #c47033;
+  --brightBlue: #186de3;
+  --brightPurple: #fb0067;
+  --brightCyan: #2e706d;
+  --brightWhite: #fdffb9;
+  --background: #1f1f1f;
+  --foreground: #b9bcba;
+  --cursorColor: #f83e19;
+  --selectionBackground: #2a2d32;
+  --Luma: 0.121569;
+  --Contrast: 0.612618;
+  --PaletteName: 'Dimmed Monokai';
+  --PaletteFileName: 'Dimmed-Monokai';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
