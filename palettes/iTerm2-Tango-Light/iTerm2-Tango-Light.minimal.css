@@ -1,0 +1,39 @@
+:root {
+  --name: 'iTerm2 Tango Light';
+  --black: #000000;
+  --red: #d81e00;
+  --green: #5ea702;
+  --yellow: #cfae00;
+  --blue: #427ab3;
+  --purple: #89658e;
+  --cyan: #00a7aa;
+  --white: #c1c4be;
+  --brightBlack: #686a66;
+  --brightRed: #f54235;
+  --brightGreen: #8cd636;
+  --brightYellow: #d7c53b;
+  --brightBlue: #84b0d8;
+  --brightPurple: #bc94b7;
+  --brightCyan: #1eccce;
+  --brightWhite: #f1f1f0;
+  --background: #ffffff;
+  --foreground: #000000;
+  --cursorColor: #000000;
+  --selectionBackground: #c1deff;
+  --Luma: 1;
+  --Contrast: 1;
+  --PaletteName: 'iTerm2 Tango Light';
+  --PaletteFileName: 'iTerm2-Tango-Light';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
