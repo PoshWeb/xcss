@@ -1,0 +1,39 @@
+:root {
+  --name: 'Rose Pine Dawn';
+  --black: #f2e9e1;
+  --red: #b4637a;
+  --green: #286983;
+  --yellow: #ea9d34;
+  --blue: #56949f;
+  --purple: #907aa9;
+  --cyan: #d7827e;
+  --white: #575279;
+  --brightBlack: #9893a5;
+  --brightRed: #b4637a;
+  --brightGreen: #286983;
+  --brightYellow: #ea9d34;
+  --brightBlue: #56949f;
+  --brightPurple: #907aa9;
+  --brightCyan: #d7827e;
+  --brightWhite: #575279;
+  --background: #faf4ed;
+  --foreground: #575279;
+  --cursorColor: #575279;
+  --selectionBackground: #dfdad9;
+  --Luma: 0.959883;
+  --Contrast: 0.623103;
+  --PaletteName: 'Rose Pine Dawn';
+  --PaletteFileName: 'Rose-Pine-Dawn';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
