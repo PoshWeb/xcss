@@ -1,0 +1,39 @@
+:root {
+  --name: 'Duotone Dark';
+  --black: #1f1d27;
+  --red: #d9393e;
+  --green: #2dcd73;
+  --yellow: #d9b76e;
+  --blue: #ffc284;
+  --purple: #de8d40;
+  --cyan: #2488ff;
+  --white: #b7a1ff;
+  --brightBlack: #4e4a60;
+  --brightRed: #d9393e;
+  --brightGreen: #2dcd73;
+  --brightYellow: #d9b76e;
+  --brightBlue: #ffc284;
+  --brightPurple: #de8d40;
+  --brightCyan: #2488ff;
+  --brightWhite: #eae5ff;
+  --background: #1f1d27;
+  --foreground: #b7a1ff;
+  --cursorColor: #ff9839;
+  --selectionBackground: #353147;
+  --Luma: 0.118224;
+  --Contrast: 0.558105;
+  --PaletteName: 'Duotone Dark';
+  --PaletteFileName: 'Duotone-Dark';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
