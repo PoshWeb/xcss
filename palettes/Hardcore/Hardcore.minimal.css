@@ -1,0 +1,41 @@
+:root {
+  --name: 'Hardcore';
+  --black: #1b1d1e;
+  --red: #f92672;
+  --green: #a6e22e;
+  --yellow: #fd971f;
+  --blue: #66d9ef;
+  --purple: #9e6ffe;
+  --cyan: #5e7175;
+  --white: #ccccc6;
+  --brightBlack: #505354;
+  --brightRed: #ff669d;
+  --brightGreen: #beed5f;
+  --brightYellow: #e6db74;
+  --brightBlue: #66d9ef;
+  --brightPurple: #9e6ffe;
+  --brightCyan: #a3babf;
+  --brightWhite: #f8f8f2;
+  --background: #121212;
+  --foreground: #a0a0a0;
+  --cursorColor: #bbbbbb;
+  --selectionBackground: #453b39;
+  --creditTo: 'hardcore';
+  --creditToLink: 'https://github.com/hardcore';
+  --Luma: 0.070588;
+  --Contrast: 0.556863;
+  --PaletteName: 'Hardcore';
+  --PaletteFileName: 'Hardcore';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
