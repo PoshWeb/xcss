@@ -1,0 +1,39 @@
+:root {
+  --name: 'Red Sands';
+  --black: #000000;
+  --red: #ff3f00;
+  --green: #00bb00;
+  --yellow: #e7b000;
+  --blue: #0072ff;
+  --purple: #bb00bb;
+  --cyan: #00bbbb;
+  --white: #bbbbbb;
+  --brightBlack: #6e6e6e;
+  --brightRed: #d41a1a;
+  --brightGreen: #00bb00;
+  --brightYellow: #e7b000;
+  --brightBlue: #0072ae;
+  --brightPurple: #ff55ff;
+  --brightCyan: #55ffff;
+  --brightWhite: #ffffff;
+  --background: #7a251e;
+  --foreground: #d7c9a7;
+  --cursorColor: #ffffff;
+  --selectionBackground: #a4a390;
+  --Luma: 0.213983;
+  --Contrast: 0.576298;
+  --PaletteName: 'Red Sands';
+  --PaletteFileName: 'Red-Sands';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
