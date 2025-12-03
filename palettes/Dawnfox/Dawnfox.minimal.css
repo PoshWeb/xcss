@@ -1,0 +1,39 @@
+:root {
+  --name: 'Dawnfox';
+  --black: #575279;
+  --red: #b4637a;
+  --green: #618774;
+  --yellow: #ea9d34;
+  --blue: #286983;
+  --purple: #907aa9;
+  --cyan: #56949f;
+  --white: #b2b6bd;
+  --brightBlack: #5f5695;
+  --brightRed: #c26d85;
+  --brightGreen: #629f81;
+  --brightYellow: #eea846;
+  --brightBlue: #2d81a3;
+  --brightPurple: #9a80b9;
+  --brightCyan: #5ca7b4;
+  --brightWhite: #e6ebf3;
+  --background: #faf4ed;
+  --foreground: #575279;
+  --cursorColor: #575279;
+  --selectionBackground: #d0d8d8;
+  --Luma: 0.959883;
+  --Contrast: 0.623103;
+  --PaletteName: 'Dawnfox';
+  --PaletteFileName: 'Dawnfox';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
