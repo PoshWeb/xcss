@@ -1,0 +1,41 @@
+:root {
+  --name: 'Pnevma';
+  --black: #2f2e2d;
+  --red: #a36666;
+  --green: #90a57d;
+  --yellow: #d7af87;
+  --blue: #7fa5bd;
+  --purple: #c79ec4;
+  --cyan: #8adbb4;
+  --white: #d0d0d0;
+  --brightBlack: #4a4845;
+  --brightRed: #d78787;
+  --brightGreen: #afbea2;
+  --brightYellow: #e4c9af;
+  --brightBlue: #a1bdce;
+  --brightPurple: #d7beda;
+  --brightCyan: #b1e7dd;
+  --brightWhite: #efefef;
+  --background: #1c1c1c;
+  --foreground: #d0d0d0;
+  --cursorColor: #e4c9af;
+  --selectionBackground: #4d4d4d;
+  --creditTo: 'baskerville';
+  --creditToLink: 'https://github.com/baskerville';
+  --Luma: 0.109804;
+  --Contrast: 0.705882;
+  --PaletteName: 'Pnevma';
+  --PaletteFileName: 'Pnevma';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
