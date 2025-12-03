@@ -1,0 +1,41 @@
+:root {
+  --name: 'Mathias';
+  --black: #000000;
+  --red: #e52222;
+  --green: #a6e32d;
+  --yellow: #fc951e;
+  --blue: #c48dff;
+  --purple: #fa2573;
+  --cyan: #67d9f0;
+  --white: #f2f2f2;
+  --brightBlack: #555555;
+  --brightRed: #ff5555;
+  --brightGreen: #55ff55;
+  --brightYellow: #ffff55;
+  --brightBlue: #5555ff;
+  --brightPurple: #ff55ff;
+  --brightCyan: #55ffff;
+  --brightWhite: #ffffff;
+  --background: #000000;
+  --foreground: #bbbbbb;
+  --cursorColor: #bbbbbb;
+  --selectionBackground: #555555;
+  --creditTo: 'mathiasbynens';
+  --creditToLink: 'https://github.com/mathiasbynens';
+  --Luma: 0;
+  --Contrast: 0.733333;
+  --PaletteName: 'Mathias';
+  --PaletteFileName: 'Mathias';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
