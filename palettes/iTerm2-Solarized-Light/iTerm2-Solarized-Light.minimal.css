@@ -1,0 +1,39 @@
+:root {
+  --name: 'iTerm2 Solarized Light';
+  --black: #073642;
+  --red: #dc322f;
+  --green: #859900;
+  --yellow: #b58900;
+  --blue: #268bd2;
+  --purple: #d33682;
+  --cyan: #2aa198;
+  --white: #bbb5a2;
+  --brightBlack: #002b36;
+  --brightRed: #cb4b16;
+  --brightGreen: #586e75;
+  --brightYellow: #657b83;
+  --brightBlue: #839496;
+  --brightPurple: #6c71c4;
+  --brightCyan: #93a1a1;
+  --brightWhite: #fdf6e3;
+  --background: #fdf6e3;
+  --foreground: #657b83;
+  --cursorColor: #657b83;
+  --selectionBackground: #eee8d5;
+  --Luma: 0.965162;
+  --Contrast: 0.498886;
+  --PaletteName: 'iTerm2 Solarized Light';
+  --PaletteFileName: 'iTerm2-Solarized-Light';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
