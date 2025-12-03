@@ -1,0 +1,39 @@
+:root {
+  --name: 'Monokai Remastered';
+  --black: #1a1a1a;
+  --red: #f4005f;
+  --green: #98e024;
+  --yellow: #fd971f;
+  --blue: #9d65ff;
+  --purple: #f4005f;
+  --cyan: #58d1eb;
+  --white: #c4c5b5;
+  --brightBlack: #625e4c;
+  --brightRed: #f4005f;
+  --brightGreen: #98e024;
+  --brightYellow: #e0d561;
+  --brightBlue: #9d65ff;
+  --brightPurple: #f4005f;
+  --brightCyan: #58d1eb;
+  --brightWhite: #f6f6ef;
+  --background: #0c0c0c;
+  --foreground: #d9d9d9;
+  --cursorColor: #fc971f;
+  --selectionBackground: #343434;
+  --Luma: 0.047059;
+  --Contrast: 0.803921;
+  --PaletteName: 'Monokai Remastered';
+  --PaletteFileName: 'Monokai-Remastered';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
