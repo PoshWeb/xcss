@@ -1,0 +1,41 @@
+:root {
+  --name: 'Smyck';
+  --black: #000000;
+  --red: #b84131;
+  --green: #7da900;
+  --yellow: #c4a500;
+  --blue: #62a3c4;
+  --purple: #ba8acc;
+  --cyan: #207383;
+  --white: #a1a1a1;
+  --brightBlack: #7a7a7a;
+  --brightRed: #d6837c;
+  --brightGreen: #c4f137;
+  --brightYellow: #fee14d;
+  --brightBlue: #8dcff0;
+  --brightPurple: #f79aff;
+  --brightCyan: #6ad9cf;
+  --brightWhite: #f7f7f7;
+  --background: #1b1b1b;
+  --foreground: #f7f7f7;
+  --cursorColor: #bbbbbb;
+  --selectionBackground: #207483;
+  --creditTo: 'hukl';
+  --creditToLink: 'https://github.com/hukl';
+  --Luma: 0.105882;
+  --Contrast: 0.862745;
+  --PaletteName: 'Smyck';
+  --PaletteFileName: 'Smyck';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
