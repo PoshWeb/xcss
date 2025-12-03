@@ -1,0 +1,29 @@
+:root {
+  --name: 'Django Smooth';
+  --black: #000000;
+  --red: #fd6209;
+  --green: #41a83e;
+  --yellow: #ffe862;
+  --blue: #989898;
+  --purple: #f8f8f8;
+  --cyan: #9df39f;
+  --white: #e8e8e7;
+  --brightBlack: #727272;
+  --brightRed: #ff943b;
+  --brightGreen: #73da70;
+  --brightYellow: #ffff94;
+  --brightBlue: #cacaca;
+  --brightPurple: #ffffff;
+  --brightCyan: #cfffd1;
+  --brightWhite: #ffffff;
+  --background: #245032;
+  --foreground: #f8f8f8;
+  --cursorColor: #4c7e5c;
+  --selectionBackground: #336442;
+  --Luma: 0.268547;
+  --Contrast: 0.704002;
+  --PaletteName: 'Django Smooth';
+  --PaletteFileName: 'Django-Smooth';
+  --IsBright: 0;
+  --IsDark: 1;
+}
