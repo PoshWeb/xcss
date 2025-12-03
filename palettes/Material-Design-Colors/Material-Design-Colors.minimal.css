@@ -1,0 +1,39 @@
+:root {
+  --name: 'Material Design Colors';
+  --black: #435b67;
+  --red: #fc3841;
+  --green: #5cf19e;
+  --yellow: #fed032;
+  --blue: #37b6ff;
+  --purple: #fc226e;
+  --cyan: #59ffd1;
+  --white: #ffffff;
+  --brightBlack: #a1b0b8;
+  --brightRed: #fc746d;
+  --brightGreen: #adf7be;
+  --brightYellow: #fee16c;
+  --brightBlue: #70cfff;
+  --brightPurple: #fc669b;
+  --brightCyan: #9affe6;
+  --brightWhite: #ffffff;
+  --background: #1d262a;
+  --foreground: #e7ebed;
+  --cursorColor: #eaeaea;
+  --selectionBackground: #4e6a78;
+  --Luma: 0.142649;
+  --Contrast: 0.776151;
+  --PaletteName: 'Material Design Colors';
+  --PaletteFileName: 'Material-Design-Colors';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
