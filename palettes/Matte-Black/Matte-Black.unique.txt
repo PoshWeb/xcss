@@ -1,0 +1,13 @@
+#333333
+#d35f5f
+#ffc107
+#b91c1c
+#e68e0d
+#bebebe
+#8a8a8d
+#891c1c
+#b90a0a
+#f59e0b
+#eaeaea
+#ffffff
+#121212
