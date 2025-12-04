@@ -1,0 +1,41 @@
+:root {
+  --name: 'Wombat';
+  --black: #000000;
+  --red: #ff615a;
+  --green: #b1e969;
+  --yellow: #ebd99c;
+  --blue: #5da9f6;
+  --purple: #e86aff;
+  --cyan: #82fff7;
+  --white: #dedacf;
+  --brightBlack: #4a4a4a;
+  --brightRed: #f58c80;
+  --brightGreen: #ddf88f;
+  --brightYellow: #eee5b2;
+  --brightBlue: #a5c7ff;
+  --brightPurple: #ddaaff;
+  --brightCyan: #b7fff9;
+  --brightWhite: #ffffff;
+  --background: #171717;
+  --foreground: #dedacf;
+  --cursorColor: #bbbbbb;
+  --selectionBackground: #453b39;
+  --creditTo: 'djoyner';
+  --creditToLink: 'https://github.com/djoyner';
+  --Luma: 0.090196;
+  --Contrast: 0.764926;
+  --PaletteName: 'Wombat';
+  --PaletteFileName: 'Wombat';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
