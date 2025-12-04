@@ -1,0 +1,41 @@
+:root {
+  --name: 'Synthwave';
+  --black: #000000;
+  --red: #f6188f;
+  --green: #1ebb2b;
+  --yellow: #fdf834;
+  --blue: #2186ec;
+  --purple: #f85a21;
+  --cyan: #12c3e2;
+  --white: #ffffff;
+  --brightBlack: #7f7094;
+  --brightRed: #f841a0;
+  --brightGreen: #25c141;
+  --brightYellow: #fdf454;
+  --brightBlue: #2f9ded;
+  --brightPurple: #f97137;
+  --brightCyan: #19cde6;
+  --brightWhite: #ffffff;
+  --background: #000000;
+  --foreground: #dad9c7;
+  --cursorColor: #19cde6;
+  --selectionBackground: #19cde6;
+  --creditTo: 'brettstil';
+  --creditToLink: 'https://github.com/brettstil';
+  --Luma: 0;
+  --Contrast: 0.846718;
+  --PaletteName: 'Synthwave';
+  --PaletteFileName: 'Synthwave';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
