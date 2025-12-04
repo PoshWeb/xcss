@@ -1,0 +1,41 @@
+:root {
+  --name: 'Xcode WWDC';
+  --black: #494d5c;
+  --red: #bb383a;
+  --green: #94c66e;
+  --yellow: #d28e5d;
+  --blue: #8884c5;
+  --purple: #b73999;
+  --cyan: #00aba4;
+  --white: #e7e8eb;
+  --brightBlack: #7f869e;
+  --brightRed: #bb383a;
+  --brightGreen: #94c66e;
+  --brightYellow: #d28e5d;
+  --brightBlue: #8884c5;
+  --brightPurple: #b73999;
+  --brightCyan: #00aba4;
+  --brightWhite: #e7e8eb;
+  --background: #292c36;
+  --foreground: #e7e8eb;
+  --cursorColor: #e7e8eb;
+  --selectionBackground: #494d5c;
+  --creditTo: 'lunacookies';
+  --creditToLink: 'https://github.com/lunacookies';
+  --Luma: 0.172879;
+  --Contrast: 0.736941;
+  --PaletteName: 'Xcode WWDC';
+  --PaletteFileName: 'Xcode-WWDC';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
