@@ -1,0 +1,41 @@
+:root {
+  --name: 'Twilight';
+  --black: #141414;
+  --red: #c06d44;
+  --green: #afb97a;
+  --yellow: #c2a86c;
+  --blue: #44474a;
+  --purple: #b4be7c;
+  --cyan: #778385;
+  --white: #ffffd4;
+  --brightBlack: #404040;
+  --brightRed: #de7c4c;
+  --brightGreen: #ccd88c;
+  --brightYellow: #e2c47e;
+  --brightBlue: #5a5e62;
+  --brightPurple: #d0dc8e;
+  --brightCyan: #8a989b;
+  --brightWhite: #ffffd4;
+  --background: #141414;
+  --foreground: #ffffd4;
+  --cursorColor: #ffffff;
+  --selectionBackground: #313131;
+  --creditTo: 'stefri';
+  --creditToLink: 'https://github.com/stefri';
+  --Luma: 0.078431;
+  --Contrast: 0.909394;
+  --PaletteName: 'Twilight';
+  --PaletteFileName: 'Twilight';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
