@@ -1,0 +1,39 @@
+:root {
+  --name: 'Tinacious Design Light';
+  --black: #1d1d26;
+  --red: #ff3399;
+  --green: #00d364;
+  --yellow: #e5b24d;
+  --blue: #00cbff;
+  --purple: #cc66ff;
+  --cyan: #00ceca;
+  --white: #b1b1d6;
+  --brightBlack: #636667;
+  --brightRed: #ff2f92;
+  --brightGreen: #00d364;
+  --brightYellow: #d9ae53;
+  --brightBlue: #00cbff;
+  --brightPurple: #d783ff;
+  --brightCyan: #00c8c7;
+  --brightWhite: #d5d6f3;
+  --background: #f8f8ff;
+  --foreground: #1d1d26;
+  --cursorColor: #b1b1d6;
+  --selectionBackground: #ff3399;
+  --Luma: 0.974531;
+  --Contrast: 0.858257;
+  --PaletteName: 'Tinacious Design Light';
+  --PaletteFileName: 'Tinacious-Design-Light';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
