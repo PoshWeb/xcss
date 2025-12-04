@@ -1,0 +1,39 @@
+:root {
+  --name: 'Ultra Dark';
+  --black: #000000;
+  --red: #f07178;
+  --green: #c3e88d;
+  --yellow: #ffcb6b;
+  --blue: #82aaff;
+  --purple: #c792ea;
+  --cyan: #89ddff;
+  --white: #cccccc;
+  --brightBlack: #404040;
+  --brightRed: #f6a9ae;
+  --brightGreen: #dbf1ba;
+  --brightYellow: #ffdfa6;
+  --brightBlue: #b4ccff;
+  --brightPurple: #ddbdf2;
+  --brightCyan: #b8eaff;
+  --brightWhite: #ffffff;
+  --background: #000000;
+  --foreground: #ffffff;
+  --cursorColor: #fefefe;
+  --selectionBackground: #222222;
+  --Luma: 0;
+  --Contrast: 1;
+  --PaletteName: 'Ultra Dark';
+  --PaletteFileName: 'Ultra-Dark';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
