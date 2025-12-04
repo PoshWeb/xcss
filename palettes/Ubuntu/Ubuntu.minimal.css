@@ -1,0 +1,39 @@
+:root {
+  --name: 'Ubuntu';
+  --black: #2e3436;
+  --red: #cc0000;
+  --green: #4e9a06;
+  --yellow: #c4a000;
+  --blue: #3465a4;
+  --purple: #75507b;
+  --cyan: #06989a;
+  --white: #d3d7cf;
+  --brightBlack: #555753;
+  --brightRed: #ef2929;
+  --brightGreen: #8ae234;
+  --brightYellow: #fce94f;
+  --brightBlue: #729fcf;
+  --brightPurple: #ad7fa8;
+  --brightCyan: #34e2e2;
+  --brightWhite: #eeeeec;
+  --background: #300a24;
+  --foreground: #eeeeec;
+  --cursorColor: #bbbbbb;
+  --selectionBackground: #b5d5ff;
+  --Luma: 0.078259;
+  --Contrast: 0.854508;
+  --PaletteName: 'Ubuntu';
+  --PaletteFileName: 'Ubuntu';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
