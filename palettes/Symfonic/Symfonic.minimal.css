@@ -1,0 +1,39 @@
+:root {
+  --name: 'Symfonic';
+  --black: #000000;
+  --red: #dc322f;
+  --green: #56db3a;
+  --yellow: #ff8400;
+  --blue: #0084d4;
+  --purple: #b729d9;
+  --cyan: #ccccff;
+  --white: #ffffff;
+  --brightBlack: #414347;
+  --brightRed: #dc322f;
+  --brightGreen: #56db3a;
+  --brightYellow: #ff8400;
+  --brightBlue: #0084d4;
+  --brightPurple: #b729d9;
+  --brightCyan: #ccccff;
+  --brightWhite: #ffffff;
+  --background: #000000;
+  --foreground: #ffffff;
+  --cursorColor: #dc322f;
+  --selectionBackground: #073642;
+  --Luma: 0;
+  --Contrast: 1;
+  --PaletteName: 'Symfonic';
+  --PaletteFileName: 'Symfonic';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
