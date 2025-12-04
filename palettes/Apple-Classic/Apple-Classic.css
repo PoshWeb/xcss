@@ -59,24 +59,25 @@
 .warning-border    , .Warning-Border     { border-color: var(--brightYellow) }
 .warning-fill      , .Warning-Fill       { fill: var(--brightYellow)         }
 .warning-stroke    , .Warning-Stroke     { stroke: var(--brightYellow)       }
-/* colors */
-.black   ,  .Black   , .ANSI0  { color: var(--black)  }
-.red     ,  .Red     , .ANSI1  { color: var(--red)    }
-.green   ,  .Green   , .ANSI2  { color: var(--green)  }
-.yellow  ,  .Yellow  , .ANSI3  { color: var(--yellow) }
-.blue    ,  .Blue    , .ANSI4  { color: var(--blue)   }
-.magenta ,  .Magenta , .ANSI5  { color: var(--purple) }
-.cyan    ,  .Cyan    , .ANSI6  { color: var(--cyan)   }
-.white   ,  .White   , .ANSI7  { color: var(--white)  }
 
-.brightblack   ,  .bright-black   , .BrightBlack   , .ANSI8   { color: var(--brightBlack)  }
-.brightred     ,  .bright-red     , .BrightRed     , .ANSI9   { color: var(--brightRed)    }
-.brightgreen   ,  .bright-green   , .BrightGreen   , .ANSI10  { color: var(--brightGreen)  }
-.brightyellow  ,  .bright-yellow  , .BrightYellow  , .ANSI11  { color: var(--brightYellow) }
-.brightblue    ,  .bright-blue    , .BrightBlue    , .ANSI12  { color: var(--brightBlue)   }
-.brightmagenta ,  .bright-magenta , .BrightMagenta , .ANSI13  { color: var(--brightPurple) }
-.brightcyan    ,  .bright-cyan    , .BrightCyan    , .ANSI14  { color: var(--brightCyan)   }
-.brightwhite   ,  .bright-white   , .BrightWhite   , .ANSI15  { color: var(--brightWhite)  }
+/* named colors */
+.black   ,  .Black   , .ANSI0, .ANSI30  { color: var(--black)  }
+.red     ,  .Red     , .ANSI1, .ANSI31  { color: var(--red)    }
+.green   ,  .Green   , .ANSI2, .ANSI32  { color: var(--green)  }
+.yellow  ,  .Yellow  , .ANSI3, .ANSI33  { color: var(--yellow) }
+.blue    ,  .Blue    , .ANSI4, .ANSI34  { color: var(--blue)   }
+.magenta ,  .Magenta , .ANSI5, .ANSI35  { color: var(--purple) }
+.cyan    ,  .Cyan    , .ANSI6, .ANSI36  { color: var(--cyan)   }
+.white   ,  .White   , .ANSI7, .ANSI37  { color: var(--white)  }
+
+.brightblack   ,  .bright-black   , .BrightBlack   , .ANSI8, .ANSI100   { color: var(--brightBlack)  }
+.brightred     ,  .bright-red     , .BrightRed     , .ANSI9, .ANSI101   { color: var(--brightRed)    }
+.brightgreen   ,  .bright-green   , .BrightGreen   , .ANSI10, .ANSI102  { color: var(--brightGreen)  }
+.brightyellow  ,  .bright-yellow  , .BrightYellow  , .ANSI11, .ANSI103  { color: var(--brightYellow) }
+.brightblue    ,  .bright-blue    , .BrightBlue    , .ANSI12, .ANSI104  { color: var(--brightBlue)   }
+.brightmagenta ,  .bright-magenta , .BrightMagenta , .ANSI13, .ANSI105  { color: var(--brightPurple) }
+.brightcyan    ,  .bright-cyan    , .BrightCyan    , .ANSI14, .ANSI106  { color: var(--brightCyan)   }
+.brightwhite   ,  .bright-white   , .BrightWhite   , .ANSI15, .ANSI107  { color: var(--brightWhite)  }
 
 .purple       ,  .Purple  { color: var(--purple) }
 
