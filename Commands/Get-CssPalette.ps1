@@ -61,7 +61,7 @@ function Get-CssPalette
             BrightWhite = '#FFFFFF'
         } | Get-CssPalette
     #>
-    [Alias('CSS.Palette','Palette.css','xcss.palette')]
+    [Alias( 'CSS.Palette' , 'Palette.css' , 'xcss.palette' )]
     param(
     # The name of the color scheme.
     [Parameter(ValueFromPipelineByPropertyName)]
@@ -69,7 +69,8 @@ function Get-CssPalette
     [string]
     $Name,
 
-    # The color for Black (ANSI0).
+    # The color for Black (ANSI 0)
+    # CSS variable: `--black`
     [Parameter(ValueFromPipelineByPropertyName)]
     [Alias('ANSI0')]
     [ComponentModel.DefaultBindingProperty("black")]
@@ -77,6 +78,7 @@ function Get-CssPalette
     $Black = '#000420',
 
     # The color for Red (ANSI 1).
+    # CSS variable: `--red`
     [Parameter(ValueFromPipelineByPropertyName)]
     [Alias('ANSI1')]
     [ComponentModel.DefaultBindingProperty("red")]
@@ -84,6 +86,7 @@ function Get-CssPalette
     $Red = '#ff4422',
 
     # The color for Green (ANSI 2).
+    # CSS variable: `--green`
     [Parameter(ValueFromPipelineByPropertyName)]
     [Alias('ANSI2')]
     [ComponentModel.DefaultBindingProperty("green")]
@@ -91,6 +94,7 @@ function Get-CssPalette
     $Green = '#008400',
     
     # The color for Yellow (ANSI 3).
+    # CSS variable: `--yellow`
     [Parameter(ValueFromPipelineByPropertyName)]
     [Alias('ANSI3')]
     [ComponentModel.DefaultBindingProperty("yellow")]
@@ -98,6 +102,7 @@ function Get-CssPalette
     $Yellow = '#e68d00',
     
     # The color for Blue (ANSI 4).
+    # CSS variable: `--blue`
     [Parameter(ValueFromPipelineByPropertyName)]
     [Alias('ANSI4')]
     [ComponentModel.DefaultBindingProperty("blue")]
@@ -105,6 +110,7 @@ function Get-CssPalette
     $Blue = '#004cff',
 
     # The color for Purple/Magneta (ANSI 5).
+    # CSS variable: `--purple`
     [Parameter(ValueFromPipelineByPropertyName)]
     [Alias('ANSI5')]
     [Alias('Magenta')]
@@ -113,6 +119,7 @@ function Get-CssPalette
     $Purple = '#844284',
 
     # The color for Cyan (ANSI 6).
+    # CSS variable: `--cyan`
     [Parameter(ValueFromPipelineByPropertyName)]
     [Alias('ANSI6')]
     [ComponentModel.DefaultBindingProperty("cyan")]
@@ -120,6 +127,7 @@ function Get-CssPalette
     $Cyan = '#008080',
 
     # The color for White (ANSI 7).
+    # CSS variable: `--white`
     [Parameter(ValueFromPipelineByPropertyName)]
     [Alias('ANSI7')]
     [ComponentModel.DefaultBindingProperty("white")]
@@ -127,6 +135,7 @@ function Get-CssPalette
     $White = '#efefef',
 
     # The color for Bright Black (ANSI 8).
+    # CSS variable: `--brightBlack`
     [Parameter(ValueFromPipelineByPropertyName)]
     [Alias('ANSI8')]
     [ComponentModel.DefaultBindingProperty("brightBlack")]
@@ -134,6 +143,7 @@ function Get-CssPalette
     $BrightBlack = '#808080',
 
     # The color for Bright Red (ANSI 9).
+    # CSS variable: `--brightRed`
     [Parameter(ValueFromPipelineByPropertyName)]
     [Alias('ANSI9')]
     [ComponentModel.DefaultBindingProperty("brightRed")]
@@ -141,6 +151,7 @@ function Get-CssPalette
     $BrightRed = '#e50000',
 
     # The color for Bright Green (ANSI 10).
+    # CSS variable: `--brightGreen`
     [Parameter(ValueFromPipelineByPropertyName)]
     [Alias('ANSI10')]
     [ComponentModel.DefaultBindingProperty("brightGreen")]
@@ -148,6 +159,7 @@ function Get-CssPalette
     $BrightGreen = '#00a800',
 
     # The color for Bright Yellow (ANSI 11).
+    # CSS variable: `--brightYellow`
     [Parameter(ValueFromPipelineByPropertyName)]
     [Alias('ANSI11')]
     [ComponentModel.DefaultBindingProperty("brightYellow")]
@@ -155,6 +167,7 @@ function Get-CssPalette
     $BrightYellow = '#e6d600',
 
     # The color for Bright Blue (ANSI 12).
+    # CSS variable: `--brightBlue`
     [Parameter(ValueFromPipelineByPropertyName)]
     [Alias('ANSI12')]
     [ComponentModel.DefaultBindingProperty("brightBlue")]
@@ -162,6 +175,7 @@ function Get-CssPalette
     $BrightBlue = '#4488ff',
 
     # The color for Bright Purple / Magneta (ANSI 13).
+    # CSS variable: `--brightPurple`
     [Parameter(ValueFromPipelineByPropertyName)]
     [Alias('BrightMagenta')]
     [Alias('ANSI13')]
@@ -170,6 +184,7 @@ function Get-CssPalette
     $BrightPurple = '#760188',
 
     # The color for Bright Cyan (ANSI 14).
+    # CSS variable: `--brightCyan`
     [Parameter(ValueFromPipelineByPropertyName)]
     [Alias('ANSI14')]
     [ComponentModel.DefaultBindingProperty("brightCyan")]
@@ -177,6 +192,7 @@ function Get-CssPalette
     $BrightCyan = '#42F4F4',
 
     # The color for Bright White (ANSI 15).
+    # CSS variable: `--brightWhite`
     [Parameter(ValueFromPipelineByPropertyName)]
     [Alias('ANSI15')]
     [ComponentModel.DefaultBindingProperty("brightWhite")]
