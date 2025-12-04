@@ -1,0 +1,73 @@
+3024 Day
+Adwaita
+Alabaster
+Apple System Colors Light
+Atom One Light
+Ayu Light
+Belafonte Day
+Bluloco Light
+Breadog
+Builtin Light
+Builtin Solarized Light
+Builtin Tango Light
+Catppuccin Latte
+CLRS
+Coffee Theme
+Dawnfox
+Dayfox
+Everforest Light Med
+Farmhouse Light
+Flexoki Light
+GitHub Light Colorblind
+GitHub Light Default
+GitHub Light High Contrast
+GitHub
+GitLab Light
+Gruvbox Light Hard
+Gruvbox Light
+Gruvbox Material Light
+Havn Daggry
+Horizon Bright
+Hot Dog Stand (Mustard)
+Iceberg Light
+iTerm2 Light Background
+iTerm2 Solarized Light
+iTerm2 Tango Light
+Light Owl
+Man Page
+Material
+Melange Light
+Monokai Pro Light Sun
+Monokai Pro Light
+Neobones Light
+Night Owlish Light
+No Clown Fiesta Light
+Nord Light
+Novel
+Nvim Light
+One Double Light
+One Half Light
+Pencil Light
+Piatto Light
+Poimandres White
+Primary
+Pro Light
+Raycast Light
+Rose Pine Dawn
+Selenized Light
+Seoulbones Light
+Spring
+Tango Adapted
+Tango Half Adapted
+Terminal Basic
+Tinacious Design Light
+TokyoNight Day
+Tomorrow
+Unikitty
+Vimbones
+Violet Light
+Xcode Light hc
+Xcode Light
+Zenbones Light
+Zenbones
+Zenwritten Light
