@@ -1,0 +1,41 @@
+:root {
+  --name: 'Teerb';
+  --black: #1c1c1c;
+  --red: #d68686;
+  --green: #aed686;
+  --yellow: #d7af87;
+  --blue: #86aed6;
+  --purple: #d6aed6;
+  --cyan: #8adbb4;
+  --white: #d0d0d0;
+  --brightBlack: #4f4f4f;
+  --brightRed: #d68686;
+  --brightGreen: #aed686;
+  --brightYellow: #e4c9af;
+  --brightBlue: #86aed6;
+  --brightPurple: #d6aed6;
+  --brightCyan: #b1e7dd;
+  --brightWhite: #efefef;
+  --background: #262626;
+  --foreground: #d0d0d0;
+  --cursorColor: #e4c9af;
+  --selectionBackground: #4d4d4d;
+  --creditTo: 'teerb';
+  --creditToLink: 'https://github.com/teerb';
+  --Luma: 0.14902;
+  --Contrast: 0.666666;
+  --PaletteName: 'Teerb';
+  --PaletteFileName: 'Teerb';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
