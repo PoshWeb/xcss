@@ -1,0 +1,39 @@
+:root {
+  --name: 'Tomorrow Night Bright';
+  --black: #000000;
+  --red: #d54e53;
+  --green: #b9ca4a;
+  --yellow: #e7c547;
+  --blue: #7aa6da;
+  --purple: #c397d8;
+  --cyan: #70c0b1;
+  --white: #ffffff;
+  --brightBlack: #404040;
+  --brightRed: #d54e53;
+  --brightGreen: #b9ca4a;
+  --brightYellow: #e7c547;
+  --brightBlue: #7aa6da;
+  --brightPurple: #c397d8;
+  --brightCyan: #70c0b1;
+  --brightWhite: #ffffff;
+  --background: #000000;
+  --foreground: #eaeaea;
+  --cursorColor: #eaeaea;
+  --selectionBackground: #424242;
+  --Luma: 0;
+  --Contrast: 0.917647;
+  --PaletteName: 'Tomorrow Night Bright';
+  --PaletteFileName: 'Tomorrow-Night-Bright';
+  --IsBright: 0;
+  --IsDark: 1;
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
