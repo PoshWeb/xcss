@@ -1,5 +1,5 @@
 :root {
-  --name: 'Monokai Vivid';
+  --name: Monokai Vivid;
   --black: #121212;
   --red: #fa2934;
   --green: #98e123;
@@ -20,12 +20,12 @@
   --foreground: #f9f9f9;
   --cursorColor: #fb0007;
   --selectionBackground: #ffffff;
-  --creditTo: 'vitalymak';
-  --creditToLink: 'https://github.com/vitalymak';
+  --creditTo: vitalymak;
+  --creditToLink: https://github.com/vitalymak;
   --Luma: 0.070588;
   --Contrast: 0.905883;
-  --PaletteName: 'Monokai Vivid';
-  --PaletteFileName: 'Monokai-Vivid';
+  --PaletteName: Monokai Vivid;
+  --PaletteFileName: Monokai-Vivid;
   --IsBright: 0;
   --IsDark: 1;
 }
