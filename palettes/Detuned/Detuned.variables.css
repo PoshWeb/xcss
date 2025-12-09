@@ -1,5 +1,5 @@
 :root {
-  --name: 'Detuned';
+  --name: Detuned;
   --black: #171717;
   --red: #fe4386;
   --green: #a6e32d;
@@ -20,12 +20,12 @@
   --foreground: #c7c7c7;
   --cursorColor: #c7c7c7;
   --selectionBackground: #c1deff;
-  --creditTo: 'akx';
-  --creditToLink: 'https://github.com/akx';
+  --creditTo: akx;
+  --creditToLink: https://github.com/akx;
   --Luma: 0;
   --Contrast: 0.780392;
-  --PaletteName: 'Detuned';
-  --PaletteFileName: 'Detuned';
+  --PaletteName: Detuned;
+  --PaletteFileName: Detuned;
   --IsBright: 0;
   --IsDark: 1;
 }
