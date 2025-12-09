@@ -1,5 +1,5 @@
 :root {
-  --name: 'Blue Dolphin';
+  --name: Blue Dolphin;
   --black: #292d3e;
   --red: #ff8288;
   --green: #b4e88d;
@@ -22,8 +22,8 @@
   --selectionBackground: #2baeca;
   --Luma: 0.331868;
   --Contrast: 0.583315;
-  --PaletteName: 'Blue Dolphin';
-  --PaletteFileName: 'Blue-Dolphin';
+  --PaletteName: Blue Dolphin;
+  --PaletteFileName: Blue-Dolphin;
   --IsBright: 0;
   --IsDark: 1;
 }
