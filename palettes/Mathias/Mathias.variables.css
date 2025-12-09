@@ -1,5 +1,5 @@
 :root {
-  --name: 'Mathias';
+  --name: Mathias;
   --black: #000000;
   --red: #e52222;
   --green: #a6e32d;
@@ -20,12 +20,12 @@
   --foreground: #bbbbbb;
   --cursorColor: #bbbbbb;
   --selectionBackground: #555555;
-  --creditTo: 'mathiasbynens';
-  --creditToLink: 'https://github.com/mathiasbynens';
+  --creditTo: mathiasbynens;
+  --creditToLink: https://github.com/mathiasbynens;
   --Luma: 0;
   --Contrast: 0.733333;
-  --PaletteName: 'Mathias';
-  --PaletteFileName: 'Mathias';
+  --PaletteName: Mathias;
+  --PaletteFileName: Mathias;
   --IsBright: 0;
   --IsDark: 1;
 }
