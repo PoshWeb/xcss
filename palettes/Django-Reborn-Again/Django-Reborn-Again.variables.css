@@ -1,5 +1,5 @@
 :root {
-  --name: 'Django Reborn Again';
+  --name: Django Reborn Again;
   --black: #000000;
   --red: #fd6209;
   --green: #41a83e;
@@ -22,8 +22,8 @@
   --selectionBackground: #203727;
   --Luma: 0.096777;
   --Contrast: 0.76991;
-  --PaletteName: 'Django Reborn Again';
-  --PaletteFileName: 'Django-Reborn-Again';
+  --PaletteName: Django Reborn Again;
+  --PaletteFileName: Django-Reborn-Again;
   --IsBright: 0;
   --IsDark: 1;
 }
