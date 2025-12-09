@@ -1,5 +1,5 @@
 :root {
-  --name: 'Spacegray';
+  --name: Spacegray;
   --black: #000000;
   --red: #b04b57;
   --green: #87b379;
@@ -20,12 +20,12 @@
   --foreground: #b3b8c3;
   --cursorColor: #b3b8c3;
   --selectionBackground: #16181e;
-  --creditTo: 'ryentzer';
-  --creditToLink: 'https://github.com/ryentzer';
+  --creditTo: ryentzer;
+  --creditToLink: https://github.com/ryentzer;
   --Luma: 0.14039;
   --Contrast: 0.580125;
-  --PaletteName: 'Spacegray';
-  --PaletteFileName: 'Spacegray';
+  --PaletteName: Spacegray;
+  --PaletteFileName: Spacegray;
   --IsBright: 0;
   --IsDark: 1;
 }
