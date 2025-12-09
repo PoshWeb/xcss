@@ -1,5 +1,5 @@
 :root {
-  --name: 'JetBrains Darcula';
+  --name: JetBrains Darcula;
   --black: #000000;
   --red: #fa5355;
   --green: #126e00;
@@ -20,12 +20,12 @@
   --foreground: #adadad;
   --cursorColor: #ffffff;
   --selectionBackground: #1a3272;
-  --creditTo: 'vitstr';
-  --creditToLink: 'https://github.com/vitstr';
+  --creditTo: vitstr;
+  --creditToLink: https://github.com/vitstr;
   --Luma: 0.12549;
   --Contrast: 0.552941;
-  --PaletteName: 'JetBrains Darcula';
-  --PaletteFileName: 'JetBrains-Darcula';
+  --PaletteName: JetBrains Darcula;
+  --PaletteFileName: JetBrains-Darcula;
   --IsBright: 0;
   --IsDark: 1;
 }
