@@ -1,5 +1,5 @@
 :root {
-  --name: 'Melange Light';
+  --name: Melange Light;
   --black: #e9e1db;
   --red: #c77b8b;
   --green: #6e9b72;
@@ -22,8 +22,8 @@
   --selectionBackground: #54433a;
   --Luma: 0.945098;
   --Contrast: 0.670728;
-  --PaletteName: 'Melange Light';
-  --PaletteFileName: 'Melange-Light';
+  --PaletteName: Melange Light;
+  --PaletteFileName: Melange-Light;
   --IsBright: 0;
   --IsDark: 1;
 }
