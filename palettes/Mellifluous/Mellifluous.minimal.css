@@ -1,5 +1,5 @@
 :root {
-  --name: 'Mellifluous';
+  --name: Mellifluous;
   --black: #1a1a1a;
   --red: #d29393;
   --green: #b3b393;
@@ -20,12 +20,12 @@
   --foreground: #dadada;
   --cursorColor: #bfad9e;
   --selectionBackground: #2d2d2d;
-  --creditTo: 'rektdeckard';
-  --creditToLink: 'https://github.com/rektdeckard';
+  --creditTo: rektdeckard;
+  --creditToLink: https://github.com/rektdeckard;
   --Luma: 0.101961;
   --Contrast: 0.752941;
-  --PaletteName: 'Mellifluous';
-  --PaletteFileName: 'Mellifluous';
+  --PaletteName: Mellifluous;
+  --PaletteFileName: Mellifluous;
   --IsBright: 0;
   --IsDark: 1;
 }
