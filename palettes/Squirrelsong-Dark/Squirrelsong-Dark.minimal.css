@@ -1,5 +1,5 @@
 :root {
-  --name: 'Squirrelsong Dark';
+  --name: Squirrelsong Dark;
   --black: #372920;
   --red: #ba4138;
   --green: #468336;
@@ -20,12 +20,12 @@
   --foreground: #b19b89;
   --cursorColor: #b19b89;
   --selectionBackground: #5b402e;
-  --creditTo: 'sapegin';
-  --creditToLink: 'https://github.com/sapegin';
+  --creditTo: sapegin;
+  --creditToLink: https://github.com/sapegin;
   --Luma: 0.169908;
   --Contrast: 0.451181;
-  --PaletteName: 'Squirrelsong Dark';
-  --PaletteFileName: 'Squirrelsong-Dark';
+  --PaletteName: Squirrelsong Dark;
+  --PaletteFileName: Squirrelsong-Dark;
   --IsBright: 0;
   --IsDark: 1;
 }
