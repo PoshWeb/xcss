@@ -1,5 +1,5 @@
 :root {
-  --name: 'Paraiso Dark';
+  --name: Paraiso Dark;
   --black: #2f1e2e;
   --red: #ef6155;
   --green: #48b685;
@@ -20,12 +20,12 @@
   --foreground: #a39e9b;
   --cursorColor: #a39e9b;
   --selectionBackground: #4f424c;
-  --creditTo: 'idleberg';
-  --creditToLink: 'https://github.com/idleberg';
+  --creditTo: idleberg;
+  --creditToLink: https://github.com/idleberg;
   --Luma: 0.136351;
   --Contrast: 0.486576;
-  --PaletteName: 'Paraiso Dark';
-  --PaletteFileName: 'Paraiso-Dark';
+  --PaletteName: Paraiso Dark;
+  --PaletteFileName: Paraiso-Dark;
   --IsBright: 0;
   --IsDark: 1;
 }
