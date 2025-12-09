@@ -1,5 +1,5 @@
 :root {
-  --name: 'Pro Light';
+  --name: Pro Light;
   --black: #000000;
   --red: #e5492b;
   --green: #50d148;
@@ -20,12 +20,12 @@
   --foreground: #191919;
   --cursorColor: #4d4d4d;
   --selectionBackground: #c1ddff;
-  --creditTo: 'crowsonkb';
-  --creditToLink: 'https://github.com/crowsonkb';
+  --creditTo: crowsonkb;
+  --creditToLink: https://github.com/crowsonkb;
   --Luma: 1;
   --Contrast: 0.901961;
-  --PaletteName: 'Pro Light';
-  --PaletteFileName: 'Pro-Light';
+  --PaletteName: Pro Light;
+  --PaletteFileName: Pro-Light;
   --IsBright: 0;
   --IsDark: 1;
 }
