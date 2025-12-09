@@ -1,5 +1,5 @@
 :root {
-  --name: 'Catppuccin Frappe';
+  --name: Catppuccin Frappe;
   --black: #51576d;
   --red: #e78284;
   --green: #a6d189;
@@ -22,8 +22,8 @@
   --selectionBackground: #626880;
   --Luma: 0.205683;
   --Contrast: 0.612142;
-  --PaletteName: 'Catppuccin Frappe';
-  --PaletteFileName: 'Catppuccin-Frappe';
+  --PaletteName: Catppuccin Frappe;
+  --PaletteFileName: Catppuccin-Frappe;
   --IsBright: 0;
   --IsDark: 1;
 }
