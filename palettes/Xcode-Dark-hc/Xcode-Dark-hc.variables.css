@@ -1,5 +1,5 @@
 :root {
-  --name: 'Xcode Dark hc';
+  --name: Xcode Dark hc;
   --black: #43454b;
   --red: #ff8a7a;
   --green: #83c9bc;
@@ -22,8 +22,8 @@
   --selectionBackground: #43454b;
   --Luma: 0.122984;
   --Contrast: 0.877016;
-  --PaletteName: 'Xcode Dark hc';
-  --PaletteFileName: 'Xcode-Dark-hc';
+  --PaletteName: Xcode Dark hc;
+  --PaletteFileName: Xcode-Dark-hc;
   --IsBright: 0;
   --IsDark: 1;
 }
