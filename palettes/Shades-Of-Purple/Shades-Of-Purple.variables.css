@@ -1,5 +1,5 @@
 :root {
-  --name: 'Shades Of Purple';
+  --name: Shades Of Purple;
   --black: #000000;
   --red: #d90429;
   --green: #3ad900;
@@ -20,12 +20,12 @@
   --foreground: #ffffff;
   --cursorColor: #fad000;
   --selectionBackground: #b362ff;
-  --creditTo: 'ahmadawais';
-  --creditToLink: 'https://github.com/ahmadawais';
+  --creditTo: ahmadawais;
+  --creditToLink: https://github.com/ahmadawais;
   --Luma: 0.124469;
   --Contrast: 0.875531;
-  --PaletteName: 'Shades Of Purple';
-  --PaletteFileName: 'Shades-Of-Purple';
+  --PaletteName: Shades Of Purple;
+  --PaletteFileName: Shades-Of-Purple;
   --IsBright: 0;
   --IsDark: 1;
 }
