@@ -1,5 +1,5 @@
 :root {
-  --name: 'Idle Toes';
+  --name: Idle Toes;
   --black: #323232;
   --red: #d25252;
   --green: #7fe173;
@@ -22,8 +22,8 @@
   --selectionBackground: #5b5b5b;
   --Luma: 0.196078;
   --Contrast: 0.803922;
-  --PaletteName: 'Idle Toes';
-  --PaletteFileName: 'Idle-Toes';
+  --PaletteName: Idle Toes;
+  --PaletteFileName: Idle-Toes;
   --IsBright: 0;
   --IsDark: 1;
 }
