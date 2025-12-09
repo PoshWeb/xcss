@@ -1,5 +1,5 @@
 :root {
-  --name: 'Chalkboard';
+  --name: Chalkboard;
   --black: #000000;
   --red: #c37372;
   --green: #72c373;
@@ -22,8 +22,8 @@
   --selectionBackground: #073642;
   --Luma: 0.154069;
   --Contrast: 0.740451;
-  --PaletteName: 'Chalkboard';
-  --PaletteFileName: 'Chalkboard';
+  --PaletteName: Chalkboard;
+  --PaletteFileName: Chalkboard;
   --IsBright: 0;
   --IsDark: 1;
 }
