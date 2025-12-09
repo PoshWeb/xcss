@@ -1,5 +1,5 @@
 :root {
-  --name: 'Galizur';
+  --name: Galizur;
   --black: #223344;
   --red: #aa1122;
   --green: #33aa11;
@@ -20,12 +20,12 @@
   --foreground: #ddeeff;
   --cursorColor: #ddeeff;
   --selectionBackground: #071317;
-  --creditTo: 'razielanarki';
-  --creditToLink: 'https://github.com/razielanarki';
+  --creditTo: razielanarki;
+  --creditToLink: https://github.com/razielanarki;
   --Luma: 0.065638;
   --Contrast: 0.858335;
-  --PaletteName: 'Galizur';
-  --PaletteFileName: 'Galizur';
+  --PaletteName: Galizur;
+  --PaletteFileName: Galizur;
   --IsBright: 0;
   --IsDark: 1;
 }
