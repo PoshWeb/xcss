@@ -1,5 +1,5 @@
 :root {
-  --name: 'Ciapre';
+  --name: Ciapre;
   --black: #181818;
   --red: #8e0d16;
   --green: #48513b;
@@ -20,12 +20,12 @@
   --foreground: #aea47a;
   --cursorColor: #92805b;
   --selectionBackground: #172539;
-  --creditTo: 'zdj';
-  --creditToLink: 'https://github.com/zdj';
+  --creditTo: zdj;
+  --creditToLink: https://github.com/zdj;
   --Luma: 0.110417;
   --Contrast: 0.529166;
-  --PaletteName: 'Ciapre';
-  --PaletteFileName: 'Ciapre';
+  --PaletteName: Ciapre;
+  --PaletteFileName: Ciapre;
   --IsBright: 0;
   --IsDark: 1;
 }
