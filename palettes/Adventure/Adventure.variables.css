@@ -1,5 +1,5 @@
 :root {
-  --name: 'Adventure';
+  --name: Adventure;
   --black: #040404;
   --red: #d84a33;
   --green: #5da602;
@@ -20,12 +20,12 @@
   --foreground: #feffff;
   --cursorColor: #feffff;
   --selectionBackground: #606060;
-  --creditTo: 'hongzimao';
-  --creditToLink: 'https://github.com/hongzimao';
+  --creditTo: hongzimao;
+  --creditToLink: https://github.com/hongzimao;
   --Luma: 0.015686;
   --Contrast: 0.98348;
-  --PaletteName: 'Adventure';
-  --PaletteFileName: 'Adventure';
+  --PaletteName: Adventure;
+  --PaletteFileName: Adventure;
   --IsBright: 0;
   --IsDark: 1;
 }
