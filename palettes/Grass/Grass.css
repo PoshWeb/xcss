@@ -1,5 +1,5 @@
 :root {
-  --name: 'Grass';
+  --name: Grass;
   --black: #000000;
   --red: #ff5959;
   --green: #00bb00;
@@ -22,8 +22,8 @@
   --selectionBackground: #b64926;
   --Luma: 0.366872;
   --Contrast: 0.565575;
-  --PaletteName: 'Grass';
-  --PaletteFileName: 'Grass';
+  --PaletteName: Grass;
+  --PaletteFileName: Grass;
   --IsBright: 0;
   --IsDark: 1;
 }
