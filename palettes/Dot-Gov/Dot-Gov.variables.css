@@ -1,5 +1,5 @@
 :root {
-  --name: 'Dot Gov';
+  --name: Dot Gov;
   --black: #191919;
   --red: #bf091d;
   --green: #3d9751;
@@ -22,8 +22,8 @@
   --selectionBackground: #1a4080;
   --Luma: 0.170095;
   --Contrast: 0.751474;
-  --PaletteName: 'Dot Gov';
-  --PaletteFileName: 'Dot-Gov';
+  --PaletteName: Dot Gov;
+  --PaletteFileName: Dot-Gov;
   --IsBright: 0;
   --IsDark: 1;
 }
