@@ -1,5 +1,5 @@
 :root {
-  --name: 'Synthwave Alpha';
+  --name: Synthwave Alpha;
   --black: #241b30;
   --red: #e60a70;
   --green: #00986c;
@@ -20,12 +20,12 @@
   --foreground: #f2f2e3;
   --cursorColor: #f2f2e3;
   --selectionBackground: #6e29ad;
-  --creditTo: 'vikpe';
-  --creditToLink: 'https://github.com/vikpe';
+  --creditTo: vikpe;
+  --creditToLink: https://github.com/vikpe;
   --Luma: 0.119332;
   --Contrast: 0.825441;
-  --PaletteName: 'Synthwave Alpha';
-  --PaletteFileName: 'Synthwave-Alpha';
+  --PaletteName: Synthwave Alpha;
+  --PaletteFileName: Synthwave-Alpha;
   --IsBright: 0;
   --IsDark: 1;
 }
