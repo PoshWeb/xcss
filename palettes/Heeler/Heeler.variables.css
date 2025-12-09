@@ -1,5 +1,5 @@
 :root {
-  --name: 'Heeler';
+  --name: Heeler;
   --black: #000000;
   --red: #e44c2e;
   --green: #bdd100;
@@ -20,12 +20,12 @@
   --foreground: #fdfdfd;
   --cursorColor: #ffffff;
   --selectionBackground: #2b2c41;
-  --creditTo: 'tacolegs2004';
-  --creditToLink: 'https://github.com/tacolegs2004';
+  --creditTo: tacolegs2004;
+  --creditToLink: https://github.com/tacolegs2004;
   --Luma: 0.134278;
   --Contrast: 0.857879;
-  --PaletteName: 'Heeler';
-  --PaletteFileName: 'Heeler';
+  --PaletteName: Heeler;
+  --PaletteFileName: Heeler;
   --IsBright: 0;
   --IsDark: 1;
 }
