@@ -1,5 +1,5 @@
 :root {
-  --name: 'Rippedcasts';
+  --name: Rippedcasts;
   --black: #000000;
   --red: #cdaf95;
   --green: #a8ff60;
@@ -20,12 +20,12 @@
   --foreground: #ffffff;
   --cursorColor: #7f7f7f;
   --selectionBackground: #5a647e;
-  --creditTo: 'mdw123';
-  --creditToLink: 'https://github.com/mdw123';
+  --creditTo: mdw123;
+  --creditToLink: https://github.com/mdw123;
   --Luma: 0.168627;
   --Contrast: 0.831373;
-  --PaletteName: 'Rippedcasts';
-  --PaletteFileName: 'Rippedcasts';
+  --PaletteName: Rippedcasts;
+  --PaletteFileName: Rippedcasts;
   --IsBright: 0;
   --IsDark: 1;
 }
