@@ -1,5 +1,5 @@
 :root {
-  --name: 'iTerm2 Smoooooth';
+  --name: iTerm2 Smoooooth;
   --black: #14191e;
   --red: #b43c2a;
   --green: #00c200;
@@ -22,8 +22,8 @@
   --selectionBackground: #b3d7ff;
   --Luma: 0.096403;
   --Contrast: 0.766342;
-  --PaletteName: 'iTerm2 Smoooooth';
-  --PaletteFileName: 'iTerm2-Smoooooth';
+  --PaletteName: iTerm2 Smoooooth;
+  --PaletteFileName: iTerm2-Smoooooth;
   --IsBright: 0;
   --IsDark: 1;
 }
