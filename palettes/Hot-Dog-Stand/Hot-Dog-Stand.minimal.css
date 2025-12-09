@@ -1,5 +1,5 @@
 :root {
-  --name: 'Hot Dog Stand';
+  --name: Hot Dog Stand;
   --black: #000000;
   --red: #ffff54;
   --green: #ffff54;
@@ -22,8 +22,8 @@
   --selectionBackground: #ffff54;
   --Luma: 0.348042;
   --Contrast: 0.651958;
-  --PaletteName: 'Hot Dog Stand';
-  --PaletteFileName: 'Hot-Dog-Stand';
+  --PaletteName: Hot Dog Stand;
+  --PaletteFileName: Hot-Dog-Stand;
   --IsBright: 0;
   --IsDark: 1;
 }
