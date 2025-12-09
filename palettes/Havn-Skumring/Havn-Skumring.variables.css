@@ -1,5 +1,5 @@
 :root {
-  --name: 'Havn Skumring';
+  --name: Havn Skumring;
   --black: #252c47;
   --red: #ea563e;
   --green: #6ead7b;
@@ -22,8 +22,8 @@
   --selectionBackground: #2b514b;
   --Luma: 0.082699;
   --Contrast: 0.776486;
-  --PaletteName: 'Havn Skumring';
-  --PaletteFileName: 'Havn-Skumring';
+  --PaletteName: Havn Skumring;
+  --PaletteFileName: Havn-Skumring;
   --IsBright: 0;
   --IsDark: 1;
 }
