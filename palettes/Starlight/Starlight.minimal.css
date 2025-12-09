@@ -1,5 +1,5 @@
 :root {
-  --name: 'Starlight';
+  --name: Starlight;
   --black: #242424;
   --red: #f62b5a;
   --green: #47b413;
@@ -20,12 +20,12 @@
   --foreground: #ffffff;
   --cursorColor: #ffffff;
   --selectionBackground: #ffffff;
-  --creditTo: 'CosmicToast';
-  --creditToLink: 'https://github.com/CosmicToast';
+  --creditTo: CosmicToast;
+  --creditToLink: https://github.com/CosmicToast;
   --Luma: 0.141176;
   --Contrast: 0.858824;
-  --PaletteName: 'Starlight';
-  --PaletteFileName: 'Starlight';
+  --PaletteName: Starlight;
+  --PaletteFileName: Starlight;
   --IsBright: 0;
   --IsDark: 1;
 }
