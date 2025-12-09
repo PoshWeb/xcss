@@ -1,5 +1,5 @@
 :root {
-  --name: 'Monokai Remastered';
+  --name: Monokai Remastered;
   --black: #1a1a1a;
   --red: #f4005f;
   --green: #98e024;
@@ -22,8 +22,8 @@
   --selectionBackground: #343434;
   --Luma: 0.047059;
   --Contrast: 0.803921;
-  --PaletteName: 'Monokai Remastered';
-  --PaletteFileName: 'Monokai-Remastered';
+  --PaletteName: Monokai Remastered;
+  --PaletteFileName: Monokai-Remastered;
   --IsBright: 0;
   --IsDark: 1;
 }
