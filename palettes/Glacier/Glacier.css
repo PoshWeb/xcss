@@ -1,5 +1,5 @@
 :root {
-  --name: 'Glacier';
+  --name: Glacier;
   --black: #2e343c;
   --red: #bd0f2f;
   --green: #35a770;
@@ -20,12 +20,12 @@
   --foreground: #ffffff;
   --cursorColor: #6c6c6c;
   --selectionBackground: #bd2523;
-  --creditTo: 'bahlo';
-  --creditToLink: 'https://github.com/bahlo';
+  --creditTo: bahlo;
+  --creditToLink: https://github.com/bahlo;
   --Luma: 0.063631;
   --Contrast: 0.936369;
-  --PaletteName: 'Glacier';
-  --PaletteFileName: 'Glacier';
+  --PaletteName: Glacier;
+  --PaletteFileName: Glacier;
   --IsBright: 0;
   --IsDark: 1;
 }
