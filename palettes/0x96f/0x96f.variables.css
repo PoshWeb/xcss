@@ -1,5 +1,5 @@
 :root {
-  --name: '0x96f';
+  --name: 0x96f;
   --black: #262427;
   --red: #ff666d;
   --green: #b3e03a;
@@ -20,12 +20,12 @@
   --foreground: #fcfcfa;
   --cursorColor: #fcfcfa;
   --selectionBackground: #fcfcfa;
-  --creditTo: 'filipjanevski';
-  --creditToLink: 'https://github.com/filipjanevski';
+  --creditTo: filipjanevski;
+  --creditToLink: https://github.com/filipjanevski;
   --Luma: 0.143693;
   --Contrast: 0.843976;
-  --PaletteName: '0x96f';
-  --PaletteFileName: '0x96f';
+  --PaletteName: 0x96f;
+  --PaletteFileName: 0x96f;
   --IsBright: 0;
   --IsDark: 1;
 }
