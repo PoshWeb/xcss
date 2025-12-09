@@ -1,5 +1,5 @@
 :root {
-  --name: 'Electron Highlighter';
+  --name: Electron Highlighter;
   --black: #15161f;
   --red: #ff6c8d;
   --green: #00ffc3;
@@ -20,12 +20,12 @@
   --foreground: #a5b6d4;
   --cursorColor: #a5b6d4;
   --selectionBackground: #25345a;
-  --creditTo: 'mikemcbride';
-  --creditToLink: 'https://github.com/mikemcbride';
+  --creditTo: mikemcbride;
+  --creditToLink: https://github.com/mikemcbride;
   --Luma: 0.15864;
   --Contrast: 0.549406;
-  --PaletteName: 'Electron Highlighter';
-  --PaletteFileName: 'Electron-Highlighter';
+  --PaletteName: Electron Highlighter;
+  --PaletteFileName: Electron-Highlighter;
   --IsBright: 0;
   --IsDark: 1;
 }
