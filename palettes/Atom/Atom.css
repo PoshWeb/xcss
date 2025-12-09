@@ -1,5 +1,5 @@
 :root {
-  --name: 'Atom';
+  --name: Atom;
   --black: #000000;
   --red: #fd5ff1;
   --green: #87c38a;
@@ -20,12 +20,12 @@
   --foreground: #c5c8c6;
   --cursorColor: #d0d0d0;
   --selectionBackground: #444444;
-  --creditTo: 'bahlo';
-  --creditToLink: 'https://github.com/bahlo';
+  --creditTo: bahlo;
+  --creditToLink: https://github.com/bahlo;
   --Luma: 0.089929;
   --Contrast: 0.691317;
-  --PaletteName: 'Atom';
-  --PaletteFileName: 'Atom';
+  --PaletteName: Atom;
+  --PaletteFileName: Atom;
   --IsBright: 0;
   --IsDark: 1;
 }
