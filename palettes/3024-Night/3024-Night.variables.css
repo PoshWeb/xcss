@@ -1,5 +1,5 @@
 :root {
-  --name: '3024 Night';
+  --name: 3024 Night;
   --black: #090300;
   --red: #db2d20;
   --green: #01a252;
@@ -20,12 +20,12 @@
   --foreground: #a5a2a2;
   --cursorColor: #a5a2a2;
   --selectionBackground: #4a4543;
-  --creditTo: '0x3024';
-  --creditToLink: 'https://github.com/0x3024';
+  --creditTo: 0x3024;
+  --creditToLink: https://github.com/0x3024;
   --Luma: 0.015918;
   --Contrast: 0.621877;
-  --PaletteName: '3024 Night';
-  --PaletteFileName: '3024-Night';
+  --PaletteName: 3024 Night;
+  --PaletteFileName: 3024-Night;
   --IsBright: 0;
   --IsDark: 1;
 }
