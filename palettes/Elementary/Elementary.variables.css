@@ -1,5 +1,5 @@
 :root {
-  --name: 'Elementary';
+  --name: Elementary;
   --black: #242424;
   --red: #d71c15;
   --green: #5aa513;
@@ -22,8 +22,8 @@
   --selectionBackground: #b5d5ff;
   --Luma: 0.094118;
   --Contrast: 0.843137;
-  --PaletteName: 'Elementary';
-  --PaletteFileName: 'Elementary';
+  --PaletteName: Elementary;
+  --PaletteFileName: Elementary;
   --IsBright: 0;
   --IsDark: 1;
 }
