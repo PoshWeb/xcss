@@ -1,5 +1,5 @@
 :root {
-  --name: 'Cobalt2';
+  --name: Cobalt2;
   --black: #000000;
   --red: #ff0000;
   --green: #38de21;
@@ -20,12 +20,12 @@
   --foreground: #ffffff;
   --cursorColor: #f0cc09;
   --selectionBackground: #18354f;
-  --creditTo: 'wesbos';
-  --creditToLink: 'https://github.com/wesbos';
+  --creditTo: wesbos;
+  --creditToLink: https://github.com/wesbos;
   --Luma: 0.14108;
   --Contrast: 0.85892;
-  --PaletteName: 'Cobalt2';
-  --PaletteFileName: 'Cobalt2';
+  --PaletteName: Cobalt2;
+  --PaletteFileName: Cobalt2;
   --IsBright: 0;
   --IsDark: 1;
 }
