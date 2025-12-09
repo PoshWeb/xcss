@@ -1,5 +1,5 @@
 :root {
-  --name: 'Highway';
+  --name: Highway;
   --black: #000000;
   --red: #d00e18;
   --green: #138034;
@@ -20,12 +20,12 @@
   --foreground: #ededed;
   --cursorColor: #e0d9b9;
   --selectionBackground: #384564;
-  --creditTo: 'zdj';
-  --creditToLink: 'https://github.com/zdj';
+  --creditTo: zdj;
+  --creditToLink: https://github.com/zdj;
   --Luma: 0.134183;
   --Contrast: 0.795229;
-  --PaletteName: 'Highway';
-  --PaletteFileName: 'Highway';
+  --PaletteName: Highway;
+  --PaletteFileName: Highway;
   --IsBright: 0;
   --IsDark: 1;
 }
