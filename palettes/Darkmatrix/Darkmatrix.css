@@ -1,5 +1,5 @@
 :root {
-  --name: 'Darkmatrix';
+  --name: Darkmatrix;
   --black: #091013;
   --red: #006536;
   --green: #6fa64c;
@@ -22,8 +22,8 @@
   --selectionBackground: #0f191c;
   --Luma: 0.043456;
   --Contrast: 0.25819;
-  --PaletteName: 'Darkmatrix';
-  --PaletteFileName: 'Darkmatrix';
+  --PaletteName: Darkmatrix;
+  --PaletteFileName: Darkmatrix;
   --IsBright: 0;
   --IsDark: 1;
 }
