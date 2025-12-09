@@ -1,5 +1,5 @@
 :root {
-  --name: 'Midnight In Mojave';
+  --name: Midnight In Mojave;
   --black: #1e1e1e;
   --red: #ff453a;
   --green: #32d74b;
@@ -20,12 +20,12 @@
   --foreground: #ffffff;
   --cursorColor: #32d74b;
   --selectionBackground: #4a504d;
-  --creditTo: 'OberstKrueger';
-  --creditToLink: 'https://github.com/OberstKrueger';
+  --creditTo: OberstKrueger;
+  --creditToLink: https://github.com/OberstKrueger;
   --Luma: 0.117647;
   --Contrast: 0.882353;
-  --PaletteName: 'Midnight In Mojave';
-  --PaletteFileName: 'Midnight-In-Mojave';
+  --PaletteName: Midnight In Mojave;
+  --PaletteFileName: Midnight-In-Mojave;
   --IsBright: 0;
   --IsDark: 1;
 }
