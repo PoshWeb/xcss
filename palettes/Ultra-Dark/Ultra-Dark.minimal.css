@@ -1,5 +1,5 @@
 :root {
-  --name: 'Ultra Dark';
+  --name: Ultra Dark;
   --black: #000000;
   --red: #f07178;
   --green: #c3e88d;
@@ -22,8 +22,8 @@
   --selectionBackground: #222222;
   --Luma: 0;
   --Contrast: 1;
-  --PaletteName: 'Ultra Dark';
-  --PaletteFileName: 'Ultra-Dark';
+  --PaletteName: Ultra Dark;
+  --PaletteFileName: Ultra-Dark;
   --IsBright: 0;
   --IsDark: 1;
 }
