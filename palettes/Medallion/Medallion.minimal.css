@@ -1,5 +1,5 @@
 :root {
-  --name: 'Medallion';
+  --name: Medallion;
   --black: #000000;
   --red: #b64c00;
   --green: #7c8b16;
@@ -20,12 +20,12 @@
   --foreground: #cac296;
   --cursorColor: #d3ba30;
   --selectionBackground: #626dac;
-  --creditTo: 'zdj';
-  --creditToLink: 'https://github.com/zdj';
+  --creditTo: zdj;
+  --creditToLink: https://github.com/zdj;
   --Luma: 0.096561;
   --Contrast: 0.658435;
-  --PaletteName: 'Medallion';
-  --PaletteFileName: 'Medallion';
+  --PaletteName: Medallion;
+  --PaletteFileName: Medallion;
   --IsBright: 0;
   --IsDark: 1;
 }
