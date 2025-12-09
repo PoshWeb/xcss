@@ -1,5 +1,5 @@
 :root {
-  --name: 'Under The Sea';
+  --name: Under The Sea;
   --black: #022026;
   --red: #b2302d;
   --green: #00a941;
@@ -20,12 +20,12 @@
   --foreground: #ffffff;
   --cursorColor: #4afcd6;
   --selectionBackground: #415555;
-  --creditTo: 'peterpme';
-  --creditToLink: 'https://github.com/peterpme';
+  --creditTo: peterpme;
+  --creditToLink: https://github.com/peterpme;
   --Luma: 0.054743;
   --Contrast: 0.945257;
-  --PaletteName: 'Under The Sea';
-  --PaletteFileName: 'Under-The-Sea';
+  --PaletteName: Under The Sea;
+  --PaletteFileName: Under-The-Sea;
   --IsBright: 0;
   --IsDark: 1;
 }
