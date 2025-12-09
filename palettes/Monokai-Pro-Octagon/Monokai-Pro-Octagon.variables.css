@@ -1,5 +1,5 @@
 :root {
-  --name: 'Monokai Pro Octagon';
+  --name: Monokai Pro Octagon;
   --black: #282a3a;
   --red: #ff657a;
   --green: #bad761;
@@ -22,8 +22,8 @@
   --selectionBackground: #535763;
   --Luma: 0.167569;
   --Contrast: 0.774498;
-  --PaletteName: 'Monokai Pro Octagon';
-  --PaletteFileName: 'Monokai-Pro-Octagon';
+  --PaletteName: Monokai Pro Octagon;
+  --PaletteFileName: Monokai-Pro-Octagon;
   --IsBright: 0;
   --IsDark: 1;
 }
