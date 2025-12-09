@@ -1,5 +1,5 @@
 :root {
-  --name: 'Fairyfloss';
+  --name: Fairyfloss;
   --black: #040303;
   --red: #f92672;
   --green: #c2ffdf;
@@ -20,12 +20,12 @@
   --foreground: #f8f8f2;
   --cursorColor: #f8f8f0;
   --selectionBackground: #8077a8;
-  --creditTo: 'rebecabordini';
-  --creditToLink: 'https://github.com/rebecabordini';
+  --creditTo: rebecabordini;
+  --creditToLink: https://github.com/rebecabordini;
   --Luma: 0.343758;
   --Contrast: 0.627092;
-  --PaletteName: 'Fairyfloss';
-  --PaletteFileName: 'Fairyfloss';
+  --PaletteName: Fairyfloss;
+  --PaletteFileName: Fairyfloss;
   --IsBright: 0;
   --IsDark: 1;
 }
