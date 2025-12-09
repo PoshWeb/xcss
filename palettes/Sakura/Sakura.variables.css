@@ -1,5 +1,5 @@
 :root {
-  --name: 'Sakura';
+  --name: Sakura;
   --black: #000000;
   --red: #d52370;
   --green: #41af1a;
@@ -20,12 +20,12 @@
   --foreground: #dd7bdc;
   --cursorColor: #ff65fd;
   --selectionBackground: #c05cbf;
-  --creditTo: '0xn0ri';
-  --creditToLink: 'https://github.com/0xn0ri';
+  --creditTo: 0xn0ri;
+  --creditToLink: https://github.com/0xn0ri;
   --Luma: 0.081793;
   --Contrast: 0.509729;
-  --PaletteName: 'Sakura';
-  --PaletteFileName: 'Sakura';
+  --PaletteName: Sakura;
+  --PaletteFileName: Sakura;
   --IsBright: 0;
   --IsDark: 1;
 }
