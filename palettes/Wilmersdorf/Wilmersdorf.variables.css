@@ -1,5 +1,5 @@
 :root {
-  --name: 'Wilmersdorf';
+  --name: Wilmersdorf;
   --black: #34373e;
   --red: #e06383;
   --green: #7ebebd;
@@ -20,12 +20,12 @@
   --foreground: #c6c6c6;
   --cursorColor: #7ebebd;
   --selectionBackground: #1f2024;
-  --creditTo: 'sayeefm0';
-  --creditToLink: 'https://github.com/sayeefm0';
+  --creditTo: sayeefm0;
+  --creditToLink: https://github.com/sayeefm0;
   --Luma: 0.168391;
   --Contrast: 0.60808;
-  --PaletteName: 'Wilmersdorf';
-  --PaletteFileName: 'Wilmersdorf';
+  --PaletteName: Wilmersdorf;
+  --PaletteFileName: Wilmersdorf;
   --IsBright: 0;
   --IsDark: 1;
 }
