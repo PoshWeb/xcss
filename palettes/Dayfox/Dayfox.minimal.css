@@ -1,5 +1,5 @@
 :root {
-  --name: 'Dayfox';
+  --name: Dayfox;
   --black: #352c24;
   --red: #a5222f;
   --green: #396847;
@@ -20,12 +20,12 @@
   --foreground: #3d2b5a;
   --cursorColor: #3d2b5a;
   --selectionBackground: #e7d2be;
-  --creditTo: 'EdenEast';
-  --creditToLink: 'https://github.com/EdenEast';
+  --creditTo: EdenEast;
+  --creditToLink: https://github.com/EdenEast;
   --Luma: 0.951222;
   --Contrast: 0.75428;
-  --PaletteName: 'Dayfox';
-  --PaletteFileName: 'Dayfox';
+  --PaletteName: Dayfox;
+  --PaletteFileName: Dayfox;
   --IsBright: 0;
   --IsDark: 1;
 }
