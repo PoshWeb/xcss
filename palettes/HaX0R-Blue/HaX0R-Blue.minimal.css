@@ -1,5 +1,5 @@
 :root {
-  --name: 'HaX0R Blue';
+  --name: HaX0R Blue;
   --black: #010921;
   --red: #10b6ff;
   --green: #10b6ff;
@@ -22,8 +22,8 @@
   --selectionBackground: #c1e4ff;
   --Luma: 0.020803;
   --Contrast: 0.578832;
-  --PaletteName: 'HaX0R Blue';
-  --PaletteFileName: 'HaX0R-Blue';
+  --PaletteName: HaX0R Blue;
+  --PaletteFileName: HaX0R-Blue;
   --IsBright: 0;
   --IsDark: 1;
 }
