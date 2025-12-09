@@ -1,5 +1,5 @@
 :root {
-  --name: 'HaX0R Gr33N';
+  --name: HaX0R Gr33N;
   --black: #001f0b;
   --red: #15d00d;
   --green: #15d00d;
@@ -22,8 +22,8 @@
   --selectionBackground: #d4ffc1;
   --Luma: 0.044021;
   --Contrast: 0.474718;
-  --PaletteName: 'HaX0R Gr33N';
-  --PaletteFileName: 'HaX0R-Gr33N';
+  --PaletteName: HaX0R Gr33N;
+  --PaletteFileName: HaX0R-Gr33N;
   --IsBright: 0;
   --IsDark: 1;
 }
