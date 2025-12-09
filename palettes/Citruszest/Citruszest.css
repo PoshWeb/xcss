@@ -1,5 +1,5 @@
 :root {
-  --name: 'Citruszest';
+  --name: Citruszest;
   --black: #404040;
   --red: #ff5454;
   --green: #00cc7a;
@@ -20,12 +20,12 @@
   --foreground: #bfbfbf;
   --cursorColor: #666666;
   --selectionBackground: #ff8c00;
-  --creditTo: 'zootedb0t';
-  --creditToLink: 'https://github.com/zootedb0t';
+  --creditTo: zootedb0t;
+  --creditToLink: https://github.com/zootedb0t;
   --Luma: 0.070588;
   --Contrast: 0.678432;
-  --PaletteName: 'Citruszest';
-  --PaletteFileName: 'Citruszest';
+  --PaletteName: Citruszest;
+  --PaletteFileName: Citruszest;
   --IsBright: 0;
   --IsDark: 1;
 }
