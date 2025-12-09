@@ -1,5 +1,5 @@
 :root {
-  --name: 'Peppermint';
+  --name: Peppermint;
   --black: #353535;
   --red: #e74669;
   --green: #89d287;
@@ -22,8 +22,8 @@
   --selectionBackground: #e6e6e6;
   --Luma: 0;
   --Contrast: 0.784314;
-  --PaletteName: 'Peppermint';
-  --PaletteFileName: 'Peppermint';
+  --PaletteName: Peppermint;
+  --PaletteFileName: Peppermint;
   --IsBright: 0;
   --IsDark: 1;
 }
