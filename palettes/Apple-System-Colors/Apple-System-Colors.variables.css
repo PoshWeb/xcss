@@ -1,5 +1,5 @@
 :root {
-  --name: 'Apple System Colors';
+  --name: Apple System Colors;
   --black: #1a1a1a;
   --red: #cc372e;
   --green: #26a439;
@@ -20,12 +20,12 @@
   --foreground: #ffffff;
   --cursorColor: #98989d;
   --selectionBackground: #3f638b;
-  --creditTo: 'jeremybahadirli';
-  --creditToLink: 'https://github.com/jeremybahadirli';
+  --creditTo: jeremybahadirli;
+  --creditToLink: https://github.com/jeremybahadirli;
   --Luma: 0.117647;
   --Contrast: 0.882353;
-  --PaletteName: 'Apple System Colors';
-  --PaletteFileName: 'Apple-System-Colors';
+  --PaletteName: Apple System Colors;
+  --PaletteFileName: Apple-System-Colors;
   --IsBright: 0;
   --IsDark: 1;
 }
