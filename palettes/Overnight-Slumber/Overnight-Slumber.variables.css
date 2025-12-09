@@ -1,5 +1,5 @@
 :root {
-  --name: 'Overnight Slumber';
+  --name: Overnight Slumber;
   --black: #0a1222;
   --red: #ffa7c4;
   --green: #85cc95;
@@ -20,12 +20,12 @@
   --foreground: #ced2d6;
   --cursorColor: #ffa7c4;
   --selectionBackground: #1f2b41;
-  --creditTo: 'cevr';
-  --creditToLink: 'https://github.com/cevr';
+  --creditTo: cevr;
+  --creditToLink: https://github.com/cevr;
   --Luma: 0.087789;
   --Contrast: 0.733538;
-  --PaletteName: 'Overnight Slumber';
-  --PaletteFileName: 'Overnight-Slumber';
+  --PaletteName: Overnight Slumber;
+  --PaletteFileName: Overnight-Slumber;
   --IsBright: 0;
   --IsDark: 1;
 }
