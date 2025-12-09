@@ -1,5 +1,5 @@
 :root {
-  --name: 'Tearout';
+  --name: Tearout;
   --black: #685742;
   --red: #cc967b;
   --green: #97976d;
@@ -20,12 +20,12 @@
   --foreground: #f4d2ae;
   --cursorColor: #d7c483;
   --selectionBackground: #e4c47a;
-  --creditTo: 'leobeosab';
-  --creditToLink: 'https://github.com/leobeosab';
+  --creditTo: leobeosab;
+  --creditToLink: https://github.com/leobeosab;
   --Luma: 0.215963;
   --Contrast: 0.62572;
-  --PaletteName: 'Tearout';
-  --PaletteFileName: 'Tearout';
+  --PaletteName: Tearout;
+  --PaletteFileName: Tearout;
   --IsBright: 0;
   --IsDark: 1;
 }
