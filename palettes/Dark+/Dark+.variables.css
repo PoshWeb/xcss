@@ -1,5 +1,5 @@
 :root {
-  --name: 'Dark+';
+  --name: Dark+;
   --black: #000000;
   --red: #cd3131;
   --green: #0dbc79;
@@ -22,8 +22,8 @@
   --selectionBackground: #3a3d41;
   --Luma: 0.117647;
   --Contrast: 0.682353;
-  --PaletteName: 'Dark+';
-  --PaletteFileName: 'Dark+';
+  --PaletteName: Dark+;
+  --PaletteFileName: Dark+;
   --IsBright: 0;
   --IsDark: 1;
 }
