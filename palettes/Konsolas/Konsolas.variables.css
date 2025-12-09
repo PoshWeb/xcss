@@ -1,5 +1,5 @@
 :root {
-  --name: 'Konsolas';
+  --name: Konsolas;
   --black: #000000;
   --red: #aa1717;
   --green: #18b218;
@@ -22,8 +22,8 @@
   --selectionBackground: #060606;
   --Luma: 0.023529;
   --Contrast: 0.73917;
-  --PaletteName: 'Konsolas';
-  --PaletteFileName: 'Konsolas';
+  --PaletteName: Konsolas;
+  --PaletteFileName: Konsolas;
   --IsBright: 0;
   --IsDark: 1;
 }
