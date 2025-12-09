@@ -1,5 +1,5 @@
 :root {
-  --name: 'TokyoNight Storm';
+  --name: TokyoNight Storm;
   --black: #1d202f;
   --red: #f7768e;
   --green: #9ece6a;
@@ -22,8 +22,8 @@
   --selectionBackground: #364a82;
   --Luma: 0.158907;
   --Contrast: 0.637088;
-  --PaletteName: 'TokyoNight Storm';
-  --PaletteFileName: 'TokyoNight-Storm';
+  --PaletteName: TokyoNight Storm;
+  --PaletteFileName: TokyoNight-Storm;
   --IsBright: 0;
   --IsDark: 1;
 }
