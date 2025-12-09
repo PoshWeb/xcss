@@ -1,5 +1,5 @@
 :root {
-  --name: 'Front End Delight';
+  --name: Front End Delight;
   --black: #242526;
   --red: #f8511b;
   --green: #565747;
@@ -22,8 +22,8 @@
   --selectionBackground: #ea6154;
   --Luma: 0.109253;
   --Contrast: 0.569178;
-  --PaletteName: 'Front End Delight';
-  --PaletteFileName: 'Front-End-Delight';
+  --PaletteName: Front End Delight;
+  --PaletteFileName: Front-End-Delight;
   --IsBright: 0;
   --IsDark: 1;
 }
