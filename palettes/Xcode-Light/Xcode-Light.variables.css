@@ -1,5 +1,5 @@
 :root {
-  --name: 'Xcode Light';
+  --name: Xcode Light;
   --black: #b4d8fd;
   --red: #d12f1b;
   --green: #3e8087;
@@ -20,12 +20,12 @@
   --foreground: #262626;
   --cursorColor: #262626;
   --selectionBackground: #b4d8fd;
-  --creditTo: 'lunacookies';
-  --creditToLink: 'https://github.com/lunacookies';
+  --creditTo: lunacookies;
+  --creditToLink: https://github.com/lunacookies;
   --Luma: 1;
   --Contrast: 0.85098;
-  --PaletteName: 'Xcode Light';
-  --PaletteFileName: 'Xcode-Light';
+  --PaletteName: Xcode Light;
+  --PaletteFileName: Xcode-Light;
   --IsBright: 0;
   --IsDark: 1;
 }
