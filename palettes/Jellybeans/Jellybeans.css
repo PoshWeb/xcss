@@ -1,5 +1,5 @@
 :root {
-  --name: 'Jellybeans';
+  --name: Jellybeans;
   --black: #929292;
   --red: #e27373;
   --green: #94b979;
@@ -20,12 +20,12 @@
   --foreground: #dedede;
   --cursorColor: #ffa560;
   --selectionBackground: #474e91;
-  --creditTo: 'qtpi';
-  --creditToLink: 'https://github.com/qtpi';
+  --creditTo: qtpi;
+  --creditToLink: https://github.com/qtpi;
   --Luma: 0.070588;
   --Contrast: 0.8;
-  --PaletteName: 'Jellybeans';
-  --PaletteFileName: 'Jellybeans';
+  --PaletteName: Jellybeans;
+  --PaletteFileName: Jellybeans;
   --IsBright: 0;
   --IsDark: 1;
 }
