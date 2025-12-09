@@ -1,5 +1,5 @@
 :root {
-  --name: 'Fun Forrest';
+  --name: Fun Forrest;
   --black: #000000;
   --red: #d6262b;
   --green: #919c00;
@@ -22,8 +22,8 @@
   --selectionBackground: #e5591c;
   --Luma: 0.081333;
   --Contrast: 0.673659;
-  --PaletteName: 'Fun Forrest';
-  --PaletteFileName: 'Fun-Forrest';
+  --PaletteName: Fun Forrest;
+  --PaletteFileName: Fun-Forrest;
   --IsBright: 0;
   --IsDark: 1;
 }
