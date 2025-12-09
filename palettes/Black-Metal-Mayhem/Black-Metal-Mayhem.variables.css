@@ -1,5 +1,5 @@
 :root {
-  --name: 'Black Metal (Mayhem)';
+  --name: Black Metal (Mayhem);
   --black: #000000;
   --red: #5f8787;
   --green: #f3ecd4;
@@ -22,8 +22,8 @@
   --selectionBackground: #c1c1c1;
   --Luma: 0;
   --Contrast: 0.756863;
-  --PaletteName: 'Black Metal (Mayhem)';
-  --PaletteFileName: 'Black-Metal-Mayhem';
+  --PaletteName: Black Metal (Mayhem);
+  --PaletteFileName: Black-Metal-Mayhem;
   --IsBright: 0;
   --IsDark: 1;
 }
