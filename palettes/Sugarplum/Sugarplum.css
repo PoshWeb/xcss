@@ -1,5 +1,5 @@
 :root {
-  --name: 'Sugarplum';
+  --name: Sugarplum;
   --black: #111147;
   --red: #5ca8dc;
   --green: #53b397;
@@ -20,12 +20,12 @@
   --foreground: #db7ddd;
   --cursorColor: #53b397;
   --selectionBackground: #5ca8dc;
-  --creditTo: 'lemonlime0x3C33';
-  --creditToLink: 'https://github.com/lemonlime0x3C33';
+  --creditTo: lemonlime0x3C33;
+  --creditToLink: https://github.com/lemonlime0x3C33;
   --Luma: 0.081956;
   --Contrast: 0.513791;
-  --PaletteName: 'Sugarplum';
-  --PaletteFileName: 'Sugarplum';
+  --PaletteName: Sugarplum;
+  --PaletteFileName: Sugarplum;
   --IsBright: 0;
   --IsDark: 1;
 }
