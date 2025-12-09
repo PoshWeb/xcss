@@ -1,5 +1,5 @@
 :root {
-  --name: 'TokyoNight Moon';
+  --name: TokyoNight Moon;
   --black: #1b1d2b;
   --red: #ff757f;
   --green: #c3e88d;
@@ -22,8 +22,8 @@
   --selectionBackground: #2d3f76;
   --Luma: 0.144605;
   --Contrast: 0.683302;
-  --PaletteName: 'TokyoNight Moon';
-  --PaletteFileName: 'TokyoNight-Moon';
+  --PaletteName: TokyoNight Moon;
+  --PaletteFileName: TokyoNight-Moon;
   --IsBright: 0;
   --IsDark: 1;
 }
