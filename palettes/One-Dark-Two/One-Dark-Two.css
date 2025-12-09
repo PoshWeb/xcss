@@ -1,5 +1,5 @@
 :root {
-  --name: 'One Dark Two';
+  --name: One Dark Two;
   --black: #1d1f23;
   --red: #e27881;
   --green: #98c379;
@@ -20,12 +20,12 @@
   --foreground: #e6e6e6;
   --cursorColor: #e6e6e6;
   --selectionBackground: #393e47;
-  --creditTo: 'beatreichenbach';
-  --creditToLink: 'https://github.com/beatreichenbach';
+  --creditTo: beatreichenbach;
+  --creditToLink: https://github.com/beatreichenbach;
   --Luma: 0.143462;
   --Contrast: 0.758499;
-  --PaletteName: 'One Dark Two';
-  --PaletteFileName: 'One-Dark-Two';
+  --PaletteName: One Dark Two;
+  --PaletteFileName: One-Dark-Two;
   --IsBright: 0;
   --IsDark: 1;
 }
