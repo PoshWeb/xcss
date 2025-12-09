@@ -1,5 +1,5 @@
 :root {
-  --name: 'Duotone Dark';
+  --name: Duotone Dark;
   --black: #1f1d27;
   --red: #d9393e;
   --green: #2dcd73;
@@ -22,8 +22,8 @@
   --selectionBackground: #353147;
   --Luma: 0.118224;
   --Contrast: 0.558105;
-  --PaletteName: 'Duotone Dark';
-  --PaletteFileName: 'Duotone-Dark';
+  --PaletteName: Duotone Dark;
+  --PaletteFileName: Duotone-Dark;
   --IsBright: 0;
   --IsDark: 1;
 }
