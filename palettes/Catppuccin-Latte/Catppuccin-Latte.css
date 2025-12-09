@@ -1,5 +1,5 @@
 :root {
-  --name: 'Catppuccin Latte';
+  --name: Catppuccin Latte;
   --black: #5c5f77;
   --red: #d20f39;
   --green: #40a02b;
@@ -22,8 +22,8 @@
   --selectionBackground: #acb0be;
   --Luma: 0.944563;
   --Contrast: 0.629899;
-  --PaletteName: 'Catppuccin Latte';
-  --PaletteFileName: 'Catppuccin-Latte';
+  --PaletteName: Catppuccin Latte;
+  --PaletteFileName: Catppuccin-Latte;
   --IsBright: 0;
   --IsDark: 1;
 }
