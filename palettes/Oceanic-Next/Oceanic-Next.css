@@ -1,5 +1,5 @@
 :root {
-  --name: 'Oceanic Next';
+  --name: Oceanic Next;
   --black: #162c35;
   --red: #ec5f67;
   --green: #99c794;
@@ -20,12 +20,12 @@
   --foreground: #c0c5ce;
   --cursorColor: #c0c5ce;
   --selectionBackground: #4f5b66;
-  --creditTo: 'mhartington';
-  --creditToLink: 'https://github.com/mhartington';
+  --creditTo: mhartington;
+  --creditToLink: https://github.com/mhartington;
   --Luma: 0.156755;
   --Contrast: 0.614174;
-  --PaletteName: 'Oceanic Next';
-  --PaletteFileName: 'Oceanic-Next';
+  --PaletteName: Oceanic Next;
+  --PaletteFileName: Oceanic-Next;
   --IsBright: 0;
   --IsDark: 1;
 }
