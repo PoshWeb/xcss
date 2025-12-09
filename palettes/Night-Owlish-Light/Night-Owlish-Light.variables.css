@@ -1,5 +1,5 @@
 :root {
-  --name: 'Night Owlish Light';
+  --name: Night Owlish Light;
   --black: #011627;
   --red: #d3423e;
   --green: #2aa298;
@@ -20,12 +20,12 @@
   --foreground: #403f53;
   --cursorColor: #403f53;
   --selectionBackground: #f2f2f2;
-  --creditTo: 'praveenpuglia';
-  --creditToLink: 'https://github.com/praveenpuglia';
+  --creditTo: praveenpuglia;
+  --creditToLink: https://github.com/praveenpuglia;
   --Luma: 1;
   --Contrast: 0.746445;
-  --PaletteName: 'Night Owlish Light';
-  --PaletteFileName: 'Night-Owlish-Light';
+  --PaletteName: Night Owlish Light;
+  --PaletteFileName: Night-Owlish-Light;
   --IsBright: 0;
   --IsDark: 1;
 }
