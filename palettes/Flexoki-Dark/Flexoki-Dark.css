@@ -1,5 +1,5 @@
 :root {
-  --name: 'Flexoki Dark';
+  --name: Flexoki Dark;
   --black: #100f0f;
   --red: #d14d41;
   --green: #879a39;
@@ -22,8 +22,8 @@
   --selectionBackground: #403e3c;
   --Luma: 0.059657;
   --Contrast: 0.742267;
-  --PaletteName: 'Flexoki Dark';
-  --PaletteFileName: 'Flexoki-Dark';
+  --PaletteName: Flexoki Dark;
+  --PaletteFileName: Flexoki-Dark;
   --IsBright: 0;
   --IsDark: 1;
 }
