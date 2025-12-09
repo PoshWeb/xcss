@@ -1,5 +1,5 @@
 :root {
-  --name: 'Wryan';
+  --name: Wryan;
   --black: #333333;
   --red: #8c4665;
   --green: #287373;
@@ -20,12 +20,12 @@
   --foreground: #999993;
   --cursorColor: #9e9ecb;
   --selectionBackground: #4d4d4d;
-  --creditTo: 'baskerville';
-  --creditToLink: 'https://github.com/baskerville';
+  --creditTo: baskerville;
+  --creditToLink: https://github.com/baskerville;
   --Luma: 0.062745;
   --Contrast: 0.535556;
-  --PaletteName: 'Wryan';
-  --PaletteFileName: 'Wryan';
+  --PaletteName: Wryan;
+  --PaletteFileName: Wryan;
   --IsBright: 0;
   --IsDark: 1;
 }
