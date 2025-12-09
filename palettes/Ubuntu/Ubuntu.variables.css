@@ -1,5 +1,5 @@
 :root {
-  --name: 'Ubuntu';
+  --name: Ubuntu;
   --black: #2e3436;
   --red: #cc0000;
   --green: #4e9a06;
@@ -22,8 +22,8 @@
   --selectionBackground: #b5d5ff;
   --Luma: 0.078259;
   --Contrast: 0.854508;
-  --PaletteName: 'Ubuntu';
-  --PaletteFileName: 'Ubuntu';
+  --PaletteName: Ubuntu;
+  --PaletteFileName: Ubuntu;
   --IsBright: 0;
   --IsDark: 1;
 }
