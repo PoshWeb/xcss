@@ -1,5 +1,5 @@
 :root {
-  --name: 'Cobalt Neon';
+  --name: Cobalt Neon;
   --black: #142631;
   --red: #ff2320;
   --green: #3ba5ff;
@@ -20,12 +20,12 @@
   --foreground: #8ff586;
   --cursorColor: #c4206f;
   --selectionBackground: #094fb1;
-  --creditTo: 'vazquez';
-  --creditToLink: 'https://github.com/vazquez';
+  --creditTo: vazquez;
+  --creditToLink: https://github.com/vazquez;
   --Luma: 0.144718;
   --Contrast: 0.699598;
-  --PaletteName: 'Cobalt Neon';
-  --PaletteFileName: 'Cobalt-Neon';
+  --PaletteName: Cobalt Neon;
+  --PaletteFileName: Cobalt-Neon;
   --IsBright: 0;
   --IsDark: 1;
 }
