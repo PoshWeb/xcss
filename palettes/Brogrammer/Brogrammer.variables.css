@@ -1,5 +1,5 @@
 :root {
-  --name: 'Brogrammer';
+  --name: Brogrammer;
   --black: #1f1f1f;
   --red: #f81118;
   --green: #2dc55e;
@@ -20,12 +20,12 @@
   --foreground: #d6dbe5;
   --cursorColor: #b9b9b9;
   --selectionBackground: #1f1f1f;
-  --creditTo: 'bahlo';
-  --creditToLink: 'https://github.com/bahlo';
+  --creditTo: bahlo;
+  --creditToLink: https://github.com/bahlo;
   --Luma: 0.07451;
   --Contrast: 0.782976;
-  --PaletteName: 'Brogrammer';
-  --PaletteFileName: 'Brogrammer';
+  --PaletteName: Brogrammer;
+  --PaletteFileName: Brogrammer;
   --IsBright: 0;
   --IsDark: 1;
 }
