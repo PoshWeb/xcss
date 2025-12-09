@@ -1,5 +1,5 @@
 :root {
-  --name: 'Sonokai';
+  --name: Sonokai;
   --black: #181819;
   --red: #fc5d7c;
   --green: #9ed072;
@@ -20,12 +20,12 @@
   --foreground: #e2e2e3;
   --cursorColor: #e2e2e3;
   --selectionBackground: #414550;
-  --creditTo: 'sainnhe';
-  --creditToLink: 'https://github.com/sainnhe';
+  --creditTo: sainnhe;
+  --creditToLink: https://github.com/sainnhe;
   --Luma: 0.180424;
   --Contrast: 0.706134;
-  --PaletteName: 'Sonokai';
-  --PaletteFileName: 'Sonokai';
+  --PaletteName: Sonokai;
+  --PaletteFileName: Sonokai;
   --IsBright: 0;
   --IsDark: 1;
 }
