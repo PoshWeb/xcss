@@ -1,5 +1,5 @@
 :root {
-  --name: 'Raycast Dark';
+  --name: Raycast Dark;
   --black: #000000;
   --red: #ff5360;
   --green: #59d499;
@@ -22,8 +22,8 @@
   --selectionBackground: #333333;
   --Luma: 0.101961;
   --Contrast: 0.898039;
-  --PaletteName: 'Raycast Dark';
-  --PaletteFileName: 'Raycast-Dark';
+  --PaletteName: Raycast Dark;
+  --PaletteFileName: Raycast-Dark;
   --IsBright: 0;
   --IsDark: 1;
 }
