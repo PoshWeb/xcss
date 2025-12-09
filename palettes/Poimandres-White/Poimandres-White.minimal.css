@@ -1,5 +1,5 @@
 :root {
-  --name: 'Poimandres White';
+  --name: Poimandres White;
   --black: #fefeff;
   --red: #ff2090;
   --green: #01dab2;
@@ -22,8 +22,8 @@
   --selectionBackground: #969cbd;
   --Luma: 0.996362;
   --Contrast: 0.380256;
-  --PaletteName: 'Poimandres White';
-  --PaletteFileName: 'Poimandres-White';
+  --PaletteName: Poimandres White;
+  --PaletteFileName: Poimandres-White;
   --IsBright: 0;
   --IsDark: 1;
 }
