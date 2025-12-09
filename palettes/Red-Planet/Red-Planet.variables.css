@@ -1,5 +1,5 @@
 :root {
-  --name: 'Red Planet';
+  --name: Red Planet;
   --black: #202020;
   --red: #8c3432;
   --green: #728271;
@@ -20,12 +20,12 @@
   --foreground: #c2b790;
   --cursorColor: #c2b790;
   --selectionBackground: #1b324a;
-  --creditTo: 'ibrokemypie';
-  --creditToLink: 'https://github.com/ibrokemypie';
+  --creditTo: ibrokemypie;
+  --creditToLink: https://github.com/ibrokemypie;
   --Luma: 0.133333;
   --Contrast: 0.582443;
-  --PaletteName: 'Red Planet';
-  --PaletteFileName: 'Red-Planet';
+  --PaletteName: Red Planet;
+  --PaletteFileName: Red-Planet;
   --IsBright: 0;
   --IsDark: 1;
 }
