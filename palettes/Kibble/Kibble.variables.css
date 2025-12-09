@@ -1,5 +1,5 @@
 :root {
-  --name: 'Kibble';
+  --name: Kibble;
   --black: #4d4d4d;
   --red: #c70031;
   --green: #29cf13;
@@ -22,8 +22,8 @@
   --selectionBackground: #9ba787;
   --Luma: 0.059379;
   --Contrast: 0.909248;
-  --PaletteName: 'Kibble';
-  --PaletteFileName: 'Kibble';
+  --PaletteName: Kibble;
+  --PaletteFileName: Kibble;
   --IsBright: 0;
   --IsDark: 1;
 }
