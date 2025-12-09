@@ -1,5 +1,5 @@
 :root {
-  --name: 'Phala Green Dark';
+  --name: Phala Green Dark;
   --black: #000000;
   --red: #ab1500;
   --green: #00b100;
@@ -20,12 +20,12 @@
   --foreground: #c1fc03;
   --cursorColor: #c1fc03;
   --selectionBackground: #014804;
-  --creditTo: 'h4x3rotab';
-  --creditToLink: 'https://github.com/h4x3rotab';
+  --creditTo: h4x3rotab;
+  --creditToLink: https://github.com/h4x3rotab;
   --Luma: 0;
   --Contrast: 0.868544;
-  --PaletteName: 'Phala Green Dark';
-  --PaletteFileName: 'Phala-Green-Dark';
+  --PaletteName: Phala Green Dark;
+  --PaletteFileName: Phala-Green-Dark;
   --IsBright: 0;
   --IsDark: 1;
 }
