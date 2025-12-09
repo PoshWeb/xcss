@@ -1,5 +1,5 @@
 :root {
-  --name: 'Liquid Carbon';
+  --name: Liquid Carbon;
   --black: #000000;
   --red: #ff3030;
   --green: #559a70;
@@ -22,8 +22,8 @@
   --selectionBackground: #7dbeff;
   --Luma: 0.188235;
   --Contrast: 0.556709;
-  --PaletteName: 'Liquid Carbon';
-  --PaletteFileName: 'Liquid-Carbon';
+  --PaletteName: Liquid Carbon;
+  --PaletteFileName: Liquid-Carbon;
   --IsBright: 0;
   --IsDark: 1;
 }
