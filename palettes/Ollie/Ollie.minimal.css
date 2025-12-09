@@ -1,5 +1,5 @@
 :root {
-  --name: 'Ollie';
+  --name: Ollie;
   --black: #000000;
   --red: #ac2e31;
   --green: #31ac61;
@@ -20,12 +20,12 @@
   --foreground: #8a8dae;
   --cursorColor: #5b6ea7;
   --selectionBackground: #1e3a66;
-  --creditTo: 'zdj';
-  --creditToLink: 'https://github.com/zdj';
+  --creditTo: zdj;
+  --creditToLink: https://github.com/zdj;
   --Luma: 0.131378;
   --Contrast: 0.428406;
-  --PaletteName: 'Ollie';
-  --PaletteFileName: 'Ollie';
+  --PaletteName: Ollie;
+  --PaletteFileName: Ollie;
   --IsBright: 0;
   --IsDark: 1;
 }
