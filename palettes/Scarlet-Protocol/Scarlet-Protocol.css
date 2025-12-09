@@ -1,5 +1,5 @@
 :root {
-  --name: 'Scarlet Protocol';
+  --name: Scarlet Protocol;
   --black: #101116;
   --red: #ff0051;
   --green: #00dc84;
@@ -20,12 +20,12 @@
   --foreground: #e41951;
   --cursorColor: #76ff9f;
   --selectionBackground: #c1deff;
-  --creditTo: 'ReagentX';
-  --creditToLink: 'https://github.com/ReagentX';
+  --creditTo: ReagentX;
+  --creditToLink: https://github.com/ReagentX;
   --Luma: 0.099515;
   --Contrast: 0.183626;
-  --PaletteName: 'Scarlet Protocol';
-  --PaletteFileName: 'Scarlet-Protocol';
+  --PaletteName: Scarlet Protocol;
+  --PaletteFileName: Scarlet-Protocol;
   --IsBright: 0;
   --IsDark: 1;
 }
