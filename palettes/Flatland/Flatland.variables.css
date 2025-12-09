@@ -1,5 +1,5 @@
 :root {
-  --name: 'Flatland';
+  --name: Flatland;
   --black: #1d1d19;
   --red: #f18339;
   --green: #9fd364;
@@ -22,8 +22,8 @@
   --selectionBackground: #2b2a24;
   --Luma: 0.120467;
   --Contrast: 0.714839;
-  --PaletteName: 'Flatland';
-  --PaletteFileName: 'Flatland';
+  --PaletteName: Flatland;
+  --PaletteFileName: Flatland;
   --IsBright: 0;
   --IsDark: 1;
 }
