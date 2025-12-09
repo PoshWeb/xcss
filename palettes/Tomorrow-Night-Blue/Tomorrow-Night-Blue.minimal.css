@@ -1,5 +1,5 @@
 :root {
-  --name: 'Tomorrow Night Blue';
+  --name: Tomorrow Night Blue;
   --black: #000000;
   --red: #ff9da4;
   --green: #d1f1a9;
@@ -22,8 +22,8 @@
   --selectionBackground: #003f8e;
   --Luma: 0.123904;
   --Contrast: 0.876096;
-  --PaletteName: 'Tomorrow Night Blue';
-  --PaletteFileName: 'Tomorrow-Night-Blue';
+  --PaletteName: Tomorrow Night Blue;
+  --PaletteFileName: Tomorrow-Night-Blue;
   --IsBright: 0;
   --IsDark: 1;
 }
