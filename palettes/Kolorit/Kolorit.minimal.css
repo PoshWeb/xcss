@@ -1,5 +1,5 @@
 :root {
-  --name: 'Kolorit';
+  --name: Kolorit;
   --black: #1d1a1e;
   --red: #ff5b82;
   --green: #47d7a1;
@@ -20,12 +20,12 @@
   --foreground: #efecec;
   --cursorColor: #c7c7c7;
   --selectionBackground: #e1925c;
-  --creditTo: 'thomaspaulmann';
-  --creditToLink: 'https://github.com/thomaspaulmann';
+  --creditTo: thomaspaulmann;
+  --creditToLink: https://github.com/thomaspaulmann;
   --Luma: 0.105595;
   --Contrast: 0.822396;
-  --PaletteName: 'Kolorit';
-  --PaletteFileName: 'Kolorit';
+  --PaletteName: Kolorit;
+  --PaletteFileName: Kolorit;
   --IsBright: 0;
   --IsDark: 1;
 }
