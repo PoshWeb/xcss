@@ -1,5 +1,5 @@
 :root {
-  --name: 'Crayon Pony Fish';
+  --name: Crayon Pony Fish;
   --black: #2b1b1d;
   --red: #91002b;
   --green: #579524;
@@ -22,8 +22,8 @@
   --selectionBackground: #2b1b1d;
   --Luma: 0.039123;
   --Contrast: 0.303053;
-  --PaletteName: 'Crayon Pony Fish';
-  --PaletteFileName: 'Crayon-Pony-Fish';
+  --PaletteName: Crayon Pony Fish;
+  --PaletteFileName: Crayon-Pony-Fish;
   --IsBright: 0;
   --IsDark: 1;
 }
