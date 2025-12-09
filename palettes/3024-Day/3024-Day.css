@@ -1,5 +1,5 @@
 :root {
-  --name: '3024 Day';
+  --name: 3024 Day;
   --black: #090300;
   --red: #db2d20;
   --green: #01a252;
@@ -20,12 +20,12 @@
   --foreground: #4a4543;
   --cursorColor: #4a4543;
   --selectionBackground: #a5a2a2;
-  --creditTo: '0x3024';
-  --creditToLink: 'https://github.com/0x3024';
+  --creditTo: 0x3024;
+  --creditToLink: https://github.com/0x3024;
   --Luma: 0.968627;
   --Contrast: 0.694436;
-  --PaletteName: '3024 Day';
-  --PaletteFileName: '3024-Day';
+  --PaletteName: 3024 Day;
+  --PaletteFileName: 3024-Day;
   --IsBright: 0;
   --IsDark: 1;
 }
