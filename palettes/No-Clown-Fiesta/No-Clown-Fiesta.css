@@ -1,5 +1,5 @@
 :root {
-  --name: 'No Clown Fiesta';
+  --name: No Clown Fiesta;
   --black: #151515;
   --red: #b46958;
   --green: #90a959;
@@ -22,8 +22,8 @@
   --selectionBackground: #696d79;
   --Luma: 0.062745;
   --Contrast: 0.819624;
-  --PaletteName: 'No Clown Fiesta';
-  --PaletteFileName: 'No-Clown-Fiesta';
+  --PaletteName: No Clown Fiesta;
+  --PaletteFileName: No-Clown-Fiesta;
   --IsBright: 0;
   --IsDark: 1;
 }
