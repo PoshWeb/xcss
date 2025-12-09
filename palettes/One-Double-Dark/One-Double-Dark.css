@@ -1,5 +1,5 @@
 :root {
-  --name: 'One Double Dark';
+  --name: One Double Dark;
   --black: #3d4452;
   --red: #f16372;
   --green: #8cc570;
@@ -20,12 +20,12 @@
   --foreground: #dbdfe5;
   --cursorColor: #f5e0dc;
   --selectionBackground: #585b70;
-  --creditTo: 'pamburus';
-  --creditToLink: 'https://github.com/pamburus';
+  --creditTo: pamburus;
+  --creditToLink: https://github.com/pamburus;
   --Luma: 0.171479;
   --Contrast: 0.701395;
-  --PaletteName: 'One Double Dark';
-  --PaletteFileName: 'One-Double-Dark';
+  --PaletteName: One Double Dark;
+  --PaletteFileName: One-Double-Dark;
   --IsBright: 0;
   --IsDark: 1;
 }
