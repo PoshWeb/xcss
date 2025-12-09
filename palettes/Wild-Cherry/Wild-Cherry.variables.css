@@ -1,5 +1,5 @@
 :root {
-  --name: 'Wild Cherry';
+  --name: Wild Cherry;
   --black: #000507;
   --red: #d94085;
   --green: #2ab250;
@@ -22,8 +22,8 @@
   --selectionBackground: #002831;
   --Luma: 0.101113;
   --Contrast: 0.854016;
-  --PaletteName: 'Wild Cherry';
-  --PaletteFileName: 'Wild-Cherry';
+  --PaletteName: Wild Cherry;
+  --PaletteFileName: Wild-Cherry;
   --IsBright: 0;
   --IsDark: 1;
 }
