@@ -1,5 +1,5 @@
 :root {
-  --name: 'Spring';
+  --name: Spring;
   --black: #000000;
   --red: #ff4d83;
   --green: #1f8c3b;
@@ -20,12 +20,12 @@
   --foreground: #4d4d4c;
   --cursorColor: #4d4d4c;
   --selectionBackground: #d6d6d6;
-  --creditTo: 't3chnoboy';
-  --creditToLink: 'https://github.com/t3chnoboy';
+  --creditTo: t3chnoboy;
+  --creditToLink: https://github.com/t3chnoboy;
   --Luma: 1;
   --Contrast: 0.698322;
-  --PaletteName: 'Spring';
-  --PaletteFileName: 'Spring';
+  --PaletteName: Spring;
+  --PaletteFileName: Spring;
   --IsBright: 0;
   --IsDark: 1;
 }
