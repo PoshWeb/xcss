@@ -1,5 +1,5 @@
 :root {
-  --name: 'Abernathy';
+  --name: Abernathy;
   --black: #000000;
   --red: #cd0000;
   --green: #00cd00;
@@ -22,8 +22,8 @@
   --selectionBackground: #eeeeec;
   --Luma: 0.076496;
   --Contrast: 0.856271;
-  --PaletteName: 'Abernathy';
-  --PaletteFileName: 'Abernathy';
+  --PaletteName: Abernathy;
+  --PaletteFileName: Abernathy;
   --IsBright: 0;
   --IsDark: 1;
 }
