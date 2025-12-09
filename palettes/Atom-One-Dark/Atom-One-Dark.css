@@ -1,5 +1,5 @@
 :root {
-  --name: 'Atom One Dark';
+  --name: Atom One Dark;
   --black: #21252b;
   --red: #e06c75;
   --green: #98c379;
@@ -22,8 +22,8 @@
   --selectionBackground: #323844;
   --Luma: 0.143462;
   --Contrast: 0.552422;
-  --PaletteName: 'Atom One Dark';
-  --PaletteFileName: 'Atom-One-Dark';
+  --PaletteName: Atom One Dark;
+  --PaletteFileName: Atom-One-Dark;
   --IsBright: 0;
   --IsDark: 1;
 }
