@@ -1,5 +1,5 @@
 :root {
-  --name: 'IBM 5153 CGA';
+  --name: IBM 5153 CGA;
   --black: #141414;
   --red: #d03333;
   --green: #1bd01b;
@@ -22,8 +22,8 @@
   --selectionBackground: #cecece;
   --Luma: 0.078431;
   --Contrast: 0.729412;
-  --PaletteName: 'IBM 5153 CGA';
-  --PaletteFileName: 'IBM-5153-CGA';
+  --PaletteName: IBM 5153 CGA;
+  --PaletteFileName: IBM-5153-CGA;
   --IsBright: 0;
   --IsDark: 1;
 }
