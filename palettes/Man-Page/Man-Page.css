@@ -1,5 +1,5 @@
 :root {
-  --name: 'Man Page';
+  --name: Man Page;
   --black: #000000;
   --red: #cc0000;
   --green: #00a600;
@@ -22,8 +22,8 @@
   --selectionBackground: #a4c9cd;
   --Luma: 0.940284;
   --Contrast: 0.940284;
-  --PaletteName: 'Man Page';
-  --PaletteFileName: 'Man-Page';
+  --PaletteName: Man Page;
+  --PaletteFileName: Man-Page;
   --IsBright: 0;
   --IsDark: 1;
 }
