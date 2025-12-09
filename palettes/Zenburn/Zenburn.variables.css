@@ -1,5 +1,5 @@
 :root {
-  --name: 'Zenburn';
+  --name: Zenburn;
   --black: #4d4d4d;
   --red: #7d5d5d;
   --green: #60b48a;
@@ -22,8 +22,8 @@
   --selectionBackground: #21322f;
   --Luma: 0.247059;
   --Contrast: 0.611156;
-  --PaletteName: 'Zenburn';
-  --PaletteFileName: 'Zenburn';
+  --PaletteName: Zenburn;
+  --PaletteFileName: Zenburn;
   --IsBright: 0;
   --IsDark: 1;
 }
