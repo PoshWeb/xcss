@@ -1,5 +1,5 @@
 :root {
-  --name: 'Deep';
+  --name: Deep;
   --black: #000000;
   --red: #d70005;
   --green: #1cd915;
@@ -20,12 +20,12 @@
   --foreground: #cdcdcd;
   --cursorColor: #d0d0d0;
   --selectionBackground: #780002;
-  --creditTo: 'challenger-deep-theme';
-  --creditToLink: 'https://github.com/challenger-deep-theme';
+  --creditTo: challenger-deep-theme;
+  --creditToLink: https://github.com/challenger-deep-theme;
   --Luma: 0.035294;
   --Contrast: 0.768628;
-  --PaletteName: 'Deep';
-  --PaletteFileName: 'Deep';
+  --PaletteName: Deep;
+  --PaletteFileName: Deep;
   --IsBright: 0;
   --IsDark: 1;
 }
