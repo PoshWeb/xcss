@@ -1,5 +1,5 @@
 :root {
-  --name: 'Slate';
+  --name: Slate;
   --black: #222222;
   --red: #e2a8bf;
   --green: #81d778;
@@ -20,12 +20,12 @@
   --foreground: #35b1d2;
   --cursorColor: #87d3c4;
   --selectionBackground: #0f3754;
-  --creditTo: 'deneshshan';
-  --creditToLink: 'https://github.com/deneshshan';
+  --creditTo: deneshshan;
+  --creditToLink: https://github.com/deneshshan;
   --Luma: 0.133333;
   --Contrast: 0.466746;
-  --PaletteName: 'Slate';
-  --PaletteFileName: 'Slate';
+  --PaletteName: Slate;
+  --PaletteFileName: Slate;
   --IsBright: 0;
   --IsDark: 1;
 }
