@@ -1,5 +1,5 @@
 :root {
-  --name: 'Everforest Light Med';
+  --name: Everforest Light Med;
   --black: #7a8478;
   --red: #e67e80;
   --green: #9ab373;
@@ -22,8 +22,8 @@
   --selectionBackground: #eaedc8;
   --Luma: 0.918391;
   --Contrast: 0.512112;
-  --PaletteName: 'Everforest Light Med';
-  --PaletteFileName: 'Everforest-Light-Med';
+  --PaletteName: Everforest Light Med;
+  --PaletteFileName: Everforest-Light-Med;
   --IsBright: 0;
   --IsDark: 1;
 }
