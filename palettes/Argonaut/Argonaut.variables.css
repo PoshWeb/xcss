@@ -1,5 +1,5 @@
 :root {
-  --name: 'Argonaut';
+  --name: Argonaut;
   --black: #232323;
   --red: #ff000f;
   --green: #8ce10b;
@@ -20,12 +20,12 @@
   --foreground: #fffaf4;
   --cursorColor: #ff0018;
   --selectionBackground: #002a3b;
-  --creditTo: 'effkay';
-  --creditToLink: 'https://github.com/effkay';
+  --creditTo: effkay;
+  --creditToLink: https://github.com/effkay;
   --Luma: 0.063626;
   --Contrast: 0.919236;
-  --PaletteName: 'Argonaut';
-  --PaletteFileName: 'Argonaut';
+  --PaletteName: Argonaut;
+  --PaletteFileName: Argonaut;
   --IsBright: 0;
   --IsDark: 1;
 }
