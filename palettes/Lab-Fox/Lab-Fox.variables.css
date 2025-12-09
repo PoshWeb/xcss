@@ -1,5 +1,5 @@
 :root {
-  --name: 'Lab Fox';
+  --name: Lab Fox;
   --black: #2e2e2e;
   --red: #fc6d26;
   --green: #3eb383;
@@ -20,12 +20,12 @@
   --foreground: #ffffff;
   --cursorColor: #7f7f7f;
   --selectionBackground: #cb392e;
-  --creditTo: 'theatlasroom';
-  --creditToLink: 'https://github.com/theatlasroom';
+  --creditTo: theatlasroom;
+  --creditToLink: https://github.com/theatlasroom;
   --Luma: 0.180392;
   --Contrast: 0.819608;
-  --PaletteName: 'Lab Fox';
-  --PaletteFileName: 'Lab-Fox';
+  --PaletteName: Lab Fox;
+  --PaletteFileName: Lab-Fox;
   --IsBright: 0;
   --IsDark: 1;
 }
