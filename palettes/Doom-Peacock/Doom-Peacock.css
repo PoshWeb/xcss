@@ -1,5 +1,5 @@
 :root {
-  --name: 'Doom Peacock';
+  --name: Doom Peacock;
   --black: #1c1f24;
   --red: #cb4b16;
   --green: #26a6a6;
@@ -20,12 +20,12 @@
   --foreground: #ede0ce;
   --cursorColor: #9c9c9d;
   --selectionBackground: #a60033;
-  --creditTo: 'hlissner';
-  --creditToLink: 'https://github.com/hlissner';
+  --creditTo: hlissner;
+  --creditToLink: https://github.com/hlissner;
   --Luma: 0.16469;
   --Contrast: 0.719483;
-  --PaletteName: 'Doom Peacock';
-  --PaletteFileName: 'Doom-Peacock';
+  --PaletteName: Doom Peacock;
+  --PaletteFileName: Doom-Peacock;
   --IsBright: 0;
   --IsDark: 1;
 }
