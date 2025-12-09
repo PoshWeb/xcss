@@ -1,5 +1,5 @@
 :root {
-  --name: 'Farmhouse Dark';
+  --name: Farmhouse Dark;
   --black: #1d2027;
   --red: #ba0004;
   --green: #549d00;
@@ -22,8 +22,8 @@
   --selectionBackground: #4d5658;
   --Luma: 0.124971;
   --Contrast: 0.771632;
-  --PaletteName: 'Farmhouse Dark';
-  --PaletteFileName: 'Farmhouse-Dark';
+  --PaletteName: Farmhouse Dark;
+  --PaletteFileName: Farmhouse-Dark;
   --IsBright: 0;
   --IsDark: 1;
 }
