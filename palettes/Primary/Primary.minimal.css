@@ -1,5 +1,5 @@
 :root {
-  --name: 'Primary';
+  --name: Primary;
   --black: #000000;
   --red: #db4437;
   --green: #0f9d58;
@@ -20,12 +20,12 @@
   --foreground: #000000;
   --cursorColor: #000000;
   --selectionBackground: #656565;
-  --creditTo: 'jayanthkoushik';
-  --creditToLink: 'https://github.com/jayanthkoushik';
+  --creditTo: jayanthkoushik;
+  --creditToLink: https://github.com/jayanthkoushik;
   --Luma: 1;
   --Contrast: 1;
-  --PaletteName: 'Primary';
-  --PaletteFileName: 'Primary';
+  --PaletteName: Primary;
+  --PaletteFileName: Primary;
   --IsBright: 0;
   --IsDark: 1;
 }
