@@ -1,5 +1,5 @@
 :root {
-  --name: 'Birds Of Paradise';
+  --name: Birds Of Paradise;
   --black: #573d26;
   --red: #be2d26;
   --green: #6ba18a;
@@ -22,8 +22,8 @@
   --selectionBackground: #563c27;
   --Luma: 0.130173;
   --Contrast: 0.722626;
-  --PaletteName: 'Birds Of Paradise';
-  --PaletteFileName: 'Birds-Of-Paradise';
+  --PaletteName: Birds Of Paradise;
+  --PaletteFileName: Birds-Of-Paradise;
   --IsBright: 0;
   --IsDark: 1;
 }
