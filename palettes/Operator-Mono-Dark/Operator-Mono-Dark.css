@@ -1,5 +1,5 @@
 :root {
-  --name: 'Operator Mono Dark';
+  --name: Operator Mono Dark;
   --black: #5a5a5a;
   --red: #ca372d;
   --green: #4d7b3a;
@@ -20,12 +20,12 @@
   --foreground: #c3cac2;
   --cursorColor: #fcdc08;
   --selectionBackground: #19273b;
-  --creditTo: 'vharadkou';
-  --creditToLink: 'https://github.com/vharadkou';
+  --creditTo: vharadkou;
+  --creditToLink: https://github.com/vharadkou;
   --Luma: 0.098039;
   --Contrast: 0.686017;
-  --PaletteName: 'Operator Mono Dark';
-  --PaletteFileName: 'Operator-Mono-Dark';
+  --PaletteName: Operator Mono Dark;
+  --PaletteFileName: Operator-Mono-Dark;
   --IsBright: 0;
   --IsDark: 1;
 }
