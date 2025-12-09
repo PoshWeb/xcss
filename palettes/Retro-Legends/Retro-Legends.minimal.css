@@ -1,5 +1,5 @@
 :root {
-  --name: 'Retro Legends';
+  --name: Retro Legends;
   --black: #262626;
   --red: #de5454;
   --green: #45eb45;
@@ -22,8 +22,8 @@
   --selectionBackground: #336633;
   --Luma: 0.05098;
   --Contrast: 0.685189;
-  --PaletteName: 'Retro Legends';
-  --PaletteFileName: 'Retro-Legends';
+  --PaletteName: Retro Legends;
+  --PaletteFileName: Retro-Legends;
   --IsBright: 0;
   --IsDark: 1;
 }
