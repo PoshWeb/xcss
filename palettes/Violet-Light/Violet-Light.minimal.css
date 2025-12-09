@@ -1,5 +1,5 @@
 :root {
-  --name: 'Violet Light';
+  --name: Violet Light;
   --black: #56595c;
   --red: #c94c22;
   --green: #85981c;
@@ -22,8 +22,8 @@
   --selectionBackground: #595ab7;
   --Luma: 0.956737;
   --Contrast: 0.564137;
-  --PaletteName: 'Violet Light';
-  --PaletteFileName: 'Violet-Light';
+  --PaletteName: Violet Light;
+  --PaletteFileName: Violet-Light;
   --IsBright: 0;
   --IsDark: 1;
 }
