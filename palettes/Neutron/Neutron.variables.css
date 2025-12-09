@@ -1,5 +1,5 @@
 :root {
-  --name: 'Neutron';
+  --name: Neutron;
   --black: #23252b;
   --red: #b54036;
   --green: #5ab977;
@@ -20,12 +20,12 @@
   --foreground: #e6e8ef;
   --cursorColor: #f6f7ec;
   --selectionBackground: #2f363e;
-  --creditTo: 'Ch4s3';
-  --creditToLink: 'https://github.com/Ch4s3';
+  --creditTo: Ch4s3;
+  --creditToLink: https://github.com/Ch4s3;
   --Luma: 0.117112;
   --Contrast: 0.793006;
-  --PaletteName: 'Neutron';
-  --PaletteFileName: 'Neutron';
+  --PaletteName: Neutron;
+  --PaletteFileName: Neutron;
   --IsBright: 0;
   --IsDark: 1;
 }
