@@ -1,5 +1,5 @@
 :root {
-  --name: 'C64';
+  --name: C64;
   --black: #090300;
   --red: #a2524c;
   --green: #55a049;
@@ -20,12 +20,12 @@
   --foreground: #7869c4;
   --cursorColor: #7869c4;
   --selectionBackground: #7869c4;
-  --creditTo: 'idleberg';
-  --creditToLink: 'https://github.com/idleberg';
+  --creditTo: idleberg;
+  --creditToLink: https://github.com/idleberg;
   --Luma: 0.230711;
   --Contrast: 0.219325;
-  --PaletteName: 'C64';
-  --PaletteFileName: 'C64';
+  --PaletteName: C64;
+  --PaletteFileName: C64;
   --IsBright: 0;
   --IsDark: 1;
 }
