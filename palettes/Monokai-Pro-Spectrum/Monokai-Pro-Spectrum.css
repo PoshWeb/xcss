@@ -1,5 +1,5 @@
 :root {
-  --name: 'Monokai Pro Spectrum';
+  --name: Monokai Pro Spectrum;
   --black: #222222;
   --red: #fc618d;
   --green: #7bd88f;
@@ -22,8 +22,8 @@
   --selectionBackground: #525053;
   --Luma: 0.133333;
   --Contrast: 0.820731;
-  --PaletteName: 'Monokai Pro Spectrum';
-  --PaletteFileName: 'Monokai-Pro-Spectrum';
+  --PaletteName: Monokai Pro Spectrum;
+  --PaletteFileName: Monokai-Pro-Spectrum;
   --IsBright: 0;
   --IsDark: 1;
 }
