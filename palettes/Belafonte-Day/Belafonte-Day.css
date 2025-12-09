@@ -1,5 +1,5 @@
 :root {
-  --name: 'Belafonte Day';
+  --name: Belafonte Day;
   --black: #20111b;
   --red: #be100e;
   --green: #858162;
@@ -20,12 +20,12 @@
   --foreground: #45373c;
   --cursorColor: #45373c;
   --selectionBackground: #968c83;
-  --creditTo: 'idleberg';
-  --creditToLink: 'https://github.com/idleberg';
+  --creditTo: idleberg;
+  --creditToLink: https://github.com/idleberg;
   --Luma: 0.802407;
   --Contrast: 0.573633;
-  --PaletteName: 'Belafonte Day';
-  --PaletteFileName: 'Belafonte-Day';
+  --PaletteName: Belafonte Day;
+  --PaletteFileName: Belafonte-Day;
   --IsBright: 0;
   --IsDark: 1;
 }
