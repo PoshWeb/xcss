@@ -1,5 +1,5 @@
 :root {
-  --name: 'Vague';
+  --name: Vague;
   --black: #252530;
   --red: #d8647e;
   --green: #7fa563;
@@ -20,12 +20,12 @@
   --foreground: #cdcdcd;
   --cursorColor: #cdcdcd;
   --selectionBackground: #252530;
-  --creditTo: 'vague2k';
-  --creditToLink: 'https://github.com/vague2k';
+  --creditTo: vague2k;
+  --creditToLink: https://github.com/vague2k;
   --Luma: 0.078715;
   --Contrast: 0.725207;
-  --PaletteName: 'Vague';
-  --PaletteFileName: 'Vague';
+  --PaletteName: Vague;
+  --PaletteFileName: Vague;
   --IsBright: 0;
   --IsDark: 1;
 }
