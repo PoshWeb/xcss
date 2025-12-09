@@ -1,5 +1,5 @@
 :root {
-  --name: 'Ayu Light';
+  --name: Ayu Light;
   --black: #000000;
   --red: #ea6c6d;
   --green: #6cbf43;
@@ -20,12 +20,12 @@
   --foreground: #5c6166;
   --cursorColor: #ffaa33;
   --selectionBackground: #035bd6;
-  --creditTo: 'alebcay';
-  --creditToLink: 'https://github.com/alebcay';
+  --creditTo: alebcay;
+  --creditToLink: https://github.com/alebcay;
   --Luma: 0.97592;
   --Contrast: 0.598281;
-  --PaletteName: 'Ayu Light';
-  --PaletteFileName: 'Ayu-Light';
+  --PaletteName: Ayu Light;
+  --PaletteFileName: Ayu-Light;
   --IsBright: 0;
   --IsDark: 1;
 }
