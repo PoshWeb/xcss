@@ -1,5 +1,5 @@
 :root {
-  --name: 'Snazzy';
+  --name: Snazzy;
   --black: #000000;
   --red: #fc4346;
   --green: #50fb7c;
@@ -20,12 +20,12 @@
   --foreground: #ebece6;
   --cursorColor: #e4e4e4;
   --selectionBackground: #81aec6;
-  --creditTo: 'liby';
-  --creditToLink: 'https://github.com/liby';
+  --creditTo: liby;
+  --creditToLink: https://github.com/liby;
   --Luma: 0.123566;
   --Contrast: 0.799392;
-  --PaletteName: 'Snazzy';
-  --PaletteFileName: 'Snazzy';
+  --PaletteName: Snazzy;
+  --PaletteFileName: Snazzy;
   --IsBright: 0;
   --IsDark: 1;
 }
