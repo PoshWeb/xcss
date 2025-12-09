@@ -1,5 +1,5 @@
 :root {
-  --name: 'Zenbones Light';
+  --name: Zenbones Light;
   --black: #f0edec;
   --red: #a8334c;
   --green: #4f6c31;
@@ -22,8 +22,8 @@
   --selectionBackground: #cbd9e3;
   --Luma: 0.93163;
   --Contrast: 0.726504;
-  --PaletteName: 'Zenbones Light';
-  --PaletteFileName: 'Zenbones-Light';
+  --PaletteName: Zenbones Light;
+  --PaletteFileName: Zenbones-Light;
   --IsBright: 0;
   --IsDark: 1;
 }
