@@ -1,5 +1,5 @@
 :root {
-  --name: 'Chester';
+  --name: Chester;
   --black: #080200;
   --red: #fa5e5b;
   --green: #16c98d;
@@ -20,11 +20,11 @@
   --foreground: #ffffff;
   --cursorColor: #b4b1b1;
   --selectionBackground: #67747c;
-  --creditToLink: 'https://github.com/';
+  --creditToLink: https://github.com/;
   --Luma: 0.207108;
   --Contrast: 0.792892;
-  --PaletteName: 'Chester';
-  --PaletteFileName: 'Chester';
+  --PaletteName: Chester;
+  --PaletteFileName: Chester;
   --IsBright: 0;
   --IsDark: 1;
 }
