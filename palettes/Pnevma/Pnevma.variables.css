@@ -1,5 +1,5 @@
 :root {
-  --name: 'Pnevma';
+  --name: Pnevma;
   --black: #2f2e2d;
   --red: #a36666;
   --green: #90a57d;
@@ -20,12 +20,12 @@
   --foreground: #d0d0d0;
   --cursorColor: #e4c9af;
   --selectionBackground: #4d4d4d;
-  --creditTo: 'baskerville';
-  --creditToLink: 'https://github.com/baskerville';
+  --creditTo: baskerville;
+  --creditToLink: https://github.com/baskerville;
   --Luma: 0.109804;
   --Contrast: 0.705882;
-  --PaletteName: 'Pnevma';
-  --PaletteFileName: 'Pnevma';
+  --PaletteName: Pnevma;
+  --PaletteFileName: Pnevma;
   --IsBright: 0;
   --IsDark: 1;
 }
