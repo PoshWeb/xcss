@@ -1,5 +1,5 @@
 :root {
-  --name: 'Vercel';
+  --name: Vercel;
   --black: #000000;
   --red: #fc0036;
   --green: #29a948;
@@ -22,8 +22,8 @@
   --selectionBackground: #005be7;
   --Luma: 0.062745;
   --Contrast: 0.917647;
-  --PaletteName: 'Vercel';
-  --PaletteFileName: 'Vercel';
+  --PaletteName: Vercel;
+  --PaletteFileName: Vercel;
   --IsBright: 0;
   --IsDark: 1;
 }
