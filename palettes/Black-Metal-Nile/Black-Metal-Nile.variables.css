@@ -1,5 +1,5 @@
 :root {
-  --name: 'Black Metal (Nile)';
+  --name: Black Metal (Nile);
   --black: #000000;
   --red: #5f8787;
   --green: #aa9988;
@@ -22,8 +22,8 @@
   --selectionBackground: #c1c1c1;
   --Luma: 0;
   --Contrast: 0.756863;
-  --PaletteName: 'Black Metal (Nile)';
-  --PaletteFileName: 'Black-Metal-Nile';
+  --PaletteName: Black Metal (Nile);
+  --PaletteFileName: Black-Metal-Nile;
   --IsBright: 0;
   --IsDark: 1;
 }
