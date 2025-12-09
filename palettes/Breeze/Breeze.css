@@ -1,5 +1,5 @@
 :root {
-  --name: 'Breeze';
+  --name: Breeze;
   --black: #31363b;
   --red: #ed1515;
   --green: #11d116;
@@ -20,12 +20,12 @@
   --foreground: #eff0f1;
   --cursorColor: #eff0f1;
   --selectionBackground: #eff0f1;
-  --creditTo: 'KDE';
-  --creditToLink: 'https://github.com/KDE';
+  --creditTo: KDE;
+  --creditToLink: https://github.com/KDE;
   --Luma: 0.209012;
   --Contrast: 0.731614;
-  --PaletteName: 'Breeze';
-  --PaletteFileName: 'Breeze';
+  --PaletteName: Breeze;
+  --PaletteFileName: Breeze;
   --IsBright: 0;
   --IsDark: 1;
 }
