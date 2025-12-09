@@ -1,5 +1,5 @@
 :root {
-  --name: 'Everblush';
+  --name: Everblush;
   --black: #232a2d;
   --red: #e57474;
   --green: #8ccf7e;
@@ -20,11 +20,11 @@
   --foreground: #dadada;
   --cursorColor: #dadada;
   --selectionBackground: #141b1e;
-  --creditToLink: 'https://github.com/';
+  --creditToLink: https://github.com/;
   --Luma: 0.100896;
   --Contrast: 0.754006;
-  --PaletteName: 'Everblush';
-  --PaletteFileName: 'Everblush';
+  --PaletteName: Everblush;
+  --PaletteFileName: Everblush;
   --IsBright: 0;
   --IsDark: 1;
 }
