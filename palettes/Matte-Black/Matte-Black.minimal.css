@@ -1,5 +1,5 @@
 :root {
-  --name: 'Matte Black';
+  --name: Matte Black;
   --black: #333333;
   --red: #d35f5f;
   --green: #ffc107;
@@ -22,8 +22,8 @@
   --selectionBackground: #333333;
   --Luma: 0.070588;
   --Contrast: 0.67451;
-  --PaletteName: 'Matte Black';
-  --PaletteFileName: 'Matte-Black';
+  --PaletteName: Matte Black;
+  --PaletteFileName: Matte-Black;
   --IsBright: 0;
   --IsDark: 1;
 }
