@@ -1,5 +1,5 @@
 :root {
-  --name: 'Thayer Bright';
+  --name: Thayer Bright;
   --black: #1b1d1e;
   --red: #f92672;
   --green: #4df840;
@@ -20,12 +20,12 @@
   --foreground: #f8f8f8;
   --cursorColor: #fc971f;
   --selectionBackground: #4d4d4d;
-  --creditTo: 't3chnoboy';
-  --creditToLink: 'https://github.com/t3chnoboy';
+  --creditTo: t3chnoboy;
+  --creditToLink: https://github.com/t3chnoboy;
   --Luma: 0.112341;
   --Contrast: 0.860208;
-  --PaletteName: 'Thayer Bright';
-  --PaletteFileName: 'Thayer-Bright';
+  --PaletteName: Thayer Bright;
+  --PaletteFileName: Thayer-Bright;
   --IsBright: 0;
   --IsDark: 1;
 }
