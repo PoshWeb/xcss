@@ -1,5 +1,5 @@
 :root {
-  --name: 'Terminal Basic';
+  --name: Terminal Basic;
   --black: #000000;
   --red: #990000;
   --green: #00a600;
@@ -22,8 +22,8 @@
   --selectionBackground: #a4c9ff;
   --Luma: 1;
   --Contrast: 1;
-  --PaletteName: 'Terminal Basic';
-  --PaletteFileName: 'Terminal-Basic';
+  --PaletteName: Terminal Basic;
+  --PaletteFileName: Terminal-Basic;
   --IsBright: 0;
   --IsDark: 1;
 }
