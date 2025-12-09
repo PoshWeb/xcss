@@ -1,5 +1,5 @@
 :root {
-  --name: 'Poimandres';
+  --name: Poimandres;
   --black: #1a1e28;
   --red: #d0679d;
   --green: #5de4c7;
@@ -20,12 +20,12 @@
   --foreground: #a6accd;
   --cursorColor: #ffffff;
   --selectionBackground: #a6accd;
-  --creditTo: 'drcmda';
-  --creditToLink: 'https://github.com/drcmda';
+  --creditTo: drcmda;
+  --creditToLink: https://github.com/drcmda;
   --Luma: 0.117144;
   --Contrast: 0.561707;
-  --PaletteName: 'Poimandres';
-  --PaletteFileName: 'Poimandres';
+  --PaletteName: Poimandres;
+  --PaletteFileName: Poimandres;
   --IsBright: 0;
   --IsDark: 1;
 }
