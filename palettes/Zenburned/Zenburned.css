@@ -1,5 +1,5 @@
 :root {
-  --name: 'Zenburned';
+  --name: Zenburned;
   --black: #404040;
   --red: #e3716e;
   --green: #819b69;
@@ -20,12 +20,12 @@
   --foreground: #f0e4cf;
   --cursorColor: #f3eadb;
   --selectionBackground: #746956;
-  --creditTo: 'mcchrish';
-  --creditToLink: 'https://github.com/mcchrish';
+  --creditTo: mcchrish;
+  --creditToLink: https://github.com/mcchrish;
   --Luma: 0.25098;
   --Contrast: 0.647196;
-  --PaletteName: 'Zenburned';
-  --PaletteFileName: 'Zenburned';
+  --PaletteName: Zenburned;
+  --PaletteFileName: Zenburned;
   --IsBright: 0;
   --IsDark: 1;
 }
