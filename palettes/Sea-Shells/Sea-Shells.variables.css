@@ -1,5 +1,5 @@
 :root {
-  --name: 'Sea Shells';
+  --name: Sea Shells;
   --black: #17384c;
   --red: #d15123;
   --green: #027c9b;
@@ -22,8 +22,8 @@
   --selectionBackground: #1e4962;
   --Luma: 0.071242;
   --Contrast: 0.669833;
-  --PaletteName: 'Sea Shells';
-  --PaletteFileName: 'Sea-Shells';
+  --PaletteName: Sea Shells;
+  --PaletteFileName: Sea-Shells;
   --IsBright: 0;
   --IsDark: 1;
 }
