@@ -1,5 +1,5 @@
 :root {
-  --name: 'Twilight';
+  --name: Twilight;
   --black: #141414;
   --red: #c06d44;
   --green: #afb97a;
@@ -20,12 +20,12 @@
   --foreground: #ffffd4;
   --cursorColor: #ffffff;
   --selectionBackground: #313131;
-  --creditTo: 'stefri';
-  --creditToLink: 'https://github.com/stefri';
+  --creditTo: stefri;
+  --creditToLink: https://github.com/stefri;
   --Luma: 0.078431;
   --Contrast: 0.909394;
-  --PaletteName: 'Twilight';
-  --PaletteFileName: 'Twilight';
+  --PaletteName: Twilight;
+  --PaletteFileName: Twilight;
   --IsBright: 0;
   --IsDark: 1;
 }
