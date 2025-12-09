@@ -1,5 +1,5 @@
 :root {
-  --name: 'Everforest Dark Hard';
+  --name: Everforest Dark Hard;
   --black: #7a8478;
   --red: #e67e80;
   --green: #a7c080;
@@ -22,8 +22,8 @@
   --selectionBackground: #4c3743;
   --Luma: 0.133936;
   --Contrast: 0.645445;
-  --PaletteName: 'Everforest Dark Hard';
-  --PaletteFileName: 'Everforest-Dark-Hard';
+  --PaletteName: Everforest Dark Hard;
+  --PaletteFileName: Everforest-Dark-Hard;
   --IsBright: 0;
   --IsDark: 1;
 }
