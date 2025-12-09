@@ -1,5 +1,5 @@
 :root {
-  --name: 'Fish Tank';
+  --name: Fish Tank;
   --black: #03073c;
   --red: #c6004a;
   --green: #acf157;
@@ -22,8 +22,8 @@
   --selectionBackground: #fcf7e9;
   --Luma: 0.148527;
   --Contrast: 0.793278;
-  --PaletteName: 'Fish Tank';
-  --PaletteFileName: 'Fish-Tank';
+  --PaletteName: Fish Tank;
+  --PaletteFileName: Fish-Tank;
   --IsBright: 0;
   --IsDark: 1;
 }
