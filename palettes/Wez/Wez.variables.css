@@ -1,5 +1,5 @@
 :root {
-  --name: 'Wez';
+  --name: Wez;
   --black: #000000;
   --red: #cc5555;
   --green: #55cc55;
@@ -20,12 +20,12 @@
   --foreground: #b3b3b3;
   --cursorColor: #53ae71;
   --selectionBackground: #4d52f8;
-  --creditTo: 'wez';
-  --creditToLink: 'https://github.com/wez';
+  --creditTo: wez;
+  --creditToLink: https://github.com/wez;
   --Luma: 0;
   --Contrast: 0.701961;
-  --PaletteName: 'Wez';
-  --PaletteFileName: 'Wez';
+  --PaletteName: Wez;
+  --PaletteFileName: Wez;
   --IsBright: 0;
   --IsDark: 1;
 }
