@@ -1,5 +1,5 @@
 :root {
-  --name: 'Iceberg Light';
+  --name: Iceberg Light;
   --black: #dcdfe7;
   --red: #cc517a;
   --green: #668e3d;
@@ -22,8 +22,8 @@
   --selectionBackground: #33374c;
   --Luma: 0.913741;
   --Contrast: 0.695444;
-  --PaletteName: 'Iceberg Light';
-  --PaletteFileName: 'Iceberg-Light';
+  --PaletteName: Iceberg Light;
+  --PaletteFileName: Iceberg-Light;
   --IsBright: 0;
   --IsDark: 1;
 }
