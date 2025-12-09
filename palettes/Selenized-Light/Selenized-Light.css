@@ -1,5 +1,5 @@
 :root {
-  --name: 'Selenized Light';
+  --name: Selenized Light;
   --black: #ece3cc;
   --red: #d2212d;
   --green: #489100;
@@ -22,8 +22,8 @@
   --selectionBackground: #ece3cc;
   --Luma: 0.952816;
   --Contrast: 0.56387;
-  --PaletteName: 'Selenized Light';
-  --PaletteFileName: 'Selenized-Light';
+  --PaletteName: Selenized Light;
+  --PaletteFileName: Selenized-Light;
   --IsBright: 0;
   --IsDark: 1;
 }
