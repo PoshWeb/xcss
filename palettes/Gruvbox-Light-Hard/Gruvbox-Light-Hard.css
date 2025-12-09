@@ -1,5 +1,5 @@
 :root {
-  --name: 'Gruvbox Light Hard';
+  --name: Gruvbox Light Hard;
   --black: #f9f5d7;
   --red: #cc241d;
   --green: #98971a;
@@ -20,12 +20,12 @@
   --foreground: #3c3836;
   --cursorColor: #3c3836;
   --selectionBackground: #3c3836;
-  --creditTo: 'morhetz';
-  --creditToLink: 'https://github.com/morhetz';
+  --creditTo: morhetz;
+  --creditToLink: https://github.com/morhetz;
   --Luma: 0.955625;
   --Contrast: 0.733249;
-  --PaletteName: 'Gruvbox Light Hard';
-  --PaletteFileName: 'Gruvbox-Light-Hard';
+  --PaletteName: Gruvbox Light Hard;
+  --PaletteFileName: Gruvbox-Light-Hard;
   --IsBright: 0;
   --IsDark: 1;
 }
