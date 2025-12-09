@@ -1,5 +1,5 @@
 :root {
-  --name: 'Gruvbox Material';
+  --name: Gruvbox Material;
   --black: #141617;
   --red: #ea6926;
   --green: #c1d041;
@@ -22,8 +22,8 @@
   --selectionBackground: #2b2c3f;
   --Luma: 0.123272;
   --Contrast: 0.629409;
-  --PaletteName: 'Gruvbox Material';
-  --PaletteFileName: 'Gruvbox-Material';
+  --PaletteName: Gruvbox Material;
+  --PaletteFileName: Gruvbox-Material;
   --IsBright: 0;
   --IsDark: 1;
 }
