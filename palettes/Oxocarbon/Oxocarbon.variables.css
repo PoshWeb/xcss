@@ -1,5 +1,5 @@
 :root {
-  --name: 'Oxocarbon';
+  --name: Oxocarbon;
   --black: #161616;
   --red: #00dfdb;
   --green: #00b4ff;
@@ -20,12 +20,12 @@
   --foreground: #f2f4f8;
   --cursorColor: #ffffff;
   --selectionBackground: #393939;
-  --creditTo: 'nyoom-engineering';
-  --creditToLink: 'https://github.com/nyoom-engineering';
+  --creditTo: nyoom-engineering;
+  --creditToLink: https://github.com/nyoom-engineering;
   --Luma: 0.086275;
   --Contrast: 0.870053;
-  --PaletteName: 'Oxocarbon';
-  --PaletteFileName: 'Oxocarbon';
+  --PaletteName: Oxocarbon;
+  --PaletteFileName: Oxocarbon;
   --IsBright: 0;
   --IsDark: 1;
 }
