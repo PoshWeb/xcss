@@ -1,5 +1,5 @@
 :root {
-  --name: 'Atelier Sulphurpool';
+  --name: Atelier Sulphurpool;
   --black: #202746;
   --red: #c94922;
   --green: #ac9739;
@@ -22,8 +22,8 @@
   --selectionBackground: #5e6687;
   --Luma: 0.155882;
   --Contrast: 0.461314;
-  --PaletteName: 'Atelier Sulphurpool';
-  --PaletteFileName: 'Atelier-Sulphurpool';
+  --PaletteName: Atelier Sulphurpool;
+  --PaletteFileName: Atelier-Sulphurpool;
   --IsBright: 0;
   --IsDark: 1;
 }
