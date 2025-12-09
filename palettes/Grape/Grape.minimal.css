@@ -1,5 +1,5 @@
 :root {
-  --name: 'Grape';
+  --name: Grape;
   --black: #2d283f;
   --red: #ed2261;
   --green: #1fa91b;
@@ -20,12 +20,12 @@
   --foreground: #9f9fa1;
   --cursorColor: #a288f7;
   --selectionBackground: #493d70;
-  --creditTo: 'zdj';
-  --creditToLink: 'https://github.com/zdj';
+  --creditTo: zdj;
+  --creditToLink: https://github.com/zdj;
   --Luma: 0.08518;
   --Contrast: 0.538916;
-  --PaletteName: 'Grape';
-  --PaletteFileName: 'Grape';
+  --PaletteName: Grape;
+  --PaletteFileName: Grape;
   --IsBright: 0;
   --IsDark: 1;
 }
