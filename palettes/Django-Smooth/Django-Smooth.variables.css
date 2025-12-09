@@ -1,5 +1,5 @@
 :root {
-  --name: 'Django Smooth';
+  --name: Django Smooth;
   --black: #000000;
   --red: #fd6209;
   --green: #41a83e;
@@ -22,8 +22,8 @@
   --selectionBackground: #336442;
   --Luma: 0.268547;
   --Contrast: 0.704002;
-  --PaletteName: 'Django Smooth';
-  --PaletteFileName: 'Django-Smooth';
+  --PaletteName: Django Smooth;
+  --PaletteFileName: Django-Smooth;
   --IsBright: 0;
   --IsDark: 1;
 }
