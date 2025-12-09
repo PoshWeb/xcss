@@ -1,5 +1,5 @@
 :root {
-  --name: 'GitLab Dark';
+  --name: GitLab Dark;
   --black: #000000;
   --red: #f57f6c;
   --green: #52b87a;
@@ -20,12 +20,12 @@
   --foreground: #ffffff;
   --cursorColor: #ffffff;
   --selectionBackground: #ad95e9;
-  --creditTo: 'apcamargo';
-  --creditToLink: 'https://github.com/apcamargo';
+  --creditTo: apcamargo;
+  --creditToLink: https://github.com/apcamargo;
   --Luma: 0.152103;
   --Contrast: 0.847897;
-  --PaletteName: 'GitLab Dark';
-  --PaletteFileName: 'GitLab-Dark';
+  --PaletteName: GitLab Dark;
+  --PaletteFileName: GitLab-Dark;
   --IsBright: 0;
   --IsDark: 1;
 }
