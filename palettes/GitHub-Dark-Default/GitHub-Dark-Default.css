@@ -1,5 +1,5 @@
 :root {
-  --name: 'GitHub Dark Default';
+  --name: GitHub Dark Default;
   --black: #484f58;
   --red: #ff7b72;
   --green: #3fb950;
@@ -20,12 +20,12 @@
   --foreground: #e6edf3;
   --cursorColor: #2f81f7;
   --selectionBackground: #e6edf3;
-  --creditTo: 'apcamargo';
-  --creditToLink: 'https://github.com/apcamargo';
+  --creditTo: apcamargo;
+  --creditToLink: https://github.com/apcamargo;
   --Luma: 0.065031;
   --Contrast: 0.860244;
-  --PaletteName: 'GitHub Dark Default';
-  --PaletteFileName: 'GitHub-Dark-Default';
+  --PaletteName: GitHub Dark Default;
+  --PaletteFileName: GitHub-Dark-Default;
   --IsBright: 0;
   --IsDark: 1;
 }
