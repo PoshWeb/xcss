@@ -1,5 +1,5 @@
 :root {
-  --name: 'Unikitty';
+  --name: Unikitty;
   --black: #0c0c0c;
   --red: #a80f20;
   --green: #c7ff98;
@@ -20,12 +20,12 @@
   --foreground: #0b0b0b;
   --cursorColor: #c7ff98;
   --selectionBackground: #3ea9fe;
-  --creditTo: 'jakebathman';
-  --creditToLink: 'https://github.com/jakebathman';
+  --creditTo: jakebathman;
+  --creditToLink: https://github.com/jakebathman;
   --Luma: 0.6667;
   --Contrast: 0.623563;
-  --PaletteName: 'Unikitty';
-  --PaletteFileName: 'Unikitty';
+  --PaletteName: Unikitty;
+  --PaletteFileName: Unikitty;
   --IsBright: 0;
   --IsDark: 1;
 }
