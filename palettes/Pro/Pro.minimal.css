@@ -1,5 +1,5 @@
 :root {
-  --name: 'Pro';
+  --name: Pro;
   --black: #000000;
   --red: #990000;
   --green: #00a600;
@@ -20,12 +20,12 @@
   --foreground: #f2f2f2;
   --cursorColor: #4d4d4d;
   --selectionBackground: #414141;
-  --creditTo: 'ReagentX';
-  --creditToLink: 'https://github.com/ReagentX';
+  --creditTo: ReagentX;
+  --creditToLink: https://github.com/ReagentX;
   --Luma: 0;
   --Contrast: 0.94902;
-  --PaletteName: 'Pro';
-  --PaletteFileName: 'Pro';
+  --PaletteName: Pro;
+  --PaletteFileName: Pro;
   --IsBright: 0;
   --IsDark: 1;
 }
