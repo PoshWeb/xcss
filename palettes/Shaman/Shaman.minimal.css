@@ -1,5 +1,5 @@
 :root {
-  --name: 'Shaman';
+  --name: Shaman;
   --black: #012026;
   --red: #b2302d;
   --green: #00a941;
@@ -20,12 +20,12 @@
   --foreground: #405555;
   --cursorColor: #4afcd6;
   --selectionBackground: #415555;
-  --creditTo: 'zdj';
-  --creditToLink: 'https://github.com/zdj';
+  --creditTo: zdj;
+  --creditToLink: https://github.com/zdj;
   --Luma: 0.050821;
   --Contrast: 0.265004;
-  --PaletteName: 'Shaman';
-  --PaletteFileName: 'Shaman';
+  --PaletteName: Shaman;
+  --PaletteFileName: Shaman;
   --IsBright: 0;
   --IsDark: 1;
 }
