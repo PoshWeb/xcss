@@ -1,5 +1,5 @@
 :root {
-  --name: 'Pencil Dark';
+  --name: Pencil Dark;
   --black: #212121;
   --red: #c30771;
   --green: #10a778;
@@ -20,12 +20,12 @@
   --foreground: #f1f1f1;
   --cursorColor: #20bbfc;
   --selectionBackground: #b6d6fd;
-  --creditTo: 'mattly';
-  --creditToLink: 'https://github.com/mattly';
+  --creditTo: mattly;
+  --creditToLink: https://github.com/mattly;
   --Luma: 0.129412;
   --Contrast: 0.815686;
-  --PaletteName: 'Pencil Dark';
-  --PaletteFileName: 'Pencil-Dark';
+  --PaletteName: Pencil Dark;
+  --PaletteFileName: Pencil-Dark;
   --IsBright: 0;
   --IsDark: 1;
 }
