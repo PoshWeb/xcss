@@ -1,5 +1,5 @@
 :root {
-  --name: 'Embark';
+  --name: Embark;
   --black: #1e1c31;
   --red: #f0719b;
   --green: #a1efd3;
@@ -22,8 +22,8 @@
   --selectionBackground: #fbfcfc;
   --Luma: 0.117417;
   --Contrast: 0.86841;
-  --PaletteName: 'Embark';
-  --PaletteFileName: 'Embark';
+  --PaletteName: Embark;
+  --PaletteFileName: Embark;
   --IsBright: 0;
   --IsDark: 1;
 }
