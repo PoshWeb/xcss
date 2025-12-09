@@ -1,5 +1,5 @@
 :root {
-  --name: 'Alien Blood';
+  --name: Alien Blood;
   --black: #112616;
   --red: #7f2b27;
   --green: #2f7e25;
@@ -22,8 +22,8 @@
   --selectionBackground: #1d4125;
   --Luma: 0.07874;
   --Contrast: 0.387514;
-  --PaletteName: 'Alien Blood';
-  --PaletteFileName: 'Alien-Blood';
+  --PaletteName: Alien Blood;
+  --PaletteFileName: Alien-Blood;
   --IsBright: 0;
   --IsDark: 1;
 }
