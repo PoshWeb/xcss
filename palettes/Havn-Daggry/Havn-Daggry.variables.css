@@ -1,5 +1,5 @@
 :root {
-  --name: 'Havn Daggry';
+  --name: Havn Daggry;
   --black: #1f2842;
   --red: #985248;
   --green: #577159;
@@ -22,8 +22,8 @@
   --selectionBackground: #cfe9dd;
   --Luma: 0.976203;
   --Contrast: 0.684922;
-  --PaletteName: 'Havn Daggry';
-  --PaletteFileName: 'Havn-Daggry';
+  --PaletteName: Havn Daggry;
+  --PaletteFileName: Havn-Daggry;
   --IsBright: 0;
   --IsDark: 1;
 }
