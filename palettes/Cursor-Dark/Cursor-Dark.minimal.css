@@ -1,5 +1,5 @@
 :root {
-  --name: 'Cursor Dark';
+  --name: Cursor Dark;
   --black: #2a2a2a;
   --red: #bf616a;
   --green: #a3be8c;
@@ -20,12 +20,12 @@
   --foreground: #ffffff;
   --cursorColor: #ffffff;
   --selectionBackground: #303030;
-  --creditTo: 'Takk8IS';
-  --creditToLink: 'https://github.com/Takk8IS';
+  --creditTo: Takk8IS;
+  --creditToLink: https://github.com/Takk8IS;
   --Luma: 0.078431;
   --Contrast: 0.921569;
-  --PaletteName: 'Cursor Dark';
-  --PaletteFileName: 'Cursor-Dark';
+  --PaletteName: Cursor Dark;
+  --PaletteFileName: Cursor-Dark;
   --IsBright: 0;
   --IsDark: 1;
 }
