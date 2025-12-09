@@ -1,5 +1,5 @@
 :root {
-  --name: 'Vaughn';
+  --name: Vaughn;
   --black: #25234f;
   --red: #705050;
   --green: #60b48a;
@@ -22,8 +22,8 @@
   --selectionBackground: #b5d5ff;
   --Luma: 0.15138;
   --Contrast: 0.706835;
-  --PaletteName: 'Vaughn';
-  --PaletteFileName: 'Vaughn';
+  --PaletteName: Vaughn;
+  --PaletteFileName: Vaughn;
   --IsBright: 0;
   --IsDark: 1;
 }
