@@ -1,5 +1,5 @@
 :root {
-  --name: 'Carbonfox';
+  --name: Carbonfox;
   --black: #282828;
   --red: #ee5396;
   --green: #25be6a;
@@ -22,8 +22,8 @@
   --selectionBackground: #2a2a2a;
   --Luma: 0.086275;
   --Contrast: 0.870053;
-  --PaletteName: 'Carbonfox';
-  --PaletteFileName: 'Carbonfox';
+  --PaletteName: Carbonfox;
+  --PaletteFileName: Carbonfox;
   --IsBright: 0;
   --IsDark: 1;
 }
