@@ -1,5 +1,5 @@
 :root {
-  --name: 'Pale Night Hc';
+  --name: Pale Night Hc;
   --black: #000000;
   --red: #f07178;
   --green: #c3e88d;
@@ -22,8 +22,8 @@
   --selectionBackground: #717cb4;
   --Luma: 0.259736;
   --Contrast: 0.540264;
-  --PaletteName: 'Pale Night Hc';
-  --PaletteFileName: 'Pale-Night-Hc';
+  --PaletteName: Pale Night Hc;
+  --PaletteFileName: Pale-Night-Hc;
   --IsBright: 0;
   --IsDark: 1;
 }
