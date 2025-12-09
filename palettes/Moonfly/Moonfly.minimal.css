@@ -1,5 +1,5 @@
 :root {
-  --name: 'Moonfly';
+  --name: Moonfly;
   --black: #323437;
   --red: #ff5454;
   --green: #8cc85f;
@@ -20,12 +20,12 @@
   --foreground: #bdbdbd;
   --cursorColor: #9e9e9e;
   --selectionBackground: #b2ceee;
-  --creditTo: 'bluz71';
-  --creditToLink: 'https://github.com/bluz71';
+  --creditTo: bluz71;
+  --creditToLink: https://github.com/bluz71;
   --Luma: 0.031373;
   --Contrast: 0.709803;
-  --PaletteName: 'Moonfly';
-  --PaletteFileName: 'Moonfly';
+  --PaletteName: Moonfly;
+  --PaletteFileName: Moonfly;
   --IsBright: 0;
   --IsDark: 1;
 }
