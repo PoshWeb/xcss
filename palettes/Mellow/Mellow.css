@@ -1,5 +1,5 @@
 :root {
-  --name: 'Mellow';
+  --name: Mellow;
   --black: #27272a;
   --red: #f5a191;
   --green: #90b99f;
@@ -20,12 +20,12 @@
   --foreground: #c9c7cd;
   --cursorColor: #cac9dd;
   --selectionBackground: #2a2a2d;
-  --creditTo: 'kvrohit';
-  --creditToLink: 'https://github.com/kvrohit';
+  --creditTo: kvrohit;
+  --creditToLink: https://github.com/kvrohit;
   --Luma: 0.086558;
   --Contrast: 0.6972;
-  --PaletteName: 'Mellow';
-  --PaletteFileName: 'Mellow';
+  --PaletteName: Mellow;
+  --PaletteFileName: Mellow;
   --IsBright: 0;
   --IsDark: 1;
 }
