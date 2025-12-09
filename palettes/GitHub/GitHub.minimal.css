@@ -1,5 +1,5 @@
 :root {
-  --name: 'GitHub';
+  --name: GitHub;
   --black: #3e3e3e;
   --red: #970b16;
   --green: #07962a;
@@ -20,12 +20,12 @@
   --foreground: #3e3e3e;
   --cursorColor: #3f3f3f;
   --selectionBackground: #a9c1e2;
-  --creditTo: 'filipjanevski';
-  --creditToLink: 'https://github.com/filipjanevski';
+  --creditTo: filipjanevski;
+  --creditToLink: https://github.com/filipjanevski;
   --Luma: 0.956863;
   --Contrast: 0.713726;
-  --PaletteName: 'GitHub';
-  --PaletteFileName: 'GitHub';
+  --PaletteName: GitHub;
+  --PaletteFileName: GitHub;
   --IsBright: 0;
   --IsDark: 1;
 }
