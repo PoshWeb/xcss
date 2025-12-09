@@ -1,5 +1,5 @@
 :root {
-  --name: 'Srcery';
+  --name: Srcery;
   --black: #1c1b19;
   --red: #ef2f27;
   --green: #519f50;
@@ -20,12 +20,12 @@
   --foreground: #fce8c3;
   --cursorColor: #fbb829;
   --selectionBackground: #fce8c3;
-  --creditTo: 'srcery-colors';
-  --creditToLink: 'https://github.com/srcery-colors';
+  --creditTo: srcery-colors;
+  --creditToLink: https://github.com/srcery-colors;
   --Luma: 0.10615;
   --Contrast: 0.809852;
-  --PaletteName: 'Srcery';
-  --PaletteFileName: 'Srcery';
+  --PaletteName: Srcery;
+  --PaletteFileName: Srcery;
   --IsBright: 0;
   --IsDark: 1;
 }
