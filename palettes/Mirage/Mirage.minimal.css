@@ -1,5 +1,5 @@
 :root {
-  --name: 'Mirage';
+  --name: Mirage;
   --black: #011627;
   --red: #ff9999;
   --green: #85cc95;
@@ -20,12 +20,12 @@
   --foreground: #a6b2c0;
   --cursorColor: #ddb3ff;
   --selectionBackground: #273951;
-  --creditTo: 'ayu-theme';
-  --creditToLink: 'https://github.com/ayu-theme';
+  --creditTo: ayu-theme;
+  --creditToLink: https://github.com/ayu-theme;
   --Luma: 0.14775;
   --Contrast: 0.544248;
-  --PaletteName: 'Mirage';
-  --PaletteFileName: 'Mirage';
+  --PaletteName: Mirage;
+  --PaletteFileName: Mirage;
   --IsBright: 0;
   --IsDark: 1;
 }
