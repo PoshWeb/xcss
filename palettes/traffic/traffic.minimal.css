@@ -1,5 +1,5 @@
 :root {
-  --name: 'traffic';
+  --name: traffic;
   --black: #282d31;
   --red: #934e46;
   --green: #637268;
@@ -20,12 +20,12 @@
   --foreground: #cfb9a8;
   --cursorColor: #cfb9a8;
   --selectionBackground: #272c30;
-  --creditTo: 'dkeg';
-  --creditToLink: 'https://github.com/dkeg';
+  --creditTo: dkeg;
+  --creditToLink: https://github.com/dkeg;
   --Luma: 0.169513;
   --Contrast: 0.569506;
-  --PaletteName: 'traffic';
-  --PaletteFileName: 'traffic';
+  --PaletteName: traffic;
+  --PaletteFileName: traffic;
   --IsBright: 0;
   --IsDark: 1;
 }
