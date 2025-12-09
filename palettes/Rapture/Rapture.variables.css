@@ -1,5 +1,5 @@
 :root {
-  --name: 'Rapture';
+  --name: Rapture;
   --black: #000000;
   --red: #fc644d;
   --green: #7afde1;
@@ -20,12 +20,12 @@
   --foreground: #c0c9e5;
   --cursorColor: #ffffff;
   --selectionBackground: #304b66;
-  --creditTo: 'Pustur';
-  --creditToLink: 'https://github.com/Pustur';
+  --creditTo: Pustur;
+  --creditToLink: https://github.com/Pustur;
   --Luma: 0.110206;
   --Contrast: 0.678454;
-  --PaletteName: 'Rapture';
-  --PaletteFileName: 'Rapture';
+  --PaletteName: Rapture;
+  --PaletteFileName: Rapture;
   --IsBright: 0;
   --IsDark: 1;
 }
