@@ -1,5 +1,5 @@
 :root {
-  --name: 'Guezwhoz';
+  --name: Guezwhoz;
   --black: #333333;
   --red: #e85181;
   --green: #7ad694;
@@ -20,11 +20,11 @@
   --foreground: #d9d9d9;
   --cursorColor: #99d4b1;
   --selectionBackground: #245354;
-  --creditToLink: 'https://github.com/';
+  --creditToLink: https://github.com/;
   --Luma: 0.113725;
   --Contrast: 0.737255;
-  --PaletteName: 'Guezwhoz';
-  --PaletteFileName: 'Guezwhoz';
+  --PaletteName: Guezwhoz;
+  --PaletteFileName: Guezwhoz;
   --IsBright: 0;
   --IsDark: 1;
 }
