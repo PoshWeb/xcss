@@ -1,5 +1,5 @@
 :root {
-  --name: 'Dark Modern';
+  --name: Dark Modern;
   --black: #272727;
   --red: #f74949;
   --green: #2ea043;
@@ -20,12 +20,12 @@
   --foreground: #cccccc;
   --cursorColor: #ffffff;
   --selectionBackground: #3a3d41;
-  --creditTo: 'zasdaym';
-  --creditToLink: 'https://github.com/zasdaym';
+  --creditTo: zasdaym;
+  --creditToLink: https://github.com/zasdaym;
   --Luma: 0.121569;
   --Contrast: 0.678431;
-  --PaletteName: 'Dark Modern';
-  --PaletteFileName: 'Dark-Modern';
+  --PaletteName: Dark Modern;
+  --PaletteFileName: Dark-Modern;
   --IsBright: 0;
   --IsDark: 1;
 }
