@@ -1,5 +1,5 @@
 :root {
-  --name: 'Seoulbones Dark';
+  --name: Seoulbones Dark;
   --black: #4b4b4b;
   --red: #e388a3;
   --green: #98bd99;
@@ -22,8 +22,8 @@
   --selectionBackground: #777777;
   --Luma: 0.294118;
   --Contrast: 0.572549;
-  --PaletteName: 'Seoulbones Dark';
-  --PaletteFileName: 'Seoulbones-Dark';
+  --PaletteName: Seoulbones Dark;
+  --PaletteFileName: Seoulbones-Dark;
   --IsBright: 0;
   --IsDark: 1;
 }
