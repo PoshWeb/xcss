@@ -1,5 +1,5 @@
 :root {
-  --name: 'Harper';
+  --name: Harper;
   --black: #010101;
   --red: #f8b63f;
   --green: #7fb5e1;
@@ -20,12 +20,12 @@
   --foreground: #a8a49d;
   --cursorColor: #a8a49d;
   --selectionBackground: #5a5753;
-  --creditTo: 'idleberg';
-  --creditToLink: 'https://github.com/idleberg';
+  --creditTo: idleberg;
+  --creditToLink: https://github.com/idleberg;
   --Luma: 0.003922;
   --Contrast: 0.640568;
-  --PaletteName: 'Harper';
-  --PaletteFileName: 'Harper';
+  --PaletteName: Harper;
+  --PaletteFileName: Harper;
   --IsBright: 0;
   --IsDark: 1;
 }
