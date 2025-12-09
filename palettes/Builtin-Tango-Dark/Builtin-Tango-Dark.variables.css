@@ -1,5 +1,5 @@
 :root {
-  --name: 'Builtin Tango Dark';
+  --name: Builtin Tango Dark;
   --black: #000000;
   --red: #cc0000;
   --green: #4e9a06;
@@ -22,8 +22,8 @@
   --selectionBackground: #b5d5ff;
   --Luma: 0;
   --Contrast: 1;
-  --PaletteName: 'Builtin Tango Dark';
-  --PaletteFileName: 'Builtin-Tango-Dark';
+  --PaletteName: Builtin Tango Dark;
+  --PaletteFileName: Builtin-Tango-Dark;
   --IsBright: 0;
   --IsDark: 1;
 }
