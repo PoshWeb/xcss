@@ -1,5 +1,5 @@
 :root {
-  --name: 'Adventure Time';
+  --name: Adventure Time;
   --black: #050404;
   --red: #bd0013;
   --green: #4ab118;
@@ -22,8 +22,8 @@
   --selectionBackground: #706b4e;
   --Luma: 0.126718;
   --Contrast: 0.751444;
-  --PaletteName: 'Adventure Time';
-  --PaletteFileName: 'Adventure-Time';
+  --PaletteName: Adventure Time;
+  --PaletteFileName: Adventure-Time;
   --IsBright: 0;
   --IsDark: 1;
 }
