@@ -1,5 +1,5 @@
 :root {
-  --name: 'Chalk';
+  --name: Chalk;
   --black: #7d8b8f;
   --red: #b23a52;
   --green: #789b6a;
@@ -20,12 +20,12 @@
   --foreground: #d2d8d9;
   --cursorColor: #708284;
   --selectionBackground: #e4e8ed;
-  --creditTo: 'achalv';
-  --creditToLink: 'https://github.com/achalv';
+  --creditTo: achalv;
+  --creditToLink: https://github.com/achalv;
   --Luma: 0.175086;
   --Contrast: 0.667254;
-  --PaletteName: 'Chalk';
-  --PaletteFileName: 'Chalk';
+  --PaletteName: Chalk;
+  --PaletteFileName: Chalk;
   --IsBright: 0;
   --IsDark: 1;
 }
