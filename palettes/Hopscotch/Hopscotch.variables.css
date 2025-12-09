@@ -1,5 +1,5 @@
 :root {
-  --name: 'Hopscotch';
+  --name: Hopscotch;
   --black: #322931;
   --red: #dd464c;
   --green: #8fc13e;
@@ -20,12 +20,12 @@
   --foreground: #b9b5b8;
   --cursorColor: #b9b5b8;
   --selectionBackground: #5c545b;
-  --creditTo: 'idleberg';
-  --creditToLink: 'https://github.com/idleberg';
+  --creditTo: idleberg;
+  --creditToLink: https://github.com/idleberg;
   --Luma: 0.170553;
   --Contrast: 0.543435;
-  --PaletteName: 'Hopscotch';
-  --PaletteFileName: 'Hopscotch';
+  --PaletteName: Hopscotch;
+  --PaletteFileName: Hopscotch;
   --IsBright: 0;
   --IsDark: 1;
 }
