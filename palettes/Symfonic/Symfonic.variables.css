@@ -1,5 +1,5 @@
 :root {
-  --name: 'Symfonic';
+  --name: Symfonic;
   --black: #000000;
   --red: #dc322f;
   --green: #56db3a;
@@ -22,8 +22,8 @@
   --selectionBackground: #073642;
   --Luma: 0;
   --Contrast: 1;
-  --PaletteName: 'Symfonic';
-  --PaletteFileName: 'Symfonic';
+  --PaletteName: Symfonic;
+  --PaletteFileName: Symfonic;
   --IsBright: 0;
   --IsDark: 1;
 }
