@@ -1,5 +1,5 @@
 :root {
-  --name: 'Alabaster';
+  --name: Alabaster;
   --black: #000000;
   --red: #aa3731;
   --green: #448c27;
@@ -20,12 +20,12 @@
   --foreground: #000000;
   --cursorColor: #007acc;
   --selectionBackground: #bfdbfe;
-  --creditTo: 'mkaschenko';
-  --creditToLink: 'https://github.com/mkaschenko';
+  --creditTo: mkaschenko;
+  --creditToLink: https://github.com/mkaschenko;
   --Luma: 0.968627;
   --Contrast: 0.968627;
-  --PaletteName: 'Alabaster';
-  --PaletteFileName: 'Alabaster';
+  --PaletteName: Alabaster;
+  --PaletteFileName: Alabaster;
   --IsBright: 0;
   --IsDark: 1;
 }
