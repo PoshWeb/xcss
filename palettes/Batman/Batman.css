@@ -1,5 +1,5 @@
 :root {
-  --name: 'Batman';
+  --name: Batman;
   --black: #1b1d1e;
   --red: #e6dc44;
   --green: #c8be46;
@@ -20,12 +20,12 @@
   --foreground: #6f6f6f;
   --cursorColor: #fcef0c;
   --selectionBackground: #4d504c;
-  --creditTo: 'pyrophos';
-  --creditToLink: 'https://github.com/pyrophos';
+  --creditTo: pyrophos;
+  --creditToLink: https://github.com/pyrophos;
   --Luma: 0.112341;
   --Contrast: 0.322953;
-  --PaletteName: 'Batman';
-  --PaletteFileName: 'Batman';
+  --PaletteName: Batman;
+  --PaletteFileName: Batman;
   --IsBright: 0;
   --IsDark: 1;
 }
