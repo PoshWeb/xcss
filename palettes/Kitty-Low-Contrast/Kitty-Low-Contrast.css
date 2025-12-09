@@ -1,5 +1,5 @@
 :root {
-  --name: 'Kitty Low Contrast';
+  --name: Kitty Low Contrast;
   --black: #000000;
   --red: #cc0403;
   --green: #19cb00;
@@ -22,8 +22,8 @@
   --selectionBackground: #fffacd;
   --Luma: 0.2;
   --Contrast: 0.8;
-  --PaletteName: 'Kitty Low Contrast';
-  --PaletteFileName: 'Kitty-Low-Contrast';
+  --PaletteName: Kitty Low Contrast;
+  --PaletteFileName: Kitty-Low-Contrast;
   --IsBright: 0;
   --IsDark: 1;
 }
