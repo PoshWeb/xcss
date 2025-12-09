@@ -1,5 +1,5 @@
 :root {
-  --name: 'Desert';
+  --name: Desert;
   --black: #4d4d4d;
   --red: #ff2b2b;
   --green: #98fb98;
@@ -22,8 +22,8 @@
   --selectionBackground: #b5d5ff;
   --Luma: 0.2;
   --Contrast: 0.8;
-  --PaletteName: 'Desert';
-  --PaletteFileName: 'Desert';
+  --PaletteName: Desert;
+  --PaletteFileName: Desert;
   --IsBright: 0;
   --IsDark: 1;
 }
