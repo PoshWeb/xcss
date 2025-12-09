@@ -1,5 +1,5 @@
 :root {
-  --name: 'IC Green PPL';
+  --name: IC Green PPL;
   --black: #014401;
   --red: #ff2736;
   --green: #41a638;
@@ -22,8 +22,8 @@
   --selectionBackground: #116b41;
   --Luma: 0.172549;
   --Contrast: 0.75243;
-  --PaletteName: 'IC Green PPL';
-  --PaletteFileName: 'IC-Green-PPL';
+  --PaletteName: IC Green PPL;
+  --PaletteFileName: IC-Green-PPL;
   --IsBright: 0;
   --IsDark: 1;
 }
