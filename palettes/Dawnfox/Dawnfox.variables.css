@@ -1,5 +1,5 @@
 :root {
-  --name: 'Dawnfox';
+  --name: Dawnfox;
   --black: #575279;
   --red: #b4637a;
   --green: #618774;
@@ -22,8 +22,8 @@
   --selectionBackground: #d0d8d8;
   --Luma: 0.959883;
   --Contrast: 0.623103;
-  --PaletteName: 'Dawnfox';
-  --PaletteFileName: 'Dawnfox';
+  --PaletteName: Dawnfox;
+  --PaletteFileName: Dawnfox;
   --IsBright: 0;
   --IsDark: 1;
 }
