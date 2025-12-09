@@ -1,5 +1,5 @@
 :root {
-  --name: 'Floraverse';
+  --name: Floraverse;
   --black: #08002e;
   --red: #7e1a46;
   --green: #5d731a;
@@ -22,8 +22,8 @@
   --selectionBackground: #f3e0b8;
   --Luma: 0.054079;
   --Contrast: 0.767071;
-  --PaletteName: 'Floraverse';
-  --PaletteFileName: 'Floraverse';
+  --PaletteName: Floraverse;
+  --PaletteFileName: Floraverse;
   --IsBright: 0;
   --IsDark: 1;
 }
