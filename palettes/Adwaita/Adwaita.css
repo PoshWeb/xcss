@@ -1,5 +1,5 @@
 :root {
-  --name: 'Adwaita';
+  --name: Adwaita;
   --black: #241f31;
   --red: #c01c28;
   --green: #2ec27e;
@@ -20,11 +20,11 @@
   --foreground: #000000;
   --cursorColor: #000000;
   --selectionBackground: #c0bfbc;
-  --creditToLink: 'https://github.com/';
+  --creditToLink: https://github.com/;
   --Luma: 1;
   --Contrast: 1;
-  --PaletteName: 'Adwaita';
-  --PaletteFileName: 'Adwaita';
+  --PaletteName: Adwaita;
+  --PaletteFileName: Adwaita;
   --IsBright: 0;
   --IsDark: 1;
 }
