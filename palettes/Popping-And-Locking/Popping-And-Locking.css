@@ -1,5 +1,5 @@
 :root {
-  --name: 'Popping And Locking';
+  --name: Popping And Locking;
   --black: #1d2021;
   --red: #cc241d;
   --green: #98971a;
@@ -20,12 +20,12 @@
   --foreground: #ebdbb2;
   --cursorColor: #c7c7c7;
   --selectionBackground: #ebdbb2;
-  --creditTo: 'hedinne';
-  --creditToLink: 'https://github.com/hedinne';
+  --creditTo: hedinne;
+  --creditToLink: https://github.com/hedinne;
   --Luma: 0.099471;
   --Contrast: 0.761084;
-  --PaletteName: 'Popping And Locking';
-  --PaletteFileName: 'Popping-And-Locking';
+  --PaletteName: Popping And Locking;
+  --PaletteFileName: Popping-And-Locking;
   --IsBright: 0;
   --IsDark: 1;
 }
