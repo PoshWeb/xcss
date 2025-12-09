@@ -1,5 +1,5 @@
 :root {
-  --name: 'Seti';
+  --name: Seti;
   --black: #323232;
   --red: #c22832;
   --green: #8ec43d;
@@ -20,12 +20,12 @@
   --foreground: #cacecd;
   --cursorColor: #e3bf21;
   --selectionBackground: #303233;
-  --creditTo: 'jesseweed';
-  --creditToLink: 'https://github.com/jesseweed';
+  --creditTo: jesseweed;
+  --creditToLink: https://github.com/jesseweed;
   --Luma: 0.070038;
   --Contrast: 0.734187;
-  --PaletteName: 'Seti';
-  --PaletteFileName: 'Seti';
+  --PaletteName: Seti;
+  --PaletteFileName: Seti;
   --IsBright: 0;
   --IsDark: 1;
 }
