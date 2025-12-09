@@ -1,5 +1,5 @@
 :root {
-  --name: 'Firefox Dev';
+  --name: Firefox Dev;
   --black: #002831;
   --red: #e63853;
   --green: #5eb83c;
@@ -22,8 +22,8 @@
   --selectionBackground: #163c61;
   --Luma: 0.061361;
   --Contrast: 0.489528;
-  --PaletteName: 'Firefox Dev';
-  --PaletteFileName: 'Firefox-Dev';
+  --PaletteName: Firefox Dev;
+  --PaletteFileName: Firefox-Dev;
   --IsBright: 0;
   --IsDark: 1;
 }
