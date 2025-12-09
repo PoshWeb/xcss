@@ -1,5 +1,5 @@
 :root {
-  --name: 'Apple Classic';
+  --name: Apple Classic;
   --black: #000000;
   --red: #c91b00;
   --green: #00c200;
@@ -20,11 +20,11 @@
   --foreground: #d5a200;
   --cursorColor: #c7c7c7;
   --selectionBackground: #6b5b02;
-  --creditToLink: 'https://github.com/';
+  --creditToLink: https://github.com/;
   --Luma: 0.169461;
   --Contrast: 0.462485;
-  --PaletteName: 'Apple Classic';
-  --PaletteFileName: 'Apple-Classic';
+  --PaletteName: Apple Classic;
+  --PaletteFileName: Apple-Classic;
   --IsBright: 0;
   --IsDark: 1;
 }
