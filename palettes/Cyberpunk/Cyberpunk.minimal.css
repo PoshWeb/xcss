@@ -1,5 +1,5 @@
 :root {
-  --name: 'Cyberpunk';
+  --name: Cyberpunk;
   --black: #000000;
   --red: #ff7092;
   --green: #00fbac;
@@ -20,12 +20,12 @@
   --foreground: #e5e5e5;
   --cursorColor: #21f6bc;
   --selectionBackground: #c1deff;
-  --creditTo: 'Murderlon';
-  --creditToLink: 'https://github.com/Murderlon';
+  --creditTo: Murderlon;
+  --creditToLink: https://github.com/Murderlon;
   --Luma: 0.184951;
   --Contrast: 0.713088;
-  --PaletteName: 'Cyberpunk';
-  --PaletteFileName: 'Cyberpunk';
+  --PaletteName: Cyberpunk;
+  --PaletteFileName: Cyberpunk;
   --IsBright: 0;
   --IsDark: 1;
 }
