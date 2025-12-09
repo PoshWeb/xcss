@@ -1,5 +1,5 @@
 :root {
-  --name: 'Duckbones';
+  --name: Duckbones;
   --black: #0e101a;
   --red: #e03600;
   --green: #5dcd97;
@@ -20,12 +20,12 @@
   --foreground: #ebefc0;
   --cursorColor: #edf2c2;
   --selectionBackground: #37382d;
-  --creditTo: 'mcchrish';
-  --creditToLink: 'https://github.com/mcchrish';
+  --creditTo: mcchrish;
+  --creditToLink: https://github.com/mcchrish;
   --Luma: 0.063909;
   --Contrast: 0.856704;
-  --PaletteName: 'Duckbones';
-  --PaletteFileName: 'Duckbones';
+  --PaletteName: Duckbones;
+  --PaletteFileName: Duckbones;
   --IsBright: 0;
   --IsDark: 1;
 }
