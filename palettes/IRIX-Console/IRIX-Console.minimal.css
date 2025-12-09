@@ -1,5 +1,5 @@
 :root {
-  --name: 'IRIX Console';
+  --name: IRIX Console;
   --black: #1a1919;
   --red: #d42426;
   --green: #37a327;
@@ -22,8 +22,8 @@
   --selectionBackground: #c2deff;
   --Luma: 0.047059;
   --Contrast: 0.901961;
-  --PaletteName: 'IRIX Console';
-  --PaletteFileName: 'IRIX-Console';
+  --PaletteName: IRIX Console;
+  --PaletteFileName: IRIX-Console;
   --IsBright: 0;
   --IsDark: 1;
 }
