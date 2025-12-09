@@ -1,5 +1,5 @@
 :root {
-  --name: 'IC Orange PPL';
+  --name: IC Orange PPL;
   --black: #000000;
   --red: #c13900;
   --green: #a4a900;
@@ -22,8 +22,8 @@
   --selectionBackground: #c14020;
   --Luma: 0.14902;
   --Contrast: 0.670026;
-  --PaletteName: 'IC Orange PPL';
-  --PaletteFileName: 'IC-Orange-PPL';
+  --PaletteName: IC Orange PPL;
+  --PaletteFileName: IC-Orange-PPL;
   --IsBright: 0;
   --IsDark: 1;
 }
