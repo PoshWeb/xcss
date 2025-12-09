@@ -1,5 +1,5 @@
 :root {
-  --name: 'Doom One';
+  --name: Doom One;
   --black: #000000;
   --red: #ff6c6b;
   --green: #98be65;
@@ -20,12 +20,12 @@
   --foreground: #bbc2cf;
   --cursorColor: #51afef;
   --selectionBackground: #42444b;
-  --creditTo: 'hlissner';
-  --creditToLink: 'https://github.com/hlissner';
+  --creditTo: hlissner;
+  --creditToLink: https://github.com/hlissner;
   --Luma: 0.171479;
   --Contrast: 0.58715;
-  --PaletteName: 'Doom One';
-  --PaletteFileName: 'Doom-One';
+  --PaletteName: Doom One;
+  --PaletteFileName: Doom-One;
   --IsBright: 0;
   --IsDark: 1;
 }
