@@ -1,5 +1,5 @@
 :root {
-  --name: 'Lovelace';
+  --name: Lovelace;
   --black: #282a36;
   --red: #f37f97;
   --green: #5adecd;
@@ -20,12 +20,12 @@
   --foreground: #fdfdfd;
   --cursorColor: #c574dd;
   --selectionBackground: #c1deff;
-  --creditTo: 'nalanbar';
-  --creditToLink: 'https://github.com/nalanbar';
+  --creditTo: nalanbar;
+  --creditToLink: https://github.com/nalanbar;
   --Luma: 0.122449;
   --Contrast: 0.869708;
-  --PaletteName: 'Lovelace';
-  --PaletteFileName: 'Lovelace';
+  --PaletteName: Lovelace;
+  --PaletteFileName: Lovelace;
   --IsBright: 0;
   --IsDark: 1;
 }
