@@ -1,5 +1,5 @@
 :root {
-  --name: 'Light Owl';
+  --name: Light Owl;
   --black: #403f53;
   --red: #de3d3b;
   --green: #08916a;
@@ -22,8 +22,8 @@
   --selectionBackground: #e0e0e0;
   --Luma: 0.984314;
   --Contrast: 0.730759;
-  --PaletteName: 'Light Owl';
-  --PaletteFileName: 'Light-Owl';
+  --PaletteName: Light Owl;
+  --PaletteFileName: Light-Owl;
   --IsBright: 0;
   --IsDark: 1;
 }
