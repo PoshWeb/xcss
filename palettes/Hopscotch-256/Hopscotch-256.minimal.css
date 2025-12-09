@@ -1,5 +1,5 @@
 :root {
-  --name: 'Hopscotch.256';
+  --name: Hopscotch.256;
   --black: #322931;
   --red: #dd464c;
   --green: #8fc13e;
@@ -22,8 +22,8 @@
   --selectionBackground: #5c545b;
   --Luma: 0.170553;
   --Contrast: 0.543435;
-  --PaletteName: 'Hopscotch.256';
-  --PaletteFileName: 'Hopscotch-256';
+  --PaletteName: Hopscotch.256;
+  --PaletteFileName: Hopscotch-256;
   --IsBright: 0;
   --IsDark: 1;
 }
