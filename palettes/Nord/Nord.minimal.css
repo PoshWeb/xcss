@@ -1,5 +1,5 @@
 :root {
-  --name: 'Nord';
+  --name: Nord;
   --black: #3b4252;
   --red: #bf616a;
   --green: #a3be8c;
@@ -22,8 +22,8 @@
   --selectionBackground: #eceff4;
   --Luma: 0.202317;
   --Contrast: 0.666383;
-  --PaletteName: 'Nord';
-  --PaletteFileName: 'Nord';
+  --PaletteName: Nord;
+  --PaletteFileName: Nord;
   --IsBright: 0;
   --IsDark: 1;
 }
