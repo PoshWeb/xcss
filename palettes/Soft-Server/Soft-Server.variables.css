@@ -1,5 +1,5 @@
 :root {
-  --name: 'Soft Server';
+  --name: Soft Server;
   --black: #000000;
   --red: #a2686a;
   --green: #9aa56a;
@@ -22,8 +22,8 @@
   --selectionBackground: #7f8786;
   --Luma: 0.147352;
   --Contrast: 0.483243;
-  --PaletteName: 'Soft Server';
-  --PaletteFileName: 'Soft-Server';
+  --PaletteName: Soft Server;
+  --PaletteFileName: Soft-Server;
   --IsBright: 0;
   --IsDark: 1;
 }
