@@ -1,5 +1,5 @@
 :root {
-  --name: 'Xcode WWDC';
+  --name: Xcode WWDC;
   --black: #494d5c;
   --red: #bb383a;
   --green: #94c66e;
@@ -20,12 +20,12 @@
   --foreground: #e7e8eb;
   --cursorColor: #e7e8eb;
   --selectionBackground: #494d5c;
-  --creditTo: 'lunacookies';
-  --creditToLink: 'https://github.com/lunacookies';
+  --creditTo: lunacookies;
+  --creditToLink: https://github.com/lunacookies;
   --Luma: 0.172879;
   --Contrast: 0.736941;
-  --PaletteName: 'Xcode WWDC';
-  --PaletteFileName: 'Xcode-WWDC';
+  --PaletteName: Xcode WWDC;
+  --PaletteFileName: Xcode-WWDC;
   --IsBright: 0;
   --IsDark: 1;
 }
