@@ -1,5 +1,5 @@
 :root {
-  --name: 'Catppuccin Mocha';
+  --name: Catppuccin Mocha;
   --black: #45475a;
   --red: #f38ba8;
   --green: #a6e3a1;
@@ -22,8 +22,8 @@
   --selectionBackground: #585b70;
   --Luma: 0.122177;
   --Contrast: 0.718029;
-  --PaletteName: 'Catppuccin Mocha';
-  --PaletteFileName: 'Catppuccin-Mocha';
+  --PaletteName: Catppuccin Mocha;
+  --PaletteFileName: Catppuccin-Mocha;
   --IsBright: 0;
   --IsDark: 1;
 }
