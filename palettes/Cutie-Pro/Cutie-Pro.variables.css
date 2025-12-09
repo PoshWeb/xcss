@@ -1,5 +1,5 @@
 :root {
-  --name: 'Cutie Pro';
+  --name: Cutie Pro;
   --black: #000000;
   --red: #f56e7f;
   --green: #bec975;
@@ -22,8 +22,8 @@
   --selectionBackground: #363636;
   --Luma: 0.094118;
   --Contrast: 0.723755;
-  --PaletteName: 'Cutie Pro';
-  --PaletteFileName: 'Cutie-Pro';
+  --PaletteName: Cutie Pro;
+  --PaletteFileName: Cutie-Pro;
   --IsBright: 0;
   --IsDark: 1;
 }
