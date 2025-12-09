@@ -1,5 +1,5 @@
 :root {
-  --name: 'TokyoNight Day';
+  --name: TokyoNight Day;
   --black: #e9e9ed;
   --red: #f52a65;
   --green: #587539;
@@ -22,8 +22,8 @@
   --selectionBackground: #99a7df;
   --Luma: 0.886856;
   --Contrast: 0.51767;
-  --PaletteName: 'TokyoNight Day';
-  --PaletteFileName: 'TokyoNight-Day';
+  --PaletteName: TokyoNight Day;
+  --PaletteFileName: TokyoNight-Day;
   --IsBright: 0;
   --IsDark: 1;
 }
