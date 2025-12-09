@@ -1,5 +1,5 @@
 :root {
-  --name: 'Framer';
+  --name: Framer;
   --black: #141414;
   --red: #ff5555;
   --green: #98ec65;
@@ -20,12 +20,12 @@
   --foreground: #777777;
   --cursorColor: #fcdc08;
   --selectionBackground: #666666;
-  --creditTo: 'markogresak';
-  --creditToLink: 'https://github.com/markogresak';
+  --creditTo: markogresak;
+  --creditToLink: https://github.com/markogresak;
   --Luma: 0.066667;
   --Contrast: 0.4;
-  --PaletteName: 'Framer';
-  --PaletteFileName: 'Framer';
+  --PaletteName: Framer;
+  --PaletteFileName: Framer;
   --IsBright: 0;
   --IsDark: 1;
 }
