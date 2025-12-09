@@ -1,5 +1,5 @@
 :root {
-  --name: 'Galaxy';
+  --name: Galaxy;
   --black: #000000;
   --red: #f9555f;
   --green: #21b089;
@@ -20,12 +20,12 @@
   --foreground: #ffffff;
   --cursorColor: #bbbbbb;
   --selectionBackground: #b5d5ff;
-  --creditTo: 'jglovier';
-  --creditToLink: 'https://github.com/jglovier';
+  --creditTo: jglovier;
+  --creditToLink: https://github.com/jglovier;
   --Luma: 0.151939;
   --Contrast: 0.848061;
-  --PaletteName: 'Galaxy';
-  --PaletteFileName: 'Galaxy';
+  --PaletteName: Galaxy;
+  --PaletteFileName: Galaxy;
   --IsBright: 0;
   --IsDark: 1;
 }
