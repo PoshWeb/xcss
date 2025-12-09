@@ -1,5 +1,5 @@
 :root {
-  --name: 'Powershell';
+  --name: Powershell;
   --black: #000000;
   --red: #981a22;
   --green: #098003;
@@ -22,8 +22,8 @@
   --selectionBackground: #f6f6f7;
   --Luma: 0.128922;
   --Contrast: 0.836067;
-  --PaletteName: 'Powershell';
-  --PaletteFileName: 'Powershell';
+  --PaletteName: Powershell;
+  --PaletteFileName: Powershell;
   --IsBright: 0;
   --IsDark: 1;
 }
