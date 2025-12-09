@@ -1,5 +1,5 @@
 :root {
-  --name: 'Black Metal';
+  --name: Black Metal;
   --black: #000000;
   --red: #486e6f;
   --green: #dd9999;
@@ -20,12 +20,12 @@
   --foreground: #c1c1c1;
   --cursorColor: #c1c1c1;
   --selectionBackground: #c1c1c1;
-  --creditTo: 'nooneknowspeter';
-  --creditToLink: 'https://github.com/nooneknowspeter';
+  --creditTo: nooneknowspeter;
+  --creditToLink: https://github.com/nooneknowspeter;
   --Luma: 0;
   --Contrast: 0.756863;
-  --PaletteName: 'Black Metal';
-  --PaletteFileName: 'Black-Metal';
+  --PaletteName: Black Metal;
+  --PaletteFileName: Black-Metal;
   --IsBright: 0;
   --IsDark: 1;
 }
