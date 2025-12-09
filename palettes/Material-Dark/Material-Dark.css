@@ -1,5 +1,5 @@
 :root {
-  --name: 'Material Dark';
+  --name: Material Dark;
   --black: #212121;
   --red: #b7141f;
   --green: #457b24;
@@ -22,8 +22,8 @@
   --selectionBackground: #dfdfdf;
   --Luma: 0.136972;
   --Contrast: 0.761067;
-  --PaletteName: 'Material Dark';
-  --PaletteFileName: 'Material-Dark';
+  --PaletteName: Material Dark;
+  --PaletteFileName: Material-Dark;
   --IsBright: 0;
   --IsDark: 1;
 }
