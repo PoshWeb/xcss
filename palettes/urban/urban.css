@@ -1,5 +1,5 @@
 :root {
-  --name: 'urban';
+  --name: urban;
   --black: #33303b;
   --red: #87404f;
   --green: #74934e;
@@ -20,12 +20,12 @@
   --foreground: #c0a79a;
   --cursorColor: #c0a79a;
   --selectionBackground: #312e39;
-  --creditTo: 'dkeg';
-  --creditToLink: 'https://github.com/dkeg';
+  --creditTo: dkeg;
+  --creditToLink: https://github.com/dkeg;
   --Luma: 0.186008;
   --Contrast: 0.486056;
-  --PaletteName: 'urban';
-  --PaletteFileName: 'urban';
+  --PaletteName: urban;
+  --PaletteFileName: urban;
   --IsBright: 0;
   --IsDark: 1;
 }
