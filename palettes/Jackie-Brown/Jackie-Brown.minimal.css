@@ -1,5 +1,5 @@
 :root {
-  --name: 'Jackie Brown';
+  --name: Jackie Brown;
   --black: #2c1d16;
   --red: #ef5734;
   --green: #2baf2b;
@@ -20,12 +20,12 @@
   --foreground: #ffcc2f;
   --cursorColor: #23ff18;
   --selectionBackground: #af8d21;
-  --creditTo: 'Unkulunkulu';
-  --creditToLink: 'https://github.com/Unkulunkulu';
+  --creditTo: Unkulunkulu;
+  --creditToLink: https://github.com/Unkulunkulu;
   --Luma: 0.124249;
   --Contrast: 0.673818;
-  --PaletteName: 'Jackie Brown';
-  --PaletteFileName: 'Jackie-Brown';
+  --PaletteName: Jackie Brown;
+  --PaletteFileName: Jackie-Brown;
   --IsBright: 0;
   --IsDark: 1;
 }
