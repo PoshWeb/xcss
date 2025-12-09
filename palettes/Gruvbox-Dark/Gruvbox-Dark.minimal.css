@@ -1,5 +1,5 @@
 :root {
-  --name: 'Gruvbox Dark';
+  --name: Gruvbox Dark;
   --black: #282828;
   --red: #cc241d;
   --green: #98971a;
@@ -20,12 +20,12 @@
   --foreground: #ebdbb2;
   --cursorColor: #ebdbb2;
   --selectionBackground: #665c54;
-  --creditTo: 'morhetz';
-  --creditToLink: 'https://github.com/morhetz';
+  --creditTo: morhetz;
+  --creditToLink: https://github.com/morhetz;
   --Luma: 0.156863;
   --Contrast: 0.703692;
-  --PaletteName: 'Gruvbox Dark';
-  --PaletteFileName: 'Gruvbox-Dark';
+  --PaletteName: Gruvbox Dark;
+  --PaletteFileName: Gruvbox-Dark;
   --IsBright: 0;
   --IsDark: 1;
 }
