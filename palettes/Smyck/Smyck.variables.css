@@ -1,5 +1,5 @@
 :root {
-  --name: 'Smyck';
+  --name: Smyck;
   --black: #000000;
   --red: #b84131;
   --green: #7da900;
@@ -20,12 +20,12 @@
   --foreground: #f7f7f7;
   --cursorColor: #bbbbbb;
   --selectionBackground: #207483;
-  --creditTo: 'hukl';
-  --creditToLink: 'https://github.com/hukl';
+  --creditTo: hukl;
+  --creditToLink: https://github.com/hukl;
   --Luma: 0.105882;
   --Contrast: 0.862745;
-  --PaletteName: 'Smyck';
-  --PaletteFileName: 'Smyck';
+  --PaletteName: Smyck;
+  --PaletteFileName: Smyck;
   --IsBright: 0;
   --IsDark: 1;
 }
