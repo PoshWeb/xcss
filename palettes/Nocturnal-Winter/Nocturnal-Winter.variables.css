@@ -1,5 +1,5 @@
 :root {
-  --name: 'Nocturnal Winter';
+  --name: Nocturnal Winter;
   --black: #4d4d4d;
   --red: #f12d52;
   --green: #09cd7e;
@@ -20,12 +20,12 @@
   --foreground: #e6e5e5;
   --cursorColor: #e6e5e5;
   --selectionBackground: #adbdd0;
-  --creditTo: 'Shriram-Balaji';
-  --creditToLink: 'https://github.com/Shriram-Balaji';
+  --creditTo: Shriram-Balaji;
+  --creditToLink: https://github.com/Shriram-Balaji;
   --Luma: 0.053812;
   --Contrast: 0.845061;
-  --PaletteName: 'Nocturnal Winter';
-  --PaletteFileName: 'Nocturnal-Winter';
+  --PaletteName: Nocturnal Winter;
+  --PaletteFileName: Nocturnal-Winter;
   --IsBright: 0;
   --IsDark: 1;
 }
