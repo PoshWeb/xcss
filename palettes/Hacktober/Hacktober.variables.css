@@ -1,5 +1,5 @@
 :root {
-  --name: 'Hacktober';
+  --name: Hacktober;
   --black: #191918;
   --red: #b34538;
   --green: #587744;
@@ -22,8 +22,8 @@
   --selectionBackground: #141414;
   --Luma: 0.078431;
   --Contrast: 0.709804;
-  --PaletteName: 'Hacktober';
-  --PaletteFileName: 'Hacktober';
+  --PaletteName: Hacktober;
+  --PaletteFileName: Hacktober;
   --IsBright: 0;
   --IsDark: 1;
 }
