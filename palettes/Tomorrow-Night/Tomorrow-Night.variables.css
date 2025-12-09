@@ -1,5 +1,5 @@
 :root {
-  --name: 'Tomorrow Night';
+  --name: Tomorrow Night;
   --black: #000000;
   --red: #cc6666;
   --green: #b5bd68;
@@ -20,12 +20,12 @@
   --foreground: #c5c8c6;
   --cursorColor: #c5c8c6;
   --selectionBackground: #373b41;
-  --creditTo: 'ashwinv11';
-  --creditToLink: 'https://github.com/ashwinv11';
+  --creditTo: ashwinv11;
+  --creditToLink: https://github.com/ashwinv11;
   --Luma: 0.120467;
   --Contrast: 0.660779;
-  --PaletteName: 'Tomorrow Night';
-  --PaletteFileName: 'Tomorrow-Night';
+  --PaletteName: Tomorrow Night;
+  --PaletteFileName: Tomorrow-Night;
   --IsBright: 0;
   --IsDark: 1;
 }
