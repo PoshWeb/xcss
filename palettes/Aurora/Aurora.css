@@ -1,5 +1,5 @@
 :root {
-  --name: 'Aurora';
+  --name: Aurora;
   --black: #23262e;
   --red: #f0266f;
   --green: #8fd46d;
@@ -20,11 +20,11 @@
   --foreground: #ffca28;
   --cursorColor: #ee5d43;
   --selectionBackground: #292e38;
-  --creditToLink: 'https://github.com/';
+  --creditToLink: https://github.com/;
   --Luma: 0.148784;
   --Contrast: 0.641692;
-  --PaletteName: 'Aurora';
-  --PaletteFileName: 'Aurora';
+  --PaletteName: Aurora;
+  --PaletteFileName: Aurora;
   --IsBright: 0;
   --IsDark: 1;
 }
