@@ -1,5 +1,5 @@
 :root {
-  --name: 'Misterioso';
+  --name: Misterioso;
   --black: #000000;
   --red: #ff4242;
   --green: #74af68;
@@ -20,12 +20,12 @@
   --foreground: #e1e1e0;
   --cursorColor: #666666;
   --selectionBackground: #2d37ff;
-  --creditTo: 'flooose';
-  --creditToLink: 'https://github.com/flooose';
+  --creditTo: flooose;
+  --creditToLink: https://github.com/flooose;
   --Luma: 0.210747;
   --Contrast: 0.671323;
-  --PaletteName: 'Misterioso';
-  --PaletteFileName: 'Misterioso';
+  --PaletteName: Misterioso;
+  --PaletteFileName: Misterioso;
   --IsBright: 0;
   --IsDark: 1;
 }
