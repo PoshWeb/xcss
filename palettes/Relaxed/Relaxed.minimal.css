@@ -1,5 +1,5 @@
 :root {
-  --name: 'Relaxed';
+  --name: Relaxed;
   --black: #151515;
   --red: #bc5653;
   --green: #909d63;
@@ -22,8 +22,8 @@
   --selectionBackground: #6a7985;
   --Luma: 0.226114;
   --Contrast: 0.624866;
-  --PaletteName: 'Relaxed';
-  --PaletteFileName: 'Relaxed';
+  --PaletteName: Relaxed;
+  --PaletteFileName: Relaxed;
   --IsBright: 0;
   --IsDark: 1;
 }
