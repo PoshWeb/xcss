@@ -1,5 +1,5 @@
 :root {
-  --name: 'Hybrid';
+  --name: Hybrid;
   --black: #2a2e33;
   --red: #b84d51;
   --green: #b3bf5a;
@@ -20,12 +20,12 @@
   --foreground: #b7bcba;
   --cursorColor: #b7bcba;
   --selectionBackground: #1e1f22;
-  --creditTo: 'luan';
-  --creditToLink: 'https://github.com/luan';
+  --creditTo: luan;
+  --creditToLink: https://github.com/luan;
   --Luma: 0.089929;
   --Contrast: 0.642591;
-  --PaletteName: 'Hybrid';
-  --PaletteFileName: 'Hybrid';
+  --PaletteName: Hybrid;
+  --PaletteFileName: Hybrid;
   --IsBright: 0;
   --IsDark: 1;
 }
