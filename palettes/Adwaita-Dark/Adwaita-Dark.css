@@ -1,5 +1,5 @@
 :root {
-  --name: 'Adwaita Dark';
+  --name: Adwaita Dark;
   --black: #241f31;
   --red: #c01c28;
   --green: #2ec27e;
@@ -20,11 +20,11 @@
   --foreground: #ffffff;
   --cursorColor: #ffffff;
   --selectionBackground: #ffffff;
-  --creditToLink: 'https://github.com/';
+  --creditToLink: https://github.com/;
   --Luma: 0.114575;
   --Contrast: 0.885425;
-  --PaletteName: 'Adwaita Dark';
-  --PaletteFileName: 'Adwaita-Dark';
+  --PaletteName: Adwaita Dark;
+  --PaletteFileName: Adwaita-Dark;
   --IsBright: 0;
   --IsDark: 1;
 }
