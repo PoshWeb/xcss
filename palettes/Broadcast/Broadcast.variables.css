@@ -1,5 +1,5 @@
 :root {
-  --name: 'Broadcast';
+  --name: Broadcast;
   --black: #000000;
   --red: #da4939;
   --green: #519f50;
@@ -20,12 +20,12 @@
   --foreground: #e6e1dc;
   --cursorColor: #ffffff;
   --selectionBackground: #5a647e;
-  --creditTo: 'vinkla';
-  --creditToLink: 'https://github.com/vinkla';
+  --creditTo: vinkla;
+  --creditToLink: https://github.com/vinkla;
   --Luma: 0.168627;
   --Contrast: 0.716479;
-  --PaletteName: 'Broadcast';
-  --PaletteFileName: 'Broadcast';
+  --PaletteName: Broadcast;
+  --PaletteFileName: Broadcast;
   --IsBright: 0;
   --IsDark: 1;
 }
