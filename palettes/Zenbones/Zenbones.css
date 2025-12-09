@@ -1,5 +1,5 @@
 :root {
-  --name: 'Zenbones';
+  --name: Zenbones;
   --black: #f0edec;
   --red: #a8334c;
   --green: #4f6c31;
@@ -20,12 +20,12 @@
   --foreground: #2c363c;
   --cursorColor: #2c363c;
   --selectionBackground: #cbd9e3;
-  --creditTo: 'mcchrish';
-  --creditToLink: 'https://github.com/mcchrish';
+  --creditTo: mcchrish;
+  --creditToLink: https://github.com/mcchrish;
   --Luma: 0.93163;
   --Contrast: 0.726504;
-  --PaletteName: 'Zenbones';
-  --PaletteFileName: 'Zenbones';
+  --PaletteName: Zenbones;
+  --PaletteFileName: Zenbones;
   --IsBright: 0;
   --IsDark: 1;
 }
