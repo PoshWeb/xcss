@@ -1,5 +1,5 @@
 :root {
-  --name: 'Catppuccin Macchiato';
+  --name: Catppuccin Macchiato;
   --black: #494d64;
   --red: #ed8796;
   --green: #a6da95;
@@ -22,8 +22,8 @@
   --selectionBackground: #5b6078;
   --Luma: 0.15582;
   --Contrast: 0.673754;
-  --PaletteName: 'Catppuccin Macchiato';
-  --PaletteFileName: 'Catppuccin-Macchiato';
+  --PaletteName: Catppuccin Macchiato;
+  --PaletteFileName: Catppuccin-Macchiato;
   --IsBright: 0;
   --IsDark: 1;
 }
