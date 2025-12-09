@@ -1,5 +1,5 @@
 :root {
-  --name: 'Urple';
+  --name: Urple;
   --black: #000000;
   --red: #b0425b;
   --green: #37a415;
@@ -20,12 +20,12 @@
   --foreground: #877a9b;
   --cursorColor: #a063eb;
   --selectionBackground: #a063eb;
-  --creditTo: 'zdj';
-  --creditToLink: 'https://github.com/zdj';
+  --creditTo: zdj;
+  --creditToLink: https://github.com/zdj;
   --Luma: 0.108147;
   --Contrast: 0.390466;
-  --PaletteName: 'Urple';
-  --PaletteFileName: 'Urple';
+  --PaletteName: Urple;
+  --PaletteFileName: Urple;
   --IsBright: 0;
   --IsDark: 1;
 }
