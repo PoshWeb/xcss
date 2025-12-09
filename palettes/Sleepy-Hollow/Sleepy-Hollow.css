@@ -1,5 +1,5 @@
 :root {
-  --name: 'Sleepy Hollow';
+  --name: Sleepy Hollow;
   --black: #572100;
   --red: #ba3934;
   --green: #91773f;
@@ -22,8 +22,8 @@
   --selectionBackground: #575256;
   --Luma: 0.071155;
   --Contrast: 0.547727;
-  --PaletteName: 'Sleepy Hollow';
-  --PaletteFileName: 'Sleepy-Hollow';
+  --PaletteName: Sleepy Hollow;
+  --PaletteFileName: Sleepy-Hollow;
   --IsBright: 0;
   --IsDark: 1;
 }
