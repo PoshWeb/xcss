@@ -1,5 +1,5 @@
 :root {
-  --name: 'Ultra Violent';
+  --name: Ultra Violent;
   --black: #242728;
   --red: #ff0090;
   --green: #b6ff00;
@@ -22,8 +22,8 @@
   --selectionBackground: #574c49;
   --Luma: 0.150723;
   --Contrast: 0.60614;
-  --PaletteName: 'Ultra Violent';
-  --PaletteFileName: 'Ultra-Violent';
+  --PaletteName: Ultra Violent;
+  --PaletteFileName: Ultra-Violent;
   --IsBright: 0;
   --IsDark: 1;
 }
