@@ -1,5 +1,5 @@
 :root {
-  --name: 'Dracula+';
+  --name: Dracula+;
   --black: #21222c;
   --red: #ff5555;
   --green: #50fa7b;
@@ -22,8 +22,8 @@
   --selectionBackground: #f8f8f2;
   --Luma: 0.129412;
   --Contrast: 0.841438;
-  --PaletteName: 'Dracula+';
-  --PaletteFileName: 'Dracula+';
+  --PaletteName: Dracula+;
+  --PaletteFileName: Dracula+;
   --IsBright: 0;
   --IsDark: 1;
 }
