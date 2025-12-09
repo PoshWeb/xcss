@@ -1,5 +1,5 @@
 :root {
-  --name: 'Zenwritten Light';
+  --name: Zenwritten Light;
   --black: #eeeeee;
   --red: #a8334c;
   --green: #4f6c31;
@@ -22,8 +22,8 @@
   --selectionBackground: #d7d7d7;
   --Luma: 0.933333;
   --Contrast: 0.72549;
-  --PaletteName: 'Zenwritten Light';
-  --PaletteFileName: 'Zenwritten-Light';
+  --PaletteName: Zenwritten Light;
+  --PaletteFileName: Zenwritten-Light;
   --IsBright: 0;
   --IsDark: 1;
 }
