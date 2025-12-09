@@ -1,5 +1,5 @@
 :root {
-  --name: 'Royal';
+  --name: Royal;
   --black: #241f2b;
   --red: #91284c;
   --green: #23801c;
@@ -20,12 +20,12 @@
   --foreground: #514968;
   --cursorColor: #524966;
   --selectionBackground: #1f1d2b;
-  --creditTo: 'zdj';
-  --creditToLink: 'https://github.com/zdj';
+  --creditTo: zdj;
+  --creditToLink: https://github.com/zdj;
   --Luma: 0.041723;
   --Contrast: 0.259999;
-  --PaletteName: 'Royal';
-  --PaletteFileName: 'Royal';
+  --PaletteName: Royal;
+  --PaletteFileName: Royal;
   --IsBright: 0;
   --IsDark: 1;
 }
