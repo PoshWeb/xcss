@@ -1,5 +1,5 @@
 :root {
-  --name: 'Dimidium';
+  --name: Dimidium;
   --black: #000000;
   --red: #cf494c;
   --green: #60b442;
@@ -20,12 +20,12 @@
   --foreground: #bab7b6;
   --cursorColor: #37e57b;
   --selectionBackground: #8db8e5;
-  --creditTo: 'dofuuz';
-  --creditToLink: 'https://github.com/dofuuz';
+  --creditTo: dofuuz;
+  --creditToLink: https://github.com/dofuuz;
   --Luma: 0.078431;
   --Contrast: 0.641434;
-  --PaletteName: 'Dimidium';
-  --PaletteFileName: 'Dimidium';
+  --PaletteName: Dimidium;
+  --PaletteFileName: Dimidium;
   --IsBright: 0;
   --IsDark: 1;
 }
