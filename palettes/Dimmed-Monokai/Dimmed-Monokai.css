@@ -1,5 +1,5 @@
 :root {
-  --name: 'Dimmed Monokai';
+  --name: Dimmed Monokai;
   --black: #3a3d43;
   --red: #be3f48;
   --green: #879a3b;
@@ -22,8 +22,8 @@
   --selectionBackground: #2a2d32;
   --Luma: 0.121569;
   --Contrast: 0.612618;
-  --PaletteName: 'Dimmed Monokai';
-  --PaletteFileName: 'Dimmed-Monokai';
+  --PaletteName: Dimmed Monokai;
+  --PaletteFileName: Dimmed-Monokai;
   --IsBright: 0;
   --IsDark: 1;
 }
