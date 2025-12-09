@@ -1,5 +1,5 @@
 :root {
-  --name: 'Borland';
+  --name: Borland;
   --black: #4f4f4f;
   --red: #ff6c60;
   --green: #a8ff60;
@@ -20,12 +20,12 @@
   --foreground: #ffff4e;
   --cursorColor: #ffa560;
   --selectionBackground: #a4a4a4;
-  --creditTo: 'delip';
-  --creditToLink: 'https://github.com/delip';
+  --creditTo: delip;
+  --creditToLink: https://github.com/delip;
   --Luma: 0.046435;
   --Contrast: 0.90345;
-  --PaletteName: 'Borland';
-  --PaletteFileName: 'Borland';
+  --PaletteName: Borland;
+  --PaletteFileName: Borland;
   --IsBright: 0;
   --IsDark: 1;
 }
