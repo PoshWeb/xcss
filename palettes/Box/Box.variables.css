@@ -1,5 +1,5 @@
 :root {
-  --name: 'Box';
+  --name: Box;
   --black: #000000;
   --red: #cc0403;
   --green: #19cb00;
@@ -20,12 +20,12 @@
   --foreground: #9fef00;
   --cursorColor: #9fef00;
   --selectionBackground: #a4b1cd;
-  --creditTo: 'D3vil0p3r';
-  --creditToLink: 'https://github.com/D3vil0p3r';
+  --creditTo: D3vil0p3r;
+  --creditToLink: https://github.com/D3vil0p3r;
   --Luma: 0.110186;
   --Contrast: 0.692701;
-  --PaletteName: 'Box';
-  --PaletteFileName: 'Box';
+  --PaletteName: Box;
+  --PaletteFileName: Box;
   --IsBright: 0;
   --IsDark: 1;
 }
