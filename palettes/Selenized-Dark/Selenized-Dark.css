@@ -1,5 +1,5 @@
 :root {
-  --name: 'Selenized Dark';
+  --name: Selenized Dark;
   --black: #184956;
   --red: #fa5750;
   --green: #75b938;
@@ -20,12 +20,12 @@
   --foreground: #adbcbc;
   --cursorColor: #adbcbc;
   --selectionBackground: #184956;
-  --creditTo: 'jan-warchol';
-  --creditToLink: 'https://github.com/jan-warchol';
+  --creditTo: jan-warchol;
+  --creditToLink: https://github.com/jan-warchol;
   --Luma: 0.202008;
   --Contrast: 0.522741;
-  --PaletteName: 'Selenized Dark';
-  --PaletteFileName: 'Selenized-Dark';
+  --PaletteName: Selenized Dark;
+  --PaletteFileName: Selenized-Dark;
   --IsBright: 0;
   --IsDark: 1;
 }
