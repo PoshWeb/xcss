@@ -1,5 +1,5 @@
 :root {
-  --name: 'Xcode Light hc';
+  --name: Xcode Light hc;
   --black: #b4d8fd;
   --red: #ad1805;
   --green: #355d61;
@@ -22,8 +22,8 @@
   --selectionBackground: #b4d8fd;
   --Luma: 1;
   --Contrast: 1;
-  --PaletteName: 'Xcode Light hc';
-  --PaletteFileName: 'Xcode-Light-hc';
+  --PaletteName: Xcode Light hc;
+  --PaletteFileName: Xcode-Light-hc;
   --IsBright: 0;
   --IsDark: 1;
 }
