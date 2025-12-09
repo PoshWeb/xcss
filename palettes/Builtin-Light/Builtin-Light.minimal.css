@@ -1,5 +1,5 @@
 :root {
-  --name: 'Builtin Light';
+  --name: Builtin Light;
   --black: #000000;
   --red: #bb0000;
   --green: #00bb00;
@@ -22,8 +22,8 @@
   --selectionBackground: #b5d5ff;
   --Luma: 1;
   --Contrast: 1;
-  --PaletteName: 'Builtin Light';
-  --PaletteFileName: 'Builtin-Light';
+  --PaletteName: Builtin Light;
+  --PaletteFileName: Builtin-Light;
   --IsBright: 0;
   --IsDark: 1;
 }
