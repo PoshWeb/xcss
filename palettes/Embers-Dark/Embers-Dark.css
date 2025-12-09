@@ -1,5 +1,5 @@
 :root {
-  --name: 'Embers Dark';
+  --name: Embers Dark;
   --black: #16130f;
   --red: #826d57;
   --green: #57826d;
@@ -22,8 +22,8 @@
   --selectionBackground: #433b32;
   --Luma: 0.075878;
   --Contrast: 0.532716;
-  --PaletteName: 'Embers Dark';
-  --PaletteFileName: 'Embers-Dark';
+  --PaletteName: Embers Dark;
+  --PaletteFileName: Embers-Dark;
   --IsBright: 0;
   --IsDark: 1;
 }
