@@ -1,5 +1,5 @@
 :root {
-  --name: 'Vesper';
+  --name: Vesper;
   --black: #101010;
   --red: #f5a191;
   --green: #90b99f;
@@ -20,12 +20,12 @@
   --foreground: #ffffff;
   --cursorColor: #acb1ab;
   --selectionBackground: #988049;
-  --creditTo: 'raunofreiberg';
-  --creditToLink: 'https://github.com/raunofreiberg';
+  --creditTo: raunofreiberg;
+  --creditToLink: https://github.com/raunofreiberg;
   --Luma: 0.062745;
   --Contrast: 0.937255;
-  --PaletteName: 'Vesper';
-  --PaletteFileName: 'Vesper';
+  --PaletteName: Vesper;
+  --PaletteFileName: Vesper;
   --IsBright: 0;
   --IsDark: 1;
 }
