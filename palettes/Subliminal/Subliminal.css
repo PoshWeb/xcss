@@ -1,5 +1,5 @@
 :root {
-  --name: 'Subliminal';
+  --name: Subliminal;
   --black: #7f7f7f;
   --red: #e15a60;
   --green: #a9cfa4;
@@ -20,12 +20,12 @@
   --foreground: #d4d4d4;
   --cursorColor: #c7c7c7;
   --selectionBackground: #484e5b;
-  --creditTo: 'gdsrosa';
-  --creditToLink: 'https://github.com/gdsrosa';
+  --creditTo: gdsrosa;
+  --creditToLink: https://github.com/gdsrosa;
   --Luma: 0.171762;
   --Contrast: 0.659611;
-  --PaletteName: 'Subliminal';
-  --PaletteFileName: 'Subliminal';
+  --PaletteName: Subliminal;
+  --PaletteFileName: Subliminal;
   --IsBright: 0;
   --IsDark: 1;
 }
