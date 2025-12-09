@@ -1,5 +1,5 @@
 :root {
-  --name: 'Spacegray Eighties';
+  --name: Spacegray Eighties;
   --black: #15171c;
   --red: #ec5f67;
   --green: #81a764;
@@ -20,12 +20,12 @@
   --foreground: #bdbaae;
   --cursorColor: #bbbbbb;
   --selectionBackground: #272e35;
-  --creditTo: 'mhkeller';
-  --creditToLink: 'https://github.com/mhkeller';
+  --creditTo: mhkeller;
+  --creditToLink: https://github.com/mhkeller;
   --Luma: 0.133333;
   --Contrast: 0.595182;
-  --PaletteName: 'Spacegray Eighties';
-  --PaletteFileName: 'Spacegray-Eighties';
+  --PaletteName: Spacegray Eighties;
+  --PaletteFileName: Spacegray-Eighties;
   --IsBright: 0;
   --IsDark: 1;
 }
