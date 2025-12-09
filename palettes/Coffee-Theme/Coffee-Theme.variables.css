@@ -1,5 +1,5 @@
 :root {
-  --name: 'Coffee Theme';
+  --name: Coffee Theme;
   --black: #000000;
   --red: #c91b00;
   --green: #00c200;
@@ -20,12 +20,12 @@
   --foreground: #000000;
   --cursorColor: #a1a1a1;
   --selectionBackground: #c1deff;
-  --creditTo: 'cbitterfield';
-  --creditToLink: 'https://github.com/cbitterfield';
+  --creditTo: cbitterfield;
+  --creditToLink: https://github.com/cbitterfield;
   --Luma: 0.877589;
   --Contrast: 0.877589;
-  --PaletteName: 'Coffee Theme';
-  --PaletteFileName: 'Coffee-Theme';
+  --PaletteName: Coffee Theme;
+  --PaletteFileName: Coffee-Theme;
   --IsBright: 0;
   --IsDark: 1;
 }
