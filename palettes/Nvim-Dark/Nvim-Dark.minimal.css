@@ -1,5 +1,5 @@
 :root {
-  --name: 'Nvim Dark';
+  --name: Nvim Dark;
   --black: #07080d;
   --red: #ffc0b9;
   --green: #b3f6c0;
@@ -22,8 +22,8 @@
   --selectionBackground: #4f5258;
   --Luma: 0.086023;
   --Contrast: 0.800849;
-  --PaletteName: 'Nvim Dark';
-  --PaletteFileName: 'Nvim-Dark';
+  --PaletteName: Nvim Dark;
+  --PaletteFileName: Nvim-Dark;
   --IsBright: 0;
   --IsDark: 1;
 }
