@@ -1,5 +1,5 @@
 :root {
-  --name: 'Cobalt Next';
+  --name: Cobalt Next;
   --black: #000000;
   --red: #ff527b;
   --green: #8cc98f;
@@ -22,8 +22,8 @@
   --selectionBackground: #4c5b67;
   --Luma: 0.156755;
   --Contrast: 0.711395;
-  --PaletteName: 'Cobalt Next';
-  --PaletteFileName: 'Cobalt-Next';
+  --PaletteName: Cobalt Next;
+  --PaletteFileName: Cobalt-Next;
   --IsBright: 0;
   --IsDark: 1;
 }
