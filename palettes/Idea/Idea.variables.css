@@ -1,5 +1,5 @@
 :root {
-  --name: 'Idea';
+  --name: Idea;
   --black: #adadad;
   --red: #fc5256;
   --green: #98b61c;
@@ -22,8 +22,8 @@
   --selectionBackground: #44475a;
   --Luma: 0.12549;
   --Contrast: 0.552941;
-  --PaletteName: 'Idea';
-  --PaletteFileName: 'Idea';
+  --PaletteName: Idea;
+  --PaletteFileName: Idea;
   --IsBright: 0;
   --IsDark: 1;
 }
