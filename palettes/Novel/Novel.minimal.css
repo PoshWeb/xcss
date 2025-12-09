@@ -1,5 +1,5 @@
 :root {
-  --name: 'Novel';
+  --name: Novel;
   --black: #000000;
   --red: #cc0000;
   --green: #009600;
@@ -22,8 +22,8 @@
   --selectionBackground: #a4a390;
   --Luma: 0.855363;
   --Contrast: 0.698382;
-  --PaletteName: 'Novel';
-  --PaletteFileName: 'Novel';
+  --PaletteName: Novel;
+  --PaletteFileName: Novel;
   --IsBright: 0;
   --IsDark: 1;
 }
