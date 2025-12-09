@@ -1,5 +1,5 @@
 :root {
-  --name: 'Forest Blue';
+  --name: Forest Blue;
   --black: #333333;
   --red: #f8818e;
   --green: #92d3a2;
@@ -20,12 +20,12 @@
   --foreground: #e2d8cd;
   --cursorColor: #9e9ecb;
   --selectionBackground: #4d4d4d;
-  --creditTo: 'olkinn';
-  --creditToLink: 'https://github.com/olkinn';
+  --creditTo: olkinn;
+  --creditToLink: https://github.com/olkinn;
   --Luma: 0.070146;
   --Contrast: 0.782136;
-  --PaletteName: 'Forest Blue';
-  --PaletteFileName: 'Forest-Blue';
+  --PaletteName: Forest Blue;
+  --PaletteFileName: Forest-Blue;
   --IsBright: 0;
   --IsDark: 1;
 }
