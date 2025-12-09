@@ -1,5 +1,5 @@
 :root {
-  --name: 'IRIX Terminal';
+  --name: IRIX Terminal;
   --black: #1a1919;
   --red: #ff2b1e;
   --green: #57ff3d;
@@ -22,8 +22,8 @@
   --selectionBackground: #c2deff;
   --Luma: 0.01897;
   --Contrast: 0.93005;
-  --PaletteName: 'IRIX Terminal';
-  --PaletteFileName: 'IRIX-Terminal';
+  --PaletteName: IRIX Terminal;
+  --PaletteFileName: IRIX-Terminal;
   --IsBright: 0;
   --IsDark: 1;
 }
