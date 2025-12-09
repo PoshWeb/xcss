@@ -1,5 +1,5 @@
 :root {
-  --name: 'Flat';
+  --name: Flat;
   --black: #222d3f;
   --red: #a82320;
   --green: #32a548;
@@ -20,12 +20,12 @@
   --foreground: #2cc55d;
   --cursorColor: #e5be0c;
   --selectionBackground: #792b9c;
-  --creditTo: 'ahmetsulek';
-  --creditToLink: 'https://github.com/ahmetsulek';
+  --creditTo: ahmetsulek;
+  --creditToLink: https://github.com/ahmetsulek;
   --Luma: 0.113481;
   --Contrast: 0.502062;
-  --PaletteName: 'Flat';
-  --PaletteFileName: 'Flat';
+  --PaletteName: Flat;
+  --PaletteFileName: Flat;
   --IsBright: 0;
   --IsDark: 1;
 }
