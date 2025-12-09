@@ -1,5 +1,5 @@
 :root {
-  --name: 'Poimandres Darker';
+  --name: Poimandres Darker;
   --black: #16161e;
   --red: #d0679d;
   --green: #5de4c7;
@@ -22,8 +22,8 @@
   --selectionBackground: #a6accd;
   --Luma: 0.08854;
   --Contrast: 0.590311;
-  --PaletteName: 'Poimandres Darker';
-  --PaletteFileName: 'Poimandres-Darker';
+  --PaletteName: Poimandres Darker;
+  --PaletteFileName: Poimandres-Darker;
   --IsBright: 0;
   --IsDark: 1;
 }
