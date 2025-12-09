@@ -1,5 +1,5 @@
 :root {
-  --name: 'Square';
+  --name: Square;
   --black: #050505;
   --red: #e9897c;
   --green: #b6377d;
@@ -20,12 +20,12 @@
   --foreground: #acacab;
   --cursorColor: #fcfbcc;
   --selectionBackground: #4d4d4d;
-  --creditTo: 'baskerville';
-  --creditToLink: 'https://github.com/baskerville';
+  --creditTo: baskerville;
+  --creditToLink: https://github.com/baskerville;
   --Luma: 0.101961;
   --Contrast: 0.572266;
-  --PaletteName: 'Square';
-  --PaletteFileName: 'Square';
+  --PaletteName: Square;
+  --PaletteFileName: Square;
   --IsBright: 0;
   --IsDark: 1;
 }
