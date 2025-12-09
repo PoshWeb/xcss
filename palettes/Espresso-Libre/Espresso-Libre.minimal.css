@@ -1,5 +1,5 @@
 :root {
-  --name: 'Espresso Libre';
+  --name: Espresso Libre;
   --black: #000000;
   --red: #cc0000;
   --green: #1a921c;
@@ -20,11 +20,11 @@
   --foreground: #b8a898;
   --cursorColor: #ffffff;
   --selectionBackground: #c3dcff;
-  --creditToLink: 'https://github.com/';
+  --creditToLink: https://github.com/;
   --Luma: 0.1355;
   --Contrast: 0.532133;
-  --PaletteName: 'Espresso Libre';
-  --PaletteFileName: 'Espresso-Libre';
+  --PaletteName: Espresso Libre;
+  --PaletteFileName: Espresso-Libre;
   --IsBright: 0;
   --IsDark: 1;
 }
