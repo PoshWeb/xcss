@@ -1,5 +1,5 @@
 :root {
-  --name: 'Matrix';
+  --name: Matrix;
   --black: #0f191c;
   --red: #23755a;
   --green: #82d967;
@@ -20,12 +20,12 @@
   --foreground: #426644;
   --cursorColor: #384545;
   --selectionBackground: #18282e;
-  --creditTo: 'ReagentX';
-  --creditToLink: 'https://github.com/ReagentX';
+  --creditTo: ReagentX;
+  --creditToLink: https://github.com/ReagentX;
   --Luma: 0.090551;
   --Contrast: 0.269808;
-  --PaletteName: 'Matrix';
-  --PaletteFileName: 'Matrix';
+  --PaletteName: Matrix;
+  --PaletteFileName: Matrix;
   --IsBright: 0;
   --IsDark: 1;
 }
