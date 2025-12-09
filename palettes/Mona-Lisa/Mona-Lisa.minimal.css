@@ -1,5 +1,5 @@
 :root {
-  --name: 'Mona Lisa';
+  --name: Mona Lisa;
   --black: #351b0e;
   --red: #9b291c;
   --green: #636232;
@@ -22,8 +22,8 @@
   --selectionBackground: #f7d66a;
   --Luma: 0.04954;
   --Contrast: 0.78661;
-  --PaletteName: 'Mona Lisa';
-  --PaletteFileName: 'Mona-Lisa';
+  --PaletteName: Mona Lisa;
+  --PaletteFileName: Mona-Lisa;
   --IsBright: 0;
   --IsDark: 1;
 }
