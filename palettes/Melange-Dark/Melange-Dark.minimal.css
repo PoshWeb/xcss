@@ -1,5 +1,5 @@
 :root {
-  --name: 'Melange Dark';
+  --name: Melange Dark;
   --black: #34302c;
   --red: #bd8183;
   --green: #78997a;
@@ -22,8 +22,8 @@
   --selectionBackground: #ece1d7;
   --Luma: 0.147584;
   --Contrast: 0.741109;
-  --PaletteName: 'Melange Dark';
-  --PaletteFileName: 'Melange-Dark';
+  --PaletteName: Melange Dark;
+  --PaletteFileName: Melange-Dark;
   --IsBright: 0;
   --IsDark: 1;
 }
