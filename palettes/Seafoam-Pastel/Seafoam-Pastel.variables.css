@@ -1,5 +1,5 @@
 :root {
-  --name: 'Seafoam Pastel';
+  --name: Seafoam Pastel;
   --black: #757575;
   --red: #825d4d;
   --green: #728c62;
@@ -22,8 +22,8 @@
   --selectionBackground: #ffffff;
   --Luma: 0.190865;
   --Contrast: 0.693797;
-  --PaletteName: 'Seafoam Pastel';
-  --PaletteFileName: 'Seafoam-Pastel';
+  --PaletteName: Seafoam Pastel;
+  --PaletteFileName: Seafoam-Pastel;
   --IsBright: 0;
   --IsDark: 1;
 }
