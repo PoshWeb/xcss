@@ -1,5 +1,5 @@
 :root {
-  --name: 'Niji';
+  --name: Niji;
   --black: #333333;
   --red: #d23e08;
   --green: #54ca74;
@@ -20,12 +20,12 @@
   --foreground: #ffffff;
   --cursorColor: #ffc663;
   --selectionBackground: #515151;
-  --creditTo: 'Indyandie';
-  --creditToLink: 'https://github.com/Indyandie';
+  --creditTo: Indyandie;
+  --creditToLink: https://github.com/Indyandie;
   --Luma: 0.081519;
   --Contrast: 0.918481;
-  --PaletteName: 'Niji';
-  --PaletteFileName: 'Niji';
+  --PaletteName: Niji;
+  --PaletteFileName: Niji;
   --IsBright: 0;
   --IsDark: 1;
 }
