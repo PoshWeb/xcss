@@ -1,5 +1,5 @@
 :root {
-  --name: 'Bright Lights';
+  --name: Bright Lights;
   --black: #191919;
   --red: #ff355b;
   --green: #b7e876;
@@ -20,12 +20,12 @@
   --foreground: #b3c9d7;
   --cursorColor: #f34b00;
   --selectionBackground: #b3c9d7;
-  --creditTo: 'tw15egan';
-  --creditToLink: 'https://github.com/tw15egan';
+  --creditTo: tw15egan;
+  --creditToLink: https://github.com/tw15egan;
   --Luma: 0.098039;
   --Contrast: 0.675818;
-  --PaletteName: 'Bright Lights';
-  --PaletteFileName: 'Bright-Lights';
+  --PaletteName: Bright Lights;
+  --PaletteFileName: Bright-Lights;
   --IsBright: 0;
   --IsDark: 1;
 }
