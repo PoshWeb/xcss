@@ -1,5 +1,5 @@
 :root {
-  --name: 'Ryuuko';
+  --name: Ryuuko;
   --black: #2c3941;
   --red: #865f5b;
   --green: #66907d;
@@ -20,12 +20,12 @@
   --foreground: #ececec;
   --cursorColor: #ececec;
   --selectionBackground: #002831;
-  --creditTo: 'dylanaraps';
-  --creditToLink: 'https://github.com/dylanaraps';
+  --creditTo: dylanaraps;
+  --creditToLink: https://github.com/dylanaraps;
   --Luma: 0.214956;
   --Contrast: 0.710534;
-  --PaletteName: 'Ryuuko';
-  --PaletteFileName: 'Ryuuko';
+  --PaletteName: Ryuuko;
+  --PaletteFileName: Ryuuko;
   --IsBright: 0;
   --IsDark: 1;
 }
