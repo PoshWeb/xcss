@@ -1,5 +1,5 @@
 :root {
-  --name: 'Darkside';
+  --name: Darkside;
   --black: #000000;
   --red: #e8341c;
   --green: #68c256;
@@ -20,12 +20,12 @@
   --foreground: #bababa;
   --cursorColor: #bbbbbb;
   --selectionBackground: #303333;
-  --creditTo: 'bahlo';
-  --creditToLink: 'https://github.com/bahlo';
+  --creditTo: bahlo;
+  --creditToLink: https://github.com/bahlo;
   --Luma: 0.136704;
   --Contrast: 0.592708;
-  --PaletteName: 'Darkside';
-  --PaletteFileName: 'Darkside';
+  --PaletteName: Darkside;
+  --PaletteFileName: Darkside;
   --IsBright: 0;
   --IsDark: 1;
 }
