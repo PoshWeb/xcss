@@ -1,5 +1,5 @@
 :root {
-  --name: 'Django';
+  --name: Django;
   --black: #000000;
   --red: #fd6209;
   --green: #41a83e;
@@ -22,8 +22,8 @@
   --selectionBackground: #245032;
   --Luma: 0.150053;
   --Contrast: 0.822496;
-  --PaletteName: 'Django';
-  --PaletteFileName: 'Django';
+  --PaletteName: Django;
+  --PaletteFileName: Django;
   --IsBright: 0;
   --IsDark: 1;
 }
