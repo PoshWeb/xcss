@@ -1,5 +1,5 @@
 :root {
-  --name: 'Bluloco Light';
+  --name: Bluloco Light;
   --black: #373a41;
   --red: #d52753;
   --green: #23974a;
@@ -22,8 +22,8 @@
   --selectionBackground: #daf0ff;
   --Luma: 0.976471;
   --Contrast: 0.749539;
-  --PaletteName: 'Bluloco Light';
-  --PaletteFileName: 'Bluloco-Light';
+  --PaletteName: Bluloco Light;
+  --PaletteFileName: Bluloco-Light;
   --IsBright: 0;
   --IsDark: 1;
 }
