@@ -1,5 +1,5 @@
 :root {
-  --name: 'Fideloper';
+  --name: Fideloper;
   --black: #292f33;
   --red: #cb1e2d;
   --green: #edb8ac;
@@ -22,8 +22,8 @@
   --selectionBackground: #efb8ac;
   --Luma: 0.180444;
   --Contrast: 0.676991;
-  --PaletteName: 'Fideloper';
-  --PaletteFileName: 'Fideloper';
+  --PaletteName: Fideloper;
+  --PaletteFileName: Fideloper;
   --IsBright: 0;
   --IsDark: 1;
 }
