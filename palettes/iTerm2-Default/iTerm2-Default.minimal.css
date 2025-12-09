@@ -1,5 +1,5 @@
 :root {
-  --name: 'iTerm2 Default';
+  --name: iTerm2 Default;
   --black: #000000;
   --red: #c91b00;
   --green: #00c200;
@@ -22,8 +22,8 @@
   --selectionBackground: #c1deff;
   --Luma: 0;
   --Contrast: 1;
-  --PaletteName: 'iTerm2 Default';
-  --PaletteFileName: 'iTerm2-Default';
+  --PaletteName: iTerm2 Default;
+  --PaletteFileName: iTerm2-Default;
   --IsBright: 0;
   --IsDark: 1;
 }
