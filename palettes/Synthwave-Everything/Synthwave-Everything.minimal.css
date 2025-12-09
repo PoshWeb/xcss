@@ -1,5 +1,5 @@
 :root {
-  --name: 'Synthwave Everything';
+  --name: Synthwave Everything;
   --black: #fefefe;
   --red: #f97e72;
   --green: #72f1b8;
@@ -20,12 +20,12 @@
   --foreground: #f0eff1;
   --cursorColor: #72f1b8;
   --selectionBackground: #181521;
-  --creditTo: 'smithbm2316';
-  --creditToLink: 'https://github.com/smithbm2316';
+  --creditTo: smithbm2316;
+  --creditToLink: https://github.com/smithbm2316;
   --Luma: 0.143711;
   --Contrast: 0.794944;
-  --PaletteName: 'Synthwave Everything';
-  --PaletteFileName: 'Synthwave-Everything';
+  --PaletteName: Synthwave Everything;
+  --PaletteFileName: Synthwave-Everything;
   --IsBright: 0;
   --IsDark: 1;
 }
