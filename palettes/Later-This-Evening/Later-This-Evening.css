@@ -1,5 +1,5 @@
 :root {
-  --name: 'Later This Evening';
+  --name: Later This Evening;
   --black: #2b2b2b;
   --red: #d45a60;
   --green: #afba67;
@@ -20,12 +20,12 @@
   --foreground: #959595;
   --cursorColor: #4f4f4f;
   --selectionBackground: #424242;
-  --creditTo: 'vilhalmer';
-  --creditToLink: 'https://github.com/vilhalmer';
+  --creditTo: vilhalmer;
+  --creditToLink: https://github.com/vilhalmer;
   --Luma: 0.133333;
   --Contrast: 0.450981;
-  --PaletteName: 'Later This Evening';
-  --PaletteFileName: 'Later-This-Evening';
+  --PaletteName: Later This Evening;
+  --PaletteFileName: Later-This-Evening;
   --IsBright: 0;
   --IsDark: 1;
 }
