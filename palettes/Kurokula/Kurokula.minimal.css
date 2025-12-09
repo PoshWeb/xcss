@@ -1,5 +1,5 @@
 :root {
-  --name: 'Kurokula';
+  --name: Kurokula;
   --black: #333333;
   --red: #c35a52;
   --green: #78b3a9;
@@ -20,12 +20,12 @@
   --foreground: #e0cfc2;
   --cursorColor: #7a1c1c;
   --selectionBackground: #515151;
-  --creditTo: 'Indyandie';
-  --creditToLink: 'https://github.com/Indyandie';
+  --creditTo: Indyandie;
+  --creditToLink: https://github.com/Indyandie;
   --Luma: 0.081519;
   --Contrast: 0.740738;
-  --PaletteName: 'Kurokula';
-  --PaletteFileName: 'Kurokula';
+  --PaletteName: Kurokula;
+  --PaletteFileName: Kurokula;
   --IsBright: 0;
   --IsDark: 1;
 }
