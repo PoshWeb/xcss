@@ -1,5 +1,5 @@
 :root {
-  --name: 'One Half Dark';
+  --name: One Half Dark;
   --black: #282c34;
   --red: #e06c75;
   --green: #98c379;
@@ -22,8 +22,8 @@
   --selectionBackground: #474e5d;
   --Luma: 0.171479;
   --Contrast: 0.701945;
-  --PaletteName: 'One Half Dark';
-  --PaletteFileName: 'One-Half-Dark';
+  --PaletteName: One Half Dark;
+  --PaletteFileName: One-Half-Dark;
   --IsBright: 0;
   --IsDark: 1;
 }
