@@ -1,5 +1,5 @@
 :root {
-  --name: 'Hivacruz';
+  --name: Hivacruz;
   --black: #202746;
   --red: #c94922;
   --green: #ac9739;
@@ -20,12 +20,12 @@
   --foreground: #ede4e4;
   --cursorColor: #979db4;
   --selectionBackground: #5e6687;
-  --creditTo: 'kinoute';
-  --creditToLink: 'https://github.com/kinoute';
+  --creditTo: kinoute;
+  --creditToLink: https://github.com/kinoute;
   --Luma: 0.138275;
   --Contrast: 0.763346;
-  --PaletteName: 'Hivacruz';
-  --PaletteFileName: 'Hivacruz';
+  --PaletteName: Hivacruz;
+  --PaletteFileName: Hivacruz;
   --IsBright: 0;
   --IsDark: 1;
 }
