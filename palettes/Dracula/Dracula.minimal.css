@@ -1,5 +1,5 @@
 :root {
-  --name: 'Dracula';
+  --name: Dracula;
   --black: #21222c;
   --red: #ff5555;
   --green: #50fa7b;
@@ -20,12 +20,12 @@
   --foreground: #f8f8f2;
   --cursorColor: #f8f8f2;
   --selectionBackground: #44475a;
-  --creditTo: 'zenorocha';
-  --creditToLink: 'https://github.com/zenorocha';
+  --creditTo: zenorocha;
+  --creditToLink: https://github.com/zenorocha;
   --Luma: 0.166436;
   --Contrast: 0.804414;
-  --PaletteName: 'Dracula';
-  --PaletteFileName: 'Dracula';
+  --PaletteName: Dracula;
+  --PaletteFileName: Dracula;
   --IsBright: 0;
   --IsDark: 1;
 }
