@@ -1,5 +1,5 @@
 :root {
-  --name: 'Horizon Bright';
+  --name: Horizon Bright;
   --black: #16161d;
   --red: #fc4777;
   --green: #00ca86;
@@ -20,12 +20,12 @@
   --foreground: #16161d;
   --cursorColor: #d3a89d;
   --selectionBackground: #f9cec3;
-  --creditTo: 'apcamargo';
-  --creditToLink: 'https://github.com/apcamargo';
+  --creditTo: apcamargo;
+  --creditToLink: https://github.com/apcamargo;
   --Luma: 0.951165;
   --Contrast: 0.862909;
-  --PaletteName: 'Horizon Bright';
-  --PaletteFileName: 'Horizon-Bright';
+  --PaletteName: Horizon Bright;
+  --PaletteFileName: Horizon-Bright;
   --IsBright: 0;
   --IsDark: 1;
 }
