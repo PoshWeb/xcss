@@ -1,5 +1,5 @@
 :root {
-  --name: 'branch';
+  --name: branch;
   --black: #35241c;
   --red: #c2562d;
   --green: #96a65e;
@@ -20,12 +20,12 @@
   --foreground: #cfc1a9;
   --cursorColor: #cfc1a9;
   --selectionBackground: #32221a;
-  --creditTo: 'dkeg';
-  --creditToLink: 'https://github.com/dkeg';
+  --creditTo: dkeg;
+  --creditToLink: https://github.com/dkeg;
   --Luma: 0.144408;
   --Contrast: 0.617332;
-  --PaletteName: 'branch';
-  --PaletteFileName: 'branch';
+  --PaletteName: branch;
+  --PaletteFileName: branch;
   --IsBright: 0;
   --IsDark: 1;
 }
