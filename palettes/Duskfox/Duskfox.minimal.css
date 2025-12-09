@@ -1,5 +1,5 @@
 :root {
-  --name: 'Duskfox';
+  --name: Duskfox;
   --black: #393552;
   --red: #eb6f92;
   --green: #a3be8c;
@@ -22,8 +22,8 @@
   --selectionBackground: #433c59;
   --Luma: 0.137025;
   --Contrast: 0.74146;
-  --PaletteName: 'Duskfox';
-  --PaletteFileName: 'Duskfox';
+  --PaletteName: Duskfox;
+  --PaletteFileName: Duskfox;
   --IsBright: 0;
   --IsDark: 1;
 }
