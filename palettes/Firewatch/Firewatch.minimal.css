@@ -1,5 +1,5 @@
 :root {
-  --name: 'Firewatch';
+  --name: Firewatch;
   --black: #585f6d;
   --red: #d95360;
   --green: #5ab977;
@@ -20,12 +20,12 @@
   --foreground: #9ba2b2;
   --cursorColor: #f6f7ec;
   --selectionBackground: #2f363e;
-  --creditTo: 'SebastianSzturo';
-  --creditToLink: 'https://github.com/SebastianSzturo';
+  --creditTo: SebastianSzturo;
+  --creditToLink: https://github.com/SebastianSzturo;
   --Luma: 0.125805;
   --Contrast: 0.508183;
-  --PaletteName: 'Firewatch';
-  --PaletteFileName: 'Firewatch';
+  --PaletteName: Firewatch;
+  --PaletteFileName: Firewatch;
   --IsBright: 0;
   --IsDark: 1;
 }
