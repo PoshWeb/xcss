@@ -1,5 +1,5 @@
 :root {
-  --name: 'ENCOM';
+  --name: ENCOM;
   --black: #000000;
   --red: #9f0000;
   --green: #008b00;
@@ -22,8 +22,8 @@
   --selectionBackground: #00a48c;
   --Luma: 0;
   --Contrast: 0.504964;
-  --PaletteName: 'ENCOM';
-  --PaletteFileName: 'ENCOM';
+  --PaletteName: ENCOM;
+  --PaletteFileName: ENCOM;
   --IsBright: 0;
   --IsDark: 1;
 }
