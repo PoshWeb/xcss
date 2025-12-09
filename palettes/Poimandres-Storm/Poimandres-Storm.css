@@ -1,5 +1,5 @@
 :root {
-  --name: 'Poimandres Storm';
+  --name: Poimandres Storm;
   --black: #252b37;
   --red: #d0679d;
   --green: #5de4c7;
@@ -22,8 +22,8 @@
   --selectionBackground: #a6accd;
   --Luma: 0.167023;
   --Contrast: 0.511828;
-  --PaletteName: 'Poimandres Storm';
-  --PaletteFileName: 'Poimandres-Storm';
+  --PaletteName: Poimandres Storm;
+  --PaletteFileName: Poimandres-Storm;
   --IsBright: 0;
   --IsDark: 1;
 }
