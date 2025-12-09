@@ -1,5 +1,5 @@
 :root {
-  --name: 'Red Sands';
+  --name: Red Sands;
   --black: #000000;
   --red: #ff3f00;
   --green: #00bb00;
@@ -22,8 +22,8 @@
   --selectionBackground: #a4a390;
   --Luma: 0.213983;
   --Contrast: 0.576298;
-  --PaletteName: 'Red Sands';
-  --PaletteFileName: 'Red-Sands';
+  --PaletteName: Red Sands;
+  --PaletteFileName: Red-Sands;
   --IsBright: 0;
   --IsDark: 1;
 }
