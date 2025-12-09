@@ -1,5 +1,5 @@
 :root {
-  --name: 'Neobones Dark';
+  --name: Neobones Dark;
   --black: #0f191f;
   --red: #de6e7c;
   --green: #90ff6b;
@@ -22,8 +22,8 @@
   --selectionBackground: #3a3e3d;
   --Luma: 0.091401;
   --Contrast: 0.729688;
-  --PaletteName: 'Neobones Dark';
-  --PaletteFileName: 'Neobones-Dark';
+  --PaletteName: Neobones Dark;
+  --PaletteFileName: Neobones-Dark;
   --IsBright: 0;
   --IsDark: 1;
 }
