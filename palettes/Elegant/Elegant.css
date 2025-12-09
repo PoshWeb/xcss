@@ -1,5 +1,5 @@
 :root {
-  --name: 'Elegant';
+  --name: Elegant;
   --black: #0a1222;
   --red: #ff0257;
   --green: #85cc95;
@@ -20,12 +20,12 @@
   --foreground: #ced2d6;
   --cursorColor: #00beff;
   --selectionBackground: #d5d5d5;
-  --creditTo: 'lukgri';
-  --creditToLink: 'https://github.com/lukgri';
+  --creditTo: lukgri;
+  --creditToLink: https://github.com/lukgri;
   --Luma: 0.168659;
   --Contrast: 0.652668;
-  --PaletteName: 'Elegant';
-  --PaletteFileName: 'Elegant';
+  --PaletteName: Elegant;
+  --PaletteFileName: Elegant;
   --IsBright: 0;
   --IsDark: 1;
 }
