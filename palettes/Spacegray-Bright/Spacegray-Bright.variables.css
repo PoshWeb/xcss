@@ -1,5 +1,5 @@
 :root {
-  --name: 'Spacegray Bright';
+  --name: Spacegray Bright;
   --black: #080808;
   --red: #bc5553;
   --green: #a0b56c;
@@ -20,12 +20,12 @@
   --foreground: #f3f3f3;
   --cursorColor: #c6c6c6;
   --selectionBackground: #cacaca;
-  --creditTo: 'nicksay';
-  --creditToLink: 'https://github.com/nicksay';
+  --creditTo: nicksay;
+  --creditToLink: https://github.com/nicksay;
   --Luma: 0.180455;
   --Contrast: 0.772486;
-  --PaletteName: 'Spacegray Bright';
-  --PaletteFileName: 'Spacegray-Bright';
+  --PaletteName: Spacegray Bright;
+  --PaletteFileName: Spacegray-Bright;
   --IsBright: 0;
   --IsDark: 1;
 }
