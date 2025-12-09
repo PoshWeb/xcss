@@ -1,5 +1,5 @@
 :root {
-  --name: 'Afterglow';
+  --name: Afterglow;
   --black: #151515;
   --red: #ac4142;
   --green: #7e8e50;
@@ -20,12 +20,12 @@
   --foreground: #d0d0d0;
   --cursorColor: #d0d0d0;
   --selectionBackground: #303030;
-  --creditTo: 'YabataDesign';
-  --creditToLink: 'https://github.com/YabataDesign';
+  --creditTo: YabataDesign;
+  --creditToLink: https://github.com/YabataDesign;
   --Luma: 0.129412;
   --Contrast: 0.686274;
-  --PaletteName: 'Afterglow';
-  --PaletteFileName: 'Afterglow';
+  --PaletteName: Afterglow;
+  --PaletteFileName: Afterglow;
   --IsBright: 0;
   --IsDark: 1;
 }
