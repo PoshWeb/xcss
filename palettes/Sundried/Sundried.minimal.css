@@ -1,5 +1,5 @@
 :root {
-  --name: 'Sundried';
+  --name: Sundried;
   --black: #302b2a;
   --red: #a7463d;
   --green: #587744;
@@ -20,12 +20,12 @@
   --foreground: #c9c9c9;
   --cursorColor: #ffffff;
   --selectionBackground: #302b2a;
-  --creditTo: 'zdj';
-  --creditToLink: 'https://github.com/zdj';
+  --creditTo: zdj;
+  --creditToLink: https://github.com/zdj;
   --Luma: 0.095785;
   --Contrast: 0.69245;
-  --PaletteName: 'Sundried';
-  --PaletteFileName: 'Sundried';
+  --PaletteName: Sundried;
+  --PaletteFileName: Sundried;
   --IsBright: 0;
   --IsDark: 1;
 }
