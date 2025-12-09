@@ -1,5 +1,5 @@
 :root {
-  --name: 'Material';
+  --name: Material;
   --black: #212121;
   --red: #b7141f;
   --green: #457b24;
@@ -20,12 +20,12 @@
   --foreground: #232322;
   --cursorColor: #16afca;
   --selectionBackground: #c2c2c2;
-  --creditTo: 'sainnhe';
-  --creditToLink: 'https://github.com/sainnhe';
+  --creditTo: sainnhe;
+  --creditToLink: https://github.com/sainnhe;
   --Luma: 0.917647;
   --Contrast: 0.780675;
-  --PaletteName: 'Material';
-  --PaletteFileName: 'Material';
+  --PaletteName: Material;
+  --PaletteFileName: Material;
   --IsBright: 0;
   --IsDark: 1;
 }
