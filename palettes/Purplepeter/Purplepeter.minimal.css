@@ -1,5 +1,5 @@
 :root {
-  --name: 'Purplepeter';
+  --name: Purplepeter;
   --black: #0a0520;
   --red: #ff796d;
   --green: #99b481;
@@ -22,8 +22,8 @@
   --selectionBackground: #8689c2;
   --Luma: 0.128891;
   --Contrast: 0.78654;
-  --PaletteName: 'Purplepeter';
-  --PaletteFileName: 'Purplepeter';
+  --PaletteName: Purplepeter;
+  --PaletteFileName: Purplepeter;
   --IsBright: 0;
   --IsDark: 1;
 }
