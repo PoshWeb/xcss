@@ -1,5 +1,5 @@
 :root {
-  --name: 'Toy Chest';
+  --name: Toy Chest;
   --black: #2c3f58;
   --red: #be2d26;
   --green: #1a9172;
@@ -22,8 +22,8 @@
   --selectionBackground: #5f217a;
   --Luma: 0.202704;
   --Contrast: 0.456353;
-  --PaletteName: 'Toy Chest';
-  --PaletteFileName: 'Toy-Chest';
+  --PaletteName: Toy Chest;
+  --PaletteFileName: Toy-Chest;
   --IsBright: 0;
   --IsDark: 1;
 }
