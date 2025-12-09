@@ -1,5 +1,5 @@
 :root {
-  --name: 'CLRS';
+  --name: CLRS;
   --black: #000000;
   --red: #f8282a;
   --green: #328a5d;
@@ -20,12 +20,12 @@
   --foreground: #262626;
   --cursorColor: #62c6ef;
   --selectionBackground: #6fd3fc;
-  --creditTo: 'jasonlong';
-  --creditToLink: 'https://github.com/jasonlong';
+  --creditTo: jasonlong;
+  --creditToLink: https://github.com/jasonlong;
   --Luma: 1;
   --Contrast: 0.85098;
-  --PaletteName: 'CLRS';
-  --PaletteFileName: 'CLRS';
+  --PaletteName: CLRS;
+  --PaletteFileName: CLRS;
   --IsBright: 0;
   --IsDark: 1;
 }
