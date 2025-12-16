@@ -6,9 +6,9 @@
 .EXAMPLE
     ./build.ps1
 #>param(
-[string]$Root = $PSScriptRoot,
-
 [string[]]$FilePath,
+
+[string]$Root = $PSScriptRoot,
 
 [ValidateScript({
     $isValid = $_ -is [Management.Automation.CommandInfo] -or 
@@ -149,10 +149,11 @@ if ($PSScriptRoot) { Push-Location $PSScriptRoot }
 # `$site` holds sitewide information
 $Site = [Ordered]@{}    
 
-if ($root){ $Site.Path = $root}
-elseif ($FilePath) {$Site.Path = $FilePath }        
-$Site.Files = Get-ChildItem -Recurse -File @Site    
-$Site.PSScriptRoot = "$PSScriptRoot"
+if ($FilePath) {$Site.Path = $FilePath }        
+elseif ($root){ $Site.Path = $root}
+
+$Site.Files = Get-ChildItem -Recurse -File -Path $site.Path
+$Site.PSScriptRoot = $Site.Root = if ($Root) { $Root } else { $PSScriptRoot }
 $Site.Layout = $Layout
 
 #region Configuration
@@ -174,15 +175,22 @@ Write-Host "Started Building Pages @ $buildStart"
 $defaultLayoutParameters = # Get the default layout parameters for the site.
     $layoutParameters = $Layout | GetScriptParameters $site
 $fileQueue = [Collections.Queue]::new()
-foreach ($included in $site.Files -notmatch $excludePattern) {
+foreach ($included in @($site.Files) -notmatch $excludePattern) {
     $fileQueue.Enqueue($included)
 }
 $invokeCommand = $ExecutionContext.SessionState.InvokeCommand
 while ($fileQueue.Count) {
     $file = $fileQueue.Dequeue()
     :nextFile switch -regex ($file) {
-       '^' { <# Start of each file name, should always match #> } 
-        '\.[^\.\\/]+\.ps1$' { # *.*.ps1 files get run
+        '^' { <# Start of each file name, should always match #> } 
+        {
+            $_ -match '\.[^\.\\/]+\.ps1$' -or 
+            (
+                $_.Extension -and (
+                    $_.Name -replace '\.ps1$' -eq $_.Directory.Name
+                )
+            )
+        } { # *.*.ps1 files get run
             # after we push into the location and map parameters. 
             Push-Location $file.Directory.FullName
             $scriptFile =
@@ -199,7 +207,7 @@ while ($fileQueue.Count) {
             }
             
             $outputPath = 
-            if ($file.Name -replace '\.html\.ps1$' -eq $file.Directory.Name) {
+            if ($file.Name -replace '(?:\.html)?\.ps1$' -eq $file.Directory.Name) {
                 $file.FullName -replace "$([Regex]::Escape($file.Name))$",
                     'index.html'
             } else {

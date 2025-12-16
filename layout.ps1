@@ -144,6 +144,14 @@ if ($page.MetaData['og:image']) {
 }
 #endregion Initialize Metadata
 
+filter htmlEncode {
+    [Web.HttpUtility]::HtmlEncode("$_")
+}
+
+filter htmlAttributeEncode {
+    [Web.HttpUtility]::HtmlAttributeEncode("$_")
+}
+
 filter outputHtml {
     $outputItem = $_
     switch ($outputItem) {
@@ -151,6 +159,26 @@ filter outputHtml {
         {$outputItem -is [xml]} { return $outputItem.OuterXml }
         {$outputItem.HTML} { return $outputItem.HTML }
         {$outputItem.Markdown} { return (ConvertFrom-Markdown -InputObject $outputItem.Markdown).HTML }
+        {$outputItem -is [IO.FileInfo]} {
+            $outputItemRelativeSafePath = 
+                $outputItem.FullName -replace "^$([Regex]::Escape($pwd))" | htmlAttributeEncode
+                        
+            switch ($outputItem.Extension) {
+                .svg {
+                    Get-Content -LiteralPath $outputItem.FullName -Raw
+                }
+                { $_ -in '.png', '.jpg', '.jpeg', '.gif'} {
+                    "<img src='$outputItemRelativeSafePath' alt='$(
+                        $outputItem.Name | htmlAttributeEncode
+                    )'></img>"
+                }
+                default {
+                    "<a href='$outputItemRelativeSafePath'>$(
+                        $outputItem.Name | htmlEncode
+                    )</a>"
+                }
+            }
+        }
         default { "$outputItem" }
     }
 }
