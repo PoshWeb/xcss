@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 143.396973 155.698486" transform-origin="50% 50%" width="100%" height="100%">
+  <path id="binarytree-2-path" d="m 71.698486 155.698486   l 0 -42 l 0 -42 l -29.698485 -29.698485 l -42 -0 m 42.000002 0 l 0 -42 m 29.698484 71.698486 l 29.698485 -29.698485 l 0 -42 m 0 42 l 42 0" stroke="currentcolor" stroke-width="0.25%" fill="transparent" class="foreground-stroke" transform-origin="50% 50%" data-l-order="2" data-l-axiom="0" data-l-rules="{   &quot;1&quot;: &quot;11&quot;,   &quot;0&quot;: &quot;1[0]0&quot; }" data-l-expanded="11[1[0]0]1[0]0">
+    <title>binarytree-2</title>
+  </path>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 168 109.119202" transform-origin="50% 50%" width="100%" height="100%">
+  <path id="sierpinskiarrowheadcurve-2-path" d="m 0 109.119202   l 42 0 l 21 -36.373067 l -21 -36.373067 l 21 -36.373067 l 42 0 l 21 36.373067 l -21 36.373067 l 21 36.373067 l 42 0" stroke="currentcolor" stroke-width="0.25%" fill="transparent" class="foreground-stroke" transform-origin="50% 50%" data-l-order="2" data-l-axiom="XF" data-l-rules="{   &quot;X&quot;: &quot;YF + XF + Y&quot;,   &quot;Y&quot;: &quot;XF - YF - X&quot; }" data-l-expanded="XF - YF - XF + YF + XF + YF + XF - YF - XF">
+    <title>sierpinskiarrowheadcurve-2</title>
+  </path>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 84 72.746132" transform-origin="50% 50%" width="100%" height="100%">
+  <path id="sierpinskitriangle-1-path" d="m 0 72.746132   l 42 0 l -21 -36.373067 l 42 0 l -21 36.373067 l 42 0 l -21 -36.373067 l -21 -36.373067 l -21 36.373067 l -21 36.373067" stroke="currentcolor" stroke-width="0.25%" fill="transparent" class="foreground-stroke" transform-origin="50% 50%" data-l-order="1" data-l-axiom="F-G-G" data-l-rules="{   &quot;F&quot;: &quot;F-G+F+G-F&quot;,   &quot;G&quot;: &quot;GG&quot; }" data-l-expanded="F-G+F+G-F-GG-GG">
+    <title>sierpinskitriangle-1</title>
+  </path>
+</svg>
