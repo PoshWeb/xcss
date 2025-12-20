@@ -28,7 +28,7 @@ $Layout = $(
 ),
 
 [string[]]
-$excludeTerms = @("Color-Schemes", ".turtle.ps1")
+$excludeTerms = @("Color-Schemes", ".tests.ps1", ".turtle.ps1")
 )
 
 #region Common Filters
@@ -93,7 +93,9 @@ filter GetScriptMetadata {
     $in = $_    
     $meta = [Ordered]@{}        
     $help = 
-        if ($in.Source) { Get-Help $in.Source }
+        if ($in.Source -and $in.ScriptContents -match '\.synopsis') {
+            Get-Help $in.Source
+        }
         elseif ($in -is [Management.Automation.FunctionInfo]) {
             Get-Help $in.Name
         }
@@ -179,27 +181,38 @@ foreach ($included in @($site.Files) -notmatch $excludePattern) {
     $fileQueue.Enqueue($included)
 }
 $invokeCommand = $ExecutionContext.SessionState.InvokeCommand
+$site.BuildProgress = $buildProgress = [Ordered]@{
+    Status = 'Building'
+    Id = Get-Random
+}
+$originalTotal = $fileQueue.Count
+$buildFileCounter = 0
 while ($fileQueue.Count) {
-    $file = $fileQueue.Dequeue()
-    :nextFile switch -regex ($file) {
+    $buildFile = $fileQueue.Dequeue()
+    $output = $null # nullify output (just in case)
+    $buildProgress.Activity = "$($buildFile.Directory.Name)/$($buildFile.Name) "
+    $buildProgress.PercentComplete = [Math]::Min(100, (
+        ++$buildFileCounter * 100 / $originalTotal))
+    :nextFile switch -regex ($buildFile) {
         '^' { <# Start of each file name, should always match #> } 
         {
             $_ -match '\.[^\.\\/]+\.ps1$' -or 
             (
-                $_.Extension -and (
+                $_.Extension -eq '.ps1' -and (
                     $_.Name -replace '\.ps1$' -eq $_.Directory.Name
                 )
             )
         } { # *.*.ps1 files get run
             # after we push into the location and map parameters. 
-            Push-Location $file.Directory.FullName
+            Push-Location $buildFile.Directory.FullName
             $scriptFile =
-                $invokeCommand.Getcommand($file.FullName, 'ExternalScript')
+                $invokeCommand.Getcommand($buildFile.FullName, 'ExternalScript')
             $page = $scriptFile | GetScriptMetadata
             $parameters = $scriptFile | GetScriptParameters $site $page
             $layoutParameters = $layout | GetScriptParameters $site $page
+            Write-Progress @buildProgress
             # Make sure to `dot` the script, so we run in the current context.
-            $output = . $file.FullName @parameters
+            $output = . $buildFile.FullName @parameters
             # If there is no output, pop out and continue
             if (-not $output) {
 
@@ -207,11 +220,12 @@ while ($fileQueue.Count) {
             }
             
             $outputPath = 
-            if ($file.Name -replace '(?:\.html)?\.ps1$' -eq $file.Directory.Name) {
-                $file.FullName -replace "$([Regex]::Escape($file.Name))$",
+            if ($buildFile.Name -replace '(?:\.html)?\.ps1$' -eq 
+                $buildFile.Directory.Name) {
+                $buildFile.FullName -replace "$([Regex]::Escape($buildFile.Name))$",
                     'index.html'
             } else {
-                $file.FullName -replace '\.ps1$'
+                $buildFile.FullName -replace '\.ps1$'
             }                         
             
             # If the output is html, and we are not
@@ -235,17 +249,22 @@ while ($fileQueue.Count) {
                 $outputPath = $outputPath -replace '\.(markdown|md)$', '.html'
             }
             # Write the output and emit the file
-            $output > $outputPath ; Get-Item $outputPath
-            Pop-Location # pop back to where we were            
+            if ($output -and $outputPath -ne $buildFile.FullName) {
+                $output > $outputPath ; Get-Item $outputPath
+            }            
+            Pop-Location # pop back to where we were
         }
         '\.(md|markdown)$' {
-            $html = $file | GetMarkdownHTML # Make our markdown HTML
+            $html = $buildFile | GetMarkdownHTML # Make our markdown HTML
             $page = $html.Metadata # and get any page metadata.       
             $layoutParameters = $layout | # Get the layout parameters 
                 GetScriptParameters $site $page # from the site and page.
+            Write-Progress @buildProgress
             $output = $html | . $Layout @layoutParameters
-            $outputPath = ($file.FullName -replace '\.(md|markdown)$', '.html')
-            $output > $outputPath; Get-Item $outputPath            
+            $outputPath = ($buildFile.FullName -replace '\.(md|markdown)$', '.html')
+            if ($output -and $outputPath -ne $buildFile.FullName) {
+                $output > $outputPath; Get-Item $outputPath
+            }
         }
     }
 
@@ -253,6 +272,9 @@ while ($fileQueue.Count) {
 }
 
 $buildEnd = [DateTime]::Now
-Write-Host "Finished Building @ $buildEnd in $($buildEnd - $buildStart)"
+$buildProgress.Status = "Finished Building @ $buildEnd"
+$buildProgress.Activity = "in $($buildEnd - $buildStart)"
+$buildProgress.Remove('PercentComplete')
+Write-Progress @buildProgress -Completed
 #endregion Build
 if ($PSScriptRoot) { Pop-Location } # Pop back out.
