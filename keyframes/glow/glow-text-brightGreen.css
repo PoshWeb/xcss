@@ -1,0 +1,11 @@
+@keyframes glow-text-brightGreen {
+  0%, 100% {
+    text-shadow: 0 0 0rem var(--brightGreen);
+  }
+  50% {
+    text-shadow: 0 0 0.5rem var(--brightGreen);
+  }
+}
+
+.glow-text-brightGreen { animation-name: glow-text-brightGreen; }
+

@@ -1,0 +1,11 @@
+@keyframes glow-box-blue {
+  0%, 100% {
+    box-shadow: 0 0 0rem var(--blue);
+  }
+  50% {
+    box-shadow: 0 0 0.5rem var(--blue);
+  }
+}
+
+.glow-box-blue { animation-name: glow-box-blue; }
+

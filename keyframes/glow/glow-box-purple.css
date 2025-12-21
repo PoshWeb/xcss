@@ -1,0 +1,11 @@
+@keyframes glow-box-purple {
+  0%, 100% {
+    box-shadow: 0 0 0rem var(--purple);
+  }
+  50% {
+    box-shadow: 0 0 0.5rem var(--purple);
+  }
+}
+
+.glow-box-purple { animation-name: glow-box-purple; }
+

@@ -1,0 +1,11 @@
+@keyframes glow-box-brightYellow {
+  0%, 100% {
+    box-shadow: 0 0 0rem var(--brightYellow);
+  }
+  50% {
+    box-shadow: 0 0 0.5rem var(--brightYellow);
+  }
+}
+
+.glow-box-brightYellow { animation-name: glow-box-brightYellow; }
+

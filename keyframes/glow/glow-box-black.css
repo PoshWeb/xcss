@@ -1,0 +1,11 @@
+@keyframes glow-box-black {
+  0%, 100% {
+    box-shadow: 0 0 0rem var(--black);
+  }
+  50% {
+    box-shadow: 0 0 0.5rem var(--black);
+  }
+}
+
+.glow-box-black { animation-name: glow-box-black; }
+

@@ -1,0 +1,11 @@
+@keyframes glow-box-brightGreen {
+  0%, 100% {
+    box-shadow: 0 0 0rem var(--brightGreen);
+  }
+  50% {
+    box-shadow: 0 0 0.5rem var(--brightGreen);
+  }
+}
+
+.glow-box-brightGreen { animation-name: glow-box-brightGreen; }
+

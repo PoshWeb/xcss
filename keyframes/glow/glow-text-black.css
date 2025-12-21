@@ -1,0 +1,11 @@
+@keyframes glow-text-black {
+  0%, 100% {
+    text-shadow: 0 0 0rem var(--black);
+  }
+  50% {
+    text-shadow: 0 0 0.5rem var(--black);
+  }
+}
+
+.glow-text-black { animation-name: glow-text-black; }
+

@@ -1,0 +1,11 @@
+@keyframes glow-box-brightWhite {
+  0%, 100% {
+    box-shadow: 0 0 0rem var(--brightWhite);
+  }
+  50% {
+    box-shadow: 0 0 0.5rem var(--brightWhite);
+  }
+}
+
+.glow-box-brightWhite { animation-name: glow-box-brightWhite; }
+

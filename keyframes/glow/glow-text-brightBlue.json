@@ -1,0 +1,10 @@
+{
+  "glow-text-brightBlue": {
+    "0%, 100%": {
+      "text-shadow": "0 0 0rem var(--brightBlue)"
+    },
+    "50%": {
+      "text-shadow": "0 0 0.5rem var(--brightBlue)"
+    }
+  }
+}

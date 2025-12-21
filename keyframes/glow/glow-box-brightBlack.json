@@ -1,0 +1,10 @@
+{
+  "glow-box-brightBlack": {
+    "0%, 100%": {
+      "box-shadow": "0 0 0rem var(--brightBlack)"
+    },
+    "50%": {
+      "box-shadow": "0 0 0.5rem var(--brightBlack)"
+    }
+  }
+}

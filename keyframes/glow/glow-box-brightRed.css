@@ -1,0 +1,11 @@
+@keyframes glow-box-brightRed {
+  0%, 100% {
+    box-shadow: 0 0 0rem var(--brightRed);
+  }
+  50% {
+    box-shadow: 0 0 0.5rem var(--brightRed);
+  }
+}
+
+.glow-box-brightRed { animation-name: glow-box-brightRed; }
+

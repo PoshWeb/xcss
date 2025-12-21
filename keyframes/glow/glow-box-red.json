@@ -1,0 +1,10 @@
+{
+  "glow-box-red": {
+    "0%, 100%": {
+      "box-shadow": "0 0 0rem var(--red)"
+    },
+    "50%": {
+      "box-shadow": "0 0 0.5rem var(--red)"
+    }
+  }
+}

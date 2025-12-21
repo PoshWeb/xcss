@@ -1,0 +1,11 @@
+@keyframes glow-box-white {
+  0%, 100% {
+    box-shadow: 0 0 0rem var(--white);
+  }
+  50% {
+    box-shadow: 0 0 0.5rem var(--white);
+  }
+}
+
+.glow-box-white { animation-name: glow-box-white; }
+

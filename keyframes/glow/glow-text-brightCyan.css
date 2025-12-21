@@ -1,0 +1,11 @@
+@keyframes glow-text-brightCyan {
+  0%, 100% {
+    text-shadow: 0 0 0rem var(--brightCyan);
+  }
+  50% {
+    text-shadow: 0 0 0.5rem var(--brightCyan);
+  }
+}
+
+.glow-text-brightCyan { animation-name: glow-text-brightCyan; }
+

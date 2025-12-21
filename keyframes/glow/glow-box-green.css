@@ -1,0 +1,11 @@
+@keyframes glow-box-green {
+  0%, 100% {
+    box-shadow: 0 0 0rem var(--green);
+  }
+  50% {
+    box-shadow: 0 0 0.5rem var(--green);
+  }
+}
+
+.glow-box-green { animation-name: glow-box-green; }
+

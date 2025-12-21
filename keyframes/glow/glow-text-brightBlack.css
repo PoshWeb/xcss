@@ -1,0 +1,11 @@
+@keyframes glow-text-brightBlack {
+  0%, 100% {
+    text-shadow: 0 0 0rem var(--brightBlack);
+  }
+  50% {
+    text-shadow: 0 0 0.5rem var(--brightBlack);
+  }
+}
+
+.glow-text-brightBlack { animation-name: glow-text-brightBlack; }
+

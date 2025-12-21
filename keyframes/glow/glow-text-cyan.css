@@ -1,0 +1,11 @@
+@keyframes glow-text-cyan {
+  0%, 100% {
+    text-shadow: 0 0 0rem var(--cyan);
+  }
+  50% {
+    text-shadow: 0 0 0.5rem var(--cyan);
+  }
+}
+
+.glow-text-cyan { animation-name: glow-text-cyan; }
+

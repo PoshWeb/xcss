@@ -1,0 +1,11 @@
+@keyframes glow-box-brightCyan {
+  0%, 100% {
+    box-shadow: 0 0 0rem var(--brightCyan);
+  }
+  50% {
+    box-shadow: 0 0 0.5rem var(--brightCyan);
+  }
+}
+
+.glow-box-brightCyan { animation-name: glow-box-brightCyan; }
+

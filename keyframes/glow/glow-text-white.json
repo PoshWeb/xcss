@@ -1,0 +1,10 @@
+{
+  "glow-text-white": {
+    "0%, 100%": {
+      "text-shadow": "0 0 0rem var(--white)"
+    },
+    "50%": {
+      "text-shadow": "0 0 0.5rem var(--white)"
+    }
+  }
+}

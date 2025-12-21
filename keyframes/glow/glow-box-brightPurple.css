@@ -1,0 +1,11 @@
+@keyframes glow-box-brightPurple {
+  0%, 100% {
+    box-shadow: 0 0 0rem var(--brightPurple);
+  }
+  50% {
+    box-shadow: 0 0 0.5rem var(--brightPurple);
+  }
+}
+
+.glow-box-brightPurple { animation-name: glow-box-brightPurple; }
+
