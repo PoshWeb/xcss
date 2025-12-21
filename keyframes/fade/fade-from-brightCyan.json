@@ -1,0 +1,8 @@
+{
+  "fade-from-brightCyan": {
+    "from": {
+      "opacity": 0,
+      "color": "var(--brightCyan)"
+    }
+  }
+}

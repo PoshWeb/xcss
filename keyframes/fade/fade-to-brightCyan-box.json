@@ -1,0 +1,9 @@
+{
+  "fade-to-brightCyan-box": {
+    "to": {
+      "opacity": 1,
+      "color": "var(--brightCyan)",
+      "background-color": "var(--brightCyan)"
+    }
+  }
+}

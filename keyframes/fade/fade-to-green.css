@@ -1,0 +1,9 @@
+@keyframes fade-to-green {
+  to {
+    opacity: 1;
+    color: var(--green);
+  }
+}
+
+.fade-to-green { animation-name: fade-to-green; }
+

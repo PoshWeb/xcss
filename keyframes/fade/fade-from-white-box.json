@@ -1,0 +1,9 @@
+{
+  "fade-from-white-box": {
+    "from": {
+      "opacity": 0,
+      "color": "var(--white)",
+      "background-color": "var(--white)"
+    }
+  }
+}

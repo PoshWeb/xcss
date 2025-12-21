@@ -1,0 +1,8 @@
+{
+  "fade-to-brightYellow": {
+    "to": {
+      "opacity": 1,
+      "color": "var(--brightYellow)"
+    }
+  }
+}

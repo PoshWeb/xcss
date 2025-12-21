@@ -1,0 +1,9 @@
+@keyframes fade-from-brightCyan {
+  from {
+    opacity: 0;
+    color: var(--brightCyan);
+  }
+}
+
+.fade-from-brightCyan { animation-name: fade-from-brightCyan; }
+

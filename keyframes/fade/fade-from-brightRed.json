@@ -1,0 +1,8 @@
+{
+  "fade-from-brightRed": {
+    "from": {
+      "opacity": 0,
+      "color": "var(--brightRed)"
+    }
+  }
+}

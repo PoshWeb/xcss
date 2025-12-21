@@ -1,0 +1,9 @@
+{
+  "fade-from-brightBlue-box": {
+    "from": {
+      "opacity": 0,
+      "color": "var(--brightBlue)",
+      "background-color": "var(--brightBlue)"
+    }
+  }
+}

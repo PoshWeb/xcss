@@ -1,0 +1,9 @@
+{
+  "fade-to-white-box": {
+    "to": {
+      "opacity": 1,
+      "color": "var(--white)",
+      "background-color": "var(--white)"
+    }
+  }
+}

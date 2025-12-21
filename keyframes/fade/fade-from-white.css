@@ -1,0 +1,9 @@
+@keyframes fade-from-white {
+  from {
+    opacity: 0;
+    color: var(--white);
+  }
+}
+
+.fade-from-white { animation-name: fade-from-white; }
+

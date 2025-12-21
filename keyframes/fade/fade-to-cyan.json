@@ -1,0 +1,8 @@
+{
+  "fade-to-cyan": {
+    "to": {
+      "opacity": 1,
+      "color": "var(--cyan)"
+    }
+  }
+}

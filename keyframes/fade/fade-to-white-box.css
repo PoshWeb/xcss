@@ -1,0 +1,10 @@
+@keyframes fade-to-white-box {
+  to {
+    opacity: 1;
+    color: var(--white);
+    background-color: var(--white);
+  }
+}
+
+.fade-to-white-box { animation-name: fade-to-white-box; }
+

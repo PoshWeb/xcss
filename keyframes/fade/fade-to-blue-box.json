@@ -1,0 +1,9 @@
+{
+  "fade-to-blue-box": {
+    "to": {
+      "opacity": 1,
+      "color": "var(--blue)",
+      "background-color": "var(--blue)"
+    }
+  }
+}

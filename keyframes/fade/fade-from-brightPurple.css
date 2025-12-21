@@ -1,0 +1,9 @@
+@keyframes fade-from-brightPurple {
+  from {
+    opacity: 0;
+    color: var(--brightPurple);
+  }
+}
+
+.fade-from-brightPurple { animation-name: fade-from-brightPurple; }
+

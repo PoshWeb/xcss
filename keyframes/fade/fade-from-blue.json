@@ -1,0 +1,8 @@
+{
+  "fade-from-blue": {
+    "from": {
+      "opacity": 0,
+      "color": "var(--blue)"
+    }
+  }
+}

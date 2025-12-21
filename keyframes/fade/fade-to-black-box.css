@@ -1,0 +1,10 @@
+@keyframes fade-to-black-box {
+  to {
+    opacity: 1;
+    color: var(--black);
+    background-color: var(--black);
+  }
+}
+
+.fade-to-black-box { animation-name: fade-to-black-box; }
+

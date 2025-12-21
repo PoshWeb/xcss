@@ -1,0 +1,10 @@
+@keyframes fade-from-brightCyan-box {
+  from {
+    opacity: 0;
+    color: var(--brightCyan);
+    background-color: var(--brightCyan);
+  }
+}
+
+.fade-from-brightCyan-box { animation-name: fade-from-brightCyan-box; }
+

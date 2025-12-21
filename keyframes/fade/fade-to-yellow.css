@@ -1,0 +1,9 @@
+@keyframes fade-to-yellow {
+  to {
+    opacity: 1;
+    color: var(--yellow);
+  }
+}
+
+.fade-to-yellow { animation-name: fade-to-yellow; }
+

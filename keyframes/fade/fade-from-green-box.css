@@ -1,0 +1,10 @@
+@keyframes fade-from-green-box {
+  from {
+    opacity: 0;
+    color: var(--green);
+    background-color: var(--green);
+  }
+}
+
+.fade-from-green-box { animation-name: fade-from-green-box; }
+

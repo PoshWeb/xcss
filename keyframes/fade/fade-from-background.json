@@ -1,0 +1,8 @@
+{
+  "fade-from-background": {
+    "from": {
+      "opacity": 0,
+      "color": "var(--background)"
+    }
+  }
+}

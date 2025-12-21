@@ -1,0 +1,8 @@
+{
+  "fade-to-purple": {
+    "to": {
+      "opacity": 1,
+      "color": "var(--purple)"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+@keyframes fade-from-yellow-box {
+  from {
+    opacity: 0;
+    color: var(--yellow);
+    background-color: var(--yellow);
+  }
+}
+
+.fade-from-yellow-box { animation-name: fade-from-yellow-box; }
+

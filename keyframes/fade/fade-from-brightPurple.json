@@ -1,0 +1,8 @@
+{
+  "fade-from-brightPurple": {
+    "from": {
+      "opacity": 0,
+      "color": "var(--brightPurple)"
+    }
+  }
+}

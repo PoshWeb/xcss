@@ -1,0 +1,9 @@
+@keyframes fade-to-brightWhite {
+  to {
+    opacity: 1;
+    color: var(--brightWhite);
+  }
+}
+
+.fade-to-brightWhite { animation-name: fade-to-brightWhite; }
+

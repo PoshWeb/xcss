@@ -1,0 +1,8 @@
+{
+  "fade-to-red": {
+    "to": {
+      "opacity": 1,
+      "color": "var(--red)"
+    }
+  }
+}

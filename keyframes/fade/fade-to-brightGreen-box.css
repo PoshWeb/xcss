@@ -1,0 +1,10 @@
+@keyframes fade-to-brightGreen-box {
+  to {
+    opacity: 1;
+    color: var(--brightGreen);
+    background-color: var(--brightGreen);
+  }
+}
+
+.fade-to-brightGreen-box { animation-name: fade-to-brightGreen-box; }
+

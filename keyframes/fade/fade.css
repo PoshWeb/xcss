@@ -1,0 +1,706 @@
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in { animation-name: fade-in; }
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.fade-out { animation-name: fade-out; }
+
+@keyframes fade-from-foreground {
+  from {
+    opacity: 0;
+    color: var(--foreground);
+  }
+}
+
+.fade-from-foreground { animation-name: fade-from-foreground; }
+
+@keyframes fade-from-background {
+  from {
+    opacity: 0;
+    color: var(--background);
+  }
+}
+
+.fade-from-background { animation-name: fade-from-background; }
+
+@keyframes fade-from-black {
+  from {
+    opacity: 0;
+    color: var(--black);
+  }
+}
+
+.fade-from-black { animation-name: fade-from-black; }
+
+@keyframes fade-from-red {
+  from {
+    opacity: 0;
+    color: var(--red);
+  }
+}
+
+.fade-from-red { animation-name: fade-from-red; }
+
+@keyframes fade-from-green {
+  from {
+    opacity: 0;
+    color: var(--green);
+  }
+}
+
+.fade-from-green { animation-name: fade-from-green; }
+
+@keyframes fade-from-yellow {
+  from {
+    opacity: 0;
+    color: var(--yellow);
+  }
+}
+
+.fade-from-yellow { animation-name: fade-from-yellow; }
+
+@keyframes fade-from-blue {
+  from {
+    opacity: 0;
+    color: var(--blue);
+  }
+}
+
+.fade-from-blue { animation-name: fade-from-blue; }
+
+@keyframes fade-from-purple {
+  from {
+    opacity: 0;
+    color: var(--purple);
+  }
+}
+
+.fade-from-purple { animation-name: fade-from-purple; }
+
+@keyframes fade-from-cyan {
+  from {
+    opacity: 0;
+    color: var(--cyan);
+  }
+}
+
+.fade-from-cyan { animation-name: fade-from-cyan; }
+
+@keyframes fade-from-white {
+  from {
+    opacity: 0;
+    color: var(--white);
+  }
+}
+
+.fade-from-white { animation-name: fade-from-white; }
+
+@keyframes fade-from-brightBlack {
+  from {
+    opacity: 0;
+    color: var(--brightBlack);
+  }
+}
+
+.fade-from-brightBlack { animation-name: fade-from-brightBlack; }
+
+@keyframes fade-from-brightRed {
+  from {
+    opacity: 0;
+    color: var(--brightRed);
+  }
+}
+
+.fade-from-brightRed { animation-name: fade-from-brightRed; }
+
+@keyframes fade-from-brightGreen {
+  from {
+    opacity: 0;
+    color: var(--brightGreen);
+  }
+}
+
+.fade-from-brightGreen { animation-name: fade-from-brightGreen; }
+
+@keyframes fade-from-brightYellow {
+  from {
+    opacity: 0;
+    color: var(--brightYellow);
+  }
+}
+
+.fade-from-brightYellow { animation-name: fade-from-brightYellow; }
+
+@keyframes fade-from-brightBlue {
+  from {
+    opacity: 0;
+    color: var(--brightBlue);
+  }
+}
+
+.fade-from-brightBlue { animation-name: fade-from-brightBlue; }
+
+@keyframes fade-from-brightPurple {
+  from {
+    opacity: 0;
+    color: var(--brightPurple);
+  }
+}
+
+.fade-from-brightPurple { animation-name: fade-from-brightPurple; }
+
+@keyframes fade-from-brightCyan {
+  from {
+    opacity: 0;
+    color: var(--brightCyan);
+  }
+}
+
+.fade-from-brightCyan { animation-name: fade-from-brightCyan; }
+
+@keyframes fade-from-brightWhite {
+  from {
+    opacity: 0;
+    color: var(--brightWhite);
+  }
+}
+
+.fade-from-brightWhite { animation-name: fade-from-brightWhite; }
+
+@keyframes fade-to-foreground {
+  to {
+    opacity: 1;
+    color: var(--foreground);
+  }
+}
+
+.fade-to-foreground { animation-name: fade-to-foreground; }
+
+@keyframes fade-to-background {
+  to {
+    opacity: 1;
+    color: var(--background);
+  }
+}
+
+.fade-to-background { animation-name: fade-to-background; }
+
+@keyframes fade-to-black {
+  to {
+    opacity: 1;
+    color: var(--black);
+  }
+}
+
+.fade-to-black { animation-name: fade-to-black; }
+
+@keyframes fade-to-red {
+  to {
+    opacity: 1;
+    color: var(--red);
+  }
+}
+
+.fade-to-red { animation-name: fade-to-red; }
+
+@keyframes fade-to-green {
+  to {
+    opacity: 1;
+    color: var(--green);
+  }
+}
+
+.fade-to-green { animation-name: fade-to-green; }
+
+@keyframes fade-to-yellow {
+  to {
+    opacity: 1;
+    color: var(--yellow);
+  }
+}
+
+.fade-to-yellow { animation-name: fade-to-yellow; }
+
+@keyframes fade-to-blue {
+  to {
+    opacity: 1;
+    color: var(--blue);
+  }
+}
+
+.fade-to-blue { animation-name: fade-to-blue; }
+
+@keyframes fade-to-purple {
+  to {
+    opacity: 1;
+    color: var(--purple);
+  }
+}
+
+.fade-to-purple { animation-name: fade-to-purple; }
+
+@keyframes fade-to-cyan {
+  to {
+    opacity: 1;
+    color: var(--cyan);
+  }
+}
+
+.fade-to-cyan { animation-name: fade-to-cyan; }
+
+@keyframes fade-to-white {
+  to {
+    opacity: 1;
+    color: var(--white);
+  }
+}
+
+.fade-to-white { animation-name: fade-to-white; }
+
+@keyframes fade-to-brightBlack {
+  to {
+    opacity: 1;
+    color: var(--brightBlack);
+  }
+}
+
+.fade-to-brightBlack { animation-name: fade-to-brightBlack; }
+
+@keyframes fade-to-brightRed {
+  to {
+    opacity: 1;
+    color: var(--brightRed);
+  }
+}
+
+.fade-to-brightRed { animation-name: fade-to-brightRed; }
+
+@keyframes fade-to-brightGreen {
+  to {
+    opacity: 1;
+    color: var(--brightGreen);
+  }
+}
+
+.fade-to-brightGreen { animation-name: fade-to-brightGreen; }
+
+@keyframes fade-to-brightYellow {
+  to {
+    opacity: 1;
+    color: var(--brightYellow);
+  }
+}
+
+.fade-to-brightYellow { animation-name: fade-to-brightYellow; }
+
+@keyframes fade-to-brightBlue {
+  to {
+    opacity: 1;
+    color: var(--brightBlue);
+  }
+}
+
+.fade-to-brightBlue { animation-name: fade-to-brightBlue; }
+
+@keyframes fade-to-brightPurple {
+  to {
+    opacity: 1;
+    color: var(--brightPurple);
+  }
+}
+
+.fade-to-brightPurple { animation-name: fade-to-brightPurple; }
+
+@keyframes fade-to-brightCyan {
+  to {
+    opacity: 1;
+    color: var(--brightCyan);
+  }
+}
+
+.fade-to-brightCyan { animation-name: fade-to-brightCyan; }
+
+@keyframes fade-to-brightWhite {
+  to {
+    opacity: 1;
+    color: var(--brightWhite);
+  }
+}
+
+.fade-to-brightWhite { animation-name: fade-to-brightWhite; }
+
+@keyframes fade-from-foreground-box {
+  from {
+    opacity: 0;
+    color: var(--foreground);
+    background-color: var(--foreground);
+  }
+}
+
+.fade-from-foreground-box { animation-name: fade-from-foreground-box; }
+
+@keyframes fade-from-background-box {
+  from {
+    opacity: 0;
+    color: var(--background);
+    background-color: var(--background);
+  }
+}
+
+.fade-from-background-box { animation-name: fade-from-background-box; }
+
+@keyframes fade-from-black-box {
+  from {
+    opacity: 0;
+    color: var(--black);
+    background-color: var(--black);
+  }
+}
+
+.fade-from-black-box { animation-name: fade-from-black-box; }
+
+@keyframes fade-from-red-box {
+  from {
+    opacity: 0;
+    color: var(--red);
+    background-color: var(--red);
+  }
+}
+
+.fade-from-red-box { animation-name: fade-from-red-box; }
+
+@keyframes fade-from-green-box {
+  from {
+    opacity: 0;
+    color: var(--green);
+    background-color: var(--green);
+  }
+}
+
+.fade-from-green-box { animation-name: fade-from-green-box; }
+
+@keyframes fade-from-yellow-box {
+  from {
+    opacity: 0;
+    color: var(--yellow);
+    background-color: var(--yellow);
+  }
+}
+
+.fade-from-yellow-box { animation-name: fade-from-yellow-box; }
+
+@keyframes fade-from-blue-box {
+  from {
+    opacity: 0;
+    color: var(--blue);
+    background-color: var(--blue);
+  }
+}
+
+.fade-from-blue-box { animation-name: fade-from-blue-box; }
+
+@keyframes fade-from-purple-box {
+  from {
+    opacity: 0;
+    color: var(--purple);
+    background-color: var(--purple);
+  }
+}
+
+.fade-from-purple-box { animation-name: fade-from-purple-box; }
+
+@keyframes fade-from-cyan-box {
+  from {
+    opacity: 0;
+    color: var(--cyan);
+    background-color: var(--cyan);
+  }
+}
+
+.fade-from-cyan-box { animation-name: fade-from-cyan-box; }
+
+@keyframes fade-from-white-box {
+  from {
+    opacity: 0;
+    color: var(--white);
+    background-color: var(--white);
+  }
+}
+
+.fade-from-white-box { animation-name: fade-from-white-box; }
+
+@keyframes fade-from-brightBlack-box {
+  from {
+    opacity: 0;
+    color: var(--brightBlack);
+    background-color: var(--brightBlack);
+  }
+}
+
+.fade-from-brightBlack-box { animation-name: fade-from-brightBlack-box; }
+
+@keyframes fade-from-brightRed-box {
+  from {
+    opacity: 0;
+    color: var(--brightRed);
+    background-color: var(--brightRed);
+  }
+}
+
+.fade-from-brightRed-box { animation-name: fade-from-brightRed-box; }
+
+@keyframes fade-from-brightGreen-box {
+  from {
+    opacity: 0;
+    color: var(--brightGreen);
+    background-color: var(--brightGreen);
+  }
+}
+
+.fade-from-brightGreen-box { animation-name: fade-from-brightGreen-box; }
+
+@keyframes fade-from-brightYellow-box {
+  from {
+    opacity: 0;
+    color: var(--brightYellow);
+    background-color: var(--brightYellow);
+  }
+}
+
+.fade-from-brightYellow-box { animation-name: fade-from-brightYellow-box; }
+
+@keyframes fade-from-brightBlue-box {
+  from {
+    opacity: 0;
+    color: var(--brightBlue);
+    background-color: var(--brightBlue);
+  }
+}
+
+.fade-from-brightBlue-box { animation-name: fade-from-brightBlue-box; }
+
+@keyframes fade-from-brightPurple-box {
+  from {
+    opacity: 0;
+    color: var(--brightPurple);
+    background-color: var(--brightPurple);
+  }
+}
+
+.fade-from-brightPurple-box { animation-name: fade-from-brightPurple-box; }
+
+@keyframes fade-from-brightCyan-box {
+  from {
+    opacity: 0;
+    color: var(--brightCyan);
+    background-color: var(--brightCyan);
+  }
+}
+
+.fade-from-brightCyan-box { animation-name: fade-from-brightCyan-box; }
+
+@keyframes fade-from-brightWhite-box {
+  from {
+    opacity: 0;
+    color: var(--brightWhite);
+    background-color: var(--brightWhite);
+  }
+}
+
+.fade-from-brightWhite-box { animation-name: fade-from-brightWhite-box; }
+
+@keyframes fade-to-foreground-box {
+  to {
+    opacity: 1;
+    color: var(--foreground);
+    background-color: var(--foreground);
+  }
+}
+
+.fade-to-foreground-box { animation-name: fade-to-foreground-box; }
+
+@keyframes fade-to-background-box {
+  to {
+    opacity: 1;
+    color: var(--background);
+    background-color: var(--background);
+  }
+}
+
+.fade-to-background-box { animation-name: fade-to-background-box; }
+
+@keyframes fade-to-black-box {
+  to {
+    opacity: 1;
+    color: var(--black);
+    background-color: var(--black);
+  }
+}
+
+.fade-to-black-box { animation-name: fade-to-black-box; }
+
+@keyframes fade-to-red-box {
+  to {
+    opacity: 1;
+    color: var(--red);
+    background-color: var(--red);
+  }
+}
+
+.fade-to-red-box { animation-name: fade-to-red-box; }
+
+@keyframes fade-to-green-box {
+  to {
+    opacity: 1;
+    color: var(--green);
+    background-color: var(--green);
+  }
+}
+
+.fade-to-green-box { animation-name: fade-to-green-box; }
+
+@keyframes fade-to-yellow-box {
+  to {
+    opacity: 1;
+    color: var(--yellow);
+    background-color: var(--yellow);
+  }
+}
+
+.fade-to-yellow-box { animation-name: fade-to-yellow-box; }
+
+@keyframes fade-to-blue-box {
+  to {
+    opacity: 1;
+    color: var(--blue);
+    background-color: var(--blue);
+  }
+}
+
+.fade-to-blue-box { animation-name: fade-to-blue-box; }
+
+@keyframes fade-to-purple-box {
+  to {
+    opacity: 1;
+    color: var(--purple);
+    background-color: var(--purple);
+  }
+}
+
+.fade-to-purple-box { animation-name: fade-to-purple-box; }
+
+@keyframes fade-to-cyan-box {
+  to {
+    opacity: 1;
+    color: var(--cyan);
+    background-color: var(--cyan);
+  }
+}
+
+.fade-to-cyan-box { animation-name: fade-to-cyan-box; }
+
+@keyframes fade-to-white-box {
+  to {
+    opacity: 1;
+    color: var(--white);
+    background-color: var(--white);
+  }
+}
+
+.fade-to-white-box { animation-name: fade-to-white-box; }
+
+@keyframes fade-to-brightBlack-box {
+  to {
+    opacity: 1;
+    color: var(--brightBlack);
+    background-color: var(--brightBlack);
+  }
+}
+
+.fade-to-brightBlack-box { animation-name: fade-to-brightBlack-box; }
+
+@keyframes fade-to-brightRed-box {
+  to {
+    opacity: 1;
+    color: var(--brightRed);
+    background-color: var(--brightRed);
+  }
+}
+
+.fade-to-brightRed-box { animation-name: fade-to-brightRed-box; }
+
+@keyframes fade-to-brightGreen-box {
+  to {
+    opacity: 1;
+    color: var(--brightGreen);
+    background-color: var(--brightGreen);
+  }
+}
+
+.fade-to-brightGreen-box { animation-name: fade-to-brightGreen-box; }
+
+@keyframes fade-to-brightYellow-box {
+  to {
+    opacity: 1;
+    color: var(--brightYellow);
+    background-color: var(--brightYellow);
+  }
+}
+
+.fade-to-brightYellow-box { animation-name: fade-to-brightYellow-box; }
+
+@keyframes fade-to-brightBlue-box {
+  to {
+    opacity: 1;
+    color: var(--brightBlue);
+    background-color: var(--brightBlue);
+  }
+}
+
+.fade-to-brightBlue-box { animation-name: fade-to-brightBlue-box; }
+
+@keyframes fade-to-brightPurple-box {
+  to {
+    opacity: 1;
+    color: var(--brightPurple);
+    background-color: var(--brightPurple);
+  }
+}
+
+.fade-to-brightPurple-box { animation-name: fade-to-brightPurple-box; }
+
+@keyframes fade-to-brightCyan-box {
+  to {
+    opacity: 1;
+    color: var(--brightCyan);
+    background-color: var(--brightCyan);
+  }
+}
+
+.fade-to-brightCyan-box { animation-name: fade-to-brightCyan-box; }
+
+@keyframes fade-to-brightWhite-box {
+  to {
+    opacity: 1;
+    color: var(--brightWhite);
+    background-color: var(--brightWhite);
+  }
+}
+
+.fade-to-brightWhite-box { animation-name: fade-to-brightWhite-box; }
+

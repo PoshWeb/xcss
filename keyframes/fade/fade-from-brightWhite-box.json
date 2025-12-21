@@ -1,0 +1,9 @@
+{
+  "fade-from-brightWhite-box": {
+    "from": {
+      "opacity": 0,
+      "color": "var(--brightWhite)",
+      "background-color": "var(--brightWhite)"
+    }
+  }
+}

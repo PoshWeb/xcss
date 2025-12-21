@@ -1,0 +1,9 @@
+{
+  "fade-to-brightPurple-box": {
+    "to": {
+      "opacity": 1,
+      "color": "var(--brightPurple)",
+      "background-color": "var(--brightPurple)"
+    }
+  }
+}

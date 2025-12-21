@@ -1,0 +1,9 @@
+@keyframes fade-from-brightBlack {
+  from {
+    opacity: 0;
+    color: var(--brightBlack);
+  }
+}
+
+.fade-from-brightBlack { animation-name: fade-from-brightBlack; }
+

@@ -1,0 +1,9 @@
+{
+  "fade-from-yellow-box": {
+    "from": {
+      "opacity": 0,
+      "color": "var(--yellow)",
+      "background-color": "var(--yellow)"
+    }
+  }
+}

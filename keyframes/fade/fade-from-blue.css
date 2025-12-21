@@ -1,0 +1,9 @@
+@keyframes fade-from-blue {
+  from {
+    opacity: 0;
+    color: var(--blue);
+  }
+}
+
+.fade-from-blue { animation-name: fade-from-blue; }
+

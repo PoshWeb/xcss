@@ -1,0 +1,9 @@
+{
+  "fade-from-brightRed-box": {
+    "from": {
+      "opacity": 0,
+      "color": "var(--brightRed)",
+      "background-color": "var(--brightRed)"
+    }
+  }
+}

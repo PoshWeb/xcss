@@ -1,0 +1,9 @@
+{
+  "fade-to-red-box": {
+    "to": {
+      "opacity": 1,
+      "color": "var(--red)",
+      "background-color": "var(--red)"
+    }
+  }
+}

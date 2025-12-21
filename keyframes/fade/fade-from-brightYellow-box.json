@@ -1,0 +1,9 @@
+{
+  "fade-from-brightYellow-box": {
+    "from": {
+      "opacity": 0,
+      "color": "var(--brightYellow)",
+      "background-color": "var(--brightYellow)"
+    }
+  }
+}

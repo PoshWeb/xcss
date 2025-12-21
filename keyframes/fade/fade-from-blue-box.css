@@ -1,0 +1,10 @@
+@keyframes fade-from-blue-box {
+  from {
+    opacity: 0;
+    color: var(--blue);
+    background-color: var(--blue);
+  }
+}
+
+.fade-from-blue-box { animation-name: fade-from-blue-box; }
+

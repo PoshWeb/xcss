@@ -1,0 +1,9 @@
+{
+  "fade-from-black-box": {
+    "from": {
+      "opacity": 0,
+      "color": "var(--black)",
+      "background-color": "var(--black)"
+    }
+  }
+}

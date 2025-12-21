@@ -1,0 +1,10 @@
+@keyframes fade-to-red-box {
+  to {
+    opacity: 1;
+    color: var(--red);
+    background-color: var(--red);
+  }
+}
+
+.fade-to-red-box { animation-name: fade-to-red-box; }
+

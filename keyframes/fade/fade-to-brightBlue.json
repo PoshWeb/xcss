@@ -1,0 +1,8 @@
+{
+  "fade-to-brightBlue": {
+    "to": {
+      "opacity": 1,
+      "color": "var(--brightBlue)"
+    }
+  }
+}

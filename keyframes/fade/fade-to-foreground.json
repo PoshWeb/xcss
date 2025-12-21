@@ -1,0 +1,8 @@
+{
+  "fade-to-foreground": {
+    "to": {
+      "opacity": 1,
+      "color": "var(--foreground)"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+@keyframes fade-to-brightBlack-box {
+  to {
+    opacity: 1;
+    color: var(--brightBlack);
+    background-color: var(--brightBlack);
+  }
+}
+
+.fade-to-brightBlack-box { animation-name: fade-to-brightBlack-box; }
+

@@ -1,0 +1,8 @@
+{
+  "fade-to-brightBlack": {
+    "to": {
+      "opacity": 1,
+      "color": "var(--brightBlack)"
+    }
+  }
+}

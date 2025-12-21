@@ -1,0 +1,10 @@
+@keyframes fade-to-brightBlue-box {
+  to {
+    opacity: 1;
+    color: var(--brightBlue);
+    background-color: var(--brightBlue);
+  }
+}
+
+.fade-to-brightBlue-box { animation-name: fade-to-brightBlue-box; }
+

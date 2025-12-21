@@ -1,0 +1,9 @@
+@keyframes fade-to-brightYellow {
+  to {
+    opacity: 1;
+    color: var(--brightYellow);
+  }
+}
+
+.fade-to-brightYellow { animation-name: fade-to-brightYellow; }
+

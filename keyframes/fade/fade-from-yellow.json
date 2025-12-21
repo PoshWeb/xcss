@@ -1,0 +1,8 @@
+{
+  "fade-from-yellow": {
+    "from": {
+      "opacity": 0,
+      "color": "var(--yellow)"
+    }
+  }
+}

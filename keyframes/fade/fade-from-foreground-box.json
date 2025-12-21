@@ -1,0 +1,9 @@
+{
+  "fade-from-foreground-box": {
+    "from": {
+      "opacity": 0,
+      "color": "var(--foreground)",
+      "background-color": "var(--foreground)"
+    }
+  }
+}

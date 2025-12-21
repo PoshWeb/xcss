@@ -1,0 +1,8 @@
+{
+  "fade-to-brightWhite": {
+    "to": {
+      "opacity": 1,
+      "color": "var(--brightWhite)"
+    }
+  }
+}

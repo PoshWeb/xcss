@@ -1,0 +1,9 @@
+@keyframes fade-from-black {
+  from {
+    opacity: 0;
+    color: var(--black);
+  }
+}
+
+.fade-from-black { animation-name: fade-from-black; }
+

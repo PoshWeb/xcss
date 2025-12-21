@@ -1,0 +1,9 @@
+@keyframes fade-from-foreground {
+  from {
+    opacity: 0;
+    color: var(--foreground);
+  }
+}
+
+.fade-from-foreground { animation-name: fade-from-foreground; }
+

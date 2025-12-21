@@ -1,0 +1,9 @@
+{
+  "fade-to-cyan-box": {
+    "to": {
+      "opacity": 1,
+      "color": "var(--cyan)",
+      "background-color": "var(--cyan)"
+    }
+  }
+}

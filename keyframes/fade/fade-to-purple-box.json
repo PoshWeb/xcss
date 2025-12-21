@@ -1,0 +1,9 @@
+{
+  "fade-to-purple-box": {
+    "to": {
+      "opacity": 1,
+      "color": "var(--purple)",
+      "background-color": "var(--purple)"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+@keyframes fade-to-background {
+  to {
+    opacity: 1;
+    color: var(--background);
+  }
+}
+
+.fade-to-background { animation-name: fade-to-background; }
+

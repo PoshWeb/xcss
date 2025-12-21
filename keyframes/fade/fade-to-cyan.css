@@ -1,0 +1,9 @@
+@keyframes fade-to-cyan {
+  to {
+    opacity: 1;
+    color: var(--cyan);
+  }
+}
+
+.fade-to-cyan { animation-name: fade-to-cyan; }
+

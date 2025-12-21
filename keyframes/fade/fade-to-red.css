@@ -1,0 +1,9 @@
+@keyframes fade-to-red {
+  to {
+    opacity: 1;
+    color: var(--red);
+  }
+}
+
+.fade-to-red { animation-name: fade-to-red; }
+

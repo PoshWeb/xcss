@@ -1,0 +1,10 @@
+@keyframes fade-from-background-box {
+  from {
+    opacity: 0;
+    color: var(--background);
+    background-color: var(--background);
+  }
+}
+
+.fade-from-background-box { animation-name: fade-from-background-box; }
+

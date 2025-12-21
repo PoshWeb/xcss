@@ -1,0 +1,10 @@
+@keyframes fade-from-purple-box {
+  from {
+    opacity: 0;
+    color: var(--purple);
+    background-color: var(--purple);
+  }
+}
+
+.fade-from-purple-box { animation-name: fade-from-purple-box; }
+

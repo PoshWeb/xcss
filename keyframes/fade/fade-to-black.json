@@ -1,0 +1,8 @@
+{
+  "fade-to-black": {
+    "to": {
+      "opacity": 1,
+      "color": "var(--black)"
+    }
+  }
+}

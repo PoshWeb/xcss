@@ -1,0 +1,9 @@
+{
+  "fade-from-red-box": {
+    "from": {
+      "opacity": 0,
+      "color": "var(--red)",
+      "background-color": "var(--red)"
+    }
+  }
+}

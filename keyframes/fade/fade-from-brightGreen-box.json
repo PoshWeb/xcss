@@ -1,0 +1,9 @@
+{
+  "fade-from-brightGreen-box": {
+    "from": {
+      "opacity": 0,
+      "color": "var(--brightGreen)",
+      "background-color": "var(--brightGreen)"
+    }
+  }
+}

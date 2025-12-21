@@ -1,0 +1,9 @@
+@keyframes fade-from-brightRed {
+  from {
+    opacity: 0;
+    color: var(--brightRed);
+  }
+}
+
+.fade-from-brightRed { animation-name: fade-from-brightRed; }
+

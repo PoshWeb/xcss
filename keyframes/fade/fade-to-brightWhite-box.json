@@ -1,0 +1,9 @@
+{
+  "fade-to-brightWhite-box": {
+    "to": {
+      "opacity": 1,
+      "color": "var(--brightWhite)",
+      "background-color": "var(--brightWhite)"
+    }
+  }
+}

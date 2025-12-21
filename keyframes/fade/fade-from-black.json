@@ -1,0 +1,8 @@
+{
+  "fade-from-black": {
+    "from": {
+      "opacity": 0,
+      "color": "var(--black)"
+    }
+  }
+}

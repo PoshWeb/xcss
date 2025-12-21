@@ -1,0 +1,8 @@
+{
+  "fade-to-brightRed": {
+    "to": {
+      "opacity": 1,
+      "color": "var(--brightRed)"
+    }
+  }
+}

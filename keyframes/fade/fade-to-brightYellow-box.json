@@ -1,0 +1,9 @@
+{
+  "fade-to-brightYellow-box": {
+    "to": {
+      "opacity": 1,
+      "color": "var(--brightYellow)",
+      "background-color": "var(--brightYellow)"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "fade-to-green-box": {
+    "to": {
+      "opacity": 1,
+      "color": "var(--green)",
+      "background-color": "var(--green)"
+    }
+  }
+}

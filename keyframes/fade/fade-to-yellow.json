@@ -1,0 +1,8 @@
+{
+  "fade-to-yellow": {
+    "to": {
+      "opacity": 1,
+      "color": "var(--yellow)"
+    }
+  }
+}
