@@ -1,0 +1,11 @@
+@keyframes enter-downstage-left {
+  from {
+    translate: -200vw 200vh;
+  }
+  to {
+    translate: 0 0;
+  }
+}
+
+.enter-downstage-left { animation-name: enter-downstage-left; }
+

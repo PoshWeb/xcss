@@ -1,0 +1,11 @@
+@keyframes exit-stage-right {
+  to {
+    translate: 200vw 0;
+  }
+  from {
+    translate: 0 0;
+  }
+}
+
+.exit-stage-right { animation-name: exit-stage-right; }
+

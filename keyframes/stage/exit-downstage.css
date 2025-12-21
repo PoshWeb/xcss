@@ -1,0 +1,11 @@
+@keyframes exit-downstage {
+  to {
+    translate: 0 200vh;
+  }
+  from {
+    translate: 0 0;
+  }
+}
+
+.exit-downstage { animation-name: exit-downstage; }
+

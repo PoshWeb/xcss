@@ -1,0 +1,11 @@
+@keyframes exit-upstage {
+  to {
+    translate: 0 -200vh;
+  }
+  from {
+    translate: 0 0;
+  }
+}
+
+.exit-upstage { animation-name: exit-upstage; }
+

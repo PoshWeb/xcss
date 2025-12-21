@@ -1,0 +1,10 @@
+{
+  "enter-downstage": {
+    "from": {
+      "translate": "0 200vh"
+    },
+    "to": {
+      "translate": "0 0"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "exit-downstage-left": {
+    "to": {
+      "translate": "-200vw 200vh"
+    },
+    "from": {
+      "translate": "0 0"
+    }
+  }
+}

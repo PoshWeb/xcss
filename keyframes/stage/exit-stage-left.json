@@ -1,0 +1,10 @@
+{
+  "exit-stage-left": {
+    "to": {
+      "translate": "-200vw 0"
+    },
+    "from": {
+      "translate": "0 0"
+    }
+  }
+}

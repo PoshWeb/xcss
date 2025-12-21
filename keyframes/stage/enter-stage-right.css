@@ -1,0 +1,11 @@
+@keyframes enter-stage-right {
+  from {
+    translate: 200vw 0;
+  }
+  to {
+    translate: 0 0;
+  }
+}
+
+.enter-stage-right { animation-name: enter-stage-right; }
+

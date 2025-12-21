@@ -1,0 +1,130 @@
+{
+  "enter-stage-left": {
+    "from": {
+      "translate": "-200vw 0"
+    },
+    "to": {
+      "translate": "0 0"
+    }
+  },
+  "enter-stage-right": {
+    "from": {
+      "translate": "200vw 0"
+    },
+    "to": {
+      "translate": "0 0"
+    }
+  },
+  "enter-upstage": {
+    "from": {
+      "translate": "0 -200vh"
+    },
+    "to": {
+      "translate": "0 0"
+    }
+  },
+  "enter-upstage-left": {
+    "from": {
+      "translate": "-200vw -200vh"
+    },
+    "to": {
+      "translate": "0 0"
+    }
+  },
+  "enter-upstage-right": {
+    "from": {
+      "translate": "200vw -200vh"
+    },
+    "to": {
+      "translate": "0 0"
+    }
+  },
+  "enter-downstage": {
+    "from": {
+      "translate": "0 200vh"
+    },
+    "to": {
+      "translate": "0 0"
+    }
+  },
+  "enter-downstage-left": {
+    "from": {
+      "translate": "-200vw 200vh"
+    },
+    "to": {
+      "translate": "0 0"
+    }
+  },
+  "enter-downstage-right": {
+    "from": {
+      "translate": "200vw 200vh"
+    },
+    "to": {
+      "translate": "0 0"
+    }
+  },
+  "exit-stage-left": {
+    "to": {
+      "translate": "-200vw 0"
+    },
+    "from": {
+      "translate": "0 0"
+    }
+  },
+  "exit-stage-right": {
+    "to": {
+      "translate": "200vw 0"
+    },
+    "from": {
+      "translate": "0 0"
+    }
+  },
+  "exit-upstage": {
+    "to": {
+      "translate": "0 -200vh"
+    },
+    "from": {
+      "translate": "0 0"
+    }
+  },
+  "exit-upstage-left": {
+    "to": {
+      "translate": "-200vw -200vh"
+    },
+    "from": {
+      "translate": "0 0"
+    }
+  },
+  "exit-upstage-right": {
+    "to": {
+      "translate": "200vw -200vh"
+    },
+    "from": {
+      "translate": "0 0"
+    }
+  },
+  "exit-downstage": {
+    "to": {
+      "translate": "0 200vh"
+    },
+    "from": {
+      "translate": "0 0"
+    }
+  },
+  "exit-downstage-left": {
+    "to": {
+      "translate": "-200vw 200vh"
+    },
+    "from": {
+      "translate": "0 0"
+    }
+  },
+  "exit-downstage-right": {
+    "to": {
+      "translate": "200vw 200vh"
+    },
+    "from": {
+      "translate": "0 0"
+    }
+  }
+}

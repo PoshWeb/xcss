@@ -1,0 +1,11 @@
+@keyframes enter-upstage {
+  from {
+    translate: 0 -200vh;
+  }
+  to {
+    translate: 0 0;
+  }
+}
+
+.enter-upstage { animation-name: enter-upstage; }
+

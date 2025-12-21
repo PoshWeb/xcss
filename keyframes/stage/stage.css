@@ -1,0 +1,176 @@
+@keyframes enter-stage-left {
+  from {
+    translate: -200vw 0;
+  }
+  to {
+    translate: 0 0;
+  }
+}
+
+.enter-stage-left { animation-name: enter-stage-left; }
+
+@keyframes enter-stage-right {
+  from {
+    translate: 200vw 0;
+  }
+  to {
+    translate: 0 0;
+  }
+}
+
+.enter-stage-right { animation-name: enter-stage-right; }
+
+@keyframes enter-upstage {
+  from {
+    translate: 0 -200vh;
+  }
+  to {
+    translate: 0 0;
+  }
+}
+
+.enter-upstage { animation-name: enter-upstage; }
+
+@keyframes enter-upstage-left {
+  from {
+    translate: -200vw -200vh;
+  }
+  to {
+    translate: 0 0;
+  }
+}
+
+.enter-upstage-left { animation-name: enter-upstage-left; }
+
+@keyframes enter-upstage-right {
+  from {
+    translate: 200vw -200vh;
+  }
+  to {
+    translate: 0 0;
+  }
+}
+
+.enter-upstage-right { animation-name: enter-upstage-right; }
+
+@keyframes enter-downstage {
+  from {
+    translate: 0 200vh;
+  }
+  to {
+    translate: 0 0;
+  }
+}
+
+.enter-downstage { animation-name: enter-downstage; }
+
+@keyframes enter-downstage-left {
+  from {
+    translate: -200vw 200vh;
+  }
+  to {
+    translate: 0 0;
+  }
+}
+
+.enter-downstage-left { animation-name: enter-downstage-left; }
+
+@keyframes enter-downstage-right {
+  from {
+    translate: 200vw 200vh;
+  }
+  to {
+    translate: 0 0;
+  }
+}
+
+.enter-downstage-right { animation-name: enter-downstage-right; }
+
+@keyframes exit-stage-left {
+  to {
+    translate: -200vw 0;
+  }
+  from {
+    translate: 0 0;
+  }
+}
+
+.exit-stage-left { animation-name: exit-stage-left; }
+
+@keyframes exit-stage-right {
+  to {
+    translate: 200vw 0;
+  }
+  from {
+    translate: 0 0;
+  }
+}
+
+.exit-stage-right { animation-name: exit-stage-right; }
+
+@keyframes exit-upstage {
+  to {
+    translate: 0 -200vh;
+  }
+  from {
+    translate: 0 0;
+  }
+}
+
+.exit-upstage { animation-name: exit-upstage; }
+
+@keyframes exit-upstage-left {
+  to {
+    translate: -200vw -200vh;
+  }
+  from {
+    translate: 0 0;
+  }
+}
+
+.exit-upstage-left { animation-name: exit-upstage-left; }
+
+@keyframes exit-upstage-right {
+  to {
+    translate: 200vw -200vh;
+  }
+  from {
+    translate: 0 0;
+  }
+}
+
+.exit-upstage-right { animation-name: exit-upstage-right; }
+
+@keyframes exit-downstage {
+  to {
+    translate: 0 200vh;
+  }
+  from {
+    translate: 0 0;
+  }
+}
+
+.exit-downstage { animation-name: exit-downstage; }
+
+@keyframes exit-downstage-left {
+  to {
+    translate: -200vw 200vh;
+  }
+  from {
+    translate: 0 0;
+  }
+}
+
+.exit-downstage-left { animation-name: exit-downstage-left; }
+
+@keyframes exit-downstage-right {
+  to {
+    translate: 200vw 200vh;
+  }
+  from {
+    translate: 0 0;
+  }
+}
+
+.exit-downstage-right { animation-name: exit-downstage-right; }
+

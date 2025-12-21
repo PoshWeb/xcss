@@ -1,0 +1,11 @@
+@keyframes enter-stage-left {
+  from {
+    translate: -200vw 0;
+  }
+  to {
+    translate: 0 0;
+  }
+}
+
+.enter-stage-left { animation-name: enter-stage-left; }
+

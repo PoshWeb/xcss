@@ -1,0 +1,10 @@
+{
+  "enter-upstage-right": {
+    "from": {
+      "translate": "200vw -200vh"
+    },
+    "to": {
+      "translate": "0 0"
+    }
+  }
+}
