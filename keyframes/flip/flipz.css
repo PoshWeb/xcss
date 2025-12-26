@@ -1,0 +1,8 @@
+@keyframes flipz {
+  to {
+    transform: rotateZ(180deg);
+  }
+}
+
+.flipz { animation-name: flipz; }
+

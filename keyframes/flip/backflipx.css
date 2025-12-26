@@ -1,0 +1,8 @@
+@keyframes backflipx {
+  to {
+    transform: rotateX(-180deg);
+  }
+}
+
+.backflipx { animation-name: backflipx; }
+

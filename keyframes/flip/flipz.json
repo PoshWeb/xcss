@@ -1,0 +1,9 @@
+{
+  "flipz": {
+    "to": {
+      "transform": [
+        "rotateZ(180deg)"
+      ]
+    }
+  }
+}

@@ -1,0 +1,80 @@
+@keyframes flipx {
+  to {
+    transform: rotateX(180deg);
+  }
+}
+
+.flipx { animation-name: flipx; }
+
+@keyframes flipy {
+  to {
+    transform: rotateY(180deg);
+  }
+}
+
+.flipy { animation-name: flipy; }
+
+@keyframes flipz {
+  to {
+    transform: rotateZ(180deg);
+  }
+}
+
+.flipz { animation-name: flipz; }
+
+@keyframes flipxy {
+  to {
+    transform: rotateX(180deg) rotateY(180deg);
+  }
+}
+
+.flipxy { animation-name: flipxy; }
+
+@keyframes flipxyz {
+  to {
+    transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+  }
+}
+
+.flipxyz { animation-name: flipxyz; }
+
+@keyframes backflipx {
+  to {
+    transform: rotateX(-180deg);
+  }
+}
+
+.backflipx { animation-name: backflipx; }
+
+@keyframes backflipy {
+  to {
+    transform: rotateY(-180deg);
+  }
+}
+
+.backflipy { animation-name: backflipy; }
+
+@keyframes backflipz {
+  to {
+    transform: rotateZ(-180deg);
+  }
+}
+
+.backflipz { animation-name: backflipz; }
+
+@keyframes backflipxy {
+  to {
+    transform: rotateX(-180deg) rotateY(-180deg);
+  }
+}
+
+.backflipxy { animation-name: backflipxy; }
+
+@keyframes backflipxyz {
+  to {
+    transform: rotateX(-180deg) rotateY(-180deg) rotateZ(-180deg);
+  }
+}
+
+.backflipxyz { animation-name: backflipxyz; }
+

@@ -1,0 +1,10 @@
+{
+  "backflipxy": {
+    "to": {
+      "transform": [
+        "rotateX(-180deg)",
+        "rotateY(-180deg)"
+      ]
+    }
+  }
+}

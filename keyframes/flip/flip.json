@@ -1,0 +1,78 @@
+{
+  "flipx": {
+    "to": {
+      "transform": [
+        "rotateX(180deg)"
+      ]
+    }
+  },
+  "flipy": {
+    "to": {
+      "transform": [
+        "rotateY(180deg)"
+      ]
+    }
+  },
+  "flipz": {
+    "to": {
+      "transform": [
+        "rotateZ(180deg)"
+      ]
+    }
+  },
+  "flipxy": {
+    "to": {
+      "transform": [
+        "rotateX(180deg)",
+        "rotateY(180deg)"
+      ]
+    }
+  },
+  "flipxyz": {
+    "to": {
+      "transform": [
+        "rotateX(180deg)",
+        "rotateY(180deg)",
+        "rotateZ(180deg)"
+      ]
+    }
+  },
+  "backflipx": {
+    "to": {
+      "transform": [
+        "rotateX(-180deg)"
+      ]
+    }
+  },
+  "backflipy": {
+    "to": {
+      "transform": [
+        "rotateY(-180deg)"
+      ]
+    }
+  },
+  "backflipz": {
+    "to": {
+      "transform": [
+        "rotateZ(-180deg)"
+      ]
+    }
+  },
+  "backflipxy": {
+    "to": {
+      "transform": [
+        "rotateX(-180deg)",
+        "rotateY(-180deg)"
+      ]
+    }
+  },
+  "backflipxyz": {
+    "to": {
+      "transform": [
+        "rotateX(-180deg)",
+        "rotateY(-180deg)",
+        "rotateZ(-180deg)"
+      ]
+    }
+  }
+}

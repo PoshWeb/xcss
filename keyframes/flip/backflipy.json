@@ -1,0 +1,9 @@
+{
+  "backflipy": {
+    "to": {
+      "transform": [
+        "rotateY(-180deg)"
+      ]
+    }
+  }
+}

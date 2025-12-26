@@ -1,0 +1,9 @@
+{
+  "backflipz": {
+    "to": {
+      "transform": [
+        "rotateZ(-180deg)"
+      ]
+    }
+  }
+}

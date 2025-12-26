@@ -1,0 +1,8 @@
+@keyframes flipy {
+  to {
+    transform: rotateY(180deg);
+  }
+}
+
+.flipy { animation-name: flipy; }
+

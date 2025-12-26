@@ -1,0 +1,8 @@
+@keyframes backflipz {
+  to {
+    transform: rotateZ(-180deg);
+  }
+}
+
+.backflipz { animation-name: backflipz; }
+

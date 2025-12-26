@@ -1,0 +1,9 @@
+{
+  "backflipx": {
+    "to": {
+      "transform": [
+        "rotateX(-180deg)"
+      ]
+    }
+  }
+}

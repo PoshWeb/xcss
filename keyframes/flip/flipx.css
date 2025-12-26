@@ -1,0 +1,8 @@
+@keyframes flipx {
+  to {
+    transform: rotateX(180deg);
+  }
+}
+
+.flipx { animation-name: flipx; }
+

@@ -1,0 +1,9 @@
+{
+  "flipy": {
+    "to": {
+      "transform": [
+        "rotateY(180deg)"
+      ]
+    }
+  }
+}

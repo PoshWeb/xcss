@@ -1,0 +1,11 @@
+{
+  "flipxyz": {
+    "to": {
+      "transform": [
+        "rotateX(180deg)",
+        "rotateY(180deg)",
+        "rotateZ(180deg)"
+      ]
+    }
+  }
+}
