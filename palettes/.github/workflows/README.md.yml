@@ -35,5 +35,4 @@ jobs:
           git config user.email "1043665+StartAutomating@users.noreply.github.com"
           git commit -m "Updating README"
           git push
-          $lastExitCode = 0      
-          
+          $lastExitCode = 0          
