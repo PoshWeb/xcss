@@ -20,14 +20,13 @@
   --foreground: #ddeedd;
   --cursorColor: #e2bbef;
   --selectionBackground: #4d4d4d;
-  --creditTo: baskerville;
-  --creditToLink: https://github.com/baskerville;
-  --Luma: 0.109804;
-  --Contrast: 0.804543;
-  --PaletteName: Arthur;
-  --PaletteFileName: Arthur;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.109804;
+  --contrast: 0.804543;
+  --paletteName: Arthur;
+  --paletteFileName: Arthur;
+  --isBright: 0;
+  --isDark: 1;
+  --by: baskerville  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
