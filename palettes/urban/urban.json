@@ -19,8 +19,14 @@
   "background": "#312e39",
   "foreground": "#c0a79a",
   "cursorColor": "#c0a79a",
-  "selectionBackground": "#312e39",
-  "FileName": "urban",
-  "Luma": 0.186008,
-  "Contrast": 0.486056
+  "selectionBackground": "#c0a79a",
+  "fileName": "urban",
+  "by": {
+    "username": "dkeg",
+    "link": "https://github.com/dkeg",
+    "name": "",
+    "id": "3622611"
+  },
+  "luma": 0.186008,
+  "contrast": 0.486056
 }
