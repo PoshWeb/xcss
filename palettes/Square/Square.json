@@ -20,7 +20,13 @@
   "foreground": "#acacab",
   "cursorColor": "#fcfbcc",
   "selectionBackground": "#4d4d4d",
-  "FileName": "Square",
-  "Luma": 0.101961,
-  "Contrast": 0.572266
+  "fileName": "Square",
+  "by": {
+    "username": "baskerville",
+    "link": "https://github.com/baskerville",
+    "name": "Bastien Dejean",
+    "id": "159419"
+  },
+  "luma": 0.101961,
+  "contrast": 0.572266
 }

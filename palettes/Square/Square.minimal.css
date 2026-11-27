@@ -20,14 +20,13 @@
   --foreground: #acacab;
   --cursorColor: #fcfbcc;
   --selectionBackground: #4d4d4d;
-  --creditTo: baskerville;
-  --creditToLink: https://github.com/baskerville;
-  --Luma: 0.101961;
-  --Contrast: 0.572266;
-  --PaletteName: Square;
-  --PaletteFileName: Square;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.101961;
+  --contrast: 0.572266;
+  --paletteName: Square;
+  --paletteFileName: Square;
+  --isBright: 0;
+  --isDark: 1;
+  --by: baskerville  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
