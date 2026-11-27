@@ -20,10 +20,10 @@
   --foreground: #c8c1c1;
   --cursorColor: #c8c1c1;
   --selectionBackground: #060606;
-  --Luma: 0.023529;
-  --Contrast: 0.73917;
-  --PaletteName: Konsolas;
-  --PaletteFileName: Konsolas;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.023529;
+  --contrast: 0.73917;
+  --paletteName: Konsolas;
+  --paletteFileName: Konsolas;
+  --isBright: 0;
+  --isDark: 1  
 }
