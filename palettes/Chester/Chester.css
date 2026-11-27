@@ -20,13 +20,12 @@
   --foreground: #ffffff;
   --cursorColor: #b4b1b1;
   --selectionBackground: #67747c;
-  --creditToLink: https://github.com/;
-  --Luma: 0.207108;
-  --Contrast: 0.792892;
-  --PaletteName: Chester;
-  --PaletteFileName: Chester;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.207108;
+  --contrast: 0.792892;
+  --paletteName: Chester;
+  --paletteFileName: Chester;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -203,6 +202,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }

@@ -20,7 +20,13 @@
   "foreground": "#ffffff",
   "cursorColor": "#b4b1b1",
   "selectionBackground": "#67747c",
-  "FileName": "Chester",
-  "Luma": 0.207108,
-  "Contrast": 0.792892
+  "fileName": "Chester",
+  "by": {
+    "username": "",
+    "link": "https://github.com/",
+    "name": "",
+    "id": ""
+  },
+  "luma": 0.207108,
+  "contrast": 0.792892
 }
