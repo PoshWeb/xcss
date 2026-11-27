@@ -20,7 +20,13 @@
   "foreground": "#d5a200",
   "cursorColor": "#c7c7c7",
   "selectionBackground": "#6b5b02",
-  "FileName": "Apple-Classic",
-  "Luma": 0.169461,
-  "Contrast": 0.462485
+  "fileName": "Apple-Classic",
+  "by": {
+    "username": "",
+    "link": "https://github.com/",
+    "name": "",
+    "id": ""
+  },
+  "luma": 0.169461,
+  "contrast": 0.462485
 }

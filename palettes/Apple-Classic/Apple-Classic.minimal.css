@@ -20,13 +20,12 @@
   --foreground: #d5a200;
   --cursorColor: #c7c7c7;
   --selectionBackground: #6b5b02;
-  --creditToLink: https://github.com/;
-  --Luma: 0.169461;
-  --Contrast: 0.462485;
-  --PaletteName: Apple Classic;
-  --PaletteFileName: Apple-Classic;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.169461;
+  --contrast: 0.462485;
+  --paletteName: Apple Classic;
+  --paletteFileName: Apple-Classic;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
