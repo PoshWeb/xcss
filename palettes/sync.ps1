@@ -437,6 +437,7 @@ if ($ShouldCommit) {
         $jsonFile = $directory.Group -match '.json$'
         if (-not $jsonFile) { continue }
         $paletteData = Get-Content -Path $jsonFile.FullName -Raw | ConvertFrom-Json
+        if (-not $paletteData.foreground) { continue }
         $paletteName = $paletteData.Name
         
         $gitArgs = @(
