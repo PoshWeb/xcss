@@ -20,14 +20,13 @@
   --foreground: #f7f6ec;
   --cursorColor: #edcf4f;
   --selectionBackground: #175877;
-  --creditTo: aereal;
-  --creditToLink: https://github.com/aereal;
-  --Luma: 0.117647;
-  --Contrast: 0.845061;
-  --PaletteName: Japanesque;
-  --PaletteFileName: Japanesque;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.117647;
+  --contrast: 0.845061;
+  --paletteName: Japanesque;
+  --paletteFileName: Japanesque;
+  --isBright: 0;
+  --isDark: 1;
+  --by: aereal  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }

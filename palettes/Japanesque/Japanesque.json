@@ -20,7 +20,13 @@
   "foreground": "#f7f6ec",
   "cursorColor": "#edcf4f",
   "selectionBackground": "#175877",
-  "FileName": "Japanesque",
-  "Luma": 0.117647,
-  "Contrast": 0.845061
+  "fileName": "Japanesque",
+  "by": {
+    "username": "aereal",
+    "link": "https://github.com/aereal",
+    "name": "aereal",
+    "id": "87649"
+  },
+  "luma": 0.117647,
+  "contrast": 0.845061
 }
