@@ -20,12 +20,12 @@
   --foreground: #e0def4;
   --cursorColor: #e0def4;
   --selectionBackground: #433c59;
-  --Luma: 0.137025;
-  --Contrast: 0.74146;
-  --PaletteName: Duskfox;
-  --PaletteFileName: Duskfox;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.137025;
+  --contrast: 0.74146;
+  --paletteName: Duskfox;
+  --paletteFileName: Duskfox;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }

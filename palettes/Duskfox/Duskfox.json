@@ -20,7 +20,7 @@
   "foreground": "#e0def4",
   "cursorColor": "#e0def4",
   "selectionBackground": "#433c59",
-  "FileName": "Duskfox",
-  "Luma": 0.137025,
-  "Contrast": 0.74146
+  "fileName": "Duskfox",
+  "luma": 0.137025,
+  "contrast": 0.74146
 }
