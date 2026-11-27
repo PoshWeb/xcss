@@ -20,12 +20,12 @@
   --foreground: #a6accd;
   --cursorColor: #ffffff;
   --selectionBackground: #a6accd;
-  --Luma: 0.167023;
-  --Contrast: 0.511828;
-  --PaletteName: Poimandres Storm;
-  --PaletteFileName: Poimandres-Storm;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.167023;
+  --contrast: 0.511828;
+  --paletteName: Poimandres Storm;
+  --paletteFileName: Poimandres-Storm;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -202,6 +202,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
