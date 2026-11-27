@@ -20,7 +20,7 @@
   "foreground": "#bbbbbb",
   "cursorColor": "#c9c9c9",
   "selectionBackground": "#404040",
-  "FileName": "Zenwritten-Dark",
-  "Luma": 0.098039,
-  "Contrast": 0.635294
+  "fileName": "Zenwritten-Dark",
+  "luma": 0.098039,
+  "contrast": 0.635294
 }

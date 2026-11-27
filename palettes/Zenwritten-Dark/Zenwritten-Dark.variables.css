@@ -20,10 +20,10 @@
   --foreground: #bbbbbb;
   --cursorColor: #c9c9c9;
   --selectionBackground: #404040;
-  --Luma: 0.098039;
-  --Contrast: 0.635294;
-  --PaletteName: Zenwritten Dark;
-  --PaletteFileName: Zenwritten-Dark;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.098039;
+  --contrast: 0.635294;
+  --paletteName: Zenwritten Dark;
+  --paletteFileName: Zenwritten-Dark;
+  --isBright: 0;
+  --isDark: 1  
 }
