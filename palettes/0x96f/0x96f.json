@@ -20,7 +20,13 @@
   "foreground": "#fcfcfa",
   "cursorColor": "#fcfcfa",
   "selectionBackground": "#fcfcfa",
-  "FileName": "0x96f",
-  "Luma": 0.143693,
-  "Contrast": 0.843976
+  "fileName": "0x96f",
+  "by": {
+    "username": "filipjanevski",
+    "link": "https://github.com/filipjanevski",
+    "name": "Filip",
+    "id": "33383452"
+  },
+  "luma": 0.143693,
+  "contrast": 0.843976
 }

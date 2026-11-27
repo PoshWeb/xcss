@@ -20,14 +20,13 @@
   --foreground: #fcfcfa;
   --cursorColor: #fcfcfa;
   --selectionBackground: #fcfcfa;
-  --creditTo: filipjanevski;
-  --creditToLink: https://github.com/filipjanevski;
-  --Luma: 0.143693;
-  --Contrast: 0.843976;
-  --PaletteName: 0x96f;
-  --PaletteFileName: 0x96f;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.143693;
+  --contrast: 0.843976;
+  --paletteName: 0x96f;
+  --paletteFileName: 0x96f;
+  --isBright: 0;
+  --isDark: 1;
+  --by: filipjanevski  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
