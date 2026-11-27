@@ -1,0 +1,36 @@
+
+name: Build Module
+on: 
+  push: 
+  workflow_dispatch: 
+jobs: 
+  BuildXcss: 
+    runs-on: ubuntu-latest
+    if: ${{ success() }}
+    steps: 
+      - name: Check out repository
+        uses: actions/checkout@main
+      - name: BuildPreview
+        id: BuildPreview
+        shell: pwsh
+        run: |
+          <#
+          .SYNOPSIS
+              Preview Build
+          .DESCRIPTION
+              Generates a preview build of the website
+          #>
+          if (-not (Test-Path "./build.ps1")) {
+              throw "Build not found"
+          }
+          
+          . .\build.ps1
+          
+          
+      - name: PreviewUpload
+        uses: actions/upload-artifact@main
+        with: 
+          name: Preview
+          path: '**/**'
+        if: ${{always()}}
+
