@@ -20,7 +20,13 @@
   "foreground": "#dedede",
   "cursorColor": "#ffa560",
   "selectionBackground": "#474e91",
-  "FileName": "Jellybeans",
-  "Luma": 0.070588,
-  "Contrast": 0.8
+  "fileName": "Jellybeans",
+  "by": {
+    "username": "qtpi",
+    "link": "https://github.com/qtpi",
+    "name": "qt",
+    "id": "3578750"
+  },
+  "luma": 0.070588,
+  "contrast": 0.8
 }

@@ -20,14 +20,13 @@
   --foreground: #dedede;
   --cursorColor: #ffa560;
   --selectionBackground: #474e91;
-  --creditTo: qtpi;
-  --creditToLink: https://github.com/qtpi;
-  --Luma: 0.070588;
-  --Contrast: 0.8;
-  --PaletteName: Jellybeans;
-  --PaletteFileName: Jellybeans;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.070588;
+  --contrast: 0.8;
+  --paletteName: Jellybeans;
+  --paletteFileName: Jellybeans;
+  --isBright: 0;
+  --isDark: 1;
+  --by: qtpi  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
