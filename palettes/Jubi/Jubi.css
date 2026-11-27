@@ -20,14 +20,13 @@
   --foreground: #c3d3de;
   --cursorColor: #c3d3de;
   --selectionBackground: #5b5184;
-  --creditTo: jutretel;
-  --creditToLink: https://github.com/jutretel;
-  --Luma: 0.166724;
-  --Contrast: 0.650502;
-  --PaletteName: Jubi;
-  --PaletteFileName: Jubi;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.166724;
+  --contrast: 0.650502;
+  --paletteName: Jubi;
+  --paletteFileName: Jubi;
+  --isBright: 0;
+  --isDark: 1;
+  --by: jutretel  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }

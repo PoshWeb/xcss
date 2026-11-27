@@ -20,7 +20,13 @@
   "foreground": "#c3d3de",
   "cursorColor": "#c3d3de",
   "selectionBackground": "#5b5184",
-  "FileName": "Jubi",
-  "Luma": 0.166724,
-  "Contrast": 0.650502
+  "fileName": "Jubi",
+  "by": {
+    "username": "jutretel",
+    "link": "https://github.com/jutretel",
+    "name": "Julia",
+    "id": "9826741"
+  },
+  "luma": 0.166724,
+  "contrast": 0.650502
 }
