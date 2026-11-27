@@ -20,7 +20,13 @@
   "foreground": "#cacecd",
   "cursorColor": "#e3bf21",
   "selectionBackground": "#303233",
-  "FileName": "Seti",
-  "Luma": 0.070038,
-  "Contrast": 0.734187
+  "fileName": "Seti",
+  "by": {
+    "username": "jesseweed",
+    "link": "https://github.com/jesseweed",
+    "name": "Jesse",
+    "id": "719964"
+  },
+  "luma": 0.070038,
+  "contrast": 0.734187
 }
