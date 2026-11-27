@@ -20,12 +20,11 @@
   --foreground: #f106e3;
   --cursorColor: #00ff9c;
   --selectionBackground: #2e206a;
-  --creditTo: ReagentX;
-  --creditToLink: https://github.com/ReagentX;
-  --Luma: 0.045758;
-  --Contrast: 0.23627;
-  --PaletteName: Laser;
-  --PaletteFileName: Laser;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.045758;
+  --contrast: 0.23627;
+  --paletteName: Laser;
+  --paletteFileName: Laser;
+  --isBright: 0;
+  --isDark: 1;
+  --by: ReagentX  
 }

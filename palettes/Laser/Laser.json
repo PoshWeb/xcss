@@ -20,7 +20,13 @@
   "foreground": "#f106e3",
   "cursorColor": "#00ff9c",
   "selectionBackground": "#2e206a",
-  "FileName": "Laser",
-  "Luma": 0.045758,
-  "Contrast": 0.23627
+  "fileName": "Laser",
+  "by": {
+    "username": "ReagentX",
+    "link": "https://github.com/ReagentX",
+    "name": "Christopher Sardegna",
+    "id": "1920666"
+  },
+  "luma": 0.045758,
+  "contrast": 0.23627
 }
