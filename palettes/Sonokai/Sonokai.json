@@ -20,7 +20,13 @@
   "foreground": "#e2e2e3",
   "cursorColor": "#e2e2e3",
   "selectionBackground": "#414550",
-  "FileName": "Sonokai",
-  "Luma": 0.180424,
-  "Contrast": 0.706134
+  "fileName": "Sonokai",
+  "by": {
+    "username": "sainnhe",
+    "link": "https://github.com/sainnhe",
+    "name": "Sainnhe Park",
+    "id": "37491630"
+  },
+  "luma": 0.180424,
+  "contrast": 0.706134
 }

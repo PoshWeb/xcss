@@ -20,12 +20,11 @@
   --foreground: #e2e2e3;
   --cursorColor: #e2e2e3;
   --selectionBackground: #414550;
-  --creditTo: sainnhe;
-  --creditToLink: https://github.com/sainnhe;
-  --Luma: 0.180424;
-  --Contrast: 0.706134;
-  --PaletteName: Sonokai;
-  --PaletteFileName: Sonokai;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.180424;
+  --contrast: 0.706134;
+  --paletteName: Sonokai;
+  --paletteFileName: Sonokai;
+  --isBright: 0;
+  --isDark: 1;
+  --by: sainnhe  
 }
