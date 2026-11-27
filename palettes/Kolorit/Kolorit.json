@@ -20,7 +20,13 @@
   "foreground": "#efecec",
   "cursorColor": "#c7c7c7",
   "selectionBackground": "#e1925c",
-  "FileName": "Kolorit",
-  "Luma": 0.105595,
-  "Contrast": 0.822396
+  "fileName": "Kolorit",
+  "by": {
+    "username": "thomaspaulmann",
+    "link": "https://github.com/thomaspaulmann",
+    "name": "Thomas Paul Mann",
+    "id": "12066405"
+  },
+  "luma": 0.105595,
+  "contrast": 0.822396
 }

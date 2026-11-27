@@ -20,14 +20,13 @@
   --foreground: #efecec;
   --cursorColor: #c7c7c7;
   --selectionBackground: #e1925c;
-  --creditTo: thomaspaulmann;
-  --creditToLink: https://github.com/thomaspaulmann;
-  --Luma: 0.105595;
-  --Contrast: 0.822396;
-  --PaletteName: Kolorit;
-  --PaletteFileName: Kolorit;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.105595;
+  --contrast: 0.822396;
+  --paletteName: Kolorit;
+  --paletteFileName: Kolorit;
+  --isBright: 0;
+  --isDark: 1;
+  --by: thomaspaulmann  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
