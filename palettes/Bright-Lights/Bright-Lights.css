@@ -20,14 +20,13 @@
   --foreground: #b3c9d7;
   --cursorColor: #f34b00;
   --selectionBackground: #b3c9d7;
-  --creditTo: tw15egan;
-  --creditToLink: https://github.com/tw15egan;
-  --Luma: 0.098039;
-  --Contrast: 0.675818;
-  --PaletteName: Bright Lights;
-  --PaletteFileName: Bright-Lights;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.098039;
+  --contrast: 0.675818;
+  --paletteName: Bright Lights;
+  --paletteFileName: Bright-Lights;
+  --isBright: 0;
+  --isDark: 1;
+  --by: tw15egan  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }

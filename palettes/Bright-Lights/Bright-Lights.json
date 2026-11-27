@@ -20,7 +20,13 @@
   "foreground": "#b3c9d7",
   "cursorColor": "#f34b00",
   "selectionBackground": "#b3c9d7",
-  "FileName": "Bright-Lights",
-  "Luma": 0.098039,
-  "Contrast": 0.675818
+  "fileName": "Bright-Lights",
+  "by": {
+    "username": "tw15egan",
+    "link": "https://github.com/tw15egan",
+    "name": "TJ Egan",
+    "id": "11928039"
+  },
+  "luma": 0.098039,
+  "contrast": 0.675818
 }
