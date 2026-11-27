@@ -1,5 +1,5 @@
 :root {
-  --name: 'iTerm2 Pastel Dark Background';
+  --name: iTerm2 Pastel Dark Background;
   --black: #626262;
   --red: #ff8373;
   --green: #b4fb73;
@@ -20,10 +20,10 @@
   --foreground: #c7c7c7;
   --cursorColor: #ffb473;
   --selectionBackground: #454d96;
-  --Luma: 0;
-  --Contrast: 0.780392;
-  --PaletteName: 'iTerm2 Pastel Dark Background';
-  --PaletteFileName: 'iTerm2-Pastel-Dark-Background';
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0;
+  --contrast: 0.780392;
+  --paletteName: iTerm2 Pastel Dark Background;
+  --paletteFileName: iTerm2-Pastel-Dark-Background;
+  --isBright: 0;
+  --isDark: 1  
 }
