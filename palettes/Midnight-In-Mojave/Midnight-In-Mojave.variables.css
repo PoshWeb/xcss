@@ -20,12 +20,11 @@
   --foreground: #ffffff;
   --cursorColor: #32d74b;
   --selectionBackground: #4a504d;
-  --creditTo: OberstKrueger;
-  --creditToLink: https://github.com/OberstKrueger;
-  --Luma: 0.117647;
-  --Contrast: 0.882353;
-  --PaletteName: Midnight In Mojave;
-  --PaletteFileName: Midnight-In-Mojave;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.117647;
+  --contrast: 0.882353;
+  --paletteName: Midnight In Mojave;
+  --paletteFileName: Midnight-In-Mojave;
+  --isBright: 0;
+  --isDark: 1;
+  --by: OberstKrueger  
 }

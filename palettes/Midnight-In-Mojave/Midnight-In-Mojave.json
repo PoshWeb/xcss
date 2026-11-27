@@ -20,7 +20,13 @@
   "foreground": "#ffffff",
   "cursorColor": "#32d74b",
   "selectionBackground": "#4a504d",
-  "FileName": "Midnight-In-Mojave",
-  "Luma": 0.117647,
-  "Contrast": 0.882353
+  "fileName": "Midnight-In-Mojave",
+  "by": {
+    "username": "OberstKrueger",
+    "link": "https://github.com/OberstKrueger",
+    "name": "OberstKrueger",
+    "id": "7480622"
+  },
+  "luma": 0.117647,
+  "contrast": 0.882353
 }
