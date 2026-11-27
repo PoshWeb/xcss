@@ -20,12 +20,12 @@
   --foreground: #000000;
   --cursorColor: #7f7f7f;
   --selectionBackground: #a4c9ff;
-  --Luma: 1;
-  --Contrast: 1;
-  --PaletteName: Terminal Basic;
-  --PaletteFileName: Terminal-Basic;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 1;
+  --contrast: 1;
+  --paletteName: Terminal Basic;
+  --paletteFileName: Terminal-Basic;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -202,6 +202,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }

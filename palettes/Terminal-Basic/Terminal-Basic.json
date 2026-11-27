@@ -20,7 +20,7 @@
   "foreground": "#000000",
   "cursorColor": "#7f7f7f",
   "selectionBackground": "#a4c9ff",
-  "FileName": "Terminal-Basic",
-  "Luma": 1.0,
-  "Contrast": 1.0
+  "fileName": "Terminal-Basic",
+  "luma": 1.0,
+  "contrast": 1.0
 }
