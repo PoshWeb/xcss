@@ -20,7 +20,13 @@
   "foreground": "#ffffff",
   "cursorColor": "#ffc663",
   "selectionBackground": "#515151",
-  "FileName": "Niji",
-  "Luma": 0.081519,
-  "Contrast": 0.918481
+  "fileName": "Niji",
+  "by": {
+    "username": "Indyandie",
+    "link": "https://github.com/Indyandie",
+    "name": "Andy",
+    "id": "1058837"
+  },
+  "luma": 0.081519,
+  "contrast": 0.918481
 }
