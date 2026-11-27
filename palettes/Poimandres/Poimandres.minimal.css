@@ -20,14 +20,13 @@
   --foreground: #a6accd;
   --cursorColor: #ffffff;
   --selectionBackground: #a6accd;
-  --creditTo: drcmda;
-  --creditToLink: https://github.com/drcmda;
-  --Luma: 0.117144;
-  --Contrast: 0.561707;
-  --PaletteName: Poimandres;
-  --PaletteFileName: Poimandres;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.117144;
+  --contrast: 0.561707;
+  --paletteName: Poimandres;
+  --paletteFileName: Poimandres;
+  --isBright: 0;
+  --isDark: 1;
+  --by: drcmda  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }

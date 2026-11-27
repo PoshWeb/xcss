@@ -20,7 +20,13 @@
   "foreground": "#a6accd",
   "cursorColor": "#ffffff",
   "selectionBackground": "#a6accd",
-  "FileName": "Poimandres",
-  "Luma": 0.117144,
-  "Contrast": 0.561707
+  "fileName": "Poimandres",
+  "by": {
+    "username": "drcmda",
+    "link": "https://github.com/drcmda",
+    "name": "—",
+    "id": "2223602"
+  },
+  "luma": 0.117144,
+  "contrast": 0.561707
 }
