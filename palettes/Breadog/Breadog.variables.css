@@ -20,10 +20,10 @@
   --foreground: #362c24;
   --cursorColor: #362c24;
   --selectionBackground: #362c24;
-  --Luma: 0.925155;
-  --Contrast: 0.746534;
-  --PaletteName: Breadog;
-  --PaletteFileName: Breadog;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.925155;
+  --contrast: 0.746534;
+  --paletteName: Breadog;
+  --paletteFileName: Breadog;
+  --isBright: 0;
+  --isDark: 1  
 }
