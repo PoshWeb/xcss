@@ -20,7 +20,7 @@
   "foreground": "#8f93a2",
   "cursorColor": "#ffcc00",
   "selectionBackground": "#1f2233",
-  "FileName": "Material-Ocean",
-  "Luma": 0.067547,
-  "Contrast": 0.509836
+  "fileName": "Material-Ocean",
+  "luma": 0.067547,
+  "contrast": 0.509836
 }

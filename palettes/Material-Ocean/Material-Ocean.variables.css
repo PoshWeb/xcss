@@ -20,10 +20,10 @@
   --foreground: #8f93a2;
   --cursorColor: #ffcc00;
   --selectionBackground: #1f2233;
-  --Luma: 0.067547;
-  --Contrast: 0.509836;
-  --PaletteName: Material Ocean;
-  --PaletteFileName: Material-Ocean;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.067547;
+  --contrast: 0.509836;
+  --paletteName: Material Ocean;
+  --paletteFileName: Material-Ocean;
+  --isBright: 0;
+  --isDark: 1  
 }
