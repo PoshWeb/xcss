@@ -20,14 +20,13 @@
   --foreground: #f3f3f3;
   --cursorColor: #c6c6c6;
   --selectionBackground: #cacaca;
-  --creditTo: nicksay;
-  --creditToLink: https://github.com/nicksay;
-  --Luma: 0.180455;
-  --Contrast: 0.772486;
-  --PaletteName: Spacegray Bright;
-  --PaletteFileName: Spacegray-Bright;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.180455;
+  --contrast: 0.772486;
+  --paletteName: Spacegray Bright;
+  --paletteFileName: Spacegray-Bright;
+  --isBright: 0;
+  --isDark: 1;
+  --by: nicksay  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }

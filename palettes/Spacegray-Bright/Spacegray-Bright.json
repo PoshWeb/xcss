@@ -20,7 +20,13 @@
   "foreground": "#f3f3f3",
   "cursorColor": "#c6c6c6",
   "selectionBackground": "#cacaca",
-  "FileName": "Spacegray-Bright",
-  "Luma": 0.180455,
-  "Contrast": 0.772486
+  "fileName": "Spacegray-Bright",
+  "by": {
+    "username": "nicksay",
+    "link": "https://github.com/nicksay",
+    "name": "Alex Nicksay",
+    "id": "5691215"
+  },
+  "luma": 0.180455,
+  "contrast": 0.772486
 }
