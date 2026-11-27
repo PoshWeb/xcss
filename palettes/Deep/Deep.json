@@ -20,7 +20,13 @@
   "foreground": "#cdcdcd",
   "cursorColor": "#d0d0d0",
   "selectionBackground": "#780002",
-  "FileName": "Deep",
-  "Luma": 0.035294,
-  "Contrast": 0.768628
+  "fileName": "Deep",
+  "by": {
+    "username": "challenger-deep-theme",
+    "link": "https://github.com/challenger-deep-theme",
+    "name": "Challenger Deep Theme",
+    "id": "34939509"
+  },
+  "luma": 0.035294,
+  "contrast": 0.768628
 }
