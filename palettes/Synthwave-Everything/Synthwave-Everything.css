@@ -20,14 +20,13 @@
   --foreground: #f0eff1;
   --cursorColor: #72f1b8;
   --selectionBackground: #181521;
-  --creditTo: smithbm2316;
-  --creditToLink: https://github.com/smithbm2316;
-  --Luma: 0.143711;
-  --Contrast: 0.794944;
-  --PaletteName: Synthwave Everything;
-  --PaletteFileName: Synthwave-Everything;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.143711;
+  --contrast: 0.794944;
+  --paletteName: Synthwave Everything;
+  --paletteFileName: Synthwave-Everything;
+  --isBright: 0;
+  --isDark: 1;
+  --by: smithbm2316  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }

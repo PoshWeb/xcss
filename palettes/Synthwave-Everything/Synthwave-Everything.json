@@ -20,7 +20,13 @@
   "foreground": "#f0eff1",
   "cursorColor": "#72f1b8",
   "selectionBackground": "#181521",
-  "FileName": "Synthwave-Everything",
-  "Luma": 0.143711,
-  "Contrast": 0.794944
+  "fileName": "Synthwave-Everything",
+  "by": {
+    "username": "smithbm2316",
+    "link": "https://github.com/smithbm2316",
+    "name": "Ben Smith",
+    "id": "37027883"
+  },
+  "luma": 0.143711,
+  "contrast": 0.794944
 }
