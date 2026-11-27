@@ -20,7 +20,13 @@
   "foreground": "#c0caf5",
   "cursorColor": "#c0caf5",
   "selectionBackground": "#283457",
-  "FileName": "Solarized-Osaka-Night",
-  "Luma": 0.108163,
-  "Contrast": 0.687832
+  "fileName": "Solarized-Osaka-Night",
+  "by": {
+    "username": "craftzdog",
+    "link": "https://github.com/craftzdog",
+    "name": "Takuya Matsuyama",
+    "id": "1332805"
+  },
+  "luma": 0.108163,
+  "contrast": 0.687832
 }

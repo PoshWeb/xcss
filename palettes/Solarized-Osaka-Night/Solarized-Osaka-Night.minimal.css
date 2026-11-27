@@ -1,5 +1,5 @@
 :root {
-  --name: 'Solarized Osaka Night';
+  --name: Solarized Osaka Night;
   --black: #15161e;
   --red: #f7768e;
   --green: #9ece6a;
@@ -20,14 +20,13 @@
   --foreground: #c0caf5;
   --cursorColor: #c0caf5;
   --selectionBackground: #283457;
-  --creditTo: 'craftzdog';
-  --creditToLink: 'https://github.com/craftzdog';
-  --Luma: 0.108163;
-  --Contrast: 0.687832;
-  --PaletteName: 'Solarized Osaka Night';
-  --PaletteFileName: 'Solarized-Osaka-Night';
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.108163;
+  --contrast: 0.687832;
+  --paletteName: Solarized Osaka Night;
+  --paletteFileName: Solarized-Osaka-Night;
+  --isBright: 0;
+  --isDark: 1;
+  --by: craftzdog  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
