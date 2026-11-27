@@ -20,7 +20,7 @@
   "foreground": "#d8dee9",
   "cursorColor": "#fcbb6a",
   "selectionBackground": "#4e5a65",
-  "FileName": "Mariana",
-  "Luma": 0.23426,
-  "Contrast": 0.63444
+  "fileName": "Mariana",
+  "luma": 0.23426,
+  "contrast": 0.63444
 }
