@@ -20,14 +20,13 @@
   --foreground: #dadada;
   --cursorColor: #bfad9e;
   --selectionBackground: #2d2d2d;
-  --creditTo: rektdeckard;
-  --creditToLink: https://github.com/rektdeckard;
-  --Luma: 0.101961;
-  --Contrast: 0.752941;
-  --PaletteName: Mellifluous;
-  --PaletteFileName: Mellifluous;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.101961;
+  --contrast: 0.752941;
+  --paletteName: Mellifluous;
+  --paletteFileName: Mellifluous;
+  --isBright: 0;
+  --isDark: 1;
+  --by: rektdeckard  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }

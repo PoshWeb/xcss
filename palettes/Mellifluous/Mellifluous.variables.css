@@ -20,12 +20,11 @@
   --foreground: #dadada;
   --cursorColor: #bfad9e;
   --selectionBackground: #2d2d2d;
-  --creditTo: rektdeckard;
-  --creditToLink: https://github.com/rektdeckard;
-  --Luma: 0.101961;
-  --Contrast: 0.752941;
-  --PaletteName: Mellifluous;
-  --PaletteFileName: Mellifluous;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.101961;
+  --contrast: 0.752941;
+  --paletteName: Mellifluous;
+  --paletteFileName: Mellifluous;
+  --isBright: 0;
+  --isDark: 1;
+  --by: rektdeckard  
 }

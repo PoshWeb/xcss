@@ -20,7 +20,13 @@
   "foreground": "#dadada",
   "cursorColor": "#bfad9e",
   "selectionBackground": "#2d2d2d",
-  "FileName": "Mellifluous",
-  "Luma": 0.101961,
-  "Contrast": 0.752941
+  "fileName": "Mellifluous",
+  "by": {
+    "username": "rektdeckard",
+    "link": "https://github.com/rektdeckard",
+    "name": "Tobias Fried",
+    "id": "26732044"
+  },
+  "luma": 0.101961,
+  "contrast": 0.752941
 }
