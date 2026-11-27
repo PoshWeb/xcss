@@ -20,7 +20,13 @@
   "foreground": "#f1f1f1",
   "cursorColor": "#20bbfc",
   "selectionBackground": "#b6d6fd",
-  "FileName": "Pencil-Dark",
-  "Luma": 0.129412,
-  "Contrast": 0.815686
+  "fileName": "Pencil-Dark",
+  "by": {
+    "username": "mattly",
+    "link": "https://github.com/mattly",
+    "name": "Matthew Lyon",
+    "id": "891"
+  },
+  "luma": 0.129412,
+  "contrast": 0.815686
 }
