@@ -20,12 +20,11 @@
   --foreground: #8a8dae;
   --cursorColor: #5b6ea7;
   --selectionBackground: #1e3a66;
-  --creditTo: zdj;
-  --creditToLink: https://github.com/zdj;
-  --Luma: 0.131378;
-  --Contrast: 0.428406;
-  --PaletteName: Ollie;
-  --PaletteFileName: Ollie;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.131378;
+  --contrast: 0.428406;
+  --paletteName: Ollie;
+  --paletteFileName: Ollie;
+  --isBright: 0;
+  --isDark: 1;
+  --by: zdj  
 }

@@ -20,7 +20,13 @@
   "foreground": "#8a8dae",
   "cursorColor": "#5b6ea7",
   "selectionBackground": "#1e3a66",
-  "FileName": "Ollie",
-  "Luma": 0.131378,
-  "Contrast": 0.428406
+  "fileName": "Ollie",
+  "by": {
+    "username": "zdj",
+    "link": "https://github.com/zdj",
+    "name": "",
+    "id": "4109933"
+  },
+  "luma": 0.131378,
+  "contrast": 0.428406
 }
