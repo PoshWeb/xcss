@@ -18,9 +18,9 @@
   "brightWhite": "#abb2bf",
   "background": "#21252b",
   "foreground": "#abb2bf",
-  "cursorColor": "#abb2bf",
+  "cursorColor": "#528bff",
   "selectionBackground": "#323844",
-  "FileName": "Atom-One-Dark",
-  "Luma": 0.143462,
-  "Contrast": 0.552422
+  "fileName": "Atom-One-Dark",
+  "luma": 0.143462,
+  "contrast": 0.552422
 }

@@ -18,14 +18,14 @@
   --brightWhite: #abb2bf;
   --background: #21252b;
   --foreground: #abb2bf;
-  --cursorColor: #abb2bf;
+  --cursorColor: #528bff;
   --selectionBackground: #323844;
-  --Luma: 0.143462;
-  --Contrast: 0.552422;
-  --PaletteName: Atom One Dark;
-  --PaletteFileName: Atom-One-Dark;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.143462;
+  --contrast: 0.552422;
+  --paletteName: Atom One Dark;
+  --paletteFileName: Atom-One-Dark;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
