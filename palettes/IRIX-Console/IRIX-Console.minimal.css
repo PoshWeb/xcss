@@ -20,12 +20,12 @@
   --foreground: #f2f2f2;
   --cursorColor: #c7c7c7;
   --selectionBackground: #c2deff;
-  --Luma: 0.047059;
-  --Contrast: 0.901961;
-  --PaletteName: IRIX Console;
-  --PaletteFileName: IRIX-Console;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.047059;
+  --contrast: 0.901961;
+  --paletteName: IRIX Console;
+  --paletteFileName: IRIX-Console;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
