@@ -20,12 +20,12 @@
   --foreground: #31d07b;
   --cursorColor: #d5d5d5;
   --selectionBackground: #5f217a;
-  --Luma: 0.202704;
-  --Contrast: 0.456353;
-  --PaletteName: Toy Chest;
-  --PaletteFileName: Toy-Chest;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.202704;
+  --contrast: 0.456353;
+  --paletteName: Toy Chest;
+  --paletteFileName: Toy-Chest;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
