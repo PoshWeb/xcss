@@ -20,10 +20,10 @@
   --foreground: #dadedc;
   --cursorColor: #ffcc00;
   --selectionBackground: #203727;
-  --Luma: 0.096777;
-  --Contrast: 0.76991;
-  --PaletteName: Django Reborn Again;
-  --PaletteFileName: Django-Reborn-Again;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.096777;
+  --contrast: 0.76991;
+  --paletteName: Django Reborn Again;
+  --paletteFileName: Django-Reborn-Again;
+  --isBright: 0;
+  --isDark: 1  
 }
