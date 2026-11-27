@@ -20,7 +20,13 @@
   "foreground": "#d2d8d9",
   "cursorColor": "#708284",
   "selectionBackground": "#214283",
-  "FileName": "Solarized-Darcula",
-  "Luma": 0.245958,
-  "Contrast": 0.596382
+  "fileName": "Solarized-Darcula",
+  "by": {
+    "username": "rickhanlonii",
+    "link": "https://github.com/rickhanlonii",
+    "name": "Ricky",
+    "id": "2440089"
+  },
+  "luma": 0.245958,
+  "contrast": 0.596382
 }

@@ -20,14 +20,13 @@
   --foreground: #d2d8d9;
   --cursorColor: #708284;
   --selectionBackground: #214283;
-  --creditTo: rickhanlonii;
-  --creditToLink: https://github.com/rickhanlonii;
-  --Luma: 0.245958;
-  --Contrast: 0.596382;
-  --PaletteName: Solarized Darcula;
-  --PaletteFileName: Solarized-Darcula;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.245958;
+  --contrast: 0.596382;
+  --paletteName: Solarized Darcula;
+  --paletteFileName: Solarized-Darcula;
+  --isBright: 0;
+  --isDark: 1;
+  --by: rickhanlonii  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
