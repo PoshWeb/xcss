@@ -20,7 +20,13 @@
   "foreground": "#403f53",
   "cursorColor": "#403f53",
   "selectionBackground": "#f2f2f2",
-  "FileName": "Night-Owlish-Light",
-  "Luma": 1.0,
-  "Contrast": 0.746445
+  "fileName": "Night-Owlish-Light",
+  "by": {
+    "username": "praveenpuglia",
+    "link": "https://github.com/praveenpuglia",
+    "name": "Praveen Puglia",
+    "id": "313363"
+  },
+  "luma": 1.0,
+  "contrast": 0.746445
 }

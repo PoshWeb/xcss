@@ -20,14 +20,13 @@
   --foreground: #403f53;
   --cursorColor: #403f53;
   --selectionBackground: #f2f2f2;
-  --creditTo: praveenpuglia;
-  --creditToLink: https://github.com/praveenpuglia;
-  --Luma: 1;
-  --Contrast: 0.746445;
-  --PaletteName: Night Owlish Light;
-  --PaletteFileName: Night-Owlish-Light;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 1;
+  --contrast: 0.746445;
+  --paletteName: Night Owlish Light;
+  --paletteFileName: Night-Owlish-Light;
+  --isBright: 0;
+  --isDark: 1;
+  --by: praveenpuglia  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
