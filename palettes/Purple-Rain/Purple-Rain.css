@@ -20,13 +20,12 @@
   --foreground: #fffbf6;
   --cursorColor: #ff271d;
   --selectionBackground: #287691;
-  --creditToLink: https://github.com/;
-  --Luma: 0.070903;
-  --Contrast: 0.91533;
-  --PaletteName: Purple Rain;
-  --PaletteFileName: Purple-Rain;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.070903;
+  --contrast: 0.91533;
+  --paletteName: Purple Rain;
+  --paletteFileName: Purple-Rain;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -203,6 +202,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }

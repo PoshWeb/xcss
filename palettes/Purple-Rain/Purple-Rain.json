@@ -20,7 +20,13 @@
   "foreground": "#fffbf6",
   "cursorColor": "#ff271d",
   "selectionBackground": "#287691",
-  "FileName": "Purple-Rain",
-  "Luma": 0.070903,
-  "Contrast": 0.91533
+  "fileName": "Purple-Rain",
+  "by": {
+    "username": "",
+    "link": "https://github.com/",
+    "name": "",
+    "id": ""
+  },
+  "luma": 0.070903,
+  "contrast": 0.91533
 }
