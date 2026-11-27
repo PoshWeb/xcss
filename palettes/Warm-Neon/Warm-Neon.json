@@ -20,7 +20,7 @@
   "foreground": "#afdab6",
   "cursorColor": "#30ff24",
   "selectionBackground": "#b0ad21",
-  "FileName": "Warm-Neon",
-  "Luma": 0.25098,
-  "Contrast": 0.557879
+  "fileName": "Warm-Neon",
+  "luma": 0.25098,
+  "contrast": 0.557879
 }
