@@ -20,7 +20,13 @@
   "foreground": "#000000",
   "cursorColor": "#007acc",
   "selectionBackground": "#bfdbfe",
-  "FileName": "Alabaster",
-  "Luma": 0.968627,
-  "Contrast": 0.968627
+  "fileName": "Alabaster",
+  "by": {
+    "username": "mkaschenko",
+    "link": "https://github.com/mkaschenko",
+    "name": "Maxim Kashchenko",
+    "id": "130269"
+  },
+  "luma": 0.968627,
+  "contrast": 0.968627
 }
