@@ -20,7 +20,7 @@
   "foreground": "#e0f1dc",
   "cursorColor": "#47fa6b",
   "selectionBackground": "#116b41",
-  "FileName": "IC-Green-PPL",
-  "Luma": 0.172549,
-  "Contrast": 0.75243
+  "fileName": "IC-Green-PPL",
+  "luma": 0.172549,
+  "contrast": 0.75243
 }
