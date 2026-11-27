@@ -20,12 +20,12 @@
   --foreground: #a39a90;
   --cursorColor: #a39a90;
   --selectionBackground: #433b32;
-  --Luma: 0.075878;
-  --Contrast: 0.532716;
-  --PaletteName: Embers Dark;
-  --PaletteFileName: Embers-Dark;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.075878;
+  --contrast: 0.532716;
+  --paletteName: Embers Dark;
+  --paletteFileName: Embers-Dark;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -202,6 +202,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }

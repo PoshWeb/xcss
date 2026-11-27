@@ -20,7 +20,7 @@
   "foreground": "#a39a90",
   "cursorColor": "#a39a90",
   "selectionBackground": "#433b32",
-  "FileName": "Embers-Dark",
-  "Luma": 0.075878,
-  "Contrast": 0.532716
+  "fileName": "Embers-Dark",
+  "luma": 0.075878,
+  "contrast": 0.532716
 }
