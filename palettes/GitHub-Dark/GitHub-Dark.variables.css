@@ -20,12 +20,11 @@
   --foreground: #8b949e;
   --cursorColor: #c9d1d9;
   --selectionBackground: #3b5070;
-  --creditTo: apcamargo;
-  --creditToLink: https://github.com/apcamargo;
-  --Luma: 0.070053;
-  --Contrast: 0.505667;
-  --PaletteName: GitHub Dark;
-  --PaletteFileName: GitHub-Dark;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.070053;
+  --contrast: 0.505667;
+  --paletteName: GitHub Dark;
+  --paletteFileName: GitHub-Dark;
+  --isBright: 0;
+  --isDark: 1;
+  --by: apcamargo  
 }
