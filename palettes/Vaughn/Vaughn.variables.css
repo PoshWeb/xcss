@@ -20,10 +20,11 @@
   --foreground: #dcdccc;
   --cursorColor: #ff5555;
   --selectionBackground: #b5d5ff;
-  --Luma: 0.15138;
-  --Contrast: 0.706835;
-  --PaletteName: Vaughn;
-  --PaletteFileName: Vaughn;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.15138;
+  --contrast: 0.706835;
+  --paletteName: Vaughn;
+  --paletteFileName: Vaughn;
+  --isBright: 0;
+  --isDark: 1;
+  --by: mbadolato  
 }

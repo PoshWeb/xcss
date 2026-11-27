@@ -20,7 +20,13 @@
   "foreground": "#dcdccc",
   "cursorColor": "#ff5555",
   "selectionBackground": "#b5d5ff",
-  "FileName": "Vaughn",
-  "Luma": 0.15138,
-  "Contrast": 0.706835
+  "fileName": "Vaughn",
+  "by": {
+    "username": "mbadolato",
+    "link": "https://github.com/mbadolato",
+    "name": "Mark Badolato",
+    "id": "164615"
+  },
+  "luma": 0.15138,
+  "contrast": 0.706835
 }
