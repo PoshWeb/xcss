@@ -20,10 +20,10 @@
   --foreground: #ffcb83;
   --cursorColor: #fc531d;
   --selectionBackground: #c14020;
-  --Luma: 0.14902;
-  --Contrast: 0.670026;
-  --PaletteName: IC Orange PPL;
-  --PaletteFileName: IC-Orange-PPL;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.14902;
+  --contrast: 0.670026;
+  --paletteName: IC Orange PPL;
+  --paletteFileName: IC-Orange-PPL;
+  --isBright: 0;
+  --isDark: 1  
 }
