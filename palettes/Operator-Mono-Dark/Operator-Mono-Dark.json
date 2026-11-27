@@ -20,7 +20,13 @@
   "foreground": "#c3cac2",
   "cursorColor": "#fcdc08",
   "selectionBackground": "#19273b",
-  "FileName": "Operator-Mono-Dark",
-  "Luma": 0.098039,
-  "Contrast": 0.686017
+  "fileName": "Operator-Mono-Dark",
+  "by": {
+    "username": "vharadkou",
+    "link": "https://github.com/vharadkou",
+    "name": "Valentine",
+    "id": "5987672"
+  },
+  "luma": 0.098039,
+  "contrast": 0.686017
 }

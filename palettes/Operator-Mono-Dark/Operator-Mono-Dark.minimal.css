@@ -20,14 +20,13 @@
   --foreground: #c3cac2;
   --cursorColor: #fcdc08;
   --selectionBackground: #19273b;
-  --creditTo: vharadkou;
-  --creditToLink: https://github.com/vharadkou;
-  --Luma: 0.098039;
-  --Contrast: 0.686017;
-  --PaletteName: Operator Mono Dark;
-  --PaletteFileName: Operator-Mono-Dark;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.098039;
+  --contrast: 0.686017;
+  --paletteName: Operator Mono Dark;
+  --paletteFileName: Operator-Mono-Dark;
+  --isBright: 0;
+  --isDark: 1;
+  --by: vharadkou  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
