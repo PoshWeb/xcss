@@ -20,12 +20,12 @@
   --foreground: #d8dee9;
   --cursorColor: #ebcb8b;
   --selectionBackground: #d8dee9;
-  --Luma: 0.129412;
-  --Contrast: 0.739288;
-  --PaletteName: Nord Wave;
-  --PaletteFileName: Nord-Wave;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.129412;
+  --contrast: 0.739288;
+  --paletteName: Nord Wave;
+  --paletteFileName: Nord-Wave;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
