@@ -20,14 +20,13 @@
   --foreground: #f5f5f5;
   --cursorColor: #00f900;
   --selectionBackground: #cfeac6;
-  --creditTo: stlee42;
-  --creditToLink: https://github.com/stlee42;
-  --Luma: 0;
-  --Contrast: 0.960784;
-  --PaletteName: Firefly Traditional;
-  --PaletteFileName: Firefly-Traditional;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0;
+  --contrast: 0.960784;
+  --paletteName: Firefly Traditional;
+  --paletteFileName: Firefly-Traditional;
+  --isBright: 0;
+  --isDark: 1;
+  --by: stlee42  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
