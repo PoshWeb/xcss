@@ -20,14 +20,13 @@
   --foreground: #ffffd4;
   --cursorColor: #ffffff;
   --selectionBackground: #313131;
-  --creditTo: stefri;
-  --creditToLink: https://github.com/stefri;
-  --Luma: 0.078431;
-  --Contrast: 0.909394;
-  --PaletteName: Twilight;
-  --PaletteFileName: Twilight;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.078431;
+  --contrast: 0.909394;
+  --paletteName: Twilight;
+  --paletteFileName: Twilight;
+  --isBright: 0;
+  --isDark: 1;
+  --by: stefri  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }

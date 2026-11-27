@@ -20,7 +20,13 @@
   "foreground": "#ffffd4",
   "cursorColor": "#ffffff",
   "selectionBackground": "#313131",
-  "FileName": "Twilight",
-  "Luma": 0.078431,
-  "Contrast": 0.909394
+  "fileName": "Twilight",
+  "by": {
+    "username": "stefri",
+    "link": "https://github.com/stefri",
+    "name": "Steffen Kram",
+    "id": "545776"
+  },
+  "luma": 0.078431,
+  "contrast": 0.909394
 }

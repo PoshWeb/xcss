@@ -20,14 +20,13 @@
   --foreground: #ffffd4;
   --cursorColor: #ffffff;
   --selectionBackground: #313131;
-  --creditTo: stefri;
-  --creditToLink: https://github.com/stefri;
-  --Luma: 0.078431;
-  --Contrast: 0.909394;
-  --PaletteName: Twilight;
-  --PaletteFileName: Twilight;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.078431;
+  --contrast: 0.909394;
+  --paletteName: Twilight;
+  --paletteFileName: Twilight;
+  --isBright: 0;
+  --isDark: 1;
+  --by: stefri  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
