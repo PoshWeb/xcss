@@ -20,12 +20,12 @@
   --foreground: #d5d0c9;
   --cursorColor: #efc4cd;
   --selectionBackground: #363636;
-  --Luma: 0.094118;
-  --Contrast: 0.723755;
-  --PaletteName: Cutie Pro;
-  --PaletteFileName: Cutie-Pro;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.094118;
+  --contrast: 0.723755;
+  --paletteName: Cutie Pro;
+  --paletteFileName: Cutie-Pro;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
