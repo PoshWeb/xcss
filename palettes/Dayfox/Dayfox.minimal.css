@@ -20,14 +20,13 @@
   --foreground: #3d2b5a;
   --cursorColor: #3d2b5a;
   --selectionBackground: #e7d2be;
-  --creditTo: EdenEast;
-  --creditToLink: https://github.com/EdenEast;
-  --Luma: 0.951222;
-  --Contrast: 0.75428;
-  --PaletteName: Dayfox;
-  --PaletteFileName: Dayfox;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.951222;
+  --contrast: 0.75428;
+  --paletteName: Dayfox;
+  --paletteFileName: Dayfox;
+  --isBright: 0;
+  --isDark: 1;
+  --by: EdenEast  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }

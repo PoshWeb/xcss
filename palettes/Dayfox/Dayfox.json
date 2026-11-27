@@ -20,7 +20,13 @@
   "foreground": "#3d2b5a",
   "cursorColor": "#3d2b5a",
   "selectionBackground": "#e7d2be",
-  "FileName": "Dayfox",
-  "Luma": 0.951222,
-  "Contrast": 0.75428
+  "fileName": "Dayfox",
+  "by": {
+    "username": "EdenEast",
+    "link": "https://github.com/EdenEast",
+    "name": "",
+    "id": "2746374"
+  },
+  "luma": 0.951222,
+  "contrast": 0.75428
 }
