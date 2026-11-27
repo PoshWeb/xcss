@@ -20,7 +20,13 @@
   "foreground": "#b4bdc3",
   "cursorColor": "#c4cacf",
   "selectionBackground": "#3d4042",
-  "FileName": "Zenbones-Dark",
-  "Luma": 0.099974,
-  "Contrast": 0.635398
+  "fileName": "Zenbones-Dark",
+  "by": {
+    "username": "mcchrish",
+    "link": "https://github.com/mcchrish",
+    "name": "Michael Chris Lopez",
+    "id": "7200153"
+  },
+  "luma": 0.099974,
+  "contrast": 0.635398
 }

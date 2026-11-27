@@ -20,12 +20,13 @@
   --foreground: #b4bdc3;
   --cursorColor: #c4cacf;
   --selectionBackground: #3d4042;
-  --Luma: 0.099974;
-  --Contrast: 0.635398;
-  --PaletteName: Zenbones Dark;
-  --PaletteFileName: Zenbones-Dark;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.099974;
+  --contrast: 0.635398;
+  --paletteName: Zenbones Dark;
+  --paletteFileName: Zenbones-Dark;
+  --isBright: 0;
+  --isDark: 1;
+  --by: mcchrish  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
