@@ -1,5 +1,5 @@
 :root {
-  --name: 'Tinacious Design Light';
+  --name: Tinacious Design Light;
   --black: #1d1d26;
   --red: #ff3399;
   --green: #00d364;
@@ -20,12 +20,12 @@
   --foreground: #1d1d26;
   --cursorColor: #b1b1d6;
   --selectionBackground: #ff3399;
-  --Luma: 0.974531;
-  --Contrast: 0.858257;
-  --PaletteName: 'Tinacious Design Light';
-  --PaletteFileName: 'Tinacious-Design-Light';
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.974531;
+  --contrast: 0.858257;
+  --paletteName: Tinacious Design Light;
+  --paletteFileName: Tinacious-Design-Light;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
