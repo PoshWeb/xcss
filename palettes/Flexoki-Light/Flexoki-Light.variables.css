@@ -20,10 +20,10 @@
   --foreground: #100f0f;
   --cursorColor: #100f0f;
   --selectionBackground: #cecdc3;
-  --Luma: 0.987339;
-  --Contrast: 0.927682;
-  --PaletteName: Flexoki Light;
-  --PaletteFileName: Flexoki-Light;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.987339;
+  --contrast: 0.927682;
+  --paletteName: Flexoki Light;
+  --paletteFileName: Flexoki-Light;
+  --isBright: 0;
+  --isDark: 1  
 }
