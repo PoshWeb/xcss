@@ -20,7 +20,7 @@
   "foreground": "#ffffff",
   "cursorColor": "#ffffff",
   "selectionBackground": "#003f8e",
-  "FileName": "Tomorrow-Night-Blue",
-  "Luma": 0.123904,
-  "Contrast": 0.876096
+  "fileName": "Tomorrow-Night-Blue",
+  "luma": 0.123904,
+  "contrast": 0.876096
 }
