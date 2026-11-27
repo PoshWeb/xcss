@@ -20,14 +20,13 @@
   --foreground: #ddd8bb;
   --cursorColor: #e6e0c2;
   --selectionBackground: #49473e;
-  --creditTo: mcchrish;
-  --creditToLink: https://github.com/mcchrish;
-  --Luma: 0.124117;
-  --Contrast: 0.718899;
-  --PaletteName: Kanagawabones;
-  --PaletteFileName: Kanagawabones;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.124117;
+  --contrast: 0.718899;
+  --paletteName: Kanagawabones;
+  --paletteFileName: Kanagawabones;
+  --isBright: 0;
+  --isDark: 1;
+  --by: mcchrish  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }

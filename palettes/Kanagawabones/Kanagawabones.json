@@ -20,7 +20,13 @@
   "foreground": "#ddd8bb",
   "cursorColor": "#e6e0c2",
   "selectionBackground": "#49473e",
-  "FileName": "Kanagawabones",
-  "Luma": 0.124117,
-  "Contrast": 0.718899
+  "fileName": "Kanagawabones",
+  "by": {
+    "username": "mcchrish",
+    "link": "https://github.com/mcchrish",
+    "name": "Michael Chris Lopez",
+    "id": "7200153"
+  },
+  "luma": 0.124117,
+  "contrast": 0.718899
 }
