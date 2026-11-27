@@ -20,14 +20,13 @@
   --foreground: #eef4f6;
   --cursorColor: #eef4f6;
   --selectionBackground: #49376d;
-  --creditTo: 4c696e6b;
-  --creditToLink: https://github.com/4c696e6b;
-  --Luma: 0.123835;
-  --Contrast: 0.828592;
-  --PaletteName: Violite;
-  --PaletteFileName: Violite;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.123835;
+  --contrast: 0.828592;
+  --paletteName: Violite;
+  --paletteFileName: Violite;
+  --isBright: 0;
+  --isDark: 1;
+  --by: 4c696e6b  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }

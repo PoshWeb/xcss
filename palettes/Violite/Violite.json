@@ -20,7 +20,13 @@
   "foreground": "#eef4f6",
   "cursorColor": "#eef4f6",
   "selectionBackground": "#49376d",
-  "FileName": "Violite",
-  "Luma": 0.123835,
-  "Contrast": 0.828592
+  "fileName": "Violite",
+  "by": {
+    "username": "4c696e6b",
+    "link": "https://github.com/4c696e6b",
+    "name": "Link",
+    "id": "70448281"
+  },
+  "luma": 0.123835,
+  "contrast": 0.828592
 }
