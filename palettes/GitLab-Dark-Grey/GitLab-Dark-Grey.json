@@ -20,7 +20,13 @@
   "foreground": "#ffffff",
   "cursorColor": "#ffffff",
   "selectionBackground": "#ad95e9",
-  "FileName": "GitLab-Dark-Grey",
-  "Luma": 0.133333,
-  "Contrast": 0.866667
+  "fileName": "GitLab-Dark-Grey",
+  "by": {
+    "username": "apcamargo",
+    "link": "https://github.com/apcamargo",
+    "name": "Antônio Camargo",
+    "id": "22940964"
+  },
+  "luma": 0.133333,
+  "contrast": 0.866667
 }
