@@ -20,7 +20,13 @@
   "foreground": "#f2f2e3",
   "cursorColor": "#f2f2e3",
   "selectionBackground": "#6e29ad",
-  "FileName": "Synthwave-Alpha",
-  "Luma": 0.119332,
-  "Contrast": 0.825441
+  "fileName": "Synthwave-Alpha",
+  "by": {
+    "username": "vikpe",
+    "link": "https://github.com/vikpe",
+    "name": "Viktor Persson",
+    "id": "1616817"
+  },
+  "luma": 0.119332,
+  "contrast": 0.825441
 }
