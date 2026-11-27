@@ -20,7 +20,13 @@
   "foreground": "#c0caf5",
   "cursorColor": "#c0caf5",
   "selectionBackground": "#33467c",
-  "FileName": "TokyoNight",
-  "Luma": 0.108163,
-  "Contrast": 0.687832
+  "fileName": "TokyoNight",
+  "by": {
+    "username": "folke",
+    "link": "https://github.com/folke",
+    "name": "Folke Lemaitre",
+    "id": "292349"
+  },
+  "luma": 0.108163,
+  "contrast": 0.687832
 }

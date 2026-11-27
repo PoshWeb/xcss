@@ -20,14 +20,13 @@
   --foreground: #c0caf5;
   --cursorColor: #c0caf5;
   --selectionBackground: #33467c;
-  --creditTo: folke;
-  --creditToLink: https://github.com/folke;
-  --Luma: 0.108163;
-  --Contrast: 0.687832;
-  --PaletteName: TokyoNight;
-  --PaletteFileName: TokyoNight;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.108163;
+  --contrast: 0.687832;
+  --paletteName: TokyoNight;
+  --paletteFileName: TokyoNight;
+  --isBright: 0;
+  --isDark: 1;
+  --by: folke  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
