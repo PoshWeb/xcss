@@ -20,7 +20,7 @@
   "foreground": "#cecece",
   "cursorColor": "#cecece",
   "selectionBackground": "#cecece",
-  "FileName": "IBM-5153-CGA",
-  "Luma": 0.078431,
-  "Contrast": 0.729412
+  "fileName": "IBM-5153-CGA",
+  "luma": 0.078431,
+  "contrast": 0.729412
 }
