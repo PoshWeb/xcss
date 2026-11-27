@@ -20,12 +20,11 @@
   --foreground: #514968;
   --cursorColor: #524966;
   --selectionBackground: #1f1d2b;
-  --creditTo: zdj;
-  --creditToLink: https://github.com/zdj;
-  --Luma: 0.041723;
-  --Contrast: 0.259999;
-  --PaletteName: Royal;
-  --PaletteFileName: Royal;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.041723;
+  --contrast: 0.259999;
+  --paletteName: Royal;
+  --paletteFileName: Royal;
+  --isBright: 0;
+  --isDark: 1;
+  --by: zdj  
 }
