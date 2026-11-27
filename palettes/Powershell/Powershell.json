@@ -20,7 +20,13 @@
   "foreground": "#f6f6f7",
   "cursorColor": "#f6f6f7",
   "selectionBackground": "#f6f6f7",
-  "FileName": "Powershell",
-  "Luma": 0.128922,
-  "Contrast": 0.836067
+  "fileName": "Powershell",
+  "by": {
+    "username": "livlign",
+    "link": "https://github.com/livlign",
+    "name": "",
+    "id": "67087668"
+  },
+  "luma": 0.128922,
+  "contrast": 0.836067
 }

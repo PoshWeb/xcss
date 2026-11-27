@@ -20,12 +20,13 @@
   --foreground: #f6f6f7;
   --cursorColor: #f6f6f7;
   --selectionBackground: #f6f6f7;
-  --Luma: 0.128922;
-  --Contrast: 0.836067;
-  --PaletteName: Powershell;
-  --PaletteFileName: Powershell;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.128922;
+  --contrast: 0.836067;
+  --paletteName: Powershell;
+  --paletteFileName: Powershell;
+  --isBright: 0;
+  --isDark: 1;
+  --by: livlign  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -202,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
