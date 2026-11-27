@@ -20,10 +20,10 @@
   --foreground: #c6c8d1;
   --cursorColor: #c6c8d1;
   --selectionBackground: #c6c8d1;
-  --Luma: 0.094998;
-  --Contrast: 0.690197;
-  --PaletteName: Iceberg Dark;
-  --PaletteFileName: Iceberg-Dark;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.094998;
+  --contrast: 0.690197;
+  --paletteName: Iceberg Dark;
+  --paletteFileName: Iceberg-Dark;
+  --isBright: 0;
+  --isDark: 1  
 }
