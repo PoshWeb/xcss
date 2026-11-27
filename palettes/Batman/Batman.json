@@ -20,7 +20,13 @@
   "foreground": "#6f6f6f",
   "cursorColor": "#fcef0c",
   "selectionBackground": "#4d504c",
-  "FileName": "Batman",
-  "Luma": 0.112341,
-  "Contrast": 0.322953
+  "fileName": "Batman",
+  "by": {
+    "username": "pyrophos",
+    "link": "https://github.com/pyrophos",
+    "name": "Adam Poncy",
+    "id": "5757307"
+  },
+  "luma": 0.112341,
+  "contrast": 0.322953
 }
