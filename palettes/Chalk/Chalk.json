@@ -20,7 +20,13 @@
   "foreground": "#d2d8d9",
   "cursorColor": "#708284",
   "selectionBackground": "#e4e8ed",
-  "FileName": "Chalk",
-  "Luma": 0.175086,
-  "Contrast": 0.667254
+  "fileName": "Chalk",
+  "by": {
+    "username": "achalv",
+    "link": "https://github.com/achalv",
+    "name": "Achal Varma",
+    "id": "1014428"
+  },
+  "luma": 0.175086,
+  "contrast": 0.667254
 }

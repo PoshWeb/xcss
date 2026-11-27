@@ -20,12 +20,11 @@
   --foreground: #d2d8d9;
   --cursorColor: #708284;
   --selectionBackground: #e4e8ed;
-  --creditTo: achalv;
-  --creditToLink: https://github.com/achalv;
-  --Luma: 0.175086;
-  --Contrast: 0.667254;
-  --PaletteName: Chalk;
-  --PaletteFileName: Chalk;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.175086;
+  --contrast: 0.667254;
+  --paletteName: Chalk;
+  --paletteFileName: Chalk;
+  --isBright: 0;
+  --isDark: 1;
+  --by: achalv  
 }

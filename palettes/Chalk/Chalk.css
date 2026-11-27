@@ -20,14 +20,13 @@
   --foreground: #d2d8d9;
   --cursorColor: #708284;
   --selectionBackground: #e4e8ed;
-  --creditTo: achalv;
-  --creditToLink: https://github.com/achalv;
-  --Luma: 0.175086;
-  --Contrast: 0.667254;
-  --PaletteName: Chalk;
-  --PaletteFileName: Chalk;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.175086;
+  --contrast: 0.667254;
+  --paletteName: Chalk;
+  --paletteFileName: Chalk;
+  --isBright: 0;
+  --isDark: 1;
+  --by: achalv  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
