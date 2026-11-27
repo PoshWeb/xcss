@@ -20,14 +20,13 @@
   --foreground: #000000;
   --cursorColor: #a1a1a1;
   --selectionBackground: #c1deff;
-  --creditTo: cbitterfield;
-  --creditToLink: https://github.com/cbitterfield;
-  --Luma: 0.877589;
-  --Contrast: 0.877589;
-  --PaletteName: Coffee Theme;
-  --PaletteFileName: Coffee-Theme;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.877589;
+  --contrast: 0.877589;
+  --paletteName: Coffee Theme;
+  --paletteFileName: Coffee-Theme;
+  --isBright: 0;
+  --isDark: 1;
+  --by: cbitterfield  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }

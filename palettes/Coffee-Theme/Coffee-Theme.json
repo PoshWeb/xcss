@@ -20,7 +20,13 @@
   "foreground": "#000000",
   "cursorColor": "#a1a1a1",
   "selectionBackground": "#c1deff",
-  "FileName": "Coffee-Theme",
-  "Luma": 0.877589,
-  "Contrast": 0.877589
+  "fileName": "Coffee-Theme",
+  "by": {
+    "username": "cbitterfield",
+    "link": "https://github.com/cbitterfield",
+    "name": "Colin Bitterfield",
+    "id": "11802951"
+  },
+  "luma": 0.877589,
+  "contrast": 0.877589
 }
