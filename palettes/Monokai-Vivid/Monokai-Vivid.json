@@ -20,7 +20,13 @@
   "foreground": "#f9f9f9",
   "cursorColor": "#fb0007",
   "selectionBackground": "#ffffff",
-  "FileName": "Monokai-Vivid",
-  "Luma": 0.070588,
-  "Contrast": 0.905883
+  "fileName": "Monokai-Vivid",
+  "by": {
+    "username": "vitalymak",
+    "link": "https://github.com/vitalymak",
+    "name": "Vitaly Makarevich",
+    "id": "2905203"
+  },
+  "luma": 0.070588,
+  "contrast": 0.905883
 }

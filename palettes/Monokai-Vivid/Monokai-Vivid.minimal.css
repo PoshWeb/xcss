@@ -20,14 +20,13 @@
   --foreground: #f9f9f9;
   --cursorColor: #fb0007;
   --selectionBackground: #ffffff;
-  --creditTo: vitalymak;
-  --creditToLink: https://github.com/vitalymak;
-  --Luma: 0.070588;
-  --Contrast: 0.905883;
-  --PaletteName: Monokai Vivid;
-  --PaletteFileName: Monokai-Vivid;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.070588;
+  --contrast: 0.905883;
+  --paletteName: Monokai Vivid;
+  --paletteFileName: Monokai-Vivid;
+  --isBright: 0;
+  --isDark: 1;
+  --by: vitalymak  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
