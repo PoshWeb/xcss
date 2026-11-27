@@ -20,10 +20,10 @@
   --foreground: #d4e7d4;
   --cursorColor: #57647a;
   --selectionBackground: #ffffff;
-  --Luma: 0.190865;
-  --Contrast: 0.693797;
-  --PaletteName: Seafoam Pastel;
-  --PaletteFileName: Seafoam-Pastel;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.190865;
+  --contrast: 0.693797;
+  --paletteName: Seafoam Pastel;
+  --paletteFileName: Seafoam-Pastel;
+  --isBright: 0;
+  --isDark: 1  
 }
