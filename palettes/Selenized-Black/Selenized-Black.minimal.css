@@ -20,12 +20,12 @@
   --foreground: #b9b9b9;
   --cursorColor: #777777;
   --selectionBackground: #3b3b3b;
-  --Luma: 0.094118;
-  --Contrast: 0.631372;
-  --PaletteName: Selenized Black;
-  --PaletteFileName: Selenized-Black;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.094118;
+  --contrast: 0.631372;
+  --paletteName: Selenized Black;
+  --paletteFileName: Selenized-Black;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
