@@ -20,7 +20,13 @@
   "foreground": "#45373c",
   "cursorColor": "#45373c",
   "selectionBackground": "#968c83",
-  "FileName": "Belafonte-Day",
-  "Luma": 0.802407,
-  "Contrast": 0.573633
+  "fileName": "Belafonte-Day",
+  "by": {
+    "username": "idleberg",
+    "link": "https://github.com/idleberg",
+    "name": "Jan T. Sott",
+    "id": "1504938"
+  },
+  "luma": 0.802407,
+  "contrast": 0.573633
 }

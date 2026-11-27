@@ -20,12 +20,11 @@
   --foreground: #45373c;
   --cursorColor: #45373c;
   --selectionBackground: #968c83;
-  --creditTo: idleberg;
-  --creditToLink: https://github.com/idleberg;
-  --Luma: 0.802407;
-  --Contrast: 0.573633;
-  --PaletteName: Belafonte Day;
-  --PaletteFileName: Belafonte-Day;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.802407;
+  --contrast: 0.573633;
+  --paletteName: Belafonte Day;
+  --paletteFileName: Belafonte-Day;
+  --isBright: 0;
+  --isDark: 1;
+  --by: idleberg  
 }
