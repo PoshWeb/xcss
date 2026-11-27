@@ -20,7 +20,13 @@
   "foreground": "#bfbfbf",
   "cursorColor": "#666666",
   "selectionBackground": "#ff8c00",
-  "FileName": "Citruszest",
-  "Luma": 0.070588,
-  "Contrast": 0.678432
+  "fileName": "Citruszest",
+  "by": {
+    "username": "zootedb0t",
+    "link": "https://github.com/zootedb0t",
+    "name": "",
+    "id": "62596687"
+  },
+  "luma": 0.070588,
+  "contrast": 0.678432
 }
