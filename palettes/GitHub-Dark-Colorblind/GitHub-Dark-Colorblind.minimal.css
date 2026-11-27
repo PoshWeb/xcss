@@ -1,5 +1,5 @@
 :root {
-  --name: 'GitHub Dark Colorblind';
+  --name: GitHub Dark Colorblind;
   --black: #484f58;
   --red: #ec8e2c;
   --green: #58a6ff;
@@ -20,14 +20,13 @@
   --foreground: #c9d1d9;
   --cursorColor: #58a6ff;
   --selectionBackground: #c9d1d9;
-  --creditTo: 'apcamargo';
-  --creditToLink: 'https://github.com/apcamargo';
-  --Luma: 0.065031;
-  --Contrast: 0.750172;
-  --PaletteName: 'GitHub Dark Colorblind';
-  --PaletteFileName: 'GitHub-Dark-Colorblind';
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.065031;
+  --contrast: 0.750172;
+  --paletteName: GitHub Dark Colorblind;
+  --paletteFileName: GitHub-Dark-Colorblind;
+  --isBright: 0;
+  --isDark: 1;
+  --by: apcamargo  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
