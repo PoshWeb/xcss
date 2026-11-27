@@ -20,12 +20,12 @@
   --foreground: #f2f2f2;
   --cursorColor: #4d4d4d;
   --selectionBackground: #414141;
-  --Luma: 0;
-  --Contrast: 0.94902;
-  --PaletteName: Paul Millr;
-  --PaletteFileName: Paul-Millr;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0;
+  --contrast: 0.94902;
+  --paletteName: Paul Millr;
+  --paletteFileName: Paul-Millr;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
