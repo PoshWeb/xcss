@@ -20,14 +20,13 @@
   --foreground: #d5d8da;
   --cursorColor: #6c6f93;
   --selectionBackground: #6c6f93;
-  --creditTo: apcamargo;
-  --creditToLink: https://github.com/apcamargo;
-  --Luma: 0.118245;
-  --Contrast: 0.726879;
-  --PaletteName: Horizon;
-  --PaletteFileName: Horizon;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.118245;
+  --contrast: 0.726879;
+  --paletteName: Horizon;
+  --paletteFileName: Horizon;
+  --isBright: 0;
+  --isDark: 1;
+  --by: apcamargo  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
