@@ -20,7 +20,7 @@
   "foreground": "#654735",
   "cursorColor": "#654735",
   "selectionBackground": "#654735",
-  "FileName": "Gruvbox-Material-Light",
-  "Luma": 0.941544,
-  "Contrast": 0.643197
+  "fileName": "Gruvbox-Material-Light",
+  "luma": 0.941544,
+  "contrast": 0.643197
 }

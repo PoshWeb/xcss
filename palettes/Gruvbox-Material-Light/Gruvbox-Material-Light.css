@@ -1,5 +1,5 @@
 :root {
-  --name: 'Gruvbox Material Light';
+  --name: Gruvbox Material Light;
   --black: #fbf1c7;
   --red: #c14a4a;
   --green: #6c782e;
@@ -20,12 +20,12 @@
   --foreground: #654735;
   --cursorColor: #654735;
   --selectionBackground: #654735;
-  --Luma: 0.941544;
-  --Contrast: 0.643197;
-  --PaletteName: 'Gruvbox Material Light';
-  --PaletteFileName: 'Gruvbox-Material-Light';
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.941544;
+  --contrast: 0.643197;
+  --paletteName: Gruvbox Material Light;
+  --paletteFileName: Gruvbox-Material-Light;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -202,6 +202,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
