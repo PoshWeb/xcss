@@ -20,14 +20,13 @@
   --foreground: #bdbdbd;
   --cursorColor: #9e9e9e;
   --selectionBackground: #b2ceee;
-  --creditTo: bluz71;
-  --creditToLink: https://github.com/bluz71;
-  --Luma: 0.031373;
-  --Contrast: 0.709803;
-  --PaletteName: Moonfly;
-  --PaletteFileName: Moonfly;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.031373;
+  --contrast: 0.709803;
+  --paletteName: Moonfly;
+  --paletteFileName: Moonfly;
+  --isBright: 0;
+  --isDark: 1;
+  --by: bluz71  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }

@@ -20,7 +20,13 @@
   "foreground": "#bdbdbd",
   "cursorColor": "#9e9e9e",
   "selectionBackground": "#b2ceee",
-  "FileName": "Moonfly",
-  "Luma": 0.031373,
-  "Contrast": 0.709803
+  "fileName": "Moonfly",
+  "by": {
+    "username": "bluz71",
+    "link": "https://github.com/bluz71",
+    "name": "Dennis B",
+    "id": "11382509"
+  },
+  "luma": 0.031373,
+  "contrast": 0.709803
 }
