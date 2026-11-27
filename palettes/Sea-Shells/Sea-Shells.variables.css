@@ -20,10 +20,10 @@
   --foreground: #deb88d;
   --cursorColor: #fca02f;
   --selectionBackground: #1e4962;
-  --Luma: 0.071242;
-  --Contrast: 0.669833;
-  --PaletteName: Sea Shells;
-  --PaletteFileName: Sea-Shells;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.071242;
+  --contrast: 0.669833;
+  --paletteName: Sea Shells;
+  --paletteFileName: Sea-Shells;
+  --isBright: 0;
+  --isDark: 1  
 }

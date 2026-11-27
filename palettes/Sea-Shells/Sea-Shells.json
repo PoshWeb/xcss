@@ -20,7 +20,7 @@
   "foreground": "#deb88d",
   "cursorColor": "#fca02f",
   "selectionBackground": "#1e4962",
-  "FileName": "Sea-Shells",
-  "Luma": 0.071242,
-  "Contrast": 0.669833
+  "fileName": "Sea-Shells",
+  "luma": 0.071242,
+  "contrast": 0.669833
 }
