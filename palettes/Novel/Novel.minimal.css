@@ -20,12 +20,12 @@
   --foreground: #3b2322;
   --cursorColor: #73635a;
   --selectionBackground: #a4a390;
-  --Luma: 0.855363;
-  --Contrast: 0.698382;
-  --PaletteName: Novel;
-  --PaletteFileName: Novel;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.855363;
+  --contrast: 0.698382;
+  --paletteName: Novel;
+  --paletteFileName: Novel;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
