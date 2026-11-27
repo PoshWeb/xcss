@@ -1,5 +1,5 @@
 :root {
-  --name: 'Black Metal (Gorgoroth)';
+  --name: Black Metal (Gorgoroth);
   --black: #000000;
   --red: #5f8787;
   --green: #9b8d7f;
@@ -20,12 +20,12 @@
   --foreground: #c1c1c1;
   --cursorColor: #c1c1c1;
   --selectionBackground: #c1c1c1;
-  --Luma: 0;
-  --Contrast: 0.756863;
-  --PaletteName: 'Black Metal (Gorgoroth)';
-  --PaletteFileName: 'Black-Metal-Gorgoroth';
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0;
+  --contrast: 0.756863;
+  --paletteName: Black Metal (Gorgoroth);
+  --paletteFileName: Black-Metal-Gorgoroth;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
