@@ -20,14 +20,13 @@
   --foreground: #cdcdcd;
   --cursorColor: #cdcdcd;
   --selectionBackground: #252530;
-  --creditTo: vague2k;
-  --creditToLink: https://github.com/vague2k;
-  --Luma: 0.078715;
-  --Contrast: 0.725207;
-  --PaletteName: Vague;
-  --PaletteFileName: Vague;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.078715;
+  --contrast: 0.725207;
+  --paletteName: Vague;
+  --paletteFileName: Vague;
+  --isBright: 0;
+  --isDark: 1;
+  --by: vague2k  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }

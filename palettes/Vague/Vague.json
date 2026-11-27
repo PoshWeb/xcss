@@ -20,7 +20,13 @@
   "foreground": "#cdcdcd",
   "cursorColor": "#cdcdcd",
   "selectionBackground": "#252530",
-  "FileName": "Vague",
-  "Luma": 0.078715,
-  "Contrast": 0.725207
+  "fileName": "Vague",
+  "by": {
+    "username": "vague2k",
+    "link": "https://github.com/vague2k",
+    "name": "Alberto Hernandez",
+    "id": "121782036"
+  },
+  "luma": 0.078715,
+  "contrast": 0.725207
 }
