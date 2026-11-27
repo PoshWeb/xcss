@@ -20,7 +20,7 @@
   "foreground": "#bbbbbb",
   "cursorColor": "#ffa560",
   "selectionBackground": "#363983",
-  "FileName": "Builtin-Pastel-Dark",
-  "Luma": 0.0,
-  "Contrast": 0.733333
+  "fileName": "Builtin-Pastel-Dark",
+  "luma": 0.0,
+  "contrast": 0.733333
 }

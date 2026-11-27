@@ -20,10 +20,10 @@
   --foreground: #bbbbbb;
   --cursorColor: #ffa560;
   --selectionBackground: #363983;
-  --Luma: 0;
-  --Contrast: 0.733333;
-  --PaletteName: Builtin Pastel Dark;
-  --PaletteFileName: Builtin-Pastel-Dark;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0;
+  --contrast: 0.733333;
+  --paletteName: Builtin Pastel Dark;
+  --paletteFileName: Builtin-Pastel-Dark;
+  --isBright: 0;
+  --isDark: 1  
 }
