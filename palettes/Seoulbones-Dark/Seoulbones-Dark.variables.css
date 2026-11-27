@@ -20,10 +20,10 @@
   --foreground: #dddddd;
   --cursorColor: #e2e2e2;
   --selectionBackground: #777777;
-  --Luma: 0.294118;
-  --Contrast: 0.572549;
-  --PaletteName: Seoulbones Dark;
-  --PaletteFileName: Seoulbones-Dark;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.294118;
+  --contrast: 0.572549;
+  --paletteName: Seoulbones Dark;
+  --paletteFileName: Seoulbones-Dark;
+  --isBright: 0;
+  --isDark: 1  
 }
