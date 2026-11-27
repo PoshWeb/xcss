@@ -20,7 +20,13 @@
   "foreground": "#f0e4cf",
   "cursorColor": "#f3eadb",
   "selectionBackground": "#746956",
-  "FileName": "Zenburned",
-  "Luma": 0.25098,
-  "Contrast": 0.647196
+  "fileName": "Zenburned",
+  "by": {
+    "username": "mcchrish",
+    "link": "https://github.com/mcchrish",
+    "name": "Michael Chris Lopez",
+    "id": "7200153"
+  },
+  "luma": 0.25098,
+  "contrast": 0.647196
 }

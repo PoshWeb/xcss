@@ -20,12 +20,11 @@
   --foreground: #f0e4cf;
   --cursorColor: #f3eadb;
   --selectionBackground: #746956;
-  --creditTo: mcchrish;
-  --creditToLink: https://github.com/mcchrish;
-  --Luma: 0.25098;
-  --Contrast: 0.647196;
-  --PaletteName: Zenburned;
-  --PaletteFileName: Zenburned;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.25098;
+  --contrast: 0.647196;
+  --paletteName: Zenburned;
+  --paletteFileName: Zenburned;
+  --isBright: 0;
+  --isDark: 1;
+  --by: mcchrish  
 }
