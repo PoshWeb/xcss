@@ -20,7 +20,13 @@
   "foreground": "#b3b8c3",
   "cursorColor": "#b3b8c3",
   "selectionBackground": "#16181e",
-  "FileName": "Spacegray",
-  "Luma": 0.14039,
-  "Contrast": 0.580125
+  "fileName": "Spacegray",
+  "by": {
+    "username": "ryentzer",
+    "link": "https://github.com/ryentzer",
+    "name": "ryentzer",
+    "id": "174288"
+  },
+  "luma": 0.14039,
+  "contrast": 0.580125
 }

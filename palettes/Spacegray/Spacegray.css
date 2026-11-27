@@ -20,14 +20,13 @@
   --foreground: #b3b8c3;
   --cursorColor: #b3b8c3;
   --selectionBackground: #16181e;
-  --creditTo: ryentzer;
-  --creditToLink: https://github.com/ryentzer;
-  --Luma: 0.14039;
-  --Contrast: 0.580125;
-  --PaletteName: Spacegray;
-  --PaletteFileName: Spacegray;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.14039;
+  --contrast: 0.580125;
+  --paletteName: Spacegray;
+  --paletteFileName: Spacegray;
+  --isBright: 0;
+  --isDark: 1;
+  --by: ryentzer  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
