@@ -20,14 +20,13 @@
   --foreground: #e6edf3;
   --cursorColor: #2f81f7;
   --selectionBackground: #e6edf3;
-  --creditTo: apcamargo;
-  --creditToLink: https://github.com/apcamargo;
-  --Luma: 0.065031;
-  --Contrast: 0.860244;
-  --PaletteName: GitHub Dark Default;
-  --PaletteFileName: GitHub-Dark-Default;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.065031;
+  --contrast: 0.860244;
+  --paletteName: GitHub Dark Default;
+  --paletteFileName: GitHub-Dark-Default;
+  --isBright: 0;
+  --isDark: 1;
+  --by: apcamargo  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
