@@ -20,7 +20,7 @@
   "foreground": "#9cc2c3",
   "cursorColor": "#f34b00",
   "selectionBackground": "#003748",
-  "FileName": "Solarized-Dark-Higher-Contrast",
-  "Luma": 0.095184,
-  "Contrast": 0.634202
+  "fileName": "Solarized-Dark-Higher-Contrast",
+  "luma": 0.095184,
+  "contrast": 0.634202
 }

@@ -1,5 +1,5 @@
 :root {
-  --name: 'Solarized Dark Higher Contrast';
+  --name: Solarized Dark Higher Contrast;
   --black: #002831;
   --red: #d11c24;
   --green: #6cbe6c;
@@ -20,12 +20,12 @@
   --foreground: #9cc2c3;
   --cursorColor: #f34b00;
   --selectionBackground: #003748;
-  --Luma: 0.095184;
-  --Contrast: 0.634202;
-  --PaletteName: 'Solarized Dark Higher Contrast';
-  --PaletteFileName: 'Solarized-Dark-Higher-Contrast';
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.095184;
+  --contrast: 0.634202;
+  --paletteName: Solarized Dark Higher Contrast;
+  --paletteFileName: Solarized-Dark-Higher-Contrast;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -202,6 +202,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
