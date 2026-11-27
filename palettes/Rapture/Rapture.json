@@ -20,7 +20,13 @@
   "foreground": "#c0c9e5",
   "cursorColor": "#ffffff",
   "selectionBackground": "#304b66",
-  "FileName": "Rapture",
-  "Luma": 0.110206,
-  "Contrast": 0.678454
+  "fileName": "Rapture",
+  "by": {
+    "username": "Pustur",
+    "link": "https://github.com/Pustur",
+    "name": "Loris Bettazza",
+    "id": "13663338"
+  },
+  "luma": 0.110206,
+  "contrast": 0.678454
 }
