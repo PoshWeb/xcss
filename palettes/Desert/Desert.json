@@ -20,7 +20,7 @@
   "foreground": "#ffffff",
   "cursorColor": "#00ff00",
   "selectionBackground": "#b5d5ff",
-  "FileName": "Desert",
-  "Luma": 0.2,
-  "Contrast": 0.8
+  "fileName": "Desert",
+  "luma": 0.2,
+  "contrast": 0.8
 }
