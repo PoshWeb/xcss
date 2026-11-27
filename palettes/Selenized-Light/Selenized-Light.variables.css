@@ -20,10 +20,10 @@
   --foreground: #53676d;
   --cursorColor: #53676d;
   --selectionBackground: #ece3cc;
-  --Luma: 0.952816;
-  --Contrast: 0.56387;
-  --PaletteName: Selenized Light;
-  --PaletteFileName: Selenized-Light;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.952816;
+  --contrast: 0.56387;
+  --paletteName: Selenized Light;
+  --paletteFileName: Selenized-Light;
+  --isBright: 0;
+  --isDark: 1  
 }
