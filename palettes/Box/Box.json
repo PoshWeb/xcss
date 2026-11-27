@@ -20,7 +20,13 @@
   "foreground": "#9fef00",
   "cursorColor": "#9fef00",
   "selectionBackground": "#a4b1cd",
-  "FileName": "Box",
-  "Luma": 0.110186,
-  "Contrast": 0.692701
+  "fileName": "Box",
+  "by": {
+    "username": "D3vil0p3r",
+    "link": "https://github.com/D3vil0p3r",
+    "name": "Antonio",
+    "id": "83867734"
+  },
+  "luma": 0.110186,
+  "contrast": 0.692701
 }

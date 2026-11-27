@@ -20,12 +20,11 @@
   --foreground: #9fef00;
   --cursorColor: #9fef00;
   --selectionBackground: #a4b1cd;
-  --creditTo: D3vil0p3r;
-  --creditToLink: https://github.com/D3vil0p3r;
-  --Luma: 0.110186;
-  --Contrast: 0.692701;
-  --PaletteName: Box;
-  --PaletteFileName: Box;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.110186;
+  --contrast: 0.692701;
+  --paletteName: Box;
+  --paletteFileName: Box;
+  --isBright: 0;
+  --isDark: 1;
+  --by: D3vil0p3r  
 }
