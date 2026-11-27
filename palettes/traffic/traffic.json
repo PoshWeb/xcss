@@ -19,8 +19,14 @@
   "background": "#272c30",
   "foreground": "#cfb9a8",
   "cursorColor": "#cfb9a8",
-  "selectionBackground": "#272c30",
-  "FileName": "traffic",
-  "Luma": 0.169513,
-  "Contrast": 0.569506
+  "selectionBackground": "#cfb9a8",
+  "fileName": "traffic",
+  "by": {
+    "username": "dkeg",
+    "link": "https://github.com/dkeg",
+    "name": "",
+    "id": "3622611"
+  },
+  "luma": 0.169513,
+  "contrast": 0.569506
 }

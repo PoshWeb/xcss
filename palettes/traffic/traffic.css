@@ -19,15 +19,14 @@
   --background: #272c30;
   --foreground: #cfb9a8;
   --cursorColor: #cfb9a8;
-  --selectionBackground: #272c30;
-  --creditTo: dkeg;
-  --creditToLink: https://github.com/dkeg;
-  --Luma: 0.169513;
-  --Contrast: 0.569506;
-  --PaletteName: traffic;
-  --PaletteFileName: traffic;
-  --IsBright: 0;
-  --IsDark: 1;
+  --selectionBackground: #cfb9a8;
+  --luma: 0.169513;
+  --contrast: 0.569506;
+  --paletteName: traffic;
+  --paletteFileName: traffic;
+  --isBright: 0;
+  --isDark: 1;
+  --by: dkeg  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
