@@ -20,7 +20,7 @@
   "foreground": "#bbbbbb",
   "cursorColor": "#bbbbbb",
   "selectionBackground": "#b5d5ff",
-  "FileName": "Night-Lion-V2",
-  "Luma": 0.090196,
-  "Contrast": 0.643137
+  "fileName": "Night-Lion-V2",
+  "luma": 0.090196,
+  "contrast": 0.643137
 }

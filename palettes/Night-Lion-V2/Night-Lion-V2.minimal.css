@@ -20,12 +20,12 @@
   --foreground: #bbbbbb;
   --cursorColor: #bbbbbb;
   --selectionBackground: #b5d5ff;
-  --Luma: 0.090196;
-  --Contrast: 0.643137;
-  --PaletteName: Night Lion V2;
-  --PaletteFileName: Night-Lion-V2;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.090196;
+  --contrast: 0.643137;
+  --paletteName: Night Lion V2;
+  --paletteFileName: Night-Lion-V2;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
