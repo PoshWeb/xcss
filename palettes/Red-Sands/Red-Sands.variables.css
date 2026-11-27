@@ -20,10 +20,10 @@
   --foreground: #d7c9a7;
   --cursorColor: #ffffff;
   --selectionBackground: #a4a390;
-  --Luma: 0.213983;
-  --Contrast: 0.576298;
-  --PaletteName: Red Sands;
-  --PaletteFileName: Red-Sands;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.213983;
+  --contrast: 0.576298;
+  --paletteName: Red Sands;
+  --paletteFileName: Red-Sands;
+  --isBright: 0;
+  --isDark: 1  
 }
