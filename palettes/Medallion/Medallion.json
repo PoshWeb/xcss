@@ -20,7 +20,13 @@
   "foreground": "#cac296",
   "cursorColor": "#d3ba30",
   "selectionBackground": "#626dac",
-  "FileName": "Medallion",
-  "Luma": 0.096561,
-  "Contrast": 0.658435
+  "fileName": "Medallion",
+  "by": {
+    "username": "zdj",
+    "link": "https://github.com/zdj",
+    "name": "",
+    "id": "4109933"
+  },
+  "luma": 0.096561,
+  "contrast": 0.658435
 }

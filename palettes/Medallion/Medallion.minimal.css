@@ -20,14 +20,13 @@
   --foreground: #cac296;
   --cursorColor: #d3ba30;
   --selectionBackground: #626dac;
-  --creditTo: zdj;
-  --creditToLink: https://github.com/zdj;
-  --Luma: 0.096561;
-  --Contrast: 0.658435;
-  --PaletteName: Medallion;
-  --PaletteFileName: Medallion;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.096561;
+  --contrast: 0.658435;
+  --paletteName: Medallion;
+  --paletteFileName: Medallion;
+  --isBright: 0;
+  --isDark: 1;
+  --by: zdj  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
