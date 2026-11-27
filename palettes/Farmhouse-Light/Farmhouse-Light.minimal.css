@@ -20,12 +20,12 @@
   --foreground: #1d2027;
   --cursorColor: #006efe;
   --selectionBackground: #b3b1aa;
-  --Luma: 0.896603;
-  --Contrast: 0.771632;
-  --PaletteName: Farmhouse Light;
-  --PaletteFileName: Farmhouse-Light;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.896603;
+  --contrast: 0.771632;
+  --paletteName: Farmhouse Light;
+  --paletteFileName: Farmhouse-Light;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
