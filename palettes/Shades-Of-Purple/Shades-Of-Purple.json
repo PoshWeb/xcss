@@ -20,7 +20,13 @@
   "foreground": "#ffffff",
   "cursorColor": "#fad000",
   "selectionBackground": "#b362ff",
-  "FileName": "Shades-Of-Purple",
-  "Luma": 0.124469,
-  "Contrast": 0.875531
+  "fileName": "Shades-Of-Purple",
+  "by": {
+    "username": "ahmadawais",
+    "link": "https://github.com/ahmadawais",
+    "name": "Ahmad Awais ⌘",
+    "id": "960133"
+  },
+  "luma": 0.124469,
+  "contrast": 0.875531
 }

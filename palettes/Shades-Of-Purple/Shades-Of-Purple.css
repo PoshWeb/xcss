@@ -20,14 +20,13 @@
   --foreground: #ffffff;
   --cursorColor: #fad000;
   --selectionBackground: #b362ff;
-  --creditTo: ahmadawais;
-  --creditToLink: https://github.com/ahmadawais;
-  --Luma: 0.124469;
-  --Contrast: 0.875531;
-  --PaletteName: Shades Of Purple;
-  --PaletteFileName: Shades-Of-Purple;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.124469;
+  --contrast: 0.875531;
+  --paletteName: Shades Of Purple;
+  --paletteFileName: Shades-Of-Purple;
+  --isBright: 0;
+  --isDark: 1;
+  --by: ahmadawais  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
