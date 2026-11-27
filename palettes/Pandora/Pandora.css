@@ -20,14 +20,13 @@
   --foreground: #e1e1e1;
   --cursorColor: #43d58e;
   --selectionBackground: #2d37ff;
-  --creditTo: milosmatic;
-  --creditToLink: https://github.com/milosmatic;
-  --Luma: 0.119786;
-  --Contrast: 0.762567;
-  --PaletteName: Pandora;
-  --PaletteFileName: Pandora;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.119786;
+  --contrast: 0.762567;
+  --paletteName: Pandora;
+  --paletteFileName: Pandora;
+  --isBright: 0;
+  --isDark: 1;
+  --by: milosmatic  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
