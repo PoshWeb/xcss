@@ -20,14 +20,13 @@
   --foreground: #ebefc0;
   --cursorColor: #edf2c2;
   --selectionBackground: #37382d;
-  --creditTo: mcchrish;
-  --creditToLink: https://github.com/mcchrish;
-  --Luma: 0.063909;
-  --Contrast: 0.856704;
-  --PaletteName: Duckbones;
-  --PaletteFileName: Duckbones;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.063909;
+  --contrast: 0.856704;
+  --paletteName: Duckbones;
+  --paletteFileName: Duckbones;
+  --isBright: 0;
+  --isDark: 1;
+  --by: mcchrish  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }

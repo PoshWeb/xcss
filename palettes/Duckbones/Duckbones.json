@@ -20,7 +20,13 @@
   "foreground": "#ebefc0",
   "cursorColor": "#edf2c2",
   "selectionBackground": "#37382d",
-  "FileName": "Duckbones",
-  "Luma": 0.063909,
-  "Contrast": 0.856704
+  "fileName": "Duckbones",
+  "by": {
+    "username": "mcchrish",
+    "link": "https://github.com/mcchrish",
+    "name": "Michael Chris Lopez",
+    "id": "7200153"
+  },
+  "luma": 0.063909,
+  "contrast": 0.856704
 }
