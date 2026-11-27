@@ -20,7 +20,13 @@
   "foreground": "#bbbbbb",
   "cursorColor": "#bbbbbb",
   "selectionBackground": "#555555",
-  "FileName": "Mathias",
-  "Luma": 0.0,
-  "Contrast": 0.733333
+  "fileName": "Mathias",
+  "by": {
+    "username": "mathiasbynens",
+    "link": "https://github.com/mathiasbynens",
+    "name": "Mathias Bynens",
+    "id": "81942"
+  },
+  "luma": 0.0,
+  "contrast": 0.733333
 }
