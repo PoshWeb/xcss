@@ -20,7 +20,13 @@
   "foreground": "#c9c7cd",
   "cursorColor": "#cac9dd",
   "selectionBackground": "#2a2a2d",
-  "FileName": "Mellow",
-  "Luma": 0.086558,
-  "Contrast": 0.6972
+  "fileName": "Mellow",
+  "by": {
+    "username": "kvrohit",
+    "link": "https://github.com/kvrohit",
+    "name": "Rohit K Viswanath",
+    "id": "1040966"
+  },
+  "luma": 0.086558,
+  "contrast": 0.6972
 }

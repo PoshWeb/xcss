@@ -20,14 +20,13 @@
   --foreground: #c9c7cd;
   --cursorColor: #cac9dd;
   --selectionBackground: #2a2a2d;
-  --creditTo: kvrohit;
-  --creditToLink: https://github.com/kvrohit;
-  --Luma: 0.086558;
-  --Contrast: 0.6972;
-  --PaletteName: Mellow;
-  --PaletteFileName: Mellow;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.086558;
+  --contrast: 0.6972;
+  --paletteName: Mellow;
+  --paletteFileName: Mellow;
+  --isBright: 0;
+  --isDark: 1;
+  --by: kvrohit  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
