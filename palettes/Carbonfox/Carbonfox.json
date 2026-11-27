@@ -20,7 +20,7 @@
   "foreground": "#f2f4f8",
   "cursorColor": "#f2f4f8",
   "selectionBackground": "#2a2a2a",
-  "FileName": "Carbonfox",
-  "Luma": 0.086275,
-  "Contrast": 0.870053
+  "fileName": "Carbonfox",
+  "luma": 0.086275,
+  "contrast": 0.870053
 }
