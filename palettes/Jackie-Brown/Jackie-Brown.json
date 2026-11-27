@@ -20,7 +20,13 @@
   "foreground": "#ffcc2f",
   "cursorColor": "#23ff18",
   "selectionBackground": "#af8d21",
-  "FileName": "Jackie-Brown",
-  "Luma": 0.124249,
-  "Contrast": 0.673818
+  "fileName": "Jackie-Brown",
+  "by": {
+    "username": "Unkulunkulu",
+    "link": "https://github.com/Unkulunkulu",
+    "name": "",
+    "id": "69654182"
+  },
+  "luma": 0.124249,
+  "contrast": 0.673818
 }

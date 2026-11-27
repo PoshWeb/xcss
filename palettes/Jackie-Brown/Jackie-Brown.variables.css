@@ -20,12 +20,11 @@
   --foreground: #ffcc2f;
   --cursorColor: #23ff18;
   --selectionBackground: #af8d21;
-  --creditTo: Unkulunkulu;
-  --creditToLink: https://github.com/Unkulunkulu;
-  --Luma: 0.124249;
-  --Contrast: 0.673818;
-  --PaletteName: Jackie Brown;
-  --PaletteFileName: Jackie-Brown;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.124249;
+  --contrast: 0.673818;
+  --paletteName: Jackie Brown;
+  --paletteFileName: Jackie-Brown;
+  --isBright: 0;
+  --isDark: 1;
+  --by: Unkulunkulu  
 }

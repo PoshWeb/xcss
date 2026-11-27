@@ -20,14 +20,13 @@
   --foreground: #ffcc2f;
   --cursorColor: #23ff18;
   --selectionBackground: #af8d21;
-  --creditTo: Unkulunkulu;
-  --creditToLink: https://github.com/Unkulunkulu;
-  --Luma: 0.124249;
-  --Contrast: 0.673818;
-  --PaletteName: Jackie Brown;
-  --PaletteFileName: Jackie-Brown;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.124249;
+  --contrast: 0.673818;
+  --paletteName: Jackie Brown;
+  --paletteFileName: Jackie-Brown;
+  --isBright: 0;
+  --isDark: 1;
+  --by: Unkulunkulu  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
