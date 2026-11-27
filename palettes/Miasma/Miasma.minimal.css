@@ -20,14 +20,13 @@
   --foreground: #c2c2b0;
   --cursorColor: #c7c7c7;
   --selectionBackground: #e5c47b;
-  --creditTo: xero;
-  --creditToLink: https://github.com/xero;
-  --Luma: 0.133333;
-  --Contrast: 0.622355;
-  --PaletteName: Miasma;
-  --PaletteFileName: Miasma;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.133333;
+  --contrast: 0.622355;
+  --paletteName: Miasma;
+  --paletteFileName: Miasma;
+  --isBright: 0;
+  --isDark: 1;
+  --by: xero  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }

@@ -20,7 +20,13 @@
   "foreground": "#c2c2b0",
   "cursorColor": "#c7c7c7",
   "selectionBackground": "#e5c47b",
-  "FileName": "Miasma",
-  "Luma": 0.133333,
-  "Contrast": 0.622355
+  "fileName": "Miasma",
+  "by": {
+    "username": "xero",
+    "link": "https://github.com/xero",
+    "name": "xero harrison",
+    "id": "227907"
+  },
+  "luma": 0.133333,
+  "contrast": 0.622355
 }
