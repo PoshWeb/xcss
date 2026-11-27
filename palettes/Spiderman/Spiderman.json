@@ -20,7 +20,13 @@
   "foreground": "#e3e3e3",
   "cursorColor": "#2c3fff",
   "selectionBackground": "#070e50",
-  "FileName": "Spiderman",
-  "Luma": 0.112341,
-  "Contrast": 0.777855
+  "fileName": "Spiderman",
+  "by": {
+    "username": "pyrophos",
+    "link": "https://github.com/pyrophos",
+    "name": "Adam Poncy",
+    "id": "5757307"
+  },
+  "luma": 0.112341,
+  "contrast": 0.777855
 }

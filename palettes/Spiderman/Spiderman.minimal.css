@@ -20,14 +20,13 @@
   --foreground: #e3e3e3;
   --cursorColor: #2c3fff;
   --selectionBackground: #070e50;
-  --creditTo: pyrophos;
-  --creditToLink: https://github.com/pyrophos;
-  --Luma: 0.112341;
-  --Contrast: 0.777855;
-  --PaletteName: Spiderman;
-  --PaletteFileName: Spiderman;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.112341;
+  --contrast: 0.777855;
+  --paletteName: Spiderman;
+  --paletteFileName: Spiderman;
+  --isBright: 0;
+  --isDark: 1;
+  --by: pyrophos  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
