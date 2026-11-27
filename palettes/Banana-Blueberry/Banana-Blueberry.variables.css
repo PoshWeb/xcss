@@ -20,10 +20,10 @@
   --foreground: #cccccc;
   --cursorColor: #e07d13;
   --selectionBackground: #220525;
-  --Luma: 0.084042;
-  --Contrast: 0.715958;
-  --PaletteName: Banana Blueberry;
-  --PaletteFileName: Banana-Blueberry;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.084042;
+  --contrast: 0.715958;
+  --paletteName: Banana Blueberry;
+  --paletteFileName: Banana-Blueberry;
+  --isBright: 0;
+  --isDark: 1  
 }
