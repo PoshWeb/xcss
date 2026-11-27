@@ -20,7 +20,13 @@
   "foreground": "#feffff",
   "cursorColor": "#e0d000",
   "selectionBackground": "#606060",
-  "FileName": "12-bit-Rainbow",
-  "Luma": 0.015686,
-  "Contrast": 0.98348
+  "fileName": "12-bit-Rainbow",
+  "by": {
+    "username": "xxxserxxx",
+    "link": "https://github.com/xxxserxxx",
+    "name": "Sean Russell",
+    "id": "60757196"
+  },
+  "luma": 0.015686,
+  "contrast": 0.98348
 }
