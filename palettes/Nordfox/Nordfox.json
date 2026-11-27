@@ -20,7 +20,7 @@
   "foreground": "#cdcecf",
   "cursorColor": "#cdcecf",
   "selectionBackground": "#3e4a5b",
-  "FileName": "Nordfox",
-  "Luma": 0.202317,
-  "Contrast": 0.604976
+  "fileName": "Nordfox",
+  "luma": 0.202317,
+  "contrast": 0.604976
 }
