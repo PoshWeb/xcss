@@ -20,7 +20,13 @@
   "foreground": "#f0f3f6",
   "cursorColor": "#71b7ff",
   "selectionBackground": "#f0f3f6",
-  "FileName": "GitHub-Dark-High-Contrast",
-  "Luma": 0.046524,
-  "Contrast": 0.904765
+  "fileName": "GitHub-Dark-High-Contrast",
+  "by": {
+    "username": "apcamargo",
+    "link": "https://github.com/apcamargo",
+    "name": "Antônio Camargo",
+    "id": "22940964"
+  },
+  "luma": 0.046524,
+  "contrast": 0.904765
 }

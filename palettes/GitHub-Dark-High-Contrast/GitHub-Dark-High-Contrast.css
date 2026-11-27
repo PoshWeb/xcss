@@ -1,5 +1,5 @@
 :root {
-  --name: 'GitHub Dark High Contrast';
+  --name: GitHub Dark High Contrast;
   --black: #7a828e;
   --red: #ff9492;
   --green: #26cd4d;
@@ -20,14 +20,13 @@
   --foreground: #f0f3f6;
   --cursorColor: #71b7ff;
   --selectionBackground: #f0f3f6;
-  --creditTo: 'apcamargo';
-  --creditToLink: 'https://github.com/apcamargo';
-  --Luma: 0.046524;
-  --Contrast: 0.904765;
-  --PaletteName: 'GitHub Dark High Contrast';
-  --PaletteFileName: 'GitHub-Dark-High-Contrast';
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.046524;
+  --contrast: 0.904765;
+  --paletteName: GitHub Dark High Contrast;
+  --paletteFileName: GitHub-Dark-High-Contrast;
+  --isBright: 0;
+  --isDark: 1;
+  --by: apcamargo  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
