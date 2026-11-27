@@ -20,7 +20,13 @@
   "foreground": "#ffffff",
   "cursorColor": "#f0cc09",
   "selectionBackground": "#18354f",
-  "FileName": "Cobalt2",
-  "Luma": 0.14108,
-  "Contrast": 0.85892
+  "fileName": "Cobalt2",
+  "by": {
+    "username": "wesbos",
+    "link": "https://github.com/wesbos",
+    "name": "Wes Bos",
+    "id": "176013"
+  },
+  "luma": 0.14108,
+  "contrast": 0.85892
 }
