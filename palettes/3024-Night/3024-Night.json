@@ -20,7 +20,13 @@
   "foreground": "#a5a2a2",
   "cursorColor": "#a5a2a2",
   "selectionBackground": "#4a4543",
-  "FileName": "3024-Night",
-  "Luma": 0.015918,
-  "Contrast": 0.621877
+  "fileName": "3024-Night",
+  "by": {
+    "username": "0x3024",
+    "link": "https://github.com/0x3024",
+    "name": "a color scheme",
+    "id": "5021461"
+  },
+  "luma": 0.015918,
+  "contrast": 0.621877
 }

@@ -20,14 +20,13 @@
   --foreground: #a5a2a2;
   --cursorColor: #a5a2a2;
   --selectionBackground: #4a4543;
-  --creditTo: 0x3024;
-  --creditToLink: https://github.com/0x3024;
-  --Luma: 0.015918;
-  --Contrast: 0.621877;
-  --PaletteName: 3024 Night;
-  --PaletteFileName: 3024-Night;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.015918;
+  --contrast: 0.621877;
+  --paletteName: 3024 Night;
+  --paletteFileName: 3024-Night;
+  --isBright: 0;
+  --isDark: 1;
+  --by: 0x3024  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
