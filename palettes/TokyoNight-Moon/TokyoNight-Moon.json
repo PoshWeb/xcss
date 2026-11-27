@@ -20,7 +20,7 @@
   "foreground": "#c8d3f5",
   "cursorColor": "#c8d3f5",
   "selectionBackground": "#2d3f76",
-  "FileName": "TokyoNight-Moon",
-  "Luma": 0.144605,
-  "Contrast": 0.683302
+  "fileName": "TokyoNight-Moon",
+  "luma": 0.144605,
+  "contrast": 0.683302
 }

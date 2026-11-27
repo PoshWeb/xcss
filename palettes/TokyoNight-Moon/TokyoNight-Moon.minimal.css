@@ -20,12 +20,12 @@
   --foreground: #c8d3f5;
   --cursorColor: #c8d3f5;
   --selectionBackground: #2d3f76;
-  --Luma: 0.144605;
-  --Contrast: 0.683302;
-  --PaletteName: TokyoNight Moon;
-  --PaletteFileName: TokyoNight-Moon;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.144605;
+  --contrast: 0.683302;
+  --paletteName: TokyoNight Moon;
+  --paletteFileName: TokyoNight-Moon;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
