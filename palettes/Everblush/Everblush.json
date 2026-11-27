@@ -20,7 +20,13 @@
   "foreground": "#dadada",
   "cursorColor": "#dadada",
   "selectionBackground": "#141b1e",
-  "FileName": "Everblush",
-  "Luma": 0.100896,
-  "Contrast": 0.754006
+  "fileName": "Everblush",
+  "by": {
+    "username": "",
+    "link": "https://github.com/",
+    "name": "",
+    "id": ""
+  },
+  "luma": 0.100896,
+  "contrast": 0.754006
 }

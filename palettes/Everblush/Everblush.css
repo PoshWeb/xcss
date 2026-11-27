@@ -20,13 +20,12 @@
   --foreground: #dadada;
   --cursorColor: #dadada;
   --selectionBackground: #141b1e;
-  --creditToLink: https://github.com/;
-  --Luma: 0.100896;
-  --Contrast: 0.754006;
-  --PaletteName: Everblush;
-  --PaletteFileName: Everblush;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.100896;
+  --contrast: 0.754006;
+  --paletteName: Everblush;
+  --paletteFileName: Everblush;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -203,6 +202,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
