@@ -20,7 +20,13 @@
   "foreground": "#ededed",
   "cursorColor": "#e0d9b9",
   "selectionBackground": "#384564",
-  "FileName": "Highway",
-  "Luma": 0.134183,
-  "Contrast": 0.795229
+  "fileName": "Highway",
+  "by": {
+    "username": "zdj",
+    "link": "https://github.com/zdj",
+    "name": "",
+    "id": "4109933"
+  },
+  "luma": 0.134183,
+  "contrast": 0.795229
 }
