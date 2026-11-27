@@ -20,12 +20,11 @@
   --foreground: #3c3836;
   --cursorColor: #3c3836;
   --selectionBackground: #3c3836;
-  --creditTo: morhetz;
-  --creditToLink: https://github.com/morhetz;
-  --Luma: 0.955625;
-  --Contrast: 0.733249;
-  --PaletteName: Gruvbox Light Hard;
-  --PaletteFileName: Gruvbox-Light-Hard;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.955625;
+  --contrast: 0.733249;
+  --paletteName: Gruvbox Light Hard;
+  --paletteFileName: Gruvbox-Light-Hard;
+  --isBright: 0;
+  --isDark: 1;
+  --by: morhetz  
 }
