@@ -20,10 +20,10 @@
   --foreground: #f7f7f7;
   --cursorColor: #9fda9c;
   --selectionBackground: #9ba787;
-  --Luma: 0.059379;
-  --Contrast: 0.909248;
-  --PaletteName: Kibble;
-  --PaletteFileName: Kibble;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.059379;
+  --contrast: 0.909248;
+  --paletteName: Kibble;
+  --paletteFileName: Kibble;
+  --isBright: 0;
+  --isDark: 1  
 }
