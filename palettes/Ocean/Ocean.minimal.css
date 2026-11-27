@@ -20,14 +20,13 @@
   --foreground: #ffffff;
   --cursorColor: #7f7f7f;
   --selectionBackground: #216dff;
-  --creditTo: kaicataldo;
-  --creditToLink: https://github.com/kaicataldo;
-  --Luma: 0.303148;
-  --Contrast: 0.696852;
-  --PaletteName: Ocean;
-  --PaletteFileName: Ocean;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.303148;
+  --contrast: 0.696852;
+  --paletteName: Ocean;
+  --paletteFileName: Ocean;
+  --isBright: 0;
+  --isDark: 1;
+  --by: kaicataldo  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
