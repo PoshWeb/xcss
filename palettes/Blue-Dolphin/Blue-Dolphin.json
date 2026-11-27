@@ -20,7 +20,7 @@
   "foreground": "#c5f2ff",
   "cursorColor": "#ffcc00",
   "selectionBackground": "#2baeca",
-  "FileName": "Blue-Dolphin",
-  "Luma": 0.331868,
-  "Contrast": 0.583315
+  "fileName": "Blue-Dolphin",
+  "luma": 0.331868,
+  "contrast": 0.583315
 }
