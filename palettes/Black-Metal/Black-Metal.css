@@ -20,14 +20,13 @@
   --foreground: #c1c1c1;
   --cursorColor: #c1c1c1;
   --selectionBackground: #c1c1c1;
-  --creditTo: nooneknowspeter;
-  --creditToLink: https://github.com/nooneknowspeter;
-  --Luma: 0;
-  --Contrast: 0.756863;
-  --PaletteName: Black Metal;
-  --PaletteFileName: Black-Metal;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0;
+  --contrast: 0.756863;
+  --paletteName: Black Metal;
+  --paletteFileName: Black-Metal;
+  --isBright: 0;
+  --isDark: 1;
+  --by: nooneknowspeter  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
