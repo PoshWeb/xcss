@@ -20,10 +20,10 @@
   --foreground: #e0dbb7;
   --cursorColor: #644a33;
   --selectionBackground: #563c27;
-  --Luma: 0.130173;
-  --Contrast: 0.722626;
-  --PaletteName: Birds Of Paradise;
-  --PaletteFileName: Birds-Of-Paradise;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.130173;
+  --contrast: 0.722626;
+  --paletteName: Birds Of Paradise;
+  --paletteFileName: Birds-Of-Paradise;
+  --isBright: 0;
+  --isDark: 1  
 }
