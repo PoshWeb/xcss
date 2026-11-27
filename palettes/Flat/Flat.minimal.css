@@ -20,14 +20,13 @@
   --foreground: #2cc55d;
   --cursorColor: #e5be0c;
   --selectionBackground: #792b9c;
-  --creditTo: ahmetsulek;
-  --creditToLink: https://github.com/ahmetsulek;
-  --Luma: 0.113481;
-  --Contrast: 0.502062;
-  --PaletteName: Flat;
-  --PaletteFileName: Flat;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.113481;
+  --contrast: 0.502062;
+  --paletteName: Flat;
+  --paletteFileName: Flat;
+  --isBright: 0;
+  --isDark: 1;
+  --by: ahmetsulek  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }

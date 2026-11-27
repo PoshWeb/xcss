@@ -20,7 +20,13 @@
   "foreground": "#2cc55d",
   "cursorColor": "#e5be0c",
   "selectionBackground": "#792b9c",
-  "FileName": "Flat",
-  "Luma": 0.113481,
-  "Contrast": 0.502062
+  "fileName": "Flat",
+  "by": {
+    "username": "ahmetsulek",
+    "link": "https://github.com/ahmetsulek",
+    "name": "",
+    "id": "1056323"
+  },
+  "luma": 0.113481,
+  "contrast": 0.502062
 }
