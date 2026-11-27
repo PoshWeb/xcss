@@ -20,10 +20,10 @@
   --foreground: #f2f2f2;
   --cursorColor: #c7c7c7;
   --selectionBackground: #c2deff;
-  --Luma: 0.01897;
-  --Contrast: 0.93005;
-  --PaletteName: IRIX Terminal;
-  --PaletteFileName: IRIX-Terminal;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.01897;
+  --contrast: 0.93005;
+  --paletteName: IRIX Terminal;
+  --paletteFileName: IRIX-Terminal;
+  --isBright: 0;
+  --isDark: 1  
 }

@@ -20,12 +20,12 @@
   --foreground: #f2f2f2;
   --cursorColor: #c7c7c7;
   --selectionBackground: #c2deff;
-  --Luma: 0.01897;
-  --Contrast: 0.93005;
-  --PaletteName: IRIX Terminal;
-  --PaletteFileName: IRIX-Terminal;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.01897;
+  --contrast: 0.93005;
+  --paletteName: IRIX Terminal;
+  --paletteFileName: IRIX-Terminal;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -202,6 +202,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
