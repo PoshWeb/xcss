@@ -20,12 +20,12 @@
   --foreground: #637d75;
   --cursorColor: #73fa91;
   --selectionBackground: #1d4125;
-  --Luma: 0.07874;
-  --Contrast: 0.387514;
-  --PaletteName: Alien Blood;
-  --PaletteFileName: Alien-Blood;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.07874;
+  --contrast: 0.387514;
+  --paletteName: Alien Blood;
+  --paletteFileName: Alien-Blood;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
