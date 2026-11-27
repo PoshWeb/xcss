@@ -1,5 +1,5 @@
 :root {
-  --name: 'Monokai Pro Light Sun';
+  --name: Monokai Pro Light Sun;
   --black: #f8efe7;
   --red: #ce4770;
   --green: #218871;
@@ -20,10 +20,10 @@
   --foreground: #2c232e;
   --cursorColor: #72696d;
   --selectionBackground: #beb5b3;
-  --Luma: 0.942493;
-  --Contrast: 0.79462;
-  --PaletteName: 'Monokai Pro Light Sun';
-  --PaletteFileName: 'Monokai-Pro-Light-Sun';
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.942493;
+  --contrast: 0.79462;
+  --paletteName: Monokai Pro Light Sun;
+  --paletteFileName: Monokai-Pro-Light-Sun;
+  --isBright: 0;
+  --isDark: 1  
 }

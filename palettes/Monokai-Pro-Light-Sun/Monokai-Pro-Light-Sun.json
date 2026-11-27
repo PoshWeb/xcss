@@ -20,7 +20,7 @@
   "foreground": "#2c232e",
   "cursorColor": "#72696d",
   "selectionBackground": "#beb5b3",
-  "FileName": "Monokai-Pro-Light-Sun",
-  "Luma": 0.942493,
-  "Contrast": 0.79462
+  "fileName": "Monokai-Pro-Light-Sun",
+  "luma": 0.942493,
+  "contrast": 0.79462
 }
