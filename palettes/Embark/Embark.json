@@ -20,7 +20,7 @@
   "foreground": "#eeffff",
   "cursorColor": "#a1efd3",
   "selectionBackground": "#fbfcfc",
-  "FileName": "Embark",
-  "Luma": 0.117417,
-  "Contrast": 0.86841
+  "fileName": "Embark",
+  "luma": 0.117417,
+  "contrast": 0.86841
 }
