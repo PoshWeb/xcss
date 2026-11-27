@@ -20,10 +20,10 @@
   --foreground: #a6accd;
   --cursorColor: #ffffff;
   --selectionBackground: #a6accd;
-  --Luma: 0.08854;
-  --Contrast: 0.590311;
-  --PaletteName: Poimandres Darker;
-  --PaletteFileName: Poimandres-Darker;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.08854;
+  --contrast: 0.590311;
+  --paletteName: Poimandres Darker;
+  --paletteFileName: Poimandres-Darker;
+  --isBright: 0;
+  --isDark: 1  
 }
