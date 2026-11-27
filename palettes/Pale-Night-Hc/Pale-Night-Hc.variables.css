@@ -20,10 +20,10 @@
   --foreground: #cccccc;
   --cursorColor: #ffcb6b;
   --selectionBackground: #717cb4;
-  --Luma: 0.259736;
-  --Contrast: 0.540264;
-  --PaletteName: Pale Night Hc;
-  --PaletteFileName: Pale-Night-Hc;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.259736;
+  --contrast: 0.540264;
+  --paletteName: Pale Night Hc;
+  --paletteFileName: Pale-Night-Hc;
+  --isBright: 0;
+  --isDark: 1  
 }
