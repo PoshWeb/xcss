@@ -20,7 +20,13 @@
   "foreground": "#ccced0",
   "cursorColor": "#ccced0",
   "selectionBackground": "#ccced0",
-  "FileName": "Sublette",
-  "Luma": 0.14546,
-  "Contrast": 0.661282
+  "fileName": "Sublette",
+  "by": {
+    "username": "sublee",
+    "link": "https://github.com/sublee",
+    "name": "Heungsub Lee",
+    "id": "19982"
+  },
+  "luma": 0.14546,
+  "contrast": 0.661282
 }
