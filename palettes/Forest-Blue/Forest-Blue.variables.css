@@ -20,12 +20,11 @@
   --foreground: #e2d8cd;
   --cursorColor: #9e9ecb;
   --selectionBackground: #4d4d4d;
-  --creditTo: olkinn;
-  --creditToLink: https://github.com/olkinn;
-  --Luma: 0.070146;
-  --Contrast: 0.782136;
-  --PaletteName: Forest Blue;
-  --PaletteFileName: Forest-Blue;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.070146;
+  --contrast: 0.782136;
+  --paletteName: Forest Blue;
+  --paletteFileName: Forest-Blue;
+  --isBright: 0;
+  --isDark: 1;
+  --by: olkinn  
 }

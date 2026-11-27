@@ -20,7 +20,13 @@
   "foreground": "#e2d8cd",
   "cursorColor": "#9e9ecb",
   "selectionBackground": "#4d4d4d",
-  "FileName": "Forest-Blue",
-  "Luma": 0.070146,
-  "Contrast": 0.782136
+  "fileName": "Forest-Blue",
+  "by": {
+    "username": "olkinn",
+    "link": "https://github.com/olkinn",
+    "name": "Olya Piatrova",
+    "id": "9627696"
+  },
+  "luma": 0.070146,
+  "contrast": 0.782136
 }
