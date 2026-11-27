@@ -1,5 +1,5 @@
 :root {
-  --name: 'GitHub Light High Contrast';
+  --name: GitHub Light High Contrast;
   --black: #0e1116;
   --red: #a0111f;
   --green: #024c1a;
@@ -20,14 +20,13 @@
   --foreground: #0e1116;
   --cursorColor: #0349b4;
   --selectionBackground: #0e1116;
-  --creditTo: 'apcamargo';
-  --creditToLink: 'https://github.com/apcamargo';
-  --Luma: 1;
-  --Contrast: 0.934419;
-  --PaletteName: 'GitHub Light High Contrast';
-  --PaletteFileName: 'GitHub-Light-High-Contrast';
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 1;
+  --contrast: 0.934419;
+  --paletteName: GitHub Light High Contrast;
+  --paletteFileName: GitHub-Light-High-Contrast;
+  --isBright: 0;
+  --isDark: 1;
+  --by: apcamargo  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
