@@ -20,10 +20,10 @@
   --foreground: #68525a;
   --cursorColor: #68525a;
   --selectionBackground: #2b1b1d;
-  --Luma: 0.039123;
-  --Contrast: 0.303053;
-  --PaletteName: Crayon Pony Fish;
-  --PaletteFileName: Crayon-Pony-Fish;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.039123;
+  --contrast: 0.303053;
+  --paletteName: Crayon Pony Fish;
+  --paletteFileName: Crayon-Pony-Fish;
+  --isBright: 0;
+  --isDark: 1  
 }
