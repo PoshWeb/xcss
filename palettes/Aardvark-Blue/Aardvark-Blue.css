@@ -20,14 +20,13 @@
   --foreground: #dddddd;
   --cursorColor: #007acc;
   --selectionBackground: #bfdbfe;
-  --creditTo: joshka;
-  --creditToLink: https://github.com/joshka;
-  --Luma: 0.121211;
-  --Contrast: 0.745456;
-  --PaletteName: Aardvark Blue;
-  --PaletteFileName: Aardvark-Blue;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.121211;
+  --contrast: 0.745456;
+  --paletteName: Aardvark Blue;
+  --paletteFileName: Aardvark-Blue;
+  --isBright: 0;
+  --isDark: 1;
+  --by: joshka  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }

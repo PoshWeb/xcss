@@ -20,7 +20,13 @@
   "foreground": "#dddddd",
   "cursorColor": "#007acc",
   "selectionBackground": "#bfdbfe",
-  "FileName": "Aardvark-Blue",
-  "Luma": 0.121211,
-  "Contrast": 0.745456
+  "fileName": "Aardvark-Blue",
+  "by": {
+    "username": "joshka",
+    "link": "https://github.com/joshka",
+    "name": "Josh McKinney",
+    "id": "381361"
+  },
+  "luma": 0.121211,
+  "contrast": 0.745456
 }

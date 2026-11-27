@@ -20,12 +20,11 @@
   --foreground: #dddddd;
   --cursorColor: #007acc;
   --selectionBackground: #bfdbfe;
-  --creditTo: joshka;
-  --creditToLink: https://github.com/joshka;
-  --Luma: 0.121211;
-  --Contrast: 0.745456;
-  --PaletteName: Aardvark Blue;
-  --PaletteFileName: Aardvark-Blue;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.121211;
+  --contrast: 0.745456;
+  --paletteName: Aardvark Blue;
+  --paletteFileName: Aardvark-Blue;
+  --isBright: 0;
+  --isDark: 1;
+  --by: joshka  
 }
