@@ -20,7 +20,7 @@
   "foreground": "#7c8fa4",
   "cursorColor": "#708284",
   "selectionBackground": "#163c61",
-  "FileName": "Firefox-Dev",
-  "Luma": 0.061361,
-  "Contrast": 0.489528
+  "fileName": "Firefox-Dev",
+  "luma": 0.061361,
+  "contrast": 0.489528
 }
