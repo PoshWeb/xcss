@@ -10,6 +10,14 @@
 .LINK
     https://github.com/mbadolato/iTerm2-Color-Schemes/
 #>
+[CmdletBinding(SupportsShouldProcess)]
+param(
+[switch]
+$ShouldCommit,
+
+[switch]
+$DryRun
+)
 #requires -Version 7
 
 # Make sure we are in the right place
@@ -28,7 +36,10 @@ function SparsePalettes
     )
     
     process {                
-        if (Test-Path $path) { Get-ChildItem -Recurse -File -Path $Path ;return }
+        if (Test-Path $path) {
+            $null = git pull
+            Get-ChildItem -Recurse -File -Path $Path ;return
+        }
         $null = git clone --depth 1 --no-checkout --sparse --filter=tree:0 $Repository "$Path"
         Push-Location (Resolve-Path $Path)
         $null = git sparse-checkout set --no-cone @Pattern
@@ -53,16 +64,6 @@ Write-Progress @Progress
 
 $paletteSourceFiles = SparsePalettes
 
-$cssDirectory, $csvDirectory, $jsonDirectory =
-    foreach ($extension in 'css', 'csv', 'json') {
-        $extensionPath = Join-Path $PSScriptRoot $extension
-        if (-not (Test-path $extensionPath)) {
-            New-Item -ItemType Directory -Path $extensionPath
-        } else {
-            Get-Item -LiteralPath $extensionPath
-        }
-    }
-
 $palettes = [Ordered]@{}
 
 
@@ -77,7 +78,7 @@ foreach ($paletteFile in $paletteSourceFiles ) {
     $Progress.PercentComplete = ++$fileNumber * 100 / $paletteSourceFiles.Length
     Write-Progress @Progress
     if ($paletteData.Name) {
-        $paletteData | Add-Member NoteProperty FileName $paletteFileName -Force
+        $paletteData | Add-Member NoteProperty fileName $paletteFileName -Force
         $palettes[$paletteData.Name] = $paletteData
     }
 }
@@ -129,7 +130,7 @@ if (Test-Path $gitCreditsPath) {
 
 # A palette authors CSV.  This should only contain IDs, UserNames, and Names.
 $paletteAuthors = [Ordered]@{}
-$paletteAuthorsPath = Join-Path $csvDirectory.FullName "_authors.csv"
+$paletteAuthorsPath = Join-Path $PSScriptRoot "_authors.csv"
 if (Test-Path $paletteAuthorsPath) {
     foreach ($paletteAuthor in Import-Csv -Path $paletteAuthorsPath) {
         $paletteAuthors[$paletteAuthor.PaletteName] = $paletteAuthor
@@ -269,9 +270,8 @@ filter paletteToAnsiDemo {
 $allAnsiDemos = @()
 #region Generate Palettes
 $fileNumber = 0
-foreach ($paletteName in $palettes.Keys) {
-    
-    $Progress.Status = "Generating CSS Palettes: $paletteName"    
+foreach ($paletteName in $palettes.Keys) {    
+    $Progress.Status = "Generating CSS Palettes: $paletteName"
     $Progress.PercentComplete = ++$fileNumber * 100 / $palettes.Count
 
     Write-Progress @Progress
@@ -289,26 +289,29 @@ foreach ($paletteName in $palettes.Keys) {
     
     # If we have palette author information, give credit
     if ($paletteAuthors[$paletteName]) {
-        $paletteCredit.CreditTo = $paletteAuthors[$paletteName].UserName
-        $paletteCredit.CreditToLink = "https://github.com/$($paletteCredit.CreditTo)"
+        $byUser = $paletteAuthors[$paletteName].UserName
+        $paletteCredit.By = $paletteAuthors[$paletteName]
+        $palettes[$paletteName] |
+            Add-Member NoteProperty by ([Ordered]@{
+                username = $byUser
+                link = "https://github.com/$byUser"
+                name = $paletteAuthors[$paletteName].name
+                id = $paletteAuthors[$paletteName].id
+            }) -Force
     }
     
     # Generate the whole palette
     $paletteCss = $palettes[$paletteName] | Get-CssPalette @paletteCredit
     # And pick back out the luma
-    if (-not $palettes[$paletteName].Luma -and 
-        $paletteCss -match '--Luma:\s?(?<luma>[\d\.]+);'
-    ) {
+    if ($paletteCss -match '--Luma:\s?(?<luma>[\d\.]+);') {
         $palettes[$paletteName] | 
-            Add-Member NoteProperty Luma $($matches.luma -as [double]) -Force
+            Add-Member NoteProperty luma $($matches.luma -as [double]) -Force
     }
 
     # and contrast
-    if (-not $palettes[$paletteName].Contrast -and 
-        $paletteCss -match '--Contrast:\s?(?<contrast>[\d\.]+);'
-    ) {
+    if ($paletteCss -match '--Contrast:\s?(?<contrast>[\d\.]+);') {
         $palettes[$paletteName] | 
-            Add-Member NoteProperty Contrast $($matches.contrast -as [double]) -Force
+            Add-Member NoteProperty contrast $($matches.contrast -as [double]) -Force
     }
     
     # then predict the file name
@@ -424,3 +427,37 @@ if ($PSScriptRoot) { Pop-Location }
 $Progress.Remove('PercentComplete')
 $Progress.Completed = $true
 Write-Progress @Progress
+
+
+if ($ShouldCommit) {
+    $status = git status 
+    $paletteChanges = $status.Modified -match '/palettes'
+    $changesByDirectory = $paletteChanges  | Group-Object { $_.Directory.Name }    
+    foreach ($directory in $changesByDirectory) {
+        $jsonFile = $directory.Group -match '.json$'
+        if (-not $jsonFile) { continue }
+        $paletteData = Get-Content -Path $jsonFile.FullName -Raw | ConvertFrom-Json
+        $paletteName = $paletteData.Name
+        
+        $gitArgs = @(
+            'commit'
+            '-m'
+            "feat: ``$($paletteName)`` palette"            
+            if ($paletteData.by.username -and $paletteData.by.id) {
+                $paletteAuthor = $paletteData.by
+                "--trailer=Co-authored-by=$(
+                    if ("$($paletteAuthor.Name)") { $paletteAuthor.Name } else { $paletteAuthor.username }
+                ) <$($paletteAuthor.id)+$($paletteAuthor.username)@users.noreply.github.com>"                
+            }
+        )
+
+        if ($DryRun) {
+            $gitArgs
+        } elseif ($PSCmdlet.ShouldProcess("$gitArgs")) {
+            foreach ($file in $directory.Group) {
+                git add $file.FullName
+            }
+            git @gitArgs
+        }
+    }
+}
