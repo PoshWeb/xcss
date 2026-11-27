@@ -20,10 +20,10 @@
   --foreground: #ffffff;
   --cursorColor: #ffff54;
   --selectionBackground: #ffff54;
-  --Luma: 0.348042;
-  --Contrast: 0.651958;
-  --PaletteName: Hot Dog Stand;
-  --PaletteFileName: Hot-Dog-Stand;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.348042;
+  --contrast: 0.651958;
+  --paletteName: Hot Dog Stand;
+  --paletteFileName: Hot-Dog-Stand;
+  --isBright: 0;
+  --isDark: 1  
 }

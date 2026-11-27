@@ -20,12 +20,12 @@
   --foreground: #ffffff;
   --cursorColor: #ffff54;
   --selectionBackground: #ffff54;
-  --Luma: 0.348042;
-  --Contrast: 0.651958;
-  --PaletteName: Hot Dog Stand;
-  --PaletteFileName: Hot-Dog-Stand;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.348042;
+  --contrast: 0.651958;
+  --paletteName: Hot Dog Stand;
+  --paletteFileName: Hot-Dog-Stand;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -202,6 +202,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
