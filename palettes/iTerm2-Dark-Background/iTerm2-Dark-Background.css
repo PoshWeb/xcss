@@ -1,5 +1,5 @@
 :root {
-  --name: 'iTerm2 Dark Background';
+  --name: iTerm2 Dark Background;
   --black: #000000;
   --red: #c91b00;
   --green: #00c200;
@@ -20,12 +20,12 @@
   --foreground: #c7c7c7;
   --cursorColor: #c7c7c7;
   --selectionBackground: #c1deff;
-  --Luma: 0;
-  --Contrast: 0.780392;
-  --PaletteName: 'iTerm2 Dark Background';
-  --PaletteFileName: 'iTerm2-Dark-Background';
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0;
+  --contrast: 0.780392;
+  --paletteName: iTerm2 Dark Background;
+  --paletteFileName: iTerm2-Dark-Background;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -202,6 +202,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
