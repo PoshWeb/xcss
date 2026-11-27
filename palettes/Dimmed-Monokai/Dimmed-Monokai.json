@@ -20,7 +20,7 @@
   "foreground": "#b9bcba",
   "cursorColor": "#f83e19",
   "selectionBackground": "#2a2d32",
-  "FileName": "Dimmed-Monokai",
-  "Luma": 0.121569,
-  "Contrast": 0.612618
+  "fileName": "Dimmed-Monokai",
+  "luma": 0.121569,
+  "contrast": 0.612618
 }
