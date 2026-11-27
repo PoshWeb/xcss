@@ -20,14 +20,13 @@
   --foreground: #e8e6ed;
   --cursorColor: #b89bf9;
   --selectionBackground: #663399;
-  --creditTo: vic;
-  --creditToLink: https://github.com/vic;
-  --Luma: 0.171234;
-  --Contrast: 0.734376;
-  --PaletteName: Rebecca;
-  --PaletteFileName: Rebecca;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.171234;
+  --contrast: 0.734376;
+  --paletteName: Rebecca;
+  --paletteFileName: Rebecca;
+  --isBright: 0;
+  --isDark: 1;
+  --by: vic  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }

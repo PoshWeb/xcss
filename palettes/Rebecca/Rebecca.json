@@ -20,7 +20,13 @@
   "foreground": "#e8e6ed",
   "cursorColor": "#b89bf9",
   "selectionBackground": "#663399",
-  "FileName": "Rebecca",
-  "Luma": 0.171234,
-  "Contrast": 0.734376
+  "fileName": "Rebecca",
+  "by": {
+    "username": "vic",
+    "link": "https://github.com/vic",
+    "name": "Victor Borja",
+    "id": "331"
+  },
+  "luma": 0.171234,
+  "contrast": 0.734376
 }
