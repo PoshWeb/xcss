@@ -20,10 +20,10 @@
   --foreground: #d7deea;
   --cursorColor: #37b5b4;
   --selectionBackground: #37b5b4;
-  --Luma: 0.097896;
-  --Contrast: 0.770254;
-  --PaletteName: Cobalt Next Minimal;
-  --PaletteFileName: Cobalt-Next-Minimal;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.097896;
+  --contrast: 0.770254;
+  --paletteName: Cobalt Next Minimal;
+  --paletteFileName: Cobalt-Next-Minimal;
+  --isBright: 0;
+  --isDark: 1  
 }
