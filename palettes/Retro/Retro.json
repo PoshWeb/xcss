@@ -20,7 +20,13 @@
   "foreground": "#13a10e",
   "cursorColor": "#13a10e",
   "selectionBackground": "#ffffff",
-  "FileName": "Retro",
-  "Luma": 0.0,
-  "Contrast": 0.471362
+  "fileName": "Retro",
+  "by": {
+    "username": "roblatour",
+    "link": "https://github.com/roblatour",
+    "name": "Rob Latour",
+    "id": "5200730"
+  },
+  "luma": 0.0,
+  "contrast": 0.471362
 }
