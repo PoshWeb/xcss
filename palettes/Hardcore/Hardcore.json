@@ -20,7 +20,13 @@
   "foreground": "#a0a0a0",
   "cursorColor": "#bbbbbb",
   "selectionBackground": "#453b39",
-  "FileName": "Hardcore",
-  "Luma": 0.070588,
-  "Contrast": 0.556863
+  "fileName": "Hardcore",
+  "by": {
+    "username": "hardcore",
+    "link": "https://github.com/hardcore",
+    "name": "hardcore",
+    "id": "58683"
+  },
+  "luma": 0.070588,
+  "contrast": 0.556863
 }

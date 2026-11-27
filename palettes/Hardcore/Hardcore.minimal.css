@@ -20,14 +20,13 @@
   --foreground: #a0a0a0;
   --cursorColor: #bbbbbb;
   --selectionBackground: #453b39;
-  --creditTo: hardcore;
-  --creditToLink: https://github.com/hardcore;
-  --Luma: 0.070588;
-  --Contrast: 0.556863;
-  --PaletteName: Hardcore;
-  --PaletteFileName: Hardcore;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.070588;
+  --contrast: 0.556863;
+  --paletteName: Hardcore;
+  --paletteFileName: Hardcore;
+  --isBright: 0;
+  --isDark: 1;
+  --by: hardcore  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
