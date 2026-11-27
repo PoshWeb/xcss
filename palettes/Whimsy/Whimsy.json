@@ -20,7 +20,13 @@
   "foreground": "#b3b0d6",
   "cursorColor": "#b3b0d6",
   "selectionBackground": "#3d3c58",
-  "FileName": "Whimsy",
-  "Luma": 0.163076,
-  "Contrast": 0.54038
+  "fileName": "Whimsy",
+  "by": {
+    "username": "rod",
+    "link": "https://github.com/rod",
+    "name": "Rod Dennis",
+    "id": "1235252"
+  },
+  "luma": 0.163076,
+  "contrast": 0.54038
 }

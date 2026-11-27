@@ -20,14 +20,13 @@
   --foreground: #b3b0d6;
   --cursorColor: #b3b0d6;
   --selectionBackground: #3d3c58;
-  --creditTo: rod;
-  --creditToLink: https://github.com/rod;
-  --Luma: 0.163076;
-  --Contrast: 0.54038;
-  --PaletteName: Whimsy;
-  --PaletteFileName: Whimsy;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.163076;
+  --contrast: 0.54038;
+  --paletteName: Whimsy;
+  --paletteFileName: Whimsy;
+  --isBright: 0;
+  --isDark: 1;
+  --by: rod  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
