@@ -20,7 +20,13 @@
   "foreground": "#ede0ce",
   "cursorColor": "#9c9c9d",
   "selectionBackground": "#a60033",
-  "FileName": "Doom-Peacock",
-  "Luma": 0.16469,
-  "Contrast": 0.719483
+  "fileName": "Doom-Peacock",
+  "by": {
+    "username": "hlissner",
+    "link": "https://github.com/hlissner",
+    "name": "Henrik Lissner",
+    "id": "510883"
+  },
+  "luma": 0.16469,
+  "contrast": 0.719483
 }

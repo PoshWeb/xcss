@@ -20,14 +20,13 @@
   --foreground: #ede0ce;
   --cursorColor: #9c9c9d;
   --selectionBackground: #a60033;
-  --creditTo: hlissner;
-  --creditToLink: https://github.com/hlissner;
-  --Luma: 0.16469;
-  --Contrast: 0.719483;
-  --PaletteName: Doom Peacock;
-  --PaletteFileName: Doom-Peacock;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.16469;
+  --contrast: 0.719483;
+  --paletteName: Doom Peacock;
+  --paletteFileName: Doom-Peacock;
+  --isBright: 0;
+  --isDark: 1;
+  --by: hlissner  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
