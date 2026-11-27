@@ -20,7 +20,13 @@
   "foreground": "#877a9b",
   "cursorColor": "#a063eb",
   "selectionBackground": "#a063eb",
-  "FileName": "Urple",
-  "Luma": 0.108147,
-  "Contrast": 0.390466
+  "fileName": "Urple",
+  "by": {
+    "username": "zdj",
+    "link": "https://github.com/zdj",
+    "name": "",
+    "id": "4109933"
+  },
+  "luma": 0.108147,
+  "contrast": 0.390466
 }

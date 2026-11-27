@@ -20,14 +20,13 @@
   --foreground: #877a9b;
   --cursorColor: #a063eb;
   --selectionBackground: #a063eb;
-  --creditTo: zdj;
-  --creditToLink: https://github.com/zdj;
-  --Luma: 0.108147;
-  --Contrast: 0.390466;
-  --PaletteName: Urple;
-  --PaletteFileName: Urple;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.108147;
+  --contrast: 0.390466;
+  --paletteName: Urple;
+  --paletteFileName: Urple;
+  --isBright: 0;
+  --isDark: 1;
+  --by: zdj  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
