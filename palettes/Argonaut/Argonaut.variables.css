@@ -20,12 +20,11 @@
   --foreground: #fffaf4;
   --cursorColor: #ff0018;
   --selectionBackground: #002a3b;
-  --creditTo: effkay;
-  --creditToLink: https://github.com/effkay;
-  --Luma: 0.063626;
-  --Contrast: 0.919236;
-  --PaletteName: Argonaut;
-  --PaletteFileName: Argonaut;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.063626;
+  --contrast: 0.919236;
+  --paletteName: Argonaut;
+  --paletteFileName: Argonaut;
+  --isBright: 0;
+  --isDark: 1;
+  --by: effkay  
 }

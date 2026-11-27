@@ -20,7 +20,13 @@
   "foreground": "#fffaf4",
   "cursorColor": "#ff0018",
   "selectionBackground": "#002a3b",
-  "FileName": "Argonaut",
-  "Luma": 0.063626,
-  "Contrast": 0.919236
+  "fileName": "Argonaut",
+  "by": {
+    "username": "effkay",
+    "link": "https://github.com/effkay",
+    "name": "Felipe Kaufmann",
+    "id": "53093"
+  },
+  "luma": 0.063626,
+  "contrast": 0.919236
 }
