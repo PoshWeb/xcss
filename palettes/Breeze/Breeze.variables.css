@@ -20,12 +20,11 @@
   --foreground: #eff0f1;
   --cursorColor: #eff0f1;
   --selectionBackground: #eff0f1;
-  --creditTo: KDE;
-  --creditToLink: https://github.com/KDE;
-  --Luma: 0.209012;
-  --Contrast: 0.731614;
-  --PaletteName: Breeze;
-  --PaletteFileName: Breeze;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.209012;
+  --contrast: 0.731614;
+  --paletteName: Breeze;
+  --paletteFileName: Breeze;
+  --isBright: 0;
+  --isDark: 1;
+  --by: KDE  
 }

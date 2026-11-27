@@ -20,7 +20,13 @@
   "foreground": "#eff0f1",
   "cursorColor": "#eff0f1",
   "selectionBackground": "#eff0f1",
-  "FileName": "Breeze",
-  "Luma": 0.209012,
-  "Contrast": 0.731614
+  "fileName": "Breeze",
+  "by": {
+    "username": "KDE",
+    "link": "https://github.com/KDE",
+    "name": "KDE GitHub Mirror",
+    "id": "14312869"
+  },
+  "luma": 0.209012,
+  "contrast": 0.731614
 }
