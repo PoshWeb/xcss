@@ -20,10 +20,10 @@
   --foreground: #b8dbef;
   --cursorColor: #708284;
   --selectionBackground: #2b2a24;
-  --Luma: 0.120467;
-  --Contrast: 0.714839;
-  --PaletteName: Flatland;
-  --PaletteFileName: Flatland;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.120467;
+  --contrast: 0.714839;
+  --paletteName: Flatland;
+  --paletteFileName: Flatland;
+  --isBright: 0;
+  --isDark: 1  
 }
