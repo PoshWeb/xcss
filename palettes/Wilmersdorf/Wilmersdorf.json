@@ -20,7 +20,13 @@
   "foreground": "#c6c6c6",
   "cursorColor": "#7ebebd",
   "selectionBackground": "#1f2024",
-  "FileName": "Wilmersdorf",
-  "Luma": 0.168391,
-  "Contrast": 0.60808
+  "fileName": "Wilmersdorf",
+  "by": {
+    "username": "sayeefm0",
+    "link": "https://github.com/sayeefm0",
+    "name": "",
+    "id": "111258427"
+  },
+  "luma": 0.168391,
+  "contrast": 0.60808
 }

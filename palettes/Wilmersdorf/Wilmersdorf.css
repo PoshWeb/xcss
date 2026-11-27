@@ -20,14 +20,13 @@
   --foreground: #c6c6c6;
   --cursorColor: #7ebebd;
   --selectionBackground: #1f2024;
-  --creditTo: sayeefm0;
-  --creditToLink: https://github.com/sayeefm0;
-  --Luma: 0.168391;
-  --Contrast: 0.60808;
-  --PaletteName: Wilmersdorf;
-  --PaletteFileName: Wilmersdorf;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.168391;
+  --contrast: 0.60808;
+  --paletteName: Wilmersdorf;
+  --paletteFileName: Wilmersdorf;
+  --isBright: 0;
+  --isDark: 1;
+  --by: sayeefm0  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
