@@ -20,7 +20,13 @@
   "foreground": "#f8f8f2",
   "cursorColor": "#eceff4",
   "selectionBackground": "#f8f8f2",
-  "FileName": "Dracula+",
-  "Luma": 0.129412,
-  "Contrast": 0.841438
+  "fileName": "Dracula+",
+  "by": {
+    "username": "jos3s",
+    "link": "https://github.com/jos3s",
+    "name": "José Ulisses",
+    "id": "50359547"
+  },
+  "luma": 0.129412,
+  "contrast": 0.841438
 }

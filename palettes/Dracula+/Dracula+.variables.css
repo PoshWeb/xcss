@@ -20,10 +20,11 @@
   --foreground: #f8f8f2;
   --cursorColor: #eceff4;
   --selectionBackground: #f8f8f2;
-  --Luma: 0.129412;
-  --Contrast: 0.841438;
-  --PaletteName: Dracula+;
-  --PaletteFileName: Dracula+;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.129412;
+  --contrast: 0.841438;
+  --paletteName: Dracula+;
+  --paletteFileName: Dracula+;
+  --isBright: 0;
+  --isDark: 1;
+  --by: jos3s  
 }
