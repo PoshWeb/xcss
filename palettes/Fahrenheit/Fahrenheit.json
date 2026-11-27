@@ -20,7 +20,13 @@
   "foreground": "#ffffce",
   "cursorColor": "#bbbbbb",
   "selectionBackground": "#4e739f",
-  "FileName": "Fahrenheit",
-  "Luma": 0.0,
-  "Contrast": 0.986126
+  "fileName": "Fahrenheit",
+  "by": {
+    "username": "jonascarpay",
+    "link": "https://github.com/jonascarpay",
+    "name": "Jonas Carpay",
+    "id": "3593851"
+  },
+  "luma": 0.0,
+  "contrast": 0.986126
 }

@@ -20,14 +20,13 @@
   --foreground: #ffffce;
   --cursorColor: #bbbbbb;
   --selectionBackground: #4e739f;
-  --creditTo: jonascarpay;
-  --creditToLink: https://github.com/jonascarpay;
-  --Luma: 0;
-  --Contrast: 0.986126;
-  --PaletteName: Fahrenheit;
-  --PaletteFileName: Fahrenheit;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0;
+  --contrast: 0.986126;
+  --paletteName: Fahrenheit;
+  --paletteFileName: Fahrenheit;
+  --isBright: 0;
+  --isDark: 1;
+  --by: jonascarpay  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
