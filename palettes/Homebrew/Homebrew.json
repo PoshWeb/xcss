@@ -20,7 +20,7 @@
   "foreground": "#00ff00",
   "cursorColor": "#23ff18",
   "selectionBackground": "#083905",
-  "FileName": "Homebrew",
-  "Luma": 0.0,
-  "Contrast": 0.7152
+  "fileName": "Homebrew",
+  "luma": 0.0,
+  "contrast": 0.7152
 }
