@@ -20,7 +20,13 @@
   "foreground": "#bab7b6",
   "cursorColor": "#37e57b",
   "selectionBackground": "#8db8e5",
-  "FileName": "Dimidium",
-  "Luma": 0.078431,
-  "Contrast": 0.641434
+  "fileName": "Dimidium",
+  "by": {
+    "username": "dofuuz",
+    "link": "https://github.com/dofuuz",
+    "name": "Myungchul Keum",
+    "id": "8174871"
+  },
+  "luma": 0.078431,
+  "contrast": 0.641434
 }
