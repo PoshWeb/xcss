@@ -20,7 +20,13 @@
   "foreground": "#4d4d4c",
   "cursorColor": "#4d4d4c",
   "selectionBackground": "#d6d6d6",
-  "FileName": "Spring",
-  "Luma": 1.0,
-  "Contrast": 0.698322
+  "fileName": "Spring",
+  "by": {
+    "username": "t3chnoboy",
+    "link": "https://github.com/t3chnoboy",
+    "name": "Dmitry Mazuro",
+    "id": "2552790"
+  },
+  "luma": 1.0,
+  "contrast": 0.698322
 }

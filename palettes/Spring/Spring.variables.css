@@ -20,12 +20,11 @@
   --foreground: #4d4d4c;
   --cursorColor: #4d4d4c;
   --selectionBackground: #d6d6d6;
-  --creditTo: t3chnoboy;
-  --creditToLink: https://github.com/t3chnoboy;
-  --Luma: 1;
-  --Contrast: 0.698322;
-  --PaletteName: Spring;
-  --PaletteFileName: Spring;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 1;
+  --contrast: 0.698322;
+  --paletteName: Spring;
+  --paletteFileName: Spring;
+  --isBright: 0;
+  --isDark: 1;
+  --by: t3chnoboy  
 }
