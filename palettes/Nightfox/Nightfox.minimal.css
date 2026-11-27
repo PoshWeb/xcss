@@ -20,14 +20,13 @@
   --foreground: #cdcecf;
   --cursorColor: #cdcecf;
   --selectionBackground: #2b3b51;
-  --creditTo: EdenEast;
-  --creditToLink: https://github.com/EdenEast;
-  --Luma: 0.132598;
-  --Contrast: 0.674695;
-  --PaletteName: Nightfox;
-  --PaletteFileName: Nightfox;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.132598;
+  --contrast: 0.674695;
+  --paletteName: Nightfox;
+  --paletteFileName: Nightfox;
+  --isBright: 0;
+  --isDark: 1;
+  --by: EdenEast  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
