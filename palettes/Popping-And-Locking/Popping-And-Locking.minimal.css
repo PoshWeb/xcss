@@ -20,14 +20,13 @@
   --foreground: #ebdbb2;
   --cursorColor: #c7c7c7;
   --selectionBackground: #ebdbb2;
-  --creditTo: hedinne;
-  --creditToLink: https://github.com/hedinne;
-  --Luma: 0.099471;
-  --Contrast: 0.761084;
-  --PaletteName: Popping And Locking;
-  --PaletteFileName: Popping-And-Locking;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.099471;
+  --contrast: 0.761084;
+  --paletteName: Popping And Locking;
+  --paletteFileName: Popping-And-Locking;
+  --isBright: 0;
+  --isDark: 1;
+  --by: hedinne  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }

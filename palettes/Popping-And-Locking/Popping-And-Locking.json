@@ -20,7 +20,13 @@
   "foreground": "#ebdbb2",
   "cursorColor": "#c7c7c7",
   "selectionBackground": "#ebdbb2",
-  "FileName": "Popping-And-Locking",
-  "Luma": 0.099471,
-  "Contrast": 0.761084
+  "fileName": "Popping-And-Locking",
+  "by": {
+    "username": "hedinne",
+    "link": "https://github.com/hedinne",
+    "name": "Hedinn Eiriksson",
+    "id": "7573694"
+  },
+  "luma": 0.099471,
+  "contrast": 0.761084
 }
