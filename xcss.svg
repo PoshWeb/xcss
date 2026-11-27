@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" transform-origin="50% 50%" width="100%" height="100%">
+  <path id="xcss-path" d="m 0 0" stroke="currentcolor" stroke-width="0.25%" fill="transparent" class="foreground-stroke" transform-origin="50% 50%">
+  </path>
+  <g id="xcss-children">
+    <path id="xcss-letterX-path" d="m 0 0" stroke="currentcolor" stroke-width="0.25%" fill="transparent" class="foreground-stroke" transform-origin="50% 50%" xmlns="http://www.w3.org/2000/svg">
+    </path>
+    <text id="xcss-letterX-text" dominant-baseline="middle" text-anchor="middle" x="12.5%" y="50%" fill="currentcolor" font-size="48em" font-family="sans-serif" xmlns="http://www.w3.org/2000/svg">
+      <title>x</title>
+x
+</text>
+    <path id="xcss-letterC-path" d="m 0 0" stroke="currentcolor" stroke-width="0.25%" fill="transparent" class="foreground-stroke" transform-origin="50% 50%" xmlns="http://www.w3.org/2000/svg">
+    </path>
+    <text id="xcss-letterC-text" dominant-baseline="middle" text-anchor="middle" x="37.5%" y="50%" fill="currentcolor" font-size="64em" font-family="sans-serif" xmlns="http://www.w3.org/2000/svg">
+      <title>c</title>
+c
+</text>
+    <path id="xcss-letterS1-path" d="m 0 0" stroke="currentcolor" stroke-width="0.25%" fill="transparent" class="foreground-stroke" transform-origin="50% 50%" xmlns="http://www.w3.org/2000/svg">
+    </path>
+    <text id="xcss-letterS1-text" dominant-baseline="middle" text-anchor="middle" x="62.5%" y="50%" fill="currentcolor" font-size="48em" font-family="sans-serif" xmlns="http://www.w3.org/2000/svg">
+      <title>s</title>
+s
+</text>
+    <path id="xcss-letterS2-path" d="m 0 0" stroke="currentcolor" stroke-width="0.25%" fill="transparent" class="foreground-stroke" transform-origin="50% 50%" xmlns="http://www.w3.org/2000/svg">
+    </path>
+    <text id="xcss-letterS2-text" dominant-baseline="middle" text-anchor="middle" x="87.5%" y="50%" fill="currentcolor" font-size="48em" font-family="sans-serif" xmlns="http://www.w3.org/2000/svg">
+      <title>s</title>
+s
+</text>
+    <path id="xcss-chevron-path" d="m 0 0" stroke="currentcolor" stroke-width="0.25%" fill="transparent" class="foreground-stroke" transform-origin="50% 50%" xmlns="http://www.w3.org/2000/svg">
+    </path>
+    <text id="xcss-chevron-text" dominant-baseline="middle" text-anchor="middle" x="50%" y="50%" fill="currentcolor" font-size="8em" font-family="sans-serif" xmlns="http://www.w3.org/2000/svg">
+      <title>&gt;</title>
+&gt;
+</text>
+  </g>
+</svg>
