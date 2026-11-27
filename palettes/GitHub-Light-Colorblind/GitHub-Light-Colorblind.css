@@ -1,5 +1,5 @@
 :root {
-  --name: 'GitHub Light Colorblind';
+  --name: GitHub Light Colorblind;
   --black: #24292f;
   --red: #b35900;
   --green: #0550ae;
@@ -20,14 +20,13 @@
   --foreground: #24292f;
   --cursorColor: #0969da;
   --selectionBackground: #24292f;
-  --creditTo: 'apcamargo';
-  --creditToLink: 'https://github.com/apcamargo';
-  --Luma: 1;
-  --Contrast: 0.841685;
-  --PaletteName: 'GitHub Light Colorblind';
-  --PaletteFileName: 'GitHub-Light-Colorblind';
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 1;
+  --contrast: 0.841685;
+  --paletteName: GitHub Light Colorblind;
+  --paletteFileName: GitHub-Light-Colorblind;
+  --isBright: 0;
+  --isDark: 1;
+  --by: apcamargo  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
