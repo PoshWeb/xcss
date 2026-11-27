@@ -20,7 +20,13 @@
   "foreground": "#ffffff",
   "cursorColor": "#bbbbbb",
   "selectionBackground": "#b5d5ff",
-  "FileName": "Galaxy",
-  "Luma": 0.151939,
-  "Contrast": 0.848061
+  "fileName": "Galaxy",
+  "by": {
+    "username": "jglovier",
+    "link": "https://github.com/jglovier",
+    "name": "Joel Glovier",
+    "id": "1319791"
+  },
+  "luma": 0.151939,
+  "contrast": 0.848061
 }
