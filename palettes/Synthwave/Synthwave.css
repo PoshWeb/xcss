@@ -20,14 +20,13 @@
   --foreground: #dad9c7;
   --cursorColor: #19cde6;
   --selectionBackground: #19cde6;
-  --creditTo: brettstil;
-  --creditToLink: https://github.com/brettstil;
-  --Luma: 0;
-  --Contrast: 0.846718;
-  --PaletteName: Synthwave;
-  --PaletteFileName: Synthwave;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0;
+  --contrast: 0.846718;
+  --paletteName: Synthwave;
+  --paletteFileName: Synthwave;
+  --isBright: 0;
+  --isDark: 1;
+  --by: brettstil  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }

@@ -20,7 +20,13 @@
   "foreground": "#dad9c7",
   "cursorColor": "#19cde6",
   "selectionBackground": "#19cde6",
-  "FileName": "Synthwave",
-  "Luma": 0.0,
-  "Contrast": 0.846718
+  "fileName": "Synthwave",
+  "by": {
+    "username": "brettstil",
+    "link": "https://github.com/brettstil",
+    "name": "Brett Stilwell",
+    "id": "184986"
+  },
+  "luma": 0.0,
+  "contrast": 0.846718
 }
