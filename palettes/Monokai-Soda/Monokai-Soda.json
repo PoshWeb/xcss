@@ -20,7 +20,13 @@
   "foreground": "#c4c5b5",
   "cursorColor": "#f6f7ec",
   "selectionBackground": "#343434",
-  "FileName": "Monokai-Soda",
-  "Luma": 0.101961,
-  "Contrast": 0.665224
+  "fileName": "Monokai-Soda",
+  "by": {
+    "username": "deepsweet",
+    "link": "https://github.com/deepsweet",
+    "name": "Kir Belevich",
+    "id": "266822"
+  },
+  "luma": 0.101961,
+  "contrast": 0.665224
 }

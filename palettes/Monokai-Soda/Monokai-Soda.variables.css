@@ -20,12 +20,11 @@
   --foreground: #c4c5b5;
   --cursorColor: #f6f7ec;
   --selectionBackground: #343434;
-  --creditTo: deepsweet;
-  --creditToLink: https://github.com/deepsweet;
-  --Luma: 0.101961;
-  --Contrast: 0.665224;
-  --PaletteName: Monokai Soda;
-  --PaletteFileName: Monokai-Soda;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.101961;
+  --contrast: 0.665224;
+  --paletteName: Monokai Soda;
+  --paletteFileName: Monokai-Soda;
+  --isBright: 0;
+  --isDark: 1;
+  --by: deepsweet  
 }
