@@ -20,11 +20,10 @@
   --foreground: #b8a898;
   --cursorColor: #ffffff;
   --selectionBackground: #c3dcff;
-  --creditToLink: https://github.com/;
-  --Luma: 0.1355;
-  --Contrast: 0.532133;
-  --PaletteName: Espresso Libre;
-  --PaletteFileName: Espresso-Libre;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.1355;
+  --contrast: 0.532133;
+  --paletteName: Espresso Libre;
+  --paletteFileName: Espresso-Libre;
+  --isBright: 0;
+  --isDark: 1  
 }

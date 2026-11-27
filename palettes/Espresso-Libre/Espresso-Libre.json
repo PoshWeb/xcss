@@ -20,7 +20,13 @@
   "foreground": "#b8a898",
   "cursorColor": "#ffffff",
   "selectionBackground": "#c3dcff",
-  "FileName": "Espresso-Libre",
-  "Luma": 0.1355,
-  "Contrast": 0.532133
+  "fileName": "Espresso-Libre",
+  "by": {
+    "username": "",
+    "link": "https://github.com/",
+    "name": "",
+    "id": ""
+  },
+  "luma": 0.1355,
+  "contrast": 0.532133
 }

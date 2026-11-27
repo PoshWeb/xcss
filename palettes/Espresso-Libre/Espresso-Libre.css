@@ -20,13 +20,12 @@
   --foreground: #b8a898;
   --cursorColor: #ffffff;
   --selectionBackground: #c3dcff;
-  --creditToLink: https://github.com/;
-  --Luma: 0.1355;
-  --Contrast: 0.532133;
-  --PaletteName: Espresso Libre;
-  --PaletteFileName: Espresso-Libre;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.1355;
+  --contrast: 0.532133;
+  --paletteName: Espresso Libre;
+  --paletteFileName: Espresso-Libre;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -203,6 +202,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
