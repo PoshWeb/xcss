@@ -19,8 +19,14 @@
   "background": "#2f2b2c",
   "foreground": "#dedede",
   "cursorColor": "#dedede",
-  "selectionBackground": "#2f2b2c",
-  "FileName": "owl",
-  "Luma": 0.172245,
-  "Contrast": 0.698343
+  "selectionBackground": "#dedede",
+  "fileName": "owl",
+  "by": {
+    "username": "dkeg",
+    "link": "https://github.com/dkeg",
+    "name": "",
+    "id": "3622611"
+  },
+  "luma": 0.172245,
+  "contrast": 0.698343
 }

@@ -19,15 +19,14 @@
   --background: #2f2b2c;
   --foreground: #dedede;
   --cursorColor: #dedede;
-  --selectionBackground: #2f2b2c;
-  --creditTo: dkeg;
-  --creditToLink: https://github.com/dkeg;
-  --Luma: 0.172245;
-  --Contrast: 0.698343;
-  --PaletteName: owl;
-  --PaletteFileName: owl;
-  --IsBright: 0;
-  --IsDark: 1;
+  --selectionBackground: #dedede;
+  --luma: 0.172245;
+  --contrast: 0.698343;
+  --paletteName: owl;
+  --paletteFileName: owl;
+  --isBright: 0;
+  --isDark: 1;
+  --by: dkeg  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
