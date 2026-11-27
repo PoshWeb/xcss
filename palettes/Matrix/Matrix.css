@@ -20,14 +20,13 @@
   --foreground: #426644;
   --cursorColor: #384545;
   --selectionBackground: #18282e;
-  --creditTo: ReagentX;
-  --creditToLink: https://github.com/ReagentX;
-  --Luma: 0.090551;
-  --Contrast: 0.269808;
-  --PaletteName: Matrix;
-  --PaletteFileName: Matrix;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.090551;
+  --contrast: 0.269808;
+  --paletteName: Matrix;
+  --paletteFileName: Matrix;
+  --isBright: 0;
+  --isDark: 1;
+  --by: ReagentX  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
