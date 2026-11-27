@@ -20,7 +20,7 @@
   "foreground": "#fff0a5",
   "cursorColor": "#d9744c",
   "selectionBackground": "#b64926",
-  "FileName": "Grass",
-  "Luma": 0.366872,
-  "Contrast": 0.565575
+  "fileName": "Grass",
+  "luma": 0.366872,
+  "contrast": 0.565575
 }

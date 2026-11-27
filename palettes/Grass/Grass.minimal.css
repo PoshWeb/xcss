@@ -20,12 +20,12 @@
   --foreground: #fff0a5;
   --cursorColor: #d9744c;
   --selectionBackground: #b64926;
-  --Luma: 0.366872;
-  --Contrast: 0.565575;
-  --PaletteName: Grass;
-  --PaletteFileName: Grass;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.366872;
+  --contrast: 0.565575;
+  --paletteName: Grass;
+  --paletteFileName: Grass;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
