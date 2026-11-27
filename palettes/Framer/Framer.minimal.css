@@ -20,14 +20,13 @@
   --foreground: #777777;
   --cursorColor: #fcdc08;
   --selectionBackground: #666666;
-  --creditTo: markogresak;
-  --creditToLink: https://github.com/markogresak;
-  --Luma: 0.066667;
-  --Contrast: 0.4;
-  --PaletteName: Framer;
-  --PaletteFileName: Framer;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.066667;
+  --contrast: 0.4;
+  --paletteName: Framer;
+  --paletteFileName: Framer;
+  --isBright: 0;
+  --isDark: 1;
+  --by: markogresak  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
