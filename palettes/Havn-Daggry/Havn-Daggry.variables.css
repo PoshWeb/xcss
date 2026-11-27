@@ -20,10 +20,10 @@
   --foreground: #3b4a7a;
   --cursorColor: #226c4f;
   --selectionBackground: #cfe9dd;
-  --Luma: 0.976203;
-  --Contrast: 0.684922;
-  --PaletteName: Havn Daggry;
-  --PaletteFileName: Havn-Daggry;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.976203;
+  --contrast: 0.684922;
+  --paletteName: Havn Daggry;
+  --paletteFileName: Havn-Daggry;
+  --isBright: 0;
+  --isDark: 1  
 }
