@@ -17,15 +17,14 @@
   --brightCyan: #7aa89f;
   --brightWhite: #c5c9c5;
   --background: #181616;
-  --foreground: #c8c093;
-  --cursorColor: #c5c9c5;
-  --selectionBackground: #223249;
-  --creditTo: rebelot;
-  --creditToLink: https://github.com/rebelot;
-  --Luma: 0.087942;
-  --Contrast: 0.658928;
-  --PaletteName: Kanagawa Dragon;
-  --PaletteFileName: Kanagawa-Dragon;
-  --IsBright: 0;
-  --IsDark: 1;
+  --foreground: #c5c9c5;
+  --cursorColor: #c8c093;
+  --selectionBackground: #c5c9c5;
+  --luma: 0.087942;
+  --contrast: 0.695826;
+  --paletteName: Kanagawa Dragon;
+  --paletteFileName: Kanagawa-Dragon;
+  --isBright: 0;
+  --isDark: 1;
+  --by: rebelot  
 }
