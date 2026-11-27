@@ -20,10 +20,10 @@
   --foreground: #fcfcfa;
   --cursorColor: #c1c0c0;
   --selectionBackground: #5b595c;
-  --Luma: 0.16834;
-  --Contrast: 0.819329;
-  --PaletteName: Monokai Pro;
-  --PaletteFileName: Monokai-Pro;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.16834;
+  --contrast: 0.819329;
+  --paletteName: Monokai Pro;
+  --paletteFileName: Monokai-Pro;
+  --isBright: 0;
+  --isDark: 1  
 }
