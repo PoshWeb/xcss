@@ -20,12 +20,11 @@
   --foreground: #dbdbdb;
   --cursorColor: #bbbbbb;
   --selectionBackground: #b5d5ff;
-  --creditTo: juanghurtado;
-  --creditToLink: https://github.com/juanghurtado;
-  --Luma: 0;
-  --Contrast: 0.858824;
-  --PaletteName: Hurtado;
-  --PaletteFileName: Hurtado;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0;
+  --contrast: 0.858824;
+  --paletteName: Hurtado;
+  --paletteFileName: Hurtado;
+  --isBright: 0;
+  --isDark: 1;
+  --by: juanghurtado  
 }
