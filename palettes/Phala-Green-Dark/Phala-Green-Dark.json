@@ -20,7 +20,13 @@
   "foreground": "#c1fc03",
   "cursorColor": "#c1fc03",
   "selectionBackground": "#014804",
-  "FileName": "Phala-Green-Dark",
-  "Luma": 0.0,
-  "Contrast": 0.868544
+  "fileName": "Phala-Green-Dark",
+  "by": {
+    "username": "h4x3rotab",
+    "link": "https://github.com/h4x3rotab",
+    "name": "Hang Yin",
+    "id": "1343470"
+  },
+  "luma": 0.0,
+  "contrast": 0.868544
 }

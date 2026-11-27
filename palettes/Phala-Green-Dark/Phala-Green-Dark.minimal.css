@@ -20,14 +20,13 @@
   --foreground: #c1fc03;
   --cursorColor: #c1fc03;
   --selectionBackground: #014804;
-  --creditTo: h4x3rotab;
-  --creditToLink: https://github.com/h4x3rotab;
-  --Luma: 0;
-  --Contrast: 0.868544;
-  --PaletteName: Phala Green Dark;
-  --PaletteFileName: Phala-Green-Dark;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0;
+  --contrast: 0.868544;
+  --paletteName: Phala Green Dark;
+  --paletteFileName: Phala-Green-Dark;
+  --isBright: 0;
+  --isDark: 1;
+  --by: h4x3rotab  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
