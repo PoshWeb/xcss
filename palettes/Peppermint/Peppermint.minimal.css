@@ -20,12 +20,12 @@
   --foreground: #c8c8c8;
   --cursorColor: #bbbbbb;
   --selectionBackground: #e6e6e6;
-  --Luma: 0;
-  --Contrast: 0.784314;
-  --PaletteName: Peppermint;
-  --PaletteFileName: Peppermint;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0;
+  --contrast: 0.784314;
+  --paletteName: Peppermint;
+  --paletteFileName: Peppermint;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }

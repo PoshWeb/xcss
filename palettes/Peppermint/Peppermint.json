@@ -20,7 +20,7 @@
   "foreground": "#c8c8c8",
   "cursorColor": "#bbbbbb",
   "selectionBackground": "#e6e6e6",
-  "FileName": "Peppermint",
-  "Luma": 0.0,
-  "Contrast": 0.784314
+  "fileName": "Peppermint",
+  "luma": 0.0,
+  "contrast": 0.784314
 }
