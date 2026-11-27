@@ -20,14 +20,13 @@
   --foreground: #ebdbb2;
   --cursorColor: #ebdbb2;
   --selectionBackground: #665c54;
-  --creditTo: morhetz;
-  --creditToLink: https://github.com/morhetz;
-  --Luma: 0.123272;
-  --Contrast: 0.737283;
-  --PaletteName: Gruvbox Dark Hard;
-  --PaletteFileName: Gruvbox-Dark-Hard;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.123272;
+  --contrast: 0.737283;
+  --paletteName: Gruvbox Dark Hard;
+  --paletteFileName: Gruvbox-Dark-Hard;
+  --isBright: 0;
+  --isDark: 1;
+  --by: morhetz  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
