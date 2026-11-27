@@ -20,7 +20,13 @@
   "foreground": "#feffff",
   "cursorColor": "#feffff",
   "selectionBackground": "#606060",
-  "FileName": "Adventure",
-  "Luma": 0.015686,
-  "Contrast": 0.98348
+  "fileName": "Adventure",
+  "by": {
+    "username": "hongzimao",
+    "link": "https://github.com/hongzimao",
+    "name": "Hongzi Mao",
+    "id": "5906100"
+  },
+  "luma": 0.015686,
+  "contrast": 0.98348
 }

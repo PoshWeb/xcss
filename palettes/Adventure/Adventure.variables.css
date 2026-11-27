@@ -20,12 +20,11 @@
   --foreground: #feffff;
   --cursorColor: #feffff;
   --selectionBackground: #606060;
-  --creditTo: hongzimao;
-  --creditToLink: https://github.com/hongzimao;
-  --Luma: 0.015686;
-  --Contrast: 0.98348;
-  --PaletteName: Adventure;
-  --PaletteFileName: Adventure;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.015686;
+  --contrast: 0.98348;
+  --paletteName: Adventure;
+  --paletteFileName: Adventure;
+  --isBright: 0;
+  --isDark: 1;
+  --by: hongzimao  
 }
