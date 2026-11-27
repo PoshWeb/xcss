@@ -1,5 +1,5 @@
 :root {
-  --name: 'iTerm2 Solarized Dark';
+  --name: iTerm2 Solarized Dark;
   --black: #073642;
   --red: #dc322f;
   --green: #859900;
@@ -20,12 +20,12 @@
   --foreground: #839496;
   --cursorColor: #839496;
   --selectionBackground: #073642;
-  --Luma: 0.135892;
-  --Contrast: 0.430893;
-  --PaletteName: 'iTerm2 Solarized Dark';
-  --PaletteFileName: 'iTerm2-Solarized-Dark';
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.135892;
+  --contrast: 0.430893;
+  --paletteName: iTerm2 Solarized Dark;
+  --paletteFileName: iTerm2-Solarized-Dark;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
