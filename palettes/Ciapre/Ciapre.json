@@ -20,7 +20,13 @@
   "foreground": "#aea47a",
   "cursorColor": "#92805b",
   "selectionBackground": "#172539",
-  "FileName": "Ciapre",
-  "Luma": 0.110417,
-  "Contrast": 0.529166
+  "fileName": "Ciapre",
+  "by": {
+    "username": "zdj",
+    "link": "https://github.com/zdj",
+    "name": "",
+    "id": "4109933"
+  },
+  "luma": 0.110417,
+  "contrast": 0.529166
 }

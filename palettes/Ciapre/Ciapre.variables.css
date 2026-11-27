@@ -20,12 +20,11 @@
   --foreground: #aea47a;
   --cursorColor: #92805b;
   --selectionBackground: #172539;
-  --creditTo: zdj;
-  --creditToLink: https://github.com/zdj;
-  --Luma: 0.110417;
-  --Contrast: 0.529166;
-  --PaletteName: Ciapre;
-  --PaletteFileName: Ciapre;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.110417;
+  --contrast: 0.529166;
+  --paletteName: Ciapre;
+  --paletteFileName: Ciapre;
+  --isBright: 0;
+  --isDark: 1;
+  --by: zdj  
 }
