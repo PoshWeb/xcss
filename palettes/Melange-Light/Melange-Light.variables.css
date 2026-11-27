@@ -20,10 +20,10 @@
   --foreground: #54433a;
   --cursorColor: #54433a;
   --selectionBackground: #54433a;
-  --Luma: 0.945098;
-  --Contrast: 0.670728;
-  --PaletteName: Melange Light;
-  --PaletteFileName: Melange-Light;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.945098;
+  --contrast: 0.670728;
+  --paletteName: Melange Light;
+  --paletteFileName: Melange-Light;
+  --isBright: 0;
+  --isDark: 1  
 }
