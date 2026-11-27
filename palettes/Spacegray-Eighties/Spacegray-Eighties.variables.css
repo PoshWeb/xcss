@@ -20,12 +20,11 @@
   --foreground: #bdbaae;
   --cursorColor: #bbbbbb;
   --selectionBackground: #272e35;
-  --creditTo: mhkeller;
-  --creditToLink: https://github.com/mhkeller;
-  --Luma: 0.133333;
-  --Contrast: 0.595182;
-  --PaletteName: Spacegray Eighties;
-  --PaletteFileName: Spacegray-Eighties;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.133333;
+  --contrast: 0.595182;
+  --paletteName: Spacegray Eighties;
+  --paletteFileName: Spacegray-Eighties;
+  --isBright: 0;
+  --isDark: 1;
+  --by: mhkeller  
 }
