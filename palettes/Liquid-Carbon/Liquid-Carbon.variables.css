@@ -20,10 +20,10 @@
   --foreground: #afc2c2;
   --cursorColor: #ffffff;
   --selectionBackground: #7dbeff;
-  --Luma: 0.188235;
-  --Contrast: 0.556709;
-  --PaletteName: Liquid Carbon;
-  --PaletteFileName: Liquid-Carbon;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.188235;
+  --contrast: 0.556709;
+  --paletteName: Liquid Carbon;
+  --paletteFileName: Liquid-Carbon;
+  --isBright: 0;
+  --isDark: 1  
 }

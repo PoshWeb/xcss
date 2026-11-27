@@ -20,7 +20,7 @@
   "foreground": "#afc2c2",
   "cursorColor": "#ffffff",
   "selectionBackground": "#7dbeff",
-  "FileName": "Liquid-Carbon",
-  "Luma": 0.188235,
-  "Contrast": 0.556709
+  "fileName": "Liquid-Carbon",
+  "luma": 0.188235,
+  "contrast": 0.556709
 }
