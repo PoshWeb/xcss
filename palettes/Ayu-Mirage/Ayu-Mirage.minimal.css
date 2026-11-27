@@ -20,14 +20,13 @@
   --foreground: #cccac2;
   --cursorColor: #ffcc66;
   --selectionBackground: #409fff;
-  --creditTo: ayu-theme;
-  --creditToLink: https://github.com/ayu-theme;
-  --Luma: 0.140405;
-  --Contrast: 0.651154;
-  --PaletteName: Ayu Mirage;
-  --PaletteFileName: Ayu-Mirage;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.140405;
+  --contrast: 0.651154;
+  --paletteName: Ayu Mirage;
+  --paletteFileName: Ayu-Mirage;
+  --isBright: 0;
+  --isDark: 1;
+  --by: ayu-theme  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }

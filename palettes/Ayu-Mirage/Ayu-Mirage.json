@@ -20,7 +20,13 @@
   "foreground": "#cccac2",
   "cursorColor": "#ffcc66",
   "selectionBackground": "#409fff",
-  "FileName": "Ayu-Mirage",
-  "Luma": 0.140405,
-  "Contrast": 0.651154
+  "fileName": "Ayu-Mirage",
+  "by": {
+    "username": "ayu-theme",
+    "link": "https://github.com/ayu-theme",
+    "name": "ayu",
+    "id": "22821360"
+  },
+  "luma": 0.140405,
+  "contrast": 0.651154
 }
