@@ -20,10 +20,10 @@
   --foreground: #979db4;
   --cursorColor: #979db4;
   --selectionBackground: #5e6687;
-  --Luma: 0.155882;
-  --Contrast: 0.461314;
-  --PaletteName: Atelier Sulphurpool;
-  --PaletteFileName: Atelier-Sulphurpool;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.155882;
+  --contrast: 0.461314;
+  --paletteName: Atelier Sulphurpool;
+  --paletteFileName: Atelier-Sulphurpool;
+  --isBright: 0;
+  --isDark: 1  
 }
