@@ -20,10 +20,10 @@
   --foreground: #d6dbeb;
   --cursorColor: #277a6f;
   --selectionBackground: #2b514b;
-  --Luma: 0.082699;
-  --Contrast: 0.776486;
-  --PaletteName: Havn Skumring;
-  --PaletteFileName: Havn-Skumring;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.082699;
+  --contrast: 0.776486;
+  --paletteName: Havn Skumring;
+  --paletteFileName: Havn-Skumring;
+  --isBright: 0;
+  --isDark: 1  
 }
