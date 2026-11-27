@@ -20,14 +20,13 @@
   --foreground: #ffffff;
   --cursorColor: #6c6c6c;
   --selectionBackground: #bd2523;
-  --creditTo: bahlo;
-  --creditToLink: https://github.com/bahlo;
-  --Luma: 0.063631;
-  --Contrast: 0.936369;
-  --PaletteName: Glacier;
-  --PaletteFileName: Glacier;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.063631;
+  --contrast: 0.936369;
+  --paletteName: Glacier;
+  --paletteFileName: Glacier;
+  --isBright: 0;
+  --isDark: 1;
+  --by: bahlo  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }

@@ -20,7 +20,13 @@
   "foreground": "#ffffff",
   "cursorColor": "#6c6c6c",
   "selectionBackground": "#bd2523",
-  "FileName": "Glacier",
-  "Luma": 0.063631,
-  "Contrast": 0.936369
+  "fileName": "Glacier",
+  "by": {
+    "username": "bahlo",
+    "link": "https://github.com/bahlo",
+    "name": "Arne Bahlo",
+    "id": "1725839"
+  },
+  "luma": 0.063631,
+  "contrast": 0.936369
 }
