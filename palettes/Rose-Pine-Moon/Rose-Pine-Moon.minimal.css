@@ -20,12 +20,12 @@
   --foreground: #e0def4;
   --cursorColor: #e0def4;
   --selectionBackground: #44415a;
-  --Luma: 0.137025;
-  --Contrast: 0.74146;
-  --PaletteName: Rose Pine Moon;
-  --PaletteFileName: Rose-Pine-Moon;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.137025;
+  --contrast: 0.74146;
+  --paletteName: Rose Pine Moon;
+  --paletteFileName: Rose-Pine-Moon;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
