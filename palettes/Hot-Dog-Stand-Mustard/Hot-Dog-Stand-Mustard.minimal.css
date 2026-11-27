@@ -1,5 +1,5 @@
 :root {
-  --name: 'Hot Dog Stand (Mustard)';
+  --name: Hot Dog Stand (Mustard);
   --black: #000000;
   --red: #ea3323;
   --green: #ea3323;
@@ -20,12 +20,12 @@
   --foreground: #000000;
   --cursorColor: #ea3323;
   --selectionBackground: #ea3323;
-  --Luma: 0.951584;
-  --Contrast: 0.951584;
-  --PaletteName: 'Hot Dog Stand (Mustard)';
-  --PaletteFileName: 'Hot-Dog-Stand-Mustard';
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.951584;
+  --contrast: 0.951584;
+  --paletteName: Hot Dog Stand (Mustard);
+  --paletteFileName: Hot-Dog-Stand-Mustard;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
