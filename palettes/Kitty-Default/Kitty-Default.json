@@ -20,7 +20,7 @@
   "foreground": "#dddddd",
   "cursorColor": "#cccccc",
   "selectionBackground": "#fffacd",
-  "FileName": "Kitty-Default",
-  "Luma": 0.0,
-  "Contrast": 0.866667
+  "fileName": "Kitty-Default",
+  "luma": 0.0,
+  "contrast": 0.866667
 }
