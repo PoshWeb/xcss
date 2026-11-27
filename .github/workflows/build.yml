@@ -24,6 +24,11 @@ jobs:
               throw "Build not found"
           }
           
+          if (-not (Get-Module Turtle -ErrorAction Ignore)) {
+              Install-Module Turtle -Scope CurrentUser -Force
+              Import-Module Turtle
+          }
+          
           . .\build.ps1
           
           
