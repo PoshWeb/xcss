@@ -136,8 +136,10 @@ $progress.Status = "Generating Palette Pages"
 
 $total = $palettes.Count
 $counter = 0 
-foreach ($paletteName in $palettes.Keys) {
-    $paletteDirectory = Get-Item -Path $palettes[$paletteName].FileName 
+foreach ($paletteName in $palettes.Keys) {    
+    $paletteDirectory = Get-Item -Path (
+        Join-Path $PSScriptRoot $palettes[$paletteName].FileName 
+    )
     $progress.Activity = $paletteName
     $progress.PercentComplete = (++$counter*100)/$total
     Write-Progress @progress
