@@ -7,25 +7,25 @@
   --blue: #89b4fa;
   --purple: #f5c2e7;
   --cyan: #94e2d5;
-  --white: #a6adc8;
+  --white: #bac2de;
   --brightBlack: #585b70;
-  --brightRed: #f37799;
-  --brightGreen: #89d88b;
-  --brightYellow: #ebd391;
-  --brightBlue: #74a8fc;
-  --brightPurple: #f2aede;
-  --brightCyan: #6bd7ca;
-  --brightWhite: #bac2de;
+  --brightRed: #f7aec2;
+  --brightGreen: #c2ecbf;
+  --brightYellow: #fcd682;
+  --brightBlue: #aeccfc;
+  --brightPurple: #f398da;
+  --brightCyan: #b1eae1;
+  --brightWhite: #a6adc8;
   --background: #1e1e2e;
   --foreground: #cdd6f4;
   --cursorColor: #f5e0dc;
-  --selectionBackground: #585b70;
-  --Luma: 0.122177;
-  --Contrast: 0.718029;
-  --PaletteName: Catppuccin Mocha;
-  --PaletteFileName: Catppuccin-Mocha;
-  --IsBright: 0;
-  --IsDark: 1;
+  --selectionBackground: #f5e0dc;
+  --luma: 0.122177;
+  --contrast: 0.718029;
+  --paletteName: Catppuccin Mocha;
+  --paletteFileName: Catppuccin-Mocha;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -202,6 +202,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
