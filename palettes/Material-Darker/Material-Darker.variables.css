@@ -20,10 +20,10 @@
   --foreground: #eeffff;
   --cursorColor: #ffffff;
   --selectionBackground: #eeffff;
-  --Luma: 0.129412;
-  --Contrast: 0.856415;
-  --PaletteName: Material Darker;
-  --PaletteFileName: Material-Darker;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.129412;
+  --contrast: 0.856415;
+  --paletteName: Material Darker;
+  --paletteFileName: Material-Darker;
+  --isBright: 0;
+  --isDark: 1  
 }
