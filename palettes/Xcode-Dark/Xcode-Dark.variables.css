@@ -20,12 +20,11 @@
   --foreground: #dfdfe0;
   --cursorColor: #dfdfe0;
   --selectionBackground: #414453;
-  --creditTo: lunacookies;
-  --creditToLink: https://github.com/lunacookies;
-  --Luma: 0.165571;
-  --Contrast: 0.709222;
-  --PaletteName: Xcode Dark;
-  --PaletteFileName: Xcode-Dark;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.165571;
+  --contrast: 0.709222;
+  --paletteName: Xcode Dark;
+  --paletteFileName: Xcode-Dark;
+  --isBright: 0;
+  --isDark: 1;
+  --by: lunacookies  
 }
