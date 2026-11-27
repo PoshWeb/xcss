@@ -20,12 +20,12 @@
   --foreground: #ffffff;
   --cursorColor: #cccccc;
   --selectionBackground: #fffacd;
-  --Luma: 0.2;
-  --Contrast: 0.8;
-  --PaletteName: Kitty Low Contrast;
-  --PaletteFileName: Kitty-Low-Contrast;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.2;
+  --contrast: 0.8;
+  --paletteName: Kitty Low Contrast;
+  --paletteFileName: Kitty-Low-Contrast;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -202,6 +202,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
