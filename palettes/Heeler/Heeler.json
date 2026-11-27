@@ -20,7 +20,13 @@
   "foreground": "#fdfdfd",
   "cursorColor": "#ffffff",
   "selectionBackground": "#2b2c41",
-  "FileName": "Heeler",
-  "Luma": 0.134278,
-  "Contrast": 0.857879
+  "fileName": "Heeler",
+  "by": {
+    "username": "tacolegs2004",
+    "link": "https://github.com/tacolegs2004",
+    "name": "tacolegs2004",
+    "id": "90487171"
+  },
+  "luma": 0.134278,
+  "contrast": 0.857879
 }

@@ -20,14 +20,13 @@
   --foreground: #fdfdfd;
   --cursorColor: #ffffff;
   --selectionBackground: #2b2c41;
-  --creditTo: tacolegs2004;
-  --creditToLink: https://github.com/tacolegs2004;
-  --Luma: 0.134278;
-  --Contrast: 0.857879;
-  --PaletteName: Heeler;
-  --PaletteFileName: Heeler;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.134278;
+  --contrast: 0.857879;
+  --paletteName: Heeler;
+  --paletteFileName: Heeler;
+  --isBright: 0;
+  --isDark: 1;
+  --by: tacolegs2004  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
