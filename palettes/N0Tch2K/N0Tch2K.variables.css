@@ -20,12 +20,11 @@
   --foreground: #a0a0a0;
   --cursorColor: #aa9175;
   --selectionBackground: #4d4d4d;
-  --creditTo: baskerville;
-  --creditToLink: https://github.com/baskerville;
-  --Luma: 0.133333;
-  --Contrast: 0.494118;
-  --PaletteName: N0Tch2K;
-  --PaletteFileName: N0Tch2K;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.133333;
+  --contrast: 0.494118;
+  --paletteName: N0Tch2K;
+  --paletteFileName: N0Tch2K;
+  --isBright: 0;
+  --isDark: 1;
+  --by: baskerville  
 }
