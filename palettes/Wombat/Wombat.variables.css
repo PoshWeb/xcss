@@ -20,12 +20,11 @@
   --foreground: #dedacf;
   --cursorColor: #bbbbbb;
   --selectionBackground: #453b39;
-  --creditTo: djoyner;
-  --creditToLink: https://github.com/djoyner;
-  --Luma: 0.090196;
-  --Contrast: 0.764926;
-  --PaletteName: Wombat;
-  --PaletteFileName: Wombat;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.090196;
+  --contrast: 0.764926;
+  --paletteName: Wombat;
+  --paletteFileName: Wombat;
+  --isBright: 0;
+  --isDark: 1;
+  --by: djoyner  
 }

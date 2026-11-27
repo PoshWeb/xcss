@@ -20,7 +20,13 @@
   "foreground": "#dedacf",
   "cursorColor": "#bbbbbb",
   "selectionBackground": "#453b39",
-  "FileName": "Wombat",
-  "Luma": 0.090196,
-  "Contrast": 0.764926
+  "fileName": "Wombat",
+  "by": {
+    "username": "djoyner",
+    "link": "https://github.com/djoyner",
+    "name": "David Joyner",
+    "id": "31771"
+  },
+  "luma": 0.090196,
+  "contrast": 0.764926
 }
