@@ -20,10 +20,10 @@
   --foreground: #cccccc;
   --cursorColor: #ffffff;
   --selectionBackground: #3a3d41;
-  --Luma: 0.117647;
-  --Contrast: 0.682353;
-  --PaletteName: Dark+;
-  --PaletteFileName: Dark+;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.117647;
+  --contrast: 0.682353;
+  --paletteName: Dark+;
+  --paletteFileName: Dark+;
+  --isBright: 0;
+  --isDark: 1  
 }
