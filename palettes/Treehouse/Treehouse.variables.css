@@ -20,12 +20,11 @@
   --foreground: #786b53;
   --cursorColor: #fac814;
   --selectionBackground: #786b53;
-  --creditTo: zdj;
-  --creditToLink: https://github.com/zdj;
-  --Luma: 0.098039;
-  --Contrast: 0.325612;
-  --PaletteName: Treehouse;
-  --PaletteFileName: Treehouse;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.098039;
+  --contrast: 0.325612;
+  --paletteName: Treehouse;
+  --paletteFileName: Treehouse;
+  --isBright: 0;
+  --isDark: 1;
+  --by: zdj  
 }

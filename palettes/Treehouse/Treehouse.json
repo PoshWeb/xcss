@@ -20,7 +20,13 @@
   "foreground": "#786b53",
   "cursorColor": "#fac814",
   "selectionBackground": "#786b53",
-  "FileName": "Treehouse",
-  "Luma": 0.098039,
-  "Contrast": 0.325612
+  "fileName": "Treehouse",
+  "by": {
+    "username": "zdj",
+    "link": "https://github.com/zdj",
+    "name": "",
+    "id": "4109933"
+  },
+  "luma": 0.098039,
+  "contrast": 0.325612
 }
