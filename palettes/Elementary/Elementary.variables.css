@@ -20,10 +20,10 @@
   --foreground: #efefef;
   --cursorColor: #bbbbbb;
   --selectionBackground: #b5d5ff;
-  --Luma: 0.094118;
-  --Contrast: 0.843137;
-  --PaletteName: Elementary;
-  --PaletteFileName: Elementary;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.094118;
+  --contrast: 0.843137;
+  --paletteName: Elementary;
+  --paletteFileName: Elementary;
+  --isBright: 0;
+  --isDark: 1  
 }
