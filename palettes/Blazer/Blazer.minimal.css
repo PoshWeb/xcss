@@ -20,12 +20,12 @@
   --foreground: #d9e6f2;
   --cursorColor: #d9e6f2;
   --selectionBackground: #c1ddff;
-  --Luma: 0.091715;
-  --Contrast: 0.802805;
-  --PaletteName: Blazer;
-  --PaletteFileName: Blazer;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.091715;
+  --contrast: 0.802805;
+  --paletteName: Blazer;
+  --paletteFileName: Blazer;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }

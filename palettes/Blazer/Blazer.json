@@ -20,7 +20,7 @@
   "foreground": "#d9e6f2",
   "cursorColor": "#d9e6f2",
   "selectionBackground": "#c1ddff",
-  "FileName": "Blazer",
-  "Luma": 0.091715,
-  "Contrast": 0.802805
+  "fileName": "Blazer",
+  "luma": 0.091715,
+  "contrast": 0.802805
 }
