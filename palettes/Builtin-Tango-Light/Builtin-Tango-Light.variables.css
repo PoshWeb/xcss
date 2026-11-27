@@ -20,10 +20,10 @@
   --foreground: #000000;
   --cursorColor: #000000;
   --selectionBackground: #b5d5ff;
-  --Luma: 1;
-  --Contrast: 1;
-  --PaletteName: Builtin Tango Light;
-  --PaletteFileName: Builtin-Tango-Light;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 1;
+  --contrast: 1;
+  --paletteName: Builtin Tango Light;
+  --paletteFileName: Builtin-Tango-Light;
+  --isBright: 0;
+  --isDark: 1  
 }
