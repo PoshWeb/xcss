@@ -20,7 +20,13 @@
   "foreground": "#f4d2ae",
   "cursorColor": "#d7c483",
   "selectionBackground": "#e4c47a",
-  "FileName": "Tearout",
-  "Luma": 0.215963,
-  "Contrast": 0.62572
+  "fileName": "Tearout",
+  "by": {
+    "username": "leobeosab",
+    "link": "https://github.com/leobeosab",
+    "name": "Ryan Wise",
+    "id": "1686221"
+  },
+  "luma": 0.215963,
+  "contrast": 0.62572
 }

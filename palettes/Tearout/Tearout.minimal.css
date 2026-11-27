@@ -20,14 +20,13 @@
   --foreground: #f4d2ae;
   --cursorColor: #d7c483;
   --selectionBackground: #e4c47a;
-  --creditTo: leobeosab;
-  --creditToLink: https://github.com/leobeosab;
-  --Luma: 0.215963;
-  --Contrast: 0.62572;
-  --PaletteName: Tearout;
-  --PaletteFileName: Tearout;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.215963;
+  --contrast: 0.62572;
+  --paletteName: Tearout;
+  --paletteFileName: Tearout;
+  --isBright: 0;
+  --isDark: 1;
+  --by: leobeosab  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
