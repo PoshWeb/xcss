@@ -20,7 +20,7 @@
   "foreground": "#ffffff",
   "cursorColor": "#e5e5e5",
   "selectionBackground": "#c1deff",
-  "FileName": "iTerm2-Default",
-  "Luma": 0.0,
-  "Contrast": 1.0
+  "fileName": "iTerm2-Default",
+  "luma": 0.0,
+  "contrast": 1.0
 }
