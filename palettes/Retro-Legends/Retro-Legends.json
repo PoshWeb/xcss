@@ -20,7 +20,7 @@
   "foreground": "#45eb45",
   "cursorColor": "#45eb45",
   "selectionBackground": "#336633",
-  "FileName": "Retro-Legends",
-  "Luma": 0.05098,
-  "Contrast": 0.685189
+  "fileName": "Retro-Legends",
+  "luma": 0.05098,
+  "contrast": 0.685189
 }

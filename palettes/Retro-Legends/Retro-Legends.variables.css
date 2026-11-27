@@ -20,10 +20,10 @@
   --foreground: #45eb45;
   --cursorColor: #45eb45;
   --selectionBackground: #336633;
-  --Luma: 0.05098;
-  --Contrast: 0.685189;
-  --PaletteName: Retro Legends;
-  --PaletteFileName: Retro-Legends;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.05098;
+  --contrast: 0.685189;
+  --paletteName: Retro Legends;
+  --paletteFileName: Retro-Legends;
+  --isBright: 0;
+  --isDark: 1  
 }
