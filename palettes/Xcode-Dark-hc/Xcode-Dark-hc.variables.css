@@ -20,10 +20,10 @@
   --foreground: #ffffff;
   --cursorColor: #ffffff;
   --selectionBackground: #43454b;
-  --Luma: 0.122984;
-  --Contrast: 0.877016;
-  --PaletteName: Xcode Dark hc;
-  --PaletteFileName: Xcode-Dark-hc;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.122984;
+  --contrast: 0.877016;
+  --paletteName: Xcode Dark hc;
+  --paletteFileName: Xcode-Dark-hc;
+  --isBright: 0;
+  --isDark: 1  
 }
