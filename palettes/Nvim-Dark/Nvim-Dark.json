@@ -20,7 +20,7 @@
   "foreground": "#e0e2ea",
   "cursorColor": "#9b9ea4",
   "selectionBackground": "#4f5258",
-  "FileName": "Nvim-Dark",
-  "Luma": 0.086023,
-  "Contrast": 0.800849
+  "fileName": "Nvim-Dark",
+  "luma": 0.086023,
+  "contrast": 0.800849
 }

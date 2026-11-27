@@ -20,12 +20,12 @@
   --foreground: #e0e2ea;
   --cursorColor: #9b9ea4;
   --selectionBackground: #4f5258;
-  --Luma: 0.086023;
-  --Contrast: 0.800849;
-  --PaletteName: Nvim Dark;
-  --PaletteFileName: Nvim-Dark;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.086023;
+  --contrast: 0.800849;
+  --paletteName: Nvim Dark;
+  --paletteFileName: Nvim-Dark;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
