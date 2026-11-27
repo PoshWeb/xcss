@@ -20,7 +20,13 @@
   "foreground": "#f2f2f2",
   "cursorColor": "#4d4d4d",
   "selectionBackground": "#414141",
-  "FileName": "Pro",
-  "Luma": 0.0,
-  "Contrast": 0.94902
+  "fileName": "Pro",
+  "by": {
+    "username": "ReagentX",
+    "link": "https://github.com/ReagentX",
+    "name": "Christopher Sardegna",
+    "id": "1920666"
+  },
+  "luma": 0.0,
+  "contrast": 0.94902
 }
