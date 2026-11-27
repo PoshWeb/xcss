@@ -20,14 +20,13 @@
   --foreground: #e0cfc2;
   --cursorColor: #7a1c1c;
   --selectionBackground: #515151;
-  --creditTo: Indyandie;
-  --creditToLink: https://github.com/Indyandie;
-  --Luma: 0.081519;
-  --Contrast: 0.740738;
-  --PaletteName: Kurokula;
-  --PaletteFileName: Kurokula;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.081519;
+  --contrast: 0.740738;
+  --paletteName: Kurokula;
+  --paletteFileName: Kurokula;
+  --isBright: 0;
+  --isDark: 1;
+  --by: Indyandie  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
