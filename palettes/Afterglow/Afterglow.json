@@ -20,7 +20,13 @@
   "foreground": "#d0d0d0",
   "cursorColor": "#d0d0d0",
   "selectionBackground": "#303030",
-  "FileName": "Afterglow",
-  "Luma": 0.129412,
-  "Contrast": 0.686274
+  "fileName": "Afterglow",
+  "by": {
+    "username": "YabataDesign",
+    "link": "https://github.com/YabataDesign",
+    "name": "José María Clemente",
+    "id": "945188"
+  },
+  "luma": 0.129412,
+  "contrast": 0.686274
 }

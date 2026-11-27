@@ -20,14 +20,13 @@
   --foreground: #d0d0d0;
   --cursorColor: #d0d0d0;
   --selectionBackground: #303030;
-  --creditTo: YabataDesign;
-  --creditToLink: https://github.com/YabataDesign;
-  --Luma: 0.129412;
-  --Contrast: 0.686274;
-  --PaletteName: Afterglow;
-  --PaletteFileName: Afterglow;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.129412;
+  --contrast: 0.686274;
+  --paletteName: Afterglow;
+  --paletteFileName: Afterglow;
+  --isBright: 0;
+  --isDark: 1;
+  --by: YabataDesign  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
