@@ -20,14 +20,13 @@
   --foreground: #16161d;
   --cursorColor: #d3a89d;
   --selectionBackground: #f9cec3;
-  --creditTo: apcamargo;
-  --creditToLink: https://github.com/apcamargo;
-  --Luma: 0.951165;
-  --Contrast: 0.862909;
-  --PaletteName: Horizon Bright;
-  --PaletteFileName: Horizon-Bright;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.951165;
+  --contrast: 0.862909;
+  --paletteName: Horizon Bright;
+  --paletteFileName: Horizon-Bright;
+  --isBright: 0;
+  --isDark: 1;
+  --by: apcamargo  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }

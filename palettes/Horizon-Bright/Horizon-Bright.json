@@ -20,7 +20,13 @@
   "foreground": "#16161d",
   "cursorColor": "#d3a89d",
   "selectionBackground": "#f9cec3",
-  "FileName": "Horizon-Bright",
-  "Luma": 0.951165,
-  "Contrast": 0.862909
+  "fileName": "Horizon-Bright",
+  "by": {
+    "username": "apcamargo",
+    "link": "https://github.com/apcamargo",
+    "name": "Antônio Camargo",
+    "id": "22940964"
+  },
+  "luma": 0.951165,
+  "contrast": 0.862909
 }
