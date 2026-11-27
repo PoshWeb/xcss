@@ -20,14 +20,13 @@
   --foreground: #c7c7c7;
   --cursorColor: #c7c7c7;
   --selectionBackground: #c1deff;
-  --creditTo: akx;
-  --creditToLink: https://github.com/akx;
-  --Luma: 0;
-  --Contrast: 0.780392;
-  --PaletteName: Detuned;
-  --PaletteFileName: Detuned;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0;
+  --contrast: 0.780392;
+  --paletteName: Detuned;
+  --paletteFileName: Detuned;
+  --isBright: 0;
+  --isDark: 1;
+  --by: akx  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }

@@ -20,7 +20,13 @@
   "foreground": "#c7c7c7",
   "cursorColor": "#c7c7c7",
   "selectionBackground": "#c1deff",
-  "FileName": "Detuned",
-  "Luma": 0.0,
-  "Contrast": 0.780392
+  "fileName": "Detuned",
+  "by": {
+    "username": "akx",
+    "link": "https://github.com/akx",
+    "name": "Aarni Koskela",
+    "id": "58669"
+  },
+  "luma": 0.0,
+  "contrast": 0.780392
 }
