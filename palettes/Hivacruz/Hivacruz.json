@@ -20,7 +20,13 @@
   "foreground": "#ede4e4",
   "cursorColor": "#979db4",
   "selectionBackground": "#5e6687",
-  "FileName": "Hivacruz",
-  "Luma": 0.138275,
-  "Contrast": 0.763346
+  "fileName": "Hivacruz",
+  "by": {
+    "username": "kinoute",
+    "link": "https://github.com/kinoute",
+    "name": "Yann Defretin",
+    "id": "623763"
+  },
+  "luma": 0.138275,
+  "contrast": 0.763346
 }

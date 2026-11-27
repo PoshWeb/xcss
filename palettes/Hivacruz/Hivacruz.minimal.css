@@ -20,14 +20,13 @@
   --foreground: #ede4e4;
   --cursorColor: #979db4;
   --selectionBackground: #5e6687;
-  --creditTo: kinoute;
-  --creditToLink: https://github.com/kinoute;
-  --Luma: 0.138275;
-  --Contrast: 0.763346;
-  --PaletteName: Hivacruz;
-  --PaletteFileName: Hivacruz;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.138275;
+  --contrast: 0.763346;
+  --paletteName: Hivacruz;
+  --paletteFileName: Hivacruz;
+  --isBright: 0;
+  --isDark: 1;
+  --by: kinoute  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
