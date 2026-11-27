@@ -20,7 +20,13 @@
   "foreground": "#e41951",
   "cursorColor": "#76ff9f",
   "selectionBackground": "#c1deff",
-  "FileName": "Scarlet-Protocol",
-  "Luma": 0.099515,
-  "Contrast": 0.183626
+  "fileName": "Scarlet-Protocol",
+  "by": {
+    "username": "ReagentX",
+    "link": "https://github.com/ReagentX",
+    "name": "Christopher Sardegna",
+    "id": "1920666"
+  },
+  "luma": 0.099515,
+  "contrast": 0.183626
 }
