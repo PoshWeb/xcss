@@ -20,10 +20,10 @@
   --foreground: #adadad;
   --cursorColor: #cdcdcd;
   --selectionBackground: #ea6154;
-  --Luma: 0.109253;
-  --Contrast: 0.569178;
-  --PaletteName: Front End Delight;
-  --PaletteFileName: Front-End-Delight;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.109253;
+  --contrast: 0.569178;
+  --paletteName: Front End Delight;
+  --paletteFileName: Front-End-Delight;
+  --isBright: 0;
+  --isDark: 1  
 }
