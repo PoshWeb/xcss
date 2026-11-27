@@ -20,7 +20,13 @@
   "foreground": "#7869c4",
   "cursorColor": "#7869c4",
   "selectionBackground": "#7869c4",
-  "FileName": "C64",
-  "Luma": 0.230711,
-  "Contrast": 0.219325
+  "fileName": "C64",
+  "by": {
+    "username": "idleberg",
+    "link": "https://github.com/idleberg",
+    "name": "Jan T. Sott",
+    "id": "1504938"
+  },
+  "luma": 0.230711,
+  "contrast": 0.219325
 }

@@ -20,14 +20,13 @@
   --foreground: #7869c4;
   --cursorColor: #7869c4;
   --selectionBackground: #7869c4;
-  --creditTo: idleberg;
-  --creditToLink: https://github.com/idleberg;
-  --Luma: 0.230711;
-  --Contrast: 0.219325;
-  --PaletteName: C64;
-  --PaletteFileName: C64;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.230711;
+  --contrast: 0.219325;
+  --paletteName: C64;
+  --paletteFileName: C64;
+  --isBright: 0;
+  --isDark: 1;
+  --by: idleberg  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
