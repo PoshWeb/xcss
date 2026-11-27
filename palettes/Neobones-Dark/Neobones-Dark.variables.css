@@ -20,10 +20,10 @@
   --foreground: #c6d5cf;
   --cursorColor: #ceddd7;
   --selectionBackground: #3a3e3d;
-  --Luma: 0.091401;
-  --Contrast: 0.729688;
-  --PaletteName: Neobones Dark;
-  --PaletteFileName: Neobones-Dark;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.091401;
+  --contrast: 0.729688;
+  --paletteName: Neobones Dark;
+  --paletteFileName: Neobones-Dark;
+  --isBright: 0;
+  --isDark: 1  
 }

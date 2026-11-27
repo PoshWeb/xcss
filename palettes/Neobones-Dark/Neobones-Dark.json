@@ -20,7 +20,7 @@
   "foreground": "#c6d5cf",
   "cursorColor": "#ceddd7",
   "selectionBackground": "#3a3e3d",
-  "FileName": "Neobones-Dark",
-  "Luma": 0.091401,
-  "Contrast": 0.729688
+  "fileName": "Neobones-Dark",
+  "luma": 0.091401,
+  "contrast": 0.729688
 }
