@@ -20,12 +20,12 @@
   --foreground: #ffffff;
   --cursorColor: #ffffff;
   --selectionBackground: #c1deff;
-  --Luma: 0;
-  --Contrast: 1;
-  --PaletteName: iTerm2 Tango Dark;
-  --PaletteFileName: iTerm2-Tango-Dark;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0;
+  --contrast: 1;
+  --paletteName: iTerm2 Tango Dark;
+  --paletteFileName: iTerm2-Tango-Dark;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
