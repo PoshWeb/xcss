@@ -20,14 +20,13 @@
   --foreground: #ffffff;
   --cursorColor: #98989d;
   --selectionBackground: #3f638b;
-  --creditTo: jeremybahadirli;
-  --creditToLink: https://github.com/jeremybahadirli;
-  --Luma: 0.117647;
-  --Contrast: 0.882353;
-  --PaletteName: Apple System Colors;
-  --PaletteFileName: Apple-System-Colors;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.117647;
+  --contrast: 0.882353;
+  --paletteName: Apple System Colors;
+  --paletteFileName: Apple-System-Colors;
+  --isBright: 0;
+  --isDark: 1;
+  --by: jeremybahadirli  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }

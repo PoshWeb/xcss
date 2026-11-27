@@ -20,7 +20,13 @@
   "foreground": "#ffffff",
   "cursorColor": "#98989d",
   "selectionBackground": "#3f638b",
-  "FileName": "Apple-System-Colors",
-  "Luma": 0.117647,
-  "Contrast": 0.882353
+  "fileName": "Apple-System-Colors",
+  "by": {
+    "username": "jeremybahadirli",
+    "link": "https://github.com/jeremybahadirli",
+    "name": "Jeremy Bahadirli",
+    "id": "6306331"
+  },
+  "luma": 0.117647,
+  "contrast": 0.882353
 }
