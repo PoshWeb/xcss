@@ -1,5 +1,5 @@
 :root {
-  --name: 'Liquid Carbon Transparent';
+  --name: Liquid Carbon Transparent;
   --black: #000000;
   --red: #ff3030;
   --green: #559a70;
@@ -20,12 +20,12 @@
   --foreground: #afc2c2;
   --cursorColor: #ffffff;
   --selectionBackground: #7dbeff;
-  --Luma: 0;
-  --Contrast: 0.744944;
-  --PaletteName: 'Liquid Carbon Transparent';
-  --PaletteFileName: 'Liquid-Carbon-Transparent';
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0;
+  --contrast: 0.744944;
+  --paletteName: Liquid Carbon Transparent;
+  --paletteFileName: Liquid-Carbon-Transparent;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
