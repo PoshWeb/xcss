@@ -20,12 +20,12 @@
   --foreground: #d4be98;
   --cursorColor: #ffffff;
   --selectionBackground: #2b2c3f;
-  --Luma: 0.123272;
-  --Contrast: 0.629409;
-  --PaletteName: Gruvbox Material;
-  --PaletteFileName: Gruvbox-Material;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.123272;
+  --contrast: 0.629409;
+  --paletteName: Gruvbox Material;
+  --paletteFileName: Gruvbox-Material;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
