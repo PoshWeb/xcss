@@ -20,7 +20,13 @@
   "foreground": "#ebdbb2",
   "cursorColor": "#ebdbb2",
   "selectionBackground": "#665c54",
-  "FileName": "Gruvbox-Dark",
-  "Luma": 0.156863,
-  "Contrast": 0.703692
+  "fileName": "Gruvbox-Dark",
+  "by": {
+    "username": "morhetz",
+    "link": "https://github.com/morhetz",
+    "name": "Pavel Pertsev",
+    "id": "554231"
+  },
+  "luma": 0.156863,
+  "contrast": 0.703692
 }
