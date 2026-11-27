@@ -20,7 +20,13 @@
   "foreground": "#00a2ff",
   "cursorColor": "#76ff9f",
   "selectionBackground": "#c1deff",
-  "FileName": "Blue-Matrix",
-  "Luma": 0.067249,
-  "Contrast": 0.459313
+  "fileName": "Blue-Matrix",
+  "by": {
+    "username": "ReagentX",
+    "link": "https://github.com/ReagentX",
+    "name": "Christopher Sardegna",
+    "id": "1920666"
+  },
+  "luma": 0.067249,
+  "contrast": 0.459313
 }

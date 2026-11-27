@@ -20,12 +20,11 @@
   --foreground: #00a2ff;
   --cursorColor: #76ff9f;
   --selectionBackground: #c1deff;
-  --creditTo: ReagentX;
-  --creditToLink: https://github.com/ReagentX;
-  --Luma: 0.067249;
-  --Contrast: 0.459313;
-  --PaletteName: Blue Matrix;
-  --PaletteFileName: Blue-Matrix;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.067249;
+  --contrast: 0.459313;
+  --paletteName: Blue Matrix;
+  --paletteFileName: Blue-Matrix;
+  --isBright: 0;
+  --isDark: 1;
+  --by: ReagentX  
 }
