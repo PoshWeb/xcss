@@ -20,10 +20,10 @@
   --foreground: #ffffff;
   --cursorColor: #fefefe;
   --selectionBackground: #222222;
-  --Luma: 0;
-  --Contrast: 1;
-  --PaletteName: Ultra Dark;
-  --PaletteFileName: Ultra-Dark;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0;
+  --contrast: 1;
+  --paletteName: Ultra Dark;
+  --paletteFileName: Ultra-Dark;
+  --isBright: 0;
+  --isDark: 1  
 }
