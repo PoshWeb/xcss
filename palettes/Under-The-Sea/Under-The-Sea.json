@@ -20,7 +20,13 @@
   "foreground": "#ffffff",
   "cursorColor": "#4afcd6",
   "selectionBackground": "#415555",
-  "FileName": "Under-The-Sea",
-  "Luma": 0.054743,
-  "Contrast": 0.945257
+  "fileName": "Under-The-Sea",
+  "by": {
+    "username": "peterpme",
+    "link": "https://github.com/peterpme",
+    "name": "Peter Piekarczyk",
+    "id": "1211905"
+  },
+  "luma": 0.054743,
+  "contrast": 0.945257
 }
