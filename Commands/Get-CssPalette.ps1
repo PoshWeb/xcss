@@ -225,15 +225,8 @@ function Get-CssPalette
 
     # If provided, will add a --creditTo variable containing the name of the author
     [Parameter(ValueFromPipelineByPropertyName)]
-    [ComponentModel.DefaultBindingProperty("creditTo")]
-    [string]
-    $CreditTo,
-
-    # If provided, will add a --creditToLink containing a link to the author's page or repo.
-    [Parameter(ValueFromPipelineByPropertyName)]
-    [ComponentModel.DefaultBindingProperty("creditToLink")]
-    [string]
-    $CreditToLink,
+    [psobject]
+    $By,
 
     # If set, will not generate css classes for well-known streams
     [Alias('NoStreams','NoStreamColors')]
@@ -371,10 +364,10 @@ function Get-CssPalette
             }
         }
 
-        $jsonObject['Luma'] = $Background | GetLuma
-        $jsonObject['Contrast'] = [Math]::Abs(($foreground | GetLuma) - $jsonObject['Luma'])
-        $jsonObject['PaletteName'] = $Name
-        $jsonObject['PaletteFileName'] = "$($name | ToPaletteFileName)"        
+        $jsonObject['luma'] = $Background | GetLuma
+        $jsonObject['contrast'] = [Math]::Abs(($foreground | GetLuma) - $jsonObject['Luma'])
+        $jsonObject['paletteName'] = $Name
+        $jsonObject['paletteFileName'] = "$($name | ToPaletteFileName)"        
         $jsonObject = [PSCustomObject]$jsonObject
         
         # and determine if it is bright or dark.
@@ -403,19 +396,22 @@ function Get-CssPalette
         $cssContent = @(
 @"
 $selector {
-  $(@(
-    foreach ($prop in $jsonObject.psobject.properties) {        
-        if ($prop.Name -in 'Name', 'CreditTo','CreditToLink','FileName','PaletteName','PaletteFileName') {
+  $(
+@(
+    foreach ($prop in $jsonObject.psobject.properties) {                
+        if ($prop.Name -in 'Name', 'FileName','PaletteName','PaletteFileName') {
             if ($prop.Value -notmatch '^#' -and $prop.Value) {
-                "--$($prop.Name): '$($prop.Value)'"
+                "--$($prop.Name): $($prop.Value)"
             }
             
         } elseif ("$($prop.Value)") {
             "--$($prop.Name): $($prop.Value)"
         }    
-    }) -join (';' + [Environment]::NewLine + '  '));
-  --IsBright: $($IsBright -as [int]);
-  --IsDark: $((-not $IsBright) -as [int]);
+    }
+    "--isBright: $($IsBright -as [int])"
+    "--isDark: $((-not $IsBright) -as [int])"
+    if ($By.UserName) {"--by: $($by.userName)"}
+) -join (';' + [Environment]::NewLine + '  '))  
 }
 "@
 
@@ -672,6 +668,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
