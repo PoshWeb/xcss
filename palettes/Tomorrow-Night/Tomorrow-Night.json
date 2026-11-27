@@ -20,7 +20,13 @@
   "foreground": "#c5c8c6",
   "cursorColor": "#c5c8c6",
   "selectionBackground": "#373b41",
-  "FileName": "Tomorrow-Night",
-  "Luma": 0.120467,
-  "Contrast": 0.660779
+  "fileName": "Tomorrow-Night",
+  "by": {
+    "username": "ashwinv11",
+    "link": "https://github.com/ashwinv11",
+    "name": "Ashwin Vaswani",
+    "id": "5572129"
+  },
+  "luma": 0.120467,
+  "contrast": 0.660779
 }

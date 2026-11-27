@@ -20,14 +20,13 @@
   --foreground: #c5c8c6;
   --cursorColor: #c5c8c6;
   --selectionBackground: #373b41;
-  --creditTo: ashwinv11;
-  --creditToLink: https://github.com/ashwinv11;
-  --Luma: 0.120467;
-  --Contrast: 0.660779;
-  --PaletteName: Tomorrow Night;
-  --PaletteFileName: Tomorrow-Night;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.120467;
+  --contrast: 0.660779;
+  --paletteName: Tomorrow Night;
+  --paletteFileName: Tomorrow-Night;
+  --isBright: 0;
+  --isDark: 1;
+  --by: ashwinv11  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
