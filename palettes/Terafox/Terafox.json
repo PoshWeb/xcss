@@ -20,7 +20,13 @@
   "foreground": "#e6eaea",
   "cursorColor": "#e6eaea",
   "selectionBackground": "#293e40",
-  "FileName": "Terafox",
-  "Luma": 0.132608,
-  "Contrast": 0.781704
+  "fileName": "Terafox",
+  "by": {
+    "username": "EdenEast",
+    "link": "https://github.com/EdenEast",
+    "name": "",
+    "id": "2746374"
+  },
+  "luma": 0.132608,
+  "contrast": 0.781704
 }

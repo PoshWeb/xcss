@@ -20,14 +20,13 @@
   --foreground: #e6eaea;
   --cursorColor: #e6eaea;
   --selectionBackground: #293e40;
-  --creditTo: EdenEast;
-  --creditToLink: https://github.com/EdenEast;
-  --Luma: 0.132608;
-  --Contrast: 0.781704;
-  --PaletteName: Terafox;
-  --PaletteFileName: Terafox;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.132608;
+  --contrast: 0.781704;
+  --paletteName: Terafox;
+  --paletteFileName: Terafox;
+  --isBright: 0;
+  --isDark: 1;
+  --by: EdenEast  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
