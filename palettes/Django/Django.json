@@ -20,7 +20,7 @@
   "foreground": "#f8f8f8",
   "cursorColor": "#336442",
   "selectionBackground": "#245032",
-  "FileName": "Django",
-  "Luma": 0.150053,
-  "Contrast": 0.822496
+  "fileName": "Django",
+  "luma": 0.150053,
+  "contrast": 0.822496
 }
