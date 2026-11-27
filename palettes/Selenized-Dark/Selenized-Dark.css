@@ -20,14 +20,13 @@
   --foreground: #adbcbc;
   --cursorColor: #adbcbc;
   --selectionBackground: #184956;
-  --creditTo: jan-warchol;
-  --creditToLink: https://github.com/jan-warchol;
-  --Luma: 0.202008;
-  --Contrast: 0.522741;
-  --PaletteName: Selenized Dark;
-  --PaletteFileName: Selenized-Dark;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.202008;
+  --contrast: 0.522741;
+  --paletteName: Selenized Dark;
+  --paletteFileName: Selenized-Dark;
+  --isBright: 0;
+  --isDark: 1;
+  --by: jan-warchol  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }

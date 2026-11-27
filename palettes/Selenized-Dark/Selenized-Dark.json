@@ -20,7 +20,13 @@
   "foreground": "#adbcbc",
   "cursorColor": "#adbcbc",
   "selectionBackground": "#184956",
-  "FileName": "Selenized-Dark",
-  "Luma": 0.202008,
-  "Contrast": 0.522741
+  "fileName": "Selenized-Dark",
+  "by": {
+    "username": "jan-warchol",
+    "link": "https://github.com/jan-warchol",
+    "name": "Jan Warchoł",
+    "id": "1368508"
+  },
+  "luma": 0.202008,
+  "contrast": 0.522741
 }

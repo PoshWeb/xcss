@@ -20,12 +20,11 @@
   --foreground: #adbcbc;
   --cursorColor: #adbcbc;
   --selectionBackground: #184956;
-  --creditTo: jan-warchol;
-  --creditToLink: https://github.com/jan-warchol;
-  --Luma: 0.202008;
-  --Contrast: 0.522741;
-  --PaletteName: Selenized Dark;
-  --PaletteFileName: Selenized-Dark;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.202008;
+  --contrast: 0.522741;
+  --paletteName: Selenized Dark;
+  --paletteFileName: Selenized-Dark;
+  --isBright: 0;
+  --isDark: 1;
+  --by: jan-warchol  
 }
