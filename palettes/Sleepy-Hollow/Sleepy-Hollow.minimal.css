@@ -20,12 +20,12 @@
   --foreground: #af9a91;
   --cursorColor: #af9a91;
   --selectionBackground: #575256;
-  --Luma: 0.071155;
-  --Contrast: 0.547727;
-  --PaletteName: Sleepy Hollow;
-  --PaletteFileName: Sleepy-Hollow;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.071155;
+  --contrast: 0.547727;
+  --paletteName: Sleepy Hollow;
+  --paletteFileName: Sleepy-Hollow;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
