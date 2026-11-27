@@ -26,8 +26,10 @@ jobs:
           
           if (-not (Get-Module Turtle -ErrorAction Ignore)) {
               Install-Module Turtle -Scope CurrentUser -Force
-              Import-Module Turtle
+              Import-Module Turtle -Global -PassThru | Out-Host
           }
+          
+          Import-Module ./xcss.psd1 -Global -PassThru | Out-Host
           
           . .\build.ps1
           
