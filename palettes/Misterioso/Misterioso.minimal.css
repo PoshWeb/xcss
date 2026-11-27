@@ -20,14 +20,13 @@
   --foreground: #e1e1e0;
   --cursorColor: #666666;
   --selectionBackground: #2d37ff;
-  --creditTo: flooose;
-  --creditToLink: https://github.com/flooose;
-  --Luma: 0.210747;
-  --Contrast: 0.671323;
-  --PaletteName: Misterioso;
-  --PaletteFileName: Misterioso;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.210747;
+  --contrast: 0.671323;
+  --paletteName: Misterioso;
+  --paletteFileName: Misterioso;
+  --isBright: 0;
+  --isDark: 1;
+  --by: flooose  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }

@@ -20,7 +20,13 @@
   "foreground": "#e1e1e0",
   "cursorColor": "#666666",
   "selectionBackground": "#2d37ff",
-  "FileName": "Misterioso",
-  "Luma": 0.210747,
-  "Contrast": 0.671323
+  "fileName": "Misterioso",
+  "by": {
+    "username": "flooose",
+    "link": "https://github.com/flooose",
+    "name": "christopher floess",
+    "id": "123168"
+  },
+  "luma": 0.210747,
+  "contrast": 0.671323
 }
