@@ -20,10 +20,10 @@
   --foreground: #cbe1e7;
   --cursorColor: #fbfcfc;
   --selectionBackground: #cbe1e7;
-  --Luma: 0.117417;
-  --Contrast: 0.748293;
-  --PaletteName: Challenger Deep;
-  --PaletteFileName: Challenger-Deep;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.117417;
+  --contrast: 0.748293;
+  --paletteName: Challenger Deep;
+  --paletteFileName: Challenger-Deep;
+  --isBright: 0;
+  --isDark: 1  
 }
