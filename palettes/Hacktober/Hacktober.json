@@ -20,7 +20,7 @@
   "foreground": "#c9c9c9",
   "cursorColor": "#c9c9c9",
   "selectionBackground": "#141414",
-  "FileName": "Hacktober",
-  "Luma": 0.078431,
-  "Contrast": 0.709804
+  "fileName": "Hacktober",
+  "luma": 0.078431,
+  "contrast": 0.709804
 }
