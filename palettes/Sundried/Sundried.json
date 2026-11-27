@@ -20,7 +20,13 @@
   "foreground": "#c9c9c9",
   "cursorColor": "#ffffff",
   "selectionBackground": "#302b2a",
-  "FileName": "Sundried",
-  "Luma": 0.095785,
-  "Contrast": 0.69245
+  "fileName": "Sundried",
+  "by": {
+    "username": "zdj",
+    "link": "https://github.com/zdj",
+    "name": "",
+    "id": "4109933"
+  },
+  "luma": 0.095785,
+  "contrast": 0.69245
 }

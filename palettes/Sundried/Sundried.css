@@ -20,14 +20,13 @@
   --foreground: #c9c9c9;
   --cursorColor: #ffffff;
   --selectionBackground: #302b2a;
-  --creditTo: zdj;
-  --creditToLink: https://github.com/zdj;
-  --Luma: 0.095785;
-  --Contrast: 0.69245;
-  --PaletteName: Sundried;
-  --PaletteFileName: Sundried;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.095785;
+  --contrast: 0.69245;
+  --paletteName: Sundried;
+  --paletteFileName: Sundried;
+  --isBright: 0;
+  --isDark: 1;
+  --by: zdj  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
