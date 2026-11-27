@@ -20,7 +20,13 @@
   "foreground": "#b7bcba",
   "cursorColor": "#b7bcba",
   "selectionBackground": "#1e1f22",
-  "FileName": "Hybrid",
-  "Luma": 0.089929,
-  "Contrast": 0.642591
+  "fileName": "Hybrid",
+  "by": {
+    "username": "luan",
+    "link": "https://github.com/luan",
+    "name": "Luan Santos",
+    "id": "223760"
+  },
+  "luma": 0.089929,
+  "contrast": 0.642591
 }
