@@ -20,7 +20,13 @@
   "foreground": "#f8f8f2",
   "cursorColor": "#f8f8f2",
   "selectionBackground": "#44475a",
-  "FileName": "Dracula",
-  "Luma": 0.166436,
-  "Contrast": 0.804414
+  "fileName": "Dracula",
+  "by": {
+    "username": "zenorocha",
+    "link": "https://github.com/zenorocha",
+    "name": "Zeno Rocha",
+    "id": "398893"
+  },
+  "luma": 0.166436,
+  "contrast": 0.804414
 }

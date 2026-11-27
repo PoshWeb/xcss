@@ -20,14 +20,13 @@
   --foreground: #f8f8f2;
   --cursorColor: #f8f8f2;
   --selectionBackground: #44475a;
-  --creditTo: zenorocha;
-  --creditToLink: https://github.com/zenorocha;
-  --Luma: 0.166436;
-  --Contrast: 0.804414;
-  --PaletteName: Dracula;
-  --PaletteFileName: Dracula;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.166436;
+  --contrast: 0.804414;
+  --paletteName: Dracula;
+  --paletteFileName: Dracula;
+  --isBright: 0;
+  --isDark: 1;
+  --by: zenorocha  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
