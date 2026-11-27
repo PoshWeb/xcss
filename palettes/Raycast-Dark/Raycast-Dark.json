@@ -20,7 +20,7 @@
   "foreground": "#ffffff",
   "cursorColor": "#cccccc",
   "selectionBackground": "#333333",
-  "FileName": "Raycast-Dark",
-  "Luma": 0.101961,
-  "Contrast": 0.898039
+  "fileName": "Raycast-Dark",
+  "luma": 0.101961,
+  "contrast": 0.898039
 }

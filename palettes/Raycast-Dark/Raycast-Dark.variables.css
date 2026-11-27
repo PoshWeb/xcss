@@ -20,10 +20,10 @@
   --foreground: #ffffff;
   --cursorColor: #cccccc;
   --selectionBackground: #333333;
-  --Luma: 0.101961;
-  --Contrast: 0.898039;
-  --PaletteName: Raycast Dark;
-  --PaletteFileName: Raycast-Dark;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.101961;
+  --contrast: 0.898039;
+  --paletteName: Raycast Dark;
+  --paletteFileName: Raycast-Dark;
+  --isBright: 0;
+  --isDark: 1  
 }

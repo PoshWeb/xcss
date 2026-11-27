@@ -20,12 +20,12 @@
   --foreground: #ffffff;
   --cursorColor: #cccccc;
   --selectionBackground: #333333;
-  --Luma: 0.101961;
-  --Contrast: 0.898039;
-  --PaletteName: Raycast Dark;
-  --PaletteFileName: Raycast-Dark;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.101961;
+  --contrast: 0.898039;
+  --paletteName: Raycast Dark;
+  --paletteFileName: Raycast-Dark;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -202,6 +202,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
