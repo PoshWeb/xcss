@@ -19,15 +19,14 @@
   --background: #32221a;
   --foreground: #cfc1a9;
   --cursorColor: #cfc1a9;
-  --selectionBackground: #32221a;
-  --creditTo: dkeg;
-  --creditToLink: https://github.com/dkeg;
-  --Luma: 0.144408;
-  --Contrast: 0.617332;
-  --PaletteName: branch;
-  --PaletteFileName: branch;
-  --IsBright: 0;
-  --IsDark: 1;
+  --selectionBackground: #cfc1a9;
+  --luma: 0.144408;
+  --contrast: 0.617332;
+  --paletteName: branch;
+  --paletteFileName: branch;
+  --isBright: 0;
+  --isDark: 1;
+  --by: dkeg  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }

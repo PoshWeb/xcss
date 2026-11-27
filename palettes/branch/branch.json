@@ -19,8 +19,14 @@
   "background": "#32221a",
   "foreground": "#cfc1a9",
   "cursorColor": "#cfc1a9",
-  "selectionBackground": "#32221a",
-  "FileName": "branch",
-  "Luma": 0.144408,
-  "Contrast": 0.617332
+  "selectionBackground": "#cfc1a9",
+  "fileName": "branch",
+  "by": {
+    "username": "dkeg",
+    "link": "https://github.com/dkeg",
+    "name": "",
+    "id": "3622611"
+  },
+  "luma": 0.144408,
+  "contrast": 0.617332
 }
