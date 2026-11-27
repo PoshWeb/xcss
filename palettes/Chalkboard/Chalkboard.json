@@ -20,7 +20,7 @@
   "foreground": "#d9e6f2",
   "cursorColor": "#d9e6f2",
   "selectionBackground": "#073642",
-  "FileName": "Chalkboard",
-  "Luma": 0.154069,
-  "Contrast": 0.740451
+  "fileName": "Chalkboard",
+  "luma": 0.154069,
+  "contrast": 0.740451
 }

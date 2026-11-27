@@ -20,12 +20,12 @@
   --foreground: #d9e6f2;
   --cursorColor: #d9e6f2;
   --selectionBackground: #073642;
-  --Luma: 0.154069;
-  --Contrast: 0.740451;
-  --PaletteName: Chalkboard;
-  --PaletteFileName: Chalkboard;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.154069;
+  --contrast: 0.740451;
+  --paletteName: Chalkboard;
+  --paletteFileName: Chalkboard;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
