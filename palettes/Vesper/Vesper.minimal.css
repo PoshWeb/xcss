@@ -20,14 +20,13 @@
   --foreground: #ffffff;
   --cursorColor: #acb1ab;
   --selectionBackground: #988049;
-  --creditTo: raunofreiberg;
-  --creditToLink: https://github.com/raunofreiberg;
-  --Luma: 0.062745;
-  --Contrast: 0.937255;
-  --PaletteName: Vesper;
-  --PaletteFileName: Vesper;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.062745;
+  --contrast: 0.937255;
+  --paletteName: Vesper;
+  --paletteFileName: Vesper;
+  --isBright: 0;
+  --isDark: 1;
+  --by: raunofreiberg  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }

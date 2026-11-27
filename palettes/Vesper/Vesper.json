@@ -20,7 +20,13 @@
   "foreground": "#ffffff",
   "cursorColor": "#acb1ab",
   "selectionBackground": "#988049",
-  "FileName": "Vesper",
-  "Luma": 0.062745,
-  "Contrast": 0.937255
+  "fileName": "Vesper",
+  "by": {
+    "username": "raunofreiberg",
+    "link": "https://github.com/raunofreiberg",
+    "name": "rauno",
+    "id": "23662329"
+  },
+  "luma": 0.062745,
+  "contrast": 0.937255
 }
