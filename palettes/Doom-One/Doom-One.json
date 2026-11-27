@@ -20,7 +20,13 @@
   "foreground": "#bbc2cf",
   "cursorColor": "#51afef",
   "selectionBackground": "#42444b",
-  "FileName": "Doom-One",
-  "Luma": 0.171479,
-  "Contrast": 0.58715
+  "fileName": "Doom-One",
+  "by": {
+    "username": "hlissner",
+    "link": "https://github.com/hlissner",
+    "name": "Henrik Lissner",
+    "id": "510883"
+  },
+  "luma": 0.171479,
+  "contrast": 0.58715
 }

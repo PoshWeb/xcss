@@ -20,12 +20,11 @@
   --foreground: #bbc2cf;
   --cursorColor: #51afef;
   --selectionBackground: #42444b;
-  --creditTo: hlissner;
-  --creditToLink: https://github.com/hlissner;
-  --Luma: 0.171479;
-  --Contrast: 0.58715;
-  --PaletteName: Doom One;
-  --PaletteFileName: Doom-One;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.171479;
+  --contrast: 0.58715;
+  --paletteName: Doom One;
+  --paletteFileName: Doom-One;
+  --isBright: 0;
+  --isDark: 1;
+  --by: hlissner  
 }
