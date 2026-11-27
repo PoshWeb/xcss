@@ -20,14 +20,13 @@
   --foreground: #e5e5e5;
   --cursorColor: #21f6bc;
   --selectionBackground: #c1deff;
-  --creditTo: Murderlon;
-  --creditToLink: https://github.com/Murderlon;
-  --Luma: 0.184951;
-  --Contrast: 0.713088;
-  --PaletteName: Cyberpunk;
-  --PaletteFileName: Cyberpunk;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.184951;
+  --contrast: 0.713088;
+  --paletteName: Cyberpunk;
+  --paletteFileName: Cyberpunk;
+  --isBright: 0;
+  --isDark: 1;
+  --by: Murderlon  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }

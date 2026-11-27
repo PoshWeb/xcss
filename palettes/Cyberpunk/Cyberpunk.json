@@ -20,7 +20,13 @@
   "foreground": "#e5e5e5",
   "cursorColor": "#21f6bc",
   "selectionBackground": "#c1deff",
-  "FileName": "Cyberpunk",
-  "Luma": 0.184951,
-  "Contrast": 0.713088
+  "fileName": "Cyberpunk",
+  "by": {
+    "username": "Murderlon",
+    "link": "https://github.com/Murderlon",
+    "name": "Merlijn Vos",
+    "id": "9060226"
+  },
+  "luma": 0.184951,
+  "contrast": 0.713088
 }
