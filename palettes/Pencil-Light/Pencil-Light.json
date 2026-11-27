@@ -20,7 +20,13 @@
   "foreground": "#424242",
   "cursorColor": "#20bbfc",
   "selectionBackground": "#b6d6fd",
-  "FileName": "Pencil-Light",
-  "Luma": 0.945098,
-  "Contrast": 0.686274
+  "fileName": "Pencil-Light",
+  "by": {
+    "username": "mattly",
+    "link": "https://github.com/mattly",
+    "name": "Matthew Lyon",
+    "id": "891"
+  },
+  "luma": 0.945098,
+  "contrast": 0.686274
 }

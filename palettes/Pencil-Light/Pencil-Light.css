@@ -20,14 +20,13 @@
   --foreground: #424242;
   --cursorColor: #20bbfc;
   --selectionBackground: #b6d6fd;
-  --creditTo: mattly;
-  --creditToLink: https://github.com/mattly;
-  --Luma: 0.945098;
-  --Contrast: 0.686274;
-  --PaletteName: Pencil Light;
-  --PaletteFileName: Pencil-Light;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.945098;
+  --contrast: 0.686274;
+  --paletteName: Pencil Light;
+  --paletteFileName: Pencil-Light;
+  --isBright: 0;
+  --isDark: 1;
+  --by: mattly  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
