@@ -20,14 +20,13 @@
   --foreground: #262626;
   --cursorColor: #262626;
   --selectionBackground: #b4d8fd;
-  --creditTo: lunacookies;
-  --creditToLink: https://github.com/lunacookies;
-  --Luma: 1;
-  --Contrast: 0.85098;
-  --PaletteName: Xcode Light;
-  --PaletteFileName: Xcode-Light;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 1;
+  --contrast: 0.85098;
+  --paletteName: Xcode Light;
+  --paletteFileName: Xcode-Light;
+  --isBright: 0;
+  --isDark: 1;
+  --by: lunacookies  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }

@@ -20,7 +20,13 @@
   "foreground": "#262626",
   "cursorColor": "#262626",
   "selectionBackground": "#b4d8fd",
-  "FileName": "Xcode-Light",
-  "Luma": 1.0,
-  "Contrast": 0.85098
+  "fileName": "Xcode-Light",
+  "by": {
+    "username": "lunacookies",
+    "link": "https://github.com/lunacookies",
+    "name": "Luna Razzaghipour",
+    "id": "31783266"
+  },
+  "luma": 1.0,
+  "contrast": 0.85098
 }
