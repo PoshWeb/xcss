@@ -20,12 +20,11 @@
   --foreground: #f2f4f8;
   --cursorColor: #ffffff;
   --selectionBackground: #393939;
-  --creditTo: nyoom-engineering;
-  --creditToLink: https://github.com/nyoom-engineering;
-  --Luma: 0.086275;
-  --Contrast: 0.870053;
-  --PaletteName: Oxocarbon;
-  --PaletteFileName: Oxocarbon;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.086275;
+  --contrast: 0.870053;
+  --paletteName: Oxocarbon;
+  --paletteFileName: Oxocarbon;
+  --isBright: 0;
+  --isDark: 1;
+  --by: nyoom-engineering  
 }

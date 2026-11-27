@@ -20,7 +20,13 @@
   "foreground": "#f2f4f8",
   "cursorColor": "#ffffff",
   "selectionBackground": "#393939",
-  "FileName": "Oxocarbon",
-  "Luma": 0.086275,
-  "Contrast": 0.870053
+  "fileName": "Oxocarbon",
+  "by": {
+    "username": "nyoom-engineering",
+    "link": "https://github.com/nyoom-engineering",
+    "name": "Nyoom Engineering",
+    "id": "120229920"
+  },
+  "luma": 0.086275,
+  "contrast": 0.870053
 }
