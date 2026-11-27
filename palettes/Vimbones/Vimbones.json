@@ -20,7 +20,13 @@
   "foreground": "#353535",
   "cursorColor": "#353535",
   "selectionBackground": "#d7d7d7",
-  "FileName": "Vimbones",
-  "Luma": 0.930417,
-  "Contrast": 0.722574
+  "fileName": "Vimbones",
+  "by": {
+    "username": "mcchrish",
+    "link": "https://github.com/mcchrish",
+    "name": "Michael Chris Lopez",
+    "id": "7200153"
+  },
+  "luma": 0.930417,
+  "contrast": 0.722574
 }
