@@ -20,7 +20,7 @@
   "foreground": "#575279",
   "cursorColor": "#575279",
   "selectionBackground": "#d0d8d8",
-  "FileName": "Dawnfox",
-  "Luma": 0.959883,
-  "Contrast": 0.623103
+  "fileName": "Dawnfox",
+  "luma": 0.959883,
+  "contrast": 0.623103
 }
