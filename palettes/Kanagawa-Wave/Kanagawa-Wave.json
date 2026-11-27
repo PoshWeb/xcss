@@ -18,9 +18,15 @@
   "brightWhite": "#dcd7ba",
   "background": "#1f1f28",
   "foreground": "#dcd7ba",
-  "cursorColor": "#c8c093",
-  "selectionBackground": "#2d4f67",
-  "FileName": "Kanagawa-Wave",
-  "Luma": 0.124117,
-  "Contrast": 0.714978
+  "cursorColor": "#dcd7ba",
+  "selectionBackground": "#dcd7ba",
+  "fileName": "Kanagawa-Wave",
+  "by": {
+    "username": "rebelot",
+    "link": "https://github.com/rebelot",
+    "name": "Tommaso Laurenzi",
+    "id": "36300441"
+  },
+  "luma": 0.124117,
+  "contrast": 0.714978
 }
