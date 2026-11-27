@@ -19,13 +19,12 @@
   --background: #241d1a;
   --foreground: #c7b8ac;
   --cursorColor: #c7b8ac;
-  --selectionBackground: #241d1a;
-  --creditTo: dkeg;
-  --creditToLink: https://github.com/dkeg;
-  --Luma: 0.118712;
-  --Contrast: 0.611965;
-  --PaletteName: novmbr;
-  --PaletteFileName: novmbr;
-  --IsBright: 0;
-  --IsDark: 1;
+  --selectionBackground: #c7b8ac;
+  --luma: 0.118712;
+  --contrast: 0.611965;
+  --paletteName: novmbr;
+  --paletteFileName: novmbr;
+  --isBright: 0;
+  --isDark: 1;
+  --by: dkeg  
 }

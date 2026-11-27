@@ -19,8 +19,14 @@
   "background": "#241d1a",
   "foreground": "#c7b8ac",
   "cursorColor": "#c7b8ac",
-  "selectionBackground": "#241d1a",
-  "FileName": "novmbr",
-  "Luma": 0.118712,
-  "Contrast": 0.611965
+  "selectionBackground": "#c7b8ac",
+  "fileName": "novmbr",
+  "by": {
+    "username": "dkeg",
+    "link": "https://github.com/dkeg",
+    "name": "",
+    "id": "3622611"
+  },
+  "luma": 0.118712,
+  "contrast": 0.611965
 }
