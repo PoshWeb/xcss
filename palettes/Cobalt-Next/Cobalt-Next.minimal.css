@@ -20,12 +20,12 @@
   --foreground: #d7deea;
   --cursorColor: #ffc64c;
   --selectionBackground: #4c5b67;
-  --Luma: 0.156755;
-  --Contrast: 0.711395;
-  --PaletteName: Cobalt Next;
-  --PaletteFileName: Cobalt-Next;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.156755;
+  --contrast: 0.711395;
+  --paletteName: Cobalt Next;
+  --paletteFileName: Cobalt-Next;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
