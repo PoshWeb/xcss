@@ -20,7 +20,13 @@
   "foreground": "#e6e8ef",
   "cursorColor": "#f6f7ec",
   "selectionBackground": "#2f363e",
-  "FileName": "Neutron",
-  "Luma": 0.117112,
-  "Contrast": 0.793006
+  "fileName": "Neutron",
+  "by": {
+    "username": "Ch4s3",
+    "link": "https://github.com/Ch4s3",
+    "name": "Chase Gilliam",
+    "id": "1943540"
+  },
+  "luma": 0.117112,
+  "contrast": 0.793006
 }

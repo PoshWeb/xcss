@@ -20,14 +20,13 @@
   --foreground: #e6e8ef;
   --cursorColor: #f6f7ec;
   --selectionBackground: #2f363e;
-  --creditTo: Ch4s3;
-  --creditToLink: https://github.com/Ch4s3;
-  --Luma: 0.117112;
-  --Contrast: 0.793006;
-  --PaletteName: Neutron;
-  --PaletteFileName: Neutron;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.117112;
+  --contrast: 0.793006;
+  --paletteName: Neutron;
+  --paletteFileName: Neutron;
+  --isBright: 0;
+  --isDark: 1;
+  --by: Ch4s3  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
