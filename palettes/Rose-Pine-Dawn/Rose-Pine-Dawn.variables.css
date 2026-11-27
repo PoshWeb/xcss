@@ -20,10 +20,10 @@
   --foreground: #575279;
   --cursorColor: #575279;
   --selectionBackground: #dfdad9;
-  --Luma: 0.959883;
-  --Contrast: 0.623103;
-  --PaletteName: Rose Pine Dawn;
-  --PaletteFileName: Rose-Pine-Dawn;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.959883;
+  --contrast: 0.623103;
+  --paletteName: Rose Pine Dawn;
+  --paletteFileName: Rose-Pine-Dawn;
+  --isBright: 0;
+  --isDark: 1  
 }
