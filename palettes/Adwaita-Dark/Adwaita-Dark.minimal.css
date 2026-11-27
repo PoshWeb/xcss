@@ -16,17 +16,16 @@
   --brightPurple: #c061cb;
   --brightCyan: #4fd2fd;
   --brightWhite: #f6f5f4;
-  --background: #1d1d20;
+  --background: #1c1c1f;
   --foreground: #ffffff;
   --cursorColor: #ffffff;
   --selectionBackground: #ffffff;
-  --creditToLink: https://github.com/;
-  --Luma: 0.114575;
-  --Contrast: 0.885425;
-  --PaletteName: Adwaita Dark;
-  --PaletteFileName: Adwaita-Dark;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.110653;
+  --contrast: 0.889347;
+  --paletteName: Adwaita Dark;
+  --paletteFileName: Adwaita-Dark;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
