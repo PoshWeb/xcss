@@ -20,12 +20,11 @@
   --foreground: #232322;
   --cursorColor: #16afca;
   --selectionBackground: #c2c2c2;
-  --creditTo: sainnhe;
-  --creditToLink: https://github.com/sainnhe;
-  --Luma: 0.917647;
-  --Contrast: 0.780675;
-  --PaletteName: Material;
-  --PaletteFileName: Material;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.917647;
+  --contrast: 0.780675;
+  --paletteName: Material;
+  --paletteFileName: Material;
+  --isBright: 0;
+  --isDark: 1;
+  --by: sainnhe  
 }

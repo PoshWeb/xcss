@@ -20,7 +20,13 @@
   "foreground": "#232322",
   "cursorColor": "#16afca",
   "selectionBackground": "#c2c2c2",
-  "FileName": "Material",
-  "Luma": 0.917647,
-  "Contrast": 0.780675
+  "fileName": "Material",
+  "by": {
+    "username": "sainnhe",
+    "link": "https://github.com/sainnhe",
+    "name": "Sainnhe Park",
+    "id": "37491630"
+  },
+  "luma": 0.917647,
+  "contrast": 0.780675
 }
