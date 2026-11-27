@@ -20,12 +20,12 @@
   --foreground: #e0e1e4;
   --cursorColor: #e0e1e4;
   --selectionBackground: #696d79;
-  --Luma: 0.062745;
-  --Contrast: 0.819624;
-  --PaletteName: No Clown Fiesta;
-  --PaletteFileName: No-Clown-Fiesta;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.062745;
+  --contrast: 0.819624;
+  --paletteName: No Clown Fiesta;
+  --paletteFileName: No-Clown-Fiesta;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
