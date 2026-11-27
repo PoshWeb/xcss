@@ -20,7 +20,13 @@
   "foreground": "#191919",
   "cursorColor": "#4d4d4d",
   "selectionBackground": "#c1ddff",
-  "FileName": "Pro-Light",
-  "Luma": 1.0,
-  "Contrast": 0.901961
+  "fileName": "Pro-Light",
+  "by": {
+    "username": "crowsonkb",
+    "link": "https://github.com/crowsonkb",
+    "name": "Katherine Crowson",
+    "id": "4657022"
+  },
+  "luma": 1.0,
+  "contrast": 0.901961
 }

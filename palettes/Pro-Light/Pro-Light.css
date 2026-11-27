@@ -20,14 +20,13 @@
   --foreground: #191919;
   --cursorColor: #4d4d4d;
   --selectionBackground: #c1ddff;
-  --creditTo: crowsonkb;
-  --creditToLink: https://github.com/crowsonkb;
-  --Luma: 1;
-  --Contrast: 0.901961;
-  --PaletteName: Pro Light;
-  --PaletteFileName: Pro-Light;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 1;
+  --contrast: 0.901961;
+  --paletteName: Pro Light;
+  --paletteFileName: Pro-Light;
+  --isBright: 0;
+  --isDark: 1;
+  --by: crowsonkb  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
