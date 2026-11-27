@@ -20,7 +20,7 @@
   "foreground": "#b7a1ff",
   "cursorColor": "#ff9839",
   "selectionBackground": "#353147",
-  "FileName": "Duotone-Dark",
-  "Luma": 0.118224,
-  "Contrast": 0.558105
+  "fileName": "Duotone-Dark",
+  "luma": 0.118224,
+  "contrast": 0.558105
 }

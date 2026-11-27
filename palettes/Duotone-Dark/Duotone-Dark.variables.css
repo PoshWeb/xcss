@@ -20,10 +20,10 @@
   --foreground: #b7a1ff;
   --cursorColor: #ff9839;
   --selectionBackground: #353147;
-  --Luma: 0.118224;
-  --Contrast: 0.558105;
-  --PaletteName: Duotone Dark;
-  --PaletteFileName: Duotone-Dark;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.118224;
+  --contrast: 0.558105;
+  --paletteName: Duotone Dark;
+  --paletteFileName: Duotone-Dark;
+  --isBright: 0;
+  --isDark: 1  
 }
