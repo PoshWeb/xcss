@@ -20,14 +20,13 @@
   --foreground: #dd7bdc;
   --cursorColor: #ff65fd;
   --selectionBackground: #c05cbf;
-  --creditTo: 0xn0ri;
-  --creditToLink: https://github.com/0xn0ri;
-  --Luma: 0.081793;
-  --Contrast: 0.509729;
-  --PaletteName: Sakura;
-  --PaletteFileName: Sakura;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.081793;
+  --contrast: 0.509729;
+  --paletteName: Sakura;
+  --paletteFileName: Sakura;
+  --isBright: 0;
+  --isDark: 1;
+  --by: 0xn0ri  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }

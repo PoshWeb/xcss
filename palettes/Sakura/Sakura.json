@@ -20,7 +20,13 @@
   "foreground": "#dd7bdc",
   "cursorColor": "#ff65fd",
   "selectionBackground": "#c05cbf",
-  "FileName": "Sakura",
-  "Luma": 0.081793,
-  "Contrast": 0.509729
+  "fileName": "Sakura",
+  "by": {
+    "username": "0xn0ri",
+    "link": "https://github.com/0xn0ri",
+    "name": "",
+    "id": "102350161"
+  },
+  "luma": 0.081793,
+  "contrast": 0.509729
 }
