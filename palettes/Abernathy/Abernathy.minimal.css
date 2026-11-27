@@ -20,12 +20,12 @@
   --foreground: #eeeeec;
   --cursorColor: #bbbbbb;
   --selectionBackground: #eeeeec;
-  --Luma: 0.076496;
-  --Contrast: 0.856271;
-  --PaletteName: Abernathy;
-  --PaletteFileName: Abernathy;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.076496;
+  --contrast: 0.856271;
+  --paletteName: Abernathy;
+  --paletteFileName: Abernathy;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }

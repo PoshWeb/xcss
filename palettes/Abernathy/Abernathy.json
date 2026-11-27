@@ -20,7 +20,7 @@
   "foreground": "#eeeeec",
   "cursorColor": "#bbbbbb",
   "selectionBackground": "#eeeeec",
-  "FileName": "Abernathy",
-  "Luma": 0.076496,
-  "Contrast": 0.856271
+  "fileName": "Abernathy",
+  "luma": 0.076496,
+  "contrast": 0.856271
 }
