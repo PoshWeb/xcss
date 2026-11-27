@@ -20,7 +20,13 @@
   "foreground": "#807a74",
   "cursorColor": "#facb80",
   "selectionBackground": "#413829",
-  "FileName": "Elemental",
-  "Luma": 0.129113,
-  "Contrast": 0.352622
+  "fileName": "Elemental",
+  "by": {
+    "username": "zdj",
+    "link": "https://github.com/zdj",
+    "name": "",
+    "id": "4109933"
+  },
+  "luma": 0.129113,
+  "contrast": 0.352622
 }
