@@ -20,10 +20,10 @@
   --foreground: #99a3a2;
   --cursorColor: #d2e0de;
   --selectionBackground: #7f8786;
-  --Luma: 0.147352;
-  --Contrast: 0.483243;
-  --PaletteName: Soft Server;
-  --PaletteFileName: Soft-Server;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.147352;
+  --contrast: 0.483243;
+  --paletteName: Soft Server;
+  --paletteFileName: Soft-Server;
+  --isBright: 0;
+  --isDark: 1  
 }

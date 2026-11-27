@@ -20,7 +20,7 @@
   "foreground": "#99a3a2",
   "cursorColor": "#d2e0de",
   "selectionBackground": "#7f8786",
-  "FileName": "Soft-Server",
-  "Luma": 0.147352,
-  "Contrast": 0.483243
+  "fileName": "Soft-Server",
+  "luma": 0.147352,
+  "contrast": 0.483243
 }
