@@ -20,14 +20,13 @@
   --foreground: #84c138;
   --cursorColor: #23ff18;
   --selectionBackground: #083905;
-  --creditTo: Unkulunkulu;
-  --creditToLink: https://github.com/Unkulunkulu;
-  --Luma: 0.045607;
-  --Contrast: 0.621609;
-  --PaletteName: Hipster Green;
-  --PaletteFileName: Hipster-Green;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.045607;
+  --contrast: 0.621609;
+  --paletteName: Hipster Green;
+  --paletteFileName: Hipster-Green;
+  --isBright: 0;
+  --isDark: 1;
+  --by: Unkulunkulu  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }

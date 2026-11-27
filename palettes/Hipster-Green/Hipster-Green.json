@@ -20,7 +20,13 @@
   "foreground": "#84c138",
   "cursorColor": "#23ff18",
   "selectionBackground": "#083905",
-  "FileName": "Hipster-Green",
-  "Luma": 0.045607,
-  "Contrast": 0.621609
+  "fileName": "Hipster-Green",
+  "by": {
+    "username": "Unkulunkulu",
+    "link": "https://github.com/Unkulunkulu",
+    "name": "",
+    "id": "69654182"
+  },
+  "luma": 0.045607,
+  "contrast": 0.621609
 }
