@@ -20,10 +20,10 @@
   --foreground: #d8dee9;
   --cursorColor: #eceff4;
   --selectionBackground: #eceff4;
-  --Luma: 0.202317;
-  --Contrast: 0.666383;
-  --PaletteName: Nord;
-  --PaletteFileName: Nord;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.202317;
+  --contrast: 0.666383;
+  --paletteName: Nord;
+  --paletteFileName: Nord;
+  --isBright: 0;
+  --isDark: 1  
 }

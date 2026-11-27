@@ -20,7 +20,7 @@
   "foreground": "#d8dee9",
   "cursorColor": "#eceff4",
   "selectionBackground": "#eceff4",
-  "FileName": "Nord",
-  "Luma": 0.202317,
-  "Contrast": 0.666383
+  "fileName": "Nord",
+  "luma": 0.202317,
+  "contrast": 0.666383
 }
