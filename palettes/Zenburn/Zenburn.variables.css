@@ -20,10 +20,10 @@
   --foreground: #dcdccc;
   --cursorColor: #73635a;
   --selectionBackground: #21322f;
-  --Luma: 0.247059;
-  --Contrast: 0.611156;
-  --PaletteName: Zenburn;
-  --PaletteFileName: Zenburn;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.247059;
+  --contrast: 0.611156;
+  --paletteName: Zenburn;
+  --paletteFileName: Zenburn;
+  --isBright: 0;
+  --isDark: 1  
 }

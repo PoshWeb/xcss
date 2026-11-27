@@ -20,7 +20,7 @@
   "foreground": "#dcdccc",
   "cursorColor": "#73635a",
   "selectionBackground": "#21322f",
-  "FileName": "Zenburn",
-  "Luma": 0.247059,
-  "Contrast": 0.611156
+  "fileName": "Zenburn",
+  "luma": 0.247059,
+  "contrast": 0.611156
 }
