@@ -20,10 +20,10 @@
   --foreground: #e8e4e1;
   --cursorColor: #006efe;
   --selectionBackground: #4d5658;
-  --Luma: 0.124971;
-  --Contrast: 0.771632;
-  --PaletteName: Farmhouse Dark;
-  --PaletteFileName: Farmhouse-Dark;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.124971;
+  --contrast: 0.771632;
+  --paletteName: Farmhouse Dark;
+  --paletteFileName: Farmhouse-Dark;
+  --isBright: 0;
+  --isDark: 1  
 }
