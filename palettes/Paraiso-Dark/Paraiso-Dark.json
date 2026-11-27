@@ -20,7 +20,13 @@
   "foreground": "#a39e9b",
   "cursorColor": "#a39e9b",
   "selectionBackground": "#4f424c",
-  "FileName": "Paraiso-Dark",
-  "Luma": 0.136351,
-  "Contrast": 0.486576
+  "fileName": "Paraiso-Dark",
+  "by": {
+    "username": "idleberg",
+    "link": "https://github.com/idleberg",
+    "name": "Jan T. Sott",
+    "id": "1504938"
+  },
+  "luma": 0.136351,
+  "contrast": 0.486576
 }
