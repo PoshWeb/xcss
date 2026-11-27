@@ -20,13 +20,12 @@
   --foreground: #ffffff;
   --cursorColor: #d6d6d6;
   --selectionBackground: #5b5b5b;
-  --creditToLink: https://github.com/;
-  --Luma: 0.196078;
-  --Contrast: 0.803922;
-  --PaletteName: Espresso;
-  --PaletteFileName: Espresso;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.196078;
+  --contrast: 0.803922;
+  --paletteName: Espresso;
+  --paletteFileName: Espresso;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
