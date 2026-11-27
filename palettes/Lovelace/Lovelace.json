@@ -20,7 +20,13 @@
   "foreground": "#fdfdfd",
   "cursorColor": "#c574dd",
   "selectionBackground": "#c1deff",
-  "FileName": "Lovelace",
-  "Luma": 0.122449,
-  "Contrast": 0.869708
+  "fileName": "Lovelace",
+  "by": {
+    "username": "nalanbar",
+    "link": "https://github.com/nalanbar",
+    "name": "Nabil Alanbar",
+    "id": "213395"
+  },
+  "luma": 0.122449,
+  "contrast": 0.869708
 }

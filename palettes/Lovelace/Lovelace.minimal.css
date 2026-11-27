@@ -20,14 +20,13 @@
   --foreground: #fdfdfd;
   --cursorColor: #c574dd;
   --selectionBackground: #c1deff;
-  --creditTo: nalanbar;
-  --creditToLink: https://github.com/nalanbar;
-  --Luma: 0.122449;
-  --Contrast: 0.869708;
-  --PaletteName: Lovelace;
-  --PaletteFileName: Lovelace;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.122449;
+  --contrast: 0.869708;
+  --paletteName: Lovelace;
+  --paletteFileName: Lovelace;
+  --isBright: 0;
+  --isDark: 1;
+  --by: nalanbar  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
