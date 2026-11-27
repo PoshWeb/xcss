@@ -1,5 +1,5 @@
 :root {
-  --name: 'iTerm2 Light Background';
+  --name: iTerm2 Light Background;
   --black: #000000;
   --red: #c91b00;
   --green: #00c200;
@@ -20,12 +20,12 @@
   --foreground: #000000;
   --cursorColor: #000000;
   --selectionBackground: #c1deff;
-  --Luma: 1;
-  --Contrast: 1;
-  --PaletteName: 'iTerm2 Light Background';
-  --PaletteFileName: 'iTerm2-Light-Background';
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 1;
+  --contrast: 1;
+  --paletteName: iTerm2 Light Background;
+  --paletteFileName: iTerm2-Light-Background;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
