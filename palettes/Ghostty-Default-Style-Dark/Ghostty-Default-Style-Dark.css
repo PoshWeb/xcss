@@ -1,5 +1,5 @@
 :root {
-  --name: 'Ghostty Default Style Dark';
+  --name: Ghostty Default Style Dark;
   --black: #1d1f21;
   --red: #cc6566;
   --green: #b6bd68;
@@ -20,12 +20,12 @@
   --foreground: #ffffff;
   --cursorColor: #ffffff;
   --selectionBackground: #ffffff;
-  --Luma: 0.171479;
-  --Contrast: 0.828521;
-  --PaletteName: 'Ghostty Default Style Dark';
-  --PaletteFileName: 'Ghostty-Default-Style-Dark';
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.171479;
+  --contrast: 0.828521;
+  --paletteName: Ghostty Default Style Dark;
+  --paletteFileName: Ghostty-Default-Style-Dark;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -202,6 +202,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }

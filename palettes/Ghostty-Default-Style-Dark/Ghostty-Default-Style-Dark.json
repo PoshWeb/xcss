@@ -20,7 +20,7 @@
   "foreground": "#ffffff",
   "cursorColor": "#ffffff",
   "selectionBackground": "#ffffff",
-  "FileName": "Ghostty-Default-Style-Dark",
-  "Luma": 0.171479,
-  "Contrast": 0.828521
+  "fileName": "Ghostty-Default-Style-Dark",
+  "luma": 0.171479,
+  "contrast": 0.828521
 }
