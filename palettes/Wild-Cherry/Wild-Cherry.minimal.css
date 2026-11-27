@@ -20,12 +20,12 @@
   --foreground: #dafaff;
   --cursorColor: #dd00ff;
   --selectionBackground: #002831;
-  --Luma: 0.101113;
-  --Contrast: 0.854016;
-  --PaletteName: Wild Cherry;
-  --PaletteFileName: Wild-Cherry;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.101113;
+  --contrast: 0.854016;
+  --paletteName: Wild Cherry;
+  --paletteFileName: Wild-Cherry;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
