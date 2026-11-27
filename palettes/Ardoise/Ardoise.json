@@ -20,7 +20,13 @@
   "foreground": "#eaeaea",
   "cursorColor": "#f7f7f7",
   "selectionBackground": "#46515e",
-  "FileName": "Ardoise",
-  "Luma": 0.117647,
-  "Contrast": 0.8
+  "fileName": "Ardoise",
+  "by": {
+    "username": "JeffreyCA",
+    "link": "https://github.com/JeffreyCA",
+    "name": "",
+    "id": "9157833"
+  },
+  "luma": 0.117647,
+  "contrast": 0.8
 }

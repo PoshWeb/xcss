@@ -20,14 +20,13 @@
   --foreground: #eaeaea;
   --cursorColor: #f7f7f7;
   --selectionBackground: #46515e;
-  --creditTo: JeffreyCA;
-  --creditToLink: https://github.com/JeffreyCA;
-  --Luma: 0.117647;
-  --Contrast: 0.8;
-  --PaletteName: Ardoise;
-  --PaletteFileName: Ardoise;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.117647;
+  --contrast: 0.8;
+  --paletteName: Ardoise;
+  --paletteFileName: Ardoise;
+  --isBright: 0;
+  --isDark: 1;
+  --by: JeffreyCA  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
