@@ -20,12 +20,11 @@
   --foreground: #c0c5ce;
   --cursorColor: #c0c5ce;
   --selectionBackground: #4f5b66;
-  --creditTo: mhartington;
-  --creditToLink: https://github.com/mhartington;
-  --Luma: 0.156755;
-  --Contrast: 0.614174;
-  --PaletteName: Oceanic Next;
-  --PaletteFileName: Oceanic-Next;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.156755;
+  --contrast: 0.614174;
+  --paletteName: Oceanic Next;
+  --paletteFileName: Oceanic-Next;
+  --isBright: 0;
+  --isDark: 1;
+  --by: mhartington  
 }
