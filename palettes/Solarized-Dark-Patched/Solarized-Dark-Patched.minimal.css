@@ -1,5 +1,5 @@
 :root {
-  --name: 'Solarized Dark Patched';
+  --name: Solarized Dark Patched;
   --black: #002831;
   --red: #d11c24;
   --green: #738a05;
@@ -20,12 +20,12 @@
   --foreground: #708284;
   --cursorColor: #708284;
   --selectionBackground: #002831;
-  --Luma: 0.095184;
-  --Contrast: 0.400179;
-  --PaletteName: 'Solarized Dark Patched';
-  --PaletteFileName: 'Solarized-Dark-Patched';
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.095184;
+  --contrast: 0.400179;
+  --paletteName: Solarized Dark Patched;
+  --paletteFileName: Solarized-Dark-Patched;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
