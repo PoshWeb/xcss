@@ -20,12 +20,11 @@
   --foreground: #a1b0b8;
   --cursorColor: #ff443e;
   --selectionBackground: #b0bec5;
-  --creditTo: ashwinv11;
-  --creditToLink: https://github.com/ashwinv11;
-  --Luma: 0.082353;
-  --Contrast: 0.597602;
-  --PaletteName: Tomorrow Night Burns;
-  --PaletteFileName: Tomorrow-Night-Burns;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.082353;
+  --contrast: 0.597602;
+  --paletteName: Tomorrow Night Burns;
+  --paletteFileName: Tomorrow-Night-Burns;
+  --isBright: 0;
+  --isDark: 1;
+  --by: ashwinv11  
 }

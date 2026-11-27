@@ -20,7 +20,13 @@
   "foreground": "#a1b0b8",
   "cursorColor": "#ff443e",
   "selectionBackground": "#b0bec5",
-  "FileName": "Tomorrow-Night-Burns",
-  "Luma": 0.082353,
-  "Contrast": 0.597602
+  "fileName": "Tomorrow-Night-Burns",
+  "by": {
+    "username": "ashwinv11",
+    "link": "https://github.com/ashwinv11",
+    "name": "Ashwin Vaswani",
+    "id": "5572129"
+  },
+  "luma": 0.082353,
+  "contrast": 0.597602
 }
