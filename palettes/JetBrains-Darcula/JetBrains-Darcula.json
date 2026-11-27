@@ -20,7 +20,13 @@
   "foreground": "#adadad",
   "cursorColor": "#ffffff",
   "selectionBackground": "#1a3272",
-  "FileName": "JetBrains-Darcula",
-  "Luma": 0.12549,
-  "Contrast": 0.552941
+  "fileName": "JetBrains-Darcula",
+  "by": {
+    "username": "vitstr",
+    "link": "https://github.com/vitstr",
+    "name": "Vitalii Striliaiev",
+    "id": "5353056"
+  },
+  "luma": 0.12549,
+  "contrast": 0.552941
 }
