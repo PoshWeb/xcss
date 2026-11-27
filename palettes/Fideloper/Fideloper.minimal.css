@@ -20,12 +20,12 @@
   --foreground: #dbdae0;
   --cursorColor: #d4605a;
   --selectionBackground: #efb8ac;
-  --Luma: 0.180444;
-  --Contrast: 0.676991;
-  --PaletteName: Fideloper;
-  --PaletteFileName: Fideloper;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.180444;
+  --contrast: 0.676991;
+  --paletteName: Fideloper;
+  --paletteFileName: Fideloper;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
