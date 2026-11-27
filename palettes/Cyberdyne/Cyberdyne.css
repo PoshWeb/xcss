@@ -20,14 +20,13 @@
   --foreground: #00ff92;
   --cursorColor: #00ff9c;
   --selectionBackground: #454d96;
-  --creditTo: ReagentX;
-  --creditToLink: https://github.com/ReagentX;
-  --Luma: 0.084442;
-  --Contrast: 0.672096;
-  --PaletteName: Cyberdyne;
-  --PaletteFileName: Cyberdyne;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.084442;
+  --contrast: 0.672096;
+  --paletteName: Cyberdyne;
+  --paletteFileName: Cyberdyne;
+  --isBright: 0;
+  --isDark: 1;
+  --by: ReagentX  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
