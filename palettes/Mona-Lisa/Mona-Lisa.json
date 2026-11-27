@@ -20,7 +20,7 @@
   "foreground": "#f7d66a",
   "cursorColor": "#c46c32",
   "selectionBackground": "#f7d66a",
-  "FileName": "Mona-Lisa",
-  "Luma": 0.04954,
-  "Contrast": 0.78661
+  "fileName": "Mona-Lisa",
+  "luma": 0.04954,
+  "contrast": 0.78661
 }

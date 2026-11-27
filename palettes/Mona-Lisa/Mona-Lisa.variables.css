@@ -20,10 +20,10 @@
   --foreground: #f7d66a;
   --cursorColor: #c46c32;
   --selectionBackground: #f7d66a;
-  --Luma: 0.04954;
-  --Contrast: 0.78661;
-  --PaletteName: Mona Lisa;
-  --PaletteFileName: Mona-Lisa;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.04954;
+  --contrast: 0.78661;
+  --paletteName: Mona Lisa;
+  --paletteFileName: Mona-Lisa;
+  --isBright: 0;
+  --isDark: 1  
 }
