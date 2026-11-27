@@ -20,14 +20,13 @@
   --foreground: #f7f7f7;
   --cursorColor: #bbbbbb;
   --selectionBackground: #207483;
-  --creditTo: hukl;
-  --creditToLink: https://github.com/hukl;
-  --Luma: 0.105882;
-  --Contrast: 0.862745;
-  --PaletteName: Smyck;
-  --PaletteFileName: Smyck;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.105882;
+  --contrast: 0.862745;
+  --paletteName: Smyck;
+  --paletteFileName: Smyck;
+  --isBright: 0;
+  --isDark: 1;
+  --by: hukl  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }

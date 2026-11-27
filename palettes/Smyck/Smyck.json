@@ -20,7 +20,13 @@
   "foreground": "#f7f7f7",
   "cursorColor": "#bbbbbb",
   "selectionBackground": "#207483",
-  "FileName": "Smyck",
-  "Luma": 0.105882,
-  "Contrast": 0.862745
+  "fileName": "Smyck",
+  "by": {
+    "username": "hukl",
+    "link": "https://github.com/hukl",
+    "name": "John-Paul Bader",
+    "id": "25157"
+  },
+  "luma": 0.105882,
+  "contrast": 0.862745
 }
