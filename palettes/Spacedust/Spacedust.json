@@ -20,7 +20,13 @@
   "foreground": "#ecf0c1",
   "cursorColor": "#708284",
   "selectionBackground": "#0a385c",
-  "FileName": "Spacedust",
-  "Luma": 0.102671,
-  "Contrast": 0.821863
+  "fileName": "Spacedust",
+  "by": {
+    "username": "mhallendal",
+    "link": "https://github.com/mhallendal",
+    "name": "",
+    "id": "38153802"
+  },
+  "luma": 0.102671,
+  "contrast": 0.821863
 }
