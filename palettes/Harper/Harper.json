@@ -20,7 +20,13 @@
   "foreground": "#a8a49d",
   "cursorColor": "#a8a49d",
   "selectionBackground": "#5a5753",
-  "FileName": "Harper",
-  "Luma": 0.003922,
-  "Contrast": 0.640568
+  "fileName": "Harper",
+  "by": {
+    "username": "idleberg",
+    "link": "https://github.com/idleberg",
+    "name": "Jan T. Sott",
+    "id": "1504938"
+  },
+  "luma": 0.003922,
+  "contrast": 0.640568
 }

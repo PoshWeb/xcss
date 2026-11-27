@@ -20,12 +20,11 @@
   --foreground: #a8a49d;
   --cursorColor: #a8a49d;
   --selectionBackground: #5a5753;
-  --creditTo: idleberg;
-  --creditToLink: https://github.com/idleberg;
-  --Luma: 0.003922;
-  --Contrast: 0.640568;
-  --PaletteName: Harper;
-  --PaletteFileName: Harper;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.003922;
+  --contrast: 0.640568;
+  --paletteName: Harper;
+  --paletteFileName: Harper;
+  --isBright: 0;
+  --isDark: 1;
+  --by: idleberg  
 }
