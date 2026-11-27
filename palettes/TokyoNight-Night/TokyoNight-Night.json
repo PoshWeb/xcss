@@ -20,7 +20,7 @@
   "foreground": "#c0caf5",
   "cursorColor": "#c0caf5",
   "selectionBackground": "#283457",
-  "FileName": "TokyoNight-Night",
-  "Luma": 0.108163,
-  "Contrast": 0.687832
+  "fileName": "TokyoNight-Night",
+  "luma": 0.108163,
+  "contrast": 0.687832
 }
