@@ -20,12 +20,11 @@
   --foreground: #e6e6e6;
   --cursorColor: #e6e6e6;
   --selectionBackground: #393e47;
-  --creditTo: beatreichenbach;
-  --creditToLink: https://github.com/beatreichenbach;
-  --Luma: 0.143462;
-  --Contrast: 0.758499;
-  --PaletteName: One Dark Two;
-  --PaletteFileName: One-Dark-Two;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.143462;
+  --contrast: 0.758499;
+  --paletteName: One Dark Two;
+  --paletteFileName: One-Dark-Two;
+  --isBright: 0;
+  --isDark: 1;
+  --by: beatreichenbach  
 }

@@ -20,7 +20,13 @@
   "foreground": "#e6e6e6",
   "cursorColor": "#e6e6e6",
   "selectionBackground": "#393e47",
-  "FileName": "One-Dark-Two",
-  "Luma": 0.143462,
-  "Contrast": 0.758499
+  "fileName": "One-Dark-Two",
+  "by": {
+    "username": "beatreichenbach",
+    "link": "https://github.com/beatreichenbach",
+    "name": "Beat Reichenbach",
+    "id": "44111292"
+  },
+  "luma": 0.143462,
+  "contrast": 0.758499
 }
