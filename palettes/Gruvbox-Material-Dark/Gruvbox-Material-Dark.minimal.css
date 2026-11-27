@@ -1,5 +1,5 @@
 :root {
-  --name: 'Gruvbox Material Dark';
+  --name: Gruvbox Material Dark;
   --black: #282828;
   --red: #ea6962;
   --green: #a9b665;
@@ -20,12 +20,12 @@
   --foreground: #d4be98;
   --cursorColor: #d4be98;
   --selectionBackground: #d4be98;
-  --Luma: 0.156863;
-  --Contrast: 0.595818;
-  --PaletteName: 'Gruvbox Material Dark';
-  --PaletteFileName: 'Gruvbox-Material-Dark';
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.156863;
+  --contrast: 0.595818;
+  --paletteName: Gruvbox Material Dark;
+  --paletteFileName: Gruvbox-Material-Dark;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
