@@ -20,7 +20,13 @@
   "foreground": "#405555",
   "cursorColor": "#4afcd6",
   "selectionBackground": "#415555",
-  "FileName": "Shaman",
-  "Luma": 0.050821,
-  "Contrast": 0.265004
+  "fileName": "Shaman",
+  "by": {
+    "username": "zdj",
+    "link": "https://github.com/zdj",
+    "name": "",
+    "id": "4109933"
+  },
+  "luma": 0.050821,
+  "contrast": 0.265004
 }

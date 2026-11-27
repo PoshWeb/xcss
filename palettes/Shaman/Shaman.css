@@ -20,14 +20,13 @@
   --foreground: #405555;
   --cursorColor: #4afcd6;
   --selectionBackground: #415555;
-  --creditTo: zdj;
-  --creditToLink: https://github.com/zdj;
-  --Luma: 0.050821;
-  --Contrast: 0.265004;
-  --PaletteName: Shaman;
-  --PaletteFileName: Shaman;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.050821;
+  --contrast: 0.265004;
+  --paletteName: Shaman;
+  --paletteFileName: Shaman;
+  --isBright: 0;
+  --isDark: 1;
+  --by: zdj  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
