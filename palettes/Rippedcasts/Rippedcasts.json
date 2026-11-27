@@ -20,7 +20,13 @@
   "foreground": "#ffffff",
   "cursorColor": "#7f7f7f",
   "selectionBackground": "#5a647e",
-  "FileName": "Rippedcasts",
-  "Luma": 0.168627,
-  "Contrast": 0.831373
+  "fileName": "Rippedcasts",
+  "by": {
+    "username": "mdw123",
+    "link": "https://github.com/mdw123",
+    "name": "Matt Woodward",
+    "id": "107448"
+  },
+  "luma": 0.168627,
+  "contrast": 0.831373
 }

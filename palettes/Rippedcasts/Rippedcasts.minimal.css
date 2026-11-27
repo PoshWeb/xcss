@@ -20,14 +20,13 @@
   --foreground: #ffffff;
   --cursorColor: #7f7f7f;
   --selectionBackground: #5a647e;
-  --creditTo: mdw123;
-  --creditToLink: https://github.com/mdw123;
-  --Luma: 0.168627;
-  --Contrast: 0.831373;
-  --PaletteName: Rippedcasts;
-  --PaletteFileName: Rippedcasts;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.168627;
+  --contrast: 0.831373;
+  --paletteName: Rippedcasts;
+  --paletteFileName: Rippedcasts;
+  --isBright: 0;
+  --isDark: 1;
+  --by: mdw123  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
