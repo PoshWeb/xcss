@@ -20,7 +20,7 @@
   "foreground": "#555555",
   "cursorColor": "#555555",
   "selectionBackground": "#cccccc",
-  "FileName": "Seoulbones-Light",
-  "Luma": 0.886275,
-  "Contrast": 0.552942
+  "fileName": "Seoulbones-Light",
+  "luma": 0.886275,
+  "contrast": 0.552942
 }
