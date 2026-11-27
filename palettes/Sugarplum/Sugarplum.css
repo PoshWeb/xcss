@@ -20,14 +20,13 @@
   --foreground: #db7ddd;
   --cursorColor: #53b397;
   --selectionBackground: #5ca8dc;
-  --creditTo: lemonlime0x3C33;
-  --creditToLink: https://github.com/lemonlime0x3C33;
-  --Luma: 0.081956;
-  --Contrast: 0.513791;
-  --PaletteName: Sugarplum;
-  --PaletteFileName: Sugarplum;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.081956;
+  --contrast: 0.513791;
+  --paletteName: Sugarplum;
+  --paletteFileName: Sugarplum;
+  --isBright: 0;
+  --isDark: 1;
+  --by: lemonlime0x3C33  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }

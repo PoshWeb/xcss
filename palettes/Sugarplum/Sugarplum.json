@@ -20,7 +20,13 @@
   "foreground": "#db7ddd",
   "cursorColor": "#53b397",
   "selectionBackground": "#5ca8dc",
-  "FileName": "Sugarplum",
-  "Luma": 0.081956,
-  "Contrast": 0.513791
+  "fileName": "Sugarplum",
+  "by": {
+    "username": "lemonlime0x3C33",
+    "link": "https://github.com/lemonlime0x3C33",
+    "name": "lemonlime<3",
+    "id": "169304592"
+  },
+  "luma": 0.081956,
+  "contrast": 0.513791
 }
