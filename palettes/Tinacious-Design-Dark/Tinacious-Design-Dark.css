@@ -1,5 +1,5 @@
 :root {
-  --name: 'Tinacious Design Dark';
+  --name: Tinacious Design Dark;
   --black: #1d1d26;
   --red: #ff3399;
   --green: #00d364;
@@ -20,12 +20,12 @@
   --foreground: #cbcbf0;
   --cursorColor: #cbcbf0;
   --selectionBackground: #ff3399;
-  --Luma: 0.116274;
-  --Contrast: 0.690281;
-  --PaletteName: 'Tinacious Design Dark';
-  --PaletteFileName: 'Tinacious-Design-Dark';
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.116274;
+  --contrast: 0.690281;
+  --paletteName: Tinacious Design Dark;
+  --paletteFileName: Tinacious-Design-Dark;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -202,6 +202,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
