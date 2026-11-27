@@ -20,7 +20,13 @@
   "foreground": "#ffffff",
   "cursorColor": "#7f7f7f",
   "selectionBackground": "#cb392e",
-  "FileName": "Lab-Fox",
-  "Luma": 0.180392,
-  "Contrast": 0.819608
+  "fileName": "Lab-Fox",
+  "by": {
+    "username": "theatlasroom",
+    "link": "https://github.com/theatlasroom",
+    "name": "Ezekiel",
+    "id": "1276998"
+  },
+  "luma": 0.180392,
+  "contrast": 0.819608
 }

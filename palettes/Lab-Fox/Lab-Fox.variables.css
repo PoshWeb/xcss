@@ -20,12 +20,11 @@
   --foreground: #ffffff;
   --cursorColor: #7f7f7f;
   --selectionBackground: #cb392e;
-  --creditTo: theatlasroom;
-  --creditToLink: https://github.com/theatlasroom;
-  --Luma: 0.180392;
-  --Contrast: 0.819608;
-  --PaletteName: Lab Fox;
-  --PaletteFileName: Lab-Fox;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.180392;
+  --contrast: 0.819608;
+  --paletteName: Lab Fox;
+  --paletteFileName: Lab-Fox;
+  --isBright: 0;
+  --isDark: 1;
+  --by: theatlasroom  
 }
