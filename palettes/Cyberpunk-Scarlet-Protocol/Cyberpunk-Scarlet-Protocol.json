@@ -20,7 +20,13 @@
   "foreground": "#e41951",
   "cursorColor": "#76ff9f",
   "selectionBackground": "#c1deff",
-  "FileName": "Cyberpunk-Scarlet-Protocol",
-  "Luma": 0.067249,
-  "Contrast": 0.215892
+  "fileName": "Cyberpunk-Scarlet-Protocol",
+  "by": {
+    "username": "garrettmroberts",
+    "link": "https://github.com/garrettmroberts",
+    "name": "Garrett Roberts",
+    "id": "45220795"
+  },
+  "luma": 0.067249,
+  "contrast": 0.215892
 }
