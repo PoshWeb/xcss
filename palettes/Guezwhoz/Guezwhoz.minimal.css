@@ -20,13 +20,12 @@
   --foreground: #d9d9d9;
   --cursorColor: #99d4b1;
   --selectionBackground: #245354;
-  --creditToLink: https://github.com/;
-  --Luma: 0.113725;
-  --Contrast: 0.737255;
-  --PaletteName: Guezwhoz;
-  --PaletteFileName: Guezwhoz;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.113725;
+  --contrast: 0.737255;
+  --paletteName: Guezwhoz;
+  --paletteFileName: Guezwhoz;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }

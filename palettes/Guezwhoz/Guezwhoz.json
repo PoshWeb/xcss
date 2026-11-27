@@ -20,7 +20,13 @@
   "foreground": "#d9d9d9",
   "cursorColor": "#99d4b1",
   "selectionBackground": "#245354",
-  "FileName": "Guezwhoz",
-  "Luma": 0.113725,
-  "Contrast": 0.737255
+  "fileName": "Guezwhoz",
+  "by": {
+    "username": "",
+    "link": "https://github.com/",
+    "name": "",
+    "id": ""
+  },
+  "luma": 0.113725,
+  "contrast": 0.737255
 }
