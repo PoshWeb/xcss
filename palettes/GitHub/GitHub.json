@@ -20,7 +20,13 @@
   "foreground": "#3e3e3e",
   "cursorColor": "#3f3f3f",
   "selectionBackground": "#a9c1e2",
-  "FileName": "GitHub",
-  "Luma": 0.956863,
-  "Contrast": 0.713726
+  "fileName": "GitHub",
+  "by": {
+    "username": "filipjanevski",
+    "link": "https://github.com/filipjanevski",
+    "name": "Filip",
+    "id": "33383452"
+  },
+  "luma": 0.956863,
+  "contrast": 0.713726
 }

@@ -20,12 +20,11 @@
   --foreground: #3e3e3e;
   --cursorColor: #3f3f3f;
   --selectionBackground: #a9c1e2;
-  --creditTo: filipjanevski;
-  --creditToLink: https://github.com/filipjanevski;
-  --Luma: 0.956863;
-  --Contrast: 0.713726;
-  --PaletteName: GitHub;
-  --PaletteFileName: GitHub;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.956863;
+  --contrast: 0.713726;
+  --paletteName: GitHub;
+  --paletteFileName: GitHub;
+  --isBright: 0;
+  --isDark: 1;
+  --by: filipjanevski  
 }
