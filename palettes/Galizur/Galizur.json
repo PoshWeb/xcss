@@ -20,7 +20,13 @@
   "foreground": "#ddeeff",
   "cursorColor": "#ddeeff",
   "selectionBackground": "#071317",
-  "FileName": "Galizur",
-  "Luma": 0.065638,
-  "Contrast": 0.858335
+  "fileName": "Galizur",
+  "by": {
+    "username": "razielanarki",
+    "link": "https://github.com/razielanarki",
+    "name": "Raziel Anarki",
+    "id": "4115323"
+  },
+  "luma": 0.065638,
+  "contrast": 0.858335
 }

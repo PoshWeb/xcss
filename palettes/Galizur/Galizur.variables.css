@@ -20,12 +20,11 @@
   --foreground: #ddeeff;
   --cursorColor: #ddeeff;
   --selectionBackground: #071317;
-  --creditTo: razielanarki;
-  --creditToLink: https://github.com/razielanarki;
-  --Luma: 0.065638;
-  --Contrast: 0.858335;
-  --PaletteName: Galizur;
-  --PaletteFileName: Galizur;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.065638;
+  --contrast: 0.858335;
+  --paletteName: Galizur;
+  --paletteFileName: Galizur;
+  --isBright: 0;
+  --isDark: 1;
+  --by: razielanarki  
 }
