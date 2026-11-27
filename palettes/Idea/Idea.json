@@ -20,7 +20,7 @@
   "foreground": "#adadad",
   "cursorColor": "#bbbbbb",
   "selectionBackground": "#44475a",
-  "FileName": "Idea",
-  "Luma": 0.12549,
-  "Contrast": 0.552941
+  "fileName": "Idea",
+  "luma": 0.12549,
+  "contrast": 0.552941
 }
