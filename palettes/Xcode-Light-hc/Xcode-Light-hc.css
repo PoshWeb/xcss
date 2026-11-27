@@ -20,12 +20,12 @@
   --foreground: #000000;
   --cursorColor: #000000;
   --selectionBackground: #b4d8fd;
-  --Luma: 1;
-  --Contrast: 1;
-  --PaletteName: Xcode Light hc;
-  --PaletteFileName: Xcode-Light-hc;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 1;
+  --contrast: 1;
+  --paletteName: Xcode Light hc;
+  --paletteFileName: Xcode-Light-hc;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -202,6 +202,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
