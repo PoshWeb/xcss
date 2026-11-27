@@ -20,7 +20,13 @@
   "foreground": "#bbbbbb",
   "cursorColor": "#bbbbbb",
   "selectionBackground": "#b5d5ff",
-  "FileName": "Molokai",
-  "Luma": 0.070588,
-  "Contrast": 0.662745
+  "fileName": "Molokai",
+  "by": {
+    "username": "tomasr",
+    "link": "https://github.com/tomasr",
+    "name": "Tomas Restrepo",
+    "id": "16179"
+  },
+  "luma": 0.070588,
+  "contrast": 0.662745
 }

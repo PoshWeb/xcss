@@ -20,14 +20,13 @@
   --foreground: #bbbbbb;
   --cursorColor: #bbbbbb;
   --selectionBackground: #b5d5ff;
-  --creditTo: tomasr;
-  --creditToLink: https://github.com/tomasr;
-  --Luma: 0.070588;
-  --Contrast: 0.662745;
-  --PaletteName: Molokai;
-  --PaletteFileName: Molokai;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.070588;
+  --contrast: 0.662745;
+  --paletteName: Molokai;
+  --paletteFileName: Molokai;
+  --isBright: 0;
+  --isDark: 1;
+  --by: tomasr  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
