@@ -20,14 +20,13 @@
   --foreground: #e5c7a9;
   --cursorColor: #f6f7ec;
   --selectionBackground: #121418;
-  --creditTo: zdj;
-  --creditToLink: https://github.com/zdj;
-  --Luma: 0.147017;
-  --Contrast: 0.649893;
-  --PaletteName: Earthsong;
-  --PaletteFileName: Earthsong;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.147017;
+  --contrast: 0.649893;
+  --paletteName: Earthsong;
+  --paletteFileName: Earthsong;
+  --isBright: 0;
+  --isDark: 1;
+  --by: zdj  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
