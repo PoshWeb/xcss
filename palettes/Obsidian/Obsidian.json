@@ -20,7 +20,13 @@
   "foreground": "#cdcdcd",
   "cursorColor": "#c0cad0",
   "selectionBackground": "#3e4c4f",
-  "FileName": "Obsidian",
-  "Luma": 0.182415,
-  "Contrast": 0.621507
+  "fileName": "Obsidian",
+  "by": {
+    "username": "Indyandie",
+    "link": "https://github.com/Indyandie",
+    "name": "Andy",
+    "id": "1058837"
+  },
+  "luma": 0.182415,
+  "contrast": 0.621507
 }

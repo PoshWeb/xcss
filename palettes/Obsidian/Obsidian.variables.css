@@ -20,12 +20,11 @@
   --foreground: #cdcdcd;
   --cursorColor: #c0cad0;
   --selectionBackground: #3e4c4f;
-  --creditTo: Indyandie;
-  --creditToLink: https://github.com/Indyandie;
-  --Luma: 0.182415;
-  --Contrast: 0.621507;
-  --PaletteName: Obsidian;
-  --PaletteFileName: Obsidian;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.182415;
+  --contrast: 0.621507;
+  --paletteName: Obsidian;
+  --paletteFileName: Obsidian;
+  --isBright: 0;
+  --isDark: 1;
+  --by: Indyandie  
 }
