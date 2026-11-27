@@ -20,7 +20,13 @@
   "foreground": "#b19b89",
   "cursorColor": "#b19b89",
   "selectionBackground": "#5b402e",
-  "FileName": "Squirrelsong-Dark",
-  "Luma": 0.169908,
-  "Contrast": 0.451181
+  "fileName": "Squirrelsong-Dark",
+  "by": {
+    "username": "sapegin",
+    "link": "https://github.com/sapegin",
+    "name": "Artem Sapegin",
+    "id": "70067"
+  },
+  "luma": 0.169908,
+  "contrast": 0.451181
 }

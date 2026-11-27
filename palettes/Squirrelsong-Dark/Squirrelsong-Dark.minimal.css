@@ -20,14 +20,13 @@
   --foreground: #b19b89;
   --cursorColor: #b19b89;
   --selectionBackground: #5b402e;
-  --creditTo: sapegin;
-  --creditToLink: https://github.com/sapegin;
-  --Luma: 0.169908;
-  --Contrast: 0.451181;
-  --PaletteName: Squirrelsong Dark;
-  --PaletteFileName: Squirrelsong-Dark;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.169908;
+  --contrast: 0.451181;
+  --paletteName: Squirrelsong Dark;
+  --paletteFileName: Squirrelsong-Dark;
+  --isBright: 0;
+  --isDark: 1;
+  --by: sapegin  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
