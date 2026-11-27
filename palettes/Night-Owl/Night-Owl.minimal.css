@@ -20,14 +20,13 @@
   --foreground: #d6deeb;
   --cursorColor: #7e57c2;
   --selectionBackground: #5f7e97;
-  --creditTo: praveenpuglia;
-  --creditToLink: https://github.com/praveenpuglia;
-  --Luma: 0.07358;
-  --Contrast: 0.794019;
-  --PaletteName: Night Owl;
-  --PaletteFileName: Night-Owl;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.07358;
+  --contrast: 0.794019;
+  --paletteName: Night Owl;
+  --paletteFileName: Night-Owl;
+  --isBright: 0;
+  --isDark: 1;
+  --by: praveenpuglia  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }

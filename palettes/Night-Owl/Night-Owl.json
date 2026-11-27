@@ -20,7 +20,13 @@
   "foreground": "#d6deeb",
   "cursorColor": "#7e57c2",
   "selectionBackground": "#5f7e97",
-  "FileName": "Night-Owl",
-  "Luma": 0.07358,
-  "Contrast": 0.794019
+  "fileName": "Night-Owl",
+  "by": {
+    "username": "praveenpuglia",
+    "link": "https://github.com/praveenpuglia",
+    "name": "Praveen Puglia",
+    "id": "313363"
+  },
+  "luma": 0.07358,
+  "contrast": 0.794019
 }
