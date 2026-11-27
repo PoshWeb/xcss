@@ -20,7 +20,13 @@
   "foreground": "#c5c8c6",
   "cursorColor": "#d0d0d0",
   "selectionBackground": "#444444",
-  "FileName": "Atom",
-  "Luma": 0.089929,
-  "Contrast": 0.691317
+  "fileName": "Atom",
+  "by": {
+    "username": "bahlo",
+    "link": "https://github.com/bahlo",
+    "name": "Arne Bahlo",
+    "id": "1725839"
+  },
+  "luma": 0.089929,
+  "contrast": 0.691317
 }

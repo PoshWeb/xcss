@@ -20,12 +20,11 @@
   --foreground: #c5c8c6;
   --cursorColor: #d0d0d0;
   --selectionBackground: #444444;
-  --creditTo: bahlo;
-  --creditToLink: https://github.com/bahlo;
-  --Luma: 0.089929;
-  --Contrast: 0.691317;
-  --PaletteName: Atom;
-  --PaletteFileName: Atom;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.089929;
+  --contrast: 0.691317;
+  --paletteName: Atom;
+  --paletteFileName: Atom;
+  --isBright: 0;
+  --isDark: 1;
+  --by: bahlo  
 }
