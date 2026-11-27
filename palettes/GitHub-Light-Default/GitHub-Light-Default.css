@@ -20,14 +20,13 @@
   --foreground: #1f2328;
   --cursorColor: #0969da;
   --selectionBackground: #1f2328;
-  --creditTo: apcamargo;
-  --creditToLink: https://github.com/apcamargo;
-  --Luma: 1;
-  --Contrast: 0.864664;
-  --PaletteName: GitHub Light Default;
-  --PaletteFileName: GitHub-Light-Default;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 1;
+  --contrast: 0.864664;
+  --paletteName: GitHub Light Default;
+  --paletteFileName: GitHub-Light-Default;
+  --isBright: 0;
+  --isDark: 1;
+  --by: apcamargo  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
