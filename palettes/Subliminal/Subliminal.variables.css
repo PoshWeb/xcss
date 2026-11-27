@@ -20,12 +20,11 @@
   --foreground: #d4d4d4;
   --cursorColor: #c7c7c7;
   --selectionBackground: #484e5b;
-  --creditTo: gdsrosa;
-  --creditToLink: https://github.com/gdsrosa;
-  --Luma: 0.171762;
-  --Contrast: 0.659611;
-  --PaletteName: Subliminal;
-  --PaletteFileName: Subliminal;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.171762;
+  --contrast: 0.659611;
+  --paletteName: Subliminal;
+  --paletteFileName: Subliminal;
+  --isBright: 0;
+  --isDark: 1;
+  --by: gdsrosa  
 }
