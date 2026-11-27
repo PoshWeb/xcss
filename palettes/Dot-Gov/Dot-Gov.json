@@ -20,7 +20,7 @@
   "foreground": "#ebebeb",
   "cursorColor": "#d9002f",
   "selectionBackground": "#1a4080",
-  "FileName": "Dot-Gov",
-  "Luma": 0.170095,
-  "Contrast": 0.751474
+  "fileName": "Dot-Gov",
+  "luma": 0.170095,
+  "contrast": 0.751474
 }
