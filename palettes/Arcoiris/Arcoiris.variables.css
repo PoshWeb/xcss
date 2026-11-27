@@ -20,12 +20,11 @@
   --foreground: #eee4d9;
   --cursorColor: #872929;
   --selectionBackground: #25524a;
-  --creditTo: Indyandie;
-  --creditToLink: https://github.com/Indyandie;
-  --Luma: 0.122119;
-  --Contrast: 0.777221;
-  --PaletteName: Arcoiris;
-  --PaletteFileName: Arcoiris;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.122119;
+  --contrast: 0.777221;
+  --paletteName: Arcoiris;
+  --paletteFileName: Arcoiris;
+  --isBright: 0;
+  --isDark: 1;
+  --by: Indyandie  
 }

@@ -20,7 +20,13 @@
   "foreground": "#eee4d9",
   "cursorColor": "#872929",
   "selectionBackground": "#25524a",
-  "FileName": "Arcoiris",
-  "Luma": 0.122119,
-  "Contrast": 0.777221
+  "fileName": "Arcoiris",
+  "by": {
+    "username": "Indyandie",
+    "link": "https://github.com/Indyandie",
+    "name": "Andy",
+    "id": "1058837"
+  },
+  "luma": 0.122119,
+  "contrast": 0.777221
 }
