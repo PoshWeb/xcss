@@ -20,7 +20,13 @@
   "foreground": "#fce8c3",
   "cursorColor": "#fbb829",
   "selectionBackground": "#fce8c3",
-  "FileName": "Srcery",
-  "Luma": 0.10615,
-  "Contrast": 0.809852
+  "fileName": "Srcery",
+  "by": {
+    "username": "srcery-colors",
+    "link": "https://github.com/srcery-colors",
+    "name": "Srcery",
+    "id": "40723682"
+  },
+  "luma": 0.10615,
+  "contrast": 0.809852
 }

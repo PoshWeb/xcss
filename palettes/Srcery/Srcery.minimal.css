@@ -20,14 +20,13 @@
   --foreground: #fce8c3;
   --cursorColor: #fbb829;
   --selectionBackground: #fce8c3;
-  --creditTo: srcery-colors;
-  --creditToLink: https://github.com/srcery-colors;
-  --Luma: 0.10615;
-  --Contrast: 0.809852;
-  --PaletteName: Srcery;
-  --PaletteFileName: Srcery;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.10615;
+  --contrast: 0.809852;
+  --paletteName: Srcery;
+  --paletteFileName: Srcery;
+  --isBright: 0;
+  --isDark: 1;
+  --by: srcery-colors  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
