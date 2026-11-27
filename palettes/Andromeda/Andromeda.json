@@ -20,7 +20,13 @@
   "foreground": "#e5e5e5",
   "cursorColor": "#f8f8f0",
   "selectionBackground": "#5a5c62",
-  "FileName": "Andromeda",
-  "Luma": 0.163919,
-  "Contrast": 0.73412
+  "fileName": "Andromeda",
+  "by": {
+    "username": "memije",
+    "link": "https://github.com/memije",
+    "name": "Daniel Memije",
+    "id": "25142284"
+  },
+  "luma": 0.163919,
+  "contrast": 0.73412
 }

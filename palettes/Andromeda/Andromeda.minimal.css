@@ -20,14 +20,13 @@
   --foreground: #e5e5e5;
   --cursorColor: #f8f8f0;
   --selectionBackground: #5a5c62;
-  --creditTo: memije;
-  --creditToLink: https://github.com/memije;
-  --Luma: 0.163919;
-  --Contrast: 0.73412;
-  --PaletteName: Andromeda;
-  --PaletteFileName: Andromeda;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.163919;
+  --contrast: 0.73412;
+  --paletteName: Andromeda;
+  --paletteFileName: Andromeda;
+  --isBright: 0;
+  --isDark: 1;
+  --by: memije  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
