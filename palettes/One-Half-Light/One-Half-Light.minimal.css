@@ -20,12 +20,13 @@
   --foreground: #383a42;
   --cursorColor: #a5b4e5;
   --selectionBackground: #bfceff;
-  --Luma: 0.980392;
-  --Contrast: 0.752343;
-  --PaletteName: One Half Light;
-  --PaletteFileName: One-Half-Light;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.980392;
+  --contrast: 0.752343;
+  --paletteName: One Half Light;
+  --paletteFileName: One-Half-Light;
+  --isBright: 0;
+  --isDark: 1;
+  --by: mtueih  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }

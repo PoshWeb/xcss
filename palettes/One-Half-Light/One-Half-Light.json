@@ -20,7 +20,13 @@
   "foreground": "#383a42",
   "cursorColor": "#a5b4e5",
   "selectionBackground": "#bfceff",
-  "FileName": "One-Half-Light",
-  "Luma": 0.980392,
-  "Contrast": 0.752343
+  "fileName": "One-Half-Light",
+  "by": {
+    "username": "mtueih",
+    "link": "https://github.com/mtueih",
+    "name": "",
+    "id": "172942507"
+  },
+  "luma": 0.980392,
+  "contrast": 0.752343
 }
