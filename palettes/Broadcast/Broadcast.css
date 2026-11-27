@@ -20,14 +20,13 @@
   --foreground: #e6e1dc;
   --cursorColor: #ffffff;
   --selectionBackground: #5a647e;
-  --creditTo: vinkla;
-  --creditToLink: https://github.com/vinkla;
-  --Luma: 0.168627;
-  --Contrast: 0.716479;
-  --PaletteName: Broadcast;
-  --PaletteFileName: Broadcast;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.168627;
+  --contrast: 0.716479;
+  --paletteName: Broadcast;
+  --paletteFileName: Broadcast;
+  --isBright: 0;
+  --isDark: 1;
+  --by: vinkla  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
