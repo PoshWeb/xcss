@@ -20,7 +20,7 @@
   "foreground": "#babab9",
   "cursorColor": "#fcfad6",
   "selectionBackground": "#606060",
-  "FileName": "Blue-Berry-Pie",
-  "Luma": 0.068326,
-  "Contrast": 0.660803
+  "fileName": "Blue-Berry-Pie",
+  "luma": 0.068326,
+  "contrast": 0.660803
 }

@@ -20,12 +20,12 @@
   --foreground: #babab9;
   --cursorColor: #fcfad6;
   --selectionBackground: #606060;
-  --Luma: 0.068326;
-  --Contrast: 0.660803;
-  --PaletteName: Blue Berry Pie;
-  --PaletteFileName: Blue-Berry-Pie;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.068326;
+  --contrast: 0.660803;
+  --paletteName: Blue Berry Pie;
+  --paletteFileName: Blue-Berry-Pie;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -202,6 +202,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }

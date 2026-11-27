@@ -20,10 +20,10 @@
   --foreground: #babab9;
   --cursorColor: #fcfad6;
   --selectionBackground: #606060;
-  --Luma: 0.068326;
-  --Contrast: 0.660803;
-  --PaletteName: Blue Berry Pie;
-  --PaletteFileName: Blue-Berry-Pie;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.068326;
+  --contrast: 0.660803;
+  --paletteName: Blue Berry Pie;
+  --paletteFileName: Blue-Berry-Pie;
+  --isBright: 0;
+  --isDark: 1  
 }
