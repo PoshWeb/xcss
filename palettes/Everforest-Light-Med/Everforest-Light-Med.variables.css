@@ -20,10 +20,10 @@
   --foreground: #5c6a72;
   --cursorColor: #f57d26;
   --selectionBackground: #eaedc8;
-  --Luma: 0.918391;
-  --Contrast: 0.512112;
-  --PaletteName: Everforest Light Med;
-  --PaletteFileName: Everforest-Light-Med;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.918391;
+  --contrast: 0.512112;
+  --paletteName: Everforest Light Med;
+  --paletteFileName: Everforest-Light-Med;
+  --isBright: 0;
+  --isDark: 1  
 }
