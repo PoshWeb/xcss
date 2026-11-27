@@ -20,10 +20,10 @@
   --foreground: #ece7fa;
   --cursorColor: #c7c7c7;
   --selectionBackground: #8689c2;
-  --Luma: 0.128891;
-  --Contrast: 0.78654;
-  --PaletteName: Purplepeter;
-  --PaletteFileName: Purplepeter;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.128891;
+  --contrast: 0.78654;
+  --paletteName: Purplepeter;
+  --paletteFileName: Purplepeter;
+  --isBright: 0;
+  --isDark: 1  
 }
