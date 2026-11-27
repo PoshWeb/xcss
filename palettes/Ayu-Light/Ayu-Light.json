@@ -20,7 +20,13 @@
   "foreground": "#5c6166",
   "cursorColor": "#ffaa33",
   "selectionBackground": "#035bd6",
-  "FileName": "Ayu-Light",
-  "Luma": 0.97592,
-  "Contrast": 0.598281
+  "fileName": "Ayu-Light",
+  "by": {
+    "username": "alebcay",
+    "link": "https://github.com/alebcay",
+    "name": "Caleb Xu",
+    "id": "3536482"
+  },
+  "luma": 0.97592,
+  "contrast": 0.598281
 }

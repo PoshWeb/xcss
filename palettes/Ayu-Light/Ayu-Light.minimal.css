@@ -20,14 +20,13 @@
   --foreground: #5c6166;
   --cursorColor: #ffaa33;
   --selectionBackground: #035bd6;
-  --creditTo: alebcay;
-  --creditToLink: https://github.com/alebcay;
-  --Luma: 0.97592;
-  --Contrast: 0.598281;
-  --PaletteName: Ayu Light;
-  --PaletteFileName: Ayu-Light;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.97592;
+  --contrast: 0.598281;
+  --paletteName: Ayu Light;
+  --paletteFileName: Ayu-Light;
+  --isBright: 0;
+  --isDark: 1;
+  --by: alebcay  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
