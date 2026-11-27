@@ -20,14 +20,13 @@
   --foreground: #000000;
   --cursorColor: #000000;
   --selectionBackground: #656565;
-  --creditTo: jayanthkoushik;
-  --creditToLink: https://github.com/jayanthkoushik;
-  --Luma: 1;
-  --Contrast: 1;
-  --PaletteName: Primary;
-  --PaletteFileName: Primary;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 1;
+  --contrast: 1;
+  --paletteName: Primary;
+  --paletteFileName: Primary;
+  --isBright: 0;
+  --isDark: 1;
+  --by: jayanthkoushik  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
