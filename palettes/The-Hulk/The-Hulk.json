@@ -20,7 +20,13 @@
   "foreground": "#b5b5b5",
   "cursorColor": "#16b61b",
   "selectionBackground": "#4d504c",
-  "FileName": "The-Hulk",
-  "Luma": 0.112341,
-  "Contrast": 0.597463
+  "fileName": "The-Hulk",
+  "by": {
+    "username": "pyrophos",
+    "link": "https://github.com/pyrophos",
+    "name": "Adam Poncy",
+    "id": "5757307"
+  },
+  "luma": 0.112341,
+  "contrast": 0.597463
 }

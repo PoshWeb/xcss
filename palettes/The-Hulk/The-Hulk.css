@@ -20,14 +20,13 @@
   --foreground: #b5b5b5;
   --cursorColor: #16b61b;
   --selectionBackground: #4d504c;
-  --creditTo: pyrophos;
-  --creditToLink: https://github.com/pyrophos;
-  --Luma: 0.112341;
-  --Contrast: 0.597463;
-  --PaletteName: The Hulk;
-  --PaletteFileName: The-Hulk;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.112341;
+  --contrast: 0.597463;
+  --paletteName: The Hulk;
+  --paletteFileName: The-Hulk;
+  --isBright: 0;
+  --isDark: 1;
+  --by: pyrophos  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
