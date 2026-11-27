@@ -20,12 +20,12 @@
   --foreground: #373a41;
   --cursorColor: #f32759;
   --selectionBackground: #daf0ff;
-  --Luma: 0.976471;
-  --Contrast: 0.749539;
-  --PaletteName: Bluloco Light;
-  --PaletteFileName: Bluloco-Light;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.976471;
+  --contrast: 0.749539;
+  --paletteName: Bluloco Light;
+  --paletteFileName: Bluloco-Light;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -202,6 +202,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }

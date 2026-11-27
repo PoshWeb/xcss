@@ -20,7 +20,7 @@
   "foreground": "#373a41",
   "cursorColor": "#f32759",
   "selectionBackground": "#daf0ff",
-  "FileName": "Bluloco-Light",
-  "Luma": 0.976471,
-  "Contrast": 0.749539
+  "fileName": "Bluloco-Light",
+  "luma": 0.976471,
+  "contrast": 0.749539
 }

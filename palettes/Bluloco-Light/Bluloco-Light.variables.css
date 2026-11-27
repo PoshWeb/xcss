@@ -20,10 +20,10 @@
   --foreground: #373a41;
   --cursorColor: #f32759;
   --selectionBackground: #daf0ff;
-  --Luma: 0.976471;
-  --Contrast: 0.749539;
-  --PaletteName: Bluloco Light;
-  --PaletteFileName: Bluloco-Light;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.976471;
+  --contrast: 0.749539;
+  --paletteName: Bluloco Light;
+  --paletteFileName: Bluloco-Light;
+  --isBright: 0;
+  --isDark: 1  
 }
