@@ -1,5 +1,5 @@
 :root {
-  --name: 'Tomorrow Night Bright';
+  --name: Tomorrow Night Bright;
   --black: #000000;
   --red: #d54e53;
   --green: #b9ca4a;
@@ -20,12 +20,12 @@
   --foreground: #eaeaea;
   --cursorColor: #eaeaea;
   --selectionBackground: #424242;
-  --Luma: 0;
-  --Contrast: 0.917647;
-  --PaletteName: 'Tomorrow Night Bright';
-  --PaletteFileName: 'Tomorrow-Night-Bright';
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0;
+  --contrast: 0.917647;
+  --paletteName: Tomorrow Night Bright;
+  --paletteFileName: Tomorrow-Night-Bright;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
