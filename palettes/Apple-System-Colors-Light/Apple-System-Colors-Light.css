@@ -1,5 +1,5 @@
 :root {
-  --name: 'Apple System Colors Light';
+  --name: Apple System Colors Light;
   --black: #1a1a1a;
   --red: #cc372e;
   --green: #26a439;
@@ -20,14 +20,13 @@
   --foreground: #000000;
   --cursorColor: #98989d;
   --selectionBackground: #abd8ff;
-  --creditTo: 'Aaron-212';
-  --creditToLink: 'https://github.com/Aaron-212';
-  --Luma: 0.999166;
-  --Contrast: 0.999166;
-  --PaletteName: 'Apple System Colors Light';
-  --PaletteFileName: 'Apple-System-Colors-Light';
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.999166;
+  --contrast: 0.999166;
+  --paletteName: Apple System Colors Light;
+  --paletteFileName: Apple-System-Colors-Light;
+  --isBright: 0;
+  --isDark: 1;
+  --by: Aaron-212  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }

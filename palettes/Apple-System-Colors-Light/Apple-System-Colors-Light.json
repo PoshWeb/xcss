@@ -20,7 +20,13 @@
   "foreground": "#000000",
   "cursorColor": "#98989d",
   "selectionBackground": "#abd8ff",
-  "FileName": "Apple-System-Colors-Light",
-  "Luma": 0.999166,
-  "Contrast": 0.999166
+  "fileName": "Apple-System-Colors-Light",
+  "by": {
+    "username": "Aaron-212",
+    "link": "https://github.com/Aaron-212",
+    "name": "Aaron Ruan",
+    "id": "38318044"
+  },
+  "luma": 0.999166,
+  "contrast": 0.999166
 }
