@@ -20,12 +20,12 @@
   --foreground: #29242a;
   --cursorColor: #706b6e;
   --selectionBackground: #bfb9ba;
-  --Luma: 0.961299;
-  --Contrast: 0.814255;
-  --PaletteName: Monokai Pro Light;
-  --PaletteFileName: Monokai-Pro-Light;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.961299;
+  --contrast: 0.814255;
+  --paletteName: Monokai Pro Light;
+  --paletteFileName: Monokai-Pro-Light;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
