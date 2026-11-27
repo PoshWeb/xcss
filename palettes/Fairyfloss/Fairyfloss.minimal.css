@@ -20,14 +20,13 @@
   --foreground: #f8f8f2;
   --cursorColor: #f8f8f0;
   --selectionBackground: #8077a8;
-  --creditTo: rebecabordini;
-  --creditToLink: https://github.com/rebecabordini;
-  --Luma: 0.343758;
-  --Contrast: 0.627092;
-  --PaletteName: Fairyfloss;
-  --PaletteFileName: Fairyfloss;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.343758;
+  --contrast: 0.627092;
+  --paletteName: Fairyfloss;
+  --paletteFileName: Fairyfloss;
+  --isBright: 0;
+  --isDark: 1;
+  --by: rebecabordini  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }

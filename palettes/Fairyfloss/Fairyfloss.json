@@ -20,7 +20,13 @@
   "foreground": "#f8f8f2",
   "cursorColor": "#f8f8f0",
   "selectionBackground": "#8077a8",
-  "FileName": "Fairyfloss",
-  "Luma": 0.343758,
-  "Contrast": 0.627092
+  "fileName": "Fairyfloss",
+  "by": {
+    "username": "rebecabordini",
+    "link": "https://github.com/rebecabordini",
+    "name": "Rebeca Bordini",
+    "id": "7256809"
+  },
+  "luma": 0.343758,
+  "contrast": 0.627092
 }
