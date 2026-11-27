@@ -20,7 +20,13 @@
   "foreground": "#ffffff",
   "cursorColor": "#ffffff",
   "selectionBackground": "#253b76",
-  "FileName": "Neopolitan",
-  "Luma": 0.12654,
-  "Contrast": 0.87346
+  "fileName": "Neopolitan",
+  "by": {
+    "username": "daytonn",
+    "link": "https://github.com/daytonn",
+    "name": "Dayton Nolan",
+    "id": "35955"
+  },
+  "luma": 0.12654,
+  "contrast": 0.87346
 }

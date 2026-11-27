@@ -20,12 +20,11 @@
   --foreground: #ffffff;
   --cursorColor: #ffffff;
   --selectionBackground: #253b76;
-  --creditTo: daytonn;
-  --creditToLink: https://github.com/daytonn;
-  --Luma: 0.12654;
-  --Contrast: 0.87346;
-  --PaletteName: Neopolitan;
-  --PaletteFileName: Neopolitan;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.12654;
+  --contrast: 0.87346;
+  --paletteName: Neopolitan;
+  --paletteFileName: Neopolitan;
+  --isBright: 0;
+  --isDark: 1;
+  --by: daytonn  
 }
