@@ -20,14 +20,13 @@
   --foreground: #f8f8f8;
   --cursorColor: #fc971f;
   --selectionBackground: #4d4d4d;
-  --creditTo: t3chnoboy;
-  --creditToLink: https://github.com/t3chnoboy;
-  --Luma: 0.112341;
-  --Contrast: 0.860208;
-  --PaletteName: Thayer Bright;
-  --PaletteFileName: Thayer-Bright;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.112341;
+  --contrast: 0.860208;
+  --paletteName: Thayer Bright;
+  --paletteFileName: Thayer-Bright;
+  --isBright: 0;
+  --isDark: 1;
+  --by: t3chnoboy  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }

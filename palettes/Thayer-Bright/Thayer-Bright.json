@@ -20,7 +20,13 @@
   "foreground": "#f8f8f8",
   "cursorColor": "#fc971f",
   "selectionBackground": "#4d4d4d",
-  "FileName": "Thayer-Bright",
-  "Luma": 0.112341,
-  "Contrast": 0.860208
+  "fileName": "Thayer-Bright",
+  "by": {
+    "username": "t3chnoboy",
+    "link": "https://github.com/t3chnoboy",
+    "name": "Dmitry Mazuro",
+    "id": "2552790"
+  },
+  "luma": 0.112341,
+  "contrast": 0.860208
 }
