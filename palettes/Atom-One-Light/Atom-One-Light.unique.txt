@@ -4,9 +4,11 @@
 #d2b67c
 #2f5af3
 #950095
+#0184bc
 #bbbbbb
 #a00095
 #ffffff
-#f9f9f9
-#2a2c33
-#ededed
+#fafafa
+#383a42
+#526fff
+#d0dffc
