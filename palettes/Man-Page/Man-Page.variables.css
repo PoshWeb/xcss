@@ -20,10 +20,10 @@
   --foreground: #000000;
   --cursorColor: #7f7f7f;
   --selectionBackground: #a4c9cd;
-  --Luma: 0.940284;
-  --Contrast: 0.940284;
-  --PaletteName: Man Page;
-  --PaletteFileName: Man-Page;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.940284;
+  --contrast: 0.940284;
+  --paletteName: Man Page;
+  --paletteFileName: Man-Page;
+  --isBright: 0;
+  --isDark: 1  
 }

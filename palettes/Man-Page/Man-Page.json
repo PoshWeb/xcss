@@ -20,7 +20,7 @@
   "foreground": "#000000",
   "cursorColor": "#7f7f7f",
   "selectionBackground": "#a4c9cd",
-  "FileName": "Man-Page",
-  "Luma": 0.940284,
-  "Contrast": 0.940284
+  "fileName": "Man-Page",
+  "luma": 0.940284,
+  "contrast": 0.940284
 }
