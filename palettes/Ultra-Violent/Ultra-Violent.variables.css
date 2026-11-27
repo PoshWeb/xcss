@@ -20,10 +20,10 @@
   --foreground: #c1c1c1;
   --cursorColor: #c1c1c1;
   --selectionBackground: #574c49;
-  --Luma: 0.150723;
-  --Contrast: 0.60614;
-  --PaletteName: Ultra Violent;
-  --PaletteFileName: Ultra-Violent;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.150723;
+  --contrast: 0.60614;
+  --paletteName: Ultra Violent;
+  --paletteFileName: Ultra-Violent;
+  --isBright: 0;
+  --isDark: 1  
 }
