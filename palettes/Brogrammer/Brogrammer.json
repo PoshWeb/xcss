@@ -20,7 +20,13 @@
   "foreground": "#d6dbe5",
   "cursorColor": "#b9b9b9",
   "selectionBackground": "#1f1f1f",
-  "FileName": "Brogrammer",
-  "Luma": 0.07451,
-  "Contrast": 0.782976
+  "fileName": "Brogrammer",
+  "by": {
+    "username": "bahlo",
+    "link": "https://github.com/bahlo",
+    "name": "Arne Bahlo",
+    "id": "1725839"
+  },
+  "luma": 0.07451,
+  "contrast": 0.782976
 }
