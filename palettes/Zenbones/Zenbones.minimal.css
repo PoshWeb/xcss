@@ -20,14 +20,13 @@
   --foreground: #2c363c;
   --cursorColor: #2c363c;
   --selectionBackground: #cbd9e3;
-  --creditTo: mcchrish;
-  --creditToLink: https://github.com/mcchrish;
-  --Luma: 0.93163;
-  --Contrast: 0.726504;
-  --PaletteName: Zenbones;
-  --PaletteFileName: Zenbones;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.93163;
+  --contrast: 0.726504;
+  --paletteName: Zenbones;
+  --paletteFileName: Zenbones;
+  --isBright: 0;
+  --isDark: 1;
+  --by: mcchrish  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
