@@ -20,12 +20,11 @@
   --foreground: #0b0b0b;
   --cursorColor: #c7ff98;
   --selectionBackground: #3ea9fe;
-  --creditTo: jakebathman;
-  --creditToLink: https://github.com/jakebathman;
-  --Luma: 0.6667;
-  --Contrast: 0.623563;
-  --PaletteName: Unikitty;
-  --PaletteFileName: Unikitty;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.6667;
+  --contrast: 0.623563;
+  --paletteName: Unikitty;
+  --paletteFileName: Unikitty;
+  --isBright: 0;
+  --isDark: 1;
+  --by: jakebathman  
 }

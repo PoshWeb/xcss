@@ -20,7 +20,13 @@
   "foreground": "#0b0b0b",
   "cursorColor": "#c7ff98",
   "selectionBackground": "#3ea9fe",
-  "FileName": "Unikitty",
-  "Luma": 0.6667,
-  "Contrast": 0.623563
+  "fileName": "Unikitty",
+  "by": {
+    "username": "jakebathman",
+    "link": "https://github.com/jakebathman",
+    "name": "Jake Bathman",
+    "id": "43112"
+  },
+  "luma": 0.6667,
+  "contrast": 0.623563
 }
