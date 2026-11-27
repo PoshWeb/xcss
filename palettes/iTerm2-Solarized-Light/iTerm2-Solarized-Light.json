@@ -20,7 +20,7 @@
   "foreground": "#657b83",
   "cursorColor": "#657b83",
   "selectionBackground": "#eee8d5",
-  "FileName": "iTerm2-Solarized-Light",
-  "Luma": 0.965162,
-  "Contrast": 0.498886
+  "fileName": "iTerm2-Solarized-Light",
+  "luma": 0.965162,
+  "contrast": 0.498886
 }
