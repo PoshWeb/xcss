@@ -20,7 +20,13 @@
   "foreground": "#ffca28",
   "cursorColor": "#ee5d43",
   "selectionBackground": "#292e38",
-  "FileName": "Aurora",
-  "Luma": 0.148784,
-  "Contrast": 0.641692
+  "fileName": "Aurora",
+  "by": {
+    "username": "",
+    "link": "https://github.com/",
+    "name": "",
+    "id": ""
+  },
+  "luma": 0.148784,
+  "contrast": 0.641692
 }
