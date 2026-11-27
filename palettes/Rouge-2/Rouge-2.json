@@ -20,7 +20,13 @@
   "foreground": "#a2a3aa",
   "cursorColor": "#969e92",
   "selectionBackground": "#5d5d6b",
-  "FileName": "Rouge-2",
-  "Luma": 0.098664,
-  "Contrast": 0.5417
+  "fileName": "Rouge-2",
+  "by": {
+    "username": "josefaidt",
+    "link": "https://github.com/josefaidt",
+    "name": "josef",
+    "id": "5033303"
+  },
+  "luma": 0.098664,
+  "contrast": 0.5417
 }

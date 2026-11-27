@@ -20,12 +20,11 @@
   --foreground: #a2a3aa;
   --cursorColor: #969e92;
   --selectionBackground: #5d5d6b;
-  --creditTo: josefaidt;
-  --creditToLink: https://github.com/josefaidt;
-  --Luma: 0.098664;
-  --Contrast: 0.5417;
-  --PaletteName: Rouge 2;
-  --PaletteFileName: Rouge-2;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.098664;
+  --contrast: 0.5417;
+  --paletteName: Rouge 2;
+  --paletteFileName: Rouge-2;
+  --isBright: 0;
+  --isDark: 1;
+  --by: josefaidt  
 }
