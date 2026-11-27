@@ -20,7 +20,13 @@
   "foreground": "#ced2d6",
   "cursorColor": "#ffa7c4",
   "selectionBackground": "#1f2b41",
-  "FileName": "Overnight-Slumber",
-  "Luma": 0.087789,
-  "Contrast": 0.733538
+  "fileName": "Overnight-Slumber",
+  "by": {
+    "username": "cevr",
+    "link": "https://github.com/cevr",
+    "name": "Cristian Velasquez Ramos",
+    "id": "34170625"
+  },
+  "luma": 0.087789,
+  "contrast": 0.733538
 }

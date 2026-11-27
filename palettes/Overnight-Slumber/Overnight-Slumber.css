@@ -20,14 +20,13 @@
   --foreground: #ced2d6;
   --cursorColor: #ffa7c4;
   --selectionBackground: #1f2b41;
-  --creditTo: cevr;
-  --creditToLink: https://github.com/cevr;
-  --Luma: 0.087789;
-  --Contrast: 0.733538;
-  --PaletteName: Overnight Slumber;
-  --PaletteFileName: Overnight-Slumber;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.087789;
+  --contrast: 0.733538;
+  --paletteName: Overnight Slumber;
+  --paletteFileName: Overnight-Slumber;
+  --isBright: 0;
+  --isDark: 1;
+  --by: cevr  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
