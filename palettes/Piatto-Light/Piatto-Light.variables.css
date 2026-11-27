@@ -20,12 +20,11 @@
   --foreground: #414141;
   --cursorColor: #5e77c8;
   --selectionBackground: #706b4e;
-  --creditTo: KOVV;
-  --creditToLink: https://github.com/KOVV;
-  --Luma: 1;
-  --Contrast: 0.745098;
-  --PaletteName: Piatto Light;
-  --PaletteFileName: Piatto-Light;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 1;
+  --contrast: 0.745098;
+  --paletteName: Piatto Light;
+  --paletteFileName: Piatto-Light;
+  --isBright: 0;
+  --isDark: 1;
+  --by: KOVV  
 }

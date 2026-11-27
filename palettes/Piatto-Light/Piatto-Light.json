@@ -20,7 +20,13 @@
   "foreground": "#414141",
   "cursorColor": "#5e77c8",
   "selectionBackground": "#706b4e",
-  "FileName": "Piatto-Light",
-  "Luma": 1.0,
-  "Contrast": 0.745098
+  "fileName": "Piatto-Light",
+  "by": {
+    "username": "KOVV",
+    "link": "https://github.com/KOVV",
+    "name": "",
+    "id": "16628520"
+  },
+  "luma": 1.0,
+  "contrast": 0.745098
 }
