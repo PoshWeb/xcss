@@ -20,14 +20,13 @@
   --foreground: #ffff4e;
   --cursorColor: #ffa560;
   --selectionBackground: #a4a4a4;
-  --creditTo: delip;
-  --creditToLink: https://github.com/delip;
-  --Luma: 0.046435;
-  --Contrast: 0.90345;
-  --PaletteName: Borland;
-  --PaletteFileName: Borland;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.046435;
+  --contrast: 0.90345;
+  --paletteName: Borland;
+  --paletteFileName: Borland;
+  --isBright: 0;
+  --isDark: 1;
+  --by: delip  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }

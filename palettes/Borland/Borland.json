@@ -20,7 +20,13 @@
   "foreground": "#ffff4e",
   "cursorColor": "#ffa560",
   "selectionBackground": "#a4a4a4",
-  "FileName": "Borland",
-  "Luma": 0.046435,
-  "Contrast": 0.90345
+  "fileName": "Borland",
+  "by": {
+    "username": "delip",
+    "link": "https://github.com/delip",
+    "name": "Delip Rao",
+    "id": "347398"
+  },
+  "luma": 0.046435,
+  "contrast": 0.90345
 }
