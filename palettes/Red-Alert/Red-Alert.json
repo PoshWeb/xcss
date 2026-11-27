@@ -20,7 +20,7 @@
   "foreground": "#ffffff",
   "cursorColor": "#ffffff",
   "selectionBackground": "#073642",
-  "FileName": "Red-Alert",
-  "Luma": 0.209259,
-  "Contrast": 0.790741
+  "fileName": "Red-Alert",
+  "luma": 0.209259,
+  "contrast": 0.790741
 }

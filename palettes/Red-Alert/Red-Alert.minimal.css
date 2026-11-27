@@ -20,12 +20,12 @@
   --foreground: #ffffff;
   --cursorColor: #ffffff;
   --selectionBackground: #073642;
-  --Luma: 0.209259;
-  --Contrast: 0.790741;
-  --PaletteName: Red Alert;
-  --PaletteFileName: Red-Alert;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.209259;
+  --contrast: 0.790741;
+  --paletteName: Red Alert;
+  --paletteFileName: Red-Alert;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
