@@ -20,12 +20,11 @@
   --foreground: #c2b790;
   --cursorColor: #c2b790;
   --selectionBackground: #1b324a;
-  --creditTo: ibrokemypie;
-  --creditToLink: https://github.com/ibrokemypie;
-  --Luma: 0.133333;
-  --Contrast: 0.582443;
-  --PaletteName: Red Planet;
-  --PaletteFileName: Red-Planet;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.133333;
+  --contrast: 0.582443;
+  --paletteName: Red Planet;
+  --paletteFileName: Red-Planet;
+  --isBright: 0;
+  --isDark: 1;
+  --by: ibrokemypie  
 }

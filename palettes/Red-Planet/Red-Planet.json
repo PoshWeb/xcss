@@ -20,7 +20,13 @@
   "foreground": "#c2b790",
   "cursorColor": "#c2b790",
   "selectionBackground": "#1b324a",
-  "FileName": "Red-Planet",
-  "Luma": 0.133333,
-  "Contrast": 0.582443
+  "fileName": "Red-Planet",
+  "by": {
+    "username": "ibrokemypie",
+    "link": "https://github.com/ibrokemypie",
+    "name": "Rylee",
+    "id": "7827846"
+  },
+  "luma": 0.133333,
+  "contrast": 0.582443
 }
