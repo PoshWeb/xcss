@@ -20,14 +20,13 @@
   --foreground: #e7e8eb;
   --cursorColor: #e7e8eb;
   --selectionBackground: #494d5c;
-  --creditTo: lunacookies;
-  --creditToLink: https://github.com/lunacookies;
-  --Luma: 0.172879;
-  --Contrast: 0.736941;
-  --PaletteName: Xcode WWDC;
-  --PaletteFileName: Xcode-WWDC;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.172879;
+  --contrast: 0.736941;
+  --paletteName: Xcode WWDC;
+  --paletteFileName: Xcode-WWDC;
+  --isBright: 0;
+  --isDark: 1;
+  --by: lunacookies  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }

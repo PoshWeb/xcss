@@ -20,7 +20,13 @@
   "foreground": "#e7e8eb",
   "cursorColor": "#e7e8eb",
   "selectionBackground": "#494d5c",
-  "FileName": "Xcode-WWDC",
-  "Luma": 0.172879,
-  "Contrast": 0.736941
+  "fileName": "Xcode-WWDC",
+  "by": {
+    "username": "lunacookies",
+    "link": "https://github.com/lunacookies",
+    "name": "Luna Razzaghipour",
+    "id": "31783266"
+  },
+  "luma": 0.172879,
+  "contrast": 0.736941
 }
