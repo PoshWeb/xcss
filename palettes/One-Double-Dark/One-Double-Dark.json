@@ -20,7 +20,13 @@
   "foreground": "#dbdfe5",
   "cursorColor": "#f5e0dc",
   "selectionBackground": "#585b70",
-  "FileName": "One-Double-Dark",
-  "Luma": 0.171479,
-  "Contrast": 0.701395
+  "fileName": "One-Double-Dark",
+  "by": {
+    "username": "pamburus",
+    "link": "https://github.com/pamburus",
+    "name": "Pavel Ivanov",
+    "id": "12778560"
+  },
+  "luma": 0.171479,
+  "contrast": 0.701395
 }

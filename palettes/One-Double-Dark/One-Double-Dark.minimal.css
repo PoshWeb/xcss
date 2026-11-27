@@ -20,14 +20,13 @@
   --foreground: #dbdfe5;
   --cursorColor: #f5e0dc;
   --selectionBackground: #585b70;
-  --creditTo: pamburus;
-  --creditToLink: https://github.com/pamburus;
-  --Luma: 0.171479;
-  --Contrast: 0.701395;
-  --PaletteName: One Double Dark;
-  --PaletteFileName: One-Double-Dark;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.171479;
+  --contrast: 0.701395;
+  --paletteName: One Double Dark;
+  --paletteFileName: One-Double-Dark;
+  --isBright: 0;
+  --isDark: 1;
+  --by: pamburus  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
