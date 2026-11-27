@@ -20,7 +20,13 @@
   "foreground": "#9ba2b2",
   "cursorColor": "#f6f7ec",
   "selectionBackground": "#2f363e",
-  "FileName": "Firewatch",
-  "Luma": 0.125805,
-  "Contrast": 0.508183
+  "fileName": "Firewatch",
+  "by": {
+    "username": "SebastianSzturo",
+    "link": "https://github.com/SebastianSzturo",
+    "name": "Sebastian Szturo",
+    "id": "2699745"
+  },
+  "luma": 0.125805,
+  "contrast": 0.508183
 }

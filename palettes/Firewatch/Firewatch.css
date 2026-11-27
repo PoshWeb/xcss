@@ -20,14 +20,13 @@
   --foreground: #9ba2b2;
   --cursorColor: #f6f7ec;
   --selectionBackground: #2f363e;
-  --creditTo: SebastianSzturo;
-  --creditToLink: https://github.com/SebastianSzturo;
-  --Luma: 0.125805;
-  --Contrast: 0.508183;
-  --PaletteName: Firewatch;
-  --PaletteFileName: Firewatch;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.125805;
+  --contrast: 0.508183;
+  --paletteName: Firewatch;
+  --paletteFileName: Firewatch;
+  --isBright: 0;
+  --isDark: 1;
+  --by: SebastianSzturo  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
