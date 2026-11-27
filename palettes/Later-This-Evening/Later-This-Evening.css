@@ -20,14 +20,13 @@
   --foreground: #959595;
   --cursorColor: #4f4f4f;
   --selectionBackground: #424242;
-  --creditTo: vilhalmer;
-  --creditToLink: https://github.com/vilhalmer;
-  --Luma: 0.133333;
-  --Contrast: 0.450981;
-  --PaletteName: Later This Evening;
-  --PaletteFileName: Later-This-Evening;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.133333;
+  --contrast: 0.450981;
+  --paletteName: Later This Evening;
+  --paletteFileName: Later-This-Evening;
+  --isBright: 0;
+  --isDark: 1;
+  --by: vilhalmer  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }

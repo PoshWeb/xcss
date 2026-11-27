@@ -20,7 +20,13 @@
   "foreground": "#959595",
   "cursorColor": "#4f4f4f",
   "selectionBackground": "#424242",
-  "FileName": "Later-This-Evening",
-  "Luma": 0.133333,
-  "Contrast": 0.450981
+  "fileName": "Later-This-Evening",
+  "by": {
+    "username": "vilhalmer",
+    "link": "https://github.com/vilhalmer",
+    "name": "Bill Doyle",
+    "id": "201439"
+  },
+  "luma": 0.133333,
+  "contrast": 0.450981
 }
