@@ -20,14 +20,13 @@
   --foreground: #ebece6;
   --cursorColor: #e4e4e4;
   --selectionBackground: #81aec6;
-  --creditTo: liby;
-  --creditToLink: https://github.com/liby;
-  --Luma: 0.123566;
-  --Contrast: 0.799392;
-  --PaletteName: Snazzy;
-  --PaletteFileName: Snazzy;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.123566;
+  --contrast: 0.799392;
+  --paletteName: Snazzy;
+  --paletteFileName: Snazzy;
+  --isBright: 0;
+  --isDark: 1;
+  --by: liby  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }

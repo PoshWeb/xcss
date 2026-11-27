@@ -20,7 +20,13 @@
   "foreground": "#ebece6",
   "cursorColor": "#e4e4e4",
   "selectionBackground": "#81aec6",
-  "FileName": "Snazzy",
-  "Luma": 0.123566,
-  "Contrast": 0.799392
+  "fileName": "Snazzy",
+  "by": {
+    "username": "liby",
+    "link": "https://github.com/liby",
+    "name": "Bryan Lee",
+    "id": "38807139"
+  },
+  "luma": 0.123566,
+  "contrast": 0.799392
 }
