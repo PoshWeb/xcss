@@ -20,7 +20,13 @@
   "foreground": "#9f9fa1",
   "cursorColor": "#a288f7",
   "selectionBackground": "#493d70",
-  "FileName": "Grape",
-  "Luma": 0.08518,
-  "Contrast": 0.538916
+  "fileName": "Grape",
+  "by": {
+    "username": "zdj",
+    "link": "https://github.com/zdj",
+    "name": "",
+    "id": "4109933"
+  },
+  "luma": 0.08518,
+  "contrast": 0.538916
 }

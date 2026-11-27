@@ -20,14 +20,13 @@
   --foreground: #9f9fa1;
   --cursorColor: #a288f7;
   --selectionBackground: #493d70;
-  --creditTo: zdj;
-  --creditToLink: https://github.com/zdj;
-  --Luma: 0.08518;
-  --Contrast: 0.538916;
-  --PaletteName: Grape;
-  --PaletteFileName: Grape;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.08518;
+  --contrast: 0.538916;
+  --paletteName: Grape;
+  --paletteFileName: Grape;
+  --isBright: 0;
+  --isDark: 1;
+  --by: zdj  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
