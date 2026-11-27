@@ -20,7 +20,13 @@
   "foreground": "#bababa",
   "cursorColor": "#bbbbbb",
   "selectionBackground": "#303333",
-  "FileName": "Darkside",
-  "Luma": 0.136704,
-  "Contrast": 0.592708
+  "fileName": "Darkside",
+  "by": {
+    "username": "bahlo",
+    "link": "https://github.com/bahlo",
+    "name": "Arne Bahlo",
+    "id": "1725839"
+  },
+  "luma": 0.136704,
+  "contrast": 0.592708
 }

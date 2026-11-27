@@ -20,12 +20,11 @@
   --foreground: #bababa;
   --cursorColor: #bbbbbb;
   --selectionBackground: #303333;
-  --creditTo: bahlo;
-  --creditToLink: https://github.com/bahlo;
-  --Luma: 0.136704;
-  --Contrast: 0.592708;
-  --PaletteName: Darkside;
-  --PaletteFileName: Darkside;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.136704;
+  --contrast: 0.592708;
+  --paletteName: Darkside;
+  --paletteFileName: Darkside;
+  --isBright: 0;
+  --isDark: 1;
+  --by: bahlo  
 }
