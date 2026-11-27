@@ -20,7 +20,13 @@
   "foreground": "#aaaaaa",
   "cursorColor": "#b8b8b8",
   "selectionBackground": "#c1deff",
-  "FileName": "CGA",
-  "Luma": 0.0,
-  "Contrast": 0.666667
+  "fileName": "CGA",
+  "by": {
+    "username": "jdhmtl",
+    "link": "https://github.com/jdhmtl",
+    "name": "John Hodges",
+    "id": "3738327"
+  },
+  "luma": 0.0,
+  "contrast": 0.666667
 }

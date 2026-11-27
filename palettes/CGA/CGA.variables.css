@@ -20,12 +20,11 @@
   --foreground: #aaaaaa;
   --cursorColor: #b8b8b8;
   --selectionBackground: #c1deff;
-  --creditTo: jdhmtl;
-  --creditToLink: https://github.com/jdhmtl;
-  --Luma: 0;
-  --Contrast: 0.666667;
-  --PaletteName: CGA;
-  --PaletteFileName: CGA;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0;
+  --contrast: 0.666667;
+  --paletteName: CGA;
+  --paletteFileName: CGA;
+  --isBright: 0;
+  --isDark: 1;
+  --by: jdhmtl  
 }
