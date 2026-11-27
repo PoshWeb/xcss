@@ -20,10 +20,10 @@
   --foreground: #b10e0e;
   --cursorColor: #b00d0d;
   --selectionBackground: #ebc1ff;
-  --Luma: 0.029767;
-  --Contrast: 0.161032;
-  --PaletteName: HaX0R R3D;
-  --PaletteFileName: HaX0R-R3D;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.029767;
+  --contrast: 0.161032;
+  --paletteName: HaX0R R3D;
+  --paletteFileName: HaX0R-R3D;
+  --isBright: 0;
+  --isDark: 1  
 }
