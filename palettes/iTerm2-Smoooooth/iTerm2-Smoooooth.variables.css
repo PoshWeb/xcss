@@ -20,10 +20,10 @@
   --foreground: #dcdcdc;
   --cursorColor: #ffffff;
   --selectionBackground: #b3d7ff;
-  --Luma: 0.096403;
-  --Contrast: 0.766342;
-  --PaletteName: iTerm2 Smoooooth;
-  --PaletteFileName: iTerm2-Smoooooth;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.096403;
+  --contrast: 0.766342;
+  --paletteName: iTerm2 Smoooooth;
+  --paletteFileName: iTerm2-Smoooooth;
+  --isBright: 0;
+  --isDark: 1  
 }
