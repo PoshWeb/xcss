@@ -20,12 +20,11 @@
   --foreground: #d5ced9;
   --cursorColor: #d5ced9;
   --selectionBackground: #7e6c88;
-  --creditTo: Pustur;
-  --creditToLink: https://github.com/Pustur;
-  --Luma: 0.165813;
-  --Contrast: 0.650981;
-  --PaletteName: Calamity;
-  --PaletteFileName: Calamity;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.165813;
+  --contrast: 0.650981;
+  --paletteName: Calamity;
+  --paletteFileName: Calamity;
+  --isBright: 0;
+  --isDark: 1;
+  --by: Pustur  
 }

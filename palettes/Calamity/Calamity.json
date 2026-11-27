@@ -20,7 +20,13 @@
   "foreground": "#d5ced9",
   "cursorColor": "#d5ced9",
   "selectionBackground": "#7e6c88",
-  "FileName": "Calamity",
-  "Luma": 0.165813,
-  "Contrast": 0.650981
+  "fileName": "Calamity",
+  "by": {
+    "username": "Pustur",
+    "link": "https://github.com/Pustur",
+    "name": "Loris Bettazza",
+    "id": "13663338"
+  },
+  "luma": 0.165813,
+  "contrast": 0.650981
 }
