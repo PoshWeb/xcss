@@ -20,14 +20,13 @@
   --foreground: #4a4543;
   --cursorColor: #4a4543;
   --selectionBackground: #a5a2a2;
-  --creditTo: 0x3024;
-  --creditToLink: https://github.com/0x3024;
-  --Luma: 0.968627;
-  --Contrast: 0.694436;
-  --PaletteName: 3024 Day;
-  --PaletteFileName: 3024-Day;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.968627;
+  --contrast: 0.694436;
+  --paletteName: 3024 Day;
+  --paletteFileName: 3024-Day;
+  --isBright: 0;
+  --isDark: 1;
+  --by: 0x3024  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
