@@ -20,10 +20,10 @@
   --foreground: #c1c1c1;
   --cursorColor: #c1c1c1;
   --selectionBackground: #c1c1c1;
-  --Luma: 0;
-  --Contrast: 0.756863;
-  --PaletteName: Black Metal (Khold);
-  --PaletteFileName: Black-Metal-Khold;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0;
+  --contrast: 0.756863;
+  --paletteName: Black Metal (Khold);
+  --paletteFileName: Black-Metal-Khold;
+  --isBright: 0;
+  --isDark: 1  
 }
