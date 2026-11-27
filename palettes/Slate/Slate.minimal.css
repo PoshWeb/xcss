@@ -20,14 +20,13 @@
   --foreground: #35b1d2;
   --cursorColor: #87d3c4;
   --selectionBackground: #0f3754;
-  --creditTo: deneshshan;
-  --creditToLink: https://github.com/deneshshan;
-  --Luma: 0.133333;
-  --Contrast: 0.466746;
-  --PaletteName: Slate;
-  --PaletteFileName: Slate;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.133333;
+  --contrast: 0.466746;
+  --paletteName: Slate;
+  --paletteFileName: Slate;
+  --isBright: 0;
+  --isDark: 1;
+  --by: deneshshan  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }

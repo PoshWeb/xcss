@@ -20,7 +20,13 @@
   "foreground": "#35b1d2",
   "cursorColor": "#87d3c4",
   "selectionBackground": "#0f3754",
-  "FileName": "Slate",
-  "Luma": 0.133333,
-  "Contrast": 0.466746
+  "fileName": "Slate",
+  "by": {
+    "username": "deneshshan",
+    "link": "https://github.com/deneshshan",
+    "name": "Denesh Shan",
+    "id": "1890393"
+  },
+  "luma": 0.133333,
+  "contrast": 0.466746
 }
