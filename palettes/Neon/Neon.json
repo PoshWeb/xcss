@@ -20,7 +20,13 @@
   "foreground": "#00fffc",
   "cursorColor": "#c7c7c7",
   "selectionBackground": "#0013ff",
-  "FileName": "Neon",
-  "Luma": 0.08574,
-  "Contrast": 0.700811
+  "fileName": "Neon",
+  "by": {
+    "username": "vazquez",
+    "link": "https://github.com/vazquez",
+    "name": "Ricardo Vazquez",
+    "id": "1119821"
+  },
+  "luma": 0.08574,
+  "contrast": 0.700811
 }

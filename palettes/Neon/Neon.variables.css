@@ -20,12 +20,11 @@
   --foreground: #00fffc;
   --cursorColor: #c7c7c7;
   --selectionBackground: #0013ff;
-  --creditTo: vazquez;
-  --creditToLink: https://github.com/vazquez;
-  --Luma: 0.08574;
-  --Contrast: 0.700811;
-  --PaletteName: Neon;
-  --PaletteFileName: Neon;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.08574;
+  --contrast: 0.700811;
+  --paletteName: Neon;
+  --paletteFileName: Neon;
+  --isBright: 0;
+  --isDark: 1;
+  --by: vazquez  
 }
