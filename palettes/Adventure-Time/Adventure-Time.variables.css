@@ -20,10 +20,10 @@
   --foreground: #f8dcc0;
   --cursorColor: #efbf38;
   --selectionBackground: #706b4e;
-  --Luma: 0.126718;
-  --Contrast: 0.751444;
-  --PaletteName: Adventure Time;
-  --PaletteFileName: Adventure-Time;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.126718;
+  --contrast: 0.751444;
+  --paletteName: Adventure Time;
+  --paletteFileName: Adventure-Time;
+  --isBright: 0;
+  --isDark: 1  
 }
