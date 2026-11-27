@@ -20,7 +20,13 @@
   "foreground": "#ced2d6",
   "cursorColor": "#00beff",
   "selectionBackground": "#d5d5d5",
-  "FileName": "Elegant",
-  "Luma": 0.168659,
-  "Contrast": 0.652668
+  "fileName": "Elegant",
+  "by": {
+    "username": "lukgri",
+    "link": "https://github.com/lukgri",
+    "name": "Lukáš Grieger",
+    "id": "13081493"
+  },
+  "luma": 0.168659,
+  "contrast": 0.652668
 }

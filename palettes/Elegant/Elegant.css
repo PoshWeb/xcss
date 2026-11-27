@@ -20,14 +20,13 @@
   --foreground: #ced2d6;
   --cursorColor: #00beff;
   --selectionBackground: #d5d5d5;
-  --creditTo: lukgri;
-  --creditToLink: https://github.com/lukgri;
-  --Luma: 0.168659;
-  --Contrast: 0.652668;
-  --PaletteName: Elegant;
-  --PaletteFileName: Elegant;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.168659;
+  --contrast: 0.652668;
+  --paletteName: Elegant;
+  --paletteFileName: Elegant;
+  --isBright: 0;
+  --isDark: 1;
+  --by: lukgri  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
