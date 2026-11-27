@@ -20,12 +20,12 @@
   --foreground: #c4c4c4;
   --cursorColor: #c4c4c4;
   --selectionBackground: #c4c4c4;
-  --Luma: 0;
-  --Contrast: 0.768627;
-  --PaletteName: IBM 5153 CGA (Black);
-  --PaletteFileName: IBM-5153-CGA-Black;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0;
+  --contrast: 0.768627;
+  --paletteName: IBM 5153 CGA (Black);
+  --paletteFileName: IBM-5153-CGA-Black;
+  --isBright: 0;
+  --isDark: 1  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -202,6 +202,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
