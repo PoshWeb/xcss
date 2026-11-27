@@ -20,10 +20,10 @@
   --foreground: #708284;
   --cursorColor: #708284;
   --selectionBackground: #595ab7;
-  --Luma: 0.113458;
-  --Contrast: 0.381905;
-  --PaletteName: Violet Dark;
-  --PaletteFileName: Violet-Dark;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.113458;
+  --contrast: 0.381905;
+  --paletteName: Violet Dark;
+  --paletteFileName: Violet-Dark;
+  --isBright: 0;
+  --isDark: 1  
 }
