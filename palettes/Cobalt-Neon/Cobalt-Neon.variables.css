@@ -20,12 +20,11 @@
   --foreground: #8ff586;
   --cursorColor: #c4206f;
   --selectionBackground: #094fb1;
-  --creditTo: vazquez;
-  --creditToLink: https://github.com/vazquez;
-  --Luma: 0.144718;
-  --Contrast: 0.699598;
-  --PaletteName: Cobalt Neon;
-  --PaletteFileName: Cobalt-Neon;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.144718;
+  --contrast: 0.699598;
+  --paletteName: Cobalt Neon;
+  --paletteFileName: Cobalt-Neon;
+  --isBright: 0;
+  --isDark: 1;
+  --by: vazquez  
 }

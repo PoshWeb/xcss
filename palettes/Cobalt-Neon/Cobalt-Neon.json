@@ -20,7 +20,13 @@
   "foreground": "#8ff586",
   "cursorColor": "#c4206f",
   "selectionBackground": "#094fb1",
-  "FileName": "Cobalt-Neon",
-  "Luma": 0.144718,
-  "Contrast": 0.699598
+  "fileName": "Cobalt-Neon",
+  "by": {
+    "username": "vazquez",
+    "link": "https://github.com/vazquez",
+    "name": "Ricardo Vazquez",
+    "id": "1119821"
+  },
+  "luma": 0.144718,
+  "contrast": 0.699598
 }
