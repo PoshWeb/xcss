@@ -20,7 +20,13 @@
   "foreground": "#c9c6bc",
   "cursorColor": "#bbbbbb",
   "selectionBackground": "#272e36",
-  "FileName": "Spacegray-Eighties-Dull",
-  "Luma": 0.133333,
-  "Contrast": 0.642807
+  "fileName": "Spacegray-Eighties-Dull",
+  "by": {
+    "username": "mhkeller",
+    "link": "https://github.com/mhkeller",
+    "name": "Michael Keller",
+    "id": "498744"
+  },
+  "luma": 0.133333,
+  "contrast": 0.642807
 }
