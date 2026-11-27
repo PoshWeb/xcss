@@ -20,10 +20,10 @@
   --foreground: #eaf2f1;
   --cursorColor: #b2b9bd;
   --selectionBackground: #535763;
-  --Luma: 0.167569;
-  --Contrast: 0.774498;
-  --PaletteName: Monokai Pro Octagon;
-  --PaletteFileName: Monokai-Pro-Octagon;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.167569;
+  --contrast: 0.774498;
+  --paletteName: Monokai Pro Octagon;
+  --paletteFileName: Monokai-Pro-Octagon;
+  --isBright: 0;
+  --isDark: 1  
 }
