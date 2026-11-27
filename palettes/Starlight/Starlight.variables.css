@@ -20,12 +20,11 @@
   --foreground: #ffffff;
   --cursorColor: #ffffff;
   --selectionBackground: #ffffff;
-  --creditTo: CosmicToast;
-  --creditToLink: https://github.com/CosmicToast;
-  --Luma: 0.141176;
-  --Contrast: 0.858824;
-  --PaletteName: Starlight;
-  --PaletteFileName: Starlight;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.141176;
+  --contrast: 0.858824;
+  --paletteName: Starlight;
+  --paletteFileName: Starlight;
+  --isBright: 0;
+  --isDark: 1;
+  --by: CosmicToast  
 }

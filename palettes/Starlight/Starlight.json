@@ -20,7 +20,13 @@
   "foreground": "#ffffff",
   "cursorColor": "#ffffff",
   "selectionBackground": "#ffffff",
-  "FileName": "Starlight",
-  "Luma": 0.141176,
-  "Contrast": 0.858824
+  "fileName": "Starlight",
+  "by": {
+    "username": "CosmicToast",
+    "link": "https://github.com/CosmicToast",
+    "name": "Chloé Vulquin",
+    "id": "5273047"
+  },
+  "luma": 0.141176,
+  "contrast": 0.858824
 }
