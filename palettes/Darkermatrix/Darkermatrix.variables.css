@@ -20,10 +20,10 @@
   --foreground: #35451a;
   --cursorColor: #444733;
   --selectionBackground: #0f191c;
-  --Luma: 0.043456;
-  --Contrast: 0.201618;
-  --PaletteName: Darkermatrix;
-  --PaletteFileName: Darkermatrix;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.043456;
+  --contrast: 0.201618;
+  --paletteName: Darkermatrix;
+  --paletteFileName: Darkermatrix;
+  --isBright: 0;
+  --isDark: 1  
 }

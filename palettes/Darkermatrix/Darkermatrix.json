@@ -20,7 +20,7 @@
   "foreground": "#35451a",
   "cursorColor": "#444733",
   "selectionBackground": "#0f191c",
-  "FileName": "Darkermatrix",
-  "Luma": 0.043456,
-  "Contrast": 0.201618
+  "fileName": "Darkermatrix",
+  "luma": 0.043456,
+  "contrast": 0.201618
 }
