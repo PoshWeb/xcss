@@ -20,7 +20,13 @@
   "foreground": "#414858",
   "cursorColor": "#7bb3c3",
   "selectionBackground": "#d8dee9",
-  "FileName": "Nord-Light",
-  "Luma": 0.912373,
-  "Contrast": 0.631326
+  "fileName": "Nord-Light",
+  "by": {
+    "username": "rmehri01",
+    "link": "https://github.com/rmehri01",
+    "name": "Ryan Mehri",
+    "id": "52933714"
+  },
+  "luma": 0.912373,
+  "contrast": 0.631326
 }
