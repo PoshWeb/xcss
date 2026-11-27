@@ -20,12 +20,11 @@
   --foreground: #d0d0d0;
   --cursorColor: #e4c9af;
   --selectionBackground: #4d4d4d;
-  --creditTo: teerb;
-  --creditToLink: https://github.com/teerb;
-  --Luma: 0.14902;
-  --Contrast: 0.666666;
-  --PaletteName: Teerb;
-  --PaletteFileName: Teerb;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.14902;
+  --contrast: 0.666666;
+  --paletteName: Teerb;
+  --paletteFileName: Teerb;
+  --isBright: 0;
+  --isDark: 1;
+  --by: teerb  
 }
