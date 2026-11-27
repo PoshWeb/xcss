@@ -20,12 +20,11 @@
   --foreground: #b3b3b3;
   --cursorColor: #53ae71;
   --selectionBackground: #4d52f8;
-  --creditTo: wez;
-  --creditToLink: https://github.com/wez;
-  --Luma: 0;
-  --Contrast: 0.701961;
-  --PaletteName: Wez;
-  --PaletteFileName: Wez;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0;
+  --contrast: 0.701961;
+  --paletteName: Wez;
+  --paletteFileName: Wez;
+  --isBright: 0;
+  --isDark: 1;
+  --by: wez  
 }

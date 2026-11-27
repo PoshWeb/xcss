@@ -20,7 +20,13 @@
   "foreground": "#b3b3b3",
   "cursorColor": "#53ae71",
   "selectionBackground": "#4d52f8",
-  "FileName": "Wez",
-  "Luma": 0.0,
-  "Contrast": 0.701961
+  "fileName": "Wez",
+  "by": {
+    "username": "wez",
+    "link": "https://github.com/wez",
+    "name": "Wez Furlong",
+    "id": "117777"
+  },
+  "luma": 0.0,
+  "contrast": 0.701961
 }
