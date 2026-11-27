@@ -20,10 +20,10 @@
   --foreground: #11b7ff;
   --cursorColor: #10b6ff;
   --selectionBackground: #c1e4ff;
-  --Luma: 0.020803;
-  --Contrast: 0.578832;
-  --PaletteName: HaX0R Blue;
-  --PaletteFileName: HaX0R-Blue;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.020803;
+  --contrast: 0.578832;
+  --paletteName: HaX0R Blue;
+  --paletteFileName: HaX0R-Blue;
+  --isBright: 0;
+  --isDark: 1  
 }
