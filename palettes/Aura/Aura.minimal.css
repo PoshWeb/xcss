@@ -20,14 +20,13 @@
   --foreground: #edecee;
   --cursorColor: #a277ff;
   --selectionBackground: #a277ff;
-  --creditTo: daltonmenezes;
-  --creditToLink: https://github.com/daltonmenezes;
-  --Luma: 0.081247;
-  --Contrast: 0.845643;
-  --PaletteName: Aura;
-  --PaletteFileName: Aura;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.081247;
+  --contrast: 0.845643;
+  --paletteName: Aura;
+  --paletteFileName: Aura;
+  --isBright: 0;
+  --isDark: 1;
+  --by: daltonmenezes  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }

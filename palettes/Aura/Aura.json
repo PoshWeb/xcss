@@ -20,7 +20,13 @@
   "foreground": "#edecee",
   "cursorColor": "#a277ff",
   "selectionBackground": "#a277ff",
-  "FileName": "Aura",
-  "Luma": 0.081247,
-  "Contrast": 0.845643
+  "fileName": "Aura",
+  "by": {
+    "username": "daltonmenezes",
+    "link": "https://github.com/daltonmenezes",
+    "name": "Dalton Menezes",
+    "id": "1149845"
+  },
+  "luma": 0.081247,
+  "contrast": 0.845643
 }
