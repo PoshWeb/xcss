@@ -20,14 +20,13 @@
   --foreground: #000000;
   --cursorColor: #000000;
   --selectionBackground: #c1deff;
-  --creditTo: crowsonkb;
-  --creditToLink: https://github.com/crowsonkb;
-  --Luma: 1;
-  --Contrast: 1;
-  --PaletteName: Tango Adapted;
-  --PaletteFileName: Tango-Adapted;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 1;
+  --contrast: 1;
+  --paletteName: Tango Adapted;
+  --paletteFileName: Tango-Adapted;
+  --isBright: 0;
+  --isDark: 1;
+  --by: crowsonkb  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
