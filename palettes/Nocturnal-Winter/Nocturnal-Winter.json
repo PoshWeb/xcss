@@ -20,7 +20,13 @@
   "foreground": "#e6e5e5",
   "cursorColor": "#e6e5e5",
   "selectionBackground": "#adbdd0",
-  "FileName": "Nocturnal-Winter",
-  "Luma": 0.053812,
-  "Contrast": 0.845061
+  "fileName": "Nocturnal-Winter",
+  "by": {
+    "username": "Shriram-Balaji",
+    "link": "https://github.com/Shriram-Balaji",
+    "name": "",
+    "id": "83752694"
+  },
+  "luma": 0.053812,
+  "contrast": 0.845061
 }

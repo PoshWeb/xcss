@@ -20,14 +20,13 @@
   --foreground: #e6e5e5;
   --cursorColor: #e6e5e5;
   --selectionBackground: #adbdd0;
-  --creditTo: Shriram-Balaji;
-  --creditToLink: https://github.com/Shriram-Balaji;
-  --Luma: 0.053812;
-  --Contrast: 0.845061;
-  --PaletteName: Nocturnal Winter;
-  --PaletteFileName: Nocturnal-Winter;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.053812;
+  --contrast: 0.845061;
+  --paletteName: Nocturnal Winter;
+  --paletteFileName: Nocturnal-Winter;
+  --isBright: 0;
+  --isDark: 1;
+  --by: Shriram-Balaji  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
