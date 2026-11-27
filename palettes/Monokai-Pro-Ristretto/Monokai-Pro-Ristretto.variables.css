@@ -1,5 +1,5 @@
 :root {
-  --name: 'Monokai Pro Ristretto';
+  --name: Monokai Pro Ristretto;
   --black: #2c2525;
   --red: #fd6883;
   --green: #adda78;
@@ -20,10 +20,10 @@
   --foreground: #fff1f3;
   --cursorColor: #c3b7b8;
   --selectionBackground: #5b5353;
-  --Luma: 0.150934;
-  --Contrast: 0.806402;
-  --PaletteName: 'Monokai Pro Ristretto';
-  --PaletteFileName: 'Monokai-Pro-Ristretto';
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 0.150934;
+  --contrast: 0.806402;
+  --paletteName: Monokai Pro Ristretto;
+  --paletteFileName: Monokai-Pro-Ristretto;
+  --isBright: 0;
+  --isDark: 1  
 }
