@@ -20,14 +20,13 @@
   --foreground: #262626;
   --cursorColor: #62c6ef;
   --selectionBackground: #6fd3fc;
-  --creditTo: jasonlong;
-  --creditToLink: https://github.com/jasonlong;
-  --Luma: 1;
-  --Contrast: 0.85098;
-  --PaletteName: CLRS;
-  --PaletteFileName: CLRS;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 1;
+  --contrast: 0.85098;
+  --paletteName: CLRS;
+  --paletteFileName: CLRS;
+  --isBright: 0;
+  --isDark: 1;
+  --by: jasonlong  
 }
 .foreground, .Foreground { color: var(--foreground); }
 .background, .Background { background-color: var(--background); }
@@ -204,6 +203,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }

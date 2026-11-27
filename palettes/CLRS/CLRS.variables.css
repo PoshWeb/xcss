@@ -20,12 +20,11 @@
   --foreground: #262626;
   --cursorColor: #62c6ef;
   --selectionBackground: #6fd3fc;
-  --creditTo: jasonlong;
-  --creditToLink: https://github.com/jasonlong;
-  --Luma: 1;
-  --Contrast: 0.85098;
-  --PaletteName: CLRS;
-  --PaletteFileName: CLRS;
-  --IsBright: 0;
-  --IsDark: 1;
+  --luma: 1;
+  --contrast: 0.85098;
+  --paletteName: CLRS;
+  --paletteFileName: CLRS;
+  --isBright: 0;
+  --isDark: 1;
+  --by: jasonlong  
 }

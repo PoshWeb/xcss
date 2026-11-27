@@ -20,7 +20,13 @@
   "foreground": "#262626",
   "cursorColor": "#62c6ef",
   "selectionBackground": "#6fd3fc",
-  "FileName": "CLRS",
-  "Luma": 1.0,
-  "Contrast": 0.85098
+  "fileName": "CLRS",
+  "by": {
+    "username": "jasonlong",
+    "link": "https://github.com/jasonlong",
+    "name": "Jason Long",
+    "id": "6104"
+  },
+  "luma": 1.0,
+  "contrast": 0.85098
 }
