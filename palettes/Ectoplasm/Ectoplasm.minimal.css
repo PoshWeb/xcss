@@ -1,0 +1,39 @@
+:root {
+  --name: Ectoplasm;
+  --black: #c1d0cf;
+  --red: #f19b8d;
+  --green: #78e0aa;
+  --yellow: #d7dd5e;
+  --blue: #76c9ef;
+  --purple: #afa1e9;
+  --cyan: #58e0d6;
+  --white: #effffb;
+  --brightBlack: #c8d6d5;
+  --brightRed: #f3a79b;
+  --brightGreen: #88e4b4;
+  --brightYellow: #dce171;
+  --brightBlue: #86cff1;
+  --brightPurple: #b4a7eb;
+  --brightCyan: #6ce4db;
+  --brightWhite: #f1fffb;
+  --background: #06454a;
+  --foreground: #effffb;
+  --cursorColor: #f3a79b;
+  --selectionBackground: #c8d6d5;
+  --luma: 0.219479;
+  --contrast: 0.766049;
+  --paletteName: Ectoplasm;
+  --paletteFileName: Ectoplasm;
+  --isBright: 0;
+  --isDark: 1  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
