@@ -1,0 +1,39 @@
+:root {
+  --name: Copper Canyon;
+  --black: #d6c8b8;
+  --red: #ffa17e;
+  --green: #94d9a5;
+  --yellow: #f5cf69;
+  --blue: #91c9ed;
+  --purple: #e5a7d0;
+  --cyan: #85ddd6;
+  --white: #fff0d5;
+  --brightBlack: #e4d8ca;
+  --brightRed: #ffb698;
+  --brightGreen: #ace2b8;
+  --brightYellow: #ffdf8a;
+  --brightBlue: #aed8f3;
+  --brightPurple: #eebedc;
+  --brightCyan: #a5e8e2;
+  --brightWhite: #fffaf0;
+  --background: #5a3018;
+  --foreground: #fff0d5;
+  --cursorColor: #f6bd55;
+  --selectionBackground: #7a4a2e;
+  --luma: 0.216456;
+  --contrast: 0.729582;
+  --paletteName: Copper Canyon;
+  --paletteFileName: Copper-Canyon;
+  --isBright: 0;
+  --isDark: 1  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
