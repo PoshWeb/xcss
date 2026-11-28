@@ -1,0 +1,40 @@
+:root {
+  --name: Gruber Darker Legacy;
+  --black: #181818;
+  --red: #ff0a36;
+  --green: #42dc00;
+  --yellow: #ffdb00;
+  --blue: #92a7cb;
+  --purple: #a095cb;
+  --cyan: #90aa9e;
+  --white: #e4e4e4;
+  --brightBlack: #54494e;
+  --brightRed: #ff3851;
+  --brightGreen: #42dc00;
+  --brightYellow: #ffdb00;
+  --brightBlue: #92a7cb;
+  --brightPurple: #afafda;
+  --brightCyan: #90aa9e;
+  --brightWhite: #f5f5f5;
+  --background: #181818;
+  --foreground: #e4e4e4;
+  --cursorColor: #ffdb00;
+  --selectionBackground: #ffffff;
+  --luma: 0.094118;
+  --contrast: 0.8;
+  --paletteName: Gruber Darker Legacy;
+  --paletteFileName: Gruber-Darker-Legacy;
+  --isBright: 0;
+  --isDark: 1;
+  --by: mbadolato  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
