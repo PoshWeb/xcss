@@ -1,0 +1,39 @@
+:root {
+  --name: Lumina Espresso Light;
+  --black: #39261b;
+  --red: #842120;
+  --green: #15744d;
+  --yellow: #6d4e36;
+  --blue: #2868a3;
+  --purple: #864b81;
+  --cyan: #007083;
+  --white: #7f685c;
+  --brightBlack: #756457;
+  --brightRed: #5f201e;
+  --brightGreen: #005e3c;
+  --brightYellow: #653400;
+  --brightBlue: #1a5488;
+  --brightPurple: #70386b;
+  --brightCyan: #005a6a;
+  --brightWhite: #9f877a;
+  --background: #fcf0e3;
+  --foreground: #39261b;
+  --cursorColor: #39261b;
+  --selectionBackground: #d8bccc;
+  --luma: 0.9475;
+  --contrast: 0.785754;
+  --paletteName: Lumina Espresso Light;
+  --paletteFileName: Lumina-Espresso-Light;
+  --isBright: 0;
+  --isDark: 1  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
