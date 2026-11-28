@@ -1,0 +1,39 @@
+:root {
+  --name: Lumina Vitrail Light;
+  --black: #0f141d;
+  --red: #752200;
+  --green: #00490f;
+  --yellow: #7c4700;
+  --blue: #1729b2;
+  --purple: #62127e;
+  --cyan: #005b72;
+  --white: #6c727e;
+  --brightBlack: #5f5e54;
+  --brightRed: #581700;
+  --brightGreen: #003408;
+  --brightYellow: #623700;
+  --brightBlue: #12247b;
+  --brightPurple: #480d5e;
+  --brightCyan: #004659;
+  --brightWhite: #8b929e;
+  --background: #fcfaf4;
+  --foreground: #0f141d;
+  --cursorColor: #0f141d;
+  --selectionBackground: #bac7e8;
+  --luma: 0.980361;
+  --contrast: 0.90355;
+  --paletteName: Lumina Vitrail Light;
+  --paletteFileName: Lumina-Vitrail-Light;
+  --isBright: 0;
+  --isDark: 1  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
