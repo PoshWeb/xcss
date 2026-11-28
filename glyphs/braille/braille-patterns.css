@@ -1,0 +1,2052 @@
+@layer braille-patterns {
+:root {
+--braille-pattern-blank:'\2800';
+--braille-pattern-dots-1:'\2801';
+--braille-pattern-dots-12:'\2803';
+--braille-pattern-dots-123:'\2807';
+--braille-pattern-dots-1234:'\280F';
+--braille-pattern-dots-12345:'\281F';
+--braille-pattern-dots-123456:'\283F';
+--braille-pattern-dots-1234567:'\287F';
+--braille-pattern-dots-12345678:'\28FF';
+--braille-pattern-dots-1234568:'\28BF';
+--braille-pattern-dots-123457:'\285F';
+--braille-pattern-dots-1234578:'\28DF';
+--braille-pattern-dots-123458:'\289F';
+--braille-pattern-dots-12346:'\282F';
+--braille-pattern-dots-123467:'\286F';
+--braille-pattern-dots-1234678:'\28EF';
+--braille-pattern-dots-123468:'\28AF';
+--braille-pattern-dots-12347:'\284F';
+--braille-pattern-dots-123478:'\28CF';
+--braille-pattern-dots-12348:'\288F';
+--braille-pattern-dots-1235:'\2817';
+--braille-pattern-dots-12356:'\2837';
+--braille-pattern-dots-123567:'\2877';
+--braille-pattern-dots-1235678:'\28F7';
+--braille-pattern-dots-123568:'\28B7';
+--braille-pattern-dots-12357:'\2857';
+--braille-pattern-dots-123578:'\28D7';
+--braille-pattern-dots-12358:'\2897';
+--braille-pattern-dots-1236:'\2827';
+--braille-pattern-dots-12367:'\2867';
+--braille-pattern-dots-123678:'\28E7';
+--braille-pattern-dots-12368:'\28A7';
+--braille-pattern-dots-1237:'\2847';
+--braille-pattern-dots-12378:'\28C7';
+--braille-pattern-dots-1238:'\2887';
+--braille-pattern-dots-124:'\280B';
+--braille-pattern-dots-1245:'\281B';
+--braille-pattern-dots-12456:'\283B';
+--braille-pattern-dots-124567:'\287B';
+--braille-pattern-dots-1245678:'\28FB';
+--braille-pattern-dots-124568:'\28BB';
+--braille-pattern-dots-12457:'\285B';
+--braille-pattern-dots-124578:'\28DB';
+--braille-pattern-dots-12458:'\289B';
+--braille-pattern-dots-1246:'\282B';
+--braille-pattern-dots-12467:'\286B';
+--braille-pattern-dots-124678:'\28EB';
+--braille-pattern-dots-12468:'\28AB';
+--braille-pattern-dots-1247:'\284B';
+--braille-pattern-dots-12478:'\28CB';
+--braille-pattern-dots-1248:'\288B';
+--braille-pattern-dots-125:'\2813';
+--braille-pattern-dots-1256:'\2833';
+--braille-pattern-dots-12567:'\2873';
+--braille-pattern-dots-125678:'\28F3';
+--braille-pattern-dots-12568:'\28B3';
+--braille-pattern-dots-1257:'\2853';
+--braille-pattern-dots-12578:'\28D3';
+--braille-pattern-dots-1258:'\2893';
+--braille-pattern-dots-126:'\2823';
+--braille-pattern-dots-1267:'\2863';
+--braille-pattern-dots-12678:'\28E3';
+--braille-pattern-dots-1268:'\28A3';
+--braille-pattern-dots-127:'\2843';
+--braille-pattern-dots-1278:'\28C3';
+--braille-pattern-dots-128:'\2883';
+--braille-pattern-dots-13:'\2805';
+--braille-pattern-dots-134:'\280D';
+--braille-pattern-dots-1345:'\281D';
+--braille-pattern-dots-13456:'\283D';
+--braille-pattern-dots-134567:'\287D';
+--braille-pattern-dots-1345678:'\28FD';
+--braille-pattern-dots-134568:'\28BD';
+--braille-pattern-dots-13457:'\285D';
+--braille-pattern-dots-134578:'\28DD';
+--braille-pattern-dots-13458:'\289D';
+--braille-pattern-dots-1346:'\282D';
+--braille-pattern-dots-13467:'\286D';
+--braille-pattern-dots-134678:'\28ED';
+--braille-pattern-dots-13468:'\28AD';
+--braille-pattern-dots-1347:'\284D';
+--braille-pattern-dots-13478:'\28CD';
+--braille-pattern-dots-1348:'\288D';
+--braille-pattern-dots-135:'\2815';
+--braille-pattern-dots-1356:'\2835';
+--braille-pattern-dots-13567:'\2875';
+--braille-pattern-dots-135678:'\28F5';
+--braille-pattern-dots-13568:'\28B5';
+--braille-pattern-dots-1357:'\2855';
+--braille-pattern-dots-13578:'\28D5';
+--braille-pattern-dots-1358:'\2895';
+--braille-pattern-dots-136:'\2825';
+--braille-pattern-dots-1367:'\2865';
+--braille-pattern-dots-13678:'\28E5';
+--braille-pattern-dots-1368:'\28A5';
+--braille-pattern-dots-137:'\2845';
+--braille-pattern-dots-1378:'\28C5';
+--braille-pattern-dots-138:'\2885';
+--braille-pattern-dots-14:'\2809';
+--braille-pattern-dots-145:'\2819';
+--braille-pattern-dots-1456:'\2839';
+--braille-pattern-dots-14567:'\2879';
+--braille-pattern-dots-145678:'\28F9';
+--braille-pattern-dots-14568:'\28B9';
+--braille-pattern-dots-1457:'\2859';
+--braille-pattern-dots-14578:'\28D9';
+--braille-pattern-dots-1458:'\2899';
+--braille-pattern-dots-146:'\2829';
+--braille-pattern-dots-1467:'\2869';
+--braille-pattern-dots-14678:'\28E9';
+--braille-pattern-dots-1468:'\28A9';
+--braille-pattern-dots-147:'\2849';
+--braille-pattern-dots-1478:'\28C9';
+--braille-pattern-dots-148:'\2889';
+--braille-pattern-dots-15:'\2811';
+--braille-pattern-dots-156:'\2831';
+--braille-pattern-dots-1567:'\2871';
+--braille-pattern-dots-15678:'\28F1';
+--braille-pattern-dots-1568:'\28B1';
+--braille-pattern-dots-157:'\2851';
+--braille-pattern-dots-1578:'\28D1';
+--braille-pattern-dots-158:'\2891';
+--braille-pattern-dots-16:'\2821';
+--braille-pattern-dots-167:'\2861';
+--braille-pattern-dots-1678:'\28E1';
+--braille-pattern-dots-168:'\28A1';
+--braille-pattern-dots-17:'\2841';
+--braille-pattern-dots-178:'\28C1';
+--braille-pattern-dots-18:'\2881';
+--braille-pattern-dots-2:'\2802';
+--braille-pattern-dots-23:'\2806';
+--braille-pattern-dots-234:'\280E';
+--braille-pattern-dots-2345:'\281E';
+--braille-pattern-dots-23456:'\283E';
+--braille-pattern-dots-234567:'\287E';
+--braille-pattern-dots-2345678:'\28FE';
+--braille-pattern-dots-234568:'\28BE';
+--braille-pattern-dots-23457:'\285E';
+--braille-pattern-dots-234578:'\28DE';
+--braille-pattern-dots-23458:'\289E';
+--braille-pattern-dots-2346:'\282E';
+--braille-pattern-dots-23467:'\286E';
+--braille-pattern-dots-234678:'\28EE';
+--braille-pattern-dots-23468:'\28AE';
+--braille-pattern-dots-2347:'\284E';
+--braille-pattern-dots-23478:'\28CE';
+--braille-pattern-dots-2348:'\288E';
+--braille-pattern-dots-235:'\2816';
+--braille-pattern-dots-2356:'\2836';
+--braille-pattern-dots-23567:'\2876';
+--braille-pattern-dots-235678:'\28F6';
+--braille-pattern-dots-23568:'\28B6';
+--braille-pattern-dots-2357:'\2856';
+--braille-pattern-dots-23578:'\28D6';
+--braille-pattern-dots-2358:'\2896';
+--braille-pattern-dots-236:'\2826';
+--braille-pattern-dots-2367:'\2866';
+--braille-pattern-dots-23678:'\28E6';
+--braille-pattern-dots-2368:'\28A6';
+--braille-pattern-dots-237:'\2846';
+--braille-pattern-dots-2378:'\28C6';
+--braille-pattern-dots-238:'\2886';
+--braille-pattern-dots-24:'\280A';
+--braille-pattern-dots-245:'\281A';
+--braille-pattern-dots-2456:'\283A';
+--braille-pattern-dots-24567:'\287A';
+--braille-pattern-dots-245678:'\28FA';
+--braille-pattern-dots-24568:'\28BA';
+--braille-pattern-dots-2457:'\285A';
+--braille-pattern-dots-24578:'\28DA';
+--braille-pattern-dots-2458:'\289A';
+--braille-pattern-dots-246:'\282A';
+--braille-pattern-dots-2467:'\286A';
+--braille-pattern-dots-24678:'\28EA';
+--braille-pattern-dots-2468:'\28AA';
+--braille-pattern-dots-247:'\284A';
+--braille-pattern-dots-2478:'\28CA';
+--braille-pattern-dots-248:'\288A';
+--braille-pattern-dots-25:'\2812';
+--braille-pattern-dots-256:'\2832';
+--braille-pattern-dots-2567:'\2872';
+--braille-pattern-dots-25678:'\28F2';
+--braille-pattern-dots-2568:'\28B2';
+--braille-pattern-dots-257:'\2852';
+--braille-pattern-dots-2578:'\28D2';
+--braille-pattern-dots-258:'\2892';
+--braille-pattern-dots-26:'\2822';
+--braille-pattern-dots-267:'\2862';
+--braille-pattern-dots-2678:'\28E2';
+--braille-pattern-dots-268:'\28A2';
+--braille-pattern-dots-27:'\2842';
+--braille-pattern-dots-278:'\28C2';
+--braille-pattern-dots-28:'\2882';
+--braille-pattern-dots-3:'\2804';
+--braille-pattern-dots-34:'\280C';
+--braille-pattern-dots-345:'\281C';
+--braille-pattern-dots-3456:'\283C';
+--braille-pattern-dots-34567:'\287C';
+--braille-pattern-dots-345678:'\28FC';
+--braille-pattern-dots-34568:'\28BC';
+--braille-pattern-dots-3457:'\285C';
+--braille-pattern-dots-34578:'\28DC';
+--braille-pattern-dots-3458:'\289C';
+--braille-pattern-dots-346:'\282C';
+--braille-pattern-dots-3467:'\286C';
+--braille-pattern-dots-34678:'\28EC';
+--braille-pattern-dots-3468:'\28AC';
+--braille-pattern-dots-347:'\284C';
+--braille-pattern-dots-3478:'\28CC';
+--braille-pattern-dots-348:'\288C';
+--braille-pattern-dots-35:'\2814';
+--braille-pattern-dots-356:'\2834';
+--braille-pattern-dots-3567:'\2874';
+--braille-pattern-dots-35678:'\28F4';
+--braille-pattern-dots-3568:'\28B4';
+--braille-pattern-dots-357:'\2854';
+--braille-pattern-dots-3578:'\28D4';
+--braille-pattern-dots-358:'\2894';
+--braille-pattern-dots-36:'\2824';
+--braille-pattern-dots-367:'\2864';
+--braille-pattern-dots-3678:'\28E4';
+--braille-pattern-dots-368:'\28A4';
+--braille-pattern-dots-37:'\2844';
+--braille-pattern-dots-378:'\28C4';
+--braille-pattern-dots-38:'\2884';
+--braille-pattern-dots-4:'\2808';
+--braille-pattern-dots-45:'\2818';
+--braille-pattern-dots-456:'\2838';
+--braille-pattern-dots-4567:'\2878';
+--braille-pattern-dots-45678:'\28F8';
+--braille-pattern-dots-4568:'\28B8';
+--braille-pattern-dots-457:'\2858';
+--braille-pattern-dots-4578:'\28D8';
+--braille-pattern-dots-458:'\2898';
+--braille-pattern-dots-46:'\2828';
+--braille-pattern-dots-467:'\2868';
+--braille-pattern-dots-4678:'\28E8';
+--braille-pattern-dots-468:'\28A8';
+--braille-pattern-dots-47:'\2848';
+--braille-pattern-dots-478:'\28C8';
+--braille-pattern-dots-48:'\2888';
+--braille-pattern-dots-5:'\2810';
+--braille-pattern-dots-56:'\2830';
+--braille-pattern-dots-567:'\2870';
+--braille-pattern-dots-5678:'\28F0';
+--braille-pattern-dots-568:'\28B0';
+--braille-pattern-dots-57:'\2850';
+--braille-pattern-dots-578:'\28D0';
+--braille-pattern-dots-58:'\2890';
+--braille-pattern-dots-6:'\2820';
+--braille-pattern-dots-67:'\2860';
+--braille-pattern-dots-678:'\28E0';
+--braille-pattern-dots-68:'\28A0';
+--braille-pattern-dots-7:'\2840';
+--braille-pattern-dots-78:'\28C0';
+--braille-pattern-dots-8:'\2880';
+}
+
+
+
+.braille-pattern-blank::before, .braille-pattern-blank-before::before{ content:var(--braille-pattern-blank)}
+.braille-pattern-blank-after::after{content:var(--braille-pattern-blank)}
+.braille-pattern-blank-both::after, .braille-pattern-blank-both::before {content:var(--braille-pattern-blank)}
+.braille-pattern-blank-list { list-style: var(--braille-pattern-blank)}
+
+
+
+.braille-pattern-dots-1::before, .braille-pattern-dots-1-before::before{ content:var(--braille-pattern-dots-1)}
+.braille-pattern-dots-1-after::after{content:var(--braille-pattern-dots-1)}
+.braille-pattern-dots-1-both::after, .braille-pattern-dots-1-both::before {content:var(--braille-pattern-dots-1)}
+.braille-pattern-dots-1-list { list-style: var(--braille-pattern-dots-1)}
+
+
+
+.braille-pattern-dots-12::before, .braille-pattern-dots-12-before::before{ content:var(--braille-pattern-dots-12)}
+.braille-pattern-dots-12-after::after{content:var(--braille-pattern-dots-12)}
+.braille-pattern-dots-12-both::after, .braille-pattern-dots-12-both::before {content:var(--braille-pattern-dots-12)}
+.braille-pattern-dots-12-list { list-style: var(--braille-pattern-dots-12)}
+
+
+
+.braille-pattern-dots-123::before, .braille-pattern-dots-123-before::before{ content:var(--braille-pattern-dots-123)}
+.braille-pattern-dots-123-after::after{content:var(--braille-pattern-dots-123)}
+.braille-pattern-dots-123-both::after, .braille-pattern-dots-123-both::before {content:var(--braille-pattern-dots-123)}
+.braille-pattern-dots-123-list { list-style: var(--braille-pattern-dots-123)}
+
+
+
+.braille-pattern-dots-1234::before, .braille-pattern-dots-1234-before::before{ content:var(--braille-pattern-dots-1234)}
+.braille-pattern-dots-1234-after::after{content:var(--braille-pattern-dots-1234)}
+.braille-pattern-dots-1234-both::after, .braille-pattern-dots-1234-both::before {content:var(--braille-pattern-dots-1234)}
+.braille-pattern-dots-1234-list { list-style: var(--braille-pattern-dots-1234)}
+
+
+
+.braille-pattern-dots-12345::before, .braille-pattern-dots-12345-before::before{ content:var(--braille-pattern-dots-12345)}
+.braille-pattern-dots-12345-after::after{content:var(--braille-pattern-dots-12345)}
+.braille-pattern-dots-12345-both::after, .braille-pattern-dots-12345-both::before {content:var(--braille-pattern-dots-12345)}
+.braille-pattern-dots-12345-list { list-style: var(--braille-pattern-dots-12345)}
+
+
+
+.braille-pattern-dots-123456::before, .braille-pattern-dots-123456-before::before{ content:var(--braille-pattern-dots-123456)}
+.braille-pattern-dots-123456-after::after{content:var(--braille-pattern-dots-123456)}
+.braille-pattern-dots-123456-both::after, .braille-pattern-dots-123456-both::before {content:var(--braille-pattern-dots-123456)}
+.braille-pattern-dots-123456-list { list-style: var(--braille-pattern-dots-123456)}
+
+
+
+.braille-pattern-dots-1234567::before, .braille-pattern-dots-1234567-before::before{ content:var(--braille-pattern-dots-1234567)}
+.braille-pattern-dots-1234567-after::after{content:var(--braille-pattern-dots-1234567)}
+.braille-pattern-dots-1234567-both::after, .braille-pattern-dots-1234567-both::before {content:var(--braille-pattern-dots-1234567)}
+.braille-pattern-dots-1234567-list { list-style: var(--braille-pattern-dots-1234567)}
+
+
+
+.braille-pattern-dots-12345678::before, .braille-pattern-dots-12345678-before::before{ content:var(--braille-pattern-dots-12345678)}
+.braille-pattern-dots-12345678-after::after{content:var(--braille-pattern-dots-12345678)}
+.braille-pattern-dots-12345678-both::after, .braille-pattern-dots-12345678-both::before {content:var(--braille-pattern-dots-12345678)}
+.braille-pattern-dots-12345678-list { list-style: var(--braille-pattern-dots-12345678)}
+
+
+
+.braille-pattern-dots-1234568::before, .braille-pattern-dots-1234568-before::before{ content:var(--braille-pattern-dots-1234568)}
+.braille-pattern-dots-1234568-after::after{content:var(--braille-pattern-dots-1234568)}
+.braille-pattern-dots-1234568-both::after, .braille-pattern-dots-1234568-both::before {content:var(--braille-pattern-dots-1234568)}
+.braille-pattern-dots-1234568-list { list-style: var(--braille-pattern-dots-1234568)}
+
+
+
+.braille-pattern-dots-123457::before, .braille-pattern-dots-123457-before::before{ content:var(--braille-pattern-dots-123457)}
+.braille-pattern-dots-123457-after::after{content:var(--braille-pattern-dots-123457)}
+.braille-pattern-dots-123457-both::after, .braille-pattern-dots-123457-both::before {content:var(--braille-pattern-dots-123457)}
+.braille-pattern-dots-123457-list { list-style: var(--braille-pattern-dots-123457)}
+
+
+
+.braille-pattern-dots-1234578::before, .braille-pattern-dots-1234578-before::before{ content:var(--braille-pattern-dots-1234578)}
+.braille-pattern-dots-1234578-after::after{content:var(--braille-pattern-dots-1234578)}
+.braille-pattern-dots-1234578-both::after, .braille-pattern-dots-1234578-both::before {content:var(--braille-pattern-dots-1234578)}
+.braille-pattern-dots-1234578-list { list-style: var(--braille-pattern-dots-1234578)}
+
+
+
+.braille-pattern-dots-123458::before, .braille-pattern-dots-123458-before::before{ content:var(--braille-pattern-dots-123458)}
+.braille-pattern-dots-123458-after::after{content:var(--braille-pattern-dots-123458)}
+.braille-pattern-dots-123458-both::after, .braille-pattern-dots-123458-both::before {content:var(--braille-pattern-dots-123458)}
+.braille-pattern-dots-123458-list { list-style: var(--braille-pattern-dots-123458)}
+
+
+
+.braille-pattern-dots-12346::before, .braille-pattern-dots-12346-before::before{ content:var(--braille-pattern-dots-12346)}
+.braille-pattern-dots-12346-after::after{content:var(--braille-pattern-dots-12346)}
+.braille-pattern-dots-12346-both::after, .braille-pattern-dots-12346-both::before {content:var(--braille-pattern-dots-12346)}
+.braille-pattern-dots-12346-list { list-style: var(--braille-pattern-dots-12346)}
+
+
+
+.braille-pattern-dots-123467::before, .braille-pattern-dots-123467-before::before{ content:var(--braille-pattern-dots-123467)}
+.braille-pattern-dots-123467-after::after{content:var(--braille-pattern-dots-123467)}
+.braille-pattern-dots-123467-both::after, .braille-pattern-dots-123467-both::before {content:var(--braille-pattern-dots-123467)}
+.braille-pattern-dots-123467-list { list-style: var(--braille-pattern-dots-123467)}
+
+
+
+.braille-pattern-dots-1234678::before, .braille-pattern-dots-1234678-before::before{ content:var(--braille-pattern-dots-1234678)}
+.braille-pattern-dots-1234678-after::after{content:var(--braille-pattern-dots-1234678)}
+.braille-pattern-dots-1234678-both::after, .braille-pattern-dots-1234678-both::before {content:var(--braille-pattern-dots-1234678)}
+.braille-pattern-dots-1234678-list { list-style: var(--braille-pattern-dots-1234678)}
+
+
+
+.braille-pattern-dots-123468::before, .braille-pattern-dots-123468-before::before{ content:var(--braille-pattern-dots-123468)}
+.braille-pattern-dots-123468-after::after{content:var(--braille-pattern-dots-123468)}
+.braille-pattern-dots-123468-both::after, .braille-pattern-dots-123468-both::before {content:var(--braille-pattern-dots-123468)}
+.braille-pattern-dots-123468-list { list-style: var(--braille-pattern-dots-123468)}
+
+
+
+.braille-pattern-dots-12347::before, .braille-pattern-dots-12347-before::before{ content:var(--braille-pattern-dots-12347)}
+.braille-pattern-dots-12347-after::after{content:var(--braille-pattern-dots-12347)}
+.braille-pattern-dots-12347-both::after, .braille-pattern-dots-12347-both::before {content:var(--braille-pattern-dots-12347)}
+.braille-pattern-dots-12347-list { list-style: var(--braille-pattern-dots-12347)}
+
+
+
+.braille-pattern-dots-123478::before, .braille-pattern-dots-123478-before::before{ content:var(--braille-pattern-dots-123478)}
+.braille-pattern-dots-123478-after::after{content:var(--braille-pattern-dots-123478)}
+.braille-pattern-dots-123478-both::after, .braille-pattern-dots-123478-both::before {content:var(--braille-pattern-dots-123478)}
+.braille-pattern-dots-123478-list { list-style: var(--braille-pattern-dots-123478)}
+
+
+
+.braille-pattern-dots-12348::before, .braille-pattern-dots-12348-before::before{ content:var(--braille-pattern-dots-12348)}
+.braille-pattern-dots-12348-after::after{content:var(--braille-pattern-dots-12348)}
+.braille-pattern-dots-12348-both::after, .braille-pattern-dots-12348-both::before {content:var(--braille-pattern-dots-12348)}
+.braille-pattern-dots-12348-list { list-style: var(--braille-pattern-dots-12348)}
+
+
+
+.braille-pattern-dots-1235::before, .braille-pattern-dots-1235-before::before{ content:var(--braille-pattern-dots-1235)}
+.braille-pattern-dots-1235-after::after{content:var(--braille-pattern-dots-1235)}
+.braille-pattern-dots-1235-both::after, .braille-pattern-dots-1235-both::before {content:var(--braille-pattern-dots-1235)}
+.braille-pattern-dots-1235-list { list-style: var(--braille-pattern-dots-1235)}
+
+
+
+.braille-pattern-dots-12356::before, .braille-pattern-dots-12356-before::before{ content:var(--braille-pattern-dots-12356)}
+.braille-pattern-dots-12356-after::after{content:var(--braille-pattern-dots-12356)}
+.braille-pattern-dots-12356-both::after, .braille-pattern-dots-12356-both::before {content:var(--braille-pattern-dots-12356)}
+.braille-pattern-dots-12356-list { list-style: var(--braille-pattern-dots-12356)}
+
+
+
+.braille-pattern-dots-123567::before, .braille-pattern-dots-123567-before::before{ content:var(--braille-pattern-dots-123567)}
+.braille-pattern-dots-123567-after::after{content:var(--braille-pattern-dots-123567)}
+.braille-pattern-dots-123567-both::after, .braille-pattern-dots-123567-both::before {content:var(--braille-pattern-dots-123567)}
+.braille-pattern-dots-123567-list { list-style: var(--braille-pattern-dots-123567)}
+
+
+
+.braille-pattern-dots-1235678::before, .braille-pattern-dots-1235678-before::before{ content:var(--braille-pattern-dots-1235678)}
+.braille-pattern-dots-1235678-after::after{content:var(--braille-pattern-dots-1235678)}
+.braille-pattern-dots-1235678-both::after, .braille-pattern-dots-1235678-both::before {content:var(--braille-pattern-dots-1235678)}
+.braille-pattern-dots-1235678-list { list-style: var(--braille-pattern-dots-1235678)}
+
+
+
+.braille-pattern-dots-123568::before, .braille-pattern-dots-123568-before::before{ content:var(--braille-pattern-dots-123568)}
+.braille-pattern-dots-123568-after::after{content:var(--braille-pattern-dots-123568)}
+.braille-pattern-dots-123568-both::after, .braille-pattern-dots-123568-both::before {content:var(--braille-pattern-dots-123568)}
+.braille-pattern-dots-123568-list { list-style: var(--braille-pattern-dots-123568)}
+
+
+
+.braille-pattern-dots-12357::before, .braille-pattern-dots-12357-before::before{ content:var(--braille-pattern-dots-12357)}
+.braille-pattern-dots-12357-after::after{content:var(--braille-pattern-dots-12357)}
+.braille-pattern-dots-12357-both::after, .braille-pattern-dots-12357-both::before {content:var(--braille-pattern-dots-12357)}
+.braille-pattern-dots-12357-list { list-style: var(--braille-pattern-dots-12357)}
+
+
+
+.braille-pattern-dots-123578::before, .braille-pattern-dots-123578-before::before{ content:var(--braille-pattern-dots-123578)}
+.braille-pattern-dots-123578-after::after{content:var(--braille-pattern-dots-123578)}
+.braille-pattern-dots-123578-both::after, .braille-pattern-dots-123578-both::before {content:var(--braille-pattern-dots-123578)}
+.braille-pattern-dots-123578-list { list-style: var(--braille-pattern-dots-123578)}
+
+
+
+.braille-pattern-dots-12358::before, .braille-pattern-dots-12358-before::before{ content:var(--braille-pattern-dots-12358)}
+.braille-pattern-dots-12358-after::after{content:var(--braille-pattern-dots-12358)}
+.braille-pattern-dots-12358-both::after, .braille-pattern-dots-12358-both::before {content:var(--braille-pattern-dots-12358)}
+.braille-pattern-dots-12358-list { list-style: var(--braille-pattern-dots-12358)}
+
+
+
+.braille-pattern-dots-1236::before, .braille-pattern-dots-1236-before::before{ content:var(--braille-pattern-dots-1236)}
+.braille-pattern-dots-1236-after::after{content:var(--braille-pattern-dots-1236)}
+.braille-pattern-dots-1236-both::after, .braille-pattern-dots-1236-both::before {content:var(--braille-pattern-dots-1236)}
+.braille-pattern-dots-1236-list { list-style: var(--braille-pattern-dots-1236)}
+
+
+
+.braille-pattern-dots-12367::before, .braille-pattern-dots-12367-before::before{ content:var(--braille-pattern-dots-12367)}
+.braille-pattern-dots-12367-after::after{content:var(--braille-pattern-dots-12367)}
+.braille-pattern-dots-12367-both::after, .braille-pattern-dots-12367-both::before {content:var(--braille-pattern-dots-12367)}
+.braille-pattern-dots-12367-list { list-style: var(--braille-pattern-dots-12367)}
+
+
+
+.braille-pattern-dots-123678::before, .braille-pattern-dots-123678-before::before{ content:var(--braille-pattern-dots-123678)}
+.braille-pattern-dots-123678-after::after{content:var(--braille-pattern-dots-123678)}
+.braille-pattern-dots-123678-both::after, .braille-pattern-dots-123678-both::before {content:var(--braille-pattern-dots-123678)}
+.braille-pattern-dots-123678-list { list-style: var(--braille-pattern-dots-123678)}
+
+
+
+.braille-pattern-dots-12368::before, .braille-pattern-dots-12368-before::before{ content:var(--braille-pattern-dots-12368)}
+.braille-pattern-dots-12368-after::after{content:var(--braille-pattern-dots-12368)}
+.braille-pattern-dots-12368-both::after, .braille-pattern-dots-12368-both::before {content:var(--braille-pattern-dots-12368)}
+.braille-pattern-dots-12368-list { list-style: var(--braille-pattern-dots-12368)}
+
+
+
+.braille-pattern-dots-1237::before, .braille-pattern-dots-1237-before::before{ content:var(--braille-pattern-dots-1237)}
+.braille-pattern-dots-1237-after::after{content:var(--braille-pattern-dots-1237)}
+.braille-pattern-dots-1237-both::after, .braille-pattern-dots-1237-both::before {content:var(--braille-pattern-dots-1237)}
+.braille-pattern-dots-1237-list { list-style: var(--braille-pattern-dots-1237)}
+
+
+
+.braille-pattern-dots-12378::before, .braille-pattern-dots-12378-before::before{ content:var(--braille-pattern-dots-12378)}
+.braille-pattern-dots-12378-after::after{content:var(--braille-pattern-dots-12378)}
+.braille-pattern-dots-12378-both::after, .braille-pattern-dots-12378-both::before {content:var(--braille-pattern-dots-12378)}
+.braille-pattern-dots-12378-list { list-style: var(--braille-pattern-dots-12378)}
+
+
+
+.braille-pattern-dots-1238::before, .braille-pattern-dots-1238-before::before{ content:var(--braille-pattern-dots-1238)}
+.braille-pattern-dots-1238-after::after{content:var(--braille-pattern-dots-1238)}
+.braille-pattern-dots-1238-both::after, .braille-pattern-dots-1238-both::before {content:var(--braille-pattern-dots-1238)}
+.braille-pattern-dots-1238-list { list-style: var(--braille-pattern-dots-1238)}
+
+
+
+.braille-pattern-dots-124::before, .braille-pattern-dots-124-before::before{ content:var(--braille-pattern-dots-124)}
+.braille-pattern-dots-124-after::after{content:var(--braille-pattern-dots-124)}
+.braille-pattern-dots-124-both::after, .braille-pattern-dots-124-both::before {content:var(--braille-pattern-dots-124)}
+.braille-pattern-dots-124-list { list-style: var(--braille-pattern-dots-124)}
+
+
+
+.braille-pattern-dots-1245::before, .braille-pattern-dots-1245-before::before{ content:var(--braille-pattern-dots-1245)}
+.braille-pattern-dots-1245-after::after{content:var(--braille-pattern-dots-1245)}
+.braille-pattern-dots-1245-both::after, .braille-pattern-dots-1245-both::before {content:var(--braille-pattern-dots-1245)}
+.braille-pattern-dots-1245-list { list-style: var(--braille-pattern-dots-1245)}
+
+
+
+.braille-pattern-dots-12456::before, .braille-pattern-dots-12456-before::before{ content:var(--braille-pattern-dots-12456)}
+.braille-pattern-dots-12456-after::after{content:var(--braille-pattern-dots-12456)}
+.braille-pattern-dots-12456-both::after, .braille-pattern-dots-12456-both::before {content:var(--braille-pattern-dots-12456)}
+.braille-pattern-dots-12456-list { list-style: var(--braille-pattern-dots-12456)}
+
+
+
+.braille-pattern-dots-124567::before, .braille-pattern-dots-124567-before::before{ content:var(--braille-pattern-dots-124567)}
+.braille-pattern-dots-124567-after::after{content:var(--braille-pattern-dots-124567)}
+.braille-pattern-dots-124567-both::after, .braille-pattern-dots-124567-both::before {content:var(--braille-pattern-dots-124567)}
+.braille-pattern-dots-124567-list { list-style: var(--braille-pattern-dots-124567)}
+
+
+
+.braille-pattern-dots-1245678::before, .braille-pattern-dots-1245678-before::before{ content:var(--braille-pattern-dots-1245678)}
+.braille-pattern-dots-1245678-after::after{content:var(--braille-pattern-dots-1245678)}
+.braille-pattern-dots-1245678-both::after, .braille-pattern-dots-1245678-both::before {content:var(--braille-pattern-dots-1245678)}
+.braille-pattern-dots-1245678-list { list-style: var(--braille-pattern-dots-1245678)}
+
+
+
+.braille-pattern-dots-124568::before, .braille-pattern-dots-124568-before::before{ content:var(--braille-pattern-dots-124568)}
+.braille-pattern-dots-124568-after::after{content:var(--braille-pattern-dots-124568)}
+.braille-pattern-dots-124568-both::after, .braille-pattern-dots-124568-both::before {content:var(--braille-pattern-dots-124568)}
+.braille-pattern-dots-124568-list { list-style: var(--braille-pattern-dots-124568)}
+
+
+
+.braille-pattern-dots-12457::before, .braille-pattern-dots-12457-before::before{ content:var(--braille-pattern-dots-12457)}
+.braille-pattern-dots-12457-after::after{content:var(--braille-pattern-dots-12457)}
+.braille-pattern-dots-12457-both::after, .braille-pattern-dots-12457-both::before {content:var(--braille-pattern-dots-12457)}
+.braille-pattern-dots-12457-list { list-style: var(--braille-pattern-dots-12457)}
+
+
+
+.braille-pattern-dots-124578::before, .braille-pattern-dots-124578-before::before{ content:var(--braille-pattern-dots-124578)}
+.braille-pattern-dots-124578-after::after{content:var(--braille-pattern-dots-124578)}
+.braille-pattern-dots-124578-both::after, .braille-pattern-dots-124578-both::before {content:var(--braille-pattern-dots-124578)}
+.braille-pattern-dots-124578-list { list-style: var(--braille-pattern-dots-124578)}
+
+
+
+.braille-pattern-dots-12458::before, .braille-pattern-dots-12458-before::before{ content:var(--braille-pattern-dots-12458)}
+.braille-pattern-dots-12458-after::after{content:var(--braille-pattern-dots-12458)}
+.braille-pattern-dots-12458-both::after, .braille-pattern-dots-12458-both::before {content:var(--braille-pattern-dots-12458)}
+.braille-pattern-dots-12458-list { list-style: var(--braille-pattern-dots-12458)}
+
+
+
+.braille-pattern-dots-1246::before, .braille-pattern-dots-1246-before::before{ content:var(--braille-pattern-dots-1246)}
+.braille-pattern-dots-1246-after::after{content:var(--braille-pattern-dots-1246)}
+.braille-pattern-dots-1246-both::after, .braille-pattern-dots-1246-both::before {content:var(--braille-pattern-dots-1246)}
+.braille-pattern-dots-1246-list { list-style: var(--braille-pattern-dots-1246)}
+
+
+
+.braille-pattern-dots-12467::before, .braille-pattern-dots-12467-before::before{ content:var(--braille-pattern-dots-12467)}
+.braille-pattern-dots-12467-after::after{content:var(--braille-pattern-dots-12467)}
+.braille-pattern-dots-12467-both::after, .braille-pattern-dots-12467-both::before {content:var(--braille-pattern-dots-12467)}
+.braille-pattern-dots-12467-list { list-style: var(--braille-pattern-dots-12467)}
+
+
+
+.braille-pattern-dots-124678::before, .braille-pattern-dots-124678-before::before{ content:var(--braille-pattern-dots-124678)}
+.braille-pattern-dots-124678-after::after{content:var(--braille-pattern-dots-124678)}
+.braille-pattern-dots-124678-both::after, .braille-pattern-dots-124678-both::before {content:var(--braille-pattern-dots-124678)}
+.braille-pattern-dots-124678-list { list-style: var(--braille-pattern-dots-124678)}
+
+
+
+.braille-pattern-dots-12468::before, .braille-pattern-dots-12468-before::before{ content:var(--braille-pattern-dots-12468)}
+.braille-pattern-dots-12468-after::after{content:var(--braille-pattern-dots-12468)}
+.braille-pattern-dots-12468-both::after, .braille-pattern-dots-12468-both::before {content:var(--braille-pattern-dots-12468)}
+.braille-pattern-dots-12468-list { list-style: var(--braille-pattern-dots-12468)}
+
+
+
+.braille-pattern-dots-1247::before, .braille-pattern-dots-1247-before::before{ content:var(--braille-pattern-dots-1247)}
+.braille-pattern-dots-1247-after::after{content:var(--braille-pattern-dots-1247)}
+.braille-pattern-dots-1247-both::after, .braille-pattern-dots-1247-both::before {content:var(--braille-pattern-dots-1247)}
+.braille-pattern-dots-1247-list { list-style: var(--braille-pattern-dots-1247)}
+
+
+
+.braille-pattern-dots-12478::before, .braille-pattern-dots-12478-before::before{ content:var(--braille-pattern-dots-12478)}
+.braille-pattern-dots-12478-after::after{content:var(--braille-pattern-dots-12478)}
+.braille-pattern-dots-12478-both::after, .braille-pattern-dots-12478-both::before {content:var(--braille-pattern-dots-12478)}
+.braille-pattern-dots-12478-list { list-style: var(--braille-pattern-dots-12478)}
+
+
+
+.braille-pattern-dots-1248::before, .braille-pattern-dots-1248-before::before{ content:var(--braille-pattern-dots-1248)}
+.braille-pattern-dots-1248-after::after{content:var(--braille-pattern-dots-1248)}
+.braille-pattern-dots-1248-both::after, .braille-pattern-dots-1248-both::before {content:var(--braille-pattern-dots-1248)}
+.braille-pattern-dots-1248-list { list-style: var(--braille-pattern-dots-1248)}
+
+
+
+.braille-pattern-dots-125::before, .braille-pattern-dots-125-before::before{ content:var(--braille-pattern-dots-125)}
+.braille-pattern-dots-125-after::after{content:var(--braille-pattern-dots-125)}
+.braille-pattern-dots-125-both::after, .braille-pattern-dots-125-both::before {content:var(--braille-pattern-dots-125)}
+.braille-pattern-dots-125-list { list-style: var(--braille-pattern-dots-125)}
+
+
+
+.braille-pattern-dots-1256::before, .braille-pattern-dots-1256-before::before{ content:var(--braille-pattern-dots-1256)}
+.braille-pattern-dots-1256-after::after{content:var(--braille-pattern-dots-1256)}
+.braille-pattern-dots-1256-both::after, .braille-pattern-dots-1256-both::before {content:var(--braille-pattern-dots-1256)}
+.braille-pattern-dots-1256-list { list-style: var(--braille-pattern-dots-1256)}
+
+
+
+.braille-pattern-dots-12567::before, .braille-pattern-dots-12567-before::before{ content:var(--braille-pattern-dots-12567)}
+.braille-pattern-dots-12567-after::after{content:var(--braille-pattern-dots-12567)}
+.braille-pattern-dots-12567-both::after, .braille-pattern-dots-12567-both::before {content:var(--braille-pattern-dots-12567)}
+.braille-pattern-dots-12567-list { list-style: var(--braille-pattern-dots-12567)}
+
+
+
+.braille-pattern-dots-125678::before, .braille-pattern-dots-125678-before::before{ content:var(--braille-pattern-dots-125678)}
+.braille-pattern-dots-125678-after::after{content:var(--braille-pattern-dots-125678)}
+.braille-pattern-dots-125678-both::after, .braille-pattern-dots-125678-both::before {content:var(--braille-pattern-dots-125678)}
+.braille-pattern-dots-125678-list { list-style: var(--braille-pattern-dots-125678)}
+
+
+
+.braille-pattern-dots-12568::before, .braille-pattern-dots-12568-before::before{ content:var(--braille-pattern-dots-12568)}
+.braille-pattern-dots-12568-after::after{content:var(--braille-pattern-dots-12568)}
+.braille-pattern-dots-12568-both::after, .braille-pattern-dots-12568-both::before {content:var(--braille-pattern-dots-12568)}
+.braille-pattern-dots-12568-list { list-style: var(--braille-pattern-dots-12568)}
+
+
+
+.braille-pattern-dots-1257::before, .braille-pattern-dots-1257-before::before{ content:var(--braille-pattern-dots-1257)}
+.braille-pattern-dots-1257-after::after{content:var(--braille-pattern-dots-1257)}
+.braille-pattern-dots-1257-both::after, .braille-pattern-dots-1257-both::before {content:var(--braille-pattern-dots-1257)}
+.braille-pattern-dots-1257-list { list-style: var(--braille-pattern-dots-1257)}
+
+
+
+.braille-pattern-dots-12578::before, .braille-pattern-dots-12578-before::before{ content:var(--braille-pattern-dots-12578)}
+.braille-pattern-dots-12578-after::after{content:var(--braille-pattern-dots-12578)}
+.braille-pattern-dots-12578-both::after, .braille-pattern-dots-12578-both::before {content:var(--braille-pattern-dots-12578)}
+.braille-pattern-dots-12578-list { list-style: var(--braille-pattern-dots-12578)}
+
+
+
+.braille-pattern-dots-1258::before, .braille-pattern-dots-1258-before::before{ content:var(--braille-pattern-dots-1258)}
+.braille-pattern-dots-1258-after::after{content:var(--braille-pattern-dots-1258)}
+.braille-pattern-dots-1258-both::after, .braille-pattern-dots-1258-both::before {content:var(--braille-pattern-dots-1258)}
+.braille-pattern-dots-1258-list { list-style: var(--braille-pattern-dots-1258)}
+
+
+
+.braille-pattern-dots-126::before, .braille-pattern-dots-126-before::before{ content:var(--braille-pattern-dots-126)}
+.braille-pattern-dots-126-after::after{content:var(--braille-pattern-dots-126)}
+.braille-pattern-dots-126-both::after, .braille-pattern-dots-126-both::before {content:var(--braille-pattern-dots-126)}
+.braille-pattern-dots-126-list { list-style: var(--braille-pattern-dots-126)}
+
+
+
+.braille-pattern-dots-1267::before, .braille-pattern-dots-1267-before::before{ content:var(--braille-pattern-dots-1267)}
+.braille-pattern-dots-1267-after::after{content:var(--braille-pattern-dots-1267)}
+.braille-pattern-dots-1267-both::after, .braille-pattern-dots-1267-both::before {content:var(--braille-pattern-dots-1267)}
+.braille-pattern-dots-1267-list { list-style: var(--braille-pattern-dots-1267)}
+
+
+
+.braille-pattern-dots-12678::before, .braille-pattern-dots-12678-before::before{ content:var(--braille-pattern-dots-12678)}
+.braille-pattern-dots-12678-after::after{content:var(--braille-pattern-dots-12678)}
+.braille-pattern-dots-12678-both::after, .braille-pattern-dots-12678-both::before {content:var(--braille-pattern-dots-12678)}
+.braille-pattern-dots-12678-list { list-style: var(--braille-pattern-dots-12678)}
+
+
+
+.braille-pattern-dots-1268::before, .braille-pattern-dots-1268-before::before{ content:var(--braille-pattern-dots-1268)}
+.braille-pattern-dots-1268-after::after{content:var(--braille-pattern-dots-1268)}
+.braille-pattern-dots-1268-both::after, .braille-pattern-dots-1268-both::before {content:var(--braille-pattern-dots-1268)}
+.braille-pattern-dots-1268-list { list-style: var(--braille-pattern-dots-1268)}
+
+
+
+.braille-pattern-dots-127::before, .braille-pattern-dots-127-before::before{ content:var(--braille-pattern-dots-127)}
+.braille-pattern-dots-127-after::after{content:var(--braille-pattern-dots-127)}
+.braille-pattern-dots-127-both::after, .braille-pattern-dots-127-both::before {content:var(--braille-pattern-dots-127)}
+.braille-pattern-dots-127-list { list-style: var(--braille-pattern-dots-127)}
+
+
+
+.braille-pattern-dots-1278::before, .braille-pattern-dots-1278-before::before{ content:var(--braille-pattern-dots-1278)}
+.braille-pattern-dots-1278-after::after{content:var(--braille-pattern-dots-1278)}
+.braille-pattern-dots-1278-both::after, .braille-pattern-dots-1278-both::before {content:var(--braille-pattern-dots-1278)}
+.braille-pattern-dots-1278-list { list-style: var(--braille-pattern-dots-1278)}
+
+
+
+.braille-pattern-dots-128::before, .braille-pattern-dots-128-before::before{ content:var(--braille-pattern-dots-128)}
+.braille-pattern-dots-128-after::after{content:var(--braille-pattern-dots-128)}
+.braille-pattern-dots-128-both::after, .braille-pattern-dots-128-both::before {content:var(--braille-pattern-dots-128)}
+.braille-pattern-dots-128-list { list-style: var(--braille-pattern-dots-128)}
+
+
+
+.braille-pattern-dots-13::before, .braille-pattern-dots-13-before::before{ content:var(--braille-pattern-dots-13)}
+.braille-pattern-dots-13-after::after{content:var(--braille-pattern-dots-13)}
+.braille-pattern-dots-13-both::after, .braille-pattern-dots-13-both::before {content:var(--braille-pattern-dots-13)}
+.braille-pattern-dots-13-list { list-style: var(--braille-pattern-dots-13)}
+
+
+
+.braille-pattern-dots-134::before, .braille-pattern-dots-134-before::before{ content:var(--braille-pattern-dots-134)}
+.braille-pattern-dots-134-after::after{content:var(--braille-pattern-dots-134)}
+.braille-pattern-dots-134-both::after, .braille-pattern-dots-134-both::before {content:var(--braille-pattern-dots-134)}
+.braille-pattern-dots-134-list { list-style: var(--braille-pattern-dots-134)}
+
+
+
+.braille-pattern-dots-1345::before, .braille-pattern-dots-1345-before::before{ content:var(--braille-pattern-dots-1345)}
+.braille-pattern-dots-1345-after::after{content:var(--braille-pattern-dots-1345)}
+.braille-pattern-dots-1345-both::after, .braille-pattern-dots-1345-both::before {content:var(--braille-pattern-dots-1345)}
+.braille-pattern-dots-1345-list { list-style: var(--braille-pattern-dots-1345)}
+
+
+
+.braille-pattern-dots-13456::before, .braille-pattern-dots-13456-before::before{ content:var(--braille-pattern-dots-13456)}
+.braille-pattern-dots-13456-after::after{content:var(--braille-pattern-dots-13456)}
+.braille-pattern-dots-13456-both::after, .braille-pattern-dots-13456-both::before {content:var(--braille-pattern-dots-13456)}
+.braille-pattern-dots-13456-list { list-style: var(--braille-pattern-dots-13456)}
+
+
+
+.braille-pattern-dots-134567::before, .braille-pattern-dots-134567-before::before{ content:var(--braille-pattern-dots-134567)}
+.braille-pattern-dots-134567-after::after{content:var(--braille-pattern-dots-134567)}
+.braille-pattern-dots-134567-both::after, .braille-pattern-dots-134567-both::before {content:var(--braille-pattern-dots-134567)}
+.braille-pattern-dots-134567-list { list-style: var(--braille-pattern-dots-134567)}
+
+
+
+.braille-pattern-dots-1345678::before, .braille-pattern-dots-1345678-before::before{ content:var(--braille-pattern-dots-1345678)}
+.braille-pattern-dots-1345678-after::after{content:var(--braille-pattern-dots-1345678)}
+.braille-pattern-dots-1345678-both::after, .braille-pattern-dots-1345678-both::before {content:var(--braille-pattern-dots-1345678)}
+.braille-pattern-dots-1345678-list { list-style: var(--braille-pattern-dots-1345678)}
+
+
+
+.braille-pattern-dots-134568::before, .braille-pattern-dots-134568-before::before{ content:var(--braille-pattern-dots-134568)}
+.braille-pattern-dots-134568-after::after{content:var(--braille-pattern-dots-134568)}
+.braille-pattern-dots-134568-both::after, .braille-pattern-dots-134568-both::before {content:var(--braille-pattern-dots-134568)}
+.braille-pattern-dots-134568-list { list-style: var(--braille-pattern-dots-134568)}
+
+
+
+.braille-pattern-dots-13457::before, .braille-pattern-dots-13457-before::before{ content:var(--braille-pattern-dots-13457)}
+.braille-pattern-dots-13457-after::after{content:var(--braille-pattern-dots-13457)}
+.braille-pattern-dots-13457-both::after, .braille-pattern-dots-13457-both::before {content:var(--braille-pattern-dots-13457)}
+.braille-pattern-dots-13457-list { list-style: var(--braille-pattern-dots-13457)}
+
+
+
+.braille-pattern-dots-134578::before, .braille-pattern-dots-134578-before::before{ content:var(--braille-pattern-dots-134578)}
+.braille-pattern-dots-134578-after::after{content:var(--braille-pattern-dots-134578)}
+.braille-pattern-dots-134578-both::after, .braille-pattern-dots-134578-both::before {content:var(--braille-pattern-dots-134578)}
+.braille-pattern-dots-134578-list { list-style: var(--braille-pattern-dots-134578)}
+
+
+
+.braille-pattern-dots-13458::before, .braille-pattern-dots-13458-before::before{ content:var(--braille-pattern-dots-13458)}
+.braille-pattern-dots-13458-after::after{content:var(--braille-pattern-dots-13458)}
+.braille-pattern-dots-13458-both::after, .braille-pattern-dots-13458-both::before {content:var(--braille-pattern-dots-13458)}
+.braille-pattern-dots-13458-list { list-style: var(--braille-pattern-dots-13458)}
+
+
+
+.braille-pattern-dots-1346::before, .braille-pattern-dots-1346-before::before{ content:var(--braille-pattern-dots-1346)}
+.braille-pattern-dots-1346-after::after{content:var(--braille-pattern-dots-1346)}
+.braille-pattern-dots-1346-both::after, .braille-pattern-dots-1346-both::before {content:var(--braille-pattern-dots-1346)}
+.braille-pattern-dots-1346-list { list-style: var(--braille-pattern-dots-1346)}
+
+
+
+.braille-pattern-dots-13467::before, .braille-pattern-dots-13467-before::before{ content:var(--braille-pattern-dots-13467)}
+.braille-pattern-dots-13467-after::after{content:var(--braille-pattern-dots-13467)}
+.braille-pattern-dots-13467-both::after, .braille-pattern-dots-13467-both::before {content:var(--braille-pattern-dots-13467)}
+.braille-pattern-dots-13467-list { list-style: var(--braille-pattern-dots-13467)}
+
+
+
+.braille-pattern-dots-134678::before, .braille-pattern-dots-134678-before::before{ content:var(--braille-pattern-dots-134678)}
+.braille-pattern-dots-134678-after::after{content:var(--braille-pattern-dots-134678)}
+.braille-pattern-dots-134678-both::after, .braille-pattern-dots-134678-both::before {content:var(--braille-pattern-dots-134678)}
+.braille-pattern-dots-134678-list { list-style: var(--braille-pattern-dots-134678)}
+
+
+
+.braille-pattern-dots-13468::before, .braille-pattern-dots-13468-before::before{ content:var(--braille-pattern-dots-13468)}
+.braille-pattern-dots-13468-after::after{content:var(--braille-pattern-dots-13468)}
+.braille-pattern-dots-13468-both::after, .braille-pattern-dots-13468-both::before {content:var(--braille-pattern-dots-13468)}
+.braille-pattern-dots-13468-list { list-style: var(--braille-pattern-dots-13468)}
+
+
+
+.braille-pattern-dots-1347::before, .braille-pattern-dots-1347-before::before{ content:var(--braille-pattern-dots-1347)}
+.braille-pattern-dots-1347-after::after{content:var(--braille-pattern-dots-1347)}
+.braille-pattern-dots-1347-both::after, .braille-pattern-dots-1347-both::before {content:var(--braille-pattern-dots-1347)}
+.braille-pattern-dots-1347-list { list-style: var(--braille-pattern-dots-1347)}
+
+
+
+.braille-pattern-dots-13478::before, .braille-pattern-dots-13478-before::before{ content:var(--braille-pattern-dots-13478)}
+.braille-pattern-dots-13478-after::after{content:var(--braille-pattern-dots-13478)}
+.braille-pattern-dots-13478-both::after, .braille-pattern-dots-13478-both::before {content:var(--braille-pattern-dots-13478)}
+.braille-pattern-dots-13478-list { list-style: var(--braille-pattern-dots-13478)}
+
+
+
+.braille-pattern-dots-1348::before, .braille-pattern-dots-1348-before::before{ content:var(--braille-pattern-dots-1348)}
+.braille-pattern-dots-1348-after::after{content:var(--braille-pattern-dots-1348)}
+.braille-pattern-dots-1348-both::after, .braille-pattern-dots-1348-both::before {content:var(--braille-pattern-dots-1348)}
+.braille-pattern-dots-1348-list { list-style: var(--braille-pattern-dots-1348)}
+
+
+
+.braille-pattern-dots-135::before, .braille-pattern-dots-135-before::before{ content:var(--braille-pattern-dots-135)}
+.braille-pattern-dots-135-after::after{content:var(--braille-pattern-dots-135)}
+.braille-pattern-dots-135-both::after, .braille-pattern-dots-135-both::before {content:var(--braille-pattern-dots-135)}
+.braille-pattern-dots-135-list { list-style: var(--braille-pattern-dots-135)}
+
+
+
+.braille-pattern-dots-1356::before, .braille-pattern-dots-1356-before::before{ content:var(--braille-pattern-dots-1356)}
+.braille-pattern-dots-1356-after::after{content:var(--braille-pattern-dots-1356)}
+.braille-pattern-dots-1356-both::after, .braille-pattern-dots-1356-both::before {content:var(--braille-pattern-dots-1356)}
+.braille-pattern-dots-1356-list { list-style: var(--braille-pattern-dots-1356)}
+
+
+
+.braille-pattern-dots-13567::before, .braille-pattern-dots-13567-before::before{ content:var(--braille-pattern-dots-13567)}
+.braille-pattern-dots-13567-after::after{content:var(--braille-pattern-dots-13567)}
+.braille-pattern-dots-13567-both::after, .braille-pattern-dots-13567-both::before {content:var(--braille-pattern-dots-13567)}
+.braille-pattern-dots-13567-list { list-style: var(--braille-pattern-dots-13567)}
+
+
+
+.braille-pattern-dots-135678::before, .braille-pattern-dots-135678-before::before{ content:var(--braille-pattern-dots-135678)}
+.braille-pattern-dots-135678-after::after{content:var(--braille-pattern-dots-135678)}
+.braille-pattern-dots-135678-both::after, .braille-pattern-dots-135678-both::before {content:var(--braille-pattern-dots-135678)}
+.braille-pattern-dots-135678-list { list-style: var(--braille-pattern-dots-135678)}
+
+
+
+.braille-pattern-dots-13568::before, .braille-pattern-dots-13568-before::before{ content:var(--braille-pattern-dots-13568)}
+.braille-pattern-dots-13568-after::after{content:var(--braille-pattern-dots-13568)}
+.braille-pattern-dots-13568-both::after, .braille-pattern-dots-13568-both::before {content:var(--braille-pattern-dots-13568)}
+.braille-pattern-dots-13568-list { list-style: var(--braille-pattern-dots-13568)}
+
+
+
+.braille-pattern-dots-1357::before, .braille-pattern-dots-1357-before::before{ content:var(--braille-pattern-dots-1357)}
+.braille-pattern-dots-1357-after::after{content:var(--braille-pattern-dots-1357)}
+.braille-pattern-dots-1357-both::after, .braille-pattern-dots-1357-both::before {content:var(--braille-pattern-dots-1357)}
+.braille-pattern-dots-1357-list { list-style: var(--braille-pattern-dots-1357)}
+
+
+
+.braille-pattern-dots-13578::before, .braille-pattern-dots-13578-before::before{ content:var(--braille-pattern-dots-13578)}
+.braille-pattern-dots-13578-after::after{content:var(--braille-pattern-dots-13578)}
+.braille-pattern-dots-13578-both::after, .braille-pattern-dots-13578-both::before {content:var(--braille-pattern-dots-13578)}
+.braille-pattern-dots-13578-list { list-style: var(--braille-pattern-dots-13578)}
+
+
+
+.braille-pattern-dots-1358::before, .braille-pattern-dots-1358-before::before{ content:var(--braille-pattern-dots-1358)}
+.braille-pattern-dots-1358-after::after{content:var(--braille-pattern-dots-1358)}
+.braille-pattern-dots-1358-both::after, .braille-pattern-dots-1358-both::before {content:var(--braille-pattern-dots-1358)}
+.braille-pattern-dots-1358-list { list-style: var(--braille-pattern-dots-1358)}
+
+
+
+.braille-pattern-dots-136::before, .braille-pattern-dots-136-before::before{ content:var(--braille-pattern-dots-136)}
+.braille-pattern-dots-136-after::after{content:var(--braille-pattern-dots-136)}
+.braille-pattern-dots-136-both::after, .braille-pattern-dots-136-both::before {content:var(--braille-pattern-dots-136)}
+.braille-pattern-dots-136-list { list-style: var(--braille-pattern-dots-136)}
+
+
+
+.braille-pattern-dots-1367::before, .braille-pattern-dots-1367-before::before{ content:var(--braille-pattern-dots-1367)}
+.braille-pattern-dots-1367-after::after{content:var(--braille-pattern-dots-1367)}
+.braille-pattern-dots-1367-both::after, .braille-pattern-dots-1367-both::before {content:var(--braille-pattern-dots-1367)}
+.braille-pattern-dots-1367-list { list-style: var(--braille-pattern-dots-1367)}
+
+
+
+.braille-pattern-dots-13678::before, .braille-pattern-dots-13678-before::before{ content:var(--braille-pattern-dots-13678)}
+.braille-pattern-dots-13678-after::after{content:var(--braille-pattern-dots-13678)}
+.braille-pattern-dots-13678-both::after, .braille-pattern-dots-13678-both::before {content:var(--braille-pattern-dots-13678)}
+.braille-pattern-dots-13678-list { list-style: var(--braille-pattern-dots-13678)}
+
+
+
+.braille-pattern-dots-1368::before, .braille-pattern-dots-1368-before::before{ content:var(--braille-pattern-dots-1368)}
+.braille-pattern-dots-1368-after::after{content:var(--braille-pattern-dots-1368)}
+.braille-pattern-dots-1368-both::after, .braille-pattern-dots-1368-both::before {content:var(--braille-pattern-dots-1368)}
+.braille-pattern-dots-1368-list { list-style: var(--braille-pattern-dots-1368)}
+
+
+
+.braille-pattern-dots-137::before, .braille-pattern-dots-137-before::before{ content:var(--braille-pattern-dots-137)}
+.braille-pattern-dots-137-after::after{content:var(--braille-pattern-dots-137)}
+.braille-pattern-dots-137-both::after, .braille-pattern-dots-137-both::before {content:var(--braille-pattern-dots-137)}
+.braille-pattern-dots-137-list { list-style: var(--braille-pattern-dots-137)}
+
+
+
+.braille-pattern-dots-1378::before, .braille-pattern-dots-1378-before::before{ content:var(--braille-pattern-dots-1378)}
+.braille-pattern-dots-1378-after::after{content:var(--braille-pattern-dots-1378)}
+.braille-pattern-dots-1378-both::after, .braille-pattern-dots-1378-both::before {content:var(--braille-pattern-dots-1378)}
+.braille-pattern-dots-1378-list { list-style: var(--braille-pattern-dots-1378)}
+
+
+
+.braille-pattern-dots-138::before, .braille-pattern-dots-138-before::before{ content:var(--braille-pattern-dots-138)}
+.braille-pattern-dots-138-after::after{content:var(--braille-pattern-dots-138)}
+.braille-pattern-dots-138-both::after, .braille-pattern-dots-138-both::before {content:var(--braille-pattern-dots-138)}
+.braille-pattern-dots-138-list { list-style: var(--braille-pattern-dots-138)}
+
+
+
+.braille-pattern-dots-14::before, .braille-pattern-dots-14-before::before{ content:var(--braille-pattern-dots-14)}
+.braille-pattern-dots-14-after::after{content:var(--braille-pattern-dots-14)}
+.braille-pattern-dots-14-both::after, .braille-pattern-dots-14-both::before {content:var(--braille-pattern-dots-14)}
+.braille-pattern-dots-14-list { list-style: var(--braille-pattern-dots-14)}
+
+
+
+.braille-pattern-dots-145::before, .braille-pattern-dots-145-before::before{ content:var(--braille-pattern-dots-145)}
+.braille-pattern-dots-145-after::after{content:var(--braille-pattern-dots-145)}
+.braille-pattern-dots-145-both::after, .braille-pattern-dots-145-both::before {content:var(--braille-pattern-dots-145)}
+.braille-pattern-dots-145-list { list-style: var(--braille-pattern-dots-145)}
+
+
+
+.braille-pattern-dots-1456::before, .braille-pattern-dots-1456-before::before{ content:var(--braille-pattern-dots-1456)}
+.braille-pattern-dots-1456-after::after{content:var(--braille-pattern-dots-1456)}
+.braille-pattern-dots-1456-both::after, .braille-pattern-dots-1456-both::before {content:var(--braille-pattern-dots-1456)}
+.braille-pattern-dots-1456-list { list-style: var(--braille-pattern-dots-1456)}
+
+
+
+.braille-pattern-dots-14567::before, .braille-pattern-dots-14567-before::before{ content:var(--braille-pattern-dots-14567)}
+.braille-pattern-dots-14567-after::after{content:var(--braille-pattern-dots-14567)}
+.braille-pattern-dots-14567-both::after, .braille-pattern-dots-14567-both::before {content:var(--braille-pattern-dots-14567)}
+.braille-pattern-dots-14567-list { list-style: var(--braille-pattern-dots-14567)}
+
+
+
+.braille-pattern-dots-145678::before, .braille-pattern-dots-145678-before::before{ content:var(--braille-pattern-dots-145678)}
+.braille-pattern-dots-145678-after::after{content:var(--braille-pattern-dots-145678)}
+.braille-pattern-dots-145678-both::after, .braille-pattern-dots-145678-both::before {content:var(--braille-pattern-dots-145678)}
+.braille-pattern-dots-145678-list { list-style: var(--braille-pattern-dots-145678)}
+
+
+
+.braille-pattern-dots-14568::before, .braille-pattern-dots-14568-before::before{ content:var(--braille-pattern-dots-14568)}
+.braille-pattern-dots-14568-after::after{content:var(--braille-pattern-dots-14568)}
+.braille-pattern-dots-14568-both::after, .braille-pattern-dots-14568-both::before {content:var(--braille-pattern-dots-14568)}
+.braille-pattern-dots-14568-list { list-style: var(--braille-pattern-dots-14568)}
+
+
+
+.braille-pattern-dots-1457::before, .braille-pattern-dots-1457-before::before{ content:var(--braille-pattern-dots-1457)}
+.braille-pattern-dots-1457-after::after{content:var(--braille-pattern-dots-1457)}
+.braille-pattern-dots-1457-both::after, .braille-pattern-dots-1457-both::before {content:var(--braille-pattern-dots-1457)}
+.braille-pattern-dots-1457-list { list-style: var(--braille-pattern-dots-1457)}
+
+
+
+.braille-pattern-dots-14578::before, .braille-pattern-dots-14578-before::before{ content:var(--braille-pattern-dots-14578)}
+.braille-pattern-dots-14578-after::after{content:var(--braille-pattern-dots-14578)}
+.braille-pattern-dots-14578-both::after, .braille-pattern-dots-14578-both::before {content:var(--braille-pattern-dots-14578)}
+.braille-pattern-dots-14578-list { list-style: var(--braille-pattern-dots-14578)}
+
+
+
+.braille-pattern-dots-1458::before, .braille-pattern-dots-1458-before::before{ content:var(--braille-pattern-dots-1458)}
+.braille-pattern-dots-1458-after::after{content:var(--braille-pattern-dots-1458)}
+.braille-pattern-dots-1458-both::after, .braille-pattern-dots-1458-both::before {content:var(--braille-pattern-dots-1458)}
+.braille-pattern-dots-1458-list { list-style: var(--braille-pattern-dots-1458)}
+
+
+
+.braille-pattern-dots-146::before, .braille-pattern-dots-146-before::before{ content:var(--braille-pattern-dots-146)}
+.braille-pattern-dots-146-after::after{content:var(--braille-pattern-dots-146)}
+.braille-pattern-dots-146-both::after, .braille-pattern-dots-146-both::before {content:var(--braille-pattern-dots-146)}
+.braille-pattern-dots-146-list { list-style: var(--braille-pattern-dots-146)}
+
+
+
+.braille-pattern-dots-1467::before, .braille-pattern-dots-1467-before::before{ content:var(--braille-pattern-dots-1467)}
+.braille-pattern-dots-1467-after::after{content:var(--braille-pattern-dots-1467)}
+.braille-pattern-dots-1467-both::after, .braille-pattern-dots-1467-both::before {content:var(--braille-pattern-dots-1467)}
+.braille-pattern-dots-1467-list { list-style: var(--braille-pattern-dots-1467)}
+
+
+
+.braille-pattern-dots-14678::before, .braille-pattern-dots-14678-before::before{ content:var(--braille-pattern-dots-14678)}
+.braille-pattern-dots-14678-after::after{content:var(--braille-pattern-dots-14678)}
+.braille-pattern-dots-14678-both::after, .braille-pattern-dots-14678-both::before {content:var(--braille-pattern-dots-14678)}
+.braille-pattern-dots-14678-list { list-style: var(--braille-pattern-dots-14678)}
+
+
+
+.braille-pattern-dots-1468::before, .braille-pattern-dots-1468-before::before{ content:var(--braille-pattern-dots-1468)}
+.braille-pattern-dots-1468-after::after{content:var(--braille-pattern-dots-1468)}
+.braille-pattern-dots-1468-both::after, .braille-pattern-dots-1468-both::before {content:var(--braille-pattern-dots-1468)}
+.braille-pattern-dots-1468-list { list-style: var(--braille-pattern-dots-1468)}
+
+
+
+.braille-pattern-dots-147::before, .braille-pattern-dots-147-before::before{ content:var(--braille-pattern-dots-147)}
+.braille-pattern-dots-147-after::after{content:var(--braille-pattern-dots-147)}
+.braille-pattern-dots-147-both::after, .braille-pattern-dots-147-both::before {content:var(--braille-pattern-dots-147)}
+.braille-pattern-dots-147-list { list-style: var(--braille-pattern-dots-147)}
+
+
+
+.braille-pattern-dots-1478::before, .braille-pattern-dots-1478-before::before{ content:var(--braille-pattern-dots-1478)}
+.braille-pattern-dots-1478-after::after{content:var(--braille-pattern-dots-1478)}
+.braille-pattern-dots-1478-both::after, .braille-pattern-dots-1478-both::before {content:var(--braille-pattern-dots-1478)}
+.braille-pattern-dots-1478-list { list-style: var(--braille-pattern-dots-1478)}
+
+
+
+.braille-pattern-dots-148::before, .braille-pattern-dots-148-before::before{ content:var(--braille-pattern-dots-148)}
+.braille-pattern-dots-148-after::after{content:var(--braille-pattern-dots-148)}
+.braille-pattern-dots-148-both::after, .braille-pattern-dots-148-both::before {content:var(--braille-pattern-dots-148)}
+.braille-pattern-dots-148-list { list-style: var(--braille-pattern-dots-148)}
+
+
+
+.braille-pattern-dots-15::before, .braille-pattern-dots-15-before::before{ content:var(--braille-pattern-dots-15)}
+.braille-pattern-dots-15-after::after{content:var(--braille-pattern-dots-15)}
+.braille-pattern-dots-15-both::after, .braille-pattern-dots-15-both::before {content:var(--braille-pattern-dots-15)}
+.braille-pattern-dots-15-list { list-style: var(--braille-pattern-dots-15)}
+
+
+
+.braille-pattern-dots-156::before, .braille-pattern-dots-156-before::before{ content:var(--braille-pattern-dots-156)}
+.braille-pattern-dots-156-after::after{content:var(--braille-pattern-dots-156)}
+.braille-pattern-dots-156-both::after, .braille-pattern-dots-156-both::before {content:var(--braille-pattern-dots-156)}
+.braille-pattern-dots-156-list { list-style: var(--braille-pattern-dots-156)}
+
+
+
+.braille-pattern-dots-1567::before, .braille-pattern-dots-1567-before::before{ content:var(--braille-pattern-dots-1567)}
+.braille-pattern-dots-1567-after::after{content:var(--braille-pattern-dots-1567)}
+.braille-pattern-dots-1567-both::after, .braille-pattern-dots-1567-both::before {content:var(--braille-pattern-dots-1567)}
+.braille-pattern-dots-1567-list { list-style: var(--braille-pattern-dots-1567)}
+
+
+
+.braille-pattern-dots-15678::before, .braille-pattern-dots-15678-before::before{ content:var(--braille-pattern-dots-15678)}
+.braille-pattern-dots-15678-after::after{content:var(--braille-pattern-dots-15678)}
+.braille-pattern-dots-15678-both::after, .braille-pattern-dots-15678-both::before {content:var(--braille-pattern-dots-15678)}
+.braille-pattern-dots-15678-list { list-style: var(--braille-pattern-dots-15678)}
+
+
+
+.braille-pattern-dots-1568::before, .braille-pattern-dots-1568-before::before{ content:var(--braille-pattern-dots-1568)}
+.braille-pattern-dots-1568-after::after{content:var(--braille-pattern-dots-1568)}
+.braille-pattern-dots-1568-both::after, .braille-pattern-dots-1568-both::before {content:var(--braille-pattern-dots-1568)}
+.braille-pattern-dots-1568-list { list-style: var(--braille-pattern-dots-1568)}
+
+
+
+.braille-pattern-dots-157::before, .braille-pattern-dots-157-before::before{ content:var(--braille-pattern-dots-157)}
+.braille-pattern-dots-157-after::after{content:var(--braille-pattern-dots-157)}
+.braille-pattern-dots-157-both::after, .braille-pattern-dots-157-both::before {content:var(--braille-pattern-dots-157)}
+.braille-pattern-dots-157-list { list-style: var(--braille-pattern-dots-157)}
+
+
+
+.braille-pattern-dots-1578::before, .braille-pattern-dots-1578-before::before{ content:var(--braille-pattern-dots-1578)}
+.braille-pattern-dots-1578-after::after{content:var(--braille-pattern-dots-1578)}
+.braille-pattern-dots-1578-both::after, .braille-pattern-dots-1578-both::before {content:var(--braille-pattern-dots-1578)}
+.braille-pattern-dots-1578-list { list-style: var(--braille-pattern-dots-1578)}
+
+
+
+.braille-pattern-dots-158::before, .braille-pattern-dots-158-before::before{ content:var(--braille-pattern-dots-158)}
+.braille-pattern-dots-158-after::after{content:var(--braille-pattern-dots-158)}
+.braille-pattern-dots-158-both::after, .braille-pattern-dots-158-both::before {content:var(--braille-pattern-dots-158)}
+.braille-pattern-dots-158-list { list-style: var(--braille-pattern-dots-158)}
+
+
+
+.braille-pattern-dots-16::before, .braille-pattern-dots-16-before::before{ content:var(--braille-pattern-dots-16)}
+.braille-pattern-dots-16-after::after{content:var(--braille-pattern-dots-16)}
+.braille-pattern-dots-16-both::after, .braille-pattern-dots-16-both::before {content:var(--braille-pattern-dots-16)}
+.braille-pattern-dots-16-list { list-style: var(--braille-pattern-dots-16)}
+
+
+
+.braille-pattern-dots-167::before, .braille-pattern-dots-167-before::before{ content:var(--braille-pattern-dots-167)}
+.braille-pattern-dots-167-after::after{content:var(--braille-pattern-dots-167)}
+.braille-pattern-dots-167-both::after, .braille-pattern-dots-167-both::before {content:var(--braille-pattern-dots-167)}
+.braille-pattern-dots-167-list { list-style: var(--braille-pattern-dots-167)}
+
+
+
+.braille-pattern-dots-1678::before, .braille-pattern-dots-1678-before::before{ content:var(--braille-pattern-dots-1678)}
+.braille-pattern-dots-1678-after::after{content:var(--braille-pattern-dots-1678)}
+.braille-pattern-dots-1678-both::after, .braille-pattern-dots-1678-both::before {content:var(--braille-pattern-dots-1678)}
+.braille-pattern-dots-1678-list { list-style: var(--braille-pattern-dots-1678)}
+
+
+
+.braille-pattern-dots-168::before, .braille-pattern-dots-168-before::before{ content:var(--braille-pattern-dots-168)}
+.braille-pattern-dots-168-after::after{content:var(--braille-pattern-dots-168)}
+.braille-pattern-dots-168-both::after, .braille-pattern-dots-168-both::before {content:var(--braille-pattern-dots-168)}
+.braille-pattern-dots-168-list { list-style: var(--braille-pattern-dots-168)}
+
+
+
+.braille-pattern-dots-17::before, .braille-pattern-dots-17-before::before{ content:var(--braille-pattern-dots-17)}
+.braille-pattern-dots-17-after::after{content:var(--braille-pattern-dots-17)}
+.braille-pattern-dots-17-both::after, .braille-pattern-dots-17-both::before {content:var(--braille-pattern-dots-17)}
+.braille-pattern-dots-17-list { list-style: var(--braille-pattern-dots-17)}
+
+
+
+.braille-pattern-dots-178::before, .braille-pattern-dots-178-before::before{ content:var(--braille-pattern-dots-178)}
+.braille-pattern-dots-178-after::after{content:var(--braille-pattern-dots-178)}
+.braille-pattern-dots-178-both::after, .braille-pattern-dots-178-both::before {content:var(--braille-pattern-dots-178)}
+.braille-pattern-dots-178-list { list-style: var(--braille-pattern-dots-178)}
+
+
+
+.braille-pattern-dots-18::before, .braille-pattern-dots-18-before::before{ content:var(--braille-pattern-dots-18)}
+.braille-pattern-dots-18-after::after{content:var(--braille-pattern-dots-18)}
+.braille-pattern-dots-18-both::after, .braille-pattern-dots-18-both::before {content:var(--braille-pattern-dots-18)}
+.braille-pattern-dots-18-list { list-style: var(--braille-pattern-dots-18)}
+
+
+
+.braille-pattern-dots-2::before, .braille-pattern-dots-2-before::before{ content:var(--braille-pattern-dots-2)}
+.braille-pattern-dots-2-after::after{content:var(--braille-pattern-dots-2)}
+.braille-pattern-dots-2-both::after, .braille-pattern-dots-2-both::before {content:var(--braille-pattern-dots-2)}
+.braille-pattern-dots-2-list { list-style: var(--braille-pattern-dots-2)}
+
+
+
+.braille-pattern-dots-23::before, .braille-pattern-dots-23-before::before{ content:var(--braille-pattern-dots-23)}
+.braille-pattern-dots-23-after::after{content:var(--braille-pattern-dots-23)}
+.braille-pattern-dots-23-both::after, .braille-pattern-dots-23-both::before {content:var(--braille-pattern-dots-23)}
+.braille-pattern-dots-23-list { list-style: var(--braille-pattern-dots-23)}
+
+
+
+.braille-pattern-dots-234::before, .braille-pattern-dots-234-before::before{ content:var(--braille-pattern-dots-234)}
+.braille-pattern-dots-234-after::after{content:var(--braille-pattern-dots-234)}
+.braille-pattern-dots-234-both::after, .braille-pattern-dots-234-both::before {content:var(--braille-pattern-dots-234)}
+.braille-pattern-dots-234-list { list-style: var(--braille-pattern-dots-234)}
+
+
+
+.braille-pattern-dots-2345::before, .braille-pattern-dots-2345-before::before{ content:var(--braille-pattern-dots-2345)}
+.braille-pattern-dots-2345-after::after{content:var(--braille-pattern-dots-2345)}
+.braille-pattern-dots-2345-both::after, .braille-pattern-dots-2345-both::before {content:var(--braille-pattern-dots-2345)}
+.braille-pattern-dots-2345-list { list-style: var(--braille-pattern-dots-2345)}
+
+
+
+.braille-pattern-dots-23456::before, .braille-pattern-dots-23456-before::before{ content:var(--braille-pattern-dots-23456)}
+.braille-pattern-dots-23456-after::after{content:var(--braille-pattern-dots-23456)}
+.braille-pattern-dots-23456-both::after, .braille-pattern-dots-23456-both::before {content:var(--braille-pattern-dots-23456)}
+.braille-pattern-dots-23456-list { list-style: var(--braille-pattern-dots-23456)}
+
+
+
+.braille-pattern-dots-234567::before, .braille-pattern-dots-234567-before::before{ content:var(--braille-pattern-dots-234567)}
+.braille-pattern-dots-234567-after::after{content:var(--braille-pattern-dots-234567)}
+.braille-pattern-dots-234567-both::after, .braille-pattern-dots-234567-both::before {content:var(--braille-pattern-dots-234567)}
+.braille-pattern-dots-234567-list { list-style: var(--braille-pattern-dots-234567)}
+
+
+
+.braille-pattern-dots-2345678::before, .braille-pattern-dots-2345678-before::before{ content:var(--braille-pattern-dots-2345678)}
+.braille-pattern-dots-2345678-after::after{content:var(--braille-pattern-dots-2345678)}
+.braille-pattern-dots-2345678-both::after, .braille-pattern-dots-2345678-both::before {content:var(--braille-pattern-dots-2345678)}
+.braille-pattern-dots-2345678-list { list-style: var(--braille-pattern-dots-2345678)}
+
+
+
+.braille-pattern-dots-234568::before, .braille-pattern-dots-234568-before::before{ content:var(--braille-pattern-dots-234568)}
+.braille-pattern-dots-234568-after::after{content:var(--braille-pattern-dots-234568)}
+.braille-pattern-dots-234568-both::after, .braille-pattern-dots-234568-both::before {content:var(--braille-pattern-dots-234568)}
+.braille-pattern-dots-234568-list { list-style: var(--braille-pattern-dots-234568)}
+
+
+
+.braille-pattern-dots-23457::before, .braille-pattern-dots-23457-before::before{ content:var(--braille-pattern-dots-23457)}
+.braille-pattern-dots-23457-after::after{content:var(--braille-pattern-dots-23457)}
+.braille-pattern-dots-23457-both::after, .braille-pattern-dots-23457-both::before {content:var(--braille-pattern-dots-23457)}
+.braille-pattern-dots-23457-list { list-style: var(--braille-pattern-dots-23457)}
+
+
+
+.braille-pattern-dots-234578::before, .braille-pattern-dots-234578-before::before{ content:var(--braille-pattern-dots-234578)}
+.braille-pattern-dots-234578-after::after{content:var(--braille-pattern-dots-234578)}
+.braille-pattern-dots-234578-both::after, .braille-pattern-dots-234578-both::before {content:var(--braille-pattern-dots-234578)}
+.braille-pattern-dots-234578-list { list-style: var(--braille-pattern-dots-234578)}
+
+
+
+.braille-pattern-dots-23458::before, .braille-pattern-dots-23458-before::before{ content:var(--braille-pattern-dots-23458)}
+.braille-pattern-dots-23458-after::after{content:var(--braille-pattern-dots-23458)}
+.braille-pattern-dots-23458-both::after, .braille-pattern-dots-23458-both::before {content:var(--braille-pattern-dots-23458)}
+.braille-pattern-dots-23458-list { list-style: var(--braille-pattern-dots-23458)}
+
+
+
+.braille-pattern-dots-2346::before, .braille-pattern-dots-2346-before::before{ content:var(--braille-pattern-dots-2346)}
+.braille-pattern-dots-2346-after::after{content:var(--braille-pattern-dots-2346)}
+.braille-pattern-dots-2346-both::after, .braille-pattern-dots-2346-both::before {content:var(--braille-pattern-dots-2346)}
+.braille-pattern-dots-2346-list { list-style: var(--braille-pattern-dots-2346)}
+
+
+
+.braille-pattern-dots-23467::before, .braille-pattern-dots-23467-before::before{ content:var(--braille-pattern-dots-23467)}
+.braille-pattern-dots-23467-after::after{content:var(--braille-pattern-dots-23467)}
+.braille-pattern-dots-23467-both::after, .braille-pattern-dots-23467-both::before {content:var(--braille-pattern-dots-23467)}
+.braille-pattern-dots-23467-list { list-style: var(--braille-pattern-dots-23467)}
+
+
+
+.braille-pattern-dots-234678::before, .braille-pattern-dots-234678-before::before{ content:var(--braille-pattern-dots-234678)}
+.braille-pattern-dots-234678-after::after{content:var(--braille-pattern-dots-234678)}
+.braille-pattern-dots-234678-both::after, .braille-pattern-dots-234678-both::before {content:var(--braille-pattern-dots-234678)}
+.braille-pattern-dots-234678-list { list-style: var(--braille-pattern-dots-234678)}
+
+
+
+.braille-pattern-dots-23468::before, .braille-pattern-dots-23468-before::before{ content:var(--braille-pattern-dots-23468)}
+.braille-pattern-dots-23468-after::after{content:var(--braille-pattern-dots-23468)}
+.braille-pattern-dots-23468-both::after, .braille-pattern-dots-23468-both::before {content:var(--braille-pattern-dots-23468)}
+.braille-pattern-dots-23468-list { list-style: var(--braille-pattern-dots-23468)}
+
+
+
+.braille-pattern-dots-2347::before, .braille-pattern-dots-2347-before::before{ content:var(--braille-pattern-dots-2347)}
+.braille-pattern-dots-2347-after::after{content:var(--braille-pattern-dots-2347)}
+.braille-pattern-dots-2347-both::after, .braille-pattern-dots-2347-both::before {content:var(--braille-pattern-dots-2347)}
+.braille-pattern-dots-2347-list { list-style: var(--braille-pattern-dots-2347)}
+
+
+
+.braille-pattern-dots-23478::before, .braille-pattern-dots-23478-before::before{ content:var(--braille-pattern-dots-23478)}
+.braille-pattern-dots-23478-after::after{content:var(--braille-pattern-dots-23478)}
+.braille-pattern-dots-23478-both::after, .braille-pattern-dots-23478-both::before {content:var(--braille-pattern-dots-23478)}
+.braille-pattern-dots-23478-list { list-style: var(--braille-pattern-dots-23478)}
+
+
+
+.braille-pattern-dots-2348::before, .braille-pattern-dots-2348-before::before{ content:var(--braille-pattern-dots-2348)}
+.braille-pattern-dots-2348-after::after{content:var(--braille-pattern-dots-2348)}
+.braille-pattern-dots-2348-both::after, .braille-pattern-dots-2348-both::before {content:var(--braille-pattern-dots-2348)}
+.braille-pattern-dots-2348-list { list-style: var(--braille-pattern-dots-2348)}
+
+
+
+.braille-pattern-dots-235::before, .braille-pattern-dots-235-before::before{ content:var(--braille-pattern-dots-235)}
+.braille-pattern-dots-235-after::after{content:var(--braille-pattern-dots-235)}
+.braille-pattern-dots-235-both::after, .braille-pattern-dots-235-both::before {content:var(--braille-pattern-dots-235)}
+.braille-pattern-dots-235-list { list-style: var(--braille-pattern-dots-235)}
+
+
+
+.braille-pattern-dots-2356::before, .braille-pattern-dots-2356-before::before{ content:var(--braille-pattern-dots-2356)}
+.braille-pattern-dots-2356-after::after{content:var(--braille-pattern-dots-2356)}
+.braille-pattern-dots-2356-both::after, .braille-pattern-dots-2356-both::before {content:var(--braille-pattern-dots-2356)}
+.braille-pattern-dots-2356-list { list-style: var(--braille-pattern-dots-2356)}
+
+
+
+.braille-pattern-dots-23567::before, .braille-pattern-dots-23567-before::before{ content:var(--braille-pattern-dots-23567)}
+.braille-pattern-dots-23567-after::after{content:var(--braille-pattern-dots-23567)}
+.braille-pattern-dots-23567-both::after, .braille-pattern-dots-23567-both::before {content:var(--braille-pattern-dots-23567)}
+.braille-pattern-dots-23567-list { list-style: var(--braille-pattern-dots-23567)}
+
+
+
+.braille-pattern-dots-235678::before, .braille-pattern-dots-235678-before::before{ content:var(--braille-pattern-dots-235678)}
+.braille-pattern-dots-235678-after::after{content:var(--braille-pattern-dots-235678)}
+.braille-pattern-dots-235678-both::after, .braille-pattern-dots-235678-both::before {content:var(--braille-pattern-dots-235678)}
+.braille-pattern-dots-235678-list { list-style: var(--braille-pattern-dots-235678)}
+
+
+
+.braille-pattern-dots-23568::before, .braille-pattern-dots-23568-before::before{ content:var(--braille-pattern-dots-23568)}
+.braille-pattern-dots-23568-after::after{content:var(--braille-pattern-dots-23568)}
+.braille-pattern-dots-23568-both::after, .braille-pattern-dots-23568-both::before {content:var(--braille-pattern-dots-23568)}
+.braille-pattern-dots-23568-list { list-style: var(--braille-pattern-dots-23568)}
+
+
+
+.braille-pattern-dots-2357::before, .braille-pattern-dots-2357-before::before{ content:var(--braille-pattern-dots-2357)}
+.braille-pattern-dots-2357-after::after{content:var(--braille-pattern-dots-2357)}
+.braille-pattern-dots-2357-both::after, .braille-pattern-dots-2357-both::before {content:var(--braille-pattern-dots-2357)}
+.braille-pattern-dots-2357-list { list-style: var(--braille-pattern-dots-2357)}
+
+
+
+.braille-pattern-dots-23578::before, .braille-pattern-dots-23578-before::before{ content:var(--braille-pattern-dots-23578)}
+.braille-pattern-dots-23578-after::after{content:var(--braille-pattern-dots-23578)}
+.braille-pattern-dots-23578-both::after, .braille-pattern-dots-23578-both::before {content:var(--braille-pattern-dots-23578)}
+.braille-pattern-dots-23578-list { list-style: var(--braille-pattern-dots-23578)}
+
+
+
+.braille-pattern-dots-2358::before, .braille-pattern-dots-2358-before::before{ content:var(--braille-pattern-dots-2358)}
+.braille-pattern-dots-2358-after::after{content:var(--braille-pattern-dots-2358)}
+.braille-pattern-dots-2358-both::after, .braille-pattern-dots-2358-both::before {content:var(--braille-pattern-dots-2358)}
+.braille-pattern-dots-2358-list { list-style: var(--braille-pattern-dots-2358)}
+
+
+
+.braille-pattern-dots-236::before, .braille-pattern-dots-236-before::before{ content:var(--braille-pattern-dots-236)}
+.braille-pattern-dots-236-after::after{content:var(--braille-pattern-dots-236)}
+.braille-pattern-dots-236-both::after, .braille-pattern-dots-236-both::before {content:var(--braille-pattern-dots-236)}
+.braille-pattern-dots-236-list { list-style: var(--braille-pattern-dots-236)}
+
+
+
+.braille-pattern-dots-2367::before, .braille-pattern-dots-2367-before::before{ content:var(--braille-pattern-dots-2367)}
+.braille-pattern-dots-2367-after::after{content:var(--braille-pattern-dots-2367)}
+.braille-pattern-dots-2367-both::after, .braille-pattern-dots-2367-both::before {content:var(--braille-pattern-dots-2367)}
+.braille-pattern-dots-2367-list { list-style: var(--braille-pattern-dots-2367)}
+
+
+
+.braille-pattern-dots-23678::before, .braille-pattern-dots-23678-before::before{ content:var(--braille-pattern-dots-23678)}
+.braille-pattern-dots-23678-after::after{content:var(--braille-pattern-dots-23678)}
+.braille-pattern-dots-23678-both::after, .braille-pattern-dots-23678-both::before {content:var(--braille-pattern-dots-23678)}
+.braille-pattern-dots-23678-list { list-style: var(--braille-pattern-dots-23678)}
+
+
+
+.braille-pattern-dots-2368::before, .braille-pattern-dots-2368-before::before{ content:var(--braille-pattern-dots-2368)}
+.braille-pattern-dots-2368-after::after{content:var(--braille-pattern-dots-2368)}
+.braille-pattern-dots-2368-both::after, .braille-pattern-dots-2368-both::before {content:var(--braille-pattern-dots-2368)}
+.braille-pattern-dots-2368-list { list-style: var(--braille-pattern-dots-2368)}
+
+
+
+.braille-pattern-dots-237::before, .braille-pattern-dots-237-before::before{ content:var(--braille-pattern-dots-237)}
+.braille-pattern-dots-237-after::after{content:var(--braille-pattern-dots-237)}
+.braille-pattern-dots-237-both::after, .braille-pattern-dots-237-both::before {content:var(--braille-pattern-dots-237)}
+.braille-pattern-dots-237-list { list-style: var(--braille-pattern-dots-237)}
+
+
+
+.braille-pattern-dots-2378::before, .braille-pattern-dots-2378-before::before{ content:var(--braille-pattern-dots-2378)}
+.braille-pattern-dots-2378-after::after{content:var(--braille-pattern-dots-2378)}
+.braille-pattern-dots-2378-both::after, .braille-pattern-dots-2378-both::before {content:var(--braille-pattern-dots-2378)}
+.braille-pattern-dots-2378-list { list-style: var(--braille-pattern-dots-2378)}
+
+
+
+.braille-pattern-dots-238::before, .braille-pattern-dots-238-before::before{ content:var(--braille-pattern-dots-238)}
+.braille-pattern-dots-238-after::after{content:var(--braille-pattern-dots-238)}
+.braille-pattern-dots-238-both::after, .braille-pattern-dots-238-both::before {content:var(--braille-pattern-dots-238)}
+.braille-pattern-dots-238-list { list-style: var(--braille-pattern-dots-238)}
+
+
+
+.braille-pattern-dots-24::before, .braille-pattern-dots-24-before::before{ content:var(--braille-pattern-dots-24)}
+.braille-pattern-dots-24-after::after{content:var(--braille-pattern-dots-24)}
+.braille-pattern-dots-24-both::after, .braille-pattern-dots-24-both::before {content:var(--braille-pattern-dots-24)}
+.braille-pattern-dots-24-list { list-style: var(--braille-pattern-dots-24)}
+
+
+
+.braille-pattern-dots-245::before, .braille-pattern-dots-245-before::before{ content:var(--braille-pattern-dots-245)}
+.braille-pattern-dots-245-after::after{content:var(--braille-pattern-dots-245)}
+.braille-pattern-dots-245-both::after, .braille-pattern-dots-245-both::before {content:var(--braille-pattern-dots-245)}
+.braille-pattern-dots-245-list { list-style: var(--braille-pattern-dots-245)}
+
+
+
+.braille-pattern-dots-2456::before, .braille-pattern-dots-2456-before::before{ content:var(--braille-pattern-dots-2456)}
+.braille-pattern-dots-2456-after::after{content:var(--braille-pattern-dots-2456)}
+.braille-pattern-dots-2456-both::after, .braille-pattern-dots-2456-both::before {content:var(--braille-pattern-dots-2456)}
+.braille-pattern-dots-2456-list { list-style: var(--braille-pattern-dots-2456)}
+
+
+
+.braille-pattern-dots-24567::before, .braille-pattern-dots-24567-before::before{ content:var(--braille-pattern-dots-24567)}
+.braille-pattern-dots-24567-after::after{content:var(--braille-pattern-dots-24567)}
+.braille-pattern-dots-24567-both::after, .braille-pattern-dots-24567-both::before {content:var(--braille-pattern-dots-24567)}
+.braille-pattern-dots-24567-list { list-style: var(--braille-pattern-dots-24567)}
+
+
+
+.braille-pattern-dots-245678::before, .braille-pattern-dots-245678-before::before{ content:var(--braille-pattern-dots-245678)}
+.braille-pattern-dots-245678-after::after{content:var(--braille-pattern-dots-245678)}
+.braille-pattern-dots-245678-both::after, .braille-pattern-dots-245678-both::before {content:var(--braille-pattern-dots-245678)}
+.braille-pattern-dots-245678-list { list-style: var(--braille-pattern-dots-245678)}
+
+
+
+.braille-pattern-dots-24568::before, .braille-pattern-dots-24568-before::before{ content:var(--braille-pattern-dots-24568)}
+.braille-pattern-dots-24568-after::after{content:var(--braille-pattern-dots-24568)}
+.braille-pattern-dots-24568-both::after, .braille-pattern-dots-24568-both::before {content:var(--braille-pattern-dots-24568)}
+.braille-pattern-dots-24568-list { list-style: var(--braille-pattern-dots-24568)}
+
+
+
+.braille-pattern-dots-2457::before, .braille-pattern-dots-2457-before::before{ content:var(--braille-pattern-dots-2457)}
+.braille-pattern-dots-2457-after::after{content:var(--braille-pattern-dots-2457)}
+.braille-pattern-dots-2457-both::after, .braille-pattern-dots-2457-both::before {content:var(--braille-pattern-dots-2457)}
+.braille-pattern-dots-2457-list { list-style: var(--braille-pattern-dots-2457)}
+
+
+
+.braille-pattern-dots-24578::before, .braille-pattern-dots-24578-before::before{ content:var(--braille-pattern-dots-24578)}
+.braille-pattern-dots-24578-after::after{content:var(--braille-pattern-dots-24578)}
+.braille-pattern-dots-24578-both::after, .braille-pattern-dots-24578-both::before {content:var(--braille-pattern-dots-24578)}
+.braille-pattern-dots-24578-list { list-style: var(--braille-pattern-dots-24578)}
+
+
+
+.braille-pattern-dots-2458::before, .braille-pattern-dots-2458-before::before{ content:var(--braille-pattern-dots-2458)}
+.braille-pattern-dots-2458-after::after{content:var(--braille-pattern-dots-2458)}
+.braille-pattern-dots-2458-both::after, .braille-pattern-dots-2458-both::before {content:var(--braille-pattern-dots-2458)}
+.braille-pattern-dots-2458-list { list-style: var(--braille-pattern-dots-2458)}
+
+
+
+.braille-pattern-dots-246::before, .braille-pattern-dots-246-before::before{ content:var(--braille-pattern-dots-246)}
+.braille-pattern-dots-246-after::after{content:var(--braille-pattern-dots-246)}
+.braille-pattern-dots-246-both::after, .braille-pattern-dots-246-both::before {content:var(--braille-pattern-dots-246)}
+.braille-pattern-dots-246-list { list-style: var(--braille-pattern-dots-246)}
+
+
+
+.braille-pattern-dots-2467::before, .braille-pattern-dots-2467-before::before{ content:var(--braille-pattern-dots-2467)}
+.braille-pattern-dots-2467-after::after{content:var(--braille-pattern-dots-2467)}
+.braille-pattern-dots-2467-both::after, .braille-pattern-dots-2467-both::before {content:var(--braille-pattern-dots-2467)}
+.braille-pattern-dots-2467-list { list-style: var(--braille-pattern-dots-2467)}
+
+
+
+.braille-pattern-dots-24678::before, .braille-pattern-dots-24678-before::before{ content:var(--braille-pattern-dots-24678)}
+.braille-pattern-dots-24678-after::after{content:var(--braille-pattern-dots-24678)}
+.braille-pattern-dots-24678-both::after, .braille-pattern-dots-24678-both::before {content:var(--braille-pattern-dots-24678)}
+.braille-pattern-dots-24678-list { list-style: var(--braille-pattern-dots-24678)}
+
+
+
+.braille-pattern-dots-2468::before, .braille-pattern-dots-2468-before::before{ content:var(--braille-pattern-dots-2468)}
+.braille-pattern-dots-2468-after::after{content:var(--braille-pattern-dots-2468)}
+.braille-pattern-dots-2468-both::after, .braille-pattern-dots-2468-both::before {content:var(--braille-pattern-dots-2468)}
+.braille-pattern-dots-2468-list { list-style: var(--braille-pattern-dots-2468)}
+
+
+
+.braille-pattern-dots-247::before, .braille-pattern-dots-247-before::before{ content:var(--braille-pattern-dots-247)}
+.braille-pattern-dots-247-after::after{content:var(--braille-pattern-dots-247)}
+.braille-pattern-dots-247-both::after, .braille-pattern-dots-247-both::before {content:var(--braille-pattern-dots-247)}
+.braille-pattern-dots-247-list { list-style: var(--braille-pattern-dots-247)}
+
+
+
+.braille-pattern-dots-2478::before, .braille-pattern-dots-2478-before::before{ content:var(--braille-pattern-dots-2478)}
+.braille-pattern-dots-2478-after::after{content:var(--braille-pattern-dots-2478)}
+.braille-pattern-dots-2478-both::after, .braille-pattern-dots-2478-both::before {content:var(--braille-pattern-dots-2478)}
+.braille-pattern-dots-2478-list { list-style: var(--braille-pattern-dots-2478)}
+
+
+
+.braille-pattern-dots-248::before, .braille-pattern-dots-248-before::before{ content:var(--braille-pattern-dots-248)}
+.braille-pattern-dots-248-after::after{content:var(--braille-pattern-dots-248)}
+.braille-pattern-dots-248-both::after, .braille-pattern-dots-248-both::before {content:var(--braille-pattern-dots-248)}
+.braille-pattern-dots-248-list { list-style: var(--braille-pattern-dots-248)}
+
+
+
+.braille-pattern-dots-25::before, .braille-pattern-dots-25-before::before{ content:var(--braille-pattern-dots-25)}
+.braille-pattern-dots-25-after::after{content:var(--braille-pattern-dots-25)}
+.braille-pattern-dots-25-both::after, .braille-pattern-dots-25-both::before {content:var(--braille-pattern-dots-25)}
+.braille-pattern-dots-25-list { list-style: var(--braille-pattern-dots-25)}
+
+
+
+.braille-pattern-dots-256::before, .braille-pattern-dots-256-before::before{ content:var(--braille-pattern-dots-256)}
+.braille-pattern-dots-256-after::after{content:var(--braille-pattern-dots-256)}
+.braille-pattern-dots-256-both::after, .braille-pattern-dots-256-both::before {content:var(--braille-pattern-dots-256)}
+.braille-pattern-dots-256-list { list-style: var(--braille-pattern-dots-256)}
+
+
+
+.braille-pattern-dots-2567::before, .braille-pattern-dots-2567-before::before{ content:var(--braille-pattern-dots-2567)}
+.braille-pattern-dots-2567-after::after{content:var(--braille-pattern-dots-2567)}
+.braille-pattern-dots-2567-both::after, .braille-pattern-dots-2567-both::before {content:var(--braille-pattern-dots-2567)}
+.braille-pattern-dots-2567-list { list-style: var(--braille-pattern-dots-2567)}
+
+
+
+.braille-pattern-dots-25678::before, .braille-pattern-dots-25678-before::before{ content:var(--braille-pattern-dots-25678)}
+.braille-pattern-dots-25678-after::after{content:var(--braille-pattern-dots-25678)}
+.braille-pattern-dots-25678-both::after, .braille-pattern-dots-25678-both::before {content:var(--braille-pattern-dots-25678)}
+.braille-pattern-dots-25678-list { list-style: var(--braille-pattern-dots-25678)}
+
+
+
+.braille-pattern-dots-2568::before, .braille-pattern-dots-2568-before::before{ content:var(--braille-pattern-dots-2568)}
+.braille-pattern-dots-2568-after::after{content:var(--braille-pattern-dots-2568)}
+.braille-pattern-dots-2568-both::after, .braille-pattern-dots-2568-both::before {content:var(--braille-pattern-dots-2568)}
+.braille-pattern-dots-2568-list { list-style: var(--braille-pattern-dots-2568)}
+
+
+
+.braille-pattern-dots-257::before, .braille-pattern-dots-257-before::before{ content:var(--braille-pattern-dots-257)}
+.braille-pattern-dots-257-after::after{content:var(--braille-pattern-dots-257)}
+.braille-pattern-dots-257-both::after, .braille-pattern-dots-257-both::before {content:var(--braille-pattern-dots-257)}
+.braille-pattern-dots-257-list { list-style: var(--braille-pattern-dots-257)}
+
+
+
+.braille-pattern-dots-2578::before, .braille-pattern-dots-2578-before::before{ content:var(--braille-pattern-dots-2578)}
+.braille-pattern-dots-2578-after::after{content:var(--braille-pattern-dots-2578)}
+.braille-pattern-dots-2578-both::after, .braille-pattern-dots-2578-both::before {content:var(--braille-pattern-dots-2578)}
+.braille-pattern-dots-2578-list { list-style: var(--braille-pattern-dots-2578)}
+
+
+
+.braille-pattern-dots-258::before, .braille-pattern-dots-258-before::before{ content:var(--braille-pattern-dots-258)}
+.braille-pattern-dots-258-after::after{content:var(--braille-pattern-dots-258)}
+.braille-pattern-dots-258-both::after, .braille-pattern-dots-258-both::before {content:var(--braille-pattern-dots-258)}
+.braille-pattern-dots-258-list { list-style: var(--braille-pattern-dots-258)}
+
+
+
+.braille-pattern-dots-26::before, .braille-pattern-dots-26-before::before{ content:var(--braille-pattern-dots-26)}
+.braille-pattern-dots-26-after::after{content:var(--braille-pattern-dots-26)}
+.braille-pattern-dots-26-both::after, .braille-pattern-dots-26-both::before {content:var(--braille-pattern-dots-26)}
+.braille-pattern-dots-26-list { list-style: var(--braille-pattern-dots-26)}
+
+
+
+.braille-pattern-dots-267::before, .braille-pattern-dots-267-before::before{ content:var(--braille-pattern-dots-267)}
+.braille-pattern-dots-267-after::after{content:var(--braille-pattern-dots-267)}
+.braille-pattern-dots-267-both::after, .braille-pattern-dots-267-both::before {content:var(--braille-pattern-dots-267)}
+.braille-pattern-dots-267-list { list-style: var(--braille-pattern-dots-267)}
+
+
+
+.braille-pattern-dots-2678::before, .braille-pattern-dots-2678-before::before{ content:var(--braille-pattern-dots-2678)}
+.braille-pattern-dots-2678-after::after{content:var(--braille-pattern-dots-2678)}
+.braille-pattern-dots-2678-both::after, .braille-pattern-dots-2678-both::before {content:var(--braille-pattern-dots-2678)}
+.braille-pattern-dots-2678-list { list-style: var(--braille-pattern-dots-2678)}
+
+
+
+.braille-pattern-dots-268::before, .braille-pattern-dots-268-before::before{ content:var(--braille-pattern-dots-268)}
+.braille-pattern-dots-268-after::after{content:var(--braille-pattern-dots-268)}
+.braille-pattern-dots-268-both::after, .braille-pattern-dots-268-both::before {content:var(--braille-pattern-dots-268)}
+.braille-pattern-dots-268-list { list-style: var(--braille-pattern-dots-268)}
+
+
+
+.braille-pattern-dots-27::before, .braille-pattern-dots-27-before::before{ content:var(--braille-pattern-dots-27)}
+.braille-pattern-dots-27-after::after{content:var(--braille-pattern-dots-27)}
+.braille-pattern-dots-27-both::after, .braille-pattern-dots-27-both::before {content:var(--braille-pattern-dots-27)}
+.braille-pattern-dots-27-list { list-style: var(--braille-pattern-dots-27)}
+
+
+
+.braille-pattern-dots-278::before, .braille-pattern-dots-278-before::before{ content:var(--braille-pattern-dots-278)}
+.braille-pattern-dots-278-after::after{content:var(--braille-pattern-dots-278)}
+.braille-pattern-dots-278-both::after, .braille-pattern-dots-278-both::before {content:var(--braille-pattern-dots-278)}
+.braille-pattern-dots-278-list { list-style: var(--braille-pattern-dots-278)}
+
+
+
+.braille-pattern-dots-28::before, .braille-pattern-dots-28-before::before{ content:var(--braille-pattern-dots-28)}
+.braille-pattern-dots-28-after::after{content:var(--braille-pattern-dots-28)}
+.braille-pattern-dots-28-both::after, .braille-pattern-dots-28-both::before {content:var(--braille-pattern-dots-28)}
+.braille-pattern-dots-28-list { list-style: var(--braille-pattern-dots-28)}
+
+
+
+.braille-pattern-dots-3::before, .braille-pattern-dots-3-before::before{ content:var(--braille-pattern-dots-3)}
+.braille-pattern-dots-3-after::after{content:var(--braille-pattern-dots-3)}
+.braille-pattern-dots-3-both::after, .braille-pattern-dots-3-both::before {content:var(--braille-pattern-dots-3)}
+.braille-pattern-dots-3-list { list-style: var(--braille-pattern-dots-3)}
+
+
+
+.braille-pattern-dots-34::before, .braille-pattern-dots-34-before::before{ content:var(--braille-pattern-dots-34)}
+.braille-pattern-dots-34-after::after{content:var(--braille-pattern-dots-34)}
+.braille-pattern-dots-34-both::after, .braille-pattern-dots-34-both::before {content:var(--braille-pattern-dots-34)}
+.braille-pattern-dots-34-list { list-style: var(--braille-pattern-dots-34)}
+
+
+
+.braille-pattern-dots-345::before, .braille-pattern-dots-345-before::before{ content:var(--braille-pattern-dots-345)}
+.braille-pattern-dots-345-after::after{content:var(--braille-pattern-dots-345)}
+.braille-pattern-dots-345-both::after, .braille-pattern-dots-345-both::before {content:var(--braille-pattern-dots-345)}
+.braille-pattern-dots-345-list { list-style: var(--braille-pattern-dots-345)}
+
+
+
+.braille-pattern-dots-3456::before, .braille-pattern-dots-3456-before::before{ content:var(--braille-pattern-dots-3456)}
+.braille-pattern-dots-3456-after::after{content:var(--braille-pattern-dots-3456)}
+.braille-pattern-dots-3456-both::after, .braille-pattern-dots-3456-both::before {content:var(--braille-pattern-dots-3456)}
+.braille-pattern-dots-3456-list { list-style: var(--braille-pattern-dots-3456)}
+
+
+
+.braille-pattern-dots-34567::before, .braille-pattern-dots-34567-before::before{ content:var(--braille-pattern-dots-34567)}
+.braille-pattern-dots-34567-after::after{content:var(--braille-pattern-dots-34567)}
+.braille-pattern-dots-34567-both::after, .braille-pattern-dots-34567-both::before {content:var(--braille-pattern-dots-34567)}
+.braille-pattern-dots-34567-list { list-style: var(--braille-pattern-dots-34567)}
+
+
+
+.braille-pattern-dots-345678::before, .braille-pattern-dots-345678-before::before{ content:var(--braille-pattern-dots-345678)}
+.braille-pattern-dots-345678-after::after{content:var(--braille-pattern-dots-345678)}
+.braille-pattern-dots-345678-both::after, .braille-pattern-dots-345678-both::before {content:var(--braille-pattern-dots-345678)}
+.braille-pattern-dots-345678-list { list-style: var(--braille-pattern-dots-345678)}
+
+
+
+.braille-pattern-dots-34568::before, .braille-pattern-dots-34568-before::before{ content:var(--braille-pattern-dots-34568)}
+.braille-pattern-dots-34568-after::after{content:var(--braille-pattern-dots-34568)}
+.braille-pattern-dots-34568-both::after, .braille-pattern-dots-34568-both::before {content:var(--braille-pattern-dots-34568)}
+.braille-pattern-dots-34568-list { list-style: var(--braille-pattern-dots-34568)}
+
+
+
+.braille-pattern-dots-3457::before, .braille-pattern-dots-3457-before::before{ content:var(--braille-pattern-dots-3457)}
+.braille-pattern-dots-3457-after::after{content:var(--braille-pattern-dots-3457)}
+.braille-pattern-dots-3457-both::after, .braille-pattern-dots-3457-both::before {content:var(--braille-pattern-dots-3457)}
+.braille-pattern-dots-3457-list { list-style: var(--braille-pattern-dots-3457)}
+
+
+
+.braille-pattern-dots-34578::before, .braille-pattern-dots-34578-before::before{ content:var(--braille-pattern-dots-34578)}
+.braille-pattern-dots-34578-after::after{content:var(--braille-pattern-dots-34578)}
+.braille-pattern-dots-34578-both::after, .braille-pattern-dots-34578-both::before {content:var(--braille-pattern-dots-34578)}
+.braille-pattern-dots-34578-list { list-style: var(--braille-pattern-dots-34578)}
+
+
+
+.braille-pattern-dots-3458::before, .braille-pattern-dots-3458-before::before{ content:var(--braille-pattern-dots-3458)}
+.braille-pattern-dots-3458-after::after{content:var(--braille-pattern-dots-3458)}
+.braille-pattern-dots-3458-both::after, .braille-pattern-dots-3458-both::before {content:var(--braille-pattern-dots-3458)}
+.braille-pattern-dots-3458-list { list-style: var(--braille-pattern-dots-3458)}
+
+
+
+.braille-pattern-dots-346::before, .braille-pattern-dots-346-before::before{ content:var(--braille-pattern-dots-346)}
+.braille-pattern-dots-346-after::after{content:var(--braille-pattern-dots-346)}
+.braille-pattern-dots-346-both::after, .braille-pattern-dots-346-both::before {content:var(--braille-pattern-dots-346)}
+.braille-pattern-dots-346-list { list-style: var(--braille-pattern-dots-346)}
+
+
+
+.braille-pattern-dots-3467::before, .braille-pattern-dots-3467-before::before{ content:var(--braille-pattern-dots-3467)}
+.braille-pattern-dots-3467-after::after{content:var(--braille-pattern-dots-3467)}
+.braille-pattern-dots-3467-both::after, .braille-pattern-dots-3467-both::before {content:var(--braille-pattern-dots-3467)}
+.braille-pattern-dots-3467-list { list-style: var(--braille-pattern-dots-3467)}
+
+
+
+.braille-pattern-dots-34678::before, .braille-pattern-dots-34678-before::before{ content:var(--braille-pattern-dots-34678)}
+.braille-pattern-dots-34678-after::after{content:var(--braille-pattern-dots-34678)}
+.braille-pattern-dots-34678-both::after, .braille-pattern-dots-34678-both::before {content:var(--braille-pattern-dots-34678)}
+.braille-pattern-dots-34678-list { list-style: var(--braille-pattern-dots-34678)}
+
+
+
+.braille-pattern-dots-3468::before, .braille-pattern-dots-3468-before::before{ content:var(--braille-pattern-dots-3468)}
+.braille-pattern-dots-3468-after::after{content:var(--braille-pattern-dots-3468)}
+.braille-pattern-dots-3468-both::after, .braille-pattern-dots-3468-both::before {content:var(--braille-pattern-dots-3468)}
+.braille-pattern-dots-3468-list { list-style: var(--braille-pattern-dots-3468)}
+
+
+
+.braille-pattern-dots-347::before, .braille-pattern-dots-347-before::before{ content:var(--braille-pattern-dots-347)}
+.braille-pattern-dots-347-after::after{content:var(--braille-pattern-dots-347)}
+.braille-pattern-dots-347-both::after, .braille-pattern-dots-347-both::before {content:var(--braille-pattern-dots-347)}
+.braille-pattern-dots-347-list { list-style: var(--braille-pattern-dots-347)}
+
+
+
+.braille-pattern-dots-3478::before, .braille-pattern-dots-3478-before::before{ content:var(--braille-pattern-dots-3478)}
+.braille-pattern-dots-3478-after::after{content:var(--braille-pattern-dots-3478)}
+.braille-pattern-dots-3478-both::after, .braille-pattern-dots-3478-both::before {content:var(--braille-pattern-dots-3478)}
+.braille-pattern-dots-3478-list { list-style: var(--braille-pattern-dots-3478)}
+
+
+
+.braille-pattern-dots-348::before, .braille-pattern-dots-348-before::before{ content:var(--braille-pattern-dots-348)}
+.braille-pattern-dots-348-after::after{content:var(--braille-pattern-dots-348)}
+.braille-pattern-dots-348-both::after, .braille-pattern-dots-348-both::before {content:var(--braille-pattern-dots-348)}
+.braille-pattern-dots-348-list { list-style: var(--braille-pattern-dots-348)}
+
+
+
+.braille-pattern-dots-35::before, .braille-pattern-dots-35-before::before{ content:var(--braille-pattern-dots-35)}
+.braille-pattern-dots-35-after::after{content:var(--braille-pattern-dots-35)}
+.braille-pattern-dots-35-both::after, .braille-pattern-dots-35-both::before {content:var(--braille-pattern-dots-35)}
+.braille-pattern-dots-35-list { list-style: var(--braille-pattern-dots-35)}
+
+
+
+.braille-pattern-dots-356::before, .braille-pattern-dots-356-before::before{ content:var(--braille-pattern-dots-356)}
+.braille-pattern-dots-356-after::after{content:var(--braille-pattern-dots-356)}
+.braille-pattern-dots-356-both::after, .braille-pattern-dots-356-both::before {content:var(--braille-pattern-dots-356)}
+.braille-pattern-dots-356-list { list-style: var(--braille-pattern-dots-356)}
+
+
+
+.braille-pattern-dots-3567::before, .braille-pattern-dots-3567-before::before{ content:var(--braille-pattern-dots-3567)}
+.braille-pattern-dots-3567-after::after{content:var(--braille-pattern-dots-3567)}
+.braille-pattern-dots-3567-both::after, .braille-pattern-dots-3567-both::before {content:var(--braille-pattern-dots-3567)}
+.braille-pattern-dots-3567-list { list-style: var(--braille-pattern-dots-3567)}
+
+
+
+.braille-pattern-dots-35678::before, .braille-pattern-dots-35678-before::before{ content:var(--braille-pattern-dots-35678)}
+.braille-pattern-dots-35678-after::after{content:var(--braille-pattern-dots-35678)}
+.braille-pattern-dots-35678-both::after, .braille-pattern-dots-35678-both::before {content:var(--braille-pattern-dots-35678)}
+.braille-pattern-dots-35678-list { list-style: var(--braille-pattern-dots-35678)}
+
+
+
+.braille-pattern-dots-3568::before, .braille-pattern-dots-3568-before::before{ content:var(--braille-pattern-dots-3568)}
+.braille-pattern-dots-3568-after::after{content:var(--braille-pattern-dots-3568)}
+.braille-pattern-dots-3568-both::after, .braille-pattern-dots-3568-both::before {content:var(--braille-pattern-dots-3568)}
+.braille-pattern-dots-3568-list { list-style: var(--braille-pattern-dots-3568)}
+
+
+
+.braille-pattern-dots-357::before, .braille-pattern-dots-357-before::before{ content:var(--braille-pattern-dots-357)}
+.braille-pattern-dots-357-after::after{content:var(--braille-pattern-dots-357)}
+.braille-pattern-dots-357-both::after, .braille-pattern-dots-357-both::before {content:var(--braille-pattern-dots-357)}
+.braille-pattern-dots-357-list { list-style: var(--braille-pattern-dots-357)}
+
+
+
+.braille-pattern-dots-3578::before, .braille-pattern-dots-3578-before::before{ content:var(--braille-pattern-dots-3578)}
+.braille-pattern-dots-3578-after::after{content:var(--braille-pattern-dots-3578)}
+.braille-pattern-dots-3578-both::after, .braille-pattern-dots-3578-both::before {content:var(--braille-pattern-dots-3578)}
+.braille-pattern-dots-3578-list { list-style: var(--braille-pattern-dots-3578)}
+
+
+
+.braille-pattern-dots-358::before, .braille-pattern-dots-358-before::before{ content:var(--braille-pattern-dots-358)}
+.braille-pattern-dots-358-after::after{content:var(--braille-pattern-dots-358)}
+.braille-pattern-dots-358-both::after, .braille-pattern-dots-358-both::before {content:var(--braille-pattern-dots-358)}
+.braille-pattern-dots-358-list { list-style: var(--braille-pattern-dots-358)}
+
+
+
+.braille-pattern-dots-36::before, .braille-pattern-dots-36-before::before{ content:var(--braille-pattern-dots-36)}
+.braille-pattern-dots-36-after::after{content:var(--braille-pattern-dots-36)}
+.braille-pattern-dots-36-both::after, .braille-pattern-dots-36-both::before {content:var(--braille-pattern-dots-36)}
+.braille-pattern-dots-36-list { list-style: var(--braille-pattern-dots-36)}
+
+
+
+.braille-pattern-dots-367::before, .braille-pattern-dots-367-before::before{ content:var(--braille-pattern-dots-367)}
+.braille-pattern-dots-367-after::after{content:var(--braille-pattern-dots-367)}
+.braille-pattern-dots-367-both::after, .braille-pattern-dots-367-both::before {content:var(--braille-pattern-dots-367)}
+.braille-pattern-dots-367-list { list-style: var(--braille-pattern-dots-367)}
+
+
+
+.braille-pattern-dots-3678::before, .braille-pattern-dots-3678-before::before{ content:var(--braille-pattern-dots-3678)}
+.braille-pattern-dots-3678-after::after{content:var(--braille-pattern-dots-3678)}
+.braille-pattern-dots-3678-both::after, .braille-pattern-dots-3678-both::before {content:var(--braille-pattern-dots-3678)}
+.braille-pattern-dots-3678-list { list-style: var(--braille-pattern-dots-3678)}
+
+
+
+.braille-pattern-dots-368::before, .braille-pattern-dots-368-before::before{ content:var(--braille-pattern-dots-368)}
+.braille-pattern-dots-368-after::after{content:var(--braille-pattern-dots-368)}
+.braille-pattern-dots-368-both::after, .braille-pattern-dots-368-both::before {content:var(--braille-pattern-dots-368)}
+.braille-pattern-dots-368-list { list-style: var(--braille-pattern-dots-368)}
+
+
+
+.braille-pattern-dots-37::before, .braille-pattern-dots-37-before::before{ content:var(--braille-pattern-dots-37)}
+.braille-pattern-dots-37-after::after{content:var(--braille-pattern-dots-37)}
+.braille-pattern-dots-37-both::after, .braille-pattern-dots-37-both::before {content:var(--braille-pattern-dots-37)}
+.braille-pattern-dots-37-list { list-style: var(--braille-pattern-dots-37)}
+
+
+
+.braille-pattern-dots-378::before, .braille-pattern-dots-378-before::before{ content:var(--braille-pattern-dots-378)}
+.braille-pattern-dots-378-after::after{content:var(--braille-pattern-dots-378)}
+.braille-pattern-dots-378-both::after, .braille-pattern-dots-378-both::before {content:var(--braille-pattern-dots-378)}
+.braille-pattern-dots-378-list { list-style: var(--braille-pattern-dots-378)}
+
+
+
+.braille-pattern-dots-38::before, .braille-pattern-dots-38-before::before{ content:var(--braille-pattern-dots-38)}
+.braille-pattern-dots-38-after::after{content:var(--braille-pattern-dots-38)}
+.braille-pattern-dots-38-both::after, .braille-pattern-dots-38-both::before {content:var(--braille-pattern-dots-38)}
+.braille-pattern-dots-38-list { list-style: var(--braille-pattern-dots-38)}
+
+
+
+.braille-pattern-dots-4::before, .braille-pattern-dots-4-before::before{ content:var(--braille-pattern-dots-4)}
+.braille-pattern-dots-4-after::after{content:var(--braille-pattern-dots-4)}
+.braille-pattern-dots-4-both::after, .braille-pattern-dots-4-both::before {content:var(--braille-pattern-dots-4)}
+.braille-pattern-dots-4-list { list-style: var(--braille-pattern-dots-4)}
+
+
+
+.braille-pattern-dots-45::before, .braille-pattern-dots-45-before::before{ content:var(--braille-pattern-dots-45)}
+.braille-pattern-dots-45-after::after{content:var(--braille-pattern-dots-45)}
+.braille-pattern-dots-45-both::after, .braille-pattern-dots-45-both::before {content:var(--braille-pattern-dots-45)}
+.braille-pattern-dots-45-list { list-style: var(--braille-pattern-dots-45)}
+
+
+
+.braille-pattern-dots-456::before, .braille-pattern-dots-456-before::before{ content:var(--braille-pattern-dots-456)}
+.braille-pattern-dots-456-after::after{content:var(--braille-pattern-dots-456)}
+.braille-pattern-dots-456-both::after, .braille-pattern-dots-456-both::before {content:var(--braille-pattern-dots-456)}
+.braille-pattern-dots-456-list { list-style: var(--braille-pattern-dots-456)}
+
+
+
+.braille-pattern-dots-4567::before, .braille-pattern-dots-4567-before::before{ content:var(--braille-pattern-dots-4567)}
+.braille-pattern-dots-4567-after::after{content:var(--braille-pattern-dots-4567)}
+.braille-pattern-dots-4567-both::after, .braille-pattern-dots-4567-both::before {content:var(--braille-pattern-dots-4567)}
+.braille-pattern-dots-4567-list { list-style: var(--braille-pattern-dots-4567)}
+
+
+
+.braille-pattern-dots-45678::before, .braille-pattern-dots-45678-before::before{ content:var(--braille-pattern-dots-45678)}
+.braille-pattern-dots-45678-after::after{content:var(--braille-pattern-dots-45678)}
+.braille-pattern-dots-45678-both::after, .braille-pattern-dots-45678-both::before {content:var(--braille-pattern-dots-45678)}
+.braille-pattern-dots-45678-list { list-style: var(--braille-pattern-dots-45678)}
+
+
+
+.braille-pattern-dots-4568::before, .braille-pattern-dots-4568-before::before{ content:var(--braille-pattern-dots-4568)}
+.braille-pattern-dots-4568-after::after{content:var(--braille-pattern-dots-4568)}
+.braille-pattern-dots-4568-both::after, .braille-pattern-dots-4568-both::before {content:var(--braille-pattern-dots-4568)}
+.braille-pattern-dots-4568-list { list-style: var(--braille-pattern-dots-4568)}
+
+
+
+.braille-pattern-dots-457::before, .braille-pattern-dots-457-before::before{ content:var(--braille-pattern-dots-457)}
+.braille-pattern-dots-457-after::after{content:var(--braille-pattern-dots-457)}
+.braille-pattern-dots-457-both::after, .braille-pattern-dots-457-both::before {content:var(--braille-pattern-dots-457)}
+.braille-pattern-dots-457-list { list-style: var(--braille-pattern-dots-457)}
+
+
+
+.braille-pattern-dots-4578::before, .braille-pattern-dots-4578-before::before{ content:var(--braille-pattern-dots-4578)}
+.braille-pattern-dots-4578-after::after{content:var(--braille-pattern-dots-4578)}
+.braille-pattern-dots-4578-both::after, .braille-pattern-dots-4578-both::before {content:var(--braille-pattern-dots-4578)}
+.braille-pattern-dots-4578-list { list-style: var(--braille-pattern-dots-4578)}
+
+
+
+.braille-pattern-dots-458::before, .braille-pattern-dots-458-before::before{ content:var(--braille-pattern-dots-458)}
+.braille-pattern-dots-458-after::after{content:var(--braille-pattern-dots-458)}
+.braille-pattern-dots-458-both::after, .braille-pattern-dots-458-both::before {content:var(--braille-pattern-dots-458)}
+.braille-pattern-dots-458-list { list-style: var(--braille-pattern-dots-458)}
+
+
+
+.braille-pattern-dots-46::before, .braille-pattern-dots-46-before::before{ content:var(--braille-pattern-dots-46)}
+.braille-pattern-dots-46-after::after{content:var(--braille-pattern-dots-46)}
+.braille-pattern-dots-46-both::after, .braille-pattern-dots-46-both::before {content:var(--braille-pattern-dots-46)}
+.braille-pattern-dots-46-list { list-style: var(--braille-pattern-dots-46)}
+
+
+
+.braille-pattern-dots-467::before, .braille-pattern-dots-467-before::before{ content:var(--braille-pattern-dots-467)}
+.braille-pattern-dots-467-after::after{content:var(--braille-pattern-dots-467)}
+.braille-pattern-dots-467-both::after, .braille-pattern-dots-467-both::before {content:var(--braille-pattern-dots-467)}
+.braille-pattern-dots-467-list { list-style: var(--braille-pattern-dots-467)}
+
+
+
+.braille-pattern-dots-4678::before, .braille-pattern-dots-4678-before::before{ content:var(--braille-pattern-dots-4678)}
+.braille-pattern-dots-4678-after::after{content:var(--braille-pattern-dots-4678)}
+.braille-pattern-dots-4678-both::after, .braille-pattern-dots-4678-both::before {content:var(--braille-pattern-dots-4678)}
+.braille-pattern-dots-4678-list { list-style: var(--braille-pattern-dots-4678)}
+
+
+
+.braille-pattern-dots-468::before, .braille-pattern-dots-468-before::before{ content:var(--braille-pattern-dots-468)}
+.braille-pattern-dots-468-after::after{content:var(--braille-pattern-dots-468)}
+.braille-pattern-dots-468-both::after, .braille-pattern-dots-468-both::before {content:var(--braille-pattern-dots-468)}
+.braille-pattern-dots-468-list { list-style: var(--braille-pattern-dots-468)}
+
+
+
+.braille-pattern-dots-47::before, .braille-pattern-dots-47-before::before{ content:var(--braille-pattern-dots-47)}
+.braille-pattern-dots-47-after::after{content:var(--braille-pattern-dots-47)}
+.braille-pattern-dots-47-both::after, .braille-pattern-dots-47-both::before {content:var(--braille-pattern-dots-47)}
+.braille-pattern-dots-47-list { list-style: var(--braille-pattern-dots-47)}
+
+
+
+.braille-pattern-dots-478::before, .braille-pattern-dots-478-before::before{ content:var(--braille-pattern-dots-478)}
+.braille-pattern-dots-478-after::after{content:var(--braille-pattern-dots-478)}
+.braille-pattern-dots-478-both::after, .braille-pattern-dots-478-both::before {content:var(--braille-pattern-dots-478)}
+.braille-pattern-dots-478-list { list-style: var(--braille-pattern-dots-478)}
+
+
+
+.braille-pattern-dots-48::before, .braille-pattern-dots-48-before::before{ content:var(--braille-pattern-dots-48)}
+.braille-pattern-dots-48-after::after{content:var(--braille-pattern-dots-48)}
+.braille-pattern-dots-48-both::after, .braille-pattern-dots-48-both::before {content:var(--braille-pattern-dots-48)}
+.braille-pattern-dots-48-list { list-style: var(--braille-pattern-dots-48)}
+
+
+
+.braille-pattern-dots-5::before, .braille-pattern-dots-5-before::before{ content:var(--braille-pattern-dots-5)}
+.braille-pattern-dots-5-after::after{content:var(--braille-pattern-dots-5)}
+.braille-pattern-dots-5-both::after, .braille-pattern-dots-5-both::before {content:var(--braille-pattern-dots-5)}
+.braille-pattern-dots-5-list { list-style: var(--braille-pattern-dots-5)}
+
+
+
+.braille-pattern-dots-56::before, .braille-pattern-dots-56-before::before{ content:var(--braille-pattern-dots-56)}
+.braille-pattern-dots-56-after::after{content:var(--braille-pattern-dots-56)}
+.braille-pattern-dots-56-both::after, .braille-pattern-dots-56-both::before {content:var(--braille-pattern-dots-56)}
+.braille-pattern-dots-56-list { list-style: var(--braille-pattern-dots-56)}
+
+
+
+.braille-pattern-dots-567::before, .braille-pattern-dots-567-before::before{ content:var(--braille-pattern-dots-567)}
+.braille-pattern-dots-567-after::after{content:var(--braille-pattern-dots-567)}
+.braille-pattern-dots-567-both::after, .braille-pattern-dots-567-both::before {content:var(--braille-pattern-dots-567)}
+.braille-pattern-dots-567-list { list-style: var(--braille-pattern-dots-567)}
+
+
+
+.braille-pattern-dots-5678::before, .braille-pattern-dots-5678-before::before{ content:var(--braille-pattern-dots-5678)}
+.braille-pattern-dots-5678-after::after{content:var(--braille-pattern-dots-5678)}
+.braille-pattern-dots-5678-both::after, .braille-pattern-dots-5678-both::before {content:var(--braille-pattern-dots-5678)}
+.braille-pattern-dots-5678-list { list-style: var(--braille-pattern-dots-5678)}
+
+
+
+.braille-pattern-dots-568::before, .braille-pattern-dots-568-before::before{ content:var(--braille-pattern-dots-568)}
+.braille-pattern-dots-568-after::after{content:var(--braille-pattern-dots-568)}
+.braille-pattern-dots-568-both::after, .braille-pattern-dots-568-both::before {content:var(--braille-pattern-dots-568)}
+.braille-pattern-dots-568-list { list-style: var(--braille-pattern-dots-568)}
+
+
+
+.braille-pattern-dots-57::before, .braille-pattern-dots-57-before::before{ content:var(--braille-pattern-dots-57)}
+.braille-pattern-dots-57-after::after{content:var(--braille-pattern-dots-57)}
+.braille-pattern-dots-57-both::after, .braille-pattern-dots-57-both::before {content:var(--braille-pattern-dots-57)}
+.braille-pattern-dots-57-list { list-style: var(--braille-pattern-dots-57)}
+
+
+
+.braille-pattern-dots-578::before, .braille-pattern-dots-578-before::before{ content:var(--braille-pattern-dots-578)}
+.braille-pattern-dots-578-after::after{content:var(--braille-pattern-dots-578)}
+.braille-pattern-dots-578-both::after, .braille-pattern-dots-578-both::before {content:var(--braille-pattern-dots-578)}
+.braille-pattern-dots-578-list { list-style: var(--braille-pattern-dots-578)}
+
+
+
+.braille-pattern-dots-58::before, .braille-pattern-dots-58-before::before{ content:var(--braille-pattern-dots-58)}
+.braille-pattern-dots-58-after::after{content:var(--braille-pattern-dots-58)}
+.braille-pattern-dots-58-both::after, .braille-pattern-dots-58-both::before {content:var(--braille-pattern-dots-58)}
+.braille-pattern-dots-58-list { list-style: var(--braille-pattern-dots-58)}
+
+
+
+.braille-pattern-dots-6::before, .braille-pattern-dots-6-before::before{ content:var(--braille-pattern-dots-6)}
+.braille-pattern-dots-6-after::after{content:var(--braille-pattern-dots-6)}
+.braille-pattern-dots-6-both::after, .braille-pattern-dots-6-both::before {content:var(--braille-pattern-dots-6)}
+.braille-pattern-dots-6-list { list-style: var(--braille-pattern-dots-6)}
+
+
+
+.braille-pattern-dots-67::before, .braille-pattern-dots-67-before::before{ content:var(--braille-pattern-dots-67)}
+.braille-pattern-dots-67-after::after{content:var(--braille-pattern-dots-67)}
+.braille-pattern-dots-67-both::after, .braille-pattern-dots-67-both::before {content:var(--braille-pattern-dots-67)}
+.braille-pattern-dots-67-list { list-style: var(--braille-pattern-dots-67)}
+
+
+
+.braille-pattern-dots-678::before, .braille-pattern-dots-678-before::before{ content:var(--braille-pattern-dots-678)}
+.braille-pattern-dots-678-after::after{content:var(--braille-pattern-dots-678)}
+.braille-pattern-dots-678-both::after, .braille-pattern-dots-678-both::before {content:var(--braille-pattern-dots-678)}
+.braille-pattern-dots-678-list { list-style: var(--braille-pattern-dots-678)}
+
+
+
+.braille-pattern-dots-68::before, .braille-pattern-dots-68-before::before{ content:var(--braille-pattern-dots-68)}
+.braille-pattern-dots-68-after::after{content:var(--braille-pattern-dots-68)}
+.braille-pattern-dots-68-both::after, .braille-pattern-dots-68-both::before {content:var(--braille-pattern-dots-68)}
+.braille-pattern-dots-68-list { list-style: var(--braille-pattern-dots-68)}
+
+
+
+.braille-pattern-dots-7::before, .braille-pattern-dots-7-before::before{ content:var(--braille-pattern-dots-7)}
+.braille-pattern-dots-7-after::after{content:var(--braille-pattern-dots-7)}
+.braille-pattern-dots-7-both::after, .braille-pattern-dots-7-both::before {content:var(--braille-pattern-dots-7)}
+.braille-pattern-dots-7-list { list-style: var(--braille-pattern-dots-7)}
+
+
+
+.braille-pattern-dots-78::before, .braille-pattern-dots-78-before::before{ content:var(--braille-pattern-dots-78)}
+.braille-pattern-dots-78-after::after{content:var(--braille-pattern-dots-78)}
+.braille-pattern-dots-78-both::after, .braille-pattern-dots-78-both::before {content:var(--braille-pattern-dots-78)}
+.braille-pattern-dots-78-list { list-style: var(--braille-pattern-dots-78)}
+
+
+
+.braille-pattern-dots-8::before, .braille-pattern-dots-8-before::before{ content:var(--braille-pattern-dots-8)}
+.braille-pattern-dots-8-after::after{content:var(--braille-pattern-dots-8)}
+.braille-pattern-dots-8-both::after, .braille-pattern-dots-8-both::before {content:var(--braille-pattern-dots-8)}
+.braille-pattern-dots-8-list { list-style: var(--braille-pattern-dots-8)}
+}
