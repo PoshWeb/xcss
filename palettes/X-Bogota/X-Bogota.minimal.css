@@ -1,0 +1,40 @@
+:root {
+  --name: X Bogota;
+  --black: #200b0a;
+  --red: #fc618d;
+  --green: #7bd88f;
+  --yellow: #ffed89;
+  --blue: #47e6ff;
+  --purple: #ff9999;
+  --cyan: #47e6ff;
+  --white: #f7f1ff;
+  --brightBlack: #525053;
+  --brightRed: #fc618d;
+  --brightGreen: #7bd88f;
+  --brightYellow: #ffed89;
+  --brightBlue: #47e6ff;
+  --brightPurple: #ff9999;
+  --brightCyan: #47e6ff;
+  --brightWhite: #f7f1ff;
+  --background: #200b0a;
+  --foreground: #f7f1ff;
+  --cursorColor: #f7f1ff;
+  --selectionBackground: #f7f1ff;
+  --luma: 0.060362;
+  --contrast: 0.893702;
+  --paletteName: X Bogota;
+  --paletteFileName: X-Bogota;
+  --isBright: 0;
+  --isDark: 1;
+  --by: xscriptor  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
