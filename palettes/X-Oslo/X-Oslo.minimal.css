@@ -1,0 +1,40 @@
+:root {
+  --name: X Oslo;
+  --black: #3f4451;
+  --red: #e05561;
+  --green: #8cc265;
+  --yellow: #d18f52;
+  --blue: #4aa5f0;
+  --purple: #c162de;
+  --cyan: #42b3c2;
+  --white: #e6e6e6;
+  --brightBlack: #687080;
+  --brightRed: #ff616e;
+  --brightGreen: #a5e075;
+  --brightYellow: #f0a45d;
+  --brightBlue: #4dc4ff;
+  --brightPurple: #de73ff;
+  --brightCyan: #4cd1e0;
+  --brightWhite: #ffffff;
+  --background: #3f4451;
+  --foreground: #abb2bf;
+  --cursorColor: #abb2bf;
+  --selectionBackground: #abb2bf;
+  --luma: 0.266179;
+  --contrast: 0.429705;
+  --paletteName: X Oslo;
+  --paletteFileName: X-Oslo;
+  --isBright: 0;
+  --isDark: 1;
+  --by: xscriptor  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
