@@ -1,0 +1,40 @@
+:root {
+  --name: Moonwalk;
+  --black: #080808;
+  --red: #7a0047;
+  --green: #145b0e;
+  --yellow: #733a11;
+  --blue: #002fa7;
+  --purple: #5400a8;
+  --cyan: #00566b;
+  --white: #9c958d;
+  --brightBlack: #494440;
+  --brightRed: #af1608;
+  --brightGreen: #4c6129;
+  --brightYellow: #7a5000;
+  --brightBlue: #0d50c5;
+  --brightPurple: #952197;
+  --brightCyan: #006092;
+  --brightWhite: #ffffff;
+  --background: #e4e2e0;
+  --foreground: #061f4a;
+  --cursorColor: #061f4a;
+  --selectionBackground: #b8d2e5;
+  --luma: 0.887376;
+  --contrast: 0.774476;
+  --paletteName: Moonwalk;
+  --paletteFileName: Moonwalk;
+  --isBright: 0;
+  --isDark: 1;
+  --by: theJian  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
