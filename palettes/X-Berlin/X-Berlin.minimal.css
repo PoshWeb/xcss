@@ -1,0 +1,40 @@
+:root {
+  --name: X Berlin;
+  --black: #000000;
+  --red: #999999;
+  --green: #bbbbbb;
+  --yellow: #dddddd;
+  --blue: #888888;
+  --purple: #aaaaaa;
+  --cyan: #cccccc;
+  --white: #ffffff;
+  --brightBlack: #404040;
+  --brightRed: #bbbbbb;
+  --brightGreen: #dddddd;
+  --brightYellow: #ffffff;
+  --brightBlue: #aaaaaa;
+  --brightPurple: #cccccc;
+  --brightCyan: #eeeeee;
+  --brightWhite: #ffffff;
+  --background: #000000;
+  --foreground: #cccccc;
+  --cursorColor: #cccccc;
+  --selectionBackground: #cccccc;
+  --luma: 0;
+  --contrast: 0.8;
+  --paletteName: X Berlin;
+  --paletteFileName: X-Berlin;
+  --isBright: 0;
+  --isDark: 1;
+  --by: xscriptor  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }

@@ -1,0 +1,10 @@
+#000000
+#999999
+#bbbbbb
+#dddddd
+#888888
+#aaaaaa
+#cccccc
+#ffffff
+#404040
+#eeeeee
