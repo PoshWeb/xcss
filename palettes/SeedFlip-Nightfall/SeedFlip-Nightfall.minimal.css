@@ -1,0 +1,39 @@
+:root {
+  --name: SeedFlip Nightfall;
+  --black: #060609;
+  --red: #f04242;
+  --green: #42f07c;
+  --yellow: #f0d342;
+  --blue: #428bf0;
+  --purple: #f042f0;
+  --cyan: #42f0f0;
+  --white: #f2f2f3;
+  --brightBlack: #424256;
+  --brightRed: #f58989;
+  --brightGreen: #89f5ad;
+  --brightYellow: #f5e389;
+  --brightBlue: #89b6f5;
+  --brightPurple: #f589f5;
+  --brightCyan: #89f5f5;
+  --brightWhite: #ffffff;
+  --background: #0a0a0f;
+  --foreground: #e4e4e7;
+  --cursorColor: #818cf8;
+  --selectionBackground: #12121a;
+  --luma: 0.040631;
+  --contrast: 0.854336;
+  --paletteName: SeedFlip Nightfall;
+  --paletteFileName: SeedFlip-Nightfall;
+  --isBright: 0;
+  --isDark: 1  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
