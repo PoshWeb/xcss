@@ -1,0 +1,40 @@
+:root {
+  --name: Opaline;
+  --black: #201b33;
+  --red: #ff6b92;
+  --green: #86e6b4;
+  --yellow: #ffc2ae;
+  --blue: #8fb4ff;
+  --purple: #be9bff;
+  --cyan: #5fe3d8;
+  --white: #ece9f7;
+  --brightBlack: #6b678f;
+  --brightRed: #ff81a2;
+  --brightGreen: #95e9bd;
+  --brightYellow: #f4d27e;
+  --brightBlue: #b79bff;
+  --brightPurple: #ff9ed2;
+  --brightCyan: #72e6dd;
+  --brightWhite: #ffffff;
+  --background: #131121;
+  --foreground: #ece9f7;
+  --cursorColor: #ffb3d6;
+  --selectionBackground: #2c2748;
+  --luma: 0.072864;
+  --contrast: 0.847327;
+  --paletteName: Opaline;
+  --paletteFileName: Opaline;
+  --isBright: 0;
+  --isDark: 1;
+  --by: livlign  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
