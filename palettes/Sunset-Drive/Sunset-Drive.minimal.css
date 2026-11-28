@@ -1,0 +1,40 @@
+:root {
+  --name: Sunset Drive;
+  --black: #0a0a13;
+  --red: #ff0063;
+  --green: #00f992;
+  --yellow: #ffe900;
+  --blue: #00a4ff;
+  --purple: #ff57fd;
+  --cyan: #00ffed;
+  --white: #ededff;
+  --brightBlack: #3e3e4b;
+  --brightRed: #ff948b;
+  --brightGreen: #00fcb9;
+  --brightYellow: #ffff68;
+  --brightBlue: #3ea0ff;
+  --brightPurple: #ff93ff;
+  --brightCyan: #38ffff;
+  --brightWhite: #f8f8ff;
+  --background: #0f0f1a;
+  --foreground: #ededfe;
+  --cursorColor: #ededfe;
+  --selectionBackground: #202036;
+  --luma: 0.061938;
+  --contrast: 0.872287;
+  --paletteName: Sunset Drive;
+  --paletteFileName: Sunset-Drive;
+  --isBright: 0;
+  --isDark: 1;
+  --by: tahayvr  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
