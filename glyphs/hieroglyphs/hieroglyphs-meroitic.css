@@ -1,0 +1,260 @@
+@layer meroitic-hieroglyphs {
+:root {
+--meroitic-hieroglyphic-letter-a:'\10980';
+--meroitic-hieroglyphic-letter-ba:'\10986';
+--meroitic-hieroglyphic-letter-ba-2:'\10987';
+--meroitic-hieroglyphic-letter-da:'\1099D';
+--meroitic-hieroglyphic-letter-e:'\10981';
+--meroitic-hieroglyphic-letter-hha:'\10992';
+--meroitic-hieroglyphic-letter-i:'\10982';
+--meroitic-hieroglyphic-letter-ka:'\10996';
+--meroitic-hieroglyphic-letter-kha:'\10991';
+--meroitic-hieroglyphic-letter-la:'\10990';
+--meroitic-hieroglyphic-letter-ma:'\10989';
+--meroitic-hieroglyphic-letter-na:'\1098A';
+--meroitic-hieroglyphic-letter-na-2:'\1098B';
+--meroitic-hieroglyphic-letter-ne:'\1098C';
+--meroitic-hieroglyphic-letter-ne-2:'\1098D';
+--meroitic-hieroglyphic-letter-o:'\10983';
+--meroitic-hieroglyphic-letter-pa:'\10988';
+--meroitic-hieroglyphic-letter-qa:'\10997';
+--meroitic-hieroglyphic-letter-ra:'\1098E';
+--meroitic-hieroglyphic-letter-ra-2:'\1098F';
+--meroitic-hieroglyphic-letter-sa:'\10993';
+--meroitic-hieroglyphic-letter-sa-2:'\10994';
+--meroitic-hieroglyphic-letter-se:'\10995';
+--meroitic-hieroglyphic-letter-ta:'\10998';
+--meroitic-hieroglyphic-letter-ta-2:'\10999';
+--meroitic-hieroglyphic-letter-te:'\1099A';
+--meroitic-hieroglyphic-letter-te-2:'\1099B';
+--meroitic-hieroglyphic-letter-to:'\1099C';
+--meroitic-hieroglyphic-letter-wa:'\10985';
+--meroitic-hieroglyphic-letter-ya:'\10984';
+--meroitic-hieroglyphic-symbol-vidj:'\1099E';
+--meroitic-hieroglyphic-symbol-vidj-2:'\1099F';
+}
+
+
+
+.meroitic-hieroglyphic-letter-a::before, .meroitic-hieroglyphic-letter-a-before::before{ content:var(--meroitic-hieroglyphic-letter-a)}
+.meroitic-hieroglyphic-letter-a-after::after{content:var(--meroitic-hieroglyphic-letter-a)}
+.meroitic-hieroglyphic-letter-a-both::after, .meroitic-hieroglyphic-letter-a-both::before {content:var(--meroitic-hieroglyphic-letter-a)}
+.meroitic-hieroglyphic-letter-a-list { list-style: var(--meroitic-hieroglyphic-letter-a)}
+
+
+
+.meroitic-hieroglyphic-letter-ba::before, .meroitic-hieroglyphic-letter-ba-before::before{ content:var(--meroitic-hieroglyphic-letter-ba)}
+.meroitic-hieroglyphic-letter-ba-after::after{content:var(--meroitic-hieroglyphic-letter-ba)}
+.meroitic-hieroglyphic-letter-ba-both::after, .meroitic-hieroglyphic-letter-ba-both::before {content:var(--meroitic-hieroglyphic-letter-ba)}
+.meroitic-hieroglyphic-letter-ba-list { list-style: var(--meroitic-hieroglyphic-letter-ba)}
+
+
+
+.meroitic-hieroglyphic-letter-ba-2::before, .meroitic-hieroglyphic-letter-ba-2-before::before{ content:var(--meroitic-hieroglyphic-letter-ba-2)}
+.meroitic-hieroglyphic-letter-ba-2-after::after{content:var(--meroitic-hieroglyphic-letter-ba-2)}
+.meroitic-hieroglyphic-letter-ba-2-both::after, .meroitic-hieroglyphic-letter-ba-2-both::before {content:var(--meroitic-hieroglyphic-letter-ba-2)}
+.meroitic-hieroglyphic-letter-ba-2-list { list-style: var(--meroitic-hieroglyphic-letter-ba-2)}
+
+
+
+.meroitic-hieroglyphic-letter-da::before, .meroitic-hieroglyphic-letter-da-before::before{ content:var(--meroitic-hieroglyphic-letter-da)}
+.meroitic-hieroglyphic-letter-da-after::after{content:var(--meroitic-hieroglyphic-letter-da)}
+.meroitic-hieroglyphic-letter-da-both::after, .meroitic-hieroglyphic-letter-da-both::before {content:var(--meroitic-hieroglyphic-letter-da)}
+.meroitic-hieroglyphic-letter-da-list { list-style: var(--meroitic-hieroglyphic-letter-da)}
+
+
+
+.meroitic-hieroglyphic-letter-e::before, .meroitic-hieroglyphic-letter-e-before::before{ content:var(--meroitic-hieroglyphic-letter-e)}
+.meroitic-hieroglyphic-letter-e-after::after{content:var(--meroitic-hieroglyphic-letter-e)}
+.meroitic-hieroglyphic-letter-e-both::after, .meroitic-hieroglyphic-letter-e-both::before {content:var(--meroitic-hieroglyphic-letter-e)}
+.meroitic-hieroglyphic-letter-e-list { list-style: var(--meroitic-hieroglyphic-letter-e)}
+
+
+
+.meroitic-hieroglyphic-letter-hha::before, .meroitic-hieroglyphic-letter-hha-before::before{ content:var(--meroitic-hieroglyphic-letter-hha)}
+.meroitic-hieroglyphic-letter-hha-after::after{content:var(--meroitic-hieroglyphic-letter-hha)}
+.meroitic-hieroglyphic-letter-hha-both::after, .meroitic-hieroglyphic-letter-hha-both::before {content:var(--meroitic-hieroglyphic-letter-hha)}
+.meroitic-hieroglyphic-letter-hha-list { list-style: var(--meroitic-hieroglyphic-letter-hha)}
+
+
+
+.meroitic-hieroglyphic-letter-i::before, .meroitic-hieroglyphic-letter-i-before::before{ content:var(--meroitic-hieroglyphic-letter-i)}
+.meroitic-hieroglyphic-letter-i-after::after{content:var(--meroitic-hieroglyphic-letter-i)}
+.meroitic-hieroglyphic-letter-i-both::after, .meroitic-hieroglyphic-letter-i-both::before {content:var(--meroitic-hieroglyphic-letter-i)}
+.meroitic-hieroglyphic-letter-i-list { list-style: var(--meroitic-hieroglyphic-letter-i)}
+
+
+
+.meroitic-hieroglyphic-letter-ka::before, .meroitic-hieroglyphic-letter-ka-before::before{ content:var(--meroitic-hieroglyphic-letter-ka)}
+.meroitic-hieroglyphic-letter-ka-after::after{content:var(--meroitic-hieroglyphic-letter-ka)}
+.meroitic-hieroglyphic-letter-ka-both::after, .meroitic-hieroglyphic-letter-ka-both::before {content:var(--meroitic-hieroglyphic-letter-ka)}
+.meroitic-hieroglyphic-letter-ka-list { list-style: var(--meroitic-hieroglyphic-letter-ka)}
+
+
+
+.meroitic-hieroglyphic-letter-kha::before, .meroitic-hieroglyphic-letter-kha-before::before{ content:var(--meroitic-hieroglyphic-letter-kha)}
+.meroitic-hieroglyphic-letter-kha-after::after{content:var(--meroitic-hieroglyphic-letter-kha)}
+.meroitic-hieroglyphic-letter-kha-both::after, .meroitic-hieroglyphic-letter-kha-both::before {content:var(--meroitic-hieroglyphic-letter-kha)}
+.meroitic-hieroglyphic-letter-kha-list { list-style: var(--meroitic-hieroglyphic-letter-kha)}
+
+
+
+.meroitic-hieroglyphic-letter-la::before, .meroitic-hieroglyphic-letter-la-before::before{ content:var(--meroitic-hieroglyphic-letter-la)}
+.meroitic-hieroglyphic-letter-la-after::after{content:var(--meroitic-hieroglyphic-letter-la)}
+.meroitic-hieroglyphic-letter-la-both::after, .meroitic-hieroglyphic-letter-la-both::before {content:var(--meroitic-hieroglyphic-letter-la)}
+.meroitic-hieroglyphic-letter-la-list { list-style: var(--meroitic-hieroglyphic-letter-la)}
+
+
+
+.meroitic-hieroglyphic-letter-ma::before, .meroitic-hieroglyphic-letter-ma-before::before{ content:var(--meroitic-hieroglyphic-letter-ma)}
+.meroitic-hieroglyphic-letter-ma-after::after{content:var(--meroitic-hieroglyphic-letter-ma)}
+.meroitic-hieroglyphic-letter-ma-both::after, .meroitic-hieroglyphic-letter-ma-both::before {content:var(--meroitic-hieroglyphic-letter-ma)}
+.meroitic-hieroglyphic-letter-ma-list { list-style: var(--meroitic-hieroglyphic-letter-ma)}
+
+
+
+.meroitic-hieroglyphic-letter-na::before, .meroitic-hieroglyphic-letter-na-before::before{ content:var(--meroitic-hieroglyphic-letter-na)}
+.meroitic-hieroglyphic-letter-na-after::after{content:var(--meroitic-hieroglyphic-letter-na)}
+.meroitic-hieroglyphic-letter-na-both::after, .meroitic-hieroglyphic-letter-na-both::before {content:var(--meroitic-hieroglyphic-letter-na)}
+.meroitic-hieroglyphic-letter-na-list { list-style: var(--meroitic-hieroglyphic-letter-na)}
+
+
+
+.meroitic-hieroglyphic-letter-na-2::before, .meroitic-hieroglyphic-letter-na-2-before::before{ content:var(--meroitic-hieroglyphic-letter-na-2)}
+.meroitic-hieroglyphic-letter-na-2-after::after{content:var(--meroitic-hieroglyphic-letter-na-2)}
+.meroitic-hieroglyphic-letter-na-2-both::after, .meroitic-hieroglyphic-letter-na-2-both::before {content:var(--meroitic-hieroglyphic-letter-na-2)}
+.meroitic-hieroglyphic-letter-na-2-list { list-style: var(--meroitic-hieroglyphic-letter-na-2)}
+
+
+
+.meroitic-hieroglyphic-letter-ne::before, .meroitic-hieroglyphic-letter-ne-before::before{ content:var(--meroitic-hieroglyphic-letter-ne)}
+.meroitic-hieroglyphic-letter-ne-after::after{content:var(--meroitic-hieroglyphic-letter-ne)}
+.meroitic-hieroglyphic-letter-ne-both::after, .meroitic-hieroglyphic-letter-ne-both::before {content:var(--meroitic-hieroglyphic-letter-ne)}
+.meroitic-hieroglyphic-letter-ne-list { list-style: var(--meroitic-hieroglyphic-letter-ne)}
+
+
+
+.meroitic-hieroglyphic-letter-ne-2::before, .meroitic-hieroglyphic-letter-ne-2-before::before{ content:var(--meroitic-hieroglyphic-letter-ne-2)}
+.meroitic-hieroglyphic-letter-ne-2-after::after{content:var(--meroitic-hieroglyphic-letter-ne-2)}
+.meroitic-hieroglyphic-letter-ne-2-both::after, .meroitic-hieroglyphic-letter-ne-2-both::before {content:var(--meroitic-hieroglyphic-letter-ne-2)}
+.meroitic-hieroglyphic-letter-ne-2-list { list-style: var(--meroitic-hieroglyphic-letter-ne-2)}
+
+
+
+.meroitic-hieroglyphic-letter-o::before, .meroitic-hieroglyphic-letter-o-before::before{ content:var(--meroitic-hieroglyphic-letter-o)}
+.meroitic-hieroglyphic-letter-o-after::after{content:var(--meroitic-hieroglyphic-letter-o)}
+.meroitic-hieroglyphic-letter-o-both::after, .meroitic-hieroglyphic-letter-o-both::before {content:var(--meroitic-hieroglyphic-letter-o)}
+.meroitic-hieroglyphic-letter-o-list { list-style: var(--meroitic-hieroglyphic-letter-o)}
+
+
+
+.meroitic-hieroglyphic-letter-pa::before, .meroitic-hieroglyphic-letter-pa-before::before{ content:var(--meroitic-hieroglyphic-letter-pa)}
+.meroitic-hieroglyphic-letter-pa-after::after{content:var(--meroitic-hieroglyphic-letter-pa)}
+.meroitic-hieroglyphic-letter-pa-both::after, .meroitic-hieroglyphic-letter-pa-both::before {content:var(--meroitic-hieroglyphic-letter-pa)}
+.meroitic-hieroglyphic-letter-pa-list { list-style: var(--meroitic-hieroglyphic-letter-pa)}
+
+
+
+.meroitic-hieroglyphic-letter-qa::before, .meroitic-hieroglyphic-letter-qa-before::before{ content:var(--meroitic-hieroglyphic-letter-qa)}
+.meroitic-hieroglyphic-letter-qa-after::after{content:var(--meroitic-hieroglyphic-letter-qa)}
+.meroitic-hieroglyphic-letter-qa-both::after, .meroitic-hieroglyphic-letter-qa-both::before {content:var(--meroitic-hieroglyphic-letter-qa)}
+.meroitic-hieroglyphic-letter-qa-list { list-style: var(--meroitic-hieroglyphic-letter-qa)}
+
+
+
+.meroitic-hieroglyphic-letter-ra::before, .meroitic-hieroglyphic-letter-ra-before::before{ content:var(--meroitic-hieroglyphic-letter-ra)}
+.meroitic-hieroglyphic-letter-ra-after::after{content:var(--meroitic-hieroglyphic-letter-ra)}
+.meroitic-hieroglyphic-letter-ra-both::after, .meroitic-hieroglyphic-letter-ra-both::before {content:var(--meroitic-hieroglyphic-letter-ra)}
+.meroitic-hieroglyphic-letter-ra-list { list-style: var(--meroitic-hieroglyphic-letter-ra)}
+
+
+
+.meroitic-hieroglyphic-letter-ra-2::before, .meroitic-hieroglyphic-letter-ra-2-before::before{ content:var(--meroitic-hieroglyphic-letter-ra-2)}
+.meroitic-hieroglyphic-letter-ra-2-after::after{content:var(--meroitic-hieroglyphic-letter-ra-2)}
+.meroitic-hieroglyphic-letter-ra-2-both::after, .meroitic-hieroglyphic-letter-ra-2-both::before {content:var(--meroitic-hieroglyphic-letter-ra-2)}
+.meroitic-hieroglyphic-letter-ra-2-list { list-style: var(--meroitic-hieroglyphic-letter-ra-2)}
+
+
+
+.meroitic-hieroglyphic-letter-sa::before, .meroitic-hieroglyphic-letter-sa-before::before{ content:var(--meroitic-hieroglyphic-letter-sa)}
+.meroitic-hieroglyphic-letter-sa-after::after{content:var(--meroitic-hieroglyphic-letter-sa)}
+.meroitic-hieroglyphic-letter-sa-both::after, .meroitic-hieroglyphic-letter-sa-both::before {content:var(--meroitic-hieroglyphic-letter-sa)}
+.meroitic-hieroglyphic-letter-sa-list { list-style: var(--meroitic-hieroglyphic-letter-sa)}
+
+
+
+.meroitic-hieroglyphic-letter-sa-2::before, .meroitic-hieroglyphic-letter-sa-2-before::before{ content:var(--meroitic-hieroglyphic-letter-sa-2)}
+.meroitic-hieroglyphic-letter-sa-2-after::after{content:var(--meroitic-hieroglyphic-letter-sa-2)}
+.meroitic-hieroglyphic-letter-sa-2-both::after, .meroitic-hieroglyphic-letter-sa-2-both::before {content:var(--meroitic-hieroglyphic-letter-sa-2)}
+.meroitic-hieroglyphic-letter-sa-2-list { list-style: var(--meroitic-hieroglyphic-letter-sa-2)}
+
+
+
+.meroitic-hieroglyphic-letter-se::before, .meroitic-hieroglyphic-letter-se-before::before{ content:var(--meroitic-hieroglyphic-letter-se)}
+.meroitic-hieroglyphic-letter-se-after::after{content:var(--meroitic-hieroglyphic-letter-se)}
+.meroitic-hieroglyphic-letter-se-both::after, .meroitic-hieroglyphic-letter-se-both::before {content:var(--meroitic-hieroglyphic-letter-se)}
+.meroitic-hieroglyphic-letter-se-list { list-style: var(--meroitic-hieroglyphic-letter-se)}
+
+
+
+.meroitic-hieroglyphic-letter-ta::before, .meroitic-hieroglyphic-letter-ta-before::before{ content:var(--meroitic-hieroglyphic-letter-ta)}
+.meroitic-hieroglyphic-letter-ta-after::after{content:var(--meroitic-hieroglyphic-letter-ta)}
+.meroitic-hieroglyphic-letter-ta-both::after, .meroitic-hieroglyphic-letter-ta-both::before {content:var(--meroitic-hieroglyphic-letter-ta)}
+.meroitic-hieroglyphic-letter-ta-list { list-style: var(--meroitic-hieroglyphic-letter-ta)}
+
+
+
+.meroitic-hieroglyphic-letter-ta-2::before, .meroitic-hieroglyphic-letter-ta-2-before::before{ content:var(--meroitic-hieroglyphic-letter-ta-2)}
+.meroitic-hieroglyphic-letter-ta-2-after::after{content:var(--meroitic-hieroglyphic-letter-ta-2)}
+.meroitic-hieroglyphic-letter-ta-2-both::after, .meroitic-hieroglyphic-letter-ta-2-both::before {content:var(--meroitic-hieroglyphic-letter-ta-2)}
+.meroitic-hieroglyphic-letter-ta-2-list { list-style: var(--meroitic-hieroglyphic-letter-ta-2)}
+
+
+
+.meroitic-hieroglyphic-letter-te::before, .meroitic-hieroglyphic-letter-te-before::before{ content:var(--meroitic-hieroglyphic-letter-te)}
+.meroitic-hieroglyphic-letter-te-after::after{content:var(--meroitic-hieroglyphic-letter-te)}
+.meroitic-hieroglyphic-letter-te-both::after, .meroitic-hieroglyphic-letter-te-both::before {content:var(--meroitic-hieroglyphic-letter-te)}
+.meroitic-hieroglyphic-letter-te-list { list-style: var(--meroitic-hieroglyphic-letter-te)}
+
+
+
+.meroitic-hieroglyphic-letter-te-2::before, .meroitic-hieroglyphic-letter-te-2-before::before{ content:var(--meroitic-hieroglyphic-letter-te-2)}
+.meroitic-hieroglyphic-letter-te-2-after::after{content:var(--meroitic-hieroglyphic-letter-te-2)}
+.meroitic-hieroglyphic-letter-te-2-both::after, .meroitic-hieroglyphic-letter-te-2-both::before {content:var(--meroitic-hieroglyphic-letter-te-2)}
+.meroitic-hieroglyphic-letter-te-2-list { list-style: var(--meroitic-hieroglyphic-letter-te-2)}
+
+
+
+.meroitic-hieroglyphic-letter-to::before, .meroitic-hieroglyphic-letter-to-before::before{ content:var(--meroitic-hieroglyphic-letter-to)}
+.meroitic-hieroglyphic-letter-to-after::after{content:var(--meroitic-hieroglyphic-letter-to)}
+.meroitic-hieroglyphic-letter-to-both::after, .meroitic-hieroglyphic-letter-to-both::before {content:var(--meroitic-hieroglyphic-letter-to)}
+.meroitic-hieroglyphic-letter-to-list { list-style: var(--meroitic-hieroglyphic-letter-to)}
+
+
+
+.meroitic-hieroglyphic-letter-wa::before, .meroitic-hieroglyphic-letter-wa-before::before{ content:var(--meroitic-hieroglyphic-letter-wa)}
+.meroitic-hieroglyphic-letter-wa-after::after{content:var(--meroitic-hieroglyphic-letter-wa)}
+.meroitic-hieroglyphic-letter-wa-both::after, .meroitic-hieroglyphic-letter-wa-both::before {content:var(--meroitic-hieroglyphic-letter-wa)}
+.meroitic-hieroglyphic-letter-wa-list { list-style: var(--meroitic-hieroglyphic-letter-wa)}
+
+
+
+.meroitic-hieroglyphic-letter-ya::before, .meroitic-hieroglyphic-letter-ya-before::before{ content:var(--meroitic-hieroglyphic-letter-ya)}
+.meroitic-hieroglyphic-letter-ya-after::after{content:var(--meroitic-hieroglyphic-letter-ya)}
+.meroitic-hieroglyphic-letter-ya-both::after, .meroitic-hieroglyphic-letter-ya-both::before {content:var(--meroitic-hieroglyphic-letter-ya)}
+.meroitic-hieroglyphic-letter-ya-list { list-style: var(--meroitic-hieroglyphic-letter-ya)}
+
+
+
+.meroitic-hieroglyphic-symbol-vidj::before, .meroitic-hieroglyphic-symbol-vidj-before::before{ content:var(--meroitic-hieroglyphic-symbol-vidj)}
+.meroitic-hieroglyphic-symbol-vidj-after::after{content:var(--meroitic-hieroglyphic-symbol-vidj)}
+.meroitic-hieroglyphic-symbol-vidj-both::after, .meroitic-hieroglyphic-symbol-vidj-both::before {content:var(--meroitic-hieroglyphic-symbol-vidj)}
+.meroitic-hieroglyphic-symbol-vidj-list { list-style: var(--meroitic-hieroglyphic-symbol-vidj)}
+
+
+
+.meroitic-hieroglyphic-symbol-vidj-2::before, .meroitic-hieroglyphic-symbol-vidj-2-before::before{ content:var(--meroitic-hieroglyphic-symbol-vidj-2)}
+.meroitic-hieroglyphic-symbol-vidj-2-after::after{content:var(--meroitic-hieroglyphic-symbol-vidj-2)}
+.meroitic-hieroglyphic-symbol-vidj-2-both::after, .meroitic-hieroglyphic-symbol-vidj-2-both::before {content:var(--meroitic-hieroglyphic-symbol-vidj-2)}
+.meroitic-hieroglyphic-symbol-vidj-2-list { list-style: var(--meroitic-hieroglyphic-symbol-vidj-2)}
+}
