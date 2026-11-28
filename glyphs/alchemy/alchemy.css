@@ -1,0 +1,996 @@
+@layer alchemical-symbols {
+:root {
+--alchemical-symbol-for-air:'\1F701';
+--alchemical-symbol-for-alembic:'\1F76A';
+--alchemical-symbol-for-alkali:'\1F736';
+--alchemical-symbol-for-alkali-2:'\1F737';
+--alchemical-symbol-for-alum:'\1F745';
+--alchemical-symbol-for-amalgam:'\1F75B';
+--alchemical-symbol-for-antimony-ore:'\1F72B';
+--alchemical-symbol-for-aqua-regia:'\1F706';
+--alchemical-symbol-for-aqua-regia-2:'\1F707';
+--alchemical-symbol-for-aqua-vitae:'\1F708';
+--alchemical-symbol-for-aqua-vitae-2:'\1F709';
+--alchemical-symbol-for-aquafortis:'\1F705';
+--alchemical-symbol-for-arsenic:'\1F73A';
+--alchemical-symbol-for-ashes:'\1F757';
+--alchemical-symbol-for-auripigment:'\1F73D';
+--alchemical-symbol-for-bath-of-mary:'\1F76B';
+--alchemical-symbol-for-bath-of-vapours:'\1F76C';
+--alchemical-symbol-for-bismuth-ore:'\1F73E';
+--alchemical-symbol-for-black-sulfur:'\1F70F';
+--alchemical-symbol-for-borax:'\1F742';
+--alchemical-symbol-for-borax-2:'\1F743';
+--alchemical-symbol-for-borax-3:'\1F744';
+--alchemical-symbol-for-brick:'\1F759';
+--alchemical-symbol-for-caduceus:'\1F750';
+--alchemical-symbol-for-calx:'\1F74C';
+--alchemical-symbol-for-caput-mortuum:'\1F74E';
+--alchemical-symbol-for-cinnabar:'\1F713';
+--alchemical-symbol-for-copper-antimoniate:'\1F725';
+--alchemical-symbol-for-copper-ore:'\1F720';
+--alchemical-symbol-for-crocus-of-copper:'\1F723';
+--alchemical-symbol-for-crocus-of-copper-2:'\1F724';
+--alchemical-symbol-for-crocus-of-iron:'\1F71E';
+--alchemical-symbol-for-crucible:'\1F765';
+--alchemical-symbol-for-crucible-2:'\1F766';
+--alchemical-symbol-for-crucible-3:'\1F767';
+--alchemical-symbol-for-crucible-4:'\1F768';
+--alchemical-symbol-for-crucible-5:'\1F769';
+--alchemical-symbol-for-day-night:'\1F770';
+--alchemical-symbol-for-dissolve:'\1F761';
+--alchemical-symbol-for-dissolve-2:'\1F762';
+--alchemical-symbol-for-distill:'\1F760';
+--alchemical-symbol-for-earth:'\1F703';
+--alchemical-symbol-for-fire:'\1F702';
+--alchemical-symbol-for-gold:'\1F71A';
+--alchemical-symbol-for-gum:'\1F749';
+--alchemical-symbol-for-half-dram:'\1F772';
+--alchemical-symbol-for-half-ounce:'\1F773';
+--alchemical-symbol-for-horse-dung:'\1F756';
+--alchemical-symbol-for-hour:'\1F76E';
+--alchemical-symbol-for-iron-ore:'\1F71C';
+--alchemical-symbol-for-iron-ore-2:'\1F71D';
+--alchemical-symbol-for-iron-copper-ore:'\1F721';
+--alchemical-symbol-for-lead-ore:'\1F72A';
+--alchemical-symbol-for-lodestone:'\1F753';
+--alchemical-symbol-for-marcasite:'\1F738';
+--alchemical-symbol-for-mercury-sublimate:'\1F710';
+--alchemical-symbol-for-mercury-sublimate-2:'\1F711';
+--alchemical-symbol-for-mercury-sublimate-3:'\1F712';
+--alchemical-symbol-for-month:'\1F771';
+--alchemical-symbol-for-night:'\1F76F';
+--alchemical-symbol-for-nitre:'\1F715';
+--alchemical-symbol-for-oil:'\1F746';
+--alchemical-symbol-for-philosophers-sulfur:'\1F70E';
+--alchemical-symbol-for-pot-ashes:'\1F758';
+--alchemical-symbol-for-powder:'\1F74B';
+--alchemical-symbol-for-powdered-brick:'\1F75A';
+--alchemical-symbol-for-precipitate:'\1F75F';
+--alchemical-symbol-for-purify:'\1F763';
+--alchemical-symbol-for-putrefaction:'\1F764';
+--alchemical-symbol-for-quick-lime:'\1F741';
+--alchemical-symbol-for-quintessence:'\1F700';
+--alchemical-symbol-for-realgar:'\1F73B';
+--alchemical-symbol-for-realgar-2:'\1F73C';
+--alchemical-symbol-for-regulus:'\1F732';
+--alchemical-symbol-for-regulus-of-antimony:'\1F730';
+--alchemical-symbol-for-regulus-of-antimony-2:'\1F731';
+--alchemical-symbol-for-regulus-of-iron:'\1F71F';
+--alchemical-symbol-for-regulus-2:'\1F733';
+--alchemical-symbol-for-regulus-3:'\1F734';
+--alchemical-symbol-for-regulus-4:'\1F735';
+--alchemical-symbol-for-retort:'\1F76D';
+--alchemical-symbol-for-rock-salt:'\1F718';
+--alchemical-symbol-for-rock-salt-2:'\1F719';
+--alchemical-symbol-for-sal-ammoniac:'\1F739';
+--alchemical-symbol-for-salt:'\1F714';
+--alchemical-symbol-for-salt-of-antimony:'\1F72D';
+--alchemical-symbol-for-salt-of-copper-antimoniate:'\1F726';
+--alchemical-symbol-for-scepter-of-jove:'\1F74F';
+--alchemical-symbol-for-silver:'\1F71B';
+--alchemical-symbol-for-soap:'\1F754';
+--alchemical-symbol-for-spirit:'\1F747';
+--alchemical-symbol-for-starred-trident:'\1F752';
+--alchemical-symbol-for-stratum-super-stratum:'\1F75C';
+--alchemical-symbol-for-stratum-super-stratum-2:'\1F75D';
+--alchemical-symbol-for-sublimate-of-antimony:'\1F72C';
+--alchemical-symbol-for-sublimate-of-copper:'\1F722';
+--alchemical-symbol-for-sublimate-of-salt-of-antimony:'\1F72E';
+--alchemical-symbol-for-sublimate-of-salt-of-copper:'\1F727';
+--alchemical-symbol-for-sublimation:'\1F75E';
+--alchemical-symbol-for-sulfur:'\1F70D';
+--alchemical-symbol-for-tartar:'\1F73F';
+--alchemical-symbol-for-tartar-2:'\1F740';
+--alchemical-symbol-for-tin-ore:'\1F729';
+--alchemical-symbol-for-tincture:'\1F748';
+--alchemical-symbol-for-trident:'\1F751';
+--alchemical-symbol-for-tutty:'\1F74D';
+--alchemical-symbol-for-urine:'\1F755';
+--alchemical-symbol-for-verdigris:'\1F728';
+--alchemical-symbol-for-vinegar:'\1F70A';
+--alchemical-symbol-for-vinegar-of-antimony:'\1F72F';
+--alchemical-symbol-for-vinegar-2:'\1F70B';
+--alchemical-symbol-for-vinegar-3:'\1F70C';
+--alchemical-symbol-for-vitriol:'\1F716';
+--alchemical-symbol-for-vitriol-2:'\1F717';
+--alchemical-symbol-for-water:'\1F704';
+--alchemical-symbol-for-wax:'\1F74A';
+--gonggong:'\1F77D';
+--haumea:'\1F77B';
+--lot-of-fortune:'\1F774';
+--lunar-eclipse:'\1F776';
+--makemake:'\1F77C';
+--occultation:'\1F775';
+--orcus:'\1F77F';
+--quaoar:'\1F77E';
+}
+
+
+
+.alchemical-symbol-for-air::before, .alchemical-symbol-for-air-before::before{ content:var(--alchemical-symbol-for-air)}
+.alchemical-symbol-for-air-after::after{content:var(--alchemical-symbol-for-air)}
+.alchemical-symbol-for-air-both::after, .alchemical-symbol-for-air-both::before {content:var(--alchemical-symbol-for-air)}
+.alchemical-symbol-for-air-list { list-style: var(--alchemical-symbol-for-air)}
+
+
+
+.alchemical-symbol-for-alembic::before, .alchemical-symbol-for-alembic-before::before{ content:var(--alchemical-symbol-for-alembic)}
+.alchemical-symbol-for-alembic-after::after{content:var(--alchemical-symbol-for-alembic)}
+.alchemical-symbol-for-alembic-both::after, .alchemical-symbol-for-alembic-both::before {content:var(--alchemical-symbol-for-alembic)}
+.alchemical-symbol-for-alembic-list { list-style: var(--alchemical-symbol-for-alembic)}
+
+
+
+.alchemical-symbol-for-alkali::before, .alchemical-symbol-for-alkali-before::before{ content:var(--alchemical-symbol-for-alkali)}
+.alchemical-symbol-for-alkali-after::after{content:var(--alchemical-symbol-for-alkali)}
+.alchemical-symbol-for-alkali-both::after, .alchemical-symbol-for-alkali-both::before {content:var(--alchemical-symbol-for-alkali)}
+.alchemical-symbol-for-alkali-list { list-style: var(--alchemical-symbol-for-alkali)}
+
+
+
+.alchemical-symbol-for-alkali-2::before, .alchemical-symbol-for-alkali-2-before::before{ content:var(--alchemical-symbol-for-alkali-2)}
+.alchemical-symbol-for-alkali-2-after::after{content:var(--alchemical-symbol-for-alkali-2)}
+.alchemical-symbol-for-alkali-2-both::after, .alchemical-symbol-for-alkali-2-both::before {content:var(--alchemical-symbol-for-alkali-2)}
+.alchemical-symbol-for-alkali-2-list { list-style: var(--alchemical-symbol-for-alkali-2)}
+
+
+
+.alchemical-symbol-for-alum::before, .alchemical-symbol-for-alum-before::before{ content:var(--alchemical-symbol-for-alum)}
+.alchemical-symbol-for-alum-after::after{content:var(--alchemical-symbol-for-alum)}
+.alchemical-symbol-for-alum-both::after, .alchemical-symbol-for-alum-both::before {content:var(--alchemical-symbol-for-alum)}
+.alchemical-symbol-for-alum-list { list-style: var(--alchemical-symbol-for-alum)}
+
+
+
+.alchemical-symbol-for-amalgam::before, .alchemical-symbol-for-amalgam-before::before{ content:var(--alchemical-symbol-for-amalgam)}
+.alchemical-symbol-for-amalgam-after::after{content:var(--alchemical-symbol-for-amalgam)}
+.alchemical-symbol-for-amalgam-both::after, .alchemical-symbol-for-amalgam-both::before {content:var(--alchemical-symbol-for-amalgam)}
+.alchemical-symbol-for-amalgam-list { list-style: var(--alchemical-symbol-for-amalgam)}
+
+
+
+.alchemical-symbol-for-antimony-ore::before, .alchemical-symbol-for-antimony-ore-before::before{ content:var(--alchemical-symbol-for-antimony-ore)}
+.alchemical-symbol-for-antimony-ore-after::after{content:var(--alchemical-symbol-for-antimony-ore)}
+.alchemical-symbol-for-antimony-ore-both::after, .alchemical-symbol-for-antimony-ore-both::before {content:var(--alchemical-symbol-for-antimony-ore)}
+.alchemical-symbol-for-antimony-ore-list { list-style: var(--alchemical-symbol-for-antimony-ore)}
+
+
+
+.alchemical-symbol-for-aqua-regia::before, .alchemical-symbol-for-aqua-regia-before::before{ content:var(--alchemical-symbol-for-aqua-regia)}
+.alchemical-symbol-for-aqua-regia-after::after{content:var(--alchemical-symbol-for-aqua-regia)}
+.alchemical-symbol-for-aqua-regia-both::after, .alchemical-symbol-for-aqua-regia-both::before {content:var(--alchemical-symbol-for-aqua-regia)}
+.alchemical-symbol-for-aqua-regia-list { list-style: var(--alchemical-symbol-for-aqua-regia)}
+
+
+
+.alchemical-symbol-for-aqua-regia-2::before, .alchemical-symbol-for-aqua-regia-2-before::before{ content:var(--alchemical-symbol-for-aqua-regia-2)}
+.alchemical-symbol-for-aqua-regia-2-after::after{content:var(--alchemical-symbol-for-aqua-regia-2)}
+.alchemical-symbol-for-aqua-regia-2-both::after, .alchemical-symbol-for-aqua-regia-2-both::before {content:var(--alchemical-symbol-for-aqua-regia-2)}
+.alchemical-symbol-for-aqua-regia-2-list { list-style: var(--alchemical-symbol-for-aqua-regia-2)}
+
+
+
+.alchemical-symbol-for-aqua-vitae::before, .alchemical-symbol-for-aqua-vitae-before::before{ content:var(--alchemical-symbol-for-aqua-vitae)}
+.alchemical-symbol-for-aqua-vitae-after::after{content:var(--alchemical-symbol-for-aqua-vitae)}
+.alchemical-symbol-for-aqua-vitae-both::after, .alchemical-symbol-for-aqua-vitae-both::before {content:var(--alchemical-symbol-for-aqua-vitae)}
+.alchemical-symbol-for-aqua-vitae-list { list-style: var(--alchemical-symbol-for-aqua-vitae)}
+
+
+
+.alchemical-symbol-for-aqua-vitae-2::before, .alchemical-symbol-for-aqua-vitae-2-before::before{ content:var(--alchemical-symbol-for-aqua-vitae-2)}
+.alchemical-symbol-for-aqua-vitae-2-after::after{content:var(--alchemical-symbol-for-aqua-vitae-2)}
+.alchemical-symbol-for-aqua-vitae-2-both::after, .alchemical-symbol-for-aqua-vitae-2-both::before {content:var(--alchemical-symbol-for-aqua-vitae-2)}
+.alchemical-symbol-for-aqua-vitae-2-list { list-style: var(--alchemical-symbol-for-aqua-vitae-2)}
+
+
+
+.alchemical-symbol-for-aquafortis::before, .alchemical-symbol-for-aquafortis-before::before{ content:var(--alchemical-symbol-for-aquafortis)}
+.alchemical-symbol-for-aquafortis-after::after{content:var(--alchemical-symbol-for-aquafortis)}
+.alchemical-symbol-for-aquafortis-both::after, .alchemical-symbol-for-aquafortis-both::before {content:var(--alchemical-symbol-for-aquafortis)}
+.alchemical-symbol-for-aquafortis-list { list-style: var(--alchemical-symbol-for-aquafortis)}
+
+
+
+.alchemical-symbol-for-arsenic::before, .alchemical-symbol-for-arsenic-before::before{ content:var(--alchemical-symbol-for-arsenic)}
+.alchemical-symbol-for-arsenic-after::after{content:var(--alchemical-symbol-for-arsenic)}
+.alchemical-symbol-for-arsenic-both::after, .alchemical-symbol-for-arsenic-both::before {content:var(--alchemical-symbol-for-arsenic)}
+.alchemical-symbol-for-arsenic-list { list-style: var(--alchemical-symbol-for-arsenic)}
+
+
+
+.alchemical-symbol-for-ashes::before, .alchemical-symbol-for-ashes-before::before{ content:var(--alchemical-symbol-for-ashes)}
+.alchemical-symbol-for-ashes-after::after{content:var(--alchemical-symbol-for-ashes)}
+.alchemical-symbol-for-ashes-both::after, .alchemical-symbol-for-ashes-both::before {content:var(--alchemical-symbol-for-ashes)}
+.alchemical-symbol-for-ashes-list { list-style: var(--alchemical-symbol-for-ashes)}
+
+
+
+.alchemical-symbol-for-auripigment::before, .alchemical-symbol-for-auripigment-before::before{ content:var(--alchemical-symbol-for-auripigment)}
+.alchemical-symbol-for-auripigment-after::after{content:var(--alchemical-symbol-for-auripigment)}
+.alchemical-symbol-for-auripigment-both::after, .alchemical-symbol-for-auripigment-both::before {content:var(--alchemical-symbol-for-auripigment)}
+.alchemical-symbol-for-auripigment-list { list-style: var(--alchemical-symbol-for-auripigment)}
+
+
+
+.alchemical-symbol-for-bath-of-mary::before, .alchemical-symbol-for-bath-of-mary-before::before{ content:var(--alchemical-symbol-for-bath-of-mary)}
+.alchemical-symbol-for-bath-of-mary-after::after{content:var(--alchemical-symbol-for-bath-of-mary)}
+.alchemical-symbol-for-bath-of-mary-both::after, .alchemical-symbol-for-bath-of-mary-both::before {content:var(--alchemical-symbol-for-bath-of-mary)}
+.alchemical-symbol-for-bath-of-mary-list { list-style: var(--alchemical-symbol-for-bath-of-mary)}
+
+
+
+.alchemical-symbol-for-bath-of-vapours::before, .alchemical-symbol-for-bath-of-vapours-before::before{ content:var(--alchemical-symbol-for-bath-of-vapours)}
+.alchemical-symbol-for-bath-of-vapours-after::after{content:var(--alchemical-symbol-for-bath-of-vapours)}
+.alchemical-symbol-for-bath-of-vapours-both::after, .alchemical-symbol-for-bath-of-vapours-both::before {content:var(--alchemical-symbol-for-bath-of-vapours)}
+.alchemical-symbol-for-bath-of-vapours-list { list-style: var(--alchemical-symbol-for-bath-of-vapours)}
+
+
+
+.alchemical-symbol-for-bismuth-ore::before, .alchemical-symbol-for-bismuth-ore-before::before{ content:var(--alchemical-symbol-for-bismuth-ore)}
+.alchemical-symbol-for-bismuth-ore-after::after{content:var(--alchemical-symbol-for-bismuth-ore)}
+.alchemical-symbol-for-bismuth-ore-both::after, .alchemical-symbol-for-bismuth-ore-both::before {content:var(--alchemical-symbol-for-bismuth-ore)}
+.alchemical-symbol-for-bismuth-ore-list { list-style: var(--alchemical-symbol-for-bismuth-ore)}
+
+
+
+.alchemical-symbol-for-black-sulfur::before, .alchemical-symbol-for-black-sulfur-before::before{ content:var(--alchemical-symbol-for-black-sulfur)}
+.alchemical-symbol-for-black-sulfur-after::after{content:var(--alchemical-symbol-for-black-sulfur)}
+.alchemical-symbol-for-black-sulfur-both::after, .alchemical-symbol-for-black-sulfur-both::before {content:var(--alchemical-symbol-for-black-sulfur)}
+.alchemical-symbol-for-black-sulfur-list { list-style: var(--alchemical-symbol-for-black-sulfur)}
+
+
+
+.alchemical-symbol-for-borax::before, .alchemical-symbol-for-borax-before::before{ content:var(--alchemical-symbol-for-borax)}
+.alchemical-symbol-for-borax-after::after{content:var(--alchemical-symbol-for-borax)}
+.alchemical-symbol-for-borax-both::after, .alchemical-symbol-for-borax-both::before {content:var(--alchemical-symbol-for-borax)}
+.alchemical-symbol-for-borax-list { list-style: var(--alchemical-symbol-for-borax)}
+
+
+
+.alchemical-symbol-for-borax-2::before, .alchemical-symbol-for-borax-2-before::before{ content:var(--alchemical-symbol-for-borax-2)}
+.alchemical-symbol-for-borax-2-after::after{content:var(--alchemical-symbol-for-borax-2)}
+.alchemical-symbol-for-borax-2-both::after, .alchemical-symbol-for-borax-2-both::before {content:var(--alchemical-symbol-for-borax-2)}
+.alchemical-symbol-for-borax-2-list { list-style: var(--alchemical-symbol-for-borax-2)}
+
+
+
+.alchemical-symbol-for-borax-3::before, .alchemical-symbol-for-borax-3-before::before{ content:var(--alchemical-symbol-for-borax-3)}
+.alchemical-symbol-for-borax-3-after::after{content:var(--alchemical-symbol-for-borax-3)}
+.alchemical-symbol-for-borax-3-both::after, .alchemical-symbol-for-borax-3-both::before {content:var(--alchemical-symbol-for-borax-3)}
+.alchemical-symbol-for-borax-3-list { list-style: var(--alchemical-symbol-for-borax-3)}
+
+
+
+.alchemical-symbol-for-brick::before, .alchemical-symbol-for-brick-before::before{ content:var(--alchemical-symbol-for-brick)}
+.alchemical-symbol-for-brick-after::after{content:var(--alchemical-symbol-for-brick)}
+.alchemical-symbol-for-brick-both::after, .alchemical-symbol-for-brick-both::before {content:var(--alchemical-symbol-for-brick)}
+.alchemical-symbol-for-brick-list { list-style: var(--alchemical-symbol-for-brick)}
+
+
+
+.alchemical-symbol-for-caduceus::before, .alchemical-symbol-for-caduceus-before::before{ content:var(--alchemical-symbol-for-caduceus)}
+.alchemical-symbol-for-caduceus-after::after{content:var(--alchemical-symbol-for-caduceus)}
+.alchemical-symbol-for-caduceus-both::after, .alchemical-symbol-for-caduceus-both::before {content:var(--alchemical-symbol-for-caduceus)}
+.alchemical-symbol-for-caduceus-list { list-style: var(--alchemical-symbol-for-caduceus)}
+
+
+
+.alchemical-symbol-for-calx::before, .alchemical-symbol-for-calx-before::before{ content:var(--alchemical-symbol-for-calx)}
+.alchemical-symbol-for-calx-after::after{content:var(--alchemical-symbol-for-calx)}
+.alchemical-symbol-for-calx-both::after, .alchemical-symbol-for-calx-both::before {content:var(--alchemical-symbol-for-calx)}
+.alchemical-symbol-for-calx-list { list-style: var(--alchemical-symbol-for-calx)}
+
+
+
+.alchemical-symbol-for-caput-mortuum::before, .alchemical-symbol-for-caput-mortuum-before::before{ content:var(--alchemical-symbol-for-caput-mortuum)}
+.alchemical-symbol-for-caput-mortuum-after::after{content:var(--alchemical-symbol-for-caput-mortuum)}
+.alchemical-symbol-for-caput-mortuum-both::after, .alchemical-symbol-for-caput-mortuum-both::before {content:var(--alchemical-symbol-for-caput-mortuum)}
+.alchemical-symbol-for-caput-mortuum-list { list-style: var(--alchemical-symbol-for-caput-mortuum)}
+
+
+
+.alchemical-symbol-for-cinnabar::before, .alchemical-symbol-for-cinnabar-before::before{ content:var(--alchemical-symbol-for-cinnabar)}
+.alchemical-symbol-for-cinnabar-after::after{content:var(--alchemical-symbol-for-cinnabar)}
+.alchemical-symbol-for-cinnabar-both::after, .alchemical-symbol-for-cinnabar-both::before {content:var(--alchemical-symbol-for-cinnabar)}
+.alchemical-symbol-for-cinnabar-list { list-style: var(--alchemical-symbol-for-cinnabar)}
+
+
+
+.alchemical-symbol-for-copper-antimoniate::before, .alchemical-symbol-for-copper-antimoniate-before::before{ content:var(--alchemical-symbol-for-copper-antimoniate)}
+.alchemical-symbol-for-copper-antimoniate-after::after{content:var(--alchemical-symbol-for-copper-antimoniate)}
+.alchemical-symbol-for-copper-antimoniate-both::after, .alchemical-symbol-for-copper-antimoniate-both::before {content:var(--alchemical-symbol-for-copper-antimoniate)}
+.alchemical-symbol-for-copper-antimoniate-list { list-style: var(--alchemical-symbol-for-copper-antimoniate)}
+
+
+
+.alchemical-symbol-for-copper-ore::before, .alchemical-symbol-for-copper-ore-before::before{ content:var(--alchemical-symbol-for-copper-ore)}
+.alchemical-symbol-for-copper-ore-after::after{content:var(--alchemical-symbol-for-copper-ore)}
+.alchemical-symbol-for-copper-ore-both::after, .alchemical-symbol-for-copper-ore-both::before {content:var(--alchemical-symbol-for-copper-ore)}
+.alchemical-symbol-for-copper-ore-list { list-style: var(--alchemical-symbol-for-copper-ore)}
+
+
+
+.alchemical-symbol-for-crocus-of-copper::before, .alchemical-symbol-for-crocus-of-copper-before::before{ content:var(--alchemical-symbol-for-crocus-of-copper)}
+.alchemical-symbol-for-crocus-of-copper-after::after{content:var(--alchemical-symbol-for-crocus-of-copper)}
+.alchemical-symbol-for-crocus-of-copper-both::after, .alchemical-symbol-for-crocus-of-copper-both::before {content:var(--alchemical-symbol-for-crocus-of-copper)}
+.alchemical-symbol-for-crocus-of-copper-list { list-style: var(--alchemical-symbol-for-crocus-of-copper)}
+
+
+
+.alchemical-symbol-for-crocus-of-copper-2::before, .alchemical-symbol-for-crocus-of-copper-2-before::before{ content:var(--alchemical-symbol-for-crocus-of-copper-2)}
+.alchemical-symbol-for-crocus-of-copper-2-after::after{content:var(--alchemical-symbol-for-crocus-of-copper-2)}
+.alchemical-symbol-for-crocus-of-copper-2-both::after, .alchemical-symbol-for-crocus-of-copper-2-both::before {content:var(--alchemical-symbol-for-crocus-of-copper-2)}
+.alchemical-symbol-for-crocus-of-copper-2-list { list-style: var(--alchemical-symbol-for-crocus-of-copper-2)}
+
+
+
+.alchemical-symbol-for-crocus-of-iron::before, .alchemical-symbol-for-crocus-of-iron-before::before{ content:var(--alchemical-symbol-for-crocus-of-iron)}
+.alchemical-symbol-for-crocus-of-iron-after::after{content:var(--alchemical-symbol-for-crocus-of-iron)}
+.alchemical-symbol-for-crocus-of-iron-both::after, .alchemical-symbol-for-crocus-of-iron-both::before {content:var(--alchemical-symbol-for-crocus-of-iron)}
+.alchemical-symbol-for-crocus-of-iron-list { list-style: var(--alchemical-symbol-for-crocus-of-iron)}
+
+
+
+.alchemical-symbol-for-crucible::before, .alchemical-symbol-for-crucible-before::before{ content:var(--alchemical-symbol-for-crucible)}
+.alchemical-symbol-for-crucible-after::after{content:var(--alchemical-symbol-for-crucible)}
+.alchemical-symbol-for-crucible-both::after, .alchemical-symbol-for-crucible-both::before {content:var(--alchemical-symbol-for-crucible)}
+.alchemical-symbol-for-crucible-list { list-style: var(--alchemical-symbol-for-crucible)}
+
+
+
+.alchemical-symbol-for-crucible-2::before, .alchemical-symbol-for-crucible-2-before::before{ content:var(--alchemical-symbol-for-crucible-2)}
+.alchemical-symbol-for-crucible-2-after::after{content:var(--alchemical-symbol-for-crucible-2)}
+.alchemical-symbol-for-crucible-2-both::after, .alchemical-symbol-for-crucible-2-both::before {content:var(--alchemical-symbol-for-crucible-2)}
+.alchemical-symbol-for-crucible-2-list { list-style: var(--alchemical-symbol-for-crucible-2)}
+
+
+
+.alchemical-symbol-for-crucible-3::before, .alchemical-symbol-for-crucible-3-before::before{ content:var(--alchemical-symbol-for-crucible-3)}
+.alchemical-symbol-for-crucible-3-after::after{content:var(--alchemical-symbol-for-crucible-3)}
+.alchemical-symbol-for-crucible-3-both::after, .alchemical-symbol-for-crucible-3-both::before {content:var(--alchemical-symbol-for-crucible-3)}
+.alchemical-symbol-for-crucible-3-list { list-style: var(--alchemical-symbol-for-crucible-3)}
+
+
+
+.alchemical-symbol-for-crucible-4::before, .alchemical-symbol-for-crucible-4-before::before{ content:var(--alchemical-symbol-for-crucible-4)}
+.alchemical-symbol-for-crucible-4-after::after{content:var(--alchemical-symbol-for-crucible-4)}
+.alchemical-symbol-for-crucible-4-both::after, .alchemical-symbol-for-crucible-4-both::before {content:var(--alchemical-symbol-for-crucible-4)}
+.alchemical-symbol-for-crucible-4-list { list-style: var(--alchemical-symbol-for-crucible-4)}
+
+
+
+.alchemical-symbol-for-crucible-5::before, .alchemical-symbol-for-crucible-5-before::before{ content:var(--alchemical-symbol-for-crucible-5)}
+.alchemical-symbol-for-crucible-5-after::after{content:var(--alchemical-symbol-for-crucible-5)}
+.alchemical-symbol-for-crucible-5-both::after, .alchemical-symbol-for-crucible-5-both::before {content:var(--alchemical-symbol-for-crucible-5)}
+.alchemical-symbol-for-crucible-5-list { list-style: var(--alchemical-symbol-for-crucible-5)}
+
+
+
+.alchemical-symbol-for-day-night::before, .alchemical-symbol-for-day-night-before::before{ content:var(--alchemical-symbol-for-day-night)}
+.alchemical-symbol-for-day-night-after::after{content:var(--alchemical-symbol-for-day-night)}
+.alchemical-symbol-for-day-night-both::after, .alchemical-symbol-for-day-night-both::before {content:var(--alchemical-symbol-for-day-night)}
+.alchemical-symbol-for-day-night-list { list-style: var(--alchemical-symbol-for-day-night)}
+
+
+
+.alchemical-symbol-for-dissolve::before, .alchemical-symbol-for-dissolve-before::before{ content:var(--alchemical-symbol-for-dissolve)}
+.alchemical-symbol-for-dissolve-after::after{content:var(--alchemical-symbol-for-dissolve)}
+.alchemical-symbol-for-dissolve-both::after, .alchemical-symbol-for-dissolve-both::before {content:var(--alchemical-symbol-for-dissolve)}
+.alchemical-symbol-for-dissolve-list { list-style: var(--alchemical-symbol-for-dissolve)}
+
+
+
+.alchemical-symbol-for-dissolve-2::before, .alchemical-symbol-for-dissolve-2-before::before{ content:var(--alchemical-symbol-for-dissolve-2)}
+.alchemical-symbol-for-dissolve-2-after::after{content:var(--alchemical-symbol-for-dissolve-2)}
+.alchemical-symbol-for-dissolve-2-both::after, .alchemical-symbol-for-dissolve-2-both::before {content:var(--alchemical-symbol-for-dissolve-2)}
+.alchemical-symbol-for-dissolve-2-list { list-style: var(--alchemical-symbol-for-dissolve-2)}
+
+
+
+.alchemical-symbol-for-distill::before, .alchemical-symbol-for-distill-before::before{ content:var(--alchemical-symbol-for-distill)}
+.alchemical-symbol-for-distill-after::after{content:var(--alchemical-symbol-for-distill)}
+.alchemical-symbol-for-distill-both::after, .alchemical-symbol-for-distill-both::before {content:var(--alchemical-symbol-for-distill)}
+.alchemical-symbol-for-distill-list { list-style: var(--alchemical-symbol-for-distill)}
+
+
+
+.alchemical-symbol-for-earth::before, .alchemical-symbol-for-earth-before::before{ content:var(--alchemical-symbol-for-earth)}
+.alchemical-symbol-for-earth-after::after{content:var(--alchemical-symbol-for-earth)}
+.alchemical-symbol-for-earth-both::after, .alchemical-symbol-for-earth-both::before {content:var(--alchemical-symbol-for-earth)}
+.alchemical-symbol-for-earth-list { list-style: var(--alchemical-symbol-for-earth)}
+
+
+
+.alchemical-symbol-for-fire::before, .alchemical-symbol-for-fire-before::before{ content:var(--alchemical-symbol-for-fire)}
+.alchemical-symbol-for-fire-after::after{content:var(--alchemical-symbol-for-fire)}
+.alchemical-symbol-for-fire-both::after, .alchemical-symbol-for-fire-both::before {content:var(--alchemical-symbol-for-fire)}
+.alchemical-symbol-for-fire-list { list-style: var(--alchemical-symbol-for-fire)}
+
+
+
+.alchemical-symbol-for-gold::before, .alchemical-symbol-for-gold-before::before{ content:var(--alchemical-symbol-for-gold)}
+.alchemical-symbol-for-gold-after::after{content:var(--alchemical-symbol-for-gold)}
+.alchemical-symbol-for-gold-both::after, .alchemical-symbol-for-gold-both::before {content:var(--alchemical-symbol-for-gold)}
+.alchemical-symbol-for-gold-list { list-style: var(--alchemical-symbol-for-gold)}
+
+
+
+.alchemical-symbol-for-gum::before, .alchemical-symbol-for-gum-before::before{ content:var(--alchemical-symbol-for-gum)}
+.alchemical-symbol-for-gum-after::after{content:var(--alchemical-symbol-for-gum)}
+.alchemical-symbol-for-gum-both::after, .alchemical-symbol-for-gum-both::before {content:var(--alchemical-symbol-for-gum)}
+.alchemical-symbol-for-gum-list { list-style: var(--alchemical-symbol-for-gum)}
+
+
+
+.alchemical-symbol-for-half-dram::before, .alchemical-symbol-for-half-dram-before::before{ content:var(--alchemical-symbol-for-half-dram)}
+.alchemical-symbol-for-half-dram-after::after{content:var(--alchemical-symbol-for-half-dram)}
+.alchemical-symbol-for-half-dram-both::after, .alchemical-symbol-for-half-dram-both::before {content:var(--alchemical-symbol-for-half-dram)}
+.alchemical-symbol-for-half-dram-list { list-style: var(--alchemical-symbol-for-half-dram)}
+
+
+
+.alchemical-symbol-for-half-ounce::before, .alchemical-symbol-for-half-ounce-before::before{ content:var(--alchemical-symbol-for-half-ounce)}
+.alchemical-symbol-for-half-ounce-after::after{content:var(--alchemical-symbol-for-half-ounce)}
+.alchemical-symbol-for-half-ounce-both::after, .alchemical-symbol-for-half-ounce-both::before {content:var(--alchemical-symbol-for-half-ounce)}
+.alchemical-symbol-for-half-ounce-list { list-style: var(--alchemical-symbol-for-half-ounce)}
+
+
+
+.alchemical-symbol-for-horse-dung::before, .alchemical-symbol-for-horse-dung-before::before{ content:var(--alchemical-symbol-for-horse-dung)}
+.alchemical-symbol-for-horse-dung-after::after{content:var(--alchemical-symbol-for-horse-dung)}
+.alchemical-symbol-for-horse-dung-both::after, .alchemical-symbol-for-horse-dung-both::before {content:var(--alchemical-symbol-for-horse-dung)}
+.alchemical-symbol-for-horse-dung-list { list-style: var(--alchemical-symbol-for-horse-dung)}
+
+
+
+.alchemical-symbol-for-hour::before, .alchemical-symbol-for-hour-before::before{ content:var(--alchemical-symbol-for-hour)}
+.alchemical-symbol-for-hour-after::after{content:var(--alchemical-symbol-for-hour)}
+.alchemical-symbol-for-hour-both::after, .alchemical-symbol-for-hour-both::before {content:var(--alchemical-symbol-for-hour)}
+.alchemical-symbol-for-hour-list { list-style: var(--alchemical-symbol-for-hour)}
+
+
+
+.alchemical-symbol-for-iron-ore::before, .alchemical-symbol-for-iron-ore-before::before{ content:var(--alchemical-symbol-for-iron-ore)}
+.alchemical-symbol-for-iron-ore-after::after{content:var(--alchemical-symbol-for-iron-ore)}
+.alchemical-symbol-for-iron-ore-both::after, .alchemical-symbol-for-iron-ore-both::before {content:var(--alchemical-symbol-for-iron-ore)}
+.alchemical-symbol-for-iron-ore-list { list-style: var(--alchemical-symbol-for-iron-ore)}
+
+
+
+.alchemical-symbol-for-iron-ore-2::before, .alchemical-symbol-for-iron-ore-2-before::before{ content:var(--alchemical-symbol-for-iron-ore-2)}
+.alchemical-symbol-for-iron-ore-2-after::after{content:var(--alchemical-symbol-for-iron-ore-2)}
+.alchemical-symbol-for-iron-ore-2-both::after, .alchemical-symbol-for-iron-ore-2-both::before {content:var(--alchemical-symbol-for-iron-ore-2)}
+.alchemical-symbol-for-iron-ore-2-list { list-style: var(--alchemical-symbol-for-iron-ore-2)}
+
+
+
+.alchemical-symbol-for-iron-copper-ore::before, .alchemical-symbol-for-iron-copper-ore-before::before{ content:var(--alchemical-symbol-for-iron-copper-ore)}
+.alchemical-symbol-for-iron-copper-ore-after::after{content:var(--alchemical-symbol-for-iron-copper-ore)}
+.alchemical-symbol-for-iron-copper-ore-both::after, .alchemical-symbol-for-iron-copper-ore-both::before {content:var(--alchemical-symbol-for-iron-copper-ore)}
+.alchemical-symbol-for-iron-copper-ore-list { list-style: var(--alchemical-symbol-for-iron-copper-ore)}
+
+
+
+.alchemical-symbol-for-lead-ore::before, .alchemical-symbol-for-lead-ore-before::before{ content:var(--alchemical-symbol-for-lead-ore)}
+.alchemical-symbol-for-lead-ore-after::after{content:var(--alchemical-symbol-for-lead-ore)}
+.alchemical-symbol-for-lead-ore-both::after, .alchemical-symbol-for-lead-ore-both::before {content:var(--alchemical-symbol-for-lead-ore)}
+.alchemical-symbol-for-lead-ore-list { list-style: var(--alchemical-symbol-for-lead-ore)}
+
+
+
+.alchemical-symbol-for-lodestone::before, .alchemical-symbol-for-lodestone-before::before{ content:var(--alchemical-symbol-for-lodestone)}
+.alchemical-symbol-for-lodestone-after::after{content:var(--alchemical-symbol-for-lodestone)}
+.alchemical-symbol-for-lodestone-both::after, .alchemical-symbol-for-lodestone-both::before {content:var(--alchemical-symbol-for-lodestone)}
+.alchemical-symbol-for-lodestone-list { list-style: var(--alchemical-symbol-for-lodestone)}
+
+
+
+.alchemical-symbol-for-marcasite::before, .alchemical-symbol-for-marcasite-before::before{ content:var(--alchemical-symbol-for-marcasite)}
+.alchemical-symbol-for-marcasite-after::after{content:var(--alchemical-symbol-for-marcasite)}
+.alchemical-symbol-for-marcasite-both::after, .alchemical-symbol-for-marcasite-both::before {content:var(--alchemical-symbol-for-marcasite)}
+.alchemical-symbol-for-marcasite-list { list-style: var(--alchemical-symbol-for-marcasite)}
+
+
+
+.alchemical-symbol-for-mercury-sublimate::before, .alchemical-symbol-for-mercury-sublimate-before::before{ content:var(--alchemical-symbol-for-mercury-sublimate)}
+.alchemical-symbol-for-mercury-sublimate-after::after{content:var(--alchemical-symbol-for-mercury-sublimate)}
+.alchemical-symbol-for-mercury-sublimate-both::after, .alchemical-symbol-for-mercury-sublimate-both::before {content:var(--alchemical-symbol-for-mercury-sublimate)}
+.alchemical-symbol-for-mercury-sublimate-list { list-style: var(--alchemical-symbol-for-mercury-sublimate)}
+
+
+
+.alchemical-symbol-for-mercury-sublimate-2::before, .alchemical-symbol-for-mercury-sublimate-2-before::before{ content:var(--alchemical-symbol-for-mercury-sublimate-2)}
+.alchemical-symbol-for-mercury-sublimate-2-after::after{content:var(--alchemical-symbol-for-mercury-sublimate-2)}
+.alchemical-symbol-for-mercury-sublimate-2-both::after, .alchemical-symbol-for-mercury-sublimate-2-both::before {content:var(--alchemical-symbol-for-mercury-sublimate-2)}
+.alchemical-symbol-for-mercury-sublimate-2-list { list-style: var(--alchemical-symbol-for-mercury-sublimate-2)}
+
+
+
+.alchemical-symbol-for-mercury-sublimate-3::before, .alchemical-symbol-for-mercury-sublimate-3-before::before{ content:var(--alchemical-symbol-for-mercury-sublimate-3)}
+.alchemical-symbol-for-mercury-sublimate-3-after::after{content:var(--alchemical-symbol-for-mercury-sublimate-3)}
+.alchemical-symbol-for-mercury-sublimate-3-both::after, .alchemical-symbol-for-mercury-sublimate-3-both::before {content:var(--alchemical-symbol-for-mercury-sublimate-3)}
+.alchemical-symbol-for-mercury-sublimate-3-list { list-style: var(--alchemical-symbol-for-mercury-sublimate-3)}
+
+
+
+.alchemical-symbol-for-month::before, .alchemical-symbol-for-month-before::before{ content:var(--alchemical-symbol-for-month)}
+.alchemical-symbol-for-month-after::after{content:var(--alchemical-symbol-for-month)}
+.alchemical-symbol-for-month-both::after, .alchemical-symbol-for-month-both::before {content:var(--alchemical-symbol-for-month)}
+.alchemical-symbol-for-month-list { list-style: var(--alchemical-symbol-for-month)}
+
+
+
+.alchemical-symbol-for-night::before, .alchemical-symbol-for-night-before::before{ content:var(--alchemical-symbol-for-night)}
+.alchemical-symbol-for-night-after::after{content:var(--alchemical-symbol-for-night)}
+.alchemical-symbol-for-night-both::after, .alchemical-symbol-for-night-both::before {content:var(--alchemical-symbol-for-night)}
+.alchemical-symbol-for-night-list { list-style: var(--alchemical-symbol-for-night)}
+
+
+
+.alchemical-symbol-for-nitre::before, .alchemical-symbol-for-nitre-before::before{ content:var(--alchemical-symbol-for-nitre)}
+.alchemical-symbol-for-nitre-after::after{content:var(--alchemical-symbol-for-nitre)}
+.alchemical-symbol-for-nitre-both::after, .alchemical-symbol-for-nitre-both::before {content:var(--alchemical-symbol-for-nitre)}
+.alchemical-symbol-for-nitre-list { list-style: var(--alchemical-symbol-for-nitre)}
+
+
+
+.alchemical-symbol-for-oil::before, .alchemical-symbol-for-oil-before::before{ content:var(--alchemical-symbol-for-oil)}
+.alchemical-symbol-for-oil-after::after{content:var(--alchemical-symbol-for-oil)}
+.alchemical-symbol-for-oil-both::after, .alchemical-symbol-for-oil-both::before {content:var(--alchemical-symbol-for-oil)}
+.alchemical-symbol-for-oil-list { list-style: var(--alchemical-symbol-for-oil)}
+
+
+
+.alchemical-symbol-for-philosophers-sulfur::before, .alchemical-symbol-for-philosophers-sulfur-before::before{ content:var(--alchemical-symbol-for-philosophers-sulfur)}
+.alchemical-symbol-for-philosophers-sulfur-after::after{content:var(--alchemical-symbol-for-philosophers-sulfur)}
+.alchemical-symbol-for-philosophers-sulfur-both::after, .alchemical-symbol-for-philosophers-sulfur-both::before {content:var(--alchemical-symbol-for-philosophers-sulfur)}
+.alchemical-symbol-for-philosophers-sulfur-list { list-style: var(--alchemical-symbol-for-philosophers-sulfur)}
+
+
+
+.alchemical-symbol-for-pot-ashes::before, .alchemical-symbol-for-pot-ashes-before::before{ content:var(--alchemical-symbol-for-pot-ashes)}
+.alchemical-symbol-for-pot-ashes-after::after{content:var(--alchemical-symbol-for-pot-ashes)}
+.alchemical-symbol-for-pot-ashes-both::after, .alchemical-symbol-for-pot-ashes-both::before {content:var(--alchemical-symbol-for-pot-ashes)}
+.alchemical-symbol-for-pot-ashes-list { list-style: var(--alchemical-symbol-for-pot-ashes)}
+
+
+
+.alchemical-symbol-for-powder::before, .alchemical-symbol-for-powder-before::before{ content:var(--alchemical-symbol-for-powder)}
+.alchemical-symbol-for-powder-after::after{content:var(--alchemical-symbol-for-powder)}
+.alchemical-symbol-for-powder-both::after, .alchemical-symbol-for-powder-both::before {content:var(--alchemical-symbol-for-powder)}
+.alchemical-symbol-for-powder-list { list-style: var(--alchemical-symbol-for-powder)}
+
+
+
+.alchemical-symbol-for-powdered-brick::before, .alchemical-symbol-for-powdered-brick-before::before{ content:var(--alchemical-symbol-for-powdered-brick)}
+.alchemical-symbol-for-powdered-brick-after::after{content:var(--alchemical-symbol-for-powdered-brick)}
+.alchemical-symbol-for-powdered-brick-both::after, .alchemical-symbol-for-powdered-brick-both::before {content:var(--alchemical-symbol-for-powdered-brick)}
+.alchemical-symbol-for-powdered-brick-list { list-style: var(--alchemical-symbol-for-powdered-brick)}
+
+
+
+.alchemical-symbol-for-precipitate::before, .alchemical-symbol-for-precipitate-before::before{ content:var(--alchemical-symbol-for-precipitate)}
+.alchemical-symbol-for-precipitate-after::after{content:var(--alchemical-symbol-for-precipitate)}
+.alchemical-symbol-for-precipitate-both::after, .alchemical-symbol-for-precipitate-both::before {content:var(--alchemical-symbol-for-precipitate)}
+.alchemical-symbol-for-precipitate-list { list-style: var(--alchemical-symbol-for-precipitate)}
+
+
+
+.alchemical-symbol-for-purify::before, .alchemical-symbol-for-purify-before::before{ content:var(--alchemical-symbol-for-purify)}
+.alchemical-symbol-for-purify-after::after{content:var(--alchemical-symbol-for-purify)}
+.alchemical-symbol-for-purify-both::after, .alchemical-symbol-for-purify-both::before {content:var(--alchemical-symbol-for-purify)}
+.alchemical-symbol-for-purify-list { list-style: var(--alchemical-symbol-for-purify)}
+
+
+
+.alchemical-symbol-for-putrefaction::before, .alchemical-symbol-for-putrefaction-before::before{ content:var(--alchemical-symbol-for-putrefaction)}
+.alchemical-symbol-for-putrefaction-after::after{content:var(--alchemical-symbol-for-putrefaction)}
+.alchemical-symbol-for-putrefaction-both::after, .alchemical-symbol-for-putrefaction-both::before {content:var(--alchemical-symbol-for-putrefaction)}
+.alchemical-symbol-for-putrefaction-list { list-style: var(--alchemical-symbol-for-putrefaction)}
+
+
+
+.alchemical-symbol-for-quick-lime::before, .alchemical-symbol-for-quick-lime-before::before{ content:var(--alchemical-symbol-for-quick-lime)}
+.alchemical-symbol-for-quick-lime-after::after{content:var(--alchemical-symbol-for-quick-lime)}
+.alchemical-symbol-for-quick-lime-both::after, .alchemical-symbol-for-quick-lime-both::before {content:var(--alchemical-symbol-for-quick-lime)}
+.alchemical-symbol-for-quick-lime-list { list-style: var(--alchemical-symbol-for-quick-lime)}
+
+
+
+.alchemical-symbol-for-quintessence::before, .alchemical-symbol-for-quintessence-before::before{ content:var(--alchemical-symbol-for-quintessence)}
+.alchemical-symbol-for-quintessence-after::after{content:var(--alchemical-symbol-for-quintessence)}
+.alchemical-symbol-for-quintessence-both::after, .alchemical-symbol-for-quintessence-both::before {content:var(--alchemical-symbol-for-quintessence)}
+.alchemical-symbol-for-quintessence-list { list-style: var(--alchemical-symbol-for-quintessence)}
+
+
+
+.alchemical-symbol-for-realgar::before, .alchemical-symbol-for-realgar-before::before{ content:var(--alchemical-symbol-for-realgar)}
+.alchemical-symbol-for-realgar-after::after{content:var(--alchemical-symbol-for-realgar)}
+.alchemical-symbol-for-realgar-both::after, .alchemical-symbol-for-realgar-both::before {content:var(--alchemical-symbol-for-realgar)}
+.alchemical-symbol-for-realgar-list { list-style: var(--alchemical-symbol-for-realgar)}
+
+
+
+.alchemical-symbol-for-realgar-2::before, .alchemical-symbol-for-realgar-2-before::before{ content:var(--alchemical-symbol-for-realgar-2)}
+.alchemical-symbol-for-realgar-2-after::after{content:var(--alchemical-symbol-for-realgar-2)}
+.alchemical-symbol-for-realgar-2-both::after, .alchemical-symbol-for-realgar-2-both::before {content:var(--alchemical-symbol-for-realgar-2)}
+.alchemical-symbol-for-realgar-2-list { list-style: var(--alchemical-symbol-for-realgar-2)}
+
+
+
+.alchemical-symbol-for-regulus::before, .alchemical-symbol-for-regulus-before::before{ content:var(--alchemical-symbol-for-regulus)}
+.alchemical-symbol-for-regulus-after::after{content:var(--alchemical-symbol-for-regulus)}
+.alchemical-symbol-for-regulus-both::after, .alchemical-symbol-for-regulus-both::before {content:var(--alchemical-symbol-for-regulus)}
+.alchemical-symbol-for-regulus-list { list-style: var(--alchemical-symbol-for-regulus)}
+
+
+
+.alchemical-symbol-for-regulus-of-antimony::before, .alchemical-symbol-for-regulus-of-antimony-before::before{ content:var(--alchemical-symbol-for-regulus-of-antimony)}
+.alchemical-symbol-for-regulus-of-antimony-after::after{content:var(--alchemical-symbol-for-regulus-of-antimony)}
+.alchemical-symbol-for-regulus-of-antimony-both::after, .alchemical-symbol-for-regulus-of-antimony-both::before {content:var(--alchemical-symbol-for-regulus-of-antimony)}
+.alchemical-symbol-for-regulus-of-antimony-list { list-style: var(--alchemical-symbol-for-regulus-of-antimony)}
+
+
+
+.alchemical-symbol-for-regulus-of-antimony-2::before, .alchemical-symbol-for-regulus-of-antimony-2-before::before{ content:var(--alchemical-symbol-for-regulus-of-antimony-2)}
+.alchemical-symbol-for-regulus-of-antimony-2-after::after{content:var(--alchemical-symbol-for-regulus-of-antimony-2)}
+.alchemical-symbol-for-regulus-of-antimony-2-both::after, .alchemical-symbol-for-regulus-of-antimony-2-both::before {content:var(--alchemical-symbol-for-regulus-of-antimony-2)}
+.alchemical-symbol-for-regulus-of-antimony-2-list { list-style: var(--alchemical-symbol-for-regulus-of-antimony-2)}
+
+
+
+.alchemical-symbol-for-regulus-of-iron::before, .alchemical-symbol-for-regulus-of-iron-before::before{ content:var(--alchemical-symbol-for-regulus-of-iron)}
+.alchemical-symbol-for-regulus-of-iron-after::after{content:var(--alchemical-symbol-for-regulus-of-iron)}
+.alchemical-symbol-for-regulus-of-iron-both::after, .alchemical-symbol-for-regulus-of-iron-both::before {content:var(--alchemical-symbol-for-regulus-of-iron)}
+.alchemical-symbol-for-regulus-of-iron-list { list-style: var(--alchemical-symbol-for-regulus-of-iron)}
+
+
+
+.alchemical-symbol-for-regulus-2::before, .alchemical-symbol-for-regulus-2-before::before{ content:var(--alchemical-symbol-for-regulus-2)}
+.alchemical-symbol-for-regulus-2-after::after{content:var(--alchemical-symbol-for-regulus-2)}
+.alchemical-symbol-for-regulus-2-both::after, .alchemical-symbol-for-regulus-2-both::before {content:var(--alchemical-symbol-for-regulus-2)}
+.alchemical-symbol-for-regulus-2-list { list-style: var(--alchemical-symbol-for-regulus-2)}
+
+
+
+.alchemical-symbol-for-regulus-3::before, .alchemical-symbol-for-regulus-3-before::before{ content:var(--alchemical-symbol-for-regulus-3)}
+.alchemical-symbol-for-regulus-3-after::after{content:var(--alchemical-symbol-for-regulus-3)}
+.alchemical-symbol-for-regulus-3-both::after, .alchemical-symbol-for-regulus-3-both::before {content:var(--alchemical-symbol-for-regulus-3)}
+.alchemical-symbol-for-regulus-3-list { list-style: var(--alchemical-symbol-for-regulus-3)}
+
+
+
+.alchemical-symbol-for-regulus-4::before, .alchemical-symbol-for-regulus-4-before::before{ content:var(--alchemical-symbol-for-regulus-4)}
+.alchemical-symbol-for-regulus-4-after::after{content:var(--alchemical-symbol-for-regulus-4)}
+.alchemical-symbol-for-regulus-4-both::after, .alchemical-symbol-for-regulus-4-both::before {content:var(--alchemical-symbol-for-regulus-4)}
+.alchemical-symbol-for-regulus-4-list { list-style: var(--alchemical-symbol-for-regulus-4)}
+
+
+
+.alchemical-symbol-for-retort::before, .alchemical-symbol-for-retort-before::before{ content:var(--alchemical-symbol-for-retort)}
+.alchemical-symbol-for-retort-after::after{content:var(--alchemical-symbol-for-retort)}
+.alchemical-symbol-for-retort-both::after, .alchemical-symbol-for-retort-both::before {content:var(--alchemical-symbol-for-retort)}
+.alchemical-symbol-for-retort-list { list-style: var(--alchemical-symbol-for-retort)}
+
+
+
+.alchemical-symbol-for-rock-salt::before, .alchemical-symbol-for-rock-salt-before::before{ content:var(--alchemical-symbol-for-rock-salt)}
+.alchemical-symbol-for-rock-salt-after::after{content:var(--alchemical-symbol-for-rock-salt)}
+.alchemical-symbol-for-rock-salt-both::after, .alchemical-symbol-for-rock-salt-both::before {content:var(--alchemical-symbol-for-rock-salt)}
+.alchemical-symbol-for-rock-salt-list { list-style: var(--alchemical-symbol-for-rock-salt)}
+
+
+
+.alchemical-symbol-for-rock-salt-2::before, .alchemical-symbol-for-rock-salt-2-before::before{ content:var(--alchemical-symbol-for-rock-salt-2)}
+.alchemical-symbol-for-rock-salt-2-after::after{content:var(--alchemical-symbol-for-rock-salt-2)}
+.alchemical-symbol-for-rock-salt-2-both::after, .alchemical-symbol-for-rock-salt-2-both::before {content:var(--alchemical-symbol-for-rock-salt-2)}
+.alchemical-symbol-for-rock-salt-2-list { list-style: var(--alchemical-symbol-for-rock-salt-2)}
+
+
+
+.alchemical-symbol-for-sal-ammoniac::before, .alchemical-symbol-for-sal-ammoniac-before::before{ content:var(--alchemical-symbol-for-sal-ammoniac)}
+.alchemical-symbol-for-sal-ammoniac-after::after{content:var(--alchemical-symbol-for-sal-ammoniac)}
+.alchemical-symbol-for-sal-ammoniac-both::after, .alchemical-symbol-for-sal-ammoniac-both::before {content:var(--alchemical-symbol-for-sal-ammoniac)}
+.alchemical-symbol-for-sal-ammoniac-list { list-style: var(--alchemical-symbol-for-sal-ammoniac)}
+
+
+
+.alchemical-symbol-for-salt::before, .alchemical-symbol-for-salt-before::before{ content:var(--alchemical-symbol-for-salt)}
+.alchemical-symbol-for-salt-after::after{content:var(--alchemical-symbol-for-salt)}
+.alchemical-symbol-for-salt-both::after, .alchemical-symbol-for-salt-both::before {content:var(--alchemical-symbol-for-salt)}
+.alchemical-symbol-for-salt-list { list-style: var(--alchemical-symbol-for-salt)}
+
+
+
+.alchemical-symbol-for-salt-of-antimony::before, .alchemical-symbol-for-salt-of-antimony-before::before{ content:var(--alchemical-symbol-for-salt-of-antimony)}
+.alchemical-symbol-for-salt-of-antimony-after::after{content:var(--alchemical-symbol-for-salt-of-antimony)}
+.alchemical-symbol-for-salt-of-antimony-both::after, .alchemical-symbol-for-salt-of-antimony-both::before {content:var(--alchemical-symbol-for-salt-of-antimony)}
+.alchemical-symbol-for-salt-of-antimony-list { list-style: var(--alchemical-symbol-for-salt-of-antimony)}
+
+
+
+.alchemical-symbol-for-salt-of-copper-antimoniate::before, .alchemical-symbol-for-salt-of-copper-antimoniate-before::before{ content:var(--alchemical-symbol-for-salt-of-copper-antimoniate)}
+.alchemical-symbol-for-salt-of-copper-antimoniate-after::after{content:var(--alchemical-symbol-for-salt-of-copper-antimoniate)}
+.alchemical-symbol-for-salt-of-copper-antimoniate-both::after, .alchemical-symbol-for-salt-of-copper-antimoniate-both::before {content:var(--alchemical-symbol-for-salt-of-copper-antimoniate)}
+.alchemical-symbol-for-salt-of-copper-antimoniate-list { list-style: var(--alchemical-symbol-for-salt-of-copper-antimoniate)}
+
+
+
+.alchemical-symbol-for-scepter-of-jove::before, .alchemical-symbol-for-scepter-of-jove-before::before{ content:var(--alchemical-symbol-for-scepter-of-jove)}
+.alchemical-symbol-for-scepter-of-jove-after::after{content:var(--alchemical-symbol-for-scepter-of-jove)}
+.alchemical-symbol-for-scepter-of-jove-both::after, .alchemical-symbol-for-scepter-of-jove-both::before {content:var(--alchemical-symbol-for-scepter-of-jove)}
+.alchemical-symbol-for-scepter-of-jove-list { list-style: var(--alchemical-symbol-for-scepter-of-jove)}
+
+
+
+.alchemical-symbol-for-silver::before, .alchemical-symbol-for-silver-before::before{ content:var(--alchemical-symbol-for-silver)}
+.alchemical-symbol-for-silver-after::after{content:var(--alchemical-symbol-for-silver)}
+.alchemical-symbol-for-silver-both::after, .alchemical-symbol-for-silver-both::before {content:var(--alchemical-symbol-for-silver)}
+.alchemical-symbol-for-silver-list { list-style: var(--alchemical-symbol-for-silver)}
+
+
+
+.alchemical-symbol-for-soap::before, .alchemical-symbol-for-soap-before::before{ content:var(--alchemical-symbol-for-soap)}
+.alchemical-symbol-for-soap-after::after{content:var(--alchemical-symbol-for-soap)}
+.alchemical-symbol-for-soap-both::after, .alchemical-symbol-for-soap-both::before {content:var(--alchemical-symbol-for-soap)}
+.alchemical-symbol-for-soap-list { list-style: var(--alchemical-symbol-for-soap)}
+
+
+
+.alchemical-symbol-for-spirit::before, .alchemical-symbol-for-spirit-before::before{ content:var(--alchemical-symbol-for-spirit)}
+.alchemical-symbol-for-spirit-after::after{content:var(--alchemical-symbol-for-spirit)}
+.alchemical-symbol-for-spirit-both::after, .alchemical-symbol-for-spirit-both::before {content:var(--alchemical-symbol-for-spirit)}
+.alchemical-symbol-for-spirit-list { list-style: var(--alchemical-symbol-for-spirit)}
+
+
+
+.alchemical-symbol-for-starred-trident::before, .alchemical-symbol-for-starred-trident-before::before{ content:var(--alchemical-symbol-for-starred-trident)}
+.alchemical-symbol-for-starred-trident-after::after{content:var(--alchemical-symbol-for-starred-trident)}
+.alchemical-symbol-for-starred-trident-both::after, .alchemical-symbol-for-starred-trident-both::before {content:var(--alchemical-symbol-for-starred-trident)}
+.alchemical-symbol-for-starred-trident-list { list-style: var(--alchemical-symbol-for-starred-trident)}
+
+
+
+.alchemical-symbol-for-stratum-super-stratum::before, .alchemical-symbol-for-stratum-super-stratum-before::before{ content:var(--alchemical-symbol-for-stratum-super-stratum)}
+.alchemical-symbol-for-stratum-super-stratum-after::after{content:var(--alchemical-symbol-for-stratum-super-stratum)}
+.alchemical-symbol-for-stratum-super-stratum-both::after, .alchemical-symbol-for-stratum-super-stratum-both::before {content:var(--alchemical-symbol-for-stratum-super-stratum)}
+.alchemical-symbol-for-stratum-super-stratum-list { list-style: var(--alchemical-symbol-for-stratum-super-stratum)}
+
+
+
+.alchemical-symbol-for-stratum-super-stratum-2::before, .alchemical-symbol-for-stratum-super-stratum-2-before::before{ content:var(--alchemical-symbol-for-stratum-super-stratum-2)}
+.alchemical-symbol-for-stratum-super-stratum-2-after::after{content:var(--alchemical-symbol-for-stratum-super-stratum-2)}
+.alchemical-symbol-for-stratum-super-stratum-2-both::after, .alchemical-symbol-for-stratum-super-stratum-2-both::before {content:var(--alchemical-symbol-for-stratum-super-stratum-2)}
+.alchemical-symbol-for-stratum-super-stratum-2-list { list-style: var(--alchemical-symbol-for-stratum-super-stratum-2)}
+
+
+
+.alchemical-symbol-for-sublimate-of-antimony::before, .alchemical-symbol-for-sublimate-of-antimony-before::before{ content:var(--alchemical-symbol-for-sublimate-of-antimony)}
+.alchemical-symbol-for-sublimate-of-antimony-after::after{content:var(--alchemical-symbol-for-sublimate-of-antimony)}
+.alchemical-symbol-for-sublimate-of-antimony-both::after, .alchemical-symbol-for-sublimate-of-antimony-both::before {content:var(--alchemical-symbol-for-sublimate-of-antimony)}
+.alchemical-symbol-for-sublimate-of-antimony-list { list-style: var(--alchemical-symbol-for-sublimate-of-antimony)}
+
+
+
+.alchemical-symbol-for-sublimate-of-copper::before, .alchemical-symbol-for-sublimate-of-copper-before::before{ content:var(--alchemical-symbol-for-sublimate-of-copper)}
+.alchemical-symbol-for-sublimate-of-copper-after::after{content:var(--alchemical-symbol-for-sublimate-of-copper)}
+.alchemical-symbol-for-sublimate-of-copper-both::after, .alchemical-symbol-for-sublimate-of-copper-both::before {content:var(--alchemical-symbol-for-sublimate-of-copper)}
+.alchemical-symbol-for-sublimate-of-copper-list { list-style: var(--alchemical-symbol-for-sublimate-of-copper)}
+
+
+
+.alchemical-symbol-for-sublimate-of-salt-of-antimony::before, .alchemical-symbol-for-sublimate-of-salt-of-antimony-before::before{ content:var(--alchemical-symbol-for-sublimate-of-salt-of-antimony)}
+.alchemical-symbol-for-sublimate-of-salt-of-antimony-after::after{content:var(--alchemical-symbol-for-sublimate-of-salt-of-antimony)}
+.alchemical-symbol-for-sublimate-of-salt-of-antimony-both::after, .alchemical-symbol-for-sublimate-of-salt-of-antimony-both::before {content:var(--alchemical-symbol-for-sublimate-of-salt-of-antimony)}
+.alchemical-symbol-for-sublimate-of-salt-of-antimony-list { list-style: var(--alchemical-symbol-for-sublimate-of-salt-of-antimony)}
+
+
+
+.alchemical-symbol-for-sublimate-of-salt-of-copper::before, .alchemical-symbol-for-sublimate-of-salt-of-copper-before::before{ content:var(--alchemical-symbol-for-sublimate-of-salt-of-copper)}
+.alchemical-symbol-for-sublimate-of-salt-of-copper-after::after{content:var(--alchemical-symbol-for-sublimate-of-salt-of-copper)}
+.alchemical-symbol-for-sublimate-of-salt-of-copper-both::after, .alchemical-symbol-for-sublimate-of-salt-of-copper-both::before {content:var(--alchemical-symbol-for-sublimate-of-salt-of-copper)}
+.alchemical-symbol-for-sublimate-of-salt-of-copper-list { list-style: var(--alchemical-symbol-for-sublimate-of-salt-of-copper)}
+
+
+
+.alchemical-symbol-for-sublimation::before, .alchemical-symbol-for-sublimation-before::before{ content:var(--alchemical-symbol-for-sublimation)}
+.alchemical-symbol-for-sublimation-after::after{content:var(--alchemical-symbol-for-sublimation)}
+.alchemical-symbol-for-sublimation-both::after, .alchemical-symbol-for-sublimation-both::before {content:var(--alchemical-symbol-for-sublimation)}
+.alchemical-symbol-for-sublimation-list { list-style: var(--alchemical-symbol-for-sublimation)}
+
+
+
+.alchemical-symbol-for-sulfur::before, .alchemical-symbol-for-sulfur-before::before{ content:var(--alchemical-symbol-for-sulfur)}
+.alchemical-symbol-for-sulfur-after::after{content:var(--alchemical-symbol-for-sulfur)}
+.alchemical-symbol-for-sulfur-both::after, .alchemical-symbol-for-sulfur-both::before {content:var(--alchemical-symbol-for-sulfur)}
+.alchemical-symbol-for-sulfur-list { list-style: var(--alchemical-symbol-for-sulfur)}
+
+
+
+.alchemical-symbol-for-tartar::before, .alchemical-symbol-for-tartar-before::before{ content:var(--alchemical-symbol-for-tartar)}
+.alchemical-symbol-for-tartar-after::after{content:var(--alchemical-symbol-for-tartar)}
+.alchemical-symbol-for-tartar-both::after, .alchemical-symbol-for-tartar-both::before {content:var(--alchemical-symbol-for-tartar)}
+.alchemical-symbol-for-tartar-list { list-style: var(--alchemical-symbol-for-tartar)}
+
+
+
+.alchemical-symbol-for-tartar-2::before, .alchemical-symbol-for-tartar-2-before::before{ content:var(--alchemical-symbol-for-tartar-2)}
+.alchemical-symbol-for-tartar-2-after::after{content:var(--alchemical-symbol-for-tartar-2)}
+.alchemical-symbol-for-tartar-2-both::after, .alchemical-symbol-for-tartar-2-both::before {content:var(--alchemical-symbol-for-tartar-2)}
+.alchemical-symbol-for-tartar-2-list { list-style: var(--alchemical-symbol-for-tartar-2)}
+
+
+
+.alchemical-symbol-for-tin-ore::before, .alchemical-symbol-for-tin-ore-before::before{ content:var(--alchemical-symbol-for-tin-ore)}
+.alchemical-symbol-for-tin-ore-after::after{content:var(--alchemical-symbol-for-tin-ore)}
+.alchemical-symbol-for-tin-ore-both::after, .alchemical-symbol-for-tin-ore-both::before {content:var(--alchemical-symbol-for-tin-ore)}
+.alchemical-symbol-for-tin-ore-list { list-style: var(--alchemical-symbol-for-tin-ore)}
+
+
+
+.alchemical-symbol-for-tincture::before, .alchemical-symbol-for-tincture-before::before{ content:var(--alchemical-symbol-for-tincture)}
+.alchemical-symbol-for-tincture-after::after{content:var(--alchemical-symbol-for-tincture)}
+.alchemical-symbol-for-tincture-both::after, .alchemical-symbol-for-tincture-both::before {content:var(--alchemical-symbol-for-tincture)}
+.alchemical-symbol-for-tincture-list { list-style: var(--alchemical-symbol-for-tincture)}
+
+
+
+.alchemical-symbol-for-trident::before, .alchemical-symbol-for-trident-before::before{ content:var(--alchemical-symbol-for-trident)}
+.alchemical-symbol-for-trident-after::after{content:var(--alchemical-symbol-for-trident)}
+.alchemical-symbol-for-trident-both::after, .alchemical-symbol-for-trident-both::before {content:var(--alchemical-symbol-for-trident)}
+.alchemical-symbol-for-trident-list { list-style: var(--alchemical-symbol-for-trident)}
+
+
+
+.alchemical-symbol-for-tutty::before, .alchemical-symbol-for-tutty-before::before{ content:var(--alchemical-symbol-for-tutty)}
+.alchemical-symbol-for-tutty-after::after{content:var(--alchemical-symbol-for-tutty)}
+.alchemical-symbol-for-tutty-both::after, .alchemical-symbol-for-tutty-both::before {content:var(--alchemical-symbol-for-tutty)}
+.alchemical-symbol-for-tutty-list { list-style: var(--alchemical-symbol-for-tutty)}
+
+
+
+.alchemical-symbol-for-urine::before, .alchemical-symbol-for-urine-before::before{ content:var(--alchemical-symbol-for-urine)}
+.alchemical-symbol-for-urine-after::after{content:var(--alchemical-symbol-for-urine)}
+.alchemical-symbol-for-urine-both::after, .alchemical-symbol-for-urine-both::before {content:var(--alchemical-symbol-for-urine)}
+.alchemical-symbol-for-urine-list { list-style: var(--alchemical-symbol-for-urine)}
+
+
+
+.alchemical-symbol-for-verdigris::before, .alchemical-symbol-for-verdigris-before::before{ content:var(--alchemical-symbol-for-verdigris)}
+.alchemical-symbol-for-verdigris-after::after{content:var(--alchemical-symbol-for-verdigris)}
+.alchemical-symbol-for-verdigris-both::after, .alchemical-symbol-for-verdigris-both::before {content:var(--alchemical-symbol-for-verdigris)}
+.alchemical-symbol-for-verdigris-list { list-style: var(--alchemical-symbol-for-verdigris)}
+
+
+
+.alchemical-symbol-for-vinegar::before, .alchemical-symbol-for-vinegar-before::before{ content:var(--alchemical-symbol-for-vinegar)}
+.alchemical-symbol-for-vinegar-after::after{content:var(--alchemical-symbol-for-vinegar)}
+.alchemical-symbol-for-vinegar-both::after, .alchemical-symbol-for-vinegar-both::before {content:var(--alchemical-symbol-for-vinegar)}
+.alchemical-symbol-for-vinegar-list { list-style: var(--alchemical-symbol-for-vinegar)}
+
+
+
+.alchemical-symbol-for-vinegar-of-antimony::before, .alchemical-symbol-for-vinegar-of-antimony-before::before{ content:var(--alchemical-symbol-for-vinegar-of-antimony)}
+.alchemical-symbol-for-vinegar-of-antimony-after::after{content:var(--alchemical-symbol-for-vinegar-of-antimony)}
+.alchemical-symbol-for-vinegar-of-antimony-both::after, .alchemical-symbol-for-vinegar-of-antimony-both::before {content:var(--alchemical-symbol-for-vinegar-of-antimony)}
+.alchemical-symbol-for-vinegar-of-antimony-list { list-style: var(--alchemical-symbol-for-vinegar-of-antimony)}
+
+
+
+.alchemical-symbol-for-vinegar-2::before, .alchemical-symbol-for-vinegar-2-before::before{ content:var(--alchemical-symbol-for-vinegar-2)}
+.alchemical-symbol-for-vinegar-2-after::after{content:var(--alchemical-symbol-for-vinegar-2)}
+.alchemical-symbol-for-vinegar-2-both::after, .alchemical-symbol-for-vinegar-2-both::before {content:var(--alchemical-symbol-for-vinegar-2)}
+.alchemical-symbol-for-vinegar-2-list { list-style: var(--alchemical-symbol-for-vinegar-2)}
+
+
+
+.alchemical-symbol-for-vinegar-3::before, .alchemical-symbol-for-vinegar-3-before::before{ content:var(--alchemical-symbol-for-vinegar-3)}
+.alchemical-symbol-for-vinegar-3-after::after{content:var(--alchemical-symbol-for-vinegar-3)}
+.alchemical-symbol-for-vinegar-3-both::after, .alchemical-symbol-for-vinegar-3-both::before {content:var(--alchemical-symbol-for-vinegar-3)}
+.alchemical-symbol-for-vinegar-3-list { list-style: var(--alchemical-symbol-for-vinegar-3)}
+
+
+
+.alchemical-symbol-for-vitriol::before, .alchemical-symbol-for-vitriol-before::before{ content:var(--alchemical-symbol-for-vitriol)}
+.alchemical-symbol-for-vitriol-after::after{content:var(--alchemical-symbol-for-vitriol)}
+.alchemical-symbol-for-vitriol-both::after, .alchemical-symbol-for-vitriol-both::before {content:var(--alchemical-symbol-for-vitriol)}
+.alchemical-symbol-for-vitriol-list { list-style: var(--alchemical-symbol-for-vitriol)}
+
+
+
+.alchemical-symbol-for-vitriol-2::before, .alchemical-symbol-for-vitriol-2-before::before{ content:var(--alchemical-symbol-for-vitriol-2)}
+.alchemical-symbol-for-vitriol-2-after::after{content:var(--alchemical-symbol-for-vitriol-2)}
+.alchemical-symbol-for-vitriol-2-both::after, .alchemical-symbol-for-vitriol-2-both::before {content:var(--alchemical-symbol-for-vitriol-2)}
+.alchemical-symbol-for-vitriol-2-list { list-style: var(--alchemical-symbol-for-vitriol-2)}
+
+
+
+.alchemical-symbol-for-water::before, .alchemical-symbol-for-water-before::before{ content:var(--alchemical-symbol-for-water)}
+.alchemical-symbol-for-water-after::after{content:var(--alchemical-symbol-for-water)}
+.alchemical-symbol-for-water-both::after, .alchemical-symbol-for-water-both::before {content:var(--alchemical-symbol-for-water)}
+.alchemical-symbol-for-water-list { list-style: var(--alchemical-symbol-for-water)}
+
+
+
+.alchemical-symbol-for-wax::before, .alchemical-symbol-for-wax-before::before{ content:var(--alchemical-symbol-for-wax)}
+.alchemical-symbol-for-wax-after::after{content:var(--alchemical-symbol-for-wax)}
+.alchemical-symbol-for-wax-both::after, .alchemical-symbol-for-wax-both::before {content:var(--alchemical-symbol-for-wax)}
+.alchemical-symbol-for-wax-list { list-style: var(--alchemical-symbol-for-wax)}
+
+
+
+.gonggong::before, .gonggong-before::before{ content:var(--gonggong)}
+.gonggong-after::after{content:var(--gonggong)}
+.gonggong-both::after, .gonggong-both::before {content:var(--gonggong)}
+.gonggong-list { list-style: var(--gonggong)}
+
+
+
+.haumea::before, .haumea-before::before{ content:var(--haumea)}
+.haumea-after::after{content:var(--haumea)}
+.haumea-both::after, .haumea-both::before {content:var(--haumea)}
+.haumea-list { list-style: var(--haumea)}
+
+
+
+.lot-of-fortune::before, .lot-of-fortune-before::before{ content:var(--lot-of-fortune)}
+.lot-of-fortune-after::after{content:var(--lot-of-fortune)}
+.lot-of-fortune-both::after, .lot-of-fortune-both::before {content:var(--lot-of-fortune)}
+.lot-of-fortune-list { list-style: var(--lot-of-fortune)}
+
+
+
+.lunar-eclipse::before, .lunar-eclipse-before::before{ content:var(--lunar-eclipse)}
+.lunar-eclipse-after::after{content:var(--lunar-eclipse)}
+.lunar-eclipse-both::after, .lunar-eclipse-both::before {content:var(--lunar-eclipse)}
+.lunar-eclipse-list { list-style: var(--lunar-eclipse)}
+
+
+
+.makemake::before, .makemake-before::before{ content:var(--makemake)}
+.makemake-after::after{content:var(--makemake)}
+.makemake-both::after, .makemake-both::before {content:var(--makemake)}
+.makemake-list { list-style: var(--makemake)}
+
+
+
+.occultation::before, .occultation-before::before{ content:var(--occultation)}
+.occultation-after::after{content:var(--occultation)}
+.occultation-both::after, .occultation-both::before {content:var(--occultation)}
+.occultation-list { list-style: var(--occultation)}
+
+
+
+.orcus::before, .orcus-before::before{ content:var(--orcus)}
+.orcus-after::after{content:var(--orcus)}
+.orcus-both::after, .orcus-both::before {content:var(--orcus)}
+.orcus-list { list-style: var(--orcus)}
+
+
+
+.quaoar::before, .quaoar-before::before{ content:var(--quaoar)}
+.quaoar-after::after{content:var(--quaoar)}
+.quaoar-both::after, .quaoar-both::before {content:var(--quaoar)}
+.quaoar-list { list-style: var(--quaoar)}
+}
