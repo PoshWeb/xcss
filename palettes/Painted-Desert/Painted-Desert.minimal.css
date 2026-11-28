@@ -1,0 +1,39 @@
+:root {
+  --name: Painted Desert;
+  --black: #d7c7c8;
+  --red: #ffa08e;
+  --green: #99d6a8;
+  --yellow: #f2d071;
+  --blue: #9ccbed;
+  --purple: #e7acd7;
+  --cyan: #92ded8;
+  --white: #fff0df;
+  --brightBlack: #e4d6d7;
+  --brightRed: #ffb5a4;
+  --brightGreen: #b0e0ba;
+  --brightYellow: #ffe091;
+  --brightBlue: #b7daf2;
+  --brightPurple: #f0c2e0;
+  --brightCyan: #b1e9e4;
+  --brightWhite: #fffaf2;
+  --background: #593148;
+  --foreground: #fff0df;
+  --cursorColor: #f4c05d;
+  --selectionBackground: #774b63;
+  --luma: 0.232018;
+  --contrast: 0.716851;
+  --paletteName: Painted Desert;
+  --paletteFileName: Painted-Desert;
+  --isBright: 0;
+  --isDark: 1  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
