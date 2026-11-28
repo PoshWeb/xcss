@@ -1,0 +1,40 @@
+:root {
+  --name: Lemon Graphite;
+  --black: #0b0f14;
+  --red: #ff6b6b;
+  --green: #7bd88f;
+  --yellow: #f2c14e;
+  --blue: #5cc8ff;
+  --purple: #c792ea;
+  --cyan: #57d3c8;
+  --white: #dce3ea;
+  --brightBlack: #59636e;
+  --brightRed: #ff8a80;
+  --brightGreen: #a7e8b5;
+  --brightYellow: #ffd978;
+  --brightBlue: #8ad8ff;
+  --brightPurple: #dab1f4;
+  --brightCyan: #86e6de;
+  --brightWhite: #f7fafc;
+  --background: #0b0f14;
+  --foreground: #dce3ea;
+  --cursorColor: #f2c14e;
+  --selectionBackground: #dce3ea;
+  --luma: 0.056904;
+  --contrast: 0.829438;
+  --paletteName: Lemon Graphite;
+  --paletteFileName: Lemon-Graphite;
+  --isBright: 0;
+  --isDark: 1;
+  --by: ZioFester90  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
