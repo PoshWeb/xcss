@@ -1,0 +1,39 @@
+:root {
+  --name: Rhoads Concord;
+  --black: #2b2b2b;
+  --red: #c81e1e;
+  --green: #2e7d32;
+  --yellow: #d4af37;
+  --blue: #2563eb;
+  --purple: #a855f7;
+  --cyan: #06b6d4;
+  --white: #bfc1c5;
+  --brightBlack: #6b6b6b;
+  --brightRed: #ef6b6b;
+  --brightGreen: #82cf75;
+  --brightYellow: #cfb964;
+  --brightBlue: #7daaf2;
+  --brightPurple: #c59af2;
+  --brightCyan: #76ced8;
+  --brightWhite: #ffffff;
+  --background: #fdfcf4;
+  --foreground: #1a1a1a;
+  --cursorColor: #000000;
+  --selectionBackground: #b8860b;
+  --luma: 0.986804;
+  --contrast: 0.884843;
+  --paletteName: Rhoads Concord;
+  --paletteFileName: Rhoads-Concord;
+  --isBright: 0;
+  --isDark: 1  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
