@@ -1,0 +1,39 @@
+:root {
+  --name: Mesila One;
+  --black: #101418;
+  --red: #93867f;
+  --green: #5cc8ff;
+  --yellow: #ebb3a9;
+  --blue: #dec1ff;
+  --purple: #7d70ba;
+  --cyan: #5cc8ff;
+  --white: #e9fae3;
+  --brightBlack: #7d70ba;
+  --brightRed: #93867f;
+  --brightGreen: #5cc8ff;
+  --brightYellow: #ebb3a9;
+  --brightBlue: #dec1ff;
+  --brightPurple: #7d70ba;
+  --brightCyan: #5cc8ff;
+  --brightWhite: #e9fae3;
+  --background: #1b1f23;
+  --foreground: #e9fae3;
+  --cursorColor: #5cc8ff;
+  --selectionBackground: #334155;
+  --luma: 0.119366;
+  --contrast: 0.840341;
+  --paletteName: Mesila One;
+  --paletteFileName: Mesila-One;
+  --isBright: 0;
+  --isDark: 1  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
