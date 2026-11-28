@@ -206,6 +206,11 @@ form input[type="text"], form input[type="checkbox"], input[type="button"], butt
     background-color: var(--background);
 }
 
+input[type="file"]::file-selector-button {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
 option {
     color: var(--foreground);
     background: var(--background);
