@@ -1,0 +1,39 @@
+:root {
+  --name: Smoke on the Terminal;
+  --black: #a8b2b8;
+  --red: #df8d80;
+  --green: #a7c996;
+  --yellow: #e4be83;
+  --blue: #a4b5e2;
+  --purple: #cf9be2;
+  --cyan: #8fcbd2;
+  --white: #f5e8f4;
+  --brightBlack: #b9c1c6;
+  --brightRed: #e39b8f;
+  --brightGreen: #b2cfa3;
+  --brightYellow: #e7c692;
+  --brightBlue: #afbee5;
+  --brightPurple: #d5a7e5;
+  --brightCyan: #9cd1d7;
+  --brightWhite: #f7edf6;
+  --background: #30243a;
+  --foreground: #f5e8f4;
+  --cursorColor: #e7c692;
+  --selectionBackground: #553f55;
+  --luma: 0.15741;
+  --contrast: 0.76663;
+  --paletteName: Smoke on the Terminal;
+  --paletteFileName: Smoke-on-the-Terminal;
+  --isBright: 0;
+  --isDark: 1  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
