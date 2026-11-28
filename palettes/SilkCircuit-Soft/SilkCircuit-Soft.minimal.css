@@ -1,0 +1,40 @@
+:root {
+  --name: SilkCircuit Soft;
+  --black: #141220;
+  --red: #ff6677;
+  --green: #66ff99;
+  --yellow: #ffe699;
+  --blue: #92aaff;
+  --purple: #ff99ff;
+  --cyan: #99ffee;
+  --white: #f8f8f2;
+  --brightBlack: #6272a4;
+  --brightRed: #ff7788;
+  --brightGreen: #80ffb3;
+  --brightYellow: #ffffa5;
+  --brightBlue: #a2bbff;
+  --brightPurple: #ffb3ff;
+  --brightCyan: #b3ffea;
+  --brightWhite: #ffffff;
+  --background: #1a1626;
+  --foreground: #f8f8f2;
+  --cursorColor: #99ffee;
+  --selectionBackground: #44475a;
+  --luma: 0.09414;
+  --contrast: 0.87671;
+  --paletteName: SilkCircuit Soft;
+  --paletteFileName: SilkCircuit-Soft;
+  --isBright: 0;
+  --isDark: 1;
+  --by: hyperb1iss  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
