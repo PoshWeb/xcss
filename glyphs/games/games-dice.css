@@ -1,0 +1,52 @@
+@layer games-dice {
+:root {
+--die-face-1:'\2680';
+--die-face-2:'\2681';
+--die-face-3:'\2682';
+--die-face-4:'\2683';
+--die-face-5:'\2684';
+--die-face-6:'\2685';
+}
+
+
+
+.die-face-1::before, .die-face-1-before::before{ content:var(--die-face-1)}
+.die-face-1-after::after{content:var(--die-face-1)}
+.die-face-1-both::after, .die-face-1-both::before {content:var(--die-face-1)}
+.die-face-1-list { list-style: var(--die-face-1)}
+
+
+
+.die-face-2::before, .die-face-2-before::before{ content:var(--die-face-2)}
+.die-face-2-after::after{content:var(--die-face-2)}
+.die-face-2-both::after, .die-face-2-both::before {content:var(--die-face-2)}
+.die-face-2-list { list-style: var(--die-face-2)}
+
+
+
+.die-face-3::before, .die-face-3-before::before{ content:var(--die-face-3)}
+.die-face-3-after::after{content:var(--die-face-3)}
+.die-face-3-both::after, .die-face-3-both::before {content:var(--die-face-3)}
+.die-face-3-list { list-style: var(--die-face-3)}
+
+
+
+.die-face-4::before, .die-face-4-before::before{ content:var(--die-face-4)}
+.die-face-4-after::after{content:var(--die-face-4)}
+.die-face-4-both::after, .die-face-4-both::before {content:var(--die-face-4)}
+.die-face-4-list { list-style: var(--die-face-4)}
+
+
+
+.die-face-5::before, .die-face-5-before::before{ content:var(--die-face-5)}
+.die-face-5-after::after{content:var(--die-face-5)}
+.die-face-5-both::after, .die-face-5-both::before {content:var(--die-face-5)}
+.die-face-5-list { list-style: var(--die-face-5)}
+
+
+
+.die-face-6::before, .die-face-6-before::before{ content:var(--die-face-6)}
+.die-face-6-after::after{content:var(--die-face-6)}
+.die-face-6-both::after, .die-face-6-both::before {content:var(--die-face-6)}
+.die-face-6-list { list-style: var(--die-face-6)}
+}

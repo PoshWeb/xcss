@@ -1,0 +1,788 @@
+@layer chess-symbols {
+:root {
+--black-chess-bishop-rotated-ninety-degrees:'\1FA12';
+--black-chess-bishop-rotated-two-hundred-seventy-degrees:'\1FA3C';
+--black-chess-equihopper:'\1FA49';
+--black-chess-equihopper-rotated-ninety-degrees:'\1FA4C';
+--black-chess-king-rotated-ninety-degrees:'\1FA0F';
+--black-chess-king-rotated-two-hundred-seventy-degrees:'\1FA39';
+--black-chess-knight-rotated-forty-five-degrees:'\1FA07';
+--black-chess-knight-rotated-ninety-degrees:'\1FA13';
+--black-chess-knight-rotated-one-hundred-thirty-five-degrees:'\1FA1C';
+--black-chess-knight-rotated-three-hundred-fifteen-degrees:'\1FA46';
+--black-chess-knight-rotated-two-hundred-seventy-degrees:'\1FA3D';
+--black-chess-knight-rotated-two-hundred-twenty-five-degrees:'\1FA31';
+--black-chess-knight-bishop:'\1FA53';
+--black-chess-knight-queen:'\1FA51';
+--black-chess-knight-rook:'\1FA52';
+--black-chess-pawn-rotated-ninety-degrees:'\1FA14';
+--black-chess-pawn-rotated-two-hundred-seventy-degrees:'\1FA3E';
+--black-chess-queen-rotated-ninety-degrees:'\1FA10';
+--black-chess-queen-rotated-two-hundred-seventy-degrees:'\1FA3A';
+--black-chess-rook-rotated-ninety-degrees:'\1FA11';
+--black-chess-rook-rotated-two-hundred-seventy-degrees:'\1FA3B';
+--black-chess-turned-bishop:'\1FA27';
+--black-chess-turned-king:'\1FA24';
+--black-chess-turned-knight:'\1FA28';
+--black-chess-turned-pawn:'\1FA29';
+--black-chess-turned-queen:'\1FA25';
+--black-chess-turned-rook:'\1FA26';
+--neutral-chess-bishop:'\1FA03';
+--neutral-chess-bishop-rotated-ninety-degrees:'\1FA18';
+--neutral-chess-bishop-rotated-two-hundred-seventy-degrees:'\1FA42';
+--neutral-chess-equihopper:'\1FA4A';
+--neutral-chess-equihopper-rotated-ninety-degrees:'\1FA4D';
+--neutral-chess-king:'\1FA00';
+--neutral-chess-king-rotated-ninety-degrees:'\1FA15';
+--neutral-chess-king-rotated-two-hundred-seventy-degrees:'\1FA3F';
+--neutral-chess-knight:'\1FA04';
+--neutral-chess-knight-rotated-forty-five-degrees:'\1FA08';
+--neutral-chess-knight-rotated-ninety-degrees:'\1FA19';
+--neutral-chess-knight-rotated-one-hundred-thirty-five-degrees:'\1FA1D';
+--neutral-chess-knight-rotated-three-hundred-fifteen-degrees:'\1FA47';
+--neutral-chess-knight-rotated-two-hundred-seventy-degrees:'\1FA43';
+--neutral-chess-knight-rotated-two-hundred-twenty-five-degrees:'\1FA32';
+--neutral-chess-pawn:'\1FA05';
+--neutral-chess-pawn-rotated-ninety-degrees:'\1FA1A';
+--neutral-chess-pawn-rotated-two-hundred-seventy-degrees:'\1FA44';
+--neutral-chess-queen:'\1FA01';
+--neutral-chess-queen-rotated-ninety-degrees:'\1FA16';
+--neutral-chess-queen-rotated-two-hundred-seventy-degrees:'\1FA40';
+--neutral-chess-rook:'\1FA02';
+--neutral-chess-rook-rotated-ninety-degrees:'\1FA17';
+--neutral-chess-rook-rotated-two-hundred-seventy-degrees:'\1FA41';
+--neutral-chess-turned-bishop:'\1FA2D';
+--neutral-chess-turned-king:'\1FA2A';
+--neutral-chess-turned-knight:'\1FA2E';
+--neutral-chess-turned-pawn:'\1FA2F';
+--neutral-chess-turned-queen:'\1FA2B';
+--neutral-chess-turned-rook:'\1FA2C';
+--white-chess-bishop-rotated-ninety-degrees:'\1FA0C';
+--white-chess-bishop-rotated-two-hundred-seventy-degrees:'\1FA36';
+--white-chess-equihopper:'\1FA48';
+--white-chess-equihopper-rotated-ninety-degrees:'\1FA4B';
+--white-chess-king-rotated-ninety-degrees:'\1FA09';
+--white-chess-king-rotated-two-hundred-seventy-degrees:'\1FA33';
+--white-chess-knight-rotated-forty-five-degrees:'\1FA06';
+--white-chess-knight-rotated-ninety-degrees:'\1FA0D';
+--white-chess-knight-rotated-one-hundred-thirty-five-degrees:'\1FA1B';
+--white-chess-knight-rotated-three-hundred-fifteen-degrees:'\1FA45';
+--white-chess-knight-rotated-two-hundred-seventy-degrees:'\1FA37';
+--white-chess-knight-rotated-two-hundred-twenty-five-degrees:'\1FA30';
+--white-chess-knight-bishop:'\1FA50';
+--white-chess-knight-queen:'\1FA4E';
+--white-chess-knight-rook:'\1FA4F';
+--white-chess-pawn-rotated-ninety-degrees:'\1FA0E';
+--white-chess-pawn-rotated-two-hundred-seventy-degrees:'\1FA38';
+--white-chess-queen-rotated-ninety-degrees:'\1FA0A';
+--white-chess-queen-rotated-two-hundred-seventy-degrees:'\1FA34';
+--white-chess-rook-rotated-ninety-degrees:'\1FA0B';
+--white-chess-rook-rotated-two-hundred-seventy-degrees:'\1FA35';
+--white-chess-turned-bishop:'\1FA21';
+--white-chess-turned-king:'\1FA1E';
+--white-chess-turned-knight:'\1FA22';
+--white-chess-turned-pawn:'\1FA23';
+--white-chess-turned-queen:'\1FA1F';
+--white-chess-turned-rook:'\1FA20';
+--xiangqi-black-cannon:'\1FA6C';
+--xiangqi-black-chariot:'\1FA6B';
+--xiangqi-black-elephant:'\1FA69';
+--xiangqi-black-general:'\1FA67';
+--xiangqi-black-horse:'\1FA6A';
+--xiangqi-black-mandarin:'\1FA68';
+--xiangqi-black-soldier:'\1FA6D';
+--xiangqi-red-cannon:'\1FA65';
+--xiangqi-red-chariot:'\1FA64';
+--xiangqi-red-elephant:'\1FA62';
+--xiangqi-red-general:'\1FA60';
+--xiangqi-red-horse:'\1FA63';
+--xiangqi-red-mandarin:'\1FA61';
+--xiangqi-red-soldier:'\1FA66';
+}
+
+
+
+.black-chess-bishop-rotated-ninety-degrees::before, .black-chess-bishop-rotated-ninety-degrees-before::before{ content:var(--black-chess-bishop-rotated-ninety-degrees)}
+.black-chess-bishop-rotated-ninety-degrees-after::after{content:var(--black-chess-bishop-rotated-ninety-degrees)}
+.black-chess-bishop-rotated-ninety-degrees-both::after, .black-chess-bishop-rotated-ninety-degrees-both::before {content:var(--black-chess-bishop-rotated-ninety-degrees)}
+.black-chess-bishop-rotated-ninety-degrees-list { list-style: var(--black-chess-bishop-rotated-ninety-degrees)}
+
+
+
+.black-chess-bishop-rotated-two-hundred-seventy-degrees::before, .black-chess-bishop-rotated-two-hundred-seventy-degrees-before::before{ content:var(--black-chess-bishop-rotated-two-hundred-seventy-degrees)}
+.black-chess-bishop-rotated-two-hundred-seventy-degrees-after::after{content:var(--black-chess-bishop-rotated-two-hundred-seventy-degrees)}
+.black-chess-bishop-rotated-two-hundred-seventy-degrees-both::after, .black-chess-bishop-rotated-two-hundred-seventy-degrees-both::before {content:var(--black-chess-bishop-rotated-two-hundred-seventy-degrees)}
+.black-chess-bishop-rotated-two-hundred-seventy-degrees-list { list-style: var(--black-chess-bishop-rotated-two-hundred-seventy-degrees)}
+
+
+
+.black-chess-equihopper::before, .black-chess-equihopper-before::before{ content:var(--black-chess-equihopper)}
+.black-chess-equihopper-after::after{content:var(--black-chess-equihopper)}
+.black-chess-equihopper-both::after, .black-chess-equihopper-both::before {content:var(--black-chess-equihopper)}
+.black-chess-equihopper-list { list-style: var(--black-chess-equihopper)}
+
+
+
+.black-chess-equihopper-rotated-ninety-degrees::before, .black-chess-equihopper-rotated-ninety-degrees-before::before{ content:var(--black-chess-equihopper-rotated-ninety-degrees)}
+.black-chess-equihopper-rotated-ninety-degrees-after::after{content:var(--black-chess-equihopper-rotated-ninety-degrees)}
+.black-chess-equihopper-rotated-ninety-degrees-both::after, .black-chess-equihopper-rotated-ninety-degrees-both::before {content:var(--black-chess-equihopper-rotated-ninety-degrees)}
+.black-chess-equihopper-rotated-ninety-degrees-list { list-style: var(--black-chess-equihopper-rotated-ninety-degrees)}
+
+
+
+.black-chess-king-rotated-ninety-degrees::before, .black-chess-king-rotated-ninety-degrees-before::before{ content:var(--black-chess-king-rotated-ninety-degrees)}
+.black-chess-king-rotated-ninety-degrees-after::after{content:var(--black-chess-king-rotated-ninety-degrees)}
+.black-chess-king-rotated-ninety-degrees-both::after, .black-chess-king-rotated-ninety-degrees-both::before {content:var(--black-chess-king-rotated-ninety-degrees)}
+.black-chess-king-rotated-ninety-degrees-list { list-style: var(--black-chess-king-rotated-ninety-degrees)}
+
+
+
+.black-chess-king-rotated-two-hundred-seventy-degrees::before, .black-chess-king-rotated-two-hundred-seventy-degrees-before::before{ content:var(--black-chess-king-rotated-two-hundred-seventy-degrees)}
+.black-chess-king-rotated-two-hundred-seventy-degrees-after::after{content:var(--black-chess-king-rotated-two-hundred-seventy-degrees)}
+.black-chess-king-rotated-two-hundred-seventy-degrees-both::after, .black-chess-king-rotated-two-hundred-seventy-degrees-both::before {content:var(--black-chess-king-rotated-two-hundred-seventy-degrees)}
+.black-chess-king-rotated-two-hundred-seventy-degrees-list { list-style: var(--black-chess-king-rotated-two-hundred-seventy-degrees)}
+
+
+
+.black-chess-knight-rotated-forty-five-degrees::before, .black-chess-knight-rotated-forty-five-degrees-before::before{ content:var(--black-chess-knight-rotated-forty-five-degrees)}
+.black-chess-knight-rotated-forty-five-degrees-after::after{content:var(--black-chess-knight-rotated-forty-five-degrees)}
+.black-chess-knight-rotated-forty-five-degrees-both::after, .black-chess-knight-rotated-forty-five-degrees-both::before {content:var(--black-chess-knight-rotated-forty-five-degrees)}
+.black-chess-knight-rotated-forty-five-degrees-list { list-style: var(--black-chess-knight-rotated-forty-five-degrees)}
+
+
+
+.black-chess-knight-rotated-ninety-degrees::before, .black-chess-knight-rotated-ninety-degrees-before::before{ content:var(--black-chess-knight-rotated-ninety-degrees)}
+.black-chess-knight-rotated-ninety-degrees-after::after{content:var(--black-chess-knight-rotated-ninety-degrees)}
+.black-chess-knight-rotated-ninety-degrees-both::after, .black-chess-knight-rotated-ninety-degrees-both::before {content:var(--black-chess-knight-rotated-ninety-degrees)}
+.black-chess-knight-rotated-ninety-degrees-list { list-style: var(--black-chess-knight-rotated-ninety-degrees)}
+
+
+
+.black-chess-knight-rotated-one-hundred-thirty-five-degrees::before, .black-chess-knight-rotated-one-hundred-thirty-five-degrees-before::before{ content:var(--black-chess-knight-rotated-one-hundred-thirty-five-degrees)}
+.black-chess-knight-rotated-one-hundred-thirty-five-degrees-after::after{content:var(--black-chess-knight-rotated-one-hundred-thirty-five-degrees)}
+.black-chess-knight-rotated-one-hundred-thirty-five-degrees-both::after, .black-chess-knight-rotated-one-hundred-thirty-five-degrees-both::before {content:var(--black-chess-knight-rotated-one-hundred-thirty-five-degrees)}
+.black-chess-knight-rotated-one-hundred-thirty-five-degrees-list { list-style: var(--black-chess-knight-rotated-one-hundred-thirty-five-degrees)}
+
+
+
+.black-chess-knight-rotated-three-hundred-fifteen-degrees::before, .black-chess-knight-rotated-three-hundred-fifteen-degrees-before::before{ content:var(--black-chess-knight-rotated-three-hundred-fifteen-degrees)}
+.black-chess-knight-rotated-three-hundred-fifteen-degrees-after::after{content:var(--black-chess-knight-rotated-three-hundred-fifteen-degrees)}
+.black-chess-knight-rotated-three-hundred-fifteen-degrees-both::after, .black-chess-knight-rotated-three-hundred-fifteen-degrees-both::before {content:var(--black-chess-knight-rotated-three-hundred-fifteen-degrees)}
+.black-chess-knight-rotated-three-hundred-fifteen-degrees-list { list-style: var(--black-chess-knight-rotated-three-hundred-fifteen-degrees)}
+
+
+
+.black-chess-knight-rotated-two-hundred-seventy-degrees::before, .black-chess-knight-rotated-two-hundred-seventy-degrees-before::before{ content:var(--black-chess-knight-rotated-two-hundred-seventy-degrees)}
+.black-chess-knight-rotated-two-hundred-seventy-degrees-after::after{content:var(--black-chess-knight-rotated-two-hundred-seventy-degrees)}
+.black-chess-knight-rotated-two-hundred-seventy-degrees-both::after, .black-chess-knight-rotated-two-hundred-seventy-degrees-both::before {content:var(--black-chess-knight-rotated-two-hundred-seventy-degrees)}
+.black-chess-knight-rotated-two-hundred-seventy-degrees-list { list-style: var(--black-chess-knight-rotated-two-hundred-seventy-degrees)}
+
+
+
+.black-chess-knight-rotated-two-hundred-twenty-five-degrees::before, .black-chess-knight-rotated-two-hundred-twenty-five-degrees-before::before{ content:var(--black-chess-knight-rotated-two-hundred-twenty-five-degrees)}
+.black-chess-knight-rotated-two-hundred-twenty-five-degrees-after::after{content:var(--black-chess-knight-rotated-two-hundred-twenty-five-degrees)}
+.black-chess-knight-rotated-two-hundred-twenty-five-degrees-both::after, .black-chess-knight-rotated-two-hundred-twenty-five-degrees-both::before {content:var(--black-chess-knight-rotated-two-hundred-twenty-five-degrees)}
+.black-chess-knight-rotated-two-hundred-twenty-five-degrees-list { list-style: var(--black-chess-knight-rotated-two-hundred-twenty-five-degrees)}
+
+
+
+.black-chess-knight-bishop::before, .black-chess-knight-bishop-before::before{ content:var(--black-chess-knight-bishop)}
+.black-chess-knight-bishop-after::after{content:var(--black-chess-knight-bishop)}
+.black-chess-knight-bishop-both::after, .black-chess-knight-bishop-both::before {content:var(--black-chess-knight-bishop)}
+.black-chess-knight-bishop-list { list-style: var(--black-chess-knight-bishop)}
+
+
+
+.black-chess-knight-queen::before, .black-chess-knight-queen-before::before{ content:var(--black-chess-knight-queen)}
+.black-chess-knight-queen-after::after{content:var(--black-chess-knight-queen)}
+.black-chess-knight-queen-both::after, .black-chess-knight-queen-both::before {content:var(--black-chess-knight-queen)}
+.black-chess-knight-queen-list { list-style: var(--black-chess-knight-queen)}
+
+
+
+.black-chess-knight-rook::before, .black-chess-knight-rook-before::before{ content:var(--black-chess-knight-rook)}
+.black-chess-knight-rook-after::after{content:var(--black-chess-knight-rook)}
+.black-chess-knight-rook-both::after, .black-chess-knight-rook-both::before {content:var(--black-chess-knight-rook)}
+.black-chess-knight-rook-list { list-style: var(--black-chess-knight-rook)}
+
+
+
+.black-chess-pawn-rotated-ninety-degrees::before, .black-chess-pawn-rotated-ninety-degrees-before::before{ content:var(--black-chess-pawn-rotated-ninety-degrees)}
+.black-chess-pawn-rotated-ninety-degrees-after::after{content:var(--black-chess-pawn-rotated-ninety-degrees)}
+.black-chess-pawn-rotated-ninety-degrees-both::after, .black-chess-pawn-rotated-ninety-degrees-both::before {content:var(--black-chess-pawn-rotated-ninety-degrees)}
+.black-chess-pawn-rotated-ninety-degrees-list { list-style: var(--black-chess-pawn-rotated-ninety-degrees)}
+
+
+
+.black-chess-pawn-rotated-two-hundred-seventy-degrees::before, .black-chess-pawn-rotated-two-hundred-seventy-degrees-before::before{ content:var(--black-chess-pawn-rotated-two-hundred-seventy-degrees)}
+.black-chess-pawn-rotated-two-hundred-seventy-degrees-after::after{content:var(--black-chess-pawn-rotated-two-hundred-seventy-degrees)}
+.black-chess-pawn-rotated-two-hundred-seventy-degrees-both::after, .black-chess-pawn-rotated-two-hundred-seventy-degrees-both::before {content:var(--black-chess-pawn-rotated-two-hundred-seventy-degrees)}
+.black-chess-pawn-rotated-two-hundred-seventy-degrees-list { list-style: var(--black-chess-pawn-rotated-two-hundred-seventy-degrees)}
+
+
+
+.black-chess-queen-rotated-ninety-degrees::before, .black-chess-queen-rotated-ninety-degrees-before::before{ content:var(--black-chess-queen-rotated-ninety-degrees)}
+.black-chess-queen-rotated-ninety-degrees-after::after{content:var(--black-chess-queen-rotated-ninety-degrees)}
+.black-chess-queen-rotated-ninety-degrees-both::after, .black-chess-queen-rotated-ninety-degrees-both::before {content:var(--black-chess-queen-rotated-ninety-degrees)}
+.black-chess-queen-rotated-ninety-degrees-list { list-style: var(--black-chess-queen-rotated-ninety-degrees)}
+
+
+
+.black-chess-queen-rotated-two-hundred-seventy-degrees::before, .black-chess-queen-rotated-two-hundred-seventy-degrees-before::before{ content:var(--black-chess-queen-rotated-two-hundred-seventy-degrees)}
+.black-chess-queen-rotated-two-hundred-seventy-degrees-after::after{content:var(--black-chess-queen-rotated-two-hundred-seventy-degrees)}
+.black-chess-queen-rotated-two-hundred-seventy-degrees-both::after, .black-chess-queen-rotated-two-hundred-seventy-degrees-both::before {content:var(--black-chess-queen-rotated-two-hundred-seventy-degrees)}
+.black-chess-queen-rotated-two-hundred-seventy-degrees-list { list-style: var(--black-chess-queen-rotated-two-hundred-seventy-degrees)}
+
+
+
+.black-chess-rook-rotated-ninety-degrees::before, .black-chess-rook-rotated-ninety-degrees-before::before{ content:var(--black-chess-rook-rotated-ninety-degrees)}
+.black-chess-rook-rotated-ninety-degrees-after::after{content:var(--black-chess-rook-rotated-ninety-degrees)}
+.black-chess-rook-rotated-ninety-degrees-both::after, .black-chess-rook-rotated-ninety-degrees-both::before {content:var(--black-chess-rook-rotated-ninety-degrees)}
+.black-chess-rook-rotated-ninety-degrees-list { list-style: var(--black-chess-rook-rotated-ninety-degrees)}
+
+
+
+.black-chess-rook-rotated-two-hundred-seventy-degrees::before, .black-chess-rook-rotated-two-hundred-seventy-degrees-before::before{ content:var(--black-chess-rook-rotated-two-hundred-seventy-degrees)}
+.black-chess-rook-rotated-two-hundred-seventy-degrees-after::after{content:var(--black-chess-rook-rotated-two-hundred-seventy-degrees)}
+.black-chess-rook-rotated-two-hundred-seventy-degrees-both::after, .black-chess-rook-rotated-two-hundred-seventy-degrees-both::before {content:var(--black-chess-rook-rotated-two-hundred-seventy-degrees)}
+.black-chess-rook-rotated-two-hundred-seventy-degrees-list { list-style: var(--black-chess-rook-rotated-two-hundred-seventy-degrees)}
+
+
+
+.black-chess-turned-bishop::before, .black-chess-turned-bishop-before::before{ content:var(--black-chess-turned-bishop)}
+.black-chess-turned-bishop-after::after{content:var(--black-chess-turned-bishop)}
+.black-chess-turned-bishop-both::after, .black-chess-turned-bishop-both::before {content:var(--black-chess-turned-bishop)}
+.black-chess-turned-bishop-list { list-style: var(--black-chess-turned-bishop)}
+
+
+
+.black-chess-turned-king::before, .black-chess-turned-king-before::before{ content:var(--black-chess-turned-king)}
+.black-chess-turned-king-after::after{content:var(--black-chess-turned-king)}
+.black-chess-turned-king-both::after, .black-chess-turned-king-both::before {content:var(--black-chess-turned-king)}
+.black-chess-turned-king-list { list-style: var(--black-chess-turned-king)}
+
+
+
+.black-chess-turned-knight::before, .black-chess-turned-knight-before::before{ content:var(--black-chess-turned-knight)}
+.black-chess-turned-knight-after::after{content:var(--black-chess-turned-knight)}
+.black-chess-turned-knight-both::after, .black-chess-turned-knight-both::before {content:var(--black-chess-turned-knight)}
+.black-chess-turned-knight-list { list-style: var(--black-chess-turned-knight)}
+
+
+
+.black-chess-turned-pawn::before, .black-chess-turned-pawn-before::before{ content:var(--black-chess-turned-pawn)}
+.black-chess-turned-pawn-after::after{content:var(--black-chess-turned-pawn)}
+.black-chess-turned-pawn-both::after, .black-chess-turned-pawn-both::before {content:var(--black-chess-turned-pawn)}
+.black-chess-turned-pawn-list { list-style: var(--black-chess-turned-pawn)}
+
+
+
+.black-chess-turned-queen::before, .black-chess-turned-queen-before::before{ content:var(--black-chess-turned-queen)}
+.black-chess-turned-queen-after::after{content:var(--black-chess-turned-queen)}
+.black-chess-turned-queen-both::after, .black-chess-turned-queen-both::before {content:var(--black-chess-turned-queen)}
+.black-chess-turned-queen-list { list-style: var(--black-chess-turned-queen)}
+
+
+
+.black-chess-turned-rook::before, .black-chess-turned-rook-before::before{ content:var(--black-chess-turned-rook)}
+.black-chess-turned-rook-after::after{content:var(--black-chess-turned-rook)}
+.black-chess-turned-rook-both::after, .black-chess-turned-rook-both::before {content:var(--black-chess-turned-rook)}
+.black-chess-turned-rook-list { list-style: var(--black-chess-turned-rook)}
+
+
+
+.neutral-chess-bishop::before, .neutral-chess-bishop-before::before{ content:var(--neutral-chess-bishop)}
+.neutral-chess-bishop-after::after{content:var(--neutral-chess-bishop)}
+.neutral-chess-bishop-both::after, .neutral-chess-bishop-both::before {content:var(--neutral-chess-bishop)}
+.neutral-chess-bishop-list { list-style: var(--neutral-chess-bishop)}
+
+
+
+.neutral-chess-bishop-rotated-ninety-degrees::before, .neutral-chess-bishop-rotated-ninety-degrees-before::before{ content:var(--neutral-chess-bishop-rotated-ninety-degrees)}
+.neutral-chess-bishop-rotated-ninety-degrees-after::after{content:var(--neutral-chess-bishop-rotated-ninety-degrees)}
+.neutral-chess-bishop-rotated-ninety-degrees-both::after, .neutral-chess-bishop-rotated-ninety-degrees-both::before {content:var(--neutral-chess-bishop-rotated-ninety-degrees)}
+.neutral-chess-bishop-rotated-ninety-degrees-list { list-style: var(--neutral-chess-bishop-rotated-ninety-degrees)}
+
+
+
+.neutral-chess-bishop-rotated-two-hundred-seventy-degrees::before, .neutral-chess-bishop-rotated-two-hundred-seventy-degrees-before::before{ content:var(--neutral-chess-bishop-rotated-two-hundred-seventy-degrees)}
+.neutral-chess-bishop-rotated-two-hundred-seventy-degrees-after::after{content:var(--neutral-chess-bishop-rotated-two-hundred-seventy-degrees)}
+.neutral-chess-bishop-rotated-two-hundred-seventy-degrees-both::after, .neutral-chess-bishop-rotated-two-hundred-seventy-degrees-both::before {content:var(--neutral-chess-bishop-rotated-two-hundred-seventy-degrees)}
+.neutral-chess-bishop-rotated-two-hundred-seventy-degrees-list { list-style: var(--neutral-chess-bishop-rotated-two-hundred-seventy-degrees)}
+
+
+
+.neutral-chess-equihopper::before, .neutral-chess-equihopper-before::before{ content:var(--neutral-chess-equihopper)}
+.neutral-chess-equihopper-after::after{content:var(--neutral-chess-equihopper)}
+.neutral-chess-equihopper-both::after, .neutral-chess-equihopper-both::before {content:var(--neutral-chess-equihopper)}
+.neutral-chess-equihopper-list { list-style: var(--neutral-chess-equihopper)}
+
+
+
+.neutral-chess-equihopper-rotated-ninety-degrees::before, .neutral-chess-equihopper-rotated-ninety-degrees-before::before{ content:var(--neutral-chess-equihopper-rotated-ninety-degrees)}
+.neutral-chess-equihopper-rotated-ninety-degrees-after::after{content:var(--neutral-chess-equihopper-rotated-ninety-degrees)}
+.neutral-chess-equihopper-rotated-ninety-degrees-both::after, .neutral-chess-equihopper-rotated-ninety-degrees-both::before {content:var(--neutral-chess-equihopper-rotated-ninety-degrees)}
+.neutral-chess-equihopper-rotated-ninety-degrees-list { list-style: var(--neutral-chess-equihopper-rotated-ninety-degrees)}
+
+
+
+.neutral-chess-king::before, .neutral-chess-king-before::before{ content:var(--neutral-chess-king)}
+.neutral-chess-king-after::after{content:var(--neutral-chess-king)}
+.neutral-chess-king-both::after, .neutral-chess-king-both::before {content:var(--neutral-chess-king)}
+.neutral-chess-king-list { list-style: var(--neutral-chess-king)}
+
+
+
+.neutral-chess-king-rotated-ninety-degrees::before, .neutral-chess-king-rotated-ninety-degrees-before::before{ content:var(--neutral-chess-king-rotated-ninety-degrees)}
+.neutral-chess-king-rotated-ninety-degrees-after::after{content:var(--neutral-chess-king-rotated-ninety-degrees)}
+.neutral-chess-king-rotated-ninety-degrees-both::after, .neutral-chess-king-rotated-ninety-degrees-both::before {content:var(--neutral-chess-king-rotated-ninety-degrees)}
+.neutral-chess-king-rotated-ninety-degrees-list { list-style: var(--neutral-chess-king-rotated-ninety-degrees)}
+
+
+
+.neutral-chess-king-rotated-two-hundred-seventy-degrees::before, .neutral-chess-king-rotated-two-hundred-seventy-degrees-before::before{ content:var(--neutral-chess-king-rotated-two-hundred-seventy-degrees)}
+.neutral-chess-king-rotated-two-hundred-seventy-degrees-after::after{content:var(--neutral-chess-king-rotated-two-hundred-seventy-degrees)}
+.neutral-chess-king-rotated-two-hundred-seventy-degrees-both::after, .neutral-chess-king-rotated-two-hundred-seventy-degrees-both::before {content:var(--neutral-chess-king-rotated-two-hundred-seventy-degrees)}
+.neutral-chess-king-rotated-two-hundred-seventy-degrees-list { list-style: var(--neutral-chess-king-rotated-two-hundred-seventy-degrees)}
+
+
+
+.neutral-chess-knight::before, .neutral-chess-knight-before::before{ content:var(--neutral-chess-knight)}
+.neutral-chess-knight-after::after{content:var(--neutral-chess-knight)}
+.neutral-chess-knight-both::after, .neutral-chess-knight-both::before {content:var(--neutral-chess-knight)}
+.neutral-chess-knight-list { list-style: var(--neutral-chess-knight)}
+
+
+
+.neutral-chess-knight-rotated-forty-five-degrees::before, .neutral-chess-knight-rotated-forty-five-degrees-before::before{ content:var(--neutral-chess-knight-rotated-forty-five-degrees)}
+.neutral-chess-knight-rotated-forty-five-degrees-after::after{content:var(--neutral-chess-knight-rotated-forty-five-degrees)}
+.neutral-chess-knight-rotated-forty-five-degrees-both::after, .neutral-chess-knight-rotated-forty-five-degrees-both::before {content:var(--neutral-chess-knight-rotated-forty-five-degrees)}
+.neutral-chess-knight-rotated-forty-five-degrees-list { list-style: var(--neutral-chess-knight-rotated-forty-five-degrees)}
+
+
+
+.neutral-chess-knight-rotated-ninety-degrees::before, .neutral-chess-knight-rotated-ninety-degrees-before::before{ content:var(--neutral-chess-knight-rotated-ninety-degrees)}
+.neutral-chess-knight-rotated-ninety-degrees-after::after{content:var(--neutral-chess-knight-rotated-ninety-degrees)}
+.neutral-chess-knight-rotated-ninety-degrees-both::after, .neutral-chess-knight-rotated-ninety-degrees-both::before {content:var(--neutral-chess-knight-rotated-ninety-degrees)}
+.neutral-chess-knight-rotated-ninety-degrees-list { list-style: var(--neutral-chess-knight-rotated-ninety-degrees)}
+
+
+
+.neutral-chess-knight-rotated-one-hundred-thirty-five-degrees::before, .neutral-chess-knight-rotated-one-hundred-thirty-five-degrees-before::before{ content:var(--neutral-chess-knight-rotated-one-hundred-thirty-five-degrees)}
+.neutral-chess-knight-rotated-one-hundred-thirty-five-degrees-after::after{content:var(--neutral-chess-knight-rotated-one-hundred-thirty-five-degrees)}
+.neutral-chess-knight-rotated-one-hundred-thirty-five-degrees-both::after, .neutral-chess-knight-rotated-one-hundred-thirty-five-degrees-both::before {content:var(--neutral-chess-knight-rotated-one-hundred-thirty-five-degrees)}
+.neutral-chess-knight-rotated-one-hundred-thirty-five-degrees-list { list-style: var(--neutral-chess-knight-rotated-one-hundred-thirty-five-degrees)}
+
+
+
+.neutral-chess-knight-rotated-three-hundred-fifteen-degrees::before, .neutral-chess-knight-rotated-three-hundred-fifteen-degrees-before::before{ content:var(--neutral-chess-knight-rotated-three-hundred-fifteen-degrees)}
+.neutral-chess-knight-rotated-three-hundred-fifteen-degrees-after::after{content:var(--neutral-chess-knight-rotated-three-hundred-fifteen-degrees)}
+.neutral-chess-knight-rotated-three-hundred-fifteen-degrees-both::after, .neutral-chess-knight-rotated-three-hundred-fifteen-degrees-both::before {content:var(--neutral-chess-knight-rotated-three-hundred-fifteen-degrees)}
+.neutral-chess-knight-rotated-three-hundred-fifteen-degrees-list { list-style: var(--neutral-chess-knight-rotated-three-hundred-fifteen-degrees)}
+
+
+
+.neutral-chess-knight-rotated-two-hundred-seventy-degrees::before, .neutral-chess-knight-rotated-two-hundred-seventy-degrees-before::before{ content:var(--neutral-chess-knight-rotated-two-hundred-seventy-degrees)}
+.neutral-chess-knight-rotated-two-hundred-seventy-degrees-after::after{content:var(--neutral-chess-knight-rotated-two-hundred-seventy-degrees)}
+.neutral-chess-knight-rotated-two-hundred-seventy-degrees-both::after, .neutral-chess-knight-rotated-two-hundred-seventy-degrees-both::before {content:var(--neutral-chess-knight-rotated-two-hundred-seventy-degrees)}
+.neutral-chess-knight-rotated-two-hundred-seventy-degrees-list { list-style: var(--neutral-chess-knight-rotated-two-hundred-seventy-degrees)}
+
+
+
+.neutral-chess-knight-rotated-two-hundred-twenty-five-degrees::before, .neutral-chess-knight-rotated-two-hundred-twenty-five-degrees-before::before{ content:var(--neutral-chess-knight-rotated-two-hundred-twenty-five-degrees)}
+.neutral-chess-knight-rotated-two-hundred-twenty-five-degrees-after::after{content:var(--neutral-chess-knight-rotated-two-hundred-twenty-five-degrees)}
+.neutral-chess-knight-rotated-two-hundred-twenty-five-degrees-both::after, .neutral-chess-knight-rotated-two-hundred-twenty-five-degrees-both::before {content:var(--neutral-chess-knight-rotated-two-hundred-twenty-five-degrees)}
+.neutral-chess-knight-rotated-two-hundred-twenty-five-degrees-list { list-style: var(--neutral-chess-knight-rotated-two-hundred-twenty-five-degrees)}
+
+
+
+.neutral-chess-pawn::before, .neutral-chess-pawn-before::before{ content:var(--neutral-chess-pawn)}
+.neutral-chess-pawn-after::after{content:var(--neutral-chess-pawn)}
+.neutral-chess-pawn-both::after, .neutral-chess-pawn-both::before {content:var(--neutral-chess-pawn)}
+.neutral-chess-pawn-list { list-style: var(--neutral-chess-pawn)}
+
+
+
+.neutral-chess-pawn-rotated-ninety-degrees::before, .neutral-chess-pawn-rotated-ninety-degrees-before::before{ content:var(--neutral-chess-pawn-rotated-ninety-degrees)}
+.neutral-chess-pawn-rotated-ninety-degrees-after::after{content:var(--neutral-chess-pawn-rotated-ninety-degrees)}
+.neutral-chess-pawn-rotated-ninety-degrees-both::after, .neutral-chess-pawn-rotated-ninety-degrees-both::before {content:var(--neutral-chess-pawn-rotated-ninety-degrees)}
+.neutral-chess-pawn-rotated-ninety-degrees-list { list-style: var(--neutral-chess-pawn-rotated-ninety-degrees)}
+
+
+
+.neutral-chess-pawn-rotated-two-hundred-seventy-degrees::before, .neutral-chess-pawn-rotated-two-hundred-seventy-degrees-before::before{ content:var(--neutral-chess-pawn-rotated-two-hundred-seventy-degrees)}
+.neutral-chess-pawn-rotated-two-hundred-seventy-degrees-after::after{content:var(--neutral-chess-pawn-rotated-two-hundred-seventy-degrees)}
+.neutral-chess-pawn-rotated-two-hundred-seventy-degrees-both::after, .neutral-chess-pawn-rotated-two-hundred-seventy-degrees-both::before {content:var(--neutral-chess-pawn-rotated-two-hundred-seventy-degrees)}
+.neutral-chess-pawn-rotated-two-hundred-seventy-degrees-list { list-style: var(--neutral-chess-pawn-rotated-two-hundred-seventy-degrees)}
+
+
+
+.neutral-chess-queen::before, .neutral-chess-queen-before::before{ content:var(--neutral-chess-queen)}
+.neutral-chess-queen-after::after{content:var(--neutral-chess-queen)}
+.neutral-chess-queen-both::after, .neutral-chess-queen-both::before {content:var(--neutral-chess-queen)}
+.neutral-chess-queen-list { list-style: var(--neutral-chess-queen)}
+
+
+
+.neutral-chess-queen-rotated-ninety-degrees::before, .neutral-chess-queen-rotated-ninety-degrees-before::before{ content:var(--neutral-chess-queen-rotated-ninety-degrees)}
+.neutral-chess-queen-rotated-ninety-degrees-after::after{content:var(--neutral-chess-queen-rotated-ninety-degrees)}
+.neutral-chess-queen-rotated-ninety-degrees-both::after, .neutral-chess-queen-rotated-ninety-degrees-both::before {content:var(--neutral-chess-queen-rotated-ninety-degrees)}
+.neutral-chess-queen-rotated-ninety-degrees-list { list-style: var(--neutral-chess-queen-rotated-ninety-degrees)}
+
+
+
+.neutral-chess-queen-rotated-two-hundred-seventy-degrees::before, .neutral-chess-queen-rotated-two-hundred-seventy-degrees-before::before{ content:var(--neutral-chess-queen-rotated-two-hundred-seventy-degrees)}
+.neutral-chess-queen-rotated-two-hundred-seventy-degrees-after::after{content:var(--neutral-chess-queen-rotated-two-hundred-seventy-degrees)}
+.neutral-chess-queen-rotated-two-hundred-seventy-degrees-both::after, .neutral-chess-queen-rotated-two-hundred-seventy-degrees-both::before {content:var(--neutral-chess-queen-rotated-two-hundred-seventy-degrees)}
+.neutral-chess-queen-rotated-two-hundred-seventy-degrees-list { list-style: var(--neutral-chess-queen-rotated-two-hundred-seventy-degrees)}
+
+
+
+.neutral-chess-rook::before, .neutral-chess-rook-before::before{ content:var(--neutral-chess-rook)}
+.neutral-chess-rook-after::after{content:var(--neutral-chess-rook)}
+.neutral-chess-rook-both::after, .neutral-chess-rook-both::before {content:var(--neutral-chess-rook)}
+.neutral-chess-rook-list { list-style: var(--neutral-chess-rook)}
+
+
+
+.neutral-chess-rook-rotated-ninety-degrees::before, .neutral-chess-rook-rotated-ninety-degrees-before::before{ content:var(--neutral-chess-rook-rotated-ninety-degrees)}
+.neutral-chess-rook-rotated-ninety-degrees-after::after{content:var(--neutral-chess-rook-rotated-ninety-degrees)}
+.neutral-chess-rook-rotated-ninety-degrees-both::after, .neutral-chess-rook-rotated-ninety-degrees-both::before {content:var(--neutral-chess-rook-rotated-ninety-degrees)}
+.neutral-chess-rook-rotated-ninety-degrees-list { list-style: var(--neutral-chess-rook-rotated-ninety-degrees)}
+
+
+
+.neutral-chess-rook-rotated-two-hundred-seventy-degrees::before, .neutral-chess-rook-rotated-two-hundred-seventy-degrees-before::before{ content:var(--neutral-chess-rook-rotated-two-hundred-seventy-degrees)}
+.neutral-chess-rook-rotated-two-hundred-seventy-degrees-after::after{content:var(--neutral-chess-rook-rotated-two-hundred-seventy-degrees)}
+.neutral-chess-rook-rotated-two-hundred-seventy-degrees-both::after, .neutral-chess-rook-rotated-two-hundred-seventy-degrees-both::before {content:var(--neutral-chess-rook-rotated-two-hundred-seventy-degrees)}
+.neutral-chess-rook-rotated-two-hundred-seventy-degrees-list { list-style: var(--neutral-chess-rook-rotated-two-hundred-seventy-degrees)}
+
+
+
+.neutral-chess-turned-bishop::before, .neutral-chess-turned-bishop-before::before{ content:var(--neutral-chess-turned-bishop)}
+.neutral-chess-turned-bishop-after::after{content:var(--neutral-chess-turned-bishop)}
+.neutral-chess-turned-bishop-both::after, .neutral-chess-turned-bishop-both::before {content:var(--neutral-chess-turned-bishop)}
+.neutral-chess-turned-bishop-list { list-style: var(--neutral-chess-turned-bishop)}
+
+
+
+.neutral-chess-turned-king::before, .neutral-chess-turned-king-before::before{ content:var(--neutral-chess-turned-king)}
+.neutral-chess-turned-king-after::after{content:var(--neutral-chess-turned-king)}
+.neutral-chess-turned-king-both::after, .neutral-chess-turned-king-both::before {content:var(--neutral-chess-turned-king)}
+.neutral-chess-turned-king-list { list-style: var(--neutral-chess-turned-king)}
+
+
+
+.neutral-chess-turned-knight::before, .neutral-chess-turned-knight-before::before{ content:var(--neutral-chess-turned-knight)}
+.neutral-chess-turned-knight-after::after{content:var(--neutral-chess-turned-knight)}
+.neutral-chess-turned-knight-both::after, .neutral-chess-turned-knight-both::before {content:var(--neutral-chess-turned-knight)}
+.neutral-chess-turned-knight-list { list-style: var(--neutral-chess-turned-knight)}
+
+
+
+.neutral-chess-turned-pawn::before, .neutral-chess-turned-pawn-before::before{ content:var(--neutral-chess-turned-pawn)}
+.neutral-chess-turned-pawn-after::after{content:var(--neutral-chess-turned-pawn)}
+.neutral-chess-turned-pawn-both::after, .neutral-chess-turned-pawn-both::before {content:var(--neutral-chess-turned-pawn)}
+.neutral-chess-turned-pawn-list { list-style: var(--neutral-chess-turned-pawn)}
+
+
+
+.neutral-chess-turned-queen::before, .neutral-chess-turned-queen-before::before{ content:var(--neutral-chess-turned-queen)}
+.neutral-chess-turned-queen-after::after{content:var(--neutral-chess-turned-queen)}
+.neutral-chess-turned-queen-both::after, .neutral-chess-turned-queen-both::before {content:var(--neutral-chess-turned-queen)}
+.neutral-chess-turned-queen-list { list-style: var(--neutral-chess-turned-queen)}
+
+
+
+.neutral-chess-turned-rook::before, .neutral-chess-turned-rook-before::before{ content:var(--neutral-chess-turned-rook)}
+.neutral-chess-turned-rook-after::after{content:var(--neutral-chess-turned-rook)}
+.neutral-chess-turned-rook-both::after, .neutral-chess-turned-rook-both::before {content:var(--neutral-chess-turned-rook)}
+.neutral-chess-turned-rook-list { list-style: var(--neutral-chess-turned-rook)}
+
+
+
+.white-chess-bishop-rotated-ninety-degrees::before, .white-chess-bishop-rotated-ninety-degrees-before::before{ content:var(--white-chess-bishop-rotated-ninety-degrees)}
+.white-chess-bishop-rotated-ninety-degrees-after::after{content:var(--white-chess-bishop-rotated-ninety-degrees)}
+.white-chess-bishop-rotated-ninety-degrees-both::after, .white-chess-bishop-rotated-ninety-degrees-both::before {content:var(--white-chess-bishop-rotated-ninety-degrees)}
+.white-chess-bishop-rotated-ninety-degrees-list { list-style: var(--white-chess-bishop-rotated-ninety-degrees)}
+
+
+
+.white-chess-bishop-rotated-two-hundred-seventy-degrees::before, .white-chess-bishop-rotated-two-hundred-seventy-degrees-before::before{ content:var(--white-chess-bishop-rotated-two-hundred-seventy-degrees)}
+.white-chess-bishop-rotated-two-hundred-seventy-degrees-after::after{content:var(--white-chess-bishop-rotated-two-hundred-seventy-degrees)}
+.white-chess-bishop-rotated-two-hundred-seventy-degrees-both::after, .white-chess-bishop-rotated-two-hundred-seventy-degrees-both::before {content:var(--white-chess-bishop-rotated-two-hundred-seventy-degrees)}
+.white-chess-bishop-rotated-two-hundred-seventy-degrees-list { list-style: var(--white-chess-bishop-rotated-two-hundred-seventy-degrees)}
+
+
+
+.white-chess-equihopper::before, .white-chess-equihopper-before::before{ content:var(--white-chess-equihopper)}
+.white-chess-equihopper-after::after{content:var(--white-chess-equihopper)}
+.white-chess-equihopper-both::after, .white-chess-equihopper-both::before {content:var(--white-chess-equihopper)}
+.white-chess-equihopper-list { list-style: var(--white-chess-equihopper)}
+
+
+
+.white-chess-equihopper-rotated-ninety-degrees::before, .white-chess-equihopper-rotated-ninety-degrees-before::before{ content:var(--white-chess-equihopper-rotated-ninety-degrees)}
+.white-chess-equihopper-rotated-ninety-degrees-after::after{content:var(--white-chess-equihopper-rotated-ninety-degrees)}
+.white-chess-equihopper-rotated-ninety-degrees-both::after, .white-chess-equihopper-rotated-ninety-degrees-both::before {content:var(--white-chess-equihopper-rotated-ninety-degrees)}
+.white-chess-equihopper-rotated-ninety-degrees-list { list-style: var(--white-chess-equihopper-rotated-ninety-degrees)}
+
+
+
+.white-chess-king-rotated-ninety-degrees::before, .white-chess-king-rotated-ninety-degrees-before::before{ content:var(--white-chess-king-rotated-ninety-degrees)}
+.white-chess-king-rotated-ninety-degrees-after::after{content:var(--white-chess-king-rotated-ninety-degrees)}
+.white-chess-king-rotated-ninety-degrees-both::after, .white-chess-king-rotated-ninety-degrees-both::before {content:var(--white-chess-king-rotated-ninety-degrees)}
+.white-chess-king-rotated-ninety-degrees-list { list-style: var(--white-chess-king-rotated-ninety-degrees)}
+
+
+
+.white-chess-king-rotated-two-hundred-seventy-degrees::before, .white-chess-king-rotated-two-hundred-seventy-degrees-before::before{ content:var(--white-chess-king-rotated-two-hundred-seventy-degrees)}
+.white-chess-king-rotated-two-hundred-seventy-degrees-after::after{content:var(--white-chess-king-rotated-two-hundred-seventy-degrees)}
+.white-chess-king-rotated-two-hundred-seventy-degrees-both::after, .white-chess-king-rotated-two-hundred-seventy-degrees-both::before {content:var(--white-chess-king-rotated-two-hundred-seventy-degrees)}
+.white-chess-king-rotated-two-hundred-seventy-degrees-list { list-style: var(--white-chess-king-rotated-two-hundred-seventy-degrees)}
+
+
+
+.white-chess-knight-rotated-forty-five-degrees::before, .white-chess-knight-rotated-forty-five-degrees-before::before{ content:var(--white-chess-knight-rotated-forty-five-degrees)}
+.white-chess-knight-rotated-forty-five-degrees-after::after{content:var(--white-chess-knight-rotated-forty-five-degrees)}
+.white-chess-knight-rotated-forty-five-degrees-both::after, .white-chess-knight-rotated-forty-five-degrees-both::before {content:var(--white-chess-knight-rotated-forty-five-degrees)}
+.white-chess-knight-rotated-forty-five-degrees-list { list-style: var(--white-chess-knight-rotated-forty-five-degrees)}
+
+
+
+.white-chess-knight-rotated-ninety-degrees::before, .white-chess-knight-rotated-ninety-degrees-before::before{ content:var(--white-chess-knight-rotated-ninety-degrees)}
+.white-chess-knight-rotated-ninety-degrees-after::after{content:var(--white-chess-knight-rotated-ninety-degrees)}
+.white-chess-knight-rotated-ninety-degrees-both::after, .white-chess-knight-rotated-ninety-degrees-both::before {content:var(--white-chess-knight-rotated-ninety-degrees)}
+.white-chess-knight-rotated-ninety-degrees-list { list-style: var(--white-chess-knight-rotated-ninety-degrees)}
+
+
+
+.white-chess-knight-rotated-one-hundred-thirty-five-degrees::before, .white-chess-knight-rotated-one-hundred-thirty-five-degrees-before::before{ content:var(--white-chess-knight-rotated-one-hundred-thirty-five-degrees)}
+.white-chess-knight-rotated-one-hundred-thirty-five-degrees-after::after{content:var(--white-chess-knight-rotated-one-hundred-thirty-five-degrees)}
+.white-chess-knight-rotated-one-hundred-thirty-five-degrees-both::after, .white-chess-knight-rotated-one-hundred-thirty-five-degrees-both::before {content:var(--white-chess-knight-rotated-one-hundred-thirty-five-degrees)}
+.white-chess-knight-rotated-one-hundred-thirty-five-degrees-list { list-style: var(--white-chess-knight-rotated-one-hundred-thirty-five-degrees)}
+
+
+
+.white-chess-knight-rotated-three-hundred-fifteen-degrees::before, .white-chess-knight-rotated-three-hundred-fifteen-degrees-before::before{ content:var(--white-chess-knight-rotated-three-hundred-fifteen-degrees)}
+.white-chess-knight-rotated-three-hundred-fifteen-degrees-after::after{content:var(--white-chess-knight-rotated-three-hundred-fifteen-degrees)}
+.white-chess-knight-rotated-three-hundred-fifteen-degrees-both::after, .white-chess-knight-rotated-three-hundred-fifteen-degrees-both::before {content:var(--white-chess-knight-rotated-three-hundred-fifteen-degrees)}
+.white-chess-knight-rotated-three-hundred-fifteen-degrees-list { list-style: var(--white-chess-knight-rotated-three-hundred-fifteen-degrees)}
+
+
+
+.white-chess-knight-rotated-two-hundred-seventy-degrees::before, .white-chess-knight-rotated-two-hundred-seventy-degrees-before::before{ content:var(--white-chess-knight-rotated-two-hundred-seventy-degrees)}
+.white-chess-knight-rotated-two-hundred-seventy-degrees-after::after{content:var(--white-chess-knight-rotated-two-hundred-seventy-degrees)}
+.white-chess-knight-rotated-two-hundred-seventy-degrees-both::after, .white-chess-knight-rotated-two-hundred-seventy-degrees-both::before {content:var(--white-chess-knight-rotated-two-hundred-seventy-degrees)}
+.white-chess-knight-rotated-two-hundred-seventy-degrees-list { list-style: var(--white-chess-knight-rotated-two-hundred-seventy-degrees)}
+
+
+
+.white-chess-knight-rotated-two-hundred-twenty-five-degrees::before, .white-chess-knight-rotated-two-hundred-twenty-five-degrees-before::before{ content:var(--white-chess-knight-rotated-two-hundred-twenty-five-degrees)}
+.white-chess-knight-rotated-two-hundred-twenty-five-degrees-after::after{content:var(--white-chess-knight-rotated-two-hundred-twenty-five-degrees)}
+.white-chess-knight-rotated-two-hundred-twenty-five-degrees-both::after, .white-chess-knight-rotated-two-hundred-twenty-five-degrees-both::before {content:var(--white-chess-knight-rotated-two-hundred-twenty-five-degrees)}
+.white-chess-knight-rotated-two-hundred-twenty-five-degrees-list { list-style: var(--white-chess-knight-rotated-two-hundred-twenty-five-degrees)}
+
+
+
+.white-chess-knight-bishop::before, .white-chess-knight-bishop-before::before{ content:var(--white-chess-knight-bishop)}
+.white-chess-knight-bishop-after::after{content:var(--white-chess-knight-bishop)}
+.white-chess-knight-bishop-both::after, .white-chess-knight-bishop-both::before {content:var(--white-chess-knight-bishop)}
+.white-chess-knight-bishop-list { list-style: var(--white-chess-knight-bishop)}
+
+
+
+.white-chess-knight-queen::before, .white-chess-knight-queen-before::before{ content:var(--white-chess-knight-queen)}
+.white-chess-knight-queen-after::after{content:var(--white-chess-knight-queen)}
+.white-chess-knight-queen-both::after, .white-chess-knight-queen-both::before {content:var(--white-chess-knight-queen)}
+.white-chess-knight-queen-list { list-style: var(--white-chess-knight-queen)}
+
+
+
+.white-chess-knight-rook::before, .white-chess-knight-rook-before::before{ content:var(--white-chess-knight-rook)}
+.white-chess-knight-rook-after::after{content:var(--white-chess-knight-rook)}
+.white-chess-knight-rook-both::after, .white-chess-knight-rook-both::before {content:var(--white-chess-knight-rook)}
+.white-chess-knight-rook-list { list-style: var(--white-chess-knight-rook)}
+
+
+
+.white-chess-pawn-rotated-ninety-degrees::before, .white-chess-pawn-rotated-ninety-degrees-before::before{ content:var(--white-chess-pawn-rotated-ninety-degrees)}
+.white-chess-pawn-rotated-ninety-degrees-after::after{content:var(--white-chess-pawn-rotated-ninety-degrees)}
+.white-chess-pawn-rotated-ninety-degrees-both::after, .white-chess-pawn-rotated-ninety-degrees-both::before {content:var(--white-chess-pawn-rotated-ninety-degrees)}
+.white-chess-pawn-rotated-ninety-degrees-list { list-style: var(--white-chess-pawn-rotated-ninety-degrees)}
+
+
+
+.white-chess-pawn-rotated-two-hundred-seventy-degrees::before, .white-chess-pawn-rotated-two-hundred-seventy-degrees-before::before{ content:var(--white-chess-pawn-rotated-two-hundred-seventy-degrees)}
+.white-chess-pawn-rotated-two-hundred-seventy-degrees-after::after{content:var(--white-chess-pawn-rotated-two-hundred-seventy-degrees)}
+.white-chess-pawn-rotated-two-hundred-seventy-degrees-both::after, .white-chess-pawn-rotated-two-hundred-seventy-degrees-both::before {content:var(--white-chess-pawn-rotated-two-hundred-seventy-degrees)}
+.white-chess-pawn-rotated-two-hundred-seventy-degrees-list { list-style: var(--white-chess-pawn-rotated-two-hundred-seventy-degrees)}
+
+
+
+.white-chess-queen-rotated-ninety-degrees::before, .white-chess-queen-rotated-ninety-degrees-before::before{ content:var(--white-chess-queen-rotated-ninety-degrees)}
+.white-chess-queen-rotated-ninety-degrees-after::after{content:var(--white-chess-queen-rotated-ninety-degrees)}
+.white-chess-queen-rotated-ninety-degrees-both::after, .white-chess-queen-rotated-ninety-degrees-both::before {content:var(--white-chess-queen-rotated-ninety-degrees)}
+.white-chess-queen-rotated-ninety-degrees-list { list-style: var(--white-chess-queen-rotated-ninety-degrees)}
+
+
+
+.white-chess-queen-rotated-two-hundred-seventy-degrees::before, .white-chess-queen-rotated-two-hundred-seventy-degrees-before::before{ content:var(--white-chess-queen-rotated-two-hundred-seventy-degrees)}
+.white-chess-queen-rotated-two-hundred-seventy-degrees-after::after{content:var(--white-chess-queen-rotated-two-hundred-seventy-degrees)}
+.white-chess-queen-rotated-two-hundred-seventy-degrees-both::after, .white-chess-queen-rotated-two-hundred-seventy-degrees-both::before {content:var(--white-chess-queen-rotated-two-hundred-seventy-degrees)}
+.white-chess-queen-rotated-two-hundred-seventy-degrees-list { list-style: var(--white-chess-queen-rotated-two-hundred-seventy-degrees)}
+
+
+
+.white-chess-rook-rotated-ninety-degrees::before, .white-chess-rook-rotated-ninety-degrees-before::before{ content:var(--white-chess-rook-rotated-ninety-degrees)}
+.white-chess-rook-rotated-ninety-degrees-after::after{content:var(--white-chess-rook-rotated-ninety-degrees)}
+.white-chess-rook-rotated-ninety-degrees-both::after, .white-chess-rook-rotated-ninety-degrees-both::before {content:var(--white-chess-rook-rotated-ninety-degrees)}
+.white-chess-rook-rotated-ninety-degrees-list { list-style: var(--white-chess-rook-rotated-ninety-degrees)}
+
+
+
+.white-chess-rook-rotated-two-hundred-seventy-degrees::before, .white-chess-rook-rotated-two-hundred-seventy-degrees-before::before{ content:var(--white-chess-rook-rotated-two-hundred-seventy-degrees)}
+.white-chess-rook-rotated-two-hundred-seventy-degrees-after::after{content:var(--white-chess-rook-rotated-two-hundred-seventy-degrees)}
+.white-chess-rook-rotated-two-hundred-seventy-degrees-both::after, .white-chess-rook-rotated-two-hundred-seventy-degrees-both::before {content:var(--white-chess-rook-rotated-two-hundred-seventy-degrees)}
+.white-chess-rook-rotated-two-hundred-seventy-degrees-list { list-style: var(--white-chess-rook-rotated-two-hundred-seventy-degrees)}
+
+
+
+.white-chess-turned-bishop::before, .white-chess-turned-bishop-before::before{ content:var(--white-chess-turned-bishop)}
+.white-chess-turned-bishop-after::after{content:var(--white-chess-turned-bishop)}
+.white-chess-turned-bishop-both::after, .white-chess-turned-bishop-both::before {content:var(--white-chess-turned-bishop)}
+.white-chess-turned-bishop-list { list-style: var(--white-chess-turned-bishop)}
+
+
+
+.white-chess-turned-king::before, .white-chess-turned-king-before::before{ content:var(--white-chess-turned-king)}
+.white-chess-turned-king-after::after{content:var(--white-chess-turned-king)}
+.white-chess-turned-king-both::after, .white-chess-turned-king-both::before {content:var(--white-chess-turned-king)}
+.white-chess-turned-king-list { list-style: var(--white-chess-turned-king)}
+
+
+
+.white-chess-turned-knight::before, .white-chess-turned-knight-before::before{ content:var(--white-chess-turned-knight)}
+.white-chess-turned-knight-after::after{content:var(--white-chess-turned-knight)}
+.white-chess-turned-knight-both::after, .white-chess-turned-knight-both::before {content:var(--white-chess-turned-knight)}
+.white-chess-turned-knight-list { list-style: var(--white-chess-turned-knight)}
+
+
+
+.white-chess-turned-pawn::before, .white-chess-turned-pawn-before::before{ content:var(--white-chess-turned-pawn)}
+.white-chess-turned-pawn-after::after{content:var(--white-chess-turned-pawn)}
+.white-chess-turned-pawn-both::after, .white-chess-turned-pawn-both::before {content:var(--white-chess-turned-pawn)}
+.white-chess-turned-pawn-list { list-style: var(--white-chess-turned-pawn)}
+
+
+
+.white-chess-turned-queen::before, .white-chess-turned-queen-before::before{ content:var(--white-chess-turned-queen)}
+.white-chess-turned-queen-after::after{content:var(--white-chess-turned-queen)}
+.white-chess-turned-queen-both::after, .white-chess-turned-queen-both::before {content:var(--white-chess-turned-queen)}
+.white-chess-turned-queen-list { list-style: var(--white-chess-turned-queen)}
+
+
+
+.white-chess-turned-rook::before, .white-chess-turned-rook-before::before{ content:var(--white-chess-turned-rook)}
+.white-chess-turned-rook-after::after{content:var(--white-chess-turned-rook)}
+.white-chess-turned-rook-both::after, .white-chess-turned-rook-both::before {content:var(--white-chess-turned-rook)}
+.white-chess-turned-rook-list { list-style: var(--white-chess-turned-rook)}
+
+
+
+.xiangqi-black-cannon::before, .xiangqi-black-cannon-before::before{ content:var(--xiangqi-black-cannon)}
+.xiangqi-black-cannon-after::after{content:var(--xiangqi-black-cannon)}
+.xiangqi-black-cannon-both::after, .xiangqi-black-cannon-both::before {content:var(--xiangqi-black-cannon)}
+.xiangqi-black-cannon-list { list-style: var(--xiangqi-black-cannon)}
+
+
+
+.xiangqi-black-chariot::before, .xiangqi-black-chariot-before::before{ content:var(--xiangqi-black-chariot)}
+.xiangqi-black-chariot-after::after{content:var(--xiangqi-black-chariot)}
+.xiangqi-black-chariot-both::after, .xiangqi-black-chariot-both::before {content:var(--xiangqi-black-chariot)}
+.xiangqi-black-chariot-list { list-style: var(--xiangqi-black-chariot)}
+
+
+
+.xiangqi-black-elephant::before, .xiangqi-black-elephant-before::before{ content:var(--xiangqi-black-elephant)}
+.xiangqi-black-elephant-after::after{content:var(--xiangqi-black-elephant)}
+.xiangqi-black-elephant-both::after, .xiangqi-black-elephant-both::before {content:var(--xiangqi-black-elephant)}
+.xiangqi-black-elephant-list { list-style: var(--xiangqi-black-elephant)}
+
+
+
+.xiangqi-black-general::before, .xiangqi-black-general-before::before{ content:var(--xiangqi-black-general)}
+.xiangqi-black-general-after::after{content:var(--xiangqi-black-general)}
+.xiangqi-black-general-both::after, .xiangqi-black-general-both::before {content:var(--xiangqi-black-general)}
+.xiangqi-black-general-list { list-style: var(--xiangqi-black-general)}
+
+
+
+.xiangqi-black-horse::before, .xiangqi-black-horse-before::before{ content:var(--xiangqi-black-horse)}
+.xiangqi-black-horse-after::after{content:var(--xiangqi-black-horse)}
+.xiangqi-black-horse-both::after, .xiangqi-black-horse-both::before {content:var(--xiangqi-black-horse)}
+.xiangqi-black-horse-list { list-style: var(--xiangqi-black-horse)}
+
+
+
+.xiangqi-black-mandarin::before, .xiangqi-black-mandarin-before::before{ content:var(--xiangqi-black-mandarin)}
+.xiangqi-black-mandarin-after::after{content:var(--xiangqi-black-mandarin)}
+.xiangqi-black-mandarin-both::after, .xiangqi-black-mandarin-both::before {content:var(--xiangqi-black-mandarin)}
+.xiangqi-black-mandarin-list { list-style: var(--xiangqi-black-mandarin)}
+
+
+
+.xiangqi-black-soldier::before, .xiangqi-black-soldier-before::before{ content:var(--xiangqi-black-soldier)}
+.xiangqi-black-soldier-after::after{content:var(--xiangqi-black-soldier)}
+.xiangqi-black-soldier-both::after, .xiangqi-black-soldier-both::before {content:var(--xiangqi-black-soldier)}
+.xiangqi-black-soldier-list { list-style: var(--xiangqi-black-soldier)}
+
+
+
+.xiangqi-red-cannon::before, .xiangqi-red-cannon-before::before{ content:var(--xiangqi-red-cannon)}
+.xiangqi-red-cannon-after::after{content:var(--xiangqi-red-cannon)}
+.xiangqi-red-cannon-both::after, .xiangqi-red-cannon-both::before {content:var(--xiangqi-red-cannon)}
+.xiangqi-red-cannon-list { list-style: var(--xiangqi-red-cannon)}
+
+
+
+.xiangqi-red-chariot::before, .xiangqi-red-chariot-before::before{ content:var(--xiangqi-red-chariot)}
+.xiangqi-red-chariot-after::after{content:var(--xiangqi-red-chariot)}
+.xiangqi-red-chariot-both::after, .xiangqi-red-chariot-both::before {content:var(--xiangqi-red-chariot)}
+.xiangqi-red-chariot-list { list-style: var(--xiangqi-red-chariot)}
+
+
+
+.xiangqi-red-elephant::before, .xiangqi-red-elephant-before::before{ content:var(--xiangqi-red-elephant)}
+.xiangqi-red-elephant-after::after{content:var(--xiangqi-red-elephant)}
+.xiangqi-red-elephant-both::after, .xiangqi-red-elephant-both::before {content:var(--xiangqi-red-elephant)}
+.xiangqi-red-elephant-list { list-style: var(--xiangqi-red-elephant)}
+
+
+
+.xiangqi-red-general::before, .xiangqi-red-general-before::before{ content:var(--xiangqi-red-general)}
+.xiangqi-red-general-after::after{content:var(--xiangqi-red-general)}
+.xiangqi-red-general-both::after, .xiangqi-red-general-both::before {content:var(--xiangqi-red-general)}
+.xiangqi-red-general-list { list-style: var(--xiangqi-red-general)}
+
+
+
+.xiangqi-red-horse::before, .xiangqi-red-horse-before::before{ content:var(--xiangqi-red-horse)}
+.xiangqi-red-horse-after::after{content:var(--xiangqi-red-horse)}
+.xiangqi-red-horse-both::after, .xiangqi-red-horse-both::before {content:var(--xiangqi-red-horse)}
+.xiangqi-red-horse-list { list-style: var(--xiangqi-red-horse)}
+
+
+
+.xiangqi-red-mandarin::before, .xiangqi-red-mandarin-before::before{ content:var(--xiangqi-red-mandarin)}
+.xiangqi-red-mandarin-after::after{content:var(--xiangqi-red-mandarin)}
+.xiangqi-red-mandarin-both::after, .xiangqi-red-mandarin-both::before {content:var(--xiangqi-red-mandarin)}
+.xiangqi-red-mandarin-list { list-style: var(--xiangqi-red-mandarin)}
+
+
+
+.xiangqi-red-soldier::before, .xiangqi-red-soldier-before::before{ content:var(--xiangqi-red-soldier)}
+.xiangqi-red-soldier-after::after{content:var(--xiangqi-red-soldier)}
+.xiangqi-red-soldier-both::after, .xiangqi-red-soldier-both::before {content:var(--xiangqi-red-soldier)}
+.xiangqi-red-soldier-list { list-style: var(--xiangqi-red-soldier)}
+}

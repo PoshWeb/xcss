@@ -1,0 +1,804 @@
+@layer domino-tiles {
+:root {
+--domino-tile-horizontal-back:'\1F030';
+--domino-tile-horizontal-00-00:'\1F031';
+--domino-tile-horizontal-00-01:'\1F032';
+--domino-tile-horizontal-00-02:'\1F033';
+--domino-tile-horizontal-00-03:'\1F034';
+--domino-tile-horizontal-00-04:'\1F035';
+--domino-tile-horizontal-00-05:'\1F036';
+--domino-tile-horizontal-00-06:'\1F037';
+--domino-tile-horizontal-01-00:'\1F038';
+--domino-tile-horizontal-01-01:'\1F039';
+--domino-tile-horizontal-01-02:'\1F03A';
+--domino-tile-horizontal-01-03:'\1F03B';
+--domino-tile-horizontal-01-04:'\1F03C';
+--domino-tile-horizontal-01-05:'\1F03D';
+--domino-tile-horizontal-01-06:'\1F03E';
+--domino-tile-horizontal-02-00:'\1F03F';
+--domino-tile-horizontal-02-01:'\1F040';
+--domino-tile-horizontal-02-02:'\1F041';
+--domino-tile-horizontal-02-03:'\1F042';
+--domino-tile-horizontal-02-04:'\1F043';
+--domino-tile-horizontal-02-05:'\1F044';
+--domino-tile-horizontal-02-06:'\1F045';
+--domino-tile-horizontal-03-00:'\1F046';
+--domino-tile-horizontal-03-01:'\1F047';
+--domino-tile-horizontal-03-02:'\1F048';
+--domino-tile-horizontal-03-03:'\1F049';
+--domino-tile-horizontal-03-04:'\1F04A';
+--domino-tile-horizontal-03-05:'\1F04B';
+--domino-tile-horizontal-03-06:'\1F04C';
+--domino-tile-horizontal-04-00:'\1F04D';
+--domino-tile-horizontal-04-01:'\1F04E';
+--domino-tile-horizontal-04-02:'\1F04F';
+--domino-tile-horizontal-04-03:'\1F050';
+--domino-tile-horizontal-04-04:'\1F051';
+--domino-tile-horizontal-04-05:'\1F052';
+--domino-tile-horizontal-04-06:'\1F053';
+--domino-tile-horizontal-05-00:'\1F054';
+--domino-tile-horizontal-05-01:'\1F055';
+--domino-tile-horizontal-05-02:'\1F056';
+--domino-tile-horizontal-05-03:'\1F057';
+--domino-tile-horizontal-05-04:'\1F058';
+--domino-tile-horizontal-05-05:'\1F059';
+--domino-tile-horizontal-05-06:'\1F05A';
+--domino-tile-horizontal-06-00:'\1F05B';
+--domino-tile-horizontal-06-01:'\1F05C';
+--domino-tile-horizontal-06-02:'\1F05D';
+--domino-tile-horizontal-06-03:'\1F05E';
+--domino-tile-horizontal-06-04:'\1F05F';
+--domino-tile-horizontal-06-05:'\1F060';
+--domino-tile-horizontal-06-06:'\1F061';
+--domino-tile-vertical-back:'\1F062';
+--domino-tile-vertical-00-00:'\1F063';
+--domino-tile-vertical-00-01:'\1F064';
+--domino-tile-vertical-00-02:'\1F065';
+--domino-tile-vertical-00-03:'\1F066';
+--domino-tile-vertical-00-04:'\1F067';
+--domino-tile-vertical-00-05:'\1F068';
+--domino-tile-vertical-00-06:'\1F069';
+--domino-tile-vertical-01-00:'\1F06A';
+--domino-tile-vertical-01-01:'\1F06B';
+--domino-tile-vertical-01-02:'\1F06C';
+--domino-tile-vertical-01-03:'\1F06D';
+--domino-tile-vertical-01-04:'\1F06E';
+--domino-tile-vertical-01-05:'\1F06F';
+--domino-tile-vertical-01-06:'\1F070';
+--domino-tile-vertical-02-00:'\1F071';
+--domino-tile-vertical-02-01:'\1F072';
+--domino-tile-vertical-02-02:'\1F073';
+--domino-tile-vertical-02-03:'\1F074';
+--domino-tile-vertical-02-04:'\1F075';
+--domino-tile-vertical-02-05:'\1F076';
+--domino-tile-vertical-02-06:'\1F077';
+--domino-tile-vertical-03-00:'\1F078';
+--domino-tile-vertical-03-01:'\1F079';
+--domino-tile-vertical-03-02:'\1F07A';
+--domino-tile-vertical-03-03:'\1F07B';
+--domino-tile-vertical-03-04:'\1F07C';
+--domino-tile-vertical-03-05:'\1F07D';
+--domino-tile-vertical-03-06:'\1F07E';
+--domino-tile-vertical-04-00:'\1F07F';
+--domino-tile-vertical-04-01:'\1F080';
+--domino-tile-vertical-04-02:'\1F081';
+--domino-tile-vertical-04-03:'\1F082';
+--domino-tile-vertical-04-04:'\1F083';
+--domino-tile-vertical-04-05:'\1F084';
+--domino-tile-vertical-04-06:'\1F085';
+--domino-tile-vertical-05-00:'\1F086';
+--domino-tile-vertical-05-01:'\1F087';
+--domino-tile-vertical-05-02:'\1F088';
+--domino-tile-vertical-05-03:'\1F089';
+--domino-tile-vertical-05-04:'\1F08A';
+--domino-tile-vertical-05-05:'\1F08B';
+--domino-tile-vertical-05-06:'\1F08C';
+--domino-tile-vertical-06-00:'\1F08D';
+--domino-tile-vertical-06-01:'\1F08E';
+--domino-tile-vertical-06-02:'\1F08F';
+--domino-tile-vertical-06-03:'\1F090';
+--domino-tile-vertical-06-04:'\1F091';
+--domino-tile-vertical-06-05:'\1F092';
+--domino-tile-vertical-06-06:'\1F093';
+}
+
+
+
+.domino-tile-horizontal-back::before, .domino-tile-horizontal-back-before::before{ content:var(--domino-tile-horizontal-back)}
+.domino-tile-horizontal-back-after::after{content:var(--domino-tile-horizontal-back)}
+.domino-tile-horizontal-back-both::after, .domino-tile-horizontal-back-both::before {content:var(--domino-tile-horizontal-back)}
+.domino-tile-horizontal-back-list { list-style: var(--domino-tile-horizontal-back)}
+
+
+
+.domino-tile-horizontal-00-00::before, .domino-tile-horizontal-00-00-before::before{ content:var(--domino-tile-horizontal-00-00)}
+.domino-tile-horizontal-00-00-after::after{content:var(--domino-tile-horizontal-00-00)}
+.domino-tile-horizontal-00-00-both::after, .domino-tile-horizontal-00-00-both::before {content:var(--domino-tile-horizontal-00-00)}
+.domino-tile-horizontal-00-00-list { list-style: var(--domino-tile-horizontal-00-00)}
+
+
+
+.domino-tile-horizontal-00-01::before, .domino-tile-horizontal-00-01-before::before{ content:var(--domino-tile-horizontal-00-01)}
+.domino-tile-horizontal-00-01-after::after{content:var(--domino-tile-horizontal-00-01)}
+.domino-tile-horizontal-00-01-both::after, .domino-tile-horizontal-00-01-both::before {content:var(--domino-tile-horizontal-00-01)}
+.domino-tile-horizontal-00-01-list { list-style: var(--domino-tile-horizontal-00-01)}
+
+
+
+.domino-tile-horizontal-00-02::before, .domino-tile-horizontal-00-02-before::before{ content:var(--domino-tile-horizontal-00-02)}
+.domino-tile-horizontal-00-02-after::after{content:var(--domino-tile-horizontal-00-02)}
+.domino-tile-horizontal-00-02-both::after, .domino-tile-horizontal-00-02-both::before {content:var(--domino-tile-horizontal-00-02)}
+.domino-tile-horizontal-00-02-list { list-style: var(--domino-tile-horizontal-00-02)}
+
+
+
+.domino-tile-horizontal-00-03::before, .domino-tile-horizontal-00-03-before::before{ content:var(--domino-tile-horizontal-00-03)}
+.domino-tile-horizontal-00-03-after::after{content:var(--domino-tile-horizontal-00-03)}
+.domino-tile-horizontal-00-03-both::after, .domino-tile-horizontal-00-03-both::before {content:var(--domino-tile-horizontal-00-03)}
+.domino-tile-horizontal-00-03-list { list-style: var(--domino-tile-horizontal-00-03)}
+
+
+
+.domino-tile-horizontal-00-04::before, .domino-tile-horizontal-00-04-before::before{ content:var(--domino-tile-horizontal-00-04)}
+.domino-tile-horizontal-00-04-after::after{content:var(--domino-tile-horizontal-00-04)}
+.domino-tile-horizontal-00-04-both::after, .domino-tile-horizontal-00-04-both::before {content:var(--domino-tile-horizontal-00-04)}
+.domino-tile-horizontal-00-04-list { list-style: var(--domino-tile-horizontal-00-04)}
+
+
+
+.domino-tile-horizontal-00-05::before, .domino-tile-horizontal-00-05-before::before{ content:var(--domino-tile-horizontal-00-05)}
+.domino-tile-horizontal-00-05-after::after{content:var(--domino-tile-horizontal-00-05)}
+.domino-tile-horizontal-00-05-both::after, .domino-tile-horizontal-00-05-both::before {content:var(--domino-tile-horizontal-00-05)}
+.domino-tile-horizontal-00-05-list { list-style: var(--domino-tile-horizontal-00-05)}
+
+
+
+.domino-tile-horizontal-00-06::before, .domino-tile-horizontal-00-06-before::before{ content:var(--domino-tile-horizontal-00-06)}
+.domino-tile-horizontal-00-06-after::after{content:var(--domino-tile-horizontal-00-06)}
+.domino-tile-horizontal-00-06-both::after, .domino-tile-horizontal-00-06-both::before {content:var(--domino-tile-horizontal-00-06)}
+.domino-tile-horizontal-00-06-list { list-style: var(--domino-tile-horizontal-00-06)}
+
+
+
+.domino-tile-horizontal-01-00::before, .domino-tile-horizontal-01-00-before::before{ content:var(--domino-tile-horizontal-01-00)}
+.domino-tile-horizontal-01-00-after::after{content:var(--domino-tile-horizontal-01-00)}
+.domino-tile-horizontal-01-00-both::after, .domino-tile-horizontal-01-00-both::before {content:var(--domino-tile-horizontal-01-00)}
+.domino-tile-horizontal-01-00-list { list-style: var(--domino-tile-horizontal-01-00)}
+
+
+
+.domino-tile-horizontal-01-01::before, .domino-tile-horizontal-01-01-before::before{ content:var(--domino-tile-horizontal-01-01)}
+.domino-tile-horizontal-01-01-after::after{content:var(--domino-tile-horizontal-01-01)}
+.domino-tile-horizontal-01-01-both::after, .domino-tile-horizontal-01-01-both::before {content:var(--domino-tile-horizontal-01-01)}
+.domino-tile-horizontal-01-01-list { list-style: var(--domino-tile-horizontal-01-01)}
+
+
+
+.domino-tile-horizontal-01-02::before, .domino-tile-horizontal-01-02-before::before{ content:var(--domino-tile-horizontal-01-02)}
+.domino-tile-horizontal-01-02-after::after{content:var(--domino-tile-horizontal-01-02)}
+.domino-tile-horizontal-01-02-both::after, .domino-tile-horizontal-01-02-both::before {content:var(--domino-tile-horizontal-01-02)}
+.domino-tile-horizontal-01-02-list { list-style: var(--domino-tile-horizontal-01-02)}
+
+
+
+.domino-tile-horizontal-01-03::before, .domino-tile-horizontal-01-03-before::before{ content:var(--domino-tile-horizontal-01-03)}
+.domino-tile-horizontal-01-03-after::after{content:var(--domino-tile-horizontal-01-03)}
+.domino-tile-horizontal-01-03-both::after, .domino-tile-horizontal-01-03-both::before {content:var(--domino-tile-horizontal-01-03)}
+.domino-tile-horizontal-01-03-list { list-style: var(--domino-tile-horizontal-01-03)}
+
+
+
+.domino-tile-horizontal-01-04::before, .domino-tile-horizontal-01-04-before::before{ content:var(--domino-tile-horizontal-01-04)}
+.domino-tile-horizontal-01-04-after::after{content:var(--domino-tile-horizontal-01-04)}
+.domino-tile-horizontal-01-04-both::after, .domino-tile-horizontal-01-04-both::before {content:var(--domino-tile-horizontal-01-04)}
+.domino-tile-horizontal-01-04-list { list-style: var(--domino-tile-horizontal-01-04)}
+
+
+
+.domino-tile-horizontal-01-05::before, .domino-tile-horizontal-01-05-before::before{ content:var(--domino-tile-horizontal-01-05)}
+.domino-tile-horizontal-01-05-after::after{content:var(--domino-tile-horizontal-01-05)}
+.domino-tile-horizontal-01-05-both::after, .domino-tile-horizontal-01-05-both::before {content:var(--domino-tile-horizontal-01-05)}
+.domino-tile-horizontal-01-05-list { list-style: var(--domino-tile-horizontal-01-05)}
+
+
+
+.domino-tile-horizontal-01-06::before, .domino-tile-horizontal-01-06-before::before{ content:var(--domino-tile-horizontal-01-06)}
+.domino-tile-horizontal-01-06-after::after{content:var(--domino-tile-horizontal-01-06)}
+.domino-tile-horizontal-01-06-both::after, .domino-tile-horizontal-01-06-both::before {content:var(--domino-tile-horizontal-01-06)}
+.domino-tile-horizontal-01-06-list { list-style: var(--domino-tile-horizontal-01-06)}
+
+
+
+.domino-tile-horizontal-02-00::before, .domino-tile-horizontal-02-00-before::before{ content:var(--domino-tile-horizontal-02-00)}
+.domino-tile-horizontal-02-00-after::after{content:var(--domino-tile-horizontal-02-00)}
+.domino-tile-horizontal-02-00-both::after, .domino-tile-horizontal-02-00-both::before {content:var(--domino-tile-horizontal-02-00)}
+.domino-tile-horizontal-02-00-list { list-style: var(--domino-tile-horizontal-02-00)}
+
+
+
+.domino-tile-horizontal-02-01::before, .domino-tile-horizontal-02-01-before::before{ content:var(--domino-tile-horizontal-02-01)}
+.domino-tile-horizontal-02-01-after::after{content:var(--domino-tile-horizontal-02-01)}
+.domino-tile-horizontal-02-01-both::after, .domino-tile-horizontal-02-01-both::before {content:var(--domino-tile-horizontal-02-01)}
+.domino-tile-horizontal-02-01-list { list-style: var(--domino-tile-horizontal-02-01)}
+
+
+
+.domino-tile-horizontal-02-02::before, .domino-tile-horizontal-02-02-before::before{ content:var(--domino-tile-horizontal-02-02)}
+.domino-tile-horizontal-02-02-after::after{content:var(--domino-tile-horizontal-02-02)}
+.domino-tile-horizontal-02-02-both::after, .domino-tile-horizontal-02-02-both::before {content:var(--domino-tile-horizontal-02-02)}
+.domino-tile-horizontal-02-02-list { list-style: var(--domino-tile-horizontal-02-02)}
+
+
+
+.domino-tile-horizontal-02-03::before, .domino-tile-horizontal-02-03-before::before{ content:var(--domino-tile-horizontal-02-03)}
+.domino-tile-horizontal-02-03-after::after{content:var(--domino-tile-horizontal-02-03)}
+.domino-tile-horizontal-02-03-both::after, .domino-tile-horizontal-02-03-both::before {content:var(--domino-tile-horizontal-02-03)}
+.domino-tile-horizontal-02-03-list { list-style: var(--domino-tile-horizontal-02-03)}
+
+
+
+.domino-tile-horizontal-02-04::before, .domino-tile-horizontal-02-04-before::before{ content:var(--domino-tile-horizontal-02-04)}
+.domino-tile-horizontal-02-04-after::after{content:var(--domino-tile-horizontal-02-04)}
+.domino-tile-horizontal-02-04-both::after, .domino-tile-horizontal-02-04-both::before {content:var(--domino-tile-horizontal-02-04)}
+.domino-tile-horizontal-02-04-list { list-style: var(--domino-tile-horizontal-02-04)}
+
+
+
+.domino-tile-horizontal-02-05::before, .domino-tile-horizontal-02-05-before::before{ content:var(--domino-tile-horizontal-02-05)}
+.domino-tile-horizontal-02-05-after::after{content:var(--domino-tile-horizontal-02-05)}
+.domino-tile-horizontal-02-05-both::after, .domino-tile-horizontal-02-05-both::before {content:var(--domino-tile-horizontal-02-05)}
+.domino-tile-horizontal-02-05-list { list-style: var(--domino-tile-horizontal-02-05)}
+
+
+
+.domino-tile-horizontal-02-06::before, .domino-tile-horizontal-02-06-before::before{ content:var(--domino-tile-horizontal-02-06)}
+.domino-tile-horizontal-02-06-after::after{content:var(--domino-tile-horizontal-02-06)}
+.domino-tile-horizontal-02-06-both::after, .domino-tile-horizontal-02-06-both::before {content:var(--domino-tile-horizontal-02-06)}
+.domino-tile-horizontal-02-06-list { list-style: var(--domino-tile-horizontal-02-06)}
+
+
+
+.domino-tile-horizontal-03-00::before, .domino-tile-horizontal-03-00-before::before{ content:var(--domino-tile-horizontal-03-00)}
+.domino-tile-horizontal-03-00-after::after{content:var(--domino-tile-horizontal-03-00)}
+.domino-tile-horizontal-03-00-both::after, .domino-tile-horizontal-03-00-both::before {content:var(--domino-tile-horizontal-03-00)}
+.domino-tile-horizontal-03-00-list { list-style: var(--domino-tile-horizontal-03-00)}
+
+
+
+.domino-tile-horizontal-03-01::before, .domino-tile-horizontal-03-01-before::before{ content:var(--domino-tile-horizontal-03-01)}
+.domino-tile-horizontal-03-01-after::after{content:var(--domino-tile-horizontal-03-01)}
+.domino-tile-horizontal-03-01-both::after, .domino-tile-horizontal-03-01-both::before {content:var(--domino-tile-horizontal-03-01)}
+.domino-tile-horizontal-03-01-list { list-style: var(--domino-tile-horizontal-03-01)}
+
+
+
+.domino-tile-horizontal-03-02::before, .domino-tile-horizontal-03-02-before::before{ content:var(--domino-tile-horizontal-03-02)}
+.domino-tile-horizontal-03-02-after::after{content:var(--domino-tile-horizontal-03-02)}
+.domino-tile-horizontal-03-02-both::after, .domino-tile-horizontal-03-02-both::before {content:var(--domino-tile-horizontal-03-02)}
+.domino-tile-horizontal-03-02-list { list-style: var(--domino-tile-horizontal-03-02)}
+
+
+
+.domino-tile-horizontal-03-03::before, .domino-tile-horizontal-03-03-before::before{ content:var(--domino-tile-horizontal-03-03)}
+.domino-tile-horizontal-03-03-after::after{content:var(--domino-tile-horizontal-03-03)}
+.domino-tile-horizontal-03-03-both::after, .domino-tile-horizontal-03-03-both::before {content:var(--domino-tile-horizontal-03-03)}
+.domino-tile-horizontal-03-03-list { list-style: var(--domino-tile-horizontal-03-03)}
+
+
+
+.domino-tile-horizontal-03-04::before, .domino-tile-horizontal-03-04-before::before{ content:var(--domino-tile-horizontal-03-04)}
+.domino-tile-horizontal-03-04-after::after{content:var(--domino-tile-horizontal-03-04)}
+.domino-tile-horizontal-03-04-both::after, .domino-tile-horizontal-03-04-both::before {content:var(--domino-tile-horizontal-03-04)}
+.domino-tile-horizontal-03-04-list { list-style: var(--domino-tile-horizontal-03-04)}
+
+
+
+.domino-tile-horizontal-03-05::before, .domino-tile-horizontal-03-05-before::before{ content:var(--domino-tile-horizontal-03-05)}
+.domino-tile-horizontal-03-05-after::after{content:var(--domino-tile-horizontal-03-05)}
+.domino-tile-horizontal-03-05-both::after, .domino-tile-horizontal-03-05-both::before {content:var(--domino-tile-horizontal-03-05)}
+.domino-tile-horizontal-03-05-list { list-style: var(--domino-tile-horizontal-03-05)}
+
+
+
+.domino-tile-horizontal-03-06::before, .domino-tile-horizontal-03-06-before::before{ content:var(--domino-tile-horizontal-03-06)}
+.domino-tile-horizontal-03-06-after::after{content:var(--domino-tile-horizontal-03-06)}
+.domino-tile-horizontal-03-06-both::after, .domino-tile-horizontal-03-06-both::before {content:var(--domino-tile-horizontal-03-06)}
+.domino-tile-horizontal-03-06-list { list-style: var(--domino-tile-horizontal-03-06)}
+
+
+
+.domino-tile-horizontal-04-00::before, .domino-tile-horizontal-04-00-before::before{ content:var(--domino-tile-horizontal-04-00)}
+.domino-tile-horizontal-04-00-after::after{content:var(--domino-tile-horizontal-04-00)}
+.domino-tile-horizontal-04-00-both::after, .domino-tile-horizontal-04-00-both::before {content:var(--domino-tile-horizontal-04-00)}
+.domino-tile-horizontal-04-00-list { list-style: var(--domino-tile-horizontal-04-00)}
+
+
+
+.domino-tile-horizontal-04-01::before, .domino-tile-horizontal-04-01-before::before{ content:var(--domino-tile-horizontal-04-01)}
+.domino-tile-horizontal-04-01-after::after{content:var(--domino-tile-horizontal-04-01)}
+.domino-tile-horizontal-04-01-both::after, .domino-tile-horizontal-04-01-both::before {content:var(--domino-tile-horizontal-04-01)}
+.domino-tile-horizontal-04-01-list { list-style: var(--domino-tile-horizontal-04-01)}
+
+
+
+.domino-tile-horizontal-04-02::before, .domino-tile-horizontal-04-02-before::before{ content:var(--domino-tile-horizontal-04-02)}
+.domino-tile-horizontal-04-02-after::after{content:var(--domino-tile-horizontal-04-02)}
+.domino-tile-horizontal-04-02-both::after, .domino-tile-horizontal-04-02-both::before {content:var(--domino-tile-horizontal-04-02)}
+.domino-tile-horizontal-04-02-list { list-style: var(--domino-tile-horizontal-04-02)}
+
+
+
+.domino-tile-horizontal-04-03::before, .domino-tile-horizontal-04-03-before::before{ content:var(--domino-tile-horizontal-04-03)}
+.domino-tile-horizontal-04-03-after::after{content:var(--domino-tile-horizontal-04-03)}
+.domino-tile-horizontal-04-03-both::after, .domino-tile-horizontal-04-03-both::before {content:var(--domino-tile-horizontal-04-03)}
+.domino-tile-horizontal-04-03-list { list-style: var(--domino-tile-horizontal-04-03)}
+
+
+
+.domino-tile-horizontal-04-04::before, .domino-tile-horizontal-04-04-before::before{ content:var(--domino-tile-horizontal-04-04)}
+.domino-tile-horizontal-04-04-after::after{content:var(--domino-tile-horizontal-04-04)}
+.domino-tile-horizontal-04-04-both::after, .domino-tile-horizontal-04-04-both::before {content:var(--domino-tile-horizontal-04-04)}
+.domino-tile-horizontal-04-04-list { list-style: var(--domino-tile-horizontal-04-04)}
+
+
+
+.domino-tile-horizontal-04-05::before, .domino-tile-horizontal-04-05-before::before{ content:var(--domino-tile-horizontal-04-05)}
+.domino-tile-horizontal-04-05-after::after{content:var(--domino-tile-horizontal-04-05)}
+.domino-tile-horizontal-04-05-both::after, .domino-tile-horizontal-04-05-both::before {content:var(--domino-tile-horizontal-04-05)}
+.domino-tile-horizontal-04-05-list { list-style: var(--domino-tile-horizontal-04-05)}
+
+
+
+.domino-tile-horizontal-04-06::before, .domino-tile-horizontal-04-06-before::before{ content:var(--domino-tile-horizontal-04-06)}
+.domino-tile-horizontal-04-06-after::after{content:var(--domino-tile-horizontal-04-06)}
+.domino-tile-horizontal-04-06-both::after, .domino-tile-horizontal-04-06-both::before {content:var(--domino-tile-horizontal-04-06)}
+.domino-tile-horizontal-04-06-list { list-style: var(--domino-tile-horizontal-04-06)}
+
+
+
+.domino-tile-horizontal-05-00::before, .domino-tile-horizontal-05-00-before::before{ content:var(--domino-tile-horizontal-05-00)}
+.domino-tile-horizontal-05-00-after::after{content:var(--domino-tile-horizontal-05-00)}
+.domino-tile-horizontal-05-00-both::after, .domino-tile-horizontal-05-00-both::before {content:var(--domino-tile-horizontal-05-00)}
+.domino-tile-horizontal-05-00-list { list-style: var(--domino-tile-horizontal-05-00)}
+
+
+
+.domino-tile-horizontal-05-01::before, .domino-tile-horizontal-05-01-before::before{ content:var(--domino-tile-horizontal-05-01)}
+.domino-tile-horizontal-05-01-after::after{content:var(--domino-tile-horizontal-05-01)}
+.domino-tile-horizontal-05-01-both::after, .domino-tile-horizontal-05-01-both::before {content:var(--domino-tile-horizontal-05-01)}
+.domino-tile-horizontal-05-01-list { list-style: var(--domino-tile-horizontal-05-01)}
+
+
+
+.domino-tile-horizontal-05-02::before, .domino-tile-horizontal-05-02-before::before{ content:var(--domino-tile-horizontal-05-02)}
+.domino-tile-horizontal-05-02-after::after{content:var(--domino-tile-horizontal-05-02)}
+.domino-tile-horizontal-05-02-both::after, .domino-tile-horizontal-05-02-both::before {content:var(--domino-tile-horizontal-05-02)}
+.domino-tile-horizontal-05-02-list { list-style: var(--domino-tile-horizontal-05-02)}
+
+
+
+.domino-tile-horizontal-05-03::before, .domino-tile-horizontal-05-03-before::before{ content:var(--domino-tile-horizontal-05-03)}
+.domino-tile-horizontal-05-03-after::after{content:var(--domino-tile-horizontal-05-03)}
+.domino-tile-horizontal-05-03-both::after, .domino-tile-horizontal-05-03-both::before {content:var(--domino-tile-horizontal-05-03)}
+.domino-tile-horizontal-05-03-list { list-style: var(--domino-tile-horizontal-05-03)}
+
+
+
+.domino-tile-horizontal-05-04::before, .domino-tile-horizontal-05-04-before::before{ content:var(--domino-tile-horizontal-05-04)}
+.domino-tile-horizontal-05-04-after::after{content:var(--domino-tile-horizontal-05-04)}
+.domino-tile-horizontal-05-04-both::after, .domino-tile-horizontal-05-04-both::before {content:var(--domino-tile-horizontal-05-04)}
+.domino-tile-horizontal-05-04-list { list-style: var(--domino-tile-horizontal-05-04)}
+
+
+
+.domino-tile-horizontal-05-05::before, .domino-tile-horizontal-05-05-before::before{ content:var(--domino-tile-horizontal-05-05)}
+.domino-tile-horizontal-05-05-after::after{content:var(--domino-tile-horizontal-05-05)}
+.domino-tile-horizontal-05-05-both::after, .domino-tile-horizontal-05-05-both::before {content:var(--domino-tile-horizontal-05-05)}
+.domino-tile-horizontal-05-05-list { list-style: var(--domino-tile-horizontal-05-05)}
+
+
+
+.domino-tile-horizontal-05-06::before, .domino-tile-horizontal-05-06-before::before{ content:var(--domino-tile-horizontal-05-06)}
+.domino-tile-horizontal-05-06-after::after{content:var(--domino-tile-horizontal-05-06)}
+.domino-tile-horizontal-05-06-both::after, .domino-tile-horizontal-05-06-both::before {content:var(--domino-tile-horizontal-05-06)}
+.domino-tile-horizontal-05-06-list { list-style: var(--domino-tile-horizontal-05-06)}
+
+
+
+.domino-tile-horizontal-06-00::before, .domino-tile-horizontal-06-00-before::before{ content:var(--domino-tile-horizontal-06-00)}
+.domino-tile-horizontal-06-00-after::after{content:var(--domino-tile-horizontal-06-00)}
+.domino-tile-horizontal-06-00-both::after, .domino-tile-horizontal-06-00-both::before {content:var(--domino-tile-horizontal-06-00)}
+.domino-tile-horizontal-06-00-list { list-style: var(--domino-tile-horizontal-06-00)}
+
+
+
+.domino-tile-horizontal-06-01::before, .domino-tile-horizontal-06-01-before::before{ content:var(--domino-tile-horizontal-06-01)}
+.domino-tile-horizontal-06-01-after::after{content:var(--domino-tile-horizontal-06-01)}
+.domino-tile-horizontal-06-01-both::after, .domino-tile-horizontal-06-01-both::before {content:var(--domino-tile-horizontal-06-01)}
+.domino-tile-horizontal-06-01-list { list-style: var(--domino-tile-horizontal-06-01)}
+
+
+
+.domino-tile-horizontal-06-02::before, .domino-tile-horizontal-06-02-before::before{ content:var(--domino-tile-horizontal-06-02)}
+.domino-tile-horizontal-06-02-after::after{content:var(--domino-tile-horizontal-06-02)}
+.domino-tile-horizontal-06-02-both::after, .domino-tile-horizontal-06-02-both::before {content:var(--domino-tile-horizontal-06-02)}
+.domino-tile-horizontal-06-02-list { list-style: var(--domino-tile-horizontal-06-02)}
+
+
+
+.domino-tile-horizontal-06-03::before, .domino-tile-horizontal-06-03-before::before{ content:var(--domino-tile-horizontal-06-03)}
+.domino-tile-horizontal-06-03-after::after{content:var(--domino-tile-horizontal-06-03)}
+.domino-tile-horizontal-06-03-both::after, .domino-tile-horizontal-06-03-both::before {content:var(--domino-tile-horizontal-06-03)}
+.domino-tile-horizontal-06-03-list { list-style: var(--domino-tile-horizontal-06-03)}
+
+
+
+.domino-tile-horizontal-06-04::before, .domino-tile-horizontal-06-04-before::before{ content:var(--domino-tile-horizontal-06-04)}
+.domino-tile-horizontal-06-04-after::after{content:var(--domino-tile-horizontal-06-04)}
+.domino-tile-horizontal-06-04-both::after, .domino-tile-horizontal-06-04-both::before {content:var(--domino-tile-horizontal-06-04)}
+.domino-tile-horizontal-06-04-list { list-style: var(--domino-tile-horizontal-06-04)}
+
+
+
+.domino-tile-horizontal-06-05::before, .domino-tile-horizontal-06-05-before::before{ content:var(--domino-tile-horizontal-06-05)}
+.domino-tile-horizontal-06-05-after::after{content:var(--domino-tile-horizontal-06-05)}
+.domino-tile-horizontal-06-05-both::after, .domino-tile-horizontal-06-05-both::before {content:var(--domino-tile-horizontal-06-05)}
+.domino-tile-horizontal-06-05-list { list-style: var(--domino-tile-horizontal-06-05)}
+
+
+
+.domino-tile-horizontal-06-06::before, .domino-tile-horizontal-06-06-before::before{ content:var(--domino-tile-horizontal-06-06)}
+.domino-tile-horizontal-06-06-after::after{content:var(--domino-tile-horizontal-06-06)}
+.domino-tile-horizontal-06-06-both::after, .domino-tile-horizontal-06-06-both::before {content:var(--domino-tile-horizontal-06-06)}
+.domino-tile-horizontal-06-06-list { list-style: var(--domino-tile-horizontal-06-06)}
+
+
+
+.domino-tile-vertical-back::before, .domino-tile-vertical-back-before::before{ content:var(--domino-tile-vertical-back)}
+.domino-tile-vertical-back-after::after{content:var(--domino-tile-vertical-back)}
+.domino-tile-vertical-back-both::after, .domino-tile-vertical-back-both::before {content:var(--domino-tile-vertical-back)}
+.domino-tile-vertical-back-list { list-style: var(--domino-tile-vertical-back)}
+
+
+
+.domino-tile-vertical-00-00::before, .domino-tile-vertical-00-00-before::before{ content:var(--domino-tile-vertical-00-00)}
+.domino-tile-vertical-00-00-after::after{content:var(--domino-tile-vertical-00-00)}
+.domino-tile-vertical-00-00-both::after, .domino-tile-vertical-00-00-both::before {content:var(--domino-tile-vertical-00-00)}
+.domino-tile-vertical-00-00-list { list-style: var(--domino-tile-vertical-00-00)}
+
+
+
+.domino-tile-vertical-00-01::before, .domino-tile-vertical-00-01-before::before{ content:var(--domino-tile-vertical-00-01)}
+.domino-tile-vertical-00-01-after::after{content:var(--domino-tile-vertical-00-01)}
+.domino-tile-vertical-00-01-both::after, .domino-tile-vertical-00-01-both::before {content:var(--domino-tile-vertical-00-01)}
+.domino-tile-vertical-00-01-list { list-style: var(--domino-tile-vertical-00-01)}
+
+
+
+.domino-tile-vertical-00-02::before, .domino-tile-vertical-00-02-before::before{ content:var(--domino-tile-vertical-00-02)}
+.domino-tile-vertical-00-02-after::after{content:var(--domino-tile-vertical-00-02)}
+.domino-tile-vertical-00-02-both::after, .domino-tile-vertical-00-02-both::before {content:var(--domino-tile-vertical-00-02)}
+.domino-tile-vertical-00-02-list { list-style: var(--domino-tile-vertical-00-02)}
+
+
+
+.domino-tile-vertical-00-03::before, .domino-tile-vertical-00-03-before::before{ content:var(--domino-tile-vertical-00-03)}
+.domino-tile-vertical-00-03-after::after{content:var(--domino-tile-vertical-00-03)}
+.domino-tile-vertical-00-03-both::after, .domino-tile-vertical-00-03-both::before {content:var(--domino-tile-vertical-00-03)}
+.domino-tile-vertical-00-03-list { list-style: var(--domino-tile-vertical-00-03)}
+
+
+
+.domino-tile-vertical-00-04::before, .domino-tile-vertical-00-04-before::before{ content:var(--domino-tile-vertical-00-04)}
+.domino-tile-vertical-00-04-after::after{content:var(--domino-tile-vertical-00-04)}
+.domino-tile-vertical-00-04-both::after, .domino-tile-vertical-00-04-both::before {content:var(--domino-tile-vertical-00-04)}
+.domino-tile-vertical-00-04-list { list-style: var(--domino-tile-vertical-00-04)}
+
+
+
+.domino-tile-vertical-00-05::before, .domino-tile-vertical-00-05-before::before{ content:var(--domino-tile-vertical-00-05)}
+.domino-tile-vertical-00-05-after::after{content:var(--domino-tile-vertical-00-05)}
+.domino-tile-vertical-00-05-both::after, .domino-tile-vertical-00-05-both::before {content:var(--domino-tile-vertical-00-05)}
+.domino-tile-vertical-00-05-list { list-style: var(--domino-tile-vertical-00-05)}
+
+
+
+.domino-tile-vertical-00-06::before, .domino-tile-vertical-00-06-before::before{ content:var(--domino-tile-vertical-00-06)}
+.domino-tile-vertical-00-06-after::after{content:var(--domino-tile-vertical-00-06)}
+.domino-tile-vertical-00-06-both::after, .domino-tile-vertical-00-06-both::before {content:var(--domino-tile-vertical-00-06)}
+.domino-tile-vertical-00-06-list { list-style: var(--domino-tile-vertical-00-06)}
+
+
+
+.domino-tile-vertical-01-00::before, .domino-tile-vertical-01-00-before::before{ content:var(--domino-tile-vertical-01-00)}
+.domino-tile-vertical-01-00-after::after{content:var(--domino-tile-vertical-01-00)}
+.domino-tile-vertical-01-00-both::after, .domino-tile-vertical-01-00-both::before {content:var(--domino-tile-vertical-01-00)}
+.domino-tile-vertical-01-00-list { list-style: var(--domino-tile-vertical-01-00)}
+
+
+
+.domino-tile-vertical-01-01::before, .domino-tile-vertical-01-01-before::before{ content:var(--domino-tile-vertical-01-01)}
+.domino-tile-vertical-01-01-after::after{content:var(--domino-tile-vertical-01-01)}
+.domino-tile-vertical-01-01-both::after, .domino-tile-vertical-01-01-both::before {content:var(--domino-tile-vertical-01-01)}
+.domino-tile-vertical-01-01-list { list-style: var(--domino-tile-vertical-01-01)}
+
+
+
+.domino-tile-vertical-01-02::before, .domino-tile-vertical-01-02-before::before{ content:var(--domino-tile-vertical-01-02)}
+.domino-tile-vertical-01-02-after::after{content:var(--domino-tile-vertical-01-02)}
+.domino-tile-vertical-01-02-both::after, .domino-tile-vertical-01-02-both::before {content:var(--domino-tile-vertical-01-02)}
+.domino-tile-vertical-01-02-list { list-style: var(--domino-tile-vertical-01-02)}
+
+
+
+.domino-tile-vertical-01-03::before, .domino-tile-vertical-01-03-before::before{ content:var(--domino-tile-vertical-01-03)}
+.domino-tile-vertical-01-03-after::after{content:var(--domino-tile-vertical-01-03)}
+.domino-tile-vertical-01-03-both::after, .domino-tile-vertical-01-03-both::before {content:var(--domino-tile-vertical-01-03)}
+.domino-tile-vertical-01-03-list { list-style: var(--domino-tile-vertical-01-03)}
+
+
+
+.domino-tile-vertical-01-04::before, .domino-tile-vertical-01-04-before::before{ content:var(--domino-tile-vertical-01-04)}
+.domino-tile-vertical-01-04-after::after{content:var(--domino-tile-vertical-01-04)}
+.domino-tile-vertical-01-04-both::after, .domino-tile-vertical-01-04-both::before {content:var(--domino-tile-vertical-01-04)}
+.domino-tile-vertical-01-04-list { list-style: var(--domino-tile-vertical-01-04)}
+
+
+
+.domino-tile-vertical-01-05::before, .domino-tile-vertical-01-05-before::before{ content:var(--domino-tile-vertical-01-05)}
+.domino-tile-vertical-01-05-after::after{content:var(--domino-tile-vertical-01-05)}
+.domino-tile-vertical-01-05-both::after, .domino-tile-vertical-01-05-both::before {content:var(--domino-tile-vertical-01-05)}
+.domino-tile-vertical-01-05-list { list-style: var(--domino-tile-vertical-01-05)}
+
+
+
+.domino-tile-vertical-01-06::before, .domino-tile-vertical-01-06-before::before{ content:var(--domino-tile-vertical-01-06)}
+.domino-tile-vertical-01-06-after::after{content:var(--domino-tile-vertical-01-06)}
+.domino-tile-vertical-01-06-both::after, .domino-tile-vertical-01-06-both::before {content:var(--domino-tile-vertical-01-06)}
+.domino-tile-vertical-01-06-list { list-style: var(--domino-tile-vertical-01-06)}
+
+
+
+.domino-tile-vertical-02-00::before, .domino-tile-vertical-02-00-before::before{ content:var(--domino-tile-vertical-02-00)}
+.domino-tile-vertical-02-00-after::after{content:var(--domino-tile-vertical-02-00)}
+.domino-tile-vertical-02-00-both::after, .domino-tile-vertical-02-00-both::before {content:var(--domino-tile-vertical-02-00)}
+.domino-tile-vertical-02-00-list { list-style: var(--domino-tile-vertical-02-00)}
+
+
+
+.domino-tile-vertical-02-01::before, .domino-tile-vertical-02-01-before::before{ content:var(--domino-tile-vertical-02-01)}
+.domino-tile-vertical-02-01-after::after{content:var(--domino-tile-vertical-02-01)}
+.domino-tile-vertical-02-01-both::after, .domino-tile-vertical-02-01-both::before {content:var(--domino-tile-vertical-02-01)}
+.domino-tile-vertical-02-01-list { list-style: var(--domino-tile-vertical-02-01)}
+
+
+
+.domino-tile-vertical-02-02::before, .domino-tile-vertical-02-02-before::before{ content:var(--domino-tile-vertical-02-02)}
+.domino-tile-vertical-02-02-after::after{content:var(--domino-tile-vertical-02-02)}
+.domino-tile-vertical-02-02-both::after, .domino-tile-vertical-02-02-both::before {content:var(--domino-tile-vertical-02-02)}
+.domino-tile-vertical-02-02-list { list-style: var(--domino-tile-vertical-02-02)}
+
+
+
+.domino-tile-vertical-02-03::before, .domino-tile-vertical-02-03-before::before{ content:var(--domino-tile-vertical-02-03)}
+.domino-tile-vertical-02-03-after::after{content:var(--domino-tile-vertical-02-03)}
+.domino-tile-vertical-02-03-both::after, .domino-tile-vertical-02-03-both::before {content:var(--domino-tile-vertical-02-03)}
+.domino-tile-vertical-02-03-list { list-style: var(--domino-tile-vertical-02-03)}
+
+
+
+.domino-tile-vertical-02-04::before, .domino-tile-vertical-02-04-before::before{ content:var(--domino-tile-vertical-02-04)}
+.domino-tile-vertical-02-04-after::after{content:var(--domino-tile-vertical-02-04)}
+.domino-tile-vertical-02-04-both::after, .domino-tile-vertical-02-04-both::before {content:var(--domino-tile-vertical-02-04)}
+.domino-tile-vertical-02-04-list { list-style: var(--domino-tile-vertical-02-04)}
+
+
+
+.domino-tile-vertical-02-05::before, .domino-tile-vertical-02-05-before::before{ content:var(--domino-tile-vertical-02-05)}
+.domino-tile-vertical-02-05-after::after{content:var(--domino-tile-vertical-02-05)}
+.domino-tile-vertical-02-05-both::after, .domino-tile-vertical-02-05-both::before {content:var(--domino-tile-vertical-02-05)}
+.domino-tile-vertical-02-05-list { list-style: var(--domino-tile-vertical-02-05)}
+
+
+
+.domino-tile-vertical-02-06::before, .domino-tile-vertical-02-06-before::before{ content:var(--domino-tile-vertical-02-06)}
+.domino-tile-vertical-02-06-after::after{content:var(--domino-tile-vertical-02-06)}
+.domino-tile-vertical-02-06-both::after, .domino-tile-vertical-02-06-both::before {content:var(--domino-tile-vertical-02-06)}
+.domino-tile-vertical-02-06-list { list-style: var(--domino-tile-vertical-02-06)}
+
+
+
+.domino-tile-vertical-03-00::before, .domino-tile-vertical-03-00-before::before{ content:var(--domino-tile-vertical-03-00)}
+.domino-tile-vertical-03-00-after::after{content:var(--domino-tile-vertical-03-00)}
+.domino-tile-vertical-03-00-both::after, .domino-tile-vertical-03-00-both::before {content:var(--domino-tile-vertical-03-00)}
+.domino-tile-vertical-03-00-list { list-style: var(--domino-tile-vertical-03-00)}
+
+
+
+.domino-tile-vertical-03-01::before, .domino-tile-vertical-03-01-before::before{ content:var(--domino-tile-vertical-03-01)}
+.domino-tile-vertical-03-01-after::after{content:var(--domino-tile-vertical-03-01)}
+.domino-tile-vertical-03-01-both::after, .domino-tile-vertical-03-01-both::before {content:var(--domino-tile-vertical-03-01)}
+.domino-tile-vertical-03-01-list { list-style: var(--domino-tile-vertical-03-01)}
+
+
+
+.domino-tile-vertical-03-02::before, .domino-tile-vertical-03-02-before::before{ content:var(--domino-tile-vertical-03-02)}
+.domino-tile-vertical-03-02-after::after{content:var(--domino-tile-vertical-03-02)}
+.domino-tile-vertical-03-02-both::after, .domino-tile-vertical-03-02-both::before {content:var(--domino-tile-vertical-03-02)}
+.domino-tile-vertical-03-02-list { list-style: var(--domino-tile-vertical-03-02)}
+
+
+
+.domino-tile-vertical-03-03::before, .domino-tile-vertical-03-03-before::before{ content:var(--domino-tile-vertical-03-03)}
+.domino-tile-vertical-03-03-after::after{content:var(--domino-tile-vertical-03-03)}
+.domino-tile-vertical-03-03-both::after, .domino-tile-vertical-03-03-both::before {content:var(--domino-tile-vertical-03-03)}
+.domino-tile-vertical-03-03-list { list-style: var(--domino-tile-vertical-03-03)}
+
+
+
+.domino-tile-vertical-03-04::before, .domino-tile-vertical-03-04-before::before{ content:var(--domino-tile-vertical-03-04)}
+.domino-tile-vertical-03-04-after::after{content:var(--domino-tile-vertical-03-04)}
+.domino-tile-vertical-03-04-both::after, .domino-tile-vertical-03-04-both::before {content:var(--domino-tile-vertical-03-04)}
+.domino-tile-vertical-03-04-list { list-style: var(--domino-tile-vertical-03-04)}
+
+
+
+.domino-tile-vertical-03-05::before, .domino-tile-vertical-03-05-before::before{ content:var(--domino-tile-vertical-03-05)}
+.domino-tile-vertical-03-05-after::after{content:var(--domino-tile-vertical-03-05)}
+.domino-tile-vertical-03-05-both::after, .domino-tile-vertical-03-05-both::before {content:var(--domino-tile-vertical-03-05)}
+.domino-tile-vertical-03-05-list { list-style: var(--domino-tile-vertical-03-05)}
+
+
+
+.domino-tile-vertical-03-06::before, .domino-tile-vertical-03-06-before::before{ content:var(--domino-tile-vertical-03-06)}
+.domino-tile-vertical-03-06-after::after{content:var(--domino-tile-vertical-03-06)}
+.domino-tile-vertical-03-06-both::after, .domino-tile-vertical-03-06-both::before {content:var(--domino-tile-vertical-03-06)}
+.domino-tile-vertical-03-06-list { list-style: var(--domino-tile-vertical-03-06)}
+
+
+
+.domino-tile-vertical-04-00::before, .domino-tile-vertical-04-00-before::before{ content:var(--domino-tile-vertical-04-00)}
+.domino-tile-vertical-04-00-after::after{content:var(--domino-tile-vertical-04-00)}
+.domino-tile-vertical-04-00-both::after, .domino-tile-vertical-04-00-both::before {content:var(--domino-tile-vertical-04-00)}
+.domino-tile-vertical-04-00-list { list-style: var(--domino-tile-vertical-04-00)}
+
+
+
+.domino-tile-vertical-04-01::before, .domino-tile-vertical-04-01-before::before{ content:var(--domino-tile-vertical-04-01)}
+.domino-tile-vertical-04-01-after::after{content:var(--domino-tile-vertical-04-01)}
+.domino-tile-vertical-04-01-both::after, .domino-tile-vertical-04-01-both::before {content:var(--domino-tile-vertical-04-01)}
+.domino-tile-vertical-04-01-list { list-style: var(--domino-tile-vertical-04-01)}
+
+
+
+.domino-tile-vertical-04-02::before, .domino-tile-vertical-04-02-before::before{ content:var(--domino-tile-vertical-04-02)}
+.domino-tile-vertical-04-02-after::after{content:var(--domino-tile-vertical-04-02)}
+.domino-tile-vertical-04-02-both::after, .domino-tile-vertical-04-02-both::before {content:var(--domino-tile-vertical-04-02)}
+.domino-tile-vertical-04-02-list { list-style: var(--domino-tile-vertical-04-02)}
+
+
+
+.domino-tile-vertical-04-03::before, .domino-tile-vertical-04-03-before::before{ content:var(--domino-tile-vertical-04-03)}
+.domino-tile-vertical-04-03-after::after{content:var(--domino-tile-vertical-04-03)}
+.domino-tile-vertical-04-03-both::after, .domino-tile-vertical-04-03-both::before {content:var(--domino-tile-vertical-04-03)}
+.domino-tile-vertical-04-03-list { list-style: var(--domino-tile-vertical-04-03)}
+
+
+
+.domino-tile-vertical-04-04::before, .domino-tile-vertical-04-04-before::before{ content:var(--domino-tile-vertical-04-04)}
+.domino-tile-vertical-04-04-after::after{content:var(--domino-tile-vertical-04-04)}
+.domino-tile-vertical-04-04-both::after, .domino-tile-vertical-04-04-both::before {content:var(--domino-tile-vertical-04-04)}
+.domino-tile-vertical-04-04-list { list-style: var(--domino-tile-vertical-04-04)}
+
+
+
+.domino-tile-vertical-04-05::before, .domino-tile-vertical-04-05-before::before{ content:var(--domino-tile-vertical-04-05)}
+.domino-tile-vertical-04-05-after::after{content:var(--domino-tile-vertical-04-05)}
+.domino-tile-vertical-04-05-both::after, .domino-tile-vertical-04-05-both::before {content:var(--domino-tile-vertical-04-05)}
+.domino-tile-vertical-04-05-list { list-style: var(--domino-tile-vertical-04-05)}
+
+
+
+.domino-tile-vertical-04-06::before, .domino-tile-vertical-04-06-before::before{ content:var(--domino-tile-vertical-04-06)}
+.domino-tile-vertical-04-06-after::after{content:var(--domino-tile-vertical-04-06)}
+.domino-tile-vertical-04-06-both::after, .domino-tile-vertical-04-06-both::before {content:var(--domino-tile-vertical-04-06)}
+.domino-tile-vertical-04-06-list { list-style: var(--domino-tile-vertical-04-06)}
+
+
+
+.domino-tile-vertical-05-00::before, .domino-tile-vertical-05-00-before::before{ content:var(--domino-tile-vertical-05-00)}
+.domino-tile-vertical-05-00-after::after{content:var(--domino-tile-vertical-05-00)}
+.domino-tile-vertical-05-00-both::after, .domino-tile-vertical-05-00-both::before {content:var(--domino-tile-vertical-05-00)}
+.domino-tile-vertical-05-00-list { list-style: var(--domino-tile-vertical-05-00)}
+
+
+
+.domino-tile-vertical-05-01::before, .domino-tile-vertical-05-01-before::before{ content:var(--domino-tile-vertical-05-01)}
+.domino-tile-vertical-05-01-after::after{content:var(--domino-tile-vertical-05-01)}
+.domino-tile-vertical-05-01-both::after, .domino-tile-vertical-05-01-both::before {content:var(--domino-tile-vertical-05-01)}
+.domino-tile-vertical-05-01-list { list-style: var(--domino-tile-vertical-05-01)}
+
+
+
+.domino-tile-vertical-05-02::before, .domino-tile-vertical-05-02-before::before{ content:var(--domino-tile-vertical-05-02)}
+.domino-tile-vertical-05-02-after::after{content:var(--domino-tile-vertical-05-02)}
+.domino-tile-vertical-05-02-both::after, .domino-tile-vertical-05-02-both::before {content:var(--domino-tile-vertical-05-02)}
+.domino-tile-vertical-05-02-list { list-style: var(--domino-tile-vertical-05-02)}
+
+
+
+.domino-tile-vertical-05-03::before, .domino-tile-vertical-05-03-before::before{ content:var(--domino-tile-vertical-05-03)}
+.domino-tile-vertical-05-03-after::after{content:var(--domino-tile-vertical-05-03)}
+.domino-tile-vertical-05-03-both::after, .domino-tile-vertical-05-03-both::before {content:var(--domino-tile-vertical-05-03)}
+.domino-tile-vertical-05-03-list { list-style: var(--domino-tile-vertical-05-03)}
+
+
+
+.domino-tile-vertical-05-04::before, .domino-tile-vertical-05-04-before::before{ content:var(--domino-tile-vertical-05-04)}
+.domino-tile-vertical-05-04-after::after{content:var(--domino-tile-vertical-05-04)}
+.domino-tile-vertical-05-04-both::after, .domino-tile-vertical-05-04-both::before {content:var(--domino-tile-vertical-05-04)}
+.domino-tile-vertical-05-04-list { list-style: var(--domino-tile-vertical-05-04)}
+
+
+
+.domino-tile-vertical-05-05::before, .domino-tile-vertical-05-05-before::before{ content:var(--domino-tile-vertical-05-05)}
+.domino-tile-vertical-05-05-after::after{content:var(--domino-tile-vertical-05-05)}
+.domino-tile-vertical-05-05-both::after, .domino-tile-vertical-05-05-both::before {content:var(--domino-tile-vertical-05-05)}
+.domino-tile-vertical-05-05-list { list-style: var(--domino-tile-vertical-05-05)}
+
+
+
+.domino-tile-vertical-05-06::before, .domino-tile-vertical-05-06-before::before{ content:var(--domino-tile-vertical-05-06)}
+.domino-tile-vertical-05-06-after::after{content:var(--domino-tile-vertical-05-06)}
+.domino-tile-vertical-05-06-both::after, .domino-tile-vertical-05-06-both::before {content:var(--domino-tile-vertical-05-06)}
+.domino-tile-vertical-05-06-list { list-style: var(--domino-tile-vertical-05-06)}
+
+
+
+.domino-tile-vertical-06-00::before, .domino-tile-vertical-06-00-before::before{ content:var(--domino-tile-vertical-06-00)}
+.domino-tile-vertical-06-00-after::after{content:var(--domino-tile-vertical-06-00)}
+.domino-tile-vertical-06-00-both::after, .domino-tile-vertical-06-00-both::before {content:var(--domino-tile-vertical-06-00)}
+.domino-tile-vertical-06-00-list { list-style: var(--domino-tile-vertical-06-00)}
+
+
+
+.domino-tile-vertical-06-01::before, .domino-tile-vertical-06-01-before::before{ content:var(--domino-tile-vertical-06-01)}
+.domino-tile-vertical-06-01-after::after{content:var(--domino-tile-vertical-06-01)}
+.domino-tile-vertical-06-01-both::after, .domino-tile-vertical-06-01-both::before {content:var(--domino-tile-vertical-06-01)}
+.domino-tile-vertical-06-01-list { list-style: var(--domino-tile-vertical-06-01)}
+
+
+
+.domino-tile-vertical-06-02::before, .domino-tile-vertical-06-02-before::before{ content:var(--domino-tile-vertical-06-02)}
+.domino-tile-vertical-06-02-after::after{content:var(--domino-tile-vertical-06-02)}
+.domino-tile-vertical-06-02-both::after, .domino-tile-vertical-06-02-both::before {content:var(--domino-tile-vertical-06-02)}
+.domino-tile-vertical-06-02-list { list-style: var(--domino-tile-vertical-06-02)}
+
+
+
+.domino-tile-vertical-06-03::before, .domino-tile-vertical-06-03-before::before{ content:var(--domino-tile-vertical-06-03)}
+.domino-tile-vertical-06-03-after::after{content:var(--domino-tile-vertical-06-03)}
+.domino-tile-vertical-06-03-both::after, .domino-tile-vertical-06-03-both::before {content:var(--domino-tile-vertical-06-03)}
+.domino-tile-vertical-06-03-list { list-style: var(--domino-tile-vertical-06-03)}
+
+
+
+.domino-tile-vertical-06-04::before, .domino-tile-vertical-06-04-before::before{ content:var(--domino-tile-vertical-06-04)}
+.domino-tile-vertical-06-04-after::after{content:var(--domino-tile-vertical-06-04)}
+.domino-tile-vertical-06-04-both::after, .domino-tile-vertical-06-04-both::before {content:var(--domino-tile-vertical-06-04)}
+.domino-tile-vertical-06-04-list { list-style: var(--domino-tile-vertical-06-04)}
+
+
+
+.domino-tile-vertical-06-05::before, .domino-tile-vertical-06-05-before::before{ content:var(--domino-tile-vertical-06-05)}
+.domino-tile-vertical-06-05-after::after{content:var(--domino-tile-vertical-06-05)}
+.domino-tile-vertical-06-05-both::after, .domino-tile-vertical-06-05-both::before {content:var(--domino-tile-vertical-06-05)}
+.domino-tile-vertical-06-05-list { list-style: var(--domino-tile-vertical-06-05)}
+
+
+
+.domino-tile-vertical-06-06::before, .domino-tile-vertical-06-06-before::before{ content:var(--domino-tile-vertical-06-06)}
+.domino-tile-vertical-06-06-after::after{content:var(--domino-tile-vertical-06-06)}
+.domino-tile-vertical-06-06-both::after, .domino-tile-vertical-06-06-both::before {content:var(--domino-tile-vertical-06-06)}
+.domino-tile-vertical-06-06-list { list-style: var(--domino-tile-vertical-06-06)}
+}

@@ -1,0 +1,356 @@
+@layer mahjong-tiles {
+:root {
+--mahjong-tile-autumn:'\1F028';
+--mahjong-tile-back:'\1F02B';
+--mahjong-tile-bamboo:'\1F024';
+--mahjong-tile-chrysanthemum:'\1F025';
+--mahjong-tile-east-wind:'\1F000';
+--mahjong-tile-eight-of-bamboos:'\1F017';
+--mahjong-tile-eight-of-characters:'\1F00E';
+--mahjong-tile-eight-of-circles:'\1F020';
+--mahjong-tile-five-of-bamboos:'\1F014';
+--mahjong-tile-five-of-characters:'\1F00B';
+--mahjong-tile-five-of-circles:'\1F01D';
+--mahjong-tile-four-of-bamboos:'\1F013';
+--mahjong-tile-four-of-characters:'\1F00A';
+--mahjong-tile-four-of-circles:'\1F01C';
+--mahjong-tile-green-dragon:'\1F005';
+--mahjong-tile-joker:'\1F02A';
+--mahjong-tile-nine-of-bamboos:'\1F018';
+--mahjong-tile-nine-of-characters:'\1F00F';
+--mahjong-tile-nine-of-circles:'\1F021';
+--mahjong-tile-north-wind:'\1F003';
+--mahjong-tile-one-of-bamboos:'\1F010';
+--mahjong-tile-one-of-characters:'\1F007';
+--mahjong-tile-one-of-circles:'\1F019';
+--mahjong-tile-orchid:'\1F023';
+--mahjong-tile-plum:'\1F022';
+--mahjong-tile-red-dragon:'\1F004';
+--mahjong-tile-seven-of-bamboos:'\1F016';
+--mahjong-tile-seven-of-characters:'\1F00D';
+--mahjong-tile-seven-of-circles:'\1F01F';
+--mahjong-tile-six-of-bamboos:'\1F015';
+--mahjong-tile-six-of-characters:'\1F00C';
+--mahjong-tile-six-of-circles:'\1F01E';
+--mahjong-tile-south-wind:'\1F001';
+--mahjong-tile-spring:'\1F026';
+--mahjong-tile-summer:'\1F027';
+--mahjong-tile-three-of-bamboos:'\1F012';
+--mahjong-tile-three-of-characters:'\1F009';
+--mahjong-tile-three-of-circles:'\1F01B';
+--mahjong-tile-two-of-bamboos:'\1F011';
+--mahjong-tile-two-of-characters:'\1F008';
+--mahjong-tile-two-of-circles:'\1F01A';
+--mahjong-tile-west-wind:'\1F002';
+--mahjong-tile-white-dragon:'\1F006';
+--mahjong-tile-winter:'\1F029';
+}
+
+
+
+.mahjong-tile-autumn::before, .mahjong-tile-autumn-before::before{ content:var(--mahjong-tile-autumn)}
+.mahjong-tile-autumn-after::after{content:var(--mahjong-tile-autumn)}
+.mahjong-tile-autumn-both::after, .mahjong-tile-autumn-both::before {content:var(--mahjong-tile-autumn)}
+.mahjong-tile-autumn-list { list-style: var(--mahjong-tile-autumn)}
+
+
+
+.mahjong-tile-back::before, .mahjong-tile-back-before::before{ content:var(--mahjong-tile-back)}
+.mahjong-tile-back-after::after{content:var(--mahjong-tile-back)}
+.mahjong-tile-back-both::after, .mahjong-tile-back-both::before {content:var(--mahjong-tile-back)}
+.mahjong-tile-back-list { list-style: var(--mahjong-tile-back)}
+
+
+
+.mahjong-tile-bamboo::before, .mahjong-tile-bamboo-before::before{ content:var(--mahjong-tile-bamboo)}
+.mahjong-tile-bamboo-after::after{content:var(--mahjong-tile-bamboo)}
+.mahjong-tile-bamboo-both::after, .mahjong-tile-bamboo-both::before {content:var(--mahjong-tile-bamboo)}
+.mahjong-tile-bamboo-list { list-style: var(--mahjong-tile-bamboo)}
+
+
+
+.mahjong-tile-chrysanthemum::before, .mahjong-tile-chrysanthemum-before::before{ content:var(--mahjong-tile-chrysanthemum)}
+.mahjong-tile-chrysanthemum-after::after{content:var(--mahjong-tile-chrysanthemum)}
+.mahjong-tile-chrysanthemum-both::after, .mahjong-tile-chrysanthemum-both::before {content:var(--mahjong-tile-chrysanthemum)}
+.mahjong-tile-chrysanthemum-list { list-style: var(--mahjong-tile-chrysanthemum)}
+
+
+
+.mahjong-tile-east-wind::before, .mahjong-tile-east-wind-before::before{ content:var(--mahjong-tile-east-wind)}
+.mahjong-tile-east-wind-after::after{content:var(--mahjong-tile-east-wind)}
+.mahjong-tile-east-wind-both::after, .mahjong-tile-east-wind-both::before {content:var(--mahjong-tile-east-wind)}
+.mahjong-tile-east-wind-list { list-style: var(--mahjong-tile-east-wind)}
+
+
+
+.mahjong-tile-eight-of-bamboos::before, .mahjong-tile-eight-of-bamboos-before::before{ content:var(--mahjong-tile-eight-of-bamboos)}
+.mahjong-tile-eight-of-bamboos-after::after{content:var(--mahjong-tile-eight-of-bamboos)}
+.mahjong-tile-eight-of-bamboos-both::after, .mahjong-tile-eight-of-bamboos-both::before {content:var(--mahjong-tile-eight-of-bamboos)}
+.mahjong-tile-eight-of-bamboos-list { list-style: var(--mahjong-tile-eight-of-bamboos)}
+
+
+
+.mahjong-tile-eight-of-characters::before, .mahjong-tile-eight-of-characters-before::before{ content:var(--mahjong-tile-eight-of-characters)}
+.mahjong-tile-eight-of-characters-after::after{content:var(--mahjong-tile-eight-of-characters)}
+.mahjong-tile-eight-of-characters-both::after, .mahjong-tile-eight-of-characters-both::before {content:var(--mahjong-tile-eight-of-characters)}
+.mahjong-tile-eight-of-characters-list { list-style: var(--mahjong-tile-eight-of-characters)}
+
+
+
+.mahjong-tile-eight-of-circles::before, .mahjong-tile-eight-of-circles-before::before{ content:var(--mahjong-tile-eight-of-circles)}
+.mahjong-tile-eight-of-circles-after::after{content:var(--mahjong-tile-eight-of-circles)}
+.mahjong-tile-eight-of-circles-both::after, .mahjong-tile-eight-of-circles-both::before {content:var(--mahjong-tile-eight-of-circles)}
+.mahjong-tile-eight-of-circles-list { list-style: var(--mahjong-tile-eight-of-circles)}
+
+
+
+.mahjong-tile-five-of-bamboos::before, .mahjong-tile-five-of-bamboos-before::before{ content:var(--mahjong-tile-five-of-bamboos)}
+.mahjong-tile-five-of-bamboos-after::after{content:var(--mahjong-tile-five-of-bamboos)}
+.mahjong-tile-five-of-bamboos-both::after, .mahjong-tile-five-of-bamboos-both::before {content:var(--mahjong-tile-five-of-bamboos)}
+.mahjong-tile-five-of-bamboos-list { list-style: var(--mahjong-tile-five-of-bamboos)}
+
+
+
+.mahjong-tile-five-of-characters::before, .mahjong-tile-five-of-characters-before::before{ content:var(--mahjong-tile-five-of-characters)}
+.mahjong-tile-five-of-characters-after::after{content:var(--mahjong-tile-five-of-characters)}
+.mahjong-tile-five-of-characters-both::after, .mahjong-tile-five-of-characters-both::before {content:var(--mahjong-tile-five-of-characters)}
+.mahjong-tile-five-of-characters-list { list-style: var(--mahjong-tile-five-of-characters)}
+
+
+
+.mahjong-tile-five-of-circles::before, .mahjong-tile-five-of-circles-before::before{ content:var(--mahjong-tile-five-of-circles)}
+.mahjong-tile-five-of-circles-after::after{content:var(--mahjong-tile-five-of-circles)}
+.mahjong-tile-five-of-circles-both::after, .mahjong-tile-five-of-circles-both::before {content:var(--mahjong-tile-five-of-circles)}
+.mahjong-tile-five-of-circles-list { list-style: var(--mahjong-tile-five-of-circles)}
+
+
+
+.mahjong-tile-four-of-bamboos::before, .mahjong-tile-four-of-bamboos-before::before{ content:var(--mahjong-tile-four-of-bamboos)}
+.mahjong-tile-four-of-bamboos-after::after{content:var(--mahjong-tile-four-of-bamboos)}
+.mahjong-tile-four-of-bamboos-both::after, .mahjong-tile-four-of-bamboos-both::before {content:var(--mahjong-tile-four-of-bamboos)}
+.mahjong-tile-four-of-bamboos-list { list-style: var(--mahjong-tile-four-of-bamboos)}
+
+
+
+.mahjong-tile-four-of-characters::before, .mahjong-tile-four-of-characters-before::before{ content:var(--mahjong-tile-four-of-characters)}
+.mahjong-tile-four-of-characters-after::after{content:var(--mahjong-tile-four-of-characters)}
+.mahjong-tile-four-of-characters-both::after, .mahjong-tile-four-of-characters-both::before {content:var(--mahjong-tile-four-of-characters)}
+.mahjong-tile-four-of-characters-list { list-style: var(--mahjong-tile-four-of-characters)}
+
+
+
+.mahjong-tile-four-of-circles::before, .mahjong-tile-four-of-circles-before::before{ content:var(--mahjong-tile-four-of-circles)}
+.mahjong-tile-four-of-circles-after::after{content:var(--mahjong-tile-four-of-circles)}
+.mahjong-tile-four-of-circles-both::after, .mahjong-tile-four-of-circles-both::before {content:var(--mahjong-tile-four-of-circles)}
+.mahjong-tile-four-of-circles-list { list-style: var(--mahjong-tile-four-of-circles)}
+
+
+
+.mahjong-tile-green-dragon::before, .mahjong-tile-green-dragon-before::before{ content:var(--mahjong-tile-green-dragon)}
+.mahjong-tile-green-dragon-after::after{content:var(--mahjong-tile-green-dragon)}
+.mahjong-tile-green-dragon-both::after, .mahjong-tile-green-dragon-both::before {content:var(--mahjong-tile-green-dragon)}
+.mahjong-tile-green-dragon-list { list-style: var(--mahjong-tile-green-dragon)}
+
+
+
+.mahjong-tile-joker::before, .mahjong-tile-joker-before::before{ content:var(--mahjong-tile-joker)}
+.mahjong-tile-joker-after::after{content:var(--mahjong-tile-joker)}
+.mahjong-tile-joker-both::after, .mahjong-tile-joker-both::before {content:var(--mahjong-tile-joker)}
+.mahjong-tile-joker-list { list-style: var(--mahjong-tile-joker)}
+
+
+
+.mahjong-tile-nine-of-bamboos::before, .mahjong-tile-nine-of-bamboos-before::before{ content:var(--mahjong-tile-nine-of-bamboos)}
+.mahjong-tile-nine-of-bamboos-after::after{content:var(--mahjong-tile-nine-of-bamboos)}
+.mahjong-tile-nine-of-bamboos-both::after, .mahjong-tile-nine-of-bamboos-both::before {content:var(--mahjong-tile-nine-of-bamboos)}
+.mahjong-tile-nine-of-bamboos-list { list-style: var(--mahjong-tile-nine-of-bamboos)}
+
+
+
+.mahjong-tile-nine-of-characters::before, .mahjong-tile-nine-of-characters-before::before{ content:var(--mahjong-tile-nine-of-characters)}
+.mahjong-tile-nine-of-characters-after::after{content:var(--mahjong-tile-nine-of-characters)}
+.mahjong-tile-nine-of-characters-both::after, .mahjong-tile-nine-of-characters-both::before {content:var(--mahjong-tile-nine-of-characters)}
+.mahjong-tile-nine-of-characters-list { list-style: var(--mahjong-tile-nine-of-characters)}
+
+
+
+.mahjong-tile-nine-of-circles::before, .mahjong-tile-nine-of-circles-before::before{ content:var(--mahjong-tile-nine-of-circles)}
+.mahjong-tile-nine-of-circles-after::after{content:var(--mahjong-tile-nine-of-circles)}
+.mahjong-tile-nine-of-circles-both::after, .mahjong-tile-nine-of-circles-both::before {content:var(--mahjong-tile-nine-of-circles)}
+.mahjong-tile-nine-of-circles-list { list-style: var(--mahjong-tile-nine-of-circles)}
+
+
+
+.mahjong-tile-north-wind::before, .mahjong-tile-north-wind-before::before{ content:var(--mahjong-tile-north-wind)}
+.mahjong-tile-north-wind-after::after{content:var(--mahjong-tile-north-wind)}
+.mahjong-tile-north-wind-both::after, .mahjong-tile-north-wind-both::before {content:var(--mahjong-tile-north-wind)}
+.mahjong-tile-north-wind-list { list-style: var(--mahjong-tile-north-wind)}
+
+
+
+.mahjong-tile-one-of-bamboos::before, .mahjong-tile-one-of-bamboos-before::before{ content:var(--mahjong-tile-one-of-bamboos)}
+.mahjong-tile-one-of-bamboos-after::after{content:var(--mahjong-tile-one-of-bamboos)}
+.mahjong-tile-one-of-bamboos-both::after, .mahjong-tile-one-of-bamboos-both::before {content:var(--mahjong-tile-one-of-bamboos)}
+.mahjong-tile-one-of-bamboos-list { list-style: var(--mahjong-tile-one-of-bamboos)}
+
+
+
+.mahjong-tile-one-of-characters::before, .mahjong-tile-one-of-characters-before::before{ content:var(--mahjong-tile-one-of-characters)}
+.mahjong-tile-one-of-characters-after::after{content:var(--mahjong-tile-one-of-characters)}
+.mahjong-tile-one-of-characters-both::after, .mahjong-tile-one-of-characters-both::before {content:var(--mahjong-tile-one-of-characters)}
+.mahjong-tile-one-of-characters-list { list-style: var(--mahjong-tile-one-of-characters)}
+
+
+
+.mahjong-tile-one-of-circles::before, .mahjong-tile-one-of-circles-before::before{ content:var(--mahjong-tile-one-of-circles)}
+.mahjong-tile-one-of-circles-after::after{content:var(--mahjong-tile-one-of-circles)}
+.mahjong-tile-one-of-circles-both::after, .mahjong-tile-one-of-circles-both::before {content:var(--mahjong-tile-one-of-circles)}
+.mahjong-tile-one-of-circles-list { list-style: var(--mahjong-tile-one-of-circles)}
+
+
+
+.mahjong-tile-orchid::before, .mahjong-tile-orchid-before::before{ content:var(--mahjong-tile-orchid)}
+.mahjong-tile-orchid-after::after{content:var(--mahjong-tile-orchid)}
+.mahjong-tile-orchid-both::after, .mahjong-tile-orchid-both::before {content:var(--mahjong-tile-orchid)}
+.mahjong-tile-orchid-list { list-style: var(--mahjong-tile-orchid)}
+
+
+
+.mahjong-tile-plum::before, .mahjong-tile-plum-before::before{ content:var(--mahjong-tile-plum)}
+.mahjong-tile-plum-after::after{content:var(--mahjong-tile-plum)}
+.mahjong-tile-plum-both::after, .mahjong-tile-plum-both::before {content:var(--mahjong-tile-plum)}
+.mahjong-tile-plum-list { list-style: var(--mahjong-tile-plum)}
+
+
+
+.mahjong-tile-red-dragon::before, .mahjong-tile-red-dragon-before::before{ content:var(--mahjong-tile-red-dragon)}
+.mahjong-tile-red-dragon-after::after{content:var(--mahjong-tile-red-dragon)}
+.mahjong-tile-red-dragon-both::after, .mahjong-tile-red-dragon-both::before {content:var(--mahjong-tile-red-dragon)}
+.mahjong-tile-red-dragon-list { list-style: var(--mahjong-tile-red-dragon)}
+
+
+
+.mahjong-tile-seven-of-bamboos::before, .mahjong-tile-seven-of-bamboos-before::before{ content:var(--mahjong-tile-seven-of-bamboos)}
+.mahjong-tile-seven-of-bamboos-after::after{content:var(--mahjong-tile-seven-of-bamboos)}
+.mahjong-tile-seven-of-bamboos-both::after, .mahjong-tile-seven-of-bamboos-both::before {content:var(--mahjong-tile-seven-of-bamboos)}
+.mahjong-tile-seven-of-bamboos-list { list-style: var(--mahjong-tile-seven-of-bamboos)}
+
+
+
+.mahjong-tile-seven-of-characters::before, .mahjong-tile-seven-of-characters-before::before{ content:var(--mahjong-tile-seven-of-characters)}
+.mahjong-tile-seven-of-characters-after::after{content:var(--mahjong-tile-seven-of-characters)}
+.mahjong-tile-seven-of-characters-both::after, .mahjong-tile-seven-of-characters-both::before {content:var(--mahjong-tile-seven-of-characters)}
+.mahjong-tile-seven-of-characters-list { list-style: var(--mahjong-tile-seven-of-characters)}
+
+
+
+.mahjong-tile-seven-of-circles::before, .mahjong-tile-seven-of-circles-before::before{ content:var(--mahjong-tile-seven-of-circles)}
+.mahjong-tile-seven-of-circles-after::after{content:var(--mahjong-tile-seven-of-circles)}
+.mahjong-tile-seven-of-circles-both::after, .mahjong-tile-seven-of-circles-both::before {content:var(--mahjong-tile-seven-of-circles)}
+.mahjong-tile-seven-of-circles-list { list-style: var(--mahjong-tile-seven-of-circles)}
+
+
+
+.mahjong-tile-six-of-bamboos::before, .mahjong-tile-six-of-bamboos-before::before{ content:var(--mahjong-tile-six-of-bamboos)}
+.mahjong-tile-six-of-bamboos-after::after{content:var(--mahjong-tile-six-of-bamboos)}
+.mahjong-tile-six-of-bamboos-both::after, .mahjong-tile-six-of-bamboos-both::before {content:var(--mahjong-tile-six-of-bamboos)}
+.mahjong-tile-six-of-bamboos-list { list-style: var(--mahjong-tile-six-of-bamboos)}
+
+
+
+.mahjong-tile-six-of-characters::before, .mahjong-tile-six-of-characters-before::before{ content:var(--mahjong-tile-six-of-characters)}
+.mahjong-tile-six-of-characters-after::after{content:var(--mahjong-tile-six-of-characters)}
+.mahjong-tile-six-of-characters-both::after, .mahjong-tile-six-of-characters-both::before {content:var(--mahjong-tile-six-of-characters)}
+.mahjong-tile-six-of-characters-list { list-style: var(--mahjong-tile-six-of-characters)}
+
+
+
+.mahjong-tile-six-of-circles::before, .mahjong-tile-six-of-circles-before::before{ content:var(--mahjong-tile-six-of-circles)}
+.mahjong-tile-six-of-circles-after::after{content:var(--mahjong-tile-six-of-circles)}
+.mahjong-tile-six-of-circles-both::after, .mahjong-tile-six-of-circles-both::before {content:var(--mahjong-tile-six-of-circles)}
+.mahjong-tile-six-of-circles-list { list-style: var(--mahjong-tile-six-of-circles)}
+
+
+
+.mahjong-tile-south-wind::before, .mahjong-tile-south-wind-before::before{ content:var(--mahjong-tile-south-wind)}
+.mahjong-tile-south-wind-after::after{content:var(--mahjong-tile-south-wind)}
+.mahjong-tile-south-wind-both::after, .mahjong-tile-south-wind-both::before {content:var(--mahjong-tile-south-wind)}
+.mahjong-tile-south-wind-list { list-style: var(--mahjong-tile-south-wind)}
+
+
+
+.mahjong-tile-spring::before, .mahjong-tile-spring-before::before{ content:var(--mahjong-tile-spring)}
+.mahjong-tile-spring-after::after{content:var(--mahjong-tile-spring)}
+.mahjong-tile-spring-both::after, .mahjong-tile-spring-both::before {content:var(--mahjong-tile-spring)}
+.mahjong-tile-spring-list { list-style: var(--mahjong-tile-spring)}
+
+
+
+.mahjong-tile-summer::before, .mahjong-tile-summer-before::before{ content:var(--mahjong-tile-summer)}
+.mahjong-tile-summer-after::after{content:var(--mahjong-tile-summer)}
+.mahjong-tile-summer-both::after, .mahjong-tile-summer-both::before {content:var(--mahjong-tile-summer)}
+.mahjong-tile-summer-list { list-style: var(--mahjong-tile-summer)}
+
+
+
+.mahjong-tile-three-of-bamboos::before, .mahjong-tile-three-of-bamboos-before::before{ content:var(--mahjong-tile-three-of-bamboos)}
+.mahjong-tile-three-of-bamboos-after::after{content:var(--mahjong-tile-three-of-bamboos)}
+.mahjong-tile-three-of-bamboos-both::after, .mahjong-tile-three-of-bamboos-both::before {content:var(--mahjong-tile-three-of-bamboos)}
+.mahjong-tile-three-of-bamboos-list { list-style: var(--mahjong-tile-three-of-bamboos)}
+
+
+
+.mahjong-tile-three-of-characters::before, .mahjong-tile-three-of-characters-before::before{ content:var(--mahjong-tile-three-of-characters)}
+.mahjong-tile-three-of-characters-after::after{content:var(--mahjong-tile-three-of-characters)}
+.mahjong-tile-three-of-characters-both::after, .mahjong-tile-three-of-characters-both::before {content:var(--mahjong-tile-three-of-characters)}
+.mahjong-tile-three-of-characters-list { list-style: var(--mahjong-tile-three-of-characters)}
+
+
+
+.mahjong-tile-three-of-circles::before, .mahjong-tile-three-of-circles-before::before{ content:var(--mahjong-tile-three-of-circles)}
+.mahjong-tile-three-of-circles-after::after{content:var(--mahjong-tile-three-of-circles)}
+.mahjong-tile-three-of-circles-both::after, .mahjong-tile-three-of-circles-both::before {content:var(--mahjong-tile-three-of-circles)}
+.mahjong-tile-three-of-circles-list { list-style: var(--mahjong-tile-three-of-circles)}
+
+
+
+.mahjong-tile-two-of-bamboos::before, .mahjong-tile-two-of-bamboos-before::before{ content:var(--mahjong-tile-two-of-bamboos)}
+.mahjong-tile-two-of-bamboos-after::after{content:var(--mahjong-tile-two-of-bamboos)}
+.mahjong-tile-two-of-bamboos-both::after, .mahjong-tile-two-of-bamboos-both::before {content:var(--mahjong-tile-two-of-bamboos)}
+.mahjong-tile-two-of-bamboos-list { list-style: var(--mahjong-tile-two-of-bamboos)}
+
+
+
+.mahjong-tile-two-of-characters::before, .mahjong-tile-two-of-characters-before::before{ content:var(--mahjong-tile-two-of-characters)}
+.mahjong-tile-two-of-characters-after::after{content:var(--mahjong-tile-two-of-characters)}
+.mahjong-tile-two-of-characters-both::after, .mahjong-tile-two-of-characters-both::before {content:var(--mahjong-tile-two-of-characters)}
+.mahjong-tile-two-of-characters-list { list-style: var(--mahjong-tile-two-of-characters)}
+
+
+
+.mahjong-tile-two-of-circles::before, .mahjong-tile-two-of-circles-before::before{ content:var(--mahjong-tile-two-of-circles)}
+.mahjong-tile-two-of-circles-after::after{content:var(--mahjong-tile-two-of-circles)}
+.mahjong-tile-two-of-circles-both::after, .mahjong-tile-two-of-circles-both::before {content:var(--mahjong-tile-two-of-circles)}
+.mahjong-tile-two-of-circles-list { list-style: var(--mahjong-tile-two-of-circles)}
+
+
+
+.mahjong-tile-west-wind::before, .mahjong-tile-west-wind-before::before{ content:var(--mahjong-tile-west-wind)}
+.mahjong-tile-west-wind-after::after{content:var(--mahjong-tile-west-wind)}
+.mahjong-tile-west-wind-both::after, .mahjong-tile-west-wind-both::before {content:var(--mahjong-tile-west-wind)}
+.mahjong-tile-west-wind-list { list-style: var(--mahjong-tile-west-wind)}
+
+
+
+.mahjong-tile-white-dragon::before, .mahjong-tile-white-dragon-before::before{ content:var(--mahjong-tile-white-dragon)}
+.mahjong-tile-white-dragon-after::after{content:var(--mahjong-tile-white-dragon)}
+.mahjong-tile-white-dragon-both::after, .mahjong-tile-white-dragon-both::before {content:var(--mahjong-tile-white-dragon)}
+.mahjong-tile-white-dragon-list { list-style: var(--mahjong-tile-white-dragon)}
+
+
+
+.mahjong-tile-winter::before, .mahjong-tile-winter-before::before{ content:var(--mahjong-tile-winter)}
+.mahjong-tile-winter-after::after{content:var(--mahjong-tile-winter)}
+.mahjong-tile-winter-both::after, .mahjong-tile-winter-both::before {content:var(--mahjong-tile-winter)}
+.mahjong-tile-winter-list { list-style: var(--mahjong-tile-winter)}
+}

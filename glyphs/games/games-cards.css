@@ -1,0 +1,660 @@
+@layer playing-cards {
+:root {
+--playing-card-ace-of-clubs:'\1F0D1';
+--playing-card-ace-of-diamonds:'\1F0C1';
+--playing-card-ace-of-hearts:'\1F0B1';
+--playing-card-ace-of-spades:'\1F0A1';
+--playing-card-back:'\1F0A0';
+--playing-card-black-joker:'\1F0CF';
+--playing-card-eight-of-clubs:'\1F0D8';
+--playing-card-eight-of-diamonds:'\1F0C8';
+--playing-card-eight-of-hearts:'\1F0B8';
+--playing-card-eight-of-spades:'\1F0A8';
+--playing-card-five-of-clubs:'\1F0D5';
+--playing-card-five-of-diamonds:'\1F0C5';
+--playing-card-five-of-hearts:'\1F0B5';
+--playing-card-five-of-spades:'\1F0A5';
+--playing-card-fool:'\1F0E0';
+--playing-card-four-of-clubs:'\1F0D4';
+--playing-card-four-of-diamonds:'\1F0C4';
+--playing-card-four-of-hearts:'\1F0B4';
+--playing-card-four-of-spades:'\1F0A4';
+--playing-card-jack-of-clubs:'\1F0DB';
+--playing-card-jack-of-diamonds:'\1F0CB';
+--playing-card-jack-of-hearts:'\1F0BB';
+--playing-card-jack-of-spades:'\1F0AB';
+--playing-card-king-of-clubs:'\1F0DE';
+--playing-card-king-of-diamonds:'\1F0CE';
+--playing-card-king-of-hearts:'\1F0BE';
+--playing-card-king-of-spades:'\1F0AE';
+--playing-card-knight-of-clubs:'\1F0DC';
+--playing-card-knight-of-diamonds:'\1F0CC';
+--playing-card-knight-of-hearts:'\1F0BC';
+--playing-card-knight-of-spades:'\1F0AC';
+--playing-card-nine-of-clubs:'\1F0D9';
+--playing-card-nine-of-diamonds:'\1F0C9';
+--playing-card-nine-of-hearts:'\1F0B9';
+--playing-card-nine-of-spades:'\1F0A9';
+--playing-card-queen-of-clubs:'\1F0DD';
+--playing-card-queen-of-diamonds:'\1F0CD';
+--playing-card-queen-of-hearts:'\1F0BD';
+--playing-card-queen-of-spades:'\1F0AD';
+--playing-card-red-joker:'\1F0BF';
+--playing-card-seven-of-clubs:'\1F0D7';
+--playing-card-seven-of-diamonds:'\1F0C7';
+--playing-card-seven-of-hearts:'\1F0B7';
+--playing-card-seven-of-spades:'\1F0A7';
+--playing-card-six-of-clubs:'\1F0D6';
+--playing-card-six-of-diamonds:'\1F0C6';
+--playing-card-six-of-hearts:'\1F0B6';
+--playing-card-six-of-spades:'\1F0A6';
+--playing-card-ten-of-clubs:'\1F0DA';
+--playing-card-ten-of-diamonds:'\1F0CA';
+--playing-card-ten-of-hearts:'\1F0BA';
+--playing-card-ten-of-spades:'\1F0AA';
+--playing-card-three-of-clubs:'\1F0D3';
+--playing-card-three-of-diamonds:'\1F0C3';
+--playing-card-three-of-hearts:'\1F0B3';
+--playing-card-three-of-spades:'\1F0A3';
+--playing-card-trump-1:'\1F0E1';
+--playing-card-trump-10:'\1F0EA';
+--playing-card-trump-11:'\1F0EB';
+--playing-card-trump-12:'\1F0EC';
+--playing-card-trump-13:'\1F0ED';
+--playing-card-trump-14:'\1F0EE';
+--playing-card-trump-15:'\1F0EF';
+--playing-card-trump-16:'\1F0F0';
+--playing-card-trump-17:'\1F0F1';
+--playing-card-trump-18:'\1F0F2';
+--playing-card-trump-19:'\1F0F3';
+--playing-card-trump-2:'\1F0E2';
+--playing-card-trump-20:'\1F0F4';
+--playing-card-trump-21:'\1F0F5';
+--playing-card-trump-3:'\1F0E3';
+--playing-card-trump-4:'\1F0E4';
+--playing-card-trump-5:'\1F0E5';
+--playing-card-trump-6:'\1F0E6';
+--playing-card-trump-7:'\1F0E7';
+--playing-card-trump-8:'\1F0E8';
+--playing-card-trump-9:'\1F0E9';
+--playing-card-two-of-clubs:'\1F0D2';
+--playing-card-two-of-diamonds:'\1F0C2';
+--playing-card-two-of-hearts:'\1F0B2';
+--playing-card-two-of-spades:'\1F0A2';
+--playing-card-white-joker:'\1F0DF';
+}
+
+
+
+.playing-card-ace-of-clubs::before, .playing-card-ace-of-clubs-before::before{ content:var(--playing-card-ace-of-clubs)}
+.playing-card-ace-of-clubs-after::after{content:var(--playing-card-ace-of-clubs)}
+.playing-card-ace-of-clubs-both::after, .playing-card-ace-of-clubs-both::before {content:var(--playing-card-ace-of-clubs)}
+.playing-card-ace-of-clubs-list { list-style: var(--playing-card-ace-of-clubs)}
+
+
+
+.playing-card-ace-of-diamonds::before, .playing-card-ace-of-diamonds-before::before{ content:var(--playing-card-ace-of-diamonds)}
+.playing-card-ace-of-diamonds-after::after{content:var(--playing-card-ace-of-diamonds)}
+.playing-card-ace-of-diamonds-both::after, .playing-card-ace-of-diamonds-both::before {content:var(--playing-card-ace-of-diamonds)}
+.playing-card-ace-of-diamonds-list { list-style: var(--playing-card-ace-of-diamonds)}
+
+
+
+.playing-card-ace-of-hearts::before, .playing-card-ace-of-hearts-before::before{ content:var(--playing-card-ace-of-hearts)}
+.playing-card-ace-of-hearts-after::after{content:var(--playing-card-ace-of-hearts)}
+.playing-card-ace-of-hearts-both::after, .playing-card-ace-of-hearts-both::before {content:var(--playing-card-ace-of-hearts)}
+.playing-card-ace-of-hearts-list { list-style: var(--playing-card-ace-of-hearts)}
+
+
+
+.playing-card-ace-of-spades::before, .playing-card-ace-of-spades-before::before{ content:var(--playing-card-ace-of-spades)}
+.playing-card-ace-of-spades-after::after{content:var(--playing-card-ace-of-spades)}
+.playing-card-ace-of-spades-both::after, .playing-card-ace-of-spades-both::before {content:var(--playing-card-ace-of-spades)}
+.playing-card-ace-of-spades-list { list-style: var(--playing-card-ace-of-spades)}
+
+
+
+.playing-card-back::before, .playing-card-back-before::before{ content:var(--playing-card-back)}
+.playing-card-back-after::after{content:var(--playing-card-back)}
+.playing-card-back-both::after, .playing-card-back-both::before {content:var(--playing-card-back)}
+.playing-card-back-list { list-style: var(--playing-card-back)}
+
+
+
+.playing-card-black-joker::before, .playing-card-black-joker-before::before{ content:var(--playing-card-black-joker)}
+.playing-card-black-joker-after::after{content:var(--playing-card-black-joker)}
+.playing-card-black-joker-both::after, .playing-card-black-joker-both::before {content:var(--playing-card-black-joker)}
+.playing-card-black-joker-list { list-style: var(--playing-card-black-joker)}
+
+
+
+.playing-card-eight-of-clubs::before, .playing-card-eight-of-clubs-before::before{ content:var(--playing-card-eight-of-clubs)}
+.playing-card-eight-of-clubs-after::after{content:var(--playing-card-eight-of-clubs)}
+.playing-card-eight-of-clubs-both::after, .playing-card-eight-of-clubs-both::before {content:var(--playing-card-eight-of-clubs)}
+.playing-card-eight-of-clubs-list { list-style: var(--playing-card-eight-of-clubs)}
+
+
+
+.playing-card-eight-of-diamonds::before, .playing-card-eight-of-diamonds-before::before{ content:var(--playing-card-eight-of-diamonds)}
+.playing-card-eight-of-diamonds-after::after{content:var(--playing-card-eight-of-diamonds)}
+.playing-card-eight-of-diamonds-both::after, .playing-card-eight-of-diamonds-both::before {content:var(--playing-card-eight-of-diamonds)}
+.playing-card-eight-of-diamonds-list { list-style: var(--playing-card-eight-of-diamonds)}
+
+
+
+.playing-card-eight-of-hearts::before, .playing-card-eight-of-hearts-before::before{ content:var(--playing-card-eight-of-hearts)}
+.playing-card-eight-of-hearts-after::after{content:var(--playing-card-eight-of-hearts)}
+.playing-card-eight-of-hearts-both::after, .playing-card-eight-of-hearts-both::before {content:var(--playing-card-eight-of-hearts)}
+.playing-card-eight-of-hearts-list { list-style: var(--playing-card-eight-of-hearts)}
+
+
+
+.playing-card-eight-of-spades::before, .playing-card-eight-of-spades-before::before{ content:var(--playing-card-eight-of-spades)}
+.playing-card-eight-of-spades-after::after{content:var(--playing-card-eight-of-spades)}
+.playing-card-eight-of-spades-both::after, .playing-card-eight-of-spades-both::before {content:var(--playing-card-eight-of-spades)}
+.playing-card-eight-of-spades-list { list-style: var(--playing-card-eight-of-spades)}
+
+
+
+.playing-card-five-of-clubs::before, .playing-card-five-of-clubs-before::before{ content:var(--playing-card-five-of-clubs)}
+.playing-card-five-of-clubs-after::after{content:var(--playing-card-five-of-clubs)}
+.playing-card-five-of-clubs-both::after, .playing-card-five-of-clubs-both::before {content:var(--playing-card-five-of-clubs)}
+.playing-card-five-of-clubs-list { list-style: var(--playing-card-five-of-clubs)}
+
+
+
+.playing-card-five-of-diamonds::before, .playing-card-five-of-diamonds-before::before{ content:var(--playing-card-five-of-diamonds)}
+.playing-card-five-of-diamonds-after::after{content:var(--playing-card-five-of-diamonds)}
+.playing-card-five-of-diamonds-both::after, .playing-card-five-of-diamonds-both::before {content:var(--playing-card-five-of-diamonds)}
+.playing-card-five-of-diamonds-list { list-style: var(--playing-card-five-of-diamonds)}
+
+
+
+.playing-card-five-of-hearts::before, .playing-card-five-of-hearts-before::before{ content:var(--playing-card-five-of-hearts)}
+.playing-card-five-of-hearts-after::after{content:var(--playing-card-five-of-hearts)}
+.playing-card-five-of-hearts-both::after, .playing-card-five-of-hearts-both::before {content:var(--playing-card-five-of-hearts)}
+.playing-card-five-of-hearts-list { list-style: var(--playing-card-five-of-hearts)}
+
+
+
+.playing-card-five-of-spades::before, .playing-card-five-of-spades-before::before{ content:var(--playing-card-five-of-spades)}
+.playing-card-five-of-spades-after::after{content:var(--playing-card-five-of-spades)}
+.playing-card-five-of-spades-both::after, .playing-card-five-of-spades-both::before {content:var(--playing-card-five-of-spades)}
+.playing-card-five-of-spades-list { list-style: var(--playing-card-five-of-spades)}
+
+
+
+.playing-card-fool::before, .playing-card-fool-before::before{ content:var(--playing-card-fool)}
+.playing-card-fool-after::after{content:var(--playing-card-fool)}
+.playing-card-fool-both::after, .playing-card-fool-both::before {content:var(--playing-card-fool)}
+.playing-card-fool-list { list-style: var(--playing-card-fool)}
+
+
+
+.playing-card-four-of-clubs::before, .playing-card-four-of-clubs-before::before{ content:var(--playing-card-four-of-clubs)}
+.playing-card-four-of-clubs-after::after{content:var(--playing-card-four-of-clubs)}
+.playing-card-four-of-clubs-both::after, .playing-card-four-of-clubs-both::before {content:var(--playing-card-four-of-clubs)}
+.playing-card-four-of-clubs-list { list-style: var(--playing-card-four-of-clubs)}
+
+
+
+.playing-card-four-of-diamonds::before, .playing-card-four-of-diamonds-before::before{ content:var(--playing-card-four-of-diamonds)}
+.playing-card-four-of-diamonds-after::after{content:var(--playing-card-four-of-diamonds)}
+.playing-card-four-of-diamonds-both::after, .playing-card-four-of-diamonds-both::before {content:var(--playing-card-four-of-diamonds)}
+.playing-card-four-of-diamonds-list { list-style: var(--playing-card-four-of-diamonds)}
+
+
+
+.playing-card-four-of-hearts::before, .playing-card-four-of-hearts-before::before{ content:var(--playing-card-four-of-hearts)}
+.playing-card-four-of-hearts-after::after{content:var(--playing-card-four-of-hearts)}
+.playing-card-four-of-hearts-both::after, .playing-card-four-of-hearts-both::before {content:var(--playing-card-four-of-hearts)}
+.playing-card-four-of-hearts-list { list-style: var(--playing-card-four-of-hearts)}
+
+
+
+.playing-card-four-of-spades::before, .playing-card-four-of-spades-before::before{ content:var(--playing-card-four-of-spades)}
+.playing-card-four-of-spades-after::after{content:var(--playing-card-four-of-spades)}
+.playing-card-four-of-spades-both::after, .playing-card-four-of-spades-both::before {content:var(--playing-card-four-of-spades)}
+.playing-card-four-of-spades-list { list-style: var(--playing-card-four-of-spades)}
+
+
+
+.playing-card-jack-of-clubs::before, .playing-card-jack-of-clubs-before::before{ content:var(--playing-card-jack-of-clubs)}
+.playing-card-jack-of-clubs-after::after{content:var(--playing-card-jack-of-clubs)}
+.playing-card-jack-of-clubs-both::after, .playing-card-jack-of-clubs-both::before {content:var(--playing-card-jack-of-clubs)}
+.playing-card-jack-of-clubs-list { list-style: var(--playing-card-jack-of-clubs)}
+
+
+
+.playing-card-jack-of-diamonds::before, .playing-card-jack-of-diamonds-before::before{ content:var(--playing-card-jack-of-diamonds)}
+.playing-card-jack-of-diamonds-after::after{content:var(--playing-card-jack-of-diamonds)}
+.playing-card-jack-of-diamonds-both::after, .playing-card-jack-of-diamonds-both::before {content:var(--playing-card-jack-of-diamonds)}
+.playing-card-jack-of-diamonds-list { list-style: var(--playing-card-jack-of-diamonds)}
+
+
+
+.playing-card-jack-of-hearts::before, .playing-card-jack-of-hearts-before::before{ content:var(--playing-card-jack-of-hearts)}
+.playing-card-jack-of-hearts-after::after{content:var(--playing-card-jack-of-hearts)}
+.playing-card-jack-of-hearts-both::after, .playing-card-jack-of-hearts-both::before {content:var(--playing-card-jack-of-hearts)}
+.playing-card-jack-of-hearts-list { list-style: var(--playing-card-jack-of-hearts)}
+
+
+
+.playing-card-jack-of-spades::before, .playing-card-jack-of-spades-before::before{ content:var(--playing-card-jack-of-spades)}
+.playing-card-jack-of-spades-after::after{content:var(--playing-card-jack-of-spades)}
+.playing-card-jack-of-spades-both::after, .playing-card-jack-of-spades-both::before {content:var(--playing-card-jack-of-spades)}
+.playing-card-jack-of-spades-list { list-style: var(--playing-card-jack-of-spades)}
+
+
+
+.playing-card-king-of-clubs::before, .playing-card-king-of-clubs-before::before{ content:var(--playing-card-king-of-clubs)}
+.playing-card-king-of-clubs-after::after{content:var(--playing-card-king-of-clubs)}
+.playing-card-king-of-clubs-both::after, .playing-card-king-of-clubs-both::before {content:var(--playing-card-king-of-clubs)}
+.playing-card-king-of-clubs-list { list-style: var(--playing-card-king-of-clubs)}
+
+
+
+.playing-card-king-of-diamonds::before, .playing-card-king-of-diamonds-before::before{ content:var(--playing-card-king-of-diamonds)}
+.playing-card-king-of-diamonds-after::after{content:var(--playing-card-king-of-diamonds)}
+.playing-card-king-of-diamonds-both::after, .playing-card-king-of-diamonds-both::before {content:var(--playing-card-king-of-diamonds)}
+.playing-card-king-of-diamonds-list { list-style: var(--playing-card-king-of-diamonds)}
+
+
+
+.playing-card-king-of-hearts::before, .playing-card-king-of-hearts-before::before{ content:var(--playing-card-king-of-hearts)}
+.playing-card-king-of-hearts-after::after{content:var(--playing-card-king-of-hearts)}
+.playing-card-king-of-hearts-both::after, .playing-card-king-of-hearts-both::before {content:var(--playing-card-king-of-hearts)}
+.playing-card-king-of-hearts-list { list-style: var(--playing-card-king-of-hearts)}
+
+
+
+.playing-card-king-of-spades::before, .playing-card-king-of-spades-before::before{ content:var(--playing-card-king-of-spades)}
+.playing-card-king-of-spades-after::after{content:var(--playing-card-king-of-spades)}
+.playing-card-king-of-spades-both::after, .playing-card-king-of-spades-both::before {content:var(--playing-card-king-of-spades)}
+.playing-card-king-of-spades-list { list-style: var(--playing-card-king-of-spades)}
+
+
+
+.playing-card-knight-of-clubs::before, .playing-card-knight-of-clubs-before::before{ content:var(--playing-card-knight-of-clubs)}
+.playing-card-knight-of-clubs-after::after{content:var(--playing-card-knight-of-clubs)}
+.playing-card-knight-of-clubs-both::after, .playing-card-knight-of-clubs-both::before {content:var(--playing-card-knight-of-clubs)}
+.playing-card-knight-of-clubs-list { list-style: var(--playing-card-knight-of-clubs)}
+
+
+
+.playing-card-knight-of-diamonds::before, .playing-card-knight-of-diamonds-before::before{ content:var(--playing-card-knight-of-diamonds)}
+.playing-card-knight-of-diamonds-after::after{content:var(--playing-card-knight-of-diamonds)}
+.playing-card-knight-of-diamonds-both::after, .playing-card-knight-of-diamonds-both::before {content:var(--playing-card-knight-of-diamonds)}
+.playing-card-knight-of-diamonds-list { list-style: var(--playing-card-knight-of-diamonds)}
+
+
+
+.playing-card-knight-of-hearts::before, .playing-card-knight-of-hearts-before::before{ content:var(--playing-card-knight-of-hearts)}
+.playing-card-knight-of-hearts-after::after{content:var(--playing-card-knight-of-hearts)}
+.playing-card-knight-of-hearts-both::after, .playing-card-knight-of-hearts-both::before {content:var(--playing-card-knight-of-hearts)}
+.playing-card-knight-of-hearts-list { list-style: var(--playing-card-knight-of-hearts)}
+
+
+
+.playing-card-knight-of-spades::before, .playing-card-knight-of-spades-before::before{ content:var(--playing-card-knight-of-spades)}
+.playing-card-knight-of-spades-after::after{content:var(--playing-card-knight-of-spades)}
+.playing-card-knight-of-spades-both::after, .playing-card-knight-of-spades-both::before {content:var(--playing-card-knight-of-spades)}
+.playing-card-knight-of-spades-list { list-style: var(--playing-card-knight-of-spades)}
+
+
+
+.playing-card-nine-of-clubs::before, .playing-card-nine-of-clubs-before::before{ content:var(--playing-card-nine-of-clubs)}
+.playing-card-nine-of-clubs-after::after{content:var(--playing-card-nine-of-clubs)}
+.playing-card-nine-of-clubs-both::after, .playing-card-nine-of-clubs-both::before {content:var(--playing-card-nine-of-clubs)}
+.playing-card-nine-of-clubs-list { list-style: var(--playing-card-nine-of-clubs)}
+
+
+
+.playing-card-nine-of-diamonds::before, .playing-card-nine-of-diamonds-before::before{ content:var(--playing-card-nine-of-diamonds)}
+.playing-card-nine-of-diamonds-after::after{content:var(--playing-card-nine-of-diamonds)}
+.playing-card-nine-of-diamonds-both::after, .playing-card-nine-of-diamonds-both::before {content:var(--playing-card-nine-of-diamonds)}
+.playing-card-nine-of-diamonds-list { list-style: var(--playing-card-nine-of-diamonds)}
+
+
+
+.playing-card-nine-of-hearts::before, .playing-card-nine-of-hearts-before::before{ content:var(--playing-card-nine-of-hearts)}
+.playing-card-nine-of-hearts-after::after{content:var(--playing-card-nine-of-hearts)}
+.playing-card-nine-of-hearts-both::after, .playing-card-nine-of-hearts-both::before {content:var(--playing-card-nine-of-hearts)}
+.playing-card-nine-of-hearts-list { list-style: var(--playing-card-nine-of-hearts)}
+
+
+
+.playing-card-nine-of-spades::before, .playing-card-nine-of-spades-before::before{ content:var(--playing-card-nine-of-spades)}
+.playing-card-nine-of-spades-after::after{content:var(--playing-card-nine-of-spades)}
+.playing-card-nine-of-spades-both::after, .playing-card-nine-of-spades-both::before {content:var(--playing-card-nine-of-spades)}
+.playing-card-nine-of-spades-list { list-style: var(--playing-card-nine-of-spades)}
+
+
+
+.playing-card-queen-of-clubs::before, .playing-card-queen-of-clubs-before::before{ content:var(--playing-card-queen-of-clubs)}
+.playing-card-queen-of-clubs-after::after{content:var(--playing-card-queen-of-clubs)}
+.playing-card-queen-of-clubs-both::after, .playing-card-queen-of-clubs-both::before {content:var(--playing-card-queen-of-clubs)}
+.playing-card-queen-of-clubs-list { list-style: var(--playing-card-queen-of-clubs)}
+
+
+
+.playing-card-queen-of-diamonds::before, .playing-card-queen-of-diamonds-before::before{ content:var(--playing-card-queen-of-diamonds)}
+.playing-card-queen-of-diamonds-after::after{content:var(--playing-card-queen-of-diamonds)}
+.playing-card-queen-of-diamonds-both::after, .playing-card-queen-of-diamonds-both::before {content:var(--playing-card-queen-of-diamonds)}
+.playing-card-queen-of-diamonds-list { list-style: var(--playing-card-queen-of-diamonds)}
+
+
+
+.playing-card-queen-of-hearts::before, .playing-card-queen-of-hearts-before::before{ content:var(--playing-card-queen-of-hearts)}
+.playing-card-queen-of-hearts-after::after{content:var(--playing-card-queen-of-hearts)}
+.playing-card-queen-of-hearts-both::after, .playing-card-queen-of-hearts-both::before {content:var(--playing-card-queen-of-hearts)}
+.playing-card-queen-of-hearts-list { list-style: var(--playing-card-queen-of-hearts)}
+
+
+
+.playing-card-queen-of-spades::before, .playing-card-queen-of-spades-before::before{ content:var(--playing-card-queen-of-spades)}
+.playing-card-queen-of-spades-after::after{content:var(--playing-card-queen-of-spades)}
+.playing-card-queen-of-spades-both::after, .playing-card-queen-of-spades-both::before {content:var(--playing-card-queen-of-spades)}
+.playing-card-queen-of-spades-list { list-style: var(--playing-card-queen-of-spades)}
+
+
+
+.playing-card-red-joker::before, .playing-card-red-joker-before::before{ content:var(--playing-card-red-joker)}
+.playing-card-red-joker-after::after{content:var(--playing-card-red-joker)}
+.playing-card-red-joker-both::after, .playing-card-red-joker-both::before {content:var(--playing-card-red-joker)}
+.playing-card-red-joker-list { list-style: var(--playing-card-red-joker)}
+
+
+
+.playing-card-seven-of-clubs::before, .playing-card-seven-of-clubs-before::before{ content:var(--playing-card-seven-of-clubs)}
+.playing-card-seven-of-clubs-after::after{content:var(--playing-card-seven-of-clubs)}
+.playing-card-seven-of-clubs-both::after, .playing-card-seven-of-clubs-both::before {content:var(--playing-card-seven-of-clubs)}
+.playing-card-seven-of-clubs-list { list-style: var(--playing-card-seven-of-clubs)}
+
+
+
+.playing-card-seven-of-diamonds::before, .playing-card-seven-of-diamonds-before::before{ content:var(--playing-card-seven-of-diamonds)}
+.playing-card-seven-of-diamonds-after::after{content:var(--playing-card-seven-of-diamonds)}
+.playing-card-seven-of-diamonds-both::after, .playing-card-seven-of-diamonds-both::before {content:var(--playing-card-seven-of-diamonds)}
+.playing-card-seven-of-diamonds-list { list-style: var(--playing-card-seven-of-diamonds)}
+
+
+
+.playing-card-seven-of-hearts::before, .playing-card-seven-of-hearts-before::before{ content:var(--playing-card-seven-of-hearts)}
+.playing-card-seven-of-hearts-after::after{content:var(--playing-card-seven-of-hearts)}
+.playing-card-seven-of-hearts-both::after, .playing-card-seven-of-hearts-both::before {content:var(--playing-card-seven-of-hearts)}
+.playing-card-seven-of-hearts-list { list-style: var(--playing-card-seven-of-hearts)}
+
+
+
+.playing-card-seven-of-spades::before, .playing-card-seven-of-spades-before::before{ content:var(--playing-card-seven-of-spades)}
+.playing-card-seven-of-spades-after::after{content:var(--playing-card-seven-of-spades)}
+.playing-card-seven-of-spades-both::after, .playing-card-seven-of-spades-both::before {content:var(--playing-card-seven-of-spades)}
+.playing-card-seven-of-spades-list { list-style: var(--playing-card-seven-of-spades)}
+
+
+
+.playing-card-six-of-clubs::before, .playing-card-six-of-clubs-before::before{ content:var(--playing-card-six-of-clubs)}
+.playing-card-six-of-clubs-after::after{content:var(--playing-card-six-of-clubs)}
+.playing-card-six-of-clubs-both::after, .playing-card-six-of-clubs-both::before {content:var(--playing-card-six-of-clubs)}
+.playing-card-six-of-clubs-list { list-style: var(--playing-card-six-of-clubs)}
+
+
+
+.playing-card-six-of-diamonds::before, .playing-card-six-of-diamonds-before::before{ content:var(--playing-card-six-of-diamonds)}
+.playing-card-six-of-diamonds-after::after{content:var(--playing-card-six-of-diamonds)}
+.playing-card-six-of-diamonds-both::after, .playing-card-six-of-diamonds-both::before {content:var(--playing-card-six-of-diamonds)}
+.playing-card-six-of-diamonds-list { list-style: var(--playing-card-six-of-diamonds)}
+
+
+
+.playing-card-six-of-hearts::before, .playing-card-six-of-hearts-before::before{ content:var(--playing-card-six-of-hearts)}
+.playing-card-six-of-hearts-after::after{content:var(--playing-card-six-of-hearts)}
+.playing-card-six-of-hearts-both::after, .playing-card-six-of-hearts-both::before {content:var(--playing-card-six-of-hearts)}
+.playing-card-six-of-hearts-list { list-style: var(--playing-card-six-of-hearts)}
+
+
+
+.playing-card-six-of-spades::before, .playing-card-six-of-spades-before::before{ content:var(--playing-card-six-of-spades)}
+.playing-card-six-of-spades-after::after{content:var(--playing-card-six-of-spades)}
+.playing-card-six-of-spades-both::after, .playing-card-six-of-spades-both::before {content:var(--playing-card-six-of-spades)}
+.playing-card-six-of-spades-list { list-style: var(--playing-card-six-of-spades)}
+
+
+
+.playing-card-ten-of-clubs::before, .playing-card-ten-of-clubs-before::before{ content:var(--playing-card-ten-of-clubs)}
+.playing-card-ten-of-clubs-after::after{content:var(--playing-card-ten-of-clubs)}
+.playing-card-ten-of-clubs-both::after, .playing-card-ten-of-clubs-both::before {content:var(--playing-card-ten-of-clubs)}
+.playing-card-ten-of-clubs-list { list-style: var(--playing-card-ten-of-clubs)}
+
+
+
+.playing-card-ten-of-diamonds::before, .playing-card-ten-of-diamonds-before::before{ content:var(--playing-card-ten-of-diamonds)}
+.playing-card-ten-of-diamonds-after::after{content:var(--playing-card-ten-of-diamonds)}
+.playing-card-ten-of-diamonds-both::after, .playing-card-ten-of-diamonds-both::before {content:var(--playing-card-ten-of-diamonds)}
+.playing-card-ten-of-diamonds-list { list-style: var(--playing-card-ten-of-diamonds)}
+
+
+
+.playing-card-ten-of-hearts::before, .playing-card-ten-of-hearts-before::before{ content:var(--playing-card-ten-of-hearts)}
+.playing-card-ten-of-hearts-after::after{content:var(--playing-card-ten-of-hearts)}
+.playing-card-ten-of-hearts-both::after, .playing-card-ten-of-hearts-both::before {content:var(--playing-card-ten-of-hearts)}
+.playing-card-ten-of-hearts-list { list-style: var(--playing-card-ten-of-hearts)}
+
+
+
+.playing-card-ten-of-spades::before, .playing-card-ten-of-spades-before::before{ content:var(--playing-card-ten-of-spades)}
+.playing-card-ten-of-spades-after::after{content:var(--playing-card-ten-of-spades)}
+.playing-card-ten-of-spades-both::after, .playing-card-ten-of-spades-both::before {content:var(--playing-card-ten-of-spades)}
+.playing-card-ten-of-spades-list { list-style: var(--playing-card-ten-of-spades)}
+
+
+
+.playing-card-three-of-clubs::before, .playing-card-three-of-clubs-before::before{ content:var(--playing-card-three-of-clubs)}
+.playing-card-three-of-clubs-after::after{content:var(--playing-card-three-of-clubs)}
+.playing-card-three-of-clubs-both::after, .playing-card-three-of-clubs-both::before {content:var(--playing-card-three-of-clubs)}
+.playing-card-three-of-clubs-list { list-style: var(--playing-card-three-of-clubs)}
+
+
+
+.playing-card-three-of-diamonds::before, .playing-card-three-of-diamonds-before::before{ content:var(--playing-card-three-of-diamonds)}
+.playing-card-three-of-diamonds-after::after{content:var(--playing-card-three-of-diamonds)}
+.playing-card-three-of-diamonds-both::after, .playing-card-three-of-diamonds-both::before {content:var(--playing-card-three-of-diamonds)}
+.playing-card-three-of-diamonds-list { list-style: var(--playing-card-three-of-diamonds)}
+
+
+
+.playing-card-three-of-hearts::before, .playing-card-three-of-hearts-before::before{ content:var(--playing-card-three-of-hearts)}
+.playing-card-three-of-hearts-after::after{content:var(--playing-card-three-of-hearts)}
+.playing-card-three-of-hearts-both::after, .playing-card-three-of-hearts-both::before {content:var(--playing-card-three-of-hearts)}
+.playing-card-three-of-hearts-list { list-style: var(--playing-card-three-of-hearts)}
+
+
+
+.playing-card-three-of-spades::before, .playing-card-three-of-spades-before::before{ content:var(--playing-card-three-of-spades)}
+.playing-card-three-of-spades-after::after{content:var(--playing-card-three-of-spades)}
+.playing-card-three-of-spades-both::after, .playing-card-three-of-spades-both::before {content:var(--playing-card-three-of-spades)}
+.playing-card-three-of-spades-list { list-style: var(--playing-card-three-of-spades)}
+
+
+
+.playing-card-trump-1::before, .playing-card-trump-1-before::before{ content:var(--playing-card-trump-1)}
+.playing-card-trump-1-after::after{content:var(--playing-card-trump-1)}
+.playing-card-trump-1-both::after, .playing-card-trump-1-both::before {content:var(--playing-card-trump-1)}
+.playing-card-trump-1-list { list-style: var(--playing-card-trump-1)}
+
+
+
+.playing-card-trump-10::before, .playing-card-trump-10-before::before{ content:var(--playing-card-trump-10)}
+.playing-card-trump-10-after::after{content:var(--playing-card-trump-10)}
+.playing-card-trump-10-both::after, .playing-card-trump-10-both::before {content:var(--playing-card-trump-10)}
+.playing-card-trump-10-list { list-style: var(--playing-card-trump-10)}
+
+
+
+.playing-card-trump-11::before, .playing-card-trump-11-before::before{ content:var(--playing-card-trump-11)}
+.playing-card-trump-11-after::after{content:var(--playing-card-trump-11)}
+.playing-card-trump-11-both::after, .playing-card-trump-11-both::before {content:var(--playing-card-trump-11)}
+.playing-card-trump-11-list { list-style: var(--playing-card-trump-11)}
+
+
+
+.playing-card-trump-12::before, .playing-card-trump-12-before::before{ content:var(--playing-card-trump-12)}
+.playing-card-trump-12-after::after{content:var(--playing-card-trump-12)}
+.playing-card-trump-12-both::after, .playing-card-trump-12-both::before {content:var(--playing-card-trump-12)}
+.playing-card-trump-12-list { list-style: var(--playing-card-trump-12)}
+
+
+
+.playing-card-trump-13::before, .playing-card-trump-13-before::before{ content:var(--playing-card-trump-13)}
+.playing-card-trump-13-after::after{content:var(--playing-card-trump-13)}
+.playing-card-trump-13-both::after, .playing-card-trump-13-both::before {content:var(--playing-card-trump-13)}
+.playing-card-trump-13-list { list-style: var(--playing-card-trump-13)}
+
+
+
+.playing-card-trump-14::before, .playing-card-trump-14-before::before{ content:var(--playing-card-trump-14)}
+.playing-card-trump-14-after::after{content:var(--playing-card-trump-14)}
+.playing-card-trump-14-both::after, .playing-card-trump-14-both::before {content:var(--playing-card-trump-14)}
+.playing-card-trump-14-list { list-style: var(--playing-card-trump-14)}
+
+
+
+.playing-card-trump-15::before, .playing-card-trump-15-before::before{ content:var(--playing-card-trump-15)}
+.playing-card-trump-15-after::after{content:var(--playing-card-trump-15)}
+.playing-card-trump-15-both::after, .playing-card-trump-15-both::before {content:var(--playing-card-trump-15)}
+.playing-card-trump-15-list { list-style: var(--playing-card-trump-15)}
+
+
+
+.playing-card-trump-16::before, .playing-card-trump-16-before::before{ content:var(--playing-card-trump-16)}
+.playing-card-trump-16-after::after{content:var(--playing-card-trump-16)}
+.playing-card-trump-16-both::after, .playing-card-trump-16-both::before {content:var(--playing-card-trump-16)}
+.playing-card-trump-16-list { list-style: var(--playing-card-trump-16)}
+
+
+
+.playing-card-trump-17::before, .playing-card-trump-17-before::before{ content:var(--playing-card-trump-17)}
+.playing-card-trump-17-after::after{content:var(--playing-card-trump-17)}
+.playing-card-trump-17-both::after, .playing-card-trump-17-both::before {content:var(--playing-card-trump-17)}
+.playing-card-trump-17-list { list-style: var(--playing-card-trump-17)}
+
+
+
+.playing-card-trump-18::before, .playing-card-trump-18-before::before{ content:var(--playing-card-trump-18)}
+.playing-card-trump-18-after::after{content:var(--playing-card-trump-18)}
+.playing-card-trump-18-both::after, .playing-card-trump-18-both::before {content:var(--playing-card-trump-18)}
+.playing-card-trump-18-list { list-style: var(--playing-card-trump-18)}
+
+
+
+.playing-card-trump-19::before, .playing-card-trump-19-before::before{ content:var(--playing-card-trump-19)}
+.playing-card-trump-19-after::after{content:var(--playing-card-trump-19)}
+.playing-card-trump-19-both::after, .playing-card-trump-19-both::before {content:var(--playing-card-trump-19)}
+.playing-card-trump-19-list { list-style: var(--playing-card-trump-19)}
+
+
+
+.playing-card-trump-2::before, .playing-card-trump-2-before::before{ content:var(--playing-card-trump-2)}
+.playing-card-trump-2-after::after{content:var(--playing-card-trump-2)}
+.playing-card-trump-2-both::after, .playing-card-trump-2-both::before {content:var(--playing-card-trump-2)}
+.playing-card-trump-2-list { list-style: var(--playing-card-trump-2)}
+
+
+
+.playing-card-trump-20::before, .playing-card-trump-20-before::before{ content:var(--playing-card-trump-20)}
+.playing-card-trump-20-after::after{content:var(--playing-card-trump-20)}
+.playing-card-trump-20-both::after, .playing-card-trump-20-both::before {content:var(--playing-card-trump-20)}
+.playing-card-trump-20-list { list-style: var(--playing-card-trump-20)}
+
+
+
+.playing-card-trump-21::before, .playing-card-trump-21-before::before{ content:var(--playing-card-trump-21)}
+.playing-card-trump-21-after::after{content:var(--playing-card-trump-21)}
+.playing-card-trump-21-both::after, .playing-card-trump-21-both::before {content:var(--playing-card-trump-21)}
+.playing-card-trump-21-list { list-style: var(--playing-card-trump-21)}
+
+
+
+.playing-card-trump-3::before, .playing-card-trump-3-before::before{ content:var(--playing-card-trump-3)}
+.playing-card-trump-3-after::after{content:var(--playing-card-trump-3)}
+.playing-card-trump-3-both::after, .playing-card-trump-3-both::before {content:var(--playing-card-trump-3)}
+.playing-card-trump-3-list { list-style: var(--playing-card-trump-3)}
+
+
+
+.playing-card-trump-4::before, .playing-card-trump-4-before::before{ content:var(--playing-card-trump-4)}
+.playing-card-trump-4-after::after{content:var(--playing-card-trump-4)}
+.playing-card-trump-4-both::after, .playing-card-trump-4-both::before {content:var(--playing-card-trump-4)}
+.playing-card-trump-4-list { list-style: var(--playing-card-trump-4)}
+
+
+
+.playing-card-trump-5::before, .playing-card-trump-5-before::before{ content:var(--playing-card-trump-5)}
+.playing-card-trump-5-after::after{content:var(--playing-card-trump-5)}
+.playing-card-trump-5-both::after, .playing-card-trump-5-both::before {content:var(--playing-card-trump-5)}
+.playing-card-trump-5-list { list-style: var(--playing-card-trump-5)}
+
+
+
+.playing-card-trump-6::before, .playing-card-trump-6-before::before{ content:var(--playing-card-trump-6)}
+.playing-card-trump-6-after::after{content:var(--playing-card-trump-6)}
+.playing-card-trump-6-both::after, .playing-card-trump-6-both::before {content:var(--playing-card-trump-6)}
+.playing-card-trump-6-list { list-style: var(--playing-card-trump-6)}
+
+
+
+.playing-card-trump-7::before, .playing-card-trump-7-before::before{ content:var(--playing-card-trump-7)}
+.playing-card-trump-7-after::after{content:var(--playing-card-trump-7)}
+.playing-card-trump-7-both::after, .playing-card-trump-7-both::before {content:var(--playing-card-trump-7)}
+.playing-card-trump-7-list { list-style: var(--playing-card-trump-7)}
+
+
+
+.playing-card-trump-8::before, .playing-card-trump-8-before::before{ content:var(--playing-card-trump-8)}
+.playing-card-trump-8-after::after{content:var(--playing-card-trump-8)}
+.playing-card-trump-8-both::after, .playing-card-trump-8-both::before {content:var(--playing-card-trump-8)}
+.playing-card-trump-8-list { list-style: var(--playing-card-trump-8)}
+
+
+
+.playing-card-trump-9::before, .playing-card-trump-9-before::before{ content:var(--playing-card-trump-9)}
+.playing-card-trump-9-after::after{content:var(--playing-card-trump-9)}
+.playing-card-trump-9-both::after, .playing-card-trump-9-both::before {content:var(--playing-card-trump-9)}
+.playing-card-trump-9-list { list-style: var(--playing-card-trump-9)}
+
+
+
+.playing-card-two-of-clubs::before, .playing-card-two-of-clubs-before::before{ content:var(--playing-card-two-of-clubs)}
+.playing-card-two-of-clubs-after::after{content:var(--playing-card-two-of-clubs)}
+.playing-card-two-of-clubs-both::after, .playing-card-two-of-clubs-both::before {content:var(--playing-card-two-of-clubs)}
+.playing-card-two-of-clubs-list { list-style: var(--playing-card-two-of-clubs)}
+
+
+
+.playing-card-two-of-diamonds::before, .playing-card-two-of-diamonds-before::before{ content:var(--playing-card-two-of-diamonds)}
+.playing-card-two-of-diamonds-after::after{content:var(--playing-card-two-of-diamonds)}
+.playing-card-two-of-diamonds-both::after, .playing-card-two-of-diamonds-both::before {content:var(--playing-card-two-of-diamonds)}
+.playing-card-two-of-diamonds-list { list-style: var(--playing-card-two-of-diamonds)}
+
+
+
+.playing-card-two-of-hearts::before, .playing-card-two-of-hearts-before::before{ content:var(--playing-card-two-of-hearts)}
+.playing-card-two-of-hearts-after::after{content:var(--playing-card-two-of-hearts)}
+.playing-card-two-of-hearts-both::after, .playing-card-two-of-hearts-both::before {content:var(--playing-card-two-of-hearts)}
+.playing-card-two-of-hearts-list { list-style: var(--playing-card-two-of-hearts)}
+
+
+
+.playing-card-two-of-spades::before, .playing-card-two-of-spades-before::before{ content:var(--playing-card-two-of-spades)}
+.playing-card-two-of-spades-after::after{content:var(--playing-card-two-of-spades)}
+.playing-card-two-of-spades-both::after, .playing-card-two-of-spades-both::before {content:var(--playing-card-two-of-spades)}
+.playing-card-two-of-spades-list { list-style: var(--playing-card-two-of-spades)}
+
+
+
+.playing-card-white-joker::before, .playing-card-white-joker-before::before{ content:var(--playing-card-white-joker)}
+.playing-card-white-joker-after::after{content:var(--playing-card-white-joker)}
+.playing-card-white-joker-both::after, .playing-card-white-joker-both::before {content:var(--playing-card-white-joker)}
+.playing-card-white-joker-list { list-style: var(--playing-card-white-joker)}
+}
