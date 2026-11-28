@@ -1,0 +1,39 @@
+:root {
+  --name: SLOMP;
+  --black: #1e1e1e;
+  --red: #d65a77;
+  --green: #bd9a6e;
+  --yellow: #ca9bbc;
+  --blue: #6774af;
+  --purple: #c86ead;
+  --cyan: #6cafbd;
+  --white: #d4d4d4;
+  --brightBlack: #808080;
+  --brightRed: #d65a77;
+  --brightGreen: #bd9a6e;
+  --brightYellow: #bd9a6e;
+  --brightBlue: #a41e6a;
+  --brightPurple: #c86ead;
+  --brightCyan: #6cafbd;
+  --brightWhite: #ffffff;
+  --background: #1e1e1e;
+  --foreground: #d4d4d4;
+  --cursorColor: #c86ead;
+  --selectionBackground: #0c363f;
+  --luma: 0.117647;
+  --contrast: 0.713726;
+  --paletteName: SLOMP;
+  --paletteFileName: SLOMP;
+  --isBright: 0;
+  --isDark: 1  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
