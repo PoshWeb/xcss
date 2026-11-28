@@ -1,0 +1,39 @@
+:root {
+  --name: Lumina Nebula Dark;
+  --black: #1a1c2c;
+  --red: #d57068;
+  --green: #8fdcba;
+  --yellow: #f3c085;
+  --blue: #c6d6e8;
+  --purple: #e5aedf;
+  --cyan: #88d2da;
+  --white: #bdc1cb;
+  --brightBlack: #838ba5;
+  --brightRed: #e2928a;
+  --brightGreen: #b0f5d5;
+  --brightYellow: #ffdfba;
+  --brightBlue: #d8eaff;
+  --brightPurple: #ffc8f9;
+  --brightCyan: #a1ecf5;
+  --brightWhite: #dde1ec;
+  --background: #161826;
+  --foreground: #dde1ec;
+  --cursorColor: #dde1ec;
+  --selectionBackground: #393856;
+  --luma: 0.096414;
+  --contrast: 0.785719;
+  --paletteName: Lumina Nebula Dark;
+  --paletteFileName: Lumina-Nebula-Dark;
+  --isBright: 0;
+  --isDark: 1  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
