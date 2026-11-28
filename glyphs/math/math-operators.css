@@ -1,0 +1,2052 @@
+@layer mathematical-operators {
+:root {
+--all-equal-to:'\224C';
+--almost-equal-or-equal-to:'\224A';
+--almost-equal-to:'\2248';
+--angle:'\2220';
+--anticlockwise-contour-integral:'\2233';
+--approaches-the-limit:'\2250';
+--approximately-but-not-actually-equal-to:'\2246';
+--approximately-equal-to:'\2245';
+--approximately-equal-to-or-the-image-of:'\2252';
+--assertion:'\22A6';
+--asterisk-operator:'\2217';
+--asymptotically-equal-to:'\2243';
+--because:'\2235';
+--between:'\226C';
+--bowtie:'\22C8';
+--bullet-operator:'\2219';
+--circled-asterisk-operator:'\229B';
+--circled-dash:'\229D';
+--circled-division-slash:'\2298';
+--circled-dot-operator:'\2299';
+--circled-equals:'\229C';
+--circled-minus:'\2296';
+--circled-plus:'\2295';
+--circled-ring-operator:'\229A';
+--circled-times:'\2297';
+--clockwise-contour-integral:'\2232';
+--clockwise-integral:'\2231';
+--colon-equals:'\2254';
+--complement:'\2201';
+--contains-as-member:'\220B';
+--contains-as-normal-subgroup:'\22B3';
+--contains-as-normal-subgroup-or-equal-to:'\22B5';
+--contains-with-long-horizontal-stroke:'\22FA';
+--contains-with-overbar:'\22FD';
+--contains-with-vertical-bar-at-end-of-horizontal-stroke:'\22FB';
+--contour-integral:'\222E';
+--corresponds-to:'\2258';
+--cube-root:'\221B';
+--curly-logical-and:'\22CF';
+--curly-logical-or:'\22CE';
+--delta-equal-to:'\225C';
+--diamond-operator:'\22C4';
+--difference-between:'\224F';
+--divides:'\2223';
+--division-slash:'\2215';
+--division-times:'\22C7';
+--does-not-contain-as-member:'\220C';
+--does-not-contain-as-normal-subgroup:'\22EB';
+--does-not-contain-as-normal-subgroup-or-equal:'\22ED';
+--does-not-divide:'\2224';
+--does-not-force:'\22AE';
+--does-not-precede:'\2280';
+--does-not-precede-or-equal:'\22E0';
+--does-not-prove:'\22AC';
+--does-not-succeed:'\2281';
+--does-not-succeed-or-equal:'\22E1';
+--dot-minus:'\2238';
+--dot-operator:'\22C5';
+--dot-plus:'\2214';
+--double-integral:'\222C';
+--double-intersection:'\22D2';
+--double-subset:'\22D0';
+--double-superset:'\22D1';
+--double-union:'\22D3';
+--double-vertical-bar-double-right-turnstile:'\22AB';
+--down-right-diagonal-ellipsis:'\22F1';
+--down-tack:'\22A4';
+--element-of:'\2208';
+--element-of-with-dot-above:'\22F5';
+--element-of-with-long-horizontal-stroke:'\22F2';
+--element-of-with-overbar:'\22F6';
+--element-of-with-two-horizontal-strokes:'\22F9';
+--element-of-with-underbar:'\22F8';
+--element-of-with-vertical-bar-at-end-of-horizontal-stroke:'\22F3';
+--empty-set:'\2205';
+--end-of-proof:'\220E';
+--equal-and-parallel-to:'\22D5';
+--equal-to-by-definition:'\225D';
+--equal-to-or-greater-than:'\22DD';
+--equal-to-or-less-than:'\22DC';
+--equal-to-or-precedes:'\22DE';
+--equal-to-or-succeeds:'\22DF';
+--equals-colon:'\2255';
+--equiangular-to:'\225A';
+--equivalent-to:'\224D';
+--estimates:'\2259';
+--excess:'\2239';
+--for-all:'\2200';
+--forces:'\22A9';
+--fourth-root:'\221C';
+--geometric-proportion:'\223A';
+--geometrically-equal-to:'\2251';
+--geometrically-equivalent-to:'\224E';
+--greater-than-but-not-equal-to:'\2269';
+--greater-than-but-not-equivalent-to:'\22E7';
+--greater-than-equal-to-or-less-than:'\22DB';
+--greater-than-or-equal-to:'\2265';
+--greater-than-or-equivalent-to:'\2273';
+--greater-than-or-less-than:'\2277';
+--greater-than-over-equal-to:'\2267';
+--greater-than-with-dot:'\22D7';
+--hermitian-conjugate-matrix:'\22B9';
+--homothetic:'\223B';
+--identical-to:'\2261';
+--image-of:'\22B7';
+--image-of-or-approximately-equal-to:'\2253';
+--increment:'\2206';
+--infinity:'\221E';
+--integral:'\222B';
+--intercalate:'\22BA';
+--intersection:'\2229';
+--inverted-lazy-s:'\223E';
+--left-normal-factor-semidirect-product:'\22C9';
+--left-semidirect-product:'\22CB';
+--left-tack:'\22A3';
+--less-than-but-not-equal-to:'\2268';
+--less-than-but-not-equivalent-to:'\22E6';
+--less-than-equal-to-or-greater-than:'\22DA';
+--less-than-or-equal-to:'\2264';
+--less-than-or-equivalent-to:'\2272';
+--less-than-or-greater-than:'\2276';
+--less-than-over-equal-to:'\2266';
+--less-than-with-dot:'\22D6';
+--logical-and:'\2227';
+--logical-or:'\2228';
+--measured-angle:'\2221';
+--measured-by:'\225E';
+--midline-horizontal-ellipsis:'\22EF';
+--minus-sign:'\2212';
+--minus-tilde:'\2242';
+--minus-or-plus-sign:'\2213';
+--models:'\22A7';
+--much-greater-than:'\226B';
+--much-less-than:'\226A';
+--multimap:'\22B8';
+--multiset:'\228C';
+--multiset-multiplication:'\228D';
+--multiset-union:'\228E';
+--n-ary-coproduct:'\2210';
+--n-ary-intersection:'\22C2';
+--n-ary-logical-and:'\22C0';
+--n-ary-logical-or:'\22C1';
+--n-ary-product:'\220F';
+--n-ary-summation:'\2211';
+--n-ary-union:'\22C3';
+--nabla:'\2207';
+--nand:'\22BC';
+--negated-double-vertical-bar-double-right-turnstile:'\22AF';
+--neither-a-subset-of-nor-equal-to:'\2288';
+--neither-a-superset-of-nor-equal-to:'\2289';
+--neither-approximately-nor-actually-equal-to:'\2247';
+--neither-greater-than-nor-equal-to:'\2271';
+--neither-greater-than-nor-equivalent-to:'\2275';
+--neither-greater-than-nor-less-than:'\2279';
+--neither-less-than-nor-equal-to:'\2270';
+--neither-less-than-nor-equivalent-to:'\2274';
+--neither-less-than-nor-greater-than:'\2278';
+--nor:'\22BD';
+--normal-subgroup-of:'\22B2';
+--normal-subgroup-of-or-equal-to:'\22B4';
+--not-a-subset-of:'\2284';
+--not-a-superset-of:'\2285';
+--not-almost-equal-to:'\2249';
+--not-an-element-of:'\2209';
+--not-asymptotically-equal-to:'\2244';
+--not-equal-to:'\2260';
+--not-equivalent-to:'\226D';
+--not-greater-than:'\226F';
+--not-identical-to:'\2262';
+--not-less-than:'\226E';
+--not-normal-subgroup-of:'\22EA';
+--not-normal-subgroup-of-or-equal-to:'\22EC';
+--not-parallel-to:'\2226';
+--not-square-image-of-or-equal-to:'\22E2';
+--not-square-original-of-or-equal-to:'\22E3';
+--not-tilde:'\2241';
+--not-true:'\22AD';
+--original-of:'\22B6';
+--parallel-to:'\2225';
+--partial-differential:'\2202';
+--pitchfork:'\22D4';
+--precedes:'\227A';
+--precedes-but-not-equivalent-to:'\22E8';
+--precedes-or-equal-to:'\227C';
+--precedes-or-equivalent-to:'\227E';
+--precedes-under-relation:'\22B0';
+--proportion:'\2237';
+--proportional-to:'\221D';
+--questioned-equal-to:'\225F';
+--ratio:'\2236';
+--reversed-tilde:'\223D';
+--reversed-tilde-equals:'\22CD';
+--right-angle:'\221F';
+--right-angle-with-arc:'\22BE';
+--right-normal-factor-semidirect-product:'\22CA';
+--right-semidirect-product:'\22CC';
+--right-tack:'\22A2';
+--right-triangle:'\22BF';
+--ring-equal-to:'\2257';
+--ring-in-equal-to:'\2256';
+--ring-operator:'\2218';
+--set-minus:'\2216';
+--sine-wave:'\223F';
+--small-contains-as-member:'\220D';
+--small-contains-with-overbar:'\22FE';
+--small-contains-with-vertical-bar-at-end-of-horizontal-stroke:'\22FC';
+--small-element-of:'\220A';
+--small-element-of-with-overbar:'\22F7';
+--small-element-of-with-vertical-bar-at-end-of-horizontal-stroke:'\22F4';
+--spherical-angle:'\2222';
+--square-cap:'\2293';
+--square-cup:'\2294';
+--square-image-of:'\228F';
+--square-image-of-or-equal-to:'\2291';
+--square-image-of-or-not-equal-to:'\22E4';
+--square-original-of:'\2290';
+--square-original-of-or-equal-to:'\2292';
+--square-original-of-or-not-equal-to:'\22E5';
+--square-root:'\221A';
+--squared-dot-operator:'\22A1';
+--squared-minus:'\229F';
+--squared-plus:'\229E';
+--squared-times:'\22A0';
+--star-equals:'\225B';
+--star-operator:'\22C6';
+--strictly-equivalent-to:'\2263';
+--subset-of:'\2282';
+--subset-of-or-equal-to:'\2286';
+--subset-of-with-not-equal-to:'\228A';
+--succeeds:'\227B';
+--succeeds-but-not-equivalent-to:'\22E9';
+--succeeds-or-equal-to:'\227D';
+--succeeds-or-equivalent-to:'\227F';
+--succeeds-under-relation:'\22B1';
+--superset-of:'\2283';
+--superset-of-or-equal-to:'\2287';
+--superset-of-with-not-equal-to:'\228B';
+--surface-integral:'\222F';
+--there-does-not-exist:'\2204';
+--there-exists:'\2203';
+--therefore:'\2234';
+--tilde-operator:'\223C';
+--triple-integral:'\222D';
+--triple-tilde:'\224B';
+--triple-vertical-bar-right-turnstile:'\22AA';
+--true:'\22A8';
+--union:'\222A';
+--up-right-diagonal-ellipsis:'\22F0';
+--up-tack:'\22A5';
+--vertical-ellipsis:'\22EE';
+--very-much-greater-than:'\22D9';
+--very-much-less-than:'\22D8';
+--volume-integral:'\2230';
+--wreath-product:'\2240';
+--xor:'\22BB';
+--z-notation-bag-membership:'\22FF';
+}
+
+
+
+.all-equal-to::before, .all-equal-to-before::before{ content:var(--all-equal-to)}
+.all-equal-to-after::after{content:var(--all-equal-to)}
+.all-equal-to-both::after, .all-equal-to-both::before {content:var(--all-equal-to)}
+.all-equal-to-list { list-style: var(--all-equal-to)}
+
+
+
+.almost-equal-or-equal-to::before, .almost-equal-or-equal-to-before::before{ content:var(--almost-equal-or-equal-to)}
+.almost-equal-or-equal-to-after::after{content:var(--almost-equal-or-equal-to)}
+.almost-equal-or-equal-to-both::after, .almost-equal-or-equal-to-both::before {content:var(--almost-equal-or-equal-to)}
+.almost-equal-or-equal-to-list { list-style: var(--almost-equal-or-equal-to)}
+
+
+
+.almost-equal-to::before, .almost-equal-to-before::before{ content:var(--almost-equal-to)}
+.almost-equal-to-after::after{content:var(--almost-equal-to)}
+.almost-equal-to-both::after, .almost-equal-to-both::before {content:var(--almost-equal-to)}
+.almost-equal-to-list { list-style: var(--almost-equal-to)}
+
+
+
+.angle::before, .angle-before::before{ content:var(--angle)}
+.angle-after::after{content:var(--angle)}
+.angle-both::after, .angle-both::before {content:var(--angle)}
+.angle-list { list-style: var(--angle)}
+
+
+
+.anticlockwise-contour-integral::before, .anticlockwise-contour-integral-before::before{ content:var(--anticlockwise-contour-integral)}
+.anticlockwise-contour-integral-after::after{content:var(--anticlockwise-contour-integral)}
+.anticlockwise-contour-integral-both::after, .anticlockwise-contour-integral-both::before {content:var(--anticlockwise-contour-integral)}
+.anticlockwise-contour-integral-list { list-style: var(--anticlockwise-contour-integral)}
+
+
+
+.approaches-the-limit::before, .approaches-the-limit-before::before{ content:var(--approaches-the-limit)}
+.approaches-the-limit-after::after{content:var(--approaches-the-limit)}
+.approaches-the-limit-both::after, .approaches-the-limit-both::before {content:var(--approaches-the-limit)}
+.approaches-the-limit-list { list-style: var(--approaches-the-limit)}
+
+
+
+.approximately-but-not-actually-equal-to::before, .approximately-but-not-actually-equal-to-before::before{ content:var(--approximately-but-not-actually-equal-to)}
+.approximately-but-not-actually-equal-to-after::after{content:var(--approximately-but-not-actually-equal-to)}
+.approximately-but-not-actually-equal-to-both::after, .approximately-but-not-actually-equal-to-both::before {content:var(--approximately-but-not-actually-equal-to)}
+.approximately-but-not-actually-equal-to-list { list-style: var(--approximately-but-not-actually-equal-to)}
+
+
+
+.approximately-equal-to::before, .approximately-equal-to-before::before{ content:var(--approximately-equal-to)}
+.approximately-equal-to-after::after{content:var(--approximately-equal-to)}
+.approximately-equal-to-both::after, .approximately-equal-to-both::before {content:var(--approximately-equal-to)}
+.approximately-equal-to-list { list-style: var(--approximately-equal-to)}
+
+
+
+.approximately-equal-to-or-the-image-of::before, .approximately-equal-to-or-the-image-of-before::before{ content:var(--approximately-equal-to-or-the-image-of)}
+.approximately-equal-to-or-the-image-of-after::after{content:var(--approximately-equal-to-or-the-image-of)}
+.approximately-equal-to-or-the-image-of-both::after, .approximately-equal-to-or-the-image-of-both::before {content:var(--approximately-equal-to-or-the-image-of)}
+.approximately-equal-to-or-the-image-of-list { list-style: var(--approximately-equal-to-or-the-image-of)}
+
+
+
+.assertion::before, .assertion-before::before{ content:var(--assertion)}
+.assertion-after::after{content:var(--assertion)}
+.assertion-both::after, .assertion-both::before {content:var(--assertion)}
+.assertion-list { list-style: var(--assertion)}
+
+
+
+.asterisk-operator::before, .asterisk-operator-before::before{ content:var(--asterisk-operator)}
+.asterisk-operator-after::after{content:var(--asterisk-operator)}
+.asterisk-operator-both::after, .asterisk-operator-both::before {content:var(--asterisk-operator)}
+.asterisk-operator-list { list-style: var(--asterisk-operator)}
+
+
+
+.asymptotically-equal-to::before, .asymptotically-equal-to-before::before{ content:var(--asymptotically-equal-to)}
+.asymptotically-equal-to-after::after{content:var(--asymptotically-equal-to)}
+.asymptotically-equal-to-both::after, .asymptotically-equal-to-both::before {content:var(--asymptotically-equal-to)}
+.asymptotically-equal-to-list { list-style: var(--asymptotically-equal-to)}
+
+
+
+.because::before, .because-before::before{ content:var(--because)}
+.because-after::after{content:var(--because)}
+.because-both::after, .because-both::before {content:var(--because)}
+.because-list { list-style: var(--because)}
+
+
+
+.between::before, .between-before::before{ content:var(--between)}
+.between-after::after{content:var(--between)}
+.between-both::after, .between-both::before {content:var(--between)}
+.between-list { list-style: var(--between)}
+
+
+
+.bowtie::before, .bowtie-before::before{ content:var(--bowtie)}
+.bowtie-after::after{content:var(--bowtie)}
+.bowtie-both::after, .bowtie-both::before {content:var(--bowtie)}
+.bowtie-list { list-style: var(--bowtie)}
+
+
+
+.bullet-operator::before, .bullet-operator-before::before{ content:var(--bullet-operator)}
+.bullet-operator-after::after{content:var(--bullet-operator)}
+.bullet-operator-both::after, .bullet-operator-both::before {content:var(--bullet-operator)}
+.bullet-operator-list { list-style: var(--bullet-operator)}
+
+
+
+.circled-asterisk-operator::before, .circled-asterisk-operator-before::before{ content:var(--circled-asterisk-operator)}
+.circled-asterisk-operator-after::after{content:var(--circled-asterisk-operator)}
+.circled-asterisk-operator-both::after, .circled-asterisk-operator-both::before {content:var(--circled-asterisk-operator)}
+.circled-asterisk-operator-list { list-style: var(--circled-asterisk-operator)}
+
+
+
+.circled-dash::before, .circled-dash-before::before{ content:var(--circled-dash)}
+.circled-dash-after::after{content:var(--circled-dash)}
+.circled-dash-both::after, .circled-dash-both::before {content:var(--circled-dash)}
+.circled-dash-list { list-style: var(--circled-dash)}
+
+
+
+.circled-division-slash::before, .circled-division-slash-before::before{ content:var(--circled-division-slash)}
+.circled-division-slash-after::after{content:var(--circled-division-slash)}
+.circled-division-slash-both::after, .circled-division-slash-both::before {content:var(--circled-division-slash)}
+.circled-division-slash-list { list-style: var(--circled-division-slash)}
+
+
+
+.circled-dot-operator::before, .circled-dot-operator-before::before{ content:var(--circled-dot-operator)}
+.circled-dot-operator-after::after{content:var(--circled-dot-operator)}
+.circled-dot-operator-both::after, .circled-dot-operator-both::before {content:var(--circled-dot-operator)}
+.circled-dot-operator-list { list-style: var(--circled-dot-operator)}
+
+
+
+.circled-equals::before, .circled-equals-before::before{ content:var(--circled-equals)}
+.circled-equals-after::after{content:var(--circled-equals)}
+.circled-equals-both::after, .circled-equals-both::before {content:var(--circled-equals)}
+.circled-equals-list { list-style: var(--circled-equals)}
+
+
+
+.circled-minus::before, .circled-minus-before::before{ content:var(--circled-minus)}
+.circled-minus-after::after{content:var(--circled-minus)}
+.circled-minus-both::after, .circled-minus-both::before {content:var(--circled-minus)}
+.circled-minus-list { list-style: var(--circled-minus)}
+
+
+
+.circled-plus::before, .circled-plus-before::before{ content:var(--circled-plus)}
+.circled-plus-after::after{content:var(--circled-plus)}
+.circled-plus-both::after, .circled-plus-both::before {content:var(--circled-plus)}
+.circled-plus-list { list-style: var(--circled-plus)}
+
+
+
+.circled-ring-operator::before, .circled-ring-operator-before::before{ content:var(--circled-ring-operator)}
+.circled-ring-operator-after::after{content:var(--circled-ring-operator)}
+.circled-ring-operator-both::after, .circled-ring-operator-both::before {content:var(--circled-ring-operator)}
+.circled-ring-operator-list { list-style: var(--circled-ring-operator)}
+
+
+
+.circled-times::before, .circled-times-before::before{ content:var(--circled-times)}
+.circled-times-after::after{content:var(--circled-times)}
+.circled-times-both::after, .circled-times-both::before {content:var(--circled-times)}
+.circled-times-list { list-style: var(--circled-times)}
+
+
+
+.clockwise-contour-integral::before, .clockwise-contour-integral-before::before{ content:var(--clockwise-contour-integral)}
+.clockwise-contour-integral-after::after{content:var(--clockwise-contour-integral)}
+.clockwise-contour-integral-both::after, .clockwise-contour-integral-both::before {content:var(--clockwise-contour-integral)}
+.clockwise-contour-integral-list { list-style: var(--clockwise-contour-integral)}
+
+
+
+.clockwise-integral::before, .clockwise-integral-before::before{ content:var(--clockwise-integral)}
+.clockwise-integral-after::after{content:var(--clockwise-integral)}
+.clockwise-integral-both::after, .clockwise-integral-both::before {content:var(--clockwise-integral)}
+.clockwise-integral-list { list-style: var(--clockwise-integral)}
+
+
+
+.colon-equals::before, .colon-equals-before::before{ content:var(--colon-equals)}
+.colon-equals-after::after{content:var(--colon-equals)}
+.colon-equals-both::after, .colon-equals-both::before {content:var(--colon-equals)}
+.colon-equals-list { list-style: var(--colon-equals)}
+
+
+
+.complement::before, .complement-before::before{ content:var(--complement)}
+.complement-after::after{content:var(--complement)}
+.complement-both::after, .complement-both::before {content:var(--complement)}
+.complement-list { list-style: var(--complement)}
+
+
+
+.contains-as-member::before, .contains-as-member-before::before{ content:var(--contains-as-member)}
+.contains-as-member-after::after{content:var(--contains-as-member)}
+.contains-as-member-both::after, .contains-as-member-both::before {content:var(--contains-as-member)}
+.contains-as-member-list { list-style: var(--contains-as-member)}
+
+
+
+.contains-as-normal-subgroup::before, .contains-as-normal-subgroup-before::before{ content:var(--contains-as-normal-subgroup)}
+.contains-as-normal-subgroup-after::after{content:var(--contains-as-normal-subgroup)}
+.contains-as-normal-subgroup-both::after, .contains-as-normal-subgroup-both::before {content:var(--contains-as-normal-subgroup)}
+.contains-as-normal-subgroup-list { list-style: var(--contains-as-normal-subgroup)}
+
+
+
+.contains-as-normal-subgroup-or-equal-to::before, .contains-as-normal-subgroup-or-equal-to-before::before{ content:var(--contains-as-normal-subgroup-or-equal-to)}
+.contains-as-normal-subgroup-or-equal-to-after::after{content:var(--contains-as-normal-subgroup-or-equal-to)}
+.contains-as-normal-subgroup-or-equal-to-both::after, .contains-as-normal-subgroup-or-equal-to-both::before {content:var(--contains-as-normal-subgroup-or-equal-to)}
+.contains-as-normal-subgroup-or-equal-to-list { list-style: var(--contains-as-normal-subgroup-or-equal-to)}
+
+
+
+.contains-with-long-horizontal-stroke::before, .contains-with-long-horizontal-stroke-before::before{ content:var(--contains-with-long-horizontal-stroke)}
+.contains-with-long-horizontal-stroke-after::after{content:var(--contains-with-long-horizontal-stroke)}
+.contains-with-long-horizontal-stroke-both::after, .contains-with-long-horizontal-stroke-both::before {content:var(--contains-with-long-horizontal-stroke)}
+.contains-with-long-horizontal-stroke-list { list-style: var(--contains-with-long-horizontal-stroke)}
+
+
+
+.contains-with-overbar::before, .contains-with-overbar-before::before{ content:var(--contains-with-overbar)}
+.contains-with-overbar-after::after{content:var(--contains-with-overbar)}
+.contains-with-overbar-both::after, .contains-with-overbar-both::before {content:var(--contains-with-overbar)}
+.contains-with-overbar-list { list-style: var(--contains-with-overbar)}
+
+
+
+.contains-with-vertical-bar-at-end-of-horizontal-stroke::before, .contains-with-vertical-bar-at-end-of-horizontal-stroke-before::before{ content:var(--contains-with-vertical-bar-at-end-of-horizontal-stroke)}
+.contains-with-vertical-bar-at-end-of-horizontal-stroke-after::after{content:var(--contains-with-vertical-bar-at-end-of-horizontal-stroke)}
+.contains-with-vertical-bar-at-end-of-horizontal-stroke-both::after, .contains-with-vertical-bar-at-end-of-horizontal-stroke-both::before {content:var(--contains-with-vertical-bar-at-end-of-horizontal-stroke)}
+.contains-with-vertical-bar-at-end-of-horizontal-stroke-list { list-style: var(--contains-with-vertical-bar-at-end-of-horizontal-stroke)}
+
+
+
+.contour-integral::before, .contour-integral-before::before{ content:var(--contour-integral)}
+.contour-integral-after::after{content:var(--contour-integral)}
+.contour-integral-both::after, .contour-integral-both::before {content:var(--contour-integral)}
+.contour-integral-list { list-style: var(--contour-integral)}
+
+
+
+.corresponds-to::before, .corresponds-to-before::before{ content:var(--corresponds-to)}
+.corresponds-to-after::after{content:var(--corresponds-to)}
+.corresponds-to-both::after, .corresponds-to-both::before {content:var(--corresponds-to)}
+.corresponds-to-list { list-style: var(--corresponds-to)}
+
+
+
+.cube-root::before, .cube-root-before::before{ content:var(--cube-root)}
+.cube-root-after::after{content:var(--cube-root)}
+.cube-root-both::after, .cube-root-both::before {content:var(--cube-root)}
+.cube-root-list { list-style: var(--cube-root)}
+
+
+
+.curly-logical-and::before, .curly-logical-and-before::before{ content:var(--curly-logical-and)}
+.curly-logical-and-after::after{content:var(--curly-logical-and)}
+.curly-logical-and-both::after, .curly-logical-and-both::before {content:var(--curly-logical-and)}
+.curly-logical-and-list { list-style: var(--curly-logical-and)}
+
+
+
+.curly-logical-or::before, .curly-logical-or-before::before{ content:var(--curly-logical-or)}
+.curly-logical-or-after::after{content:var(--curly-logical-or)}
+.curly-logical-or-both::after, .curly-logical-or-both::before {content:var(--curly-logical-or)}
+.curly-logical-or-list { list-style: var(--curly-logical-or)}
+
+
+
+.delta-equal-to::before, .delta-equal-to-before::before{ content:var(--delta-equal-to)}
+.delta-equal-to-after::after{content:var(--delta-equal-to)}
+.delta-equal-to-both::after, .delta-equal-to-both::before {content:var(--delta-equal-to)}
+.delta-equal-to-list { list-style: var(--delta-equal-to)}
+
+
+
+.diamond-operator::before, .diamond-operator-before::before{ content:var(--diamond-operator)}
+.diamond-operator-after::after{content:var(--diamond-operator)}
+.diamond-operator-both::after, .diamond-operator-both::before {content:var(--diamond-operator)}
+.diamond-operator-list { list-style: var(--diamond-operator)}
+
+
+
+.difference-between::before, .difference-between-before::before{ content:var(--difference-between)}
+.difference-between-after::after{content:var(--difference-between)}
+.difference-between-both::after, .difference-between-both::before {content:var(--difference-between)}
+.difference-between-list { list-style: var(--difference-between)}
+
+
+
+.divides::before, .divides-before::before{ content:var(--divides)}
+.divides-after::after{content:var(--divides)}
+.divides-both::after, .divides-both::before {content:var(--divides)}
+.divides-list { list-style: var(--divides)}
+
+
+
+.division-slash::before, .division-slash-before::before{ content:var(--division-slash)}
+.division-slash-after::after{content:var(--division-slash)}
+.division-slash-both::after, .division-slash-both::before {content:var(--division-slash)}
+.division-slash-list { list-style: var(--division-slash)}
+
+
+
+.division-times::before, .division-times-before::before{ content:var(--division-times)}
+.division-times-after::after{content:var(--division-times)}
+.division-times-both::after, .division-times-both::before {content:var(--division-times)}
+.division-times-list { list-style: var(--division-times)}
+
+
+
+.does-not-contain-as-member::before, .does-not-contain-as-member-before::before{ content:var(--does-not-contain-as-member)}
+.does-not-contain-as-member-after::after{content:var(--does-not-contain-as-member)}
+.does-not-contain-as-member-both::after, .does-not-contain-as-member-both::before {content:var(--does-not-contain-as-member)}
+.does-not-contain-as-member-list { list-style: var(--does-not-contain-as-member)}
+
+
+
+.does-not-contain-as-normal-subgroup::before, .does-not-contain-as-normal-subgroup-before::before{ content:var(--does-not-contain-as-normal-subgroup)}
+.does-not-contain-as-normal-subgroup-after::after{content:var(--does-not-contain-as-normal-subgroup)}
+.does-not-contain-as-normal-subgroup-both::after, .does-not-contain-as-normal-subgroup-both::before {content:var(--does-not-contain-as-normal-subgroup)}
+.does-not-contain-as-normal-subgroup-list { list-style: var(--does-not-contain-as-normal-subgroup)}
+
+
+
+.does-not-contain-as-normal-subgroup-or-equal::before, .does-not-contain-as-normal-subgroup-or-equal-before::before{ content:var(--does-not-contain-as-normal-subgroup-or-equal)}
+.does-not-contain-as-normal-subgroup-or-equal-after::after{content:var(--does-not-contain-as-normal-subgroup-or-equal)}
+.does-not-contain-as-normal-subgroup-or-equal-both::after, .does-not-contain-as-normal-subgroup-or-equal-both::before {content:var(--does-not-contain-as-normal-subgroup-or-equal)}
+.does-not-contain-as-normal-subgroup-or-equal-list { list-style: var(--does-not-contain-as-normal-subgroup-or-equal)}
+
+
+
+.does-not-divide::before, .does-not-divide-before::before{ content:var(--does-not-divide)}
+.does-not-divide-after::after{content:var(--does-not-divide)}
+.does-not-divide-both::after, .does-not-divide-both::before {content:var(--does-not-divide)}
+.does-not-divide-list { list-style: var(--does-not-divide)}
+
+
+
+.does-not-force::before, .does-not-force-before::before{ content:var(--does-not-force)}
+.does-not-force-after::after{content:var(--does-not-force)}
+.does-not-force-both::after, .does-not-force-both::before {content:var(--does-not-force)}
+.does-not-force-list { list-style: var(--does-not-force)}
+
+
+
+.does-not-precede::before, .does-not-precede-before::before{ content:var(--does-not-precede)}
+.does-not-precede-after::after{content:var(--does-not-precede)}
+.does-not-precede-both::after, .does-not-precede-both::before {content:var(--does-not-precede)}
+.does-not-precede-list { list-style: var(--does-not-precede)}
+
+
+
+.does-not-precede-or-equal::before, .does-not-precede-or-equal-before::before{ content:var(--does-not-precede-or-equal)}
+.does-not-precede-or-equal-after::after{content:var(--does-not-precede-or-equal)}
+.does-not-precede-or-equal-both::after, .does-not-precede-or-equal-both::before {content:var(--does-not-precede-or-equal)}
+.does-not-precede-or-equal-list { list-style: var(--does-not-precede-or-equal)}
+
+
+
+.does-not-prove::before, .does-not-prove-before::before{ content:var(--does-not-prove)}
+.does-not-prove-after::after{content:var(--does-not-prove)}
+.does-not-prove-both::after, .does-not-prove-both::before {content:var(--does-not-prove)}
+.does-not-prove-list { list-style: var(--does-not-prove)}
+
+
+
+.does-not-succeed::before, .does-not-succeed-before::before{ content:var(--does-not-succeed)}
+.does-not-succeed-after::after{content:var(--does-not-succeed)}
+.does-not-succeed-both::after, .does-not-succeed-both::before {content:var(--does-not-succeed)}
+.does-not-succeed-list { list-style: var(--does-not-succeed)}
+
+
+
+.does-not-succeed-or-equal::before, .does-not-succeed-or-equal-before::before{ content:var(--does-not-succeed-or-equal)}
+.does-not-succeed-or-equal-after::after{content:var(--does-not-succeed-or-equal)}
+.does-not-succeed-or-equal-both::after, .does-not-succeed-or-equal-both::before {content:var(--does-not-succeed-or-equal)}
+.does-not-succeed-or-equal-list { list-style: var(--does-not-succeed-or-equal)}
+
+
+
+.dot-minus::before, .dot-minus-before::before{ content:var(--dot-minus)}
+.dot-minus-after::after{content:var(--dot-minus)}
+.dot-minus-both::after, .dot-minus-both::before {content:var(--dot-minus)}
+.dot-minus-list { list-style: var(--dot-minus)}
+
+
+
+.dot-operator::before, .dot-operator-before::before{ content:var(--dot-operator)}
+.dot-operator-after::after{content:var(--dot-operator)}
+.dot-operator-both::after, .dot-operator-both::before {content:var(--dot-operator)}
+.dot-operator-list { list-style: var(--dot-operator)}
+
+
+
+.dot-plus::before, .dot-plus-before::before{ content:var(--dot-plus)}
+.dot-plus-after::after{content:var(--dot-plus)}
+.dot-plus-both::after, .dot-plus-both::before {content:var(--dot-plus)}
+.dot-plus-list { list-style: var(--dot-plus)}
+
+
+
+.double-integral::before, .double-integral-before::before{ content:var(--double-integral)}
+.double-integral-after::after{content:var(--double-integral)}
+.double-integral-both::after, .double-integral-both::before {content:var(--double-integral)}
+.double-integral-list { list-style: var(--double-integral)}
+
+
+
+.double-intersection::before, .double-intersection-before::before{ content:var(--double-intersection)}
+.double-intersection-after::after{content:var(--double-intersection)}
+.double-intersection-both::after, .double-intersection-both::before {content:var(--double-intersection)}
+.double-intersection-list { list-style: var(--double-intersection)}
+
+
+
+.double-subset::before, .double-subset-before::before{ content:var(--double-subset)}
+.double-subset-after::after{content:var(--double-subset)}
+.double-subset-both::after, .double-subset-both::before {content:var(--double-subset)}
+.double-subset-list { list-style: var(--double-subset)}
+
+
+
+.double-superset::before, .double-superset-before::before{ content:var(--double-superset)}
+.double-superset-after::after{content:var(--double-superset)}
+.double-superset-both::after, .double-superset-both::before {content:var(--double-superset)}
+.double-superset-list { list-style: var(--double-superset)}
+
+
+
+.double-union::before, .double-union-before::before{ content:var(--double-union)}
+.double-union-after::after{content:var(--double-union)}
+.double-union-both::after, .double-union-both::before {content:var(--double-union)}
+.double-union-list { list-style: var(--double-union)}
+
+
+
+.double-vertical-bar-double-right-turnstile::before, .double-vertical-bar-double-right-turnstile-before::before{ content:var(--double-vertical-bar-double-right-turnstile)}
+.double-vertical-bar-double-right-turnstile-after::after{content:var(--double-vertical-bar-double-right-turnstile)}
+.double-vertical-bar-double-right-turnstile-both::after, .double-vertical-bar-double-right-turnstile-both::before {content:var(--double-vertical-bar-double-right-turnstile)}
+.double-vertical-bar-double-right-turnstile-list { list-style: var(--double-vertical-bar-double-right-turnstile)}
+
+
+
+.down-right-diagonal-ellipsis::before, .down-right-diagonal-ellipsis-before::before{ content:var(--down-right-diagonal-ellipsis)}
+.down-right-diagonal-ellipsis-after::after{content:var(--down-right-diagonal-ellipsis)}
+.down-right-diagonal-ellipsis-both::after, .down-right-diagonal-ellipsis-both::before {content:var(--down-right-diagonal-ellipsis)}
+.down-right-diagonal-ellipsis-list { list-style: var(--down-right-diagonal-ellipsis)}
+
+
+
+.down-tack::before, .down-tack-before::before{ content:var(--down-tack)}
+.down-tack-after::after{content:var(--down-tack)}
+.down-tack-both::after, .down-tack-both::before {content:var(--down-tack)}
+.down-tack-list { list-style: var(--down-tack)}
+
+
+
+.element-of::before, .element-of-before::before{ content:var(--element-of)}
+.element-of-after::after{content:var(--element-of)}
+.element-of-both::after, .element-of-both::before {content:var(--element-of)}
+.element-of-list { list-style: var(--element-of)}
+
+
+
+.element-of-with-dot-above::before, .element-of-with-dot-above-before::before{ content:var(--element-of-with-dot-above)}
+.element-of-with-dot-above-after::after{content:var(--element-of-with-dot-above)}
+.element-of-with-dot-above-both::after, .element-of-with-dot-above-both::before {content:var(--element-of-with-dot-above)}
+.element-of-with-dot-above-list { list-style: var(--element-of-with-dot-above)}
+
+
+
+.element-of-with-long-horizontal-stroke::before, .element-of-with-long-horizontal-stroke-before::before{ content:var(--element-of-with-long-horizontal-stroke)}
+.element-of-with-long-horizontal-stroke-after::after{content:var(--element-of-with-long-horizontal-stroke)}
+.element-of-with-long-horizontal-stroke-both::after, .element-of-with-long-horizontal-stroke-both::before {content:var(--element-of-with-long-horizontal-stroke)}
+.element-of-with-long-horizontal-stroke-list { list-style: var(--element-of-with-long-horizontal-stroke)}
+
+
+
+.element-of-with-overbar::before, .element-of-with-overbar-before::before{ content:var(--element-of-with-overbar)}
+.element-of-with-overbar-after::after{content:var(--element-of-with-overbar)}
+.element-of-with-overbar-both::after, .element-of-with-overbar-both::before {content:var(--element-of-with-overbar)}
+.element-of-with-overbar-list { list-style: var(--element-of-with-overbar)}
+
+
+
+.element-of-with-two-horizontal-strokes::before, .element-of-with-two-horizontal-strokes-before::before{ content:var(--element-of-with-two-horizontal-strokes)}
+.element-of-with-two-horizontal-strokes-after::after{content:var(--element-of-with-two-horizontal-strokes)}
+.element-of-with-two-horizontal-strokes-both::after, .element-of-with-two-horizontal-strokes-both::before {content:var(--element-of-with-two-horizontal-strokes)}
+.element-of-with-two-horizontal-strokes-list { list-style: var(--element-of-with-two-horizontal-strokes)}
+
+
+
+.element-of-with-underbar::before, .element-of-with-underbar-before::before{ content:var(--element-of-with-underbar)}
+.element-of-with-underbar-after::after{content:var(--element-of-with-underbar)}
+.element-of-with-underbar-both::after, .element-of-with-underbar-both::before {content:var(--element-of-with-underbar)}
+.element-of-with-underbar-list { list-style: var(--element-of-with-underbar)}
+
+
+
+.element-of-with-vertical-bar-at-end-of-horizontal-stroke::before, .element-of-with-vertical-bar-at-end-of-horizontal-stroke-before::before{ content:var(--element-of-with-vertical-bar-at-end-of-horizontal-stroke)}
+.element-of-with-vertical-bar-at-end-of-horizontal-stroke-after::after{content:var(--element-of-with-vertical-bar-at-end-of-horizontal-stroke)}
+.element-of-with-vertical-bar-at-end-of-horizontal-stroke-both::after, .element-of-with-vertical-bar-at-end-of-horizontal-stroke-both::before {content:var(--element-of-with-vertical-bar-at-end-of-horizontal-stroke)}
+.element-of-with-vertical-bar-at-end-of-horizontal-stroke-list { list-style: var(--element-of-with-vertical-bar-at-end-of-horizontal-stroke)}
+
+
+
+.empty-set::before, .empty-set-before::before{ content:var(--empty-set)}
+.empty-set-after::after{content:var(--empty-set)}
+.empty-set-both::after, .empty-set-both::before {content:var(--empty-set)}
+.empty-set-list { list-style: var(--empty-set)}
+
+
+
+.end-of-proof::before, .end-of-proof-before::before{ content:var(--end-of-proof)}
+.end-of-proof-after::after{content:var(--end-of-proof)}
+.end-of-proof-both::after, .end-of-proof-both::before {content:var(--end-of-proof)}
+.end-of-proof-list { list-style: var(--end-of-proof)}
+
+
+
+.equal-and-parallel-to::before, .equal-and-parallel-to-before::before{ content:var(--equal-and-parallel-to)}
+.equal-and-parallel-to-after::after{content:var(--equal-and-parallel-to)}
+.equal-and-parallel-to-both::after, .equal-and-parallel-to-both::before {content:var(--equal-and-parallel-to)}
+.equal-and-parallel-to-list { list-style: var(--equal-and-parallel-to)}
+
+
+
+.equal-to-by-definition::before, .equal-to-by-definition-before::before{ content:var(--equal-to-by-definition)}
+.equal-to-by-definition-after::after{content:var(--equal-to-by-definition)}
+.equal-to-by-definition-both::after, .equal-to-by-definition-both::before {content:var(--equal-to-by-definition)}
+.equal-to-by-definition-list { list-style: var(--equal-to-by-definition)}
+
+
+
+.equal-to-or-greater-than::before, .equal-to-or-greater-than-before::before{ content:var(--equal-to-or-greater-than)}
+.equal-to-or-greater-than-after::after{content:var(--equal-to-or-greater-than)}
+.equal-to-or-greater-than-both::after, .equal-to-or-greater-than-both::before {content:var(--equal-to-or-greater-than)}
+.equal-to-or-greater-than-list { list-style: var(--equal-to-or-greater-than)}
+
+
+
+.equal-to-or-less-than::before, .equal-to-or-less-than-before::before{ content:var(--equal-to-or-less-than)}
+.equal-to-or-less-than-after::after{content:var(--equal-to-or-less-than)}
+.equal-to-or-less-than-both::after, .equal-to-or-less-than-both::before {content:var(--equal-to-or-less-than)}
+.equal-to-or-less-than-list { list-style: var(--equal-to-or-less-than)}
+
+
+
+.equal-to-or-precedes::before, .equal-to-or-precedes-before::before{ content:var(--equal-to-or-precedes)}
+.equal-to-or-precedes-after::after{content:var(--equal-to-or-precedes)}
+.equal-to-or-precedes-both::after, .equal-to-or-precedes-both::before {content:var(--equal-to-or-precedes)}
+.equal-to-or-precedes-list { list-style: var(--equal-to-or-precedes)}
+
+
+
+.equal-to-or-succeeds::before, .equal-to-or-succeeds-before::before{ content:var(--equal-to-or-succeeds)}
+.equal-to-or-succeeds-after::after{content:var(--equal-to-or-succeeds)}
+.equal-to-or-succeeds-both::after, .equal-to-or-succeeds-both::before {content:var(--equal-to-or-succeeds)}
+.equal-to-or-succeeds-list { list-style: var(--equal-to-or-succeeds)}
+
+
+
+.equals-colon::before, .equals-colon-before::before{ content:var(--equals-colon)}
+.equals-colon-after::after{content:var(--equals-colon)}
+.equals-colon-both::after, .equals-colon-both::before {content:var(--equals-colon)}
+.equals-colon-list { list-style: var(--equals-colon)}
+
+
+
+.equiangular-to::before, .equiangular-to-before::before{ content:var(--equiangular-to)}
+.equiangular-to-after::after{content:var(--equiangular-to)}
+.equiangular-to-both::after, .equiangular-to-both::before {content:var(--equiangular-to)}
+.equiangular-to-list { list-style: var(--equiangular-to)}
+
+
+
+.equivalent-to::before, .equivalent-to-before::before{ content:var(--equivalent-to)}
+.equivalent-to-after::after{content:var(--equivalent-to)}
+.equivalent-to-both::after, .equivalent-to-both::before {content:var(--equivalent-to)}
+.equivalent-to-list { list-style: var(--equivalent-to)}
+
+
+
+.estimates::before, .estimates-before::before{ content:var(--estimates)}
+.estimates-after::after{content:var(--estimates)}
+.estimates-both::after, .estimates-both::before {content:var(--estimates)}
+.estimates-list { list-style: var(--estimates)}
+
+
+
+.excess::before, .excess-before::before{ content:var(--excess)}
+.excess-after::after{content:var(--excess)}
+.excess-both::after, .excess-both::before {content:var(--excess)}
+.excess-list { list-style: var(--excess)}
+
+
+
+.for-all::before, .for-all-before::before{ content:var(--for-all)}
+.for-all-after::after{content:var(--for-all)}
+.for-all-both::after, .for-all-both::before {content:var(--for-all)}
+.for-all-list { list-style: var(--for-all)}
+
+
+
+.forces::before, .forces-before::before{ content:var(--forces)}
+.forces-after::after{content:var(--forces)}
+.forces-both::after, .forces-both::before {content:var(--forces)}
+.forces-list { list-style: var(--forces)}
+
+
+
+.fourth-root::before, .fourth-root-before::before{ content:var(--fourth-root)}
+.fourth-root-after::after{content:var(--fourth-root)}
+.fourth-root-both::after, .fourth-root-both::before {content:var(--fourth-root)}
+.fourth-root-list { list-style: var(--fourth-root)}
+
+
+
+.geometric-proportion::before, .geometric-proportion-before::before{ content:var(--geometric-proportion)}
+.geometric-proportion-after::after{content:var(--geometric-proportion)}
+.geometric-proportion-both::after, .geometric-proportion-both::before {content:var(--geometric-proportion)}
+.geometric-proportion-list { list-style: var(--geometric-proportion)}
+
+
+
+.geometrically-equal-to::before, .geometrically-equal-to-before::before{ content:var(--geometrically-equal-to)}
+.geometrically-equal-to-after::after{content:var(--geometrically-equal-to)}
+.geometrically-equal-to-both::after, .geometrically-equal-to-both::before {content:var(--geometrically-equal-to)}
+.geometrically-equal-to-list { list-style: var(--geometrically-equal-to)}
+
+
+
+.geometrically-equivalent-to::before, .geometrically-equivalent-to-before::before{ content:var(--geometrically-equivalent-to)}
+.geometrically-equivalent-to-after::after{content:var(--geometrically-equivalent-to)}
+.geometrically-equivalent-to-both::after, .geometrically-equivalent-to-both::before {content:var(--geometrically-equivalent-to)}
+.geometrically-equivalent-to-list { list-style: var(--geometrically-equivalent-to)}
+
+
+
+.greater-than-but-not-equal-to::before, .greater-than-but-not-equal-to-before::before{ content:var(--greater-than-but-not-equal-to)}
+.greater-than-but-not-equal-to-after::after{content:var(--greater-than-but-not-equal-to)}
+.greater-than-but-not-equal-to-both::after, .greater-than-but-not-equal-to-both::before {content:var(--greater-than-but-not-equal-to)}
+.greater-than-but-not-equal-to-list { list-style: var(--greater-than-but-not-equal-to)}
+
+
+
+.greater-than-but-not-equivalent-to::before, .greater-than-but-not-equivalent-to-before::before{ content:var(--greater-than-but-not-equivalent-to)}
+.greater-than-but-not-equivalent-to-after::after{content:var(--greater-than-but-not-equivalent-to)}
+.greater-than-but-not-equivalent-to-both::after, .greater-than-but-not-equivalent-to-both::before {content:var(--greater-than-but-not-equivalent-to)}
+.greater-than-but-not-equivalent-to-list { list-style: var(--greater-than-but-not-equivalent-to)}
+
+
+
+.greater-than-equal-to-or-less-than::before, .greater-than-equal-to-or-less-than-before::before{ content:var(--greater-than-equal-to-or-less-than)}
+.greater-than-equal-to-or-less-than-after::after{content:var(--greater-than-equal-to-or-less-than)}
+.greater-than-equal-to-or-less-than-both::after, .greater-than-equal-to-or-less-than-both::before {content:var(--greater-than-equal-to-or-less-than)}
+.greater-than-equal-to-or-less-than-list { list-style: var(--greater-than-equal-to-or-less-than)}
+
+
+
+.greater-than-or-equal-to::before, .greater-than-or-equal-to-before::before{ content:var(--greater-than-or-equal-to)}
+.greater-than-or-equal-to-after::after{content:var(--greater-than-or-equal-to)}
+.greater-than-or-equal-to-both::after, .greater-than-or-equal-to-both::before {content:var(--greater-than-or-equal-to)}
+.greater-than-or-equal-to-list { list-style: var(--greater-than-or-equal-to)}
+
+
+
+.greater-than-or-equivalent-to::before, .greater-than-or-equivalent-to-before::before{ content:var(--greater-than-or-equivalent-to)}
+.greater-than-or-equivalent-to-after::after{content:var(--greater-than-or-equivalent-to)}
+.greater-than-or-equivalent-to-both::after, .greater-than-or-equivalent-to-both::before {content:var(--greater-than-or-equivalent-to)}
+.greater-than-or-equivalent-to-list { list-style: var(--greater-than-or-equivalent-to)}
+
+
+
+.greater-than-or-less-than::before, .greater-than-or-less-than-before::before{ content:var(--greater-than-or-less-than)}
+.greater-than-or-less-than-after::after{content:var(--greater-than-or-less-than)}
+.greater-than-or-less-than-both::after, .greater-than-or-less-than-both::before {content:var(--greater-than-or-less-than)}
+.greater-than-or-less-than-list { list-style: var(--greater-than-or-less-than)}
+
+
+
+.greater-than-over-equal-to::before, .greater-than-over-equal-to-before::before{ content:var(--greater-than-over-equal-to)}
+.greater-than-over-equal-to-after::after{content:var(--greater-than-over-equal-to)}
+.greater-than-over-equal-to-both::after, .greater-than-over-equal-to-both::before {content:var(--greater-than-over-equal-to)}
+.greater-than-over-equal-to-list { list-style: var(--greater-than-over-equal-to)}
+
+
+
+.greater-than-with-dot::before, .greater-than-with-dot-before::before{ content:var(--greater-than-with-dot)}
+.greater-than-with-dot-after::after{content:var(--greater-than-with-dot)}
+.greater-than-with-dot-both::after, .greater-than-with-dot-both::before {content:var(--greater-than-with-dot)}
+.greater-than-with-dot-list { list-style: var(--greater-than-with-dot)}
+
+
+
+.hermitian-conjugate-matrix::before, .hermitian-conjugate-matrix-before::before{ content:var(--hermitian-conjugate-matrix)}
+.hermitian-conjugate-matrix-after::after{content:var(--hermitian-conjugate-matrix)}
+.hermitian-conjugate-matrix-both::after, .hermitian-conjugate-matrix-both::before {content:var(--hermitian-conjugate-matrix)}
+.hermitian-conjugate-matrix-list { list-style: var(--hermitian-conjugate-matrix)}
+
+
+
+.homothetic::before, .homothetic-before::before{ content:var(--homothetic)}
+.homothetic-after::after{content:var(--homothetic)}
+.homothetic-both::after, .homothetic-both::before {content:var(--homothetic)}
+.homothetic-list { list-style: var(--homothetic)}
+
+
+
+.identical-to::before, .identical-to-before::before{ content:var(--identical-to)}
+.identical-to-after::after{content:var(--identical-to)}
+.identical-to-both::after, .identical-to-both::before {content:var(--identical-to)}
+.identical-to-list { list-style: var(--identical-to)}
+
+
+
+.image-of::before, .image-of-before::before{ content:var(--image-of)}
+.image-of-after::after{content:var(--image-of)}
+.image-of-both::after, .image-of-both::before {content:var(--image-of)}
+.image-of-list { list-style: var(--image-of)}
+
+
+
+.image-of-or-approximately-equal-to::before, .image-of-or-approximately-equal-to-before::before{ content:var(--image-of-or-approximately-equal-to)}
+.image-of-or-approximately-equal-to-after::after{content:var(--image-of-or-approximately-equal-to)}
+.image-of-or-approximately-equal-to-both::after, .image-of-or-approximately-equal-to-both::before {content:var(--image-of-or-approximately-equal-to)}
+.image-of-or-approximately-equal-to-list { list-style: var(--image-of-or-approximately-equal-to)}
+
+
+
+.increment::before, .increment-before::before{ content:var(--increment)}
+.increment-after::after{content:var(--increment)}
+.increment-both::after, .increment-both::before {content:var(--increment)}
+.increment-list { list-style: var(--increment)}
+
+
+
+.infinity::before, .infinity-before::before{ content:var(--infinity)}
+.infinity-after::after{content:var(--infinity)}
+.infinity-both::after, .infinity-both::before {content:var(--infinity)}
+.infinity-list { list-style: var(--infinity)}
+
+
+
+.integral::before, .integral-before::before{ content:var(--integral)}
+.integral-after::after{content:var(--integral)}
+.integral-both::after, .integral-both::before {content:var(--integral)}
+.integral-list { list-style: var(--integral)}
+
+
+
+.intercalate::before, .intercalate-before::before{ content:var(--intercalate)}
+.intercalate-after::after{content:var(--intercalate)}
+.intercalate-both::after, .intercalate-both::before {content:var(--intercalate)}
+.intercalate-list { list-style: var(--intercalate)}
+
+
+
+.intersection::before, .intersection-before::before{ content:var(--intersection)}
+.intersection-after::after{content:var(--intersection)}
+.intersection-both::after, .intersection-both::before {content:var(--intersection)}
+.intersection-list { list-style: var(--intersection)}
+
+
+
+.inverted-lazy-s::before, .inverted-lazy-s-before::before{ content:var(--inverted-lazy-s)}
+.inverted-lazy-s-after::after{content:var(--inverted-lazy-s)}
+.inverted-lazy-s-both::after, .inverted-lazy-s-both::before {content:var(--inverted-lazy-s)}
+.inverted-lazy-s-list { list-style: var(--inverted-lazy-s)}
+
+
+
+.left-normal-factor-semidirect-product::before, .left-normal-factor-semidirect-product-before::before{ content:var(--left-normal-factor-semidirect-product)}
+.left-normal-factor-semidirect-product-after::after{content:var(--left-normal-factor-semidirect-product)}
+.left-normal-factor-semidirect-product-both::after, .left-normal-factor-semidirect-product-both::before {content:var(--left-normal-factor-semidirect-product)}
+.left-normal-factor-semidirect-product-list { list-style: var(--left-normal-factor-semidirect-product)}
+
+
+
+.left-semidirect-product::before, .left-semidirect-product-before::before{ content:var(--left-semidirect-product)}
+.left-semidirect-product-after::after{content:var(--left-semidirect-product)}
+.left-semidirect-product-both::after, .left-semidirect-product-both::before {content:var(--left-semidirect-product)}
+.left-semidirect-product-list { list-style: var(--left-semidirect-product)}
+
+
+
+.left-tack::before, .left-tack-before::before{ content:var(--left-tack)}
+.left-tack-after::after{content:var(--left-tack)}
+.left-tack-both::after, .left-tack-both::before {content:var(--left-tack)}
+.left-tack-list { list-style: var(--left-tack)}
+
+
+
+.less-than-but-not-equal-to::before, .less-than-but-not-equal-to-before::before{ content:var(--less-than-but-not-equal-to)}
+.less-than-but-not-equal-to-after::after{content:var(--less-than-but-not-equal-to)}
+.less-than-but-not-equal-to-both::after, .less-than-but-not-equal-to-both::before {content:var(--less-than-but-not-equal-to)}
+.less-than-but-not-equal-to-list { list-style: var(--less-than-but-not-equal-to)}
+
+
+
+.less-than-but-not-equivalent-to::before, .less-than-but-not-equivalent-to-before::before{ content:var(--less-than-but-not-equivalent-to)}
+.less-than-but-not-equivalent-to-after::after{content:var(--less-than-but-not-equivalent-to)}
+.less-than-but-not-equivalent-to-both::after, .less-than-but-not-equivalent-to-both::before {content:var(--less-than-but-not-equivalent-to)}
+.less-than-but-not-equivalent-to-list { list-style: var(--less-than-but-not-equivalent-to)}
+
+
+
+.less-than-equal-to-or-greater-than::before, .less-than-equal-to-or-greater-than-before::before{ content:var(--less-than-equal-to-or-greater-than)}
+.less-than-equal-to-or-greater-than-after::after{content:var(--less-than-equal-to-or-greater-than)}
+.less-than-equal-to-or-greater-than-both::after, .less-than-equal-to-or-greater-than-both::before {content:var(--less-than-equal-to-or-greater-than)}
+.less-than-equal-to-or-greater-than-list { list-style: var(--less-than-equal-to-or-greater-than)}
+
+
+
+.less-than-or-equal-to::before, .less-than-or-equal-to-before::before{ content:var(--less-than-or-equal-to)}
+.less-than-or-equal-to-after::after{content:var(--less-than-or-equal-to)}
+.less-than-or-equal-to-both::after, .less-than-or-equal-to-both::before {content:var(--less-than-or-equal-to)}
+.less-than-or-equal-to-list { list-style: var(--less-than-or-equal-to)}
+
+
+
+.less-than-or-equivalent-to::before, .less-than-or-equivalent-to-before::before{ content:var(--less-than-or-equivalent-to)}
+.less-than-or-equivalent-to-after::after{content:var(--less-than-or-equivalent-to)}
+.less-than-or-equivalent-to-both::after, .less-than-or-equivalent-to-both::before {content:var(--less-than-or-equivalent-to)}
+.less-than-or-equivalent-to-list { list-style: var(--less-than-or-equivalent-to)}
+
+
+
+.less-than-or-greater-than::before, .less-than-or-greater-than-before::before{ content:var(--less-than-or-greater-than)}
+.less-than-or-greater-than-after::after{content:var(--less-than-or-greater-than)}
+.less-than-or-greater-than-both::after, .less-than-or-greater-than-both::before {content:var(--less-than-or-greater-than)}
+.less-than-or-greater-than-list { list-style: var(--less-than-or-greater-than)}
+
+
+
+.less-than-over-equal-to::before, .less-than-over-equal-to-before::before{ content:var(--less-than-over-equal-to)}
+.less-than-over-equal-to-after::after{content:var(--less-than-over-equal-to)}
+.less-than-over-equal-to-both::after, .less-than-over-equal-to-both::before {content:var(--less-than-over-equal-to)}
+.less-than-over-equal-to-list { list-style: var(--less-than-over-equal-to)}
+
+
+
+.less-than-with-dot::before, .less-than-with-dot-before::before{ content:var(--less-than-with-dot)}
+.less-than-with-dot-after::after{content:var(--less-than-with-dot)}
+.less-than-with-dot-both::after, .less-than-with-dot-both::before {content:var(--less-than-with-dot)}
+.less-than-with-dot-list { list-style: var(--less-than-with-dot)}
+
+
+
+.logical-and::before, .logical-and-before::before{ content:var(--logical-and)}
+.logical-and-after::after{content:var(--logical-and)}
+.logical-and-both::after, .logical-and-both::before {content:var(--logical-and)}
+.logical-and-list { list-style: var(--logical-and)}
+
+
+
+.logical-or::before, .logical-or-before::before{ content:var(--logical-or)}
+.logical-or-after::after{content:var(--logical-or)}
+.logical-or-both::after, .logical-or-both::before {content:var(--logical-or)}
+.logical-or-list { list-style: var(--logical-or)}
+
+
+
+.measured-angle::before, .measured-angle-before::before{ content:var(--measured-angle)}
+.measured-angle-after::after{content:var(--measured-angle)}
+.measured-angle-both::after, .measured-angle-both::before {content:var(--measured-angle)}
+.measured-angle-list { list-style: var(--measured-angle)}
+
+
+
+.measured-by::before, .measured-by-before::before{ content:var(--measured-by)}
+.measured-by-after::after{content:var(--measured-by)}
+.measured-by-both::after, .measured-by-both::before {content:var(--measured-by)}
+.measured-by-list { list-style: var(--measured-by)}
+
+
+
+.midline-horizontal-ellipsis::before, .midline-horizontal-ellipsis-before::before{ content:var(--midline-horizontal-ellipsis)}
+.midline-horizontal-ellipsis-after::after{content:var(--midline-horizontal-ellipsis)}
+.midline-horizontal-ellipsis-both::after, .midline-horizontal-ellipsis-both::before {content:var(--midline-horizontal-ellipsis)}
+.midline-horizontal-ellipsis-list { list-style: var(--midline-horizontal-ellipsis)}
+
+
+
+.minus-sign::before, .minus-sign-before::before{ content:var(--minus-sign)}
+.minus-sign-after::after{content:var(--minus-sign)}
+.minus-sign-both::after, .minus-sign-both::before {content:var(--minus-sign)}
+.minus-sign-list { list-style: var(--minus-sign)}
+
+
+
+.minus-tilde::before, .minus-tilde-before::before{ content:var(--minus-tilde)}
+.minus-tilde-after::after{content:var(--minus-tilde)}
+.minus-tilde-both::after, .minus-tilde-both::before {content:var(--minus-tilde)}
+.minus-tilde-list { list-style: var(--minus-tilde)}
+
+
+
+.minus-or-plus-sign::before, .minus-or-plus-sign-before::before{ content:var(--minus-or-plus-sign)}
+.minus-or-plus-sign-after::after{content:var(--minus-or-plus-sign)}
+.minus-or-plus-sign-both::after, .minus-or-plus-sign-both::before {content:var(--minus-or-plus-sign)}
+.minus-or-plus-sign-list { list-style: var(--minus-or-plus-sign)}
+
+
+
+.models::before, .models-before::before{ content:var(--models)}
+.models-after::after{content:var(--models)}
+.models-both::after, .models-both::before {content:var(--models)}
+.models-list { list-style: var(--models)}
+
+
+
+.much-greater-than::before, .much-greater-than-before::before{ content:var(--much-greater-than)}
+.much-greater-than-after::after{content:var(--much-greater-than)}
+.much-greater-than-both::after, .much-greater-than-both::before {content:var(--much-greater-than)}
+.much-greater-than-list { list-style: var(--much-greater-than)}
+
+
+
+.much-less-than::before, .much-less-than-before::before{ content:var(--much-less-than)}
+.much-less-than-after::after{content:var(--much-less-than)}
+.much-less-than-both::after, .much-less-than-both::before {content:var(--much-less-than)}
+.much-less-than-list { list-style: var(--much-less-than)}
+
+
+
+.multimap::before, .multimap-before::before{ content:var(--multimap)}
+.multimap-after::after{content:var(--multimap)}
+.multimap-both::after, .multimap-both::before {content:var(--multimap)}
+.multimap-list { list-style: var(--multimap)}
+
+
+
+.multiset::before, .multiset-before::before{ content:var(--multiset)}
+.multiset-after::after{content:var(--multiset)}
+.multiset-both::after, .multiset-both::before {content:var(--multiset)}
+.multiset-list { list-style: var(--multiset)}
+
+
+
+.multiset-multiplication::before, .multiset-multiplication-before::before{ content:var(--multiset-multiplication)}
+.multiset-multiplication-after::after{content:var(--multiset-multiplication)}
+.multiset-multiplication-both::after, .multiset-multiplication-both::before {content:var(--multiset-multiplication)}
+.multiset-multiplication-list { list-style: var(--multiset-multiplication)}
+
+
+
+.multiset-union::before, .multiset-union-before::before{ content:var(--multiset-union)}
+.multiset-union-after::after{content:var(--multiset-union)}
+.multiset-union-both::after, .multiset-union-both::before {content:var(--multiset-union)}
+.multiset-union-list { list-style: var(--multiset-union)}
+
+
+
+.n-ary-coproduct::before, .n-ary-coproduct-before::before{ content:var(--n-ary-coproduct)}
+.n-ary-coproduct-after::after{content:var(--n-ary-coproduct)}
+.n-ary-coproduct-both::after, .n-ary-coproduct-both::before {content:var(--n-ary-coproduct)}
+.n-ary-coproduct-list { list-style: var(--n-ary-coproduct)}
+
+
+
+.n-ary-intersection::before, .n-ary-intersection-before::before{ content:var(--n-ary-intersection)}
+.n-ary-intersection-after::after{content:var(--n-ary-intersection)}
+.n-ary-intersection-both::after, .n-ary-intersection-both::before {content:var(--n-ary-intersection)}
+.n-ary-intersection-list { list-style: var(--n-ary-intersection)}
+
+
+
+.n-ary-logical-and::before, .n-ary-logical-and-before::before{ content:var(--n-ary-logical-and)}
+.n-ary-logical-and-after::after{content:var(--n-ary-logical-and)}
+.n-ary-logical-and-both::after, .n-ary-logical-and-both::before {content:var(--n-ary-logical-and)}
+.n-ary-logical-and-list { list-style: var(--n-ary-logical-and)}
+
+
+
+.n-ary-logical-or::before, .n-ary-logical-or-before::before{ content:var(--n-ary-logical-or)}
+.n-ary-logical-or-after::after{content:var(--n-ary-logical-or)}
+.n-ary-logical-or-both::after, .n-ary-logical-or-both::before {content:var(--n-ary-logical-or)}
+.n-ary-logical-or-list { list-style: var(--n-ary-logical-or)}
+
+
+
+.n-ary-product::before, .n-ary-product-before::before{ content:var(--n-ary-product)}
+.n-ary-product-after::after{content:var(--n-ary-product)}
+.n-ary-product-both::after, .n-ary-product-both::before {content:var(--n-ary-product)}
+.n-ary-product-list { list-style: var(--n-ary-product)}
+
+
+
+.n-ary-summation::before, .n-ary-summation-before::before{ content:var(--n-ary-summation)}
+.n-ary-summation-after::after{content:var(--n-ary-summation)}
+.n-ary-summation-both::after, .n-ary-summation-both::before {content:var(--n-ary-summation)}
+.n-ary-summation-list { list-style: var(--n-ary-summation)}
+
+
+
+.n-ary-union::before, .n-ary-union-before::before{ content:var(--n-ary-union)}
+.n-ary-union-after::after{content:var(--n-ary-union)}
+.n-ary-union-both::after, .n-ary-union-both::before {content:var(--n-ary-union)}
+.n-ary-union-list { list-style: var(--n-ary-union)}
+
+
+
+.nabla::before, .nabla-before::before{ content:var(--nabla)}
+.nabla-after::after{content:var(--nabla)}
+.nabla-both::after, .nabla-both::before {content:var(--nabla)}
+.nabla-list { list-style: var(--nabla)}
+
+
+
+.nand::before, .nand-before::before{ content:var(--nand)}
+.nand-after::after{content:var(--nand)}
+.nand-both::after, .nand-both::before {content:var(--nand)}
+.nand-list { list-style: var(--nand)}
+
+
+
+.negated-double-vertical-bar-double-right-turnstile::before, .negated-double-vertical-bar-double-right-turnstile-before::before{ content:var(--negated-double-vertical-bar-double-right-turnstile)}
+.negated-double-vertical-bar-double-right-turnstile-after::after{content:var(--negated-double-vertical-bar-double-right-turnstile)}
+.negated-double-vertical-bar-double-right-turnstile-both::after, .negated-double-vertical-bar-double-right-turnstile-both::before {content:var(--negated-double-vertical-bar-double-right-turnstile)}
+.negated-double-vertical-bar-double-right-turnstile-list { list-style: var(--negated-double-vertical-bar-double-right-turnstile)}
+
+
+
+.neither-a-subset-of-nor-equal-to::before, .neither-a-subset-of-nor-equal-to-before::before{ content:var(--neither-a-subset-of-nor-equal-to)}
+.neither-a-subset-of-nor-equal-to-after::after{content:var(--neither-a-subset-of-nor-equal-to)}
+.neither-a-subset-of-nor-equal-to-both::after, .neither-a-subset-of-nor-equal-to-both::before {content:var(--neither-a-subset-of-nor-equal-to)}
+.neither-a-subset-of-nor-equal-to-list { list-style: var(--neither-a-subset-of-nor-equal-to)}
+
+
+
+.neither-a-superset-of-nor-equal-to::before, .neither-a-superset-of-nor-equal-to-before::before{ content:var(--neither-a-superset-of-nor-equal-to)}
+.neither-a-superset-of-nor-equal-to-after::after{content:var(--neither-a-superset-of-nor-equal-to)}
+.neither-a-superset-of-nor-equal-to-both::after, .neither-a-superset-of-nor-equal-to-both::before {content:var(--neither-a-superset-of-nor-equal-to)}
+.neither-a-superset-of-nor-equal-to-list { list-style: var(--neither-a-superset-of-nor-equal-to)}
+
+
+
+.neither-approximately-nor-actually-equal-to::before, .neither-approximately-nor-actually-equal-to-before::before{ content:var(--neither-approximately-nor-actually-equal-to)}
+.neither-approximately-nor-actually-equal-to-after::after{content:var(--neither-approximately-nor-actually-equal-to)}
+.neither-approximately-nor-actually-equal-to-both::after, .neither-approximately-nor-actually-equal-to-both::before {content:var(--neither-approximately-nor-actually-equal-to)}
+.neither-approximately-nor-actually-equal-to-list { list-style: var(--neither-approximately-nor-actually-equal-to)}
+
+
+
+.neither-greater-than-nor-equal-to::before, .neither-greater-than-nor-equal-to-before::before{ content:var(--neither-greater-than-nor-equal-to)}
+.neither-greater-than-nor-equal-to-after::after{content:var(--neither-greater-than-nor-equal-to)}
+.neither-greater-than-nor-equal-to-both::after, .neither-greater-than-nor-equal-to-both::before {content:var(--neither-greater-than-nor-equal-to)}
+.neither-greater-than-nor-equal-to-list { list-style: var(--neither-greater-than-nor-equal-to)}
+
+
+
+.neither-greater-than-nor-equivalent-to::before, .neither-greater-than-nor-equivalent-to-before::before{ content:var(--neither-greater-than-nor-equivalent-to)}
+.neither-greater-than-nor-equivalent-to-after::after{content:var(--neither-greater-than-nor-equivalent-to)}
+.neither-greater-than-nor-equivalent-to-both::after, .neither-greater-than-nor-equivalent-to-both::before {content:var(--neither-greater-than-nor-equivalent-to)}
+.neither-greater-than-nor-equivalent-to-list { list-style: var(--neither-greater-than-nor-equivalent-to)}
+
+
+
+.neither-greater-than-nor-less-than::before, .neither-greater-than-nor-less-than-before::before{ content:var(--neither-greater-than-nor-less-than)}
+.neither-greater-than-nor-less-than-after::after{content:var(--neither-greater-than-nor-less-than)}
+.neither-greater-than-nor-less-than-both::after, .neither-greater-than-nor-less-than-both::before {content:var(--neither-greater-than-nor-less-than)}
+.neither-greater-than-nor-less-than-list { list-style: var(--neither-greater-than-nor-less-than)}
+
+
+
+.neither-less-than-nor-equal-to::before, .neither-less-than-nor-equal-to-before::before{ content:var(--neither-less-than-nor-equal-to)}
+.neither-less-than-nor-equal-to-after::after{content:var(--neither-less-than-nor-equal-to)}
+.neither-less-than-nor-equal-to-both::after, .neither-less-than-nor-equal-to-both::before {content:var(--neither-less-than-nor-equal-to)}
+.neither-less-than-nor-equal-to-list { list-style: var(--neither-less-than-nor-equal-to)}
+
+
+
+.neither-less-than-nor-equivalent-to::before, .neither-less-than-nor-equivalent-to-before::before{ content:var(--neither-less-than-nor-equivalent-to)}
+.neither-less-than-nor-equivalent-to-after::after{content:var(--neither-less-than-nor-equivalent-to)}
+.neither-less-than-nor-equivalent-to-both::after, .neither-less-than-nor-equivalent-to-both::before {content:var(--neither-less-than-nor-equivalent-to)}
+.neither-less-than-nor-equivalent-to-list { list-style: var(--neither-less-than-nor-equivalent-to)}
+
+
+
+.neither-less-than-nor-greater-than::before, .neither-less-than-nor-greater-than-before::before{ content:var(--neither-less-than-nor-greater-than)}
+.neither-less-than-nor-greater-than-after::after{content:var(--neither-less-than-nor-greater-than)}
+.neither-less-than-nor-greater-than-both::after, .neither-less-than-nor-greater-than-both::before {content:var(--neither-less-than-nor-greater-than)}
+.neither-less-than-nor-greater-than-list { list-style: var(--neither-less-than-nor-greater-than)}
+
+
+
+.nor::before, .nor-before::before{ content:var(--nor)}
+.nor-after::after{content:var(--nor)}
+.nor-both::after, .nor-both::before {content:var(--nor)}
+.nor-list { list-style: var(--nor)}
+
+
+
+.normal-subgroup-of::before, .normal-subgroup-of-before::before{ content:var(--normal-subgroup-of)}
+.normal-subgroup-of-after::after{content:var(--normal-subgroup-of)}
+.normal-subgroup-of-both::after, .normal-subgroup-of-both::before {content:var(--normal-subgroup-of)}
+.normal-subgroup-of-list { list-style: var(--normal-subgroup-of)}
+
+
+
+.normal-subgroup-of-or-equal-to::before, .normal-subgroup-of-or-equal-to-before::before{ content:var(--normal-subgroup-of-or-equal-to)}
+.normal-subgroup-of-or-equal-to-after::after{content:var(--normal-subgroup-of-or-equal-to)}
+.normal-subgroup-of-or-equal-to-both::after, .normal-subgroup-of-or-equal-to-both::before {content:var(--normal-subgroup-of-or-equal-to)}
+.normal-subgroup-of-or-equal-to-list { list-style: var(--normal-subgroup-of-or-equal-to)}
+
+
+
+.not-a-subset-of::before, .not-a-subset-of-before::before{ content:var(--not-a-subset-of)}
+.not-a-subset-of-after::after{content:var(--not-a-subset-of)}
+.not-a-subset-of-both::after, .not-a-subset-of-both::before {content:var(--not-a-subset-of)}
+.not-a-subset-of-list { list-style: var(--not-a-subset-of)}
+
+
+
+.not-a-superset-of::before, .not-a-superset-of-before::before{ content:var(--not-a-superset-of)}
+.not-a-superset-of-after::after{content:var(--not-a-superset-of)}
+.not-a-superset-of-both::after, .not-a-superset-of-both::before {content:var(--not-a-superset-of)}
+.not-a-superset-of-list { list-style: var(--not-a-superset-of)}
+
+
+
+.not-almost-equal-to::before, .not-almost-equal-to-before::before{ content:var(--not-almost-equal-to)}
+.not-almost-equal-to-after::after{content:var(--not-almost-equal-to)}
+.not-almost-equal-to-both::after, .not-almost-equal-to-both::before {content:var(--not-almost-equal-to)}
+.not-almost-equal-to-list { list-style: var(--not-almost-equal-to)}
+
+
+
+.not-an-element-of::before, .not-an-element-of-before::before{ content:var(--not-an-element-of)}
+.not-an-element-of-after::after{content:var(--not-an-element-of)}
+.not-an-element-of-both::after, .not-an-element-of-both::before {content:var(--not-an-element-of)}
+.not-an-element-of-list { list-style: var(--not-an-element-of)}
+
+
+
+.not-asymptotically-equal-to::before, .not-asymptotically-equal-to-before::before{ content:var(--not-asymptotically-equal-to)}
+.not-asymptotically-equal-to-after::after{content:var(--not-asymptotically-equal-to)}
+.not-asymptotically-equal-to-both::after, .not-asymptotically-equal-to-both::before {content:var(--not-asymptotically-equal-to)}
+.not-asymptotically-equal-to-list { list-style: var(--not-asymptotically-equal-to)}
+
+
+
+.not-equal-to::before, .not-equal-to-before::before{ content:var(--not-equal-to)}
+.not-equal-to-after::after{content:var(--not-equal-to)}
+.not-equal-to-both::after, .not-equal-to-both::before {content:var(--not-equal-to)}
+.not-equal-to-list { list-style: var(--not-equal-to)}
+
+
+
+.not-equivalent-to::before, .not-equivalent-to-before::before{ content:var(--not-equivalent-to)}
+.not-equivalent-to-after::after{content:var(--not-equivalent-to)}
+.not-equivalent-to-both::after, .not-equivalent-to-both::before {content:var(--not-equivalent-to)}
+.not-equivalent-to-list { list-style: var(--not-equivalent-to)}
+
+
+
+.not-greater-than::before, .not-greater-than-before::before{ content:var(--not-greater-than)}
+.not-greater-than-after::after{content:var(--not-greater-than)}
+.not-greater-than-both::after, .not-greater-than-both::before {content:var(--not-greater-than)}
+.not-greater-than-list { list-style: var(--not-greater-than)}
+
+
+
+.not-identical-to::before, .not-identical-to-before::before{ content:var(--not-identical-to)}
+.not-identical-to-after::after{content:var(--not-identical-to)}
+.not-identical-to-both::after, .not-identical-to-both::before {content:var(--not-identical-to)}
+.not-identical-to-list { list-style: var(--not-identical-to)}
+
+
+
+.not-less-than::before, .not-less-than-before::before{ content:var(--not-less-than)}
+.not-less-than-after::after{content:var(--not-less-than)}
+.not-less-than-both::after, .not-less-than-both::before {content:var(--not-less-than)}
+.not-less-than-list { list-style: var(--not-less-than)}
+
+
+
+.not-normal-subgroup-of::before, .not-normal-subgroup-of-before::before{ content:var(--not-normal-subgroup-of)}
+.not-normal-subgroup-of-after::after{content:var(--not-normal-subgroup-of)}
+.not-normal-subgroup-of-both::after, .not-normal-subgroup-of-both::before {content:var(--not-normal-subgroup-of)}
+.not-normal-subgroup-of-list { list-style: var(--not-normal-subgroup-of)}
+
+
+
+.not-normal-subgroup-of-or-equal-to::before, .not-normal-subgroup-of-or-equal-to-before::before{ content:var(--not-normal-subgroup-of-or-equal-to)}
+.not-normal-subgroup-of-or-equal-to-after::after{content:var(--not-normal-subgroup-of-or-equal-to)}
+.not-normal-subgroup-of-or-equal-to-both::after, .not-normal-subgroup-of-or-equal-to-both::before {content:var(--not-normal-subgroup-of-or-equal-to)}
+.not-normal-subgroup-of-or-equal-to-list { list-style: var(--not-normal-subgroup-of-or-equal-to)}
+
+
+
+.not-parallel-to::before, .not-parallel-to-before::before{ content:var(--not-parallel-to)}
+.not-parallel-to-after::after{content:var(--not-parallel-to)}
+.not-parallel-to-both::after, .not-parallel-to-both::before {content:var(--not-parallel-to)}
+.not-parallel-to-list { list-style: var(--not-parallel-to)}
+
+
+
+.not-square-image-of-or-equal-to::before, .not-square-image-of-or-equal-to-before::before{ content:var(--not-square-image-of-or-equal-to)}
+.not-square-image-of-or-equal-to-after::after{content:var(--not-square-image-of-or-equal-to)}
+.not-square-image-of-or-equal-to-both::after, .not-square-image-of-or-equal-to-both::before {content:var(--not-square-image-of-or-equal-to)}
+.not-square-image-of-or-equal-to-list { list-style: var(--not-square-image-of-or-equal-to)}
+
+
+
+.not-square-original-of-or-equal-to::before, .not-square-original-of-or-equal-to-before::before{ content:var(--not-square-original-of-or-equal-to)}
+.not-square-original-of-or-equal-to-after::after{content:var(--not-square-original-of-or-equal-to)}
+.not-square-original-of-or-equal-to-both::after, .not-square-original-of-or-equal-to-both::before {content:var(--not-square-original-of-or-equal-to)}
+.not-square-original-of-or-equal-to-list { list-style: var(--not-square-original-of-or-equal-to)}
+
+
+
+.not-tilde::before, .not-tilde-before::before{ content:var(--not-tilde)}
+.not-tilde-after::after{content:var(--not-tilde)}
+.not-tilde-both::after, .not-tilde-both::before {content:var(--not-tilde)}
+.not-tilde-list { list-style: var(--not-tilde)}
+
+
+
+.not-true::before, .not-true-before::before{ content:var(--not-true)}
+.not-true-after::after{content:var(--not-true)}
+.not-true-both::after, .not-true-both::before {content:var(--not-true)}
+.not-true-list { list-style: var(--not-true)}
+
+
+
+.original-of::before, .original-of-before::before{ content:var(--original-of)}
+.original-of-after::after{content:var(--original-of)}
+.original-of-both::after, .original-of-both::before {content:var(--original-of)}
+.original-of-list { list-style: var(--original-of)}
+
+
+
+.parallel-to::before, .parallel-to-before::before{ content:var(--parallel-to)}
+.parallel-to-after::after{content:var(--parallel-to)}
+.parallel-to-both::after, .parallel-to-both::before {content:var(--parallel-to)}
+.parallel-to-list { list-style: var(--parallel-to)}
+
+
+
+.partial-differential::before, .partial-differential-before::before{ content:var(--partial-differential)}
+.partial-differential-after::after{content:var(--partial-differential)}
+.partial-differential-both::after, .partial-differential-both::before {content:var(--partial-differential)}
+.partial-differential-list { list-style: var(--partial-differential)}
+
+
+
+.pitchfork::before, .pitchfork-before::before{ content:var(--pitchfork)}
+.pitchfork-after::after{content:var(--pitchfork)}
+.pitchfork-both::after, .pitchfork-both::before {content:var(--pitchfork)}
+.pitchfork-list { list-style: var(--pitchfork)}
+
+
+
+.precedes::before, .precedes-before::before{ content:var(--precedes)}
+.precedes-after::after{content:var(--precedes)}
+.precedes-both::after, .precedes-both::before {content:var(--precedes)}
+.precedes-list { list-style: var(--precedes)}
+
+
+
+.precedes-but-not-equivalent-to::before, .precedes-but-not-equivalent-to-before::before{ content:var(--precedes-but-not-equivalent-to)}
+.precedes-but-not-equivalent-to-after::after{content:var(--precedes-but-not-equivalent-to)}
+.precedes-but-not-equivalent-to-both::after, .precedes-but-not-equivalent-to-both::before {content:var(--precedes-but-not-equivalent-to)}
+.precedes-but-not-equivalent-to-list { list-style: var(--precedes-but-not-equivalent-to)}
+
+
+
+.precedes-or-equal-to::before, .precedes-or-equal-to-before::before{ content:var(--precedes-or-equal-to)}
+.precedes-or-equal-to-after::after{content:var(--precedes-or-equal-to)}
+.precedes-or-equal-to-both::after, .precedes-or-equal-to-both::before {content:var(--precedes-or-equal-to)}
+.precedes-or-equal-to-list { list-style: var(--precedes-or-equal-to)}
+
+
+
+.precedes-or-equivalent-to::before, .precedes-or-equivalent-to-before::before{ content:var(--precedes-or-equivalent-to)}
+.precedes-or-equivalent-to-after::after{content:var(--precedes-or-equivalent-to)}
+.precedes-or-equivalent-to-both::after, .precedes-or-equivalent-to-both::before {content:var(--precedes-or-equivalent-to)}
+.precedes-or-equivalent-to-list { list-style: var(--precedes-or-equivalent-to)}
+
+
+
+.precedes-under-relation::before, .precedes-under-relation-before::before{ content:var(--precedes-under-relation)}
+.precedes-under-relation-after::after{content:var(--precedes-under-relation)}
+.precedes-under-relation-both::after, .precedes-under-relation-both::before {content:var(--precedes-under-relation)}
+.precedes-under-relation-list { list-style: var(--precedes-under-relation)}
+
+
+
+.proportion::before, .proportion-before::before{ content:var(--proportion)}
+.proportion-after::after{content:var(--proportion)}
+.proportion-both::after, .proportion-both::before {content:var(--proportion)}
+.proportion-list { list-style: var(--proportion)}
+
+
+
+.proportional-to::before, .proportional-to-before::before{ content:var(--proportional-to)}
+.proportional-to-after::after{content:var(--proportional-to)}
+.proportional-to-both::after, .proportional-to-both::before {content:var(--proportional-to)}
+.proportional-to-list { list-style: var(--proportional-to)}
+
+
+
+.questioned-equal-to::before, .questioned-equal-to-before::before{ content:var(--questioned-equal-to)}
+.questioned-equal-to-after::after{content:var(--questioned-equal-to)}
+.questioned-equal-to-both::after, .questioned-equal-to-both::before {content:var(--questioned-equal-to)}
+.questioned-equal-to-list { list-style: var(--questioned-equal-to)}
+
+
+
+.ratio::before, .ratio-before::before{ content:var(--ratio)}
+.ratio-after::after{content:var(--ratio)}
+.ratio-both::after, .ratio-both::before {content:var(--ratio)}
+.ratio-list { list-style: var(--ratio)}
+
+
+
+.reversed-tilde::before, .reversed-tilde-before::before{ content:var(--reversed-tilde)}
+.reversed-tilde-after::after{content:var(--reversed-tilde)}
+.reversed-tilde-both::after, .reversed-tilde-both::before {content:var(--reversed-tilde)}
+.reversed-tilde-list { list-style: var(--reversed-tilde)}
+
+
+
+.reversed-tilde-equals::before, .reversed-tilde-equals-before::before{ content:var(--reversed-tilde-equals)}
+.reversed-tilde-equals-after::after{content:var(--reversed-tilde-equals)}
+.reversed-tilde-equals-both::after, .reversed-tilde-equals-both::before {content:var(--reversed-tilde-equals)}
+.reversed-tilde-equals-list { list-style: var(--reversed-tilde-equals)}
+
+
+
+.right-angle::before, .right-angle-before::before{ content:var(--right-angle)}
+.right-angle-after::after{content:var(--right-angle)}
+.right-angle-both::after, .right-angle-both::before {content:var(--right-angle)}
+.right-angle-list { list-style: var(--right-angle)}
+
+
+
+.right-angle-with-arc::before, .right-angle-with-arc-before::before{ content:var(--right-angle-with-arc)}
+.right-angle-with-arc-after::after{content:var(--right-angle-with-arc)}
+.right-angle-with-arc-both::after, .right-angle-with-arc-both::before {content:var(--right-angle-with-arc)}
+.right-angle-with-arc-list { list-style: var(--right-angle-with-arc)}
+
+
+
+.right-normal-factor-semidirect-product::before, .right-normal-factor-semidirect-product-before::before{ content:var(--right-normal-factor-semidirect-product)}
+.right-normal-factor-semidirect-product-after::after{content:var(--right-normal-factor-semidirect-product)}
+.right-normal-factor-semidirect-product-both::after, .right-normal-factor-semidirect-product-both::before {content:var(--right-normal-factor-semidirect-product)}
+.right-normal-factor-semidirect-product-list { list-style: var(--right-normal-factor-semidirect-product)}
+
+
+
+.right-semidirect-product::before, .right-semidirect-product-before::before{ content:var(--right-semidirect-product)}
+.right-semidirect-product-after::after{content:var(--right-semidirect-product)}
+.right-semidirect-product-both::after, .right-semidirect-product-both::before {content:var(--right-semidirect-product)}
+.right-semidirect-product-list { list-style: var(--right-semidirect-product)}
+
+
+
+.right-tack::before, .right-tack-before::before{ content:var(--right-tack)}
+.right-tack-after::after{content:var(--right-tack)}
+.right-tack-both::after, .right-tack-both::before {content:var(--right-tack)}
+.right-tack-list { list-style: var(--right-tack)}
+
+
+
+.right-triangle::before, .right-triangle-before::before{ content:var(--right-triangle)}
+.right-triangle-after::after{content:var(--right-triangle)}
+.right-triangle-both::after, .right-triangle-both::before {content:var(--right-triangle)}
+.right-triangle-list { list-style: var(--right-triangle)}
+
+
+
+.ring-equal-to::before, .ring-equal-to-before::before{ content:var(--ring-equal-to)}
+.ring-equal-to-after::after{content:var(--ring-equal-to)}
+.ring-equal-to-both::after, .ring-equal-to-both::before {content:var(--ring-equal-to)}
+.ring-equal-to-list { list-style: var(--ring-equal-to)}
+
+
+
+.ring-in-equal-to::before, .ring-in-equal-to-before::before{ content:var(--ring-in-equal-to)}
+.ring-in-equal-to-after::after{content:var(--ring-in-equal-to)}
+.ring-in-equal-to-both::after, .ring-in-equal-to-both::before {content:var(--ring-in-equal-to)}
+.ring-in-equal-to-list { list-style: var(--ring-in-equal-to)}
+
+
+
+.ring-operator::before, .ring-operator-before::before{ content:var(--ring-operator)}
+.ring-operator-after::after{content:var(--ring-operator)}
+.ring-operator-both::after, .ring-operator-both::before {content:var(--ring-operator)}
+.ring-operator-list { list-style: var(--ring-operator)}
+
+
+
+.set-minus::before, .set-minus-before::before{ content:var(--set-minus)}
+.set-minus-after::after{content:var(--set-minus)}
+.set-minus-both::after, .set-minus-both::before {content:var(--set-minus)}
+.set-minus-list { list-style: var(--set-minus)}
+
+
+
+.sine-wave::before, .sine-wave-before::before{ content:var(--sine-wave)}
+.sine-wave-after::after{content:var(--sine-wave)}
+.sine-wave-both::after, .sine-wave-both::before {content:var(--sine-wave)}
+.sine-wave-list { list-style: var(--sine-wave)}
+
+
+
+.small-contains-as-member::before, .small-contains-as-member-before::before{ content:var(--small-contains-as-member)}
+.small-contains-as-member-after::after{content:var(--small-contains-as-member)}
+.small-contains-as-member-both::after, .small-contains-as-member-both::before {content:var(--small-contains-as-member)}
+.small-contains-as-member-list { list-style: var(--small-contains-as-member)}
+
+
+
+.small-contains-with-overbar::before, .small-contains-with-overbar-before::before{ content:var(--small-contains-with-overbar)}
+.small-contains-with-overbar-after::after{content:var(--small-contains-with-overbar)}
+.small-contains-with-overbar-both::after, .small-contains-with-overbar-both::before {content:var(--small-contains-with-overbar)}
+.small-contains-with-overbar-list { list-style: var(--small-contains-with-overbar)}
+
+
+
+.small-contains-with-vertical-bar-at-end-of-horizontal-stroke::before, .small-contains-with-vertical-bar-at-end-of-horizontal-stroke-before::before{ content:var(--small-contains-with-vertical-bar-at-end-of-horizontal-stroke)}
+.small-contains-with-vertical-bar-at-end-of-horizontal-stroke-after::after{content:var(--small-contains-with-vertical-bar-at-end-of-horizontal-stroke)}
+.small-contains-with-vertical-bar-at-end-of-horizontal-stroke-both::after, .small-contains-with-vertical-bar-at-end-of-horizontal-stroke-both::before {content:var(--small-contains-with-vertical-bar-at-end-of-horizontal-stroke)}
+.small-contains-with-vertical-bar-at-end-of-horizontal-stroke-list { list-style: var(--small-contains-with-vertical-bar-at-end-of-horizontal-stroke)}
+
+
+
+.small-element-of::before, .small-element-of-before::before{ content:var(--small-element-of)}
+.small-element-of-after::after{content:var(--small-element-of)}
+.small-element-of-both::after, .small-element-of-both::before {content:var(--small-element-of)}
+.small-element-of-list { list-style: var(--small-element-of)}
+
+
+
+.small-element-of-with-overbar::before, .small-element-of-with-overbar-before::before{ content:var(--small-element-of-with-overbar)}
+.small-element-of-with-overbar-after::after{content:var(--small-element-of-with-overbar)}
+.small-element-of-with-overbar-both::after, .small-element-of-with-overbar-both::before {content:var(--small-element-of-with-overbar)}
+.small-element-of-with-overbar-list { list-style: var(--small-element-of-with-overbar)}
+
+
+
+.small-element-of-with-vertical-bar-at-end-of-horizontal-stroke::before, .small-element-of-with-vertical-bar-at-end-of-horizontal-stroke-before::before{ content:var(--small-element-of-with-vertical-bar-at-end-of-horizontal-stroke)}
+.small-element-of-with-vertical-bar-at-end-of-horizontal-stroke-after::after{content:var(--small-element-of-with-vertical-bar-at-end-of-horizontal-stroke)}
+.small-element-of-with-vertical-bar-at-end-of-horizontal-stroke-both::after, .small-element-of-with-vertical-bar-at-end-of-horizontal-stroke-both::before {content:var(--small-element-of-with-vertical-bar-at-end-of-horizontal-stroke)}
+.small-element-of-with-vertical-bar-at-end-of-horizontal-stroke-list { list-style: var(--small-element-of-with-vertical-bar-at-end-of-horizontal-stroke)}
+
+
+
+.spherical-angle::before, .spherical-angle-before::before{ content:var(--spherical-angle)}
+.spherical-angle-after::after{content:var(--spherical-angle)}
+.spherical-angle-both::after, .spherical-angle-both::before {content:var(--spherical-angle)}
+.spherical-angle-list { list-style: var(--spherical-angle)}
+
+
+
+.square-cap::before, .square-cap-before::before{ content:var(--square-cap)}
+.square-cap-after::after{content:var(--square-cap)}
+.square-cap-both::after, .square-cap-both::before {content:var(--square-cap)}
+.square-cap-list { list-style: var(--square-cap)}
+
+
+
+.square-cup::before, .square-cup-before::before{ content:var(--square-cup)}
+.square-cup-after::after{content:var(--square-cup)}
+.square-cup-both::after, .square-cup-both::before {content:var(--square-cup)}
+.square-cup-list { list-style: var(--square-cup)}
+
+
+
+.square-image-of::before, .square-image-of-before::before{ content:var(--square-image-of)}
+.square-image-of-after::after{content:var(--square-image-of)}
+.square-image-of-both::after, .square-image-of-both::before {content:var(--square-image-of)}
+.square-image-of-list { list-style: var(--square-image-of)}
+
+
+
+.square-image-of-or-equal-to::before, .square-image-of-or-equal-to-before::before{ content:var(--square-image-of-or-equal-to)}
+.square-image-of-or-equal-to-after::after{content:var(--square-image-of-or-equal-to)}
+.square-image-of-or-equal-to-both::after, .square-image-of-or-equal-to-both::before {content:var(--square-image-of-or-equal-to)}
+.square-image-of-or-equal-to-list { list-style: var(--square-image-of-or-equal-to)}
+
+
+
+.square-image-of-or-not-equal-to::before, .square-image-of-or-not-equal-to-before::before{ content:var(--square-image-of-or-not-equal-to)}
+.square-image-of-or-not-equal-to-after::after{content:var(--square-image-of-or-not-equal-to)}
+.square-image-of-or-not-equal-to-both::after, .square-image-of-or-not-equal-to-both::before {content:var(--square-image-of-or-not-equal-to)}
+.square-image-of-or-not-equal-to-list { list-style: var(--square-image-of-or-not-equal-to)}
+
+
+
+.square-original-of::before, .square-original-of-before::before{ content:var(--square-original-of)}
+.square-original-of-after::after{content:var(--square-original-of)}
+.square-original-of-both::after, .square-original-of-both::before {content:var(--square-original-of)}
+.square-original-of-list { list-style: var(--square-original-of)}
+
+
+
+.square-original-of-or-equal-to::before, .square-original-of-or-equal-to-before::before{ content:var(--square-original-of-or-equal-to)}
+.square-original-of-or-equal-to-after::after{content:var(--square-original-of-or-equal-to)}
+.square-original-of-or-equal-to-both::after, .square-original-of-or-equal-to-both::before {content:var(--square-original-of-or-equal-to)}
+.square-original-of-or-equal-to-list { list-style: var(--square-original-of-or-equal-to)}
+
+
+
+.square-original-of-or-not-equal-to::before, .square-original-of-or-not-equal-to-before::before{ content:var(--square-original-of-or-not-equal-to)}
+.square-original-of-or-not-equal-to-after::after{content:var(--square-original-of-or-not-equal-to)}
+.square-original-of-or-not-equal-to-both::after, .square-original-of-or-not-equal-to-both::before {content:var(--square-original-of-or-not-equal-to)}
+.square-original-of-or-not-equal-to-list { list-style: var(--square-original-of-or-not-equal-to)}
+
+
+
+.square-root::before, .square-root-before::before{ content:var(--square-root)}
+.square-root-after::after{content:var(--square-root)}
+.square-root-both::after, .square-root-both::before {content:var(--square-root)}
+.square-root-list { list-style: var(--square-root)}
+
+
+
+.squared-dot-operator::before, .squared-dot-operator-before::before{ content:var(--squared-dot-operator)}
+.squared-dot-operator-after::after{content:var(--squared-dot-operator)}
+.squared-dot-operator-both::after, .squared-dot-operator-both::before {content:var(--squared-dot-operator)}
+.squared-dot-operator-list { list-style: var(--squared-dot-operator)}
+
+
+
+.squared-minus::before, .squared-minus-before::before{ content:var(--squared-minus)}
+.squared-minus-after::after{content:var(--squared-minus)}
+.squared-minus-both::after, .squared-minus-both::before {content:var(--squared-minus)}
+.squared-minus-list { list-style: var(--squared-minus)}
+
+
+
+.squared-plus::before, .squared-plus-before::before{ content:var(--squared-plus)}
+.squared-plus-after::after{content:var(--squared-plus)}
+.squared-plus-both::after, .squared-plus-both::before {content:var(--squared-plus)}
+.squared-plus-list { list-style: var(--squared-plus)}
+
+
+
+.squared-times::before, .squared-times-before::before{ content:var(--squared-times)}
+.squared-times-after::after{content:var(--squared-times)}
+.squared-times-both::after, .squared-times-both::before {content:var(--squared-times)}
+.squared-times-list { list-style: var(--squared-times)}
+
+
+
+.star-equals::before, .star-equals-before::before{ content:var(--star-equals)}
+.star-equals-after::after{content:var(--star-equals)}
+.star-equals-both::after, .star-equals-both::before {content:var(--star-equals)}
+.star-equals-list { list-style: var(--star-equals)}
+
+
+
+.star-operator::before, .star-operator-before::before{ content:var(--star-operator)}
+.star-operator-after::after{content:var(--star-operator)}
+.star-operator-both::after, .star-operator-both::before {content:var(--star-operator)}
+.star-operator-list { list-style: var(--star-operator)}
+
+
+
+.strictly-equivalent-to::before, .strictly-equivalent-to-before::before{ content:var(--strictly-equivalent-to)}
+.strictly-equivalent-to-after::after{content:var(--strictly-equivalent-to)}
+.strictly-equivalent-to-both::after, .strictly-equivalent-to-both::before {content:var(--strictly-equivalent-to)}
+.strictly-equivalent-to-list { list-style: var(--strictly-equivalent-to)}
+
+
+
+.subset-of::before, .subset-of-before::before{ content:var(--subset-of)}
+.subset-of-after::after{content:var(--subset-of)}
+.subset-of-both::after, .subset-of-both::before {content:var(--subset-of)}
+.subset-of-list { list-style: var(--subset-of)}
+
+
+
+.subset-of-or-equal-to::before, .subset-of-or-equal-to-before::before{ content:var(--subset-of-or-equal-to)}
+.subset-of-or-equal-to-after::after{content:var(--subset-of-or-equal-to)}
+.subset-of-or-equal-to-both::after, .subset-of-or-equal-to-both::before {content:var(--subset-of-or-equal-to)}
+.subset-of-or-equal-to-list { list-style: var(--subset-of-or-equal-to)}
+
+
+
+.subset-of-with-not-equal-to::before, .subset-of-with-not-equal-to-before::before{ content:var(--subset-of-with-not-equal-to)}
+.subset-of-with-not-equal-to-after::after{content:var(--subset-of-with-not-equal-to)}
+.subset-of-with-not-equal-to-both::after, .subset-of-with-not-equal-to-both::before {content:var(--subset-of-with-not-equal-to)}
+.subset-of-with-not-equal-to-list { list-style: var(--subset-of-with-not-equal-to)}
+
+
+
+.succeeds::before, .succeeds-before::before{ content:var(--succeeds)}
+.succeeds-after::after{content:var(--succeeds)}
+.succeeds-both::after, .succeeds-both::before {content:var(--succeeds)}
+.succeeds-list { list-style: var(--succeeds)}
+
+
+
+.succeeds-but-not-equivalent-to::before, .succeeds-but-not-equivalent-to-before::before{ content:var(--succeeds-but-not-equivalent-to)}
+.succeeds-but-not-equivalent-to-after::after{content:var(--succeeds-but-not-equivalent-to)}
+.succeeds-but-not-equivalent-to-both::after, .succeeds-but-not-equivalent-to-both::before {content:var(--succeeds-but-not-equivalent-to)}
+.succeeds-but-not-equivalent-to-list { list-style: var(--succeeds-but-not-equivalent-to)}
+
+
+
+.succeeds-or-equal-to::before, .succeeds-or-equal-to-before::before{ content:var(--succeeds-or-equal-to)}
+.succeeds-or-equal-to-after::after{content:var(--succeeds-or-equal-to)}
+.succeeds-or-equal-to-both::after, .succeeds-or-equal-to-both::before {content:var(--succeeds-or-equal-to)}
+.succeeds-or-equal-to-list { list-style: var(--succeeds-or-equal-to)}
+
+
+
+.succeeds-or-equivalent-to::before, .succeeds-or-equivalent-to-before::before{ content:var(--succeeds-or-equivalent-to)}
+.succeeds-or-equivalent-to-after::after{content:var(--succeeds-or-equivalent-to)}
+.succeeds-or-equivalent-to-both::after, .succeeds-or-equivalent-to-both::before {content:var(--succeeds-or-equivalent-to)}
+.succeeds-or-equivalent-to-list { list-style: var(--succeeds-or-equivalent-to)}
+
+
+
+.succeeds-under-relation::before, .succeeds-under-relation-before::before{ content:var(--succeeds-under-relation)}
+.succeeds-under-relation-after::after{content:var(--succeeds-under-relation)}
+.succeeds-under-relation-both::after, .succeeds-under-relation-both::before {content:var(--succeeds-under-relation)}
+.succeeds-under-relation-list { list-style: var(--succeeds-under-relation)}
+
+
+
+.superset-of::before, .superset-of-before::before{ content:var(--superset-of)}
+.superset-of-after::after{content:var(--superset-of)}
+.superset-of-both::after, .superset-of-both::before {content:var(--superset-of)}
+.superset-of-list { list-style: var(--superset-of)}
+
+
+
+.superset-of-or-equal-to::before, .superset-of-or-equal-to-before::before{ content:var(--superset-of-or-equal-to)}
+.superset-of-or-equal-to-after::after{content:var(--superset-of-or-equal-to)}
+.superset-of-or-equal-to-both::after, .superset-of-or-equal-to-both::before {content:var(--superset-of-or-equal-to)}
+.superset-of-or-equal-to-list { list-style: var(--superset-of-or-equal-to)}
+
+
+
+.superset-of-with-not-equal-to::before, .superset-of-with-not-equal-to-before::before{ content:var(--superset-of-with-not-equal-to)}
+.superset-of-with-not-equal-to-after::after{content:var(--superset-of-with-not-equal-to)}
+.superset-of-with-not-equal-to-both::after, .superset-of-with-not-equal-to-both::before {content:var(--superset-of-with-not-equal-to)}
+.superset-of-with-not-equal-to-list { list-style: var(--superset-of-with-not-equal-to)}
+
+
+
+.surface-integral::before, .surface-integral-before::before{ content:var(--surface-integral)}
+.surface-integral-after::after{content:var(--surface-integral)}
+.surface-integral-both::after, .surface-integral-both::before {content:var(--surface-integral)}
+.surface-integral-list { list-style: var(--surface-integral)}
+
+
+
+.there-does-not-exist::before, .there-does-not-exist-before::before{ content:var(--there-does-not-exist)}
+.there-does-not-exist-after::after{content:var(--there-does-not-exist)}
+.there-does-not-exist-both::after, .there-does-not-exist-both::before {content:var(--there-does-not-exist)}
+.there-does-not-exist-list { list-style: var(--there-does-not-exist)}
+
+
+
+.there-exists::before, .there-exists-before::before{ content:var(--there-exists)}
+.there-exists-after::after{content:var(--there-exists)}
+.there-exists-both::after, .there-exists-both::before {content:var(--there-exists)}
+.there-exists-list { list-style: var(--there-exists)}
+
+
+
+.therefore::before, .therefore-before::before{ content:var(--therefore)}
+.therefore-after::after{content:var(--therefore)}
+.therefore-both::after, .therefore-both::before {content:var(--therefore)}
+.therefore-list { list-style: var(--therefore)}
+
+
+
+.tilde-operator::before, .tilde-operator-before::before{ content:var(--tilde-operator)}
+.tilde-operator-after::after{content:var(--tilde-operator)}
+.tilde-operator-both::after, .tilde-operator-both::before {content:var(--tilde-operator)}
+.tilde-operator-list { list-style: var(--tilde-operator)}
+
+
+
+.triple-integral::before, .triple-integral-before::before{ content:var(--triple-integral)}
+.triple-integral-after::after{content:var(--triple-integral)}
+.triple-integral-both::after, .triple-integral-both::before {content:var(--triple-integral)}
+.triple-integral-list { list-style: var(--triple-integral)}
+
+
+
+.triple-tilde::before, .triple-tilde-before::before{ content:var(--triple-tilde)}
+.triple-tilde-after::after{content:var(--triple-tilde)}
+.triple-tilde-both::after, .triple-tilde-both::before {content:var(--triple-tilde)}
+.triple-tilde-list { list-style: var(--triple-tilde)}
+
+
+
+.triple-vertical-bar-right-turnstile::before, .triple-vertical-bar-right-turnstile-before::before{ content:var(--triple-vertical-bar-right-turnstile)}
+.triple-vertical-bar-right-turnstile-after::after{content:var(--triple-vertical-bar-right-turnstile)}
+.triple-vertical-bar-right-turnstile-both::after, .triple-vertical-bar-right-turnstile-both::before {content:var(--triple-vertical-bar-right-turnstile)}
+.triple-vertical-bar-right-turnstile-list { list-style: var(--triple-vertical-bar-right-turnstile)}
+
+
+
+.true::before, .true-before::before{ content:var(--true)}
+.true-after::after{content:var(--true)}
+.true-both::after, .true-both::before {content:var(--true)}
+.true-list { list-style: var(--true)}
+
+
+
+.union::before, .union-before::before{ content:var(--union)}
+.union-after::after{content:var(--union)}
+.union-both::after, .union-both::before {content:var(--union)}
+.union-list { list-style: var(--union)}
+
+
+
+.up-right-diagonal-ellipsis::before, .up-right-diagonal-ellipsis-before::before{ content:var(--up-right-diagonal-ellipsis)}
+.up-right-diagonal-ellipsis-after::after{content:var(--up-right-diagonal-ellipsis)}
+.up-right-diagonal-ellipsis-both::after, .up-right-diagonal-ellipsis-both::before {content:var(--up-right-diagonal-ellipsis)}
+.up-right-diagonal-ellipsis-list { list-style: var(--up-right-diagonal-ellipsis)}
+
+
+
+.up-tack::before, .up-tack-before::before{ content:var(--up-tack)}
+.up-tack-after::after{content:var(--up-tack)}
+.up-tack-both::after, .up-tack-both::before {content:var(--up-tack)}
+.up-tack-list { list-style: var(--up-tack)}
+
+
+
+.vertical-ellipsis::before, .vertical-ellipsis-before::before{ content:var(--vertical-ellipsis)}
+.vertical-ellipsis-after::after{content:var(--vertical-ellipsis)}
+.vertical-ellipsis-both::after, .vertical-ellipsis-both::before {content:var(--vertical-ellipsis)}
+.vertical-ellipsis-list { list-style: var(--vertical-ellipsis)}
+
+
+
+.very-much-greater-than::before, .very-much-greater-than-before::before{ content:var(--very-much-greater-than)}
+.very-much-greater-than-after::after{content:var(--very-much-greater-than)}
+.very-much-greater-than-both::after, .very-much-greater-than-both::before {content:var(--very-much-greater-than)}
+.very-much-greater-than-list { list-style: var(--very-much-greater-than)}
+
+
+
+.very-much-less-than::before, .very-much-less-than-before::before{ content:var(--very-much-less-than)}
+.very-much-less-than-after::after{content:var(--very-much-less-than)}
+.very-much-less-than-both::after, .very-much-less-than-both::before {content:var(--very-much-less-than)}
+.very-much-less-than-list { list-style: var(--very-much-less-than)}
+
+
+
+.volume-integral::before, .volume-integral-before::before{ content:var(--volume-integral)}
+.volume-integral-after::after{content:var(--volume-integral)}
+.volume-integral-both::after, .volume-integral-both::before {content:var(--volume-integral)}
+.volume-integral-list { list-style: var(--volume-integral)}
+
+
+
+.wreath-product::before, .wreath-product-before::before{ content:var(--wreath-product)}
+.wreath-product-after::after{content:var(--wreath-product)}
+.wreath-product-both::after, .wreath-product-both::before {content:var(--wreath-product)}
+.wreath-product-list { list-style: var(--wreath-product)}
+
+
+
+.xor::before, .xor-before::before{ content:var(--xor)}
+.xor-after::after{content:var(--xor)}
+.xor-both::after, .xor-both::before {content:var(--xor)}
+.xor-list { list-style: var(--xor)}
+
+
+
+.z-notation-bag-membership::before, .z-notation-bag-membership-before::before{ content:var(--z-notation-bag-membership)}
+.z-notation-bag-membership-after::after{content:var(--z-notation-bag-membership)}
+.z-notation-bag-membership-both::after, .z-notation-bag-membership-both::before {content:var(--z-notation-bag-membership)}
+.z-notation-bag-membership-list { list-style: var(--z-notation-bag-membership)}
+}

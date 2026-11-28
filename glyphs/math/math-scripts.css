@@ -1,0 +1,340 @@
+@layer superscripts-and-subscripts {
+:root {
+--latin-subscript-small-letter-a:'\2090';
+--latin-subscript-small-letter-e:'\2091';
+--latin-subscript-small-letter-h:'\2095';
+--latin-subscript-small-letter-k:'\2096';
+--latin-subscript-small-letter-l:'\2097';
+--latin-subscript-small-letter-m:'\2098';
+--latin-subscript-small-letter-n:'\2099';
+--latin-subscript-small-letter-o:'\2092';
+--latin-subscript-small-letter-p:'\209A';
+--latin-subscript-small-letter-s:'\209B';
+--latin-subscript-small-letter-schwa:'\2094';
+--latin-subscript-small-letter-t:'\209C';
+--latin-subscript-small-letter-x:'\2093';
+--subscript-eight:'\2088';
+--subscript-equals-sign:'\208C';
+--subscript-five:'\2085';
+--subscript-four:'\2084';
+--subscript-left-parenthesis:'\208D';
+--subscript-minus:'\208B';
+--subscript-nine:'\2089';
+--subscript-one:'\2081';
+--subscript-plus-sign:'\208A';
+--subscript-right-parenthesis:'\208E';
+--subscript-seven:'\2087';
+--subscript-six:'\2086';
+--subscript-three:'\2083';
+--subscript-two:'\2082';
+--subscript-zero:'\2080';
+--superscript-eight:'\2078';
+--superscript-equals-sign:'\207C';
+--superscript-five:'\2075';
+--superscript-four:'\2074';
+--superscript-latin-small-letter-i:'\2071';
+--superscript-latin-small-letter-n:'\207F';
+--superscript-left-parenthesis:'\207D';
+--superscript-minus:'\207B';
+--superscript-nine:'\2079';
+--superscript-plus-sign:'\207A';
+--superscript-right-parenthesis:'\207E';
+--superscript-seven:'\2077';
+--superscript-six:'\2076';
+--superscript-zero:'\2070';
+}
+
+
+
+.latin-subscript-small-letter-a::before, .latin-subscript-small-letter-a-before::before{ content:var(--latin-subscript-small-letter-a)}
+.latin-subscript-small-letter-a-after::after{content:var(--latin-subscript-small-letter-a)}
+.latin-subscript-small-letter-a-both::after, .latin-subscript-small-letter-a-both::before {content:var(--latin-subscript-small-letter-a)}
+.latin-subscript-small-letter-a-list { list-style: var(--latin-subscript-small-letter-a)}
+
+
+
+.latin-subscript-small-letter-e::before, .latin-subscript-small-letter-e-before::before{ content:var(--latin-subscript-small-letter-e)}
+.latin-subscript-small-letter-e-after::after{content:var(--latin-subscript-small-letter-e)}
+.latin-subscript-small-letter-e-both::after, .latin-subscript-small-letter-e-both::before {content:var(--latin-subscript-small-letter-e)}
+.latin-subscript-small-letter-e-list { list-style: var(--latin-subscript-small-letter-e)}
+
+
+
+.latin-subscript-small-letter-h::before, .latin-subscript-small-letter-h-before::before{ content:var(--latin-subscript-small-letter-h)}
+.latin-subscript-small-letter-h-after::after{content:var(--latin-subscript-small-letter-h)}
+.latin-subscript-small-letter-h-both::after, .latin-subscript-small-letter-h-both::before {content:var(--latin-subscript-small-letter-h)}
+.latin-subscript-small-letter-h-list { list-style: var(--latin-subscript-small-letter-h)}
+
+
+
+.latin-subscript-small-letter-k::before, .latin-subscript-small-letter-k-before::before{ content:var(--latin-subscript-small-letter-k)}
+.latin-subscript-small-letter-k-after::after{content:var(--latin-subscript-small-letter-k)}
+.latin-subscript-small-letter-k-both::after, .latin-subscript-small-letter-k-both::before {content:var(--latin-subscript-small-letter-k)}
+.latin-subscript-small-letter-k-list { list-style: var(--latin-subscript-small-letter-k)}
+
+
+
+.latin-subscript-small-letter-l::before, .latin-subscript-small-letter-l-before::before{ content:var(--latin-subscript-small-letter-l)}
+.latin-subscript-small-letter-l-after::after{content:var(--latin-subscript-small-letter-l)}
+.latin-subscript-small-letter-l-both::after, .latin-subscript-small-letter-l-both::before {content:var(--latin-subscript-small-letter-l)}
+.latin-subscript-small-letter-l-list { list-style: var(--latin-subscript-small-letter-l)}
+
+
+
+.latin-subscript-small-letter-m::before, .latin-subscript-small-letter-m-before::before{ content:var(--latin-subscript-small-letter-m)}
+.latin-subscript-small-letter-m-after::after{content:var(--latin-subscript-small-letter-m)}
+.latin-subscript-small-letter-m-both::after, .latin-subscript-small-letter-m-both::before {content:var(--latin-subscript-small-letter-m)}
+.latin-subscript-small-letter-m-list { list-style: var(--latin-subscript-small-letter-m)}
+
+
+
+.latin-subscript-small-letter-n::before, .latin-subscript-small-letter-n-before::before{ content:var(--latin-subscript-small-letter-n)}
+.latin-subscript-small-letter-n-after::after{content:var(--latin-subscript-small-letter-n)}
+.latin-subscript-small-letter-n-both::after, .latin-subscript-small-letter-n-both::before {content:var(--latin-subscript-small-letter-n)}
+.latin-subscript-small-letter-n-list { list-style: var(--latin-subscript-small-letter-n)}
+
+
+
+.latin-subscript-small-letter-o::before, .latin-subscript-small-letter-o-before::before{ content:var(--latin-subscript-small-letter-o)}
+.latin-subscript-small-letter-o-after::after{content:var(--latin-subscript-small-letter-o)}
+.latin-subscript-small-letter-o-both::after, .latin-subscript-small-letter-o-both::before {content:var(--latin-subscript-small-letter-o)}
+.latin-subscript-small-letter-o-list { list-style: var(--latin-subscript-small-letter-o)}
+
+
+
+.latin-subscript-small-letter-p::before, .latin-subscript-small-letter-p-before::before{ content:var(--latin-subscript-small-letter-p)}
+.latin-subscript-small-letter-p-after::after{content:var(--latin-subscript-small-letter-p)}
+.latin-subscript-small-letter-p-both::after, .latin-subscript-small-letter-p-both::before {content:var(--latin-subscript-small-letter-p)}
+.latin-subscript-small-letter-p-list { list-style: var(--latin-subscript-small-letter-p)}
+
+
+
+.latin-subscript-small-letter-s::before, .latin-subscript-small-letter-s-before::before{ content:var(--latin-subscript-small-letter-s)}
+.latin-subscript-small-letter-s-after::after{content:var(--latin-subscript-small-letter-s)}
+.latin-subscript-small-letter-s-both::after, .latin-subscript-small-letter-s-both::before {content:var(--latin-subscript-small-letter-s)}
+.latin-subscript-small-letter-s-list { list-style: var(--latin-subscript-small-letter-s)}
+
+
+
+.latin-subscript-small-letter-schwa::before, .latin-subscript-small-letter-schwa-before::before{ content:var(--latin-subscript-small-letter-schwa)}
+.latin-subscript-small-letter-schwa-after::after{content:var(--latin-subscript-small-letter-schwa)}
+.latin-subscript-small-letter-schwa-both::after, .latin-subscript-small-letter-schwa-both::before {content:var(--latin-subscript-small-letter-schwa)}
+.latin-subscript-small-letter-schwa-list { list-style: var(--latin-subscript-small-letter-schwa)}
+
+
+
+.latin-subscript-small-letter-t::before, .latin-subscript-small-letter-t-before::before{ content:var(--latin-subscript-small-letter-t)}
+.latin-subscript-small-letter-t-after::after{content:var(--latin-subscript-small-letter-t)}
+.latin-subscript-small-letter-t-both::after, .latin-subscript-small-letter-t-both::before {content:var(--latin-subscript-small-letter-t)}
+.latin-subscript-small-letter-t-list { list-style: var(--latin-subscript-small-letter-t)}
+
+
+
+.latin-subscript-small-letter-x::before, .latin-subscript-small-letter-x-before::before{ content:var(--latin-subscript-small-letter-x)}
+.latin-subscript-small-letter-x-after::after{content:var(--latin-subscript-small-letter-x)}
+.latin-subscript-small-letter-x-both::after, .latin-subscript-small-letter-x-both::before {content:var(--latin-subscript-small-letter-x)}
+.latin-subscript-small-letter-x-list { list-style: var(--latin-subscript-small-letter-x)}
+
+
+
+.subscript-eight::before, .subscript-eight-before::before{ content:var(--subscript-eight)}
+.subscript-eight-after::after{content:var(--subscript-eight)}
+.subscript-eight-both::after, .subscript-eight-both::before {content:var(--subscript-eight)}
+.subscript-eight-list { list-style: var(--subscript-eight)}
+
+
+
+.subscript-equals-sign::before, .subscript-equals-sign-before::before{ content:var(--subscript-equals-sign)}
+.subscript-equals-sign-after::after{content:var(--subscript-equals-sign)}
+.subscript-equals-sign-both::after, .subscript-equals-sign-both::before {content:var(--subscript-equals-sign)}
+.subscript-equals-sign-list { list-style: var(--subscript-equals-sign)}
+
+
+
+.subscript-five::before, .subscript-five-before::before{ content:var(--subscript-five)}
+.subscript-five-after::after{content:var(--subscript-five)}
+.subscript-five-both::after, .subscript-five-both::before {content:var(--subscript-five)}
+.subscript-five-list { list-style: var(--subscript-five)}
+
+
+
+.subscript-four::before, .subscript-four-before::before{ content:var(--subscript-four)}
+.subscript-four-after::after{content:var(--subscript-four)}
+.subscript-four-both::after, .subscript-four-both::before {content:var(--subscript-four)}
+.subscript-four-list { list-style: var(--subscript-four)}
+
+
+
+.subscript-left-parenthesis::before, .subscript-left-parenthesis-before::before{ content:var(--subscript-left-parenthesis)}
+.subscript-left-parenthesis-after::after{content:var(--subscript-left-parenthesis)}
+.subscript-left-parenthesis-both::after, .subscript-left-parenthesis-both::before {content:var(--subscript-left-parenthesis)}
+.subscript-left-parenthesis-list { list-style: var(--subscript-left-parenthesis)}
+
+
+
+.subscript-minus::before, .subscript-minus-before::before{ content:var(--subscript-minus)}
+.subscript-minus-after::after{content:var(--subscript-minus)}
+.subscript-minus-both::after, .subscript-minus-both::before {content:var(--subscript-minus)}
+.subscript-minus-list { list-style: var(--subscript-minus)}
+
+
+
+.subscript-nine::before, .subscript-nine-before::before{ content:var(--subscript-nine)}
+.subscript-nine-after::after{content:var(--subscript-nine)}
+.subscript-nine-both::after, .subscript-nine-both::before {content:var(--subscript-nine)}
+.subscript-nine-list { list-style: var(--subscript-nine)}
+
+
+
+.subscript-one::before, .subscript-one-before::before{ content:var(--subscript-one)}
+.subscript-one-after::after{content:var(--subscript-one)}
+.subscript-one-both::after, .subscript-one-both::before {content:var(--subscript-one)}
+.subscript-one-list { list-style: var(--subscript-one)}
+
+
+
+.subscript-plus-sign::before, .subscript-plus-sign-before::before{ content:var(--subscript-plus-sign)}
+.subscript-plus-sign-after::after{content:var(--subscript-plus-sign)}
+.subscript-plus-sign-both::after, .subscript-plus-sign-both::before {content:var(--subscript-plus-sign)}
+.subscript-plus-sign-list { list-style: var(--subscript-plus-sign)}
+
+
+
+.subscript-right-parenthesis::before, .subscript-right-parenthesis-before::before{ content:var(--subscript-right-parenthesis)}
+.subscript-right-parenthesis-after::after{content:var(--subscript-right-parenthesis)}
+.subscript-right-parenthesis-both::after, .subscript-right-parenthesis-both::before {content:var(--subscript-right-parenthesis)}
+.subscript-right-parenthesis-list { list-style: var(--subscript-right-parenthesis)}
+
+
+
+.subscript-seven::before, .subscript-seven-before::before{ content:var(--subscript-seven)}
+.subscript-seven-after::after{content:var(--subscript-seven)}
+.subscript-seven-both::after, .subscript-seven-both::before {content:var(--subscript-seven)}
+.subscript-seven-list { list-style: var(--subscript-seven)}
+
+
+
+.subscript-six::before, .subscript-six-before::before{ content:var(--subscript-six)}
+.subscript-six-after::after{content:var(--subscript-six)}
+.subscript-six-both::after, .subscript-six-both::before {content:var(--subscript-six)}
+.subscript-six-list { list-style: var(--subscript-six)}
+
+
+
+.subscript-three::before, .subscript-three-before::before{ content:var(--subscript-three)}
+.subscript-three-after::after{content:var(--subscript-three)}
+.subscript-three-both::after, .subscript-three-both::before {content:var(--subscript-three)}
+.subscript-three-list { list-style: var(--subscript-three)}
+
+
+
+.subscript-two::before, .subscript-two-before::before{ content:var(--subscript-two)}
+.subscript-two-after::after{content:var(--subscript-two)}
+.subscript-two-both::after, .subscript-two-both::before {content:var(--subscript-two)}
+.subscript-two-list { list-style: var(--subscript-two)}
+
+
+
+.subscript-zero::before, .subscript-zero-before::before{ content:var(--subscript-zero)}
+.subscript-zero-after::after{content:var(--subscript-zero)}
+.subscript-zero-both::after, .subscript-zero-both::before {content:var(--subscript-zero)}
+.subscript-zero-list { list-style: var(--subscript-zero)}
+
+
+
+.superscript-eight::before, .superscript-eight-before::before{ content:var(--superscript-eight)}
+.superscript-eight-after::after{content:var(--superscript-eight)}
+.superscript-eight-both::after, .superscript-eight-both::before {content:var(--superscript-eight)}
+.superscript-eight-list { list-style: var(--superscript-eight)}
+
+
+
+.superscript-equals-sign::before, .superscript-equals-sign-before::before{ content:var(--superscript-equals-sign)}
+.superscript-equals-sign-after::after{content:var(--superscript-equals-sign)}
+.superscript-equals-sign-both::after, .superscript-equals-sign-both::before {content:var(--superscript-equals-sign)}
+.superscript-equals-sign-list { list-style: var(--superscript-equals-sign)}
+
+
+
+.superscript-five::before, .superscript-five-before::before{ content:var(--superscript-five)}
+.superscript-five-after::after{content:var(--superscript-five)}
+.superscript-five-both::after, .superscript-five-both::before {content:var(--superscript-five)}
+.superscript-five-list { list-style: var(--superscript-five)}
+
+
+
+.superscript-four::before, .superscript-four-before::before{ content:var(--superscript-four)}
+.superscript-four-after::after{content:var(--superscript-four)}
+.superscript-four-both::after, .superscript-four-both::before {content:var(--superscript-four)}
+.superscript-four-list { list-style: var(--superscript-four)}
+
+
+
+.superscript-latin-small-letter-i::before, .superscript-latin-small-letter-i-before::before{ content:var(--superscript-latin-small-letter-i)}
+.superscript-latin-small-letter-i-after::after{content:var(--superscript-latin-small-letter-i)}
+.superscript-latin-small-letter-i-both::after, .superscript-latin-small-letter-i-both::before {content:var(--superscript-latin-small-letter-i)}
+.superscript-latin-small-letter-i-list { list-style: var(--superscript-latin-small-letter-i)}
+
+
+
+.superscript-latin-small-letter-n::before, .superscript-latin-small-letter-n-before::before{ content:var(--superscript-latin-small-letter-n)}
+.superscript-latin-small-letter-n-after::after{content:var(--superscript-latin-small-letter-n)}
+.superscript-latin-small-letter-n-both::after, .superscript-latin-small-letter-n-both::before {content:var(--superscript-latin-small-letter-n)}
+.superscript-latin-small-letter-n-list { list-style: var(--superscript-latin-small-letter-n)}
+
+
+
+.superscript-left-parenthesis::before, .superscript-left-parenthesis-before::before{ content:var(--superscript-left-parenthesis)}
+.superscript-left-parenthesis-after::after{content:var(--superscript-left-parenthesis)}
+.superscript-left-parenthesis-both::after, .superscript-left-parenthesis-both::before {content:var(--superscript-left-parenthesis)}
+.superscript-left-parenthesis-list { list-style: var(--superscript-left-parenthesis)}
+
+
+
+.superscript-minus::before, .superscript-minus-before::before{ content:var(--superscript-minus)}
+.superscript-minus-after::after{content:var(--superscript-minus)}
+.superscript-minus-both::after, .superscript-minus-both::before {content:var(--superscript-minus)}
+.superscript-minus-list { list-style: var(--superscript-minus)}
+
+
+
+.superscript-nine::before, .superscript-nine-before::before{ content:var(--superscript-nine)}
+.superscript-nine-after::after{content:var(--superscript-nine)}
+.superscript-nine-both::after, .superscript-nine-both::before {content:var(--superscript-nine)}
+.superscript-nine-list { list-style: var(--superscript-nine)}
+
+
+
+.superscript-plus-sign::before, .superscript-plus-sign-before::before{ content:var(--superscript-plus-sign)}
+.superscript-plus-sign-after::after{content:var(--superscript-plus-sign)}
+.superscript-plus-sign-both::after, .superscript-plus-sign-both::before {content:var(--superscript-plus-sign)}
+.superscript-plus-sign-list { list-style: var(--superscript-plus-sign)}
+
+
+
+.superscript-right-parenthesis::before, .superscript-right-parenthesis-before::before{ content:var(--superscript-right-parenthesis)}
+.superscript-right-parenthesis-after::after{content:var(--superscript-right-parenthesis)}
+.superscript-right-parenthesis-both::after, .superscript-right-parenthesis-both::before {content:var(--superscript-right-parenthesis)}
+.superscript-right-parenthesis-list { list-style: var(--superscript-right-parenthesis)}
+
+
+
+.superscript-seven::before, .superscript-seven-before::before{ content:var(--superscript-seven)}
+.superscript-seven-after::after{content:var(--superscript-seven)}
+.superscript-seven-both::after, .superscript-seven-both::before {content:var(--superscript-seven)}
+.superscript-seven-list { list-style: var(--superscript-seven)}
+
+
+
+.superscript-six::before, .superscript-six-before::before{ content:var(--superscript-six)}
+.superscript-six-after::after{content:var(--superscript-six)}
+.superscript-six-both::after, .superscript-six-both::before {content:var(--superscript-six)}
+.superscript-six-list { list-style: var(--superscript-six)}
+
+
+
+.superscript-zero::before, .superscript-zero-before::before{ content:var(--superscript-zero)}
+.superscript-zero-after::after{content:var(--superscript-zero)}
+.superscript-zero-both::after, .superscript-zero-both::before {content:var(--superscript-zero)}
+.superscript-zero-list { list-style: var(--superscript-zero)}
+}
