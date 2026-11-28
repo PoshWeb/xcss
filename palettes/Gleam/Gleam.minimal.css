@@ -1,0 +1,40 @@
+:root {
+  --name: Gleam;
+  --black: #000000;
+  --red: #f44747;
+  --green: #aadd8b;
+  --yellow: #ffd596;
+  --blue: #6796e6;
+  --purple: #fe7ab2;
+  --cyan: #b181ec;
+  --white: #f7f7f7;
+  --brightBlack: #808080;
+  --brightRed: #ff4a4a;
+  --brightGreen: #c8ffa7;
+  --brightYellow: #fdffab;
+  --brightBlue: #9ce7ff;
+  --brightPurple: #ffaff3;
+  --brightCyan: #d9baff;
+  --brightWhite: #ffffff;
+  --background: #292d3e;
+  --foreground: #ffffff;
+  --cursorColor: #ffffff;
+  --selectionBackground: #393f57;
+  --luma: 0.177949;
+  --contrast: 0.822051;
+  --paletteName: Gleam;
+  --paletteFileName: Gleam;
+  --isBright: 0;
+  --isDark: 1;
+  --by: trag1c  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
