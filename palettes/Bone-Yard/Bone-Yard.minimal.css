@@ -1,0 +1,39 @@
+:root {
+  --name: Bone Yard;
+  --black: #332f28;
+  --red: #8b342c;
+  --green: #44583b;
+  --yellow: #6c571f;
+  --blue: #374f60;
+  --purple: #60465d;
+  --cyan: #365f5c;
+  --white: #51463b;
+  --brightBlack: #2a2721;
+  --brightRed: #722b24;
+  --brightGreen: #384830;
+  --brightYellow: #594719;
+  --brightBlue: #2d414f;
+  --brightPurple: #4f394c;
+  --brightCyan: #2c4e4b;
+  --brightWhite: #423930;
+  --background: #ead9b8;
+  --foreground: #51463b;
+  --cursorColor: #24150e;
+  --selectionBackground: #f6c89b;
+  --luma: 0.85581;
+  --contrast: 0.575244;
+  --paletteName: Bone Yard;
+  --paletteFileName: Bone-Yard;
+  --isBright: 0;
+  --isDark: 1  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
