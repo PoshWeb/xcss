@@ -1,0 +1,39 @@
+:root {
+  --name: Turquoise Trail;
+  --black: #d0d9d2;
+  --red: #ffad8e;
+  --green: #a7dfae;
+  --yellow: #f7d879;
+  --blue: #b1d6f4;
+  --purple: #efb0d2;
+  --cyan: #a9e5df;
+  --white: #fff0d5;
+  --brightBlack: #e0e5df;
+  --brightRed: #ffc0a5;
+  --brightGreen: #bce8c2;
+  --brightYellow: #ffe493;
+  --brightBlue: #c8e3f7;
+  --brightPurple: #f4c6df;
+  --brightCyan: #c5eee9;
+  --brightWhite: #fffaf0;
+  --background: #075153;
+  --foreground: #fff0d5;
+  --cursorColor: #ffb34f;
+  --selectionBackground: #287071;
+  --luma: 0.256518;
+  --contrast: 0.68952;
+  --paletteName: Turquoise Trail;
+  --paletteFileName: Turquoise-Trail;
+  --isBright: 0;
+  --isDark: 1  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
