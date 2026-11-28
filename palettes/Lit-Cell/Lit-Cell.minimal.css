@@ -1,0 +1,40 @@
+:root {
+  --name: Lit Cell;
+  --black: #1c2420;
+  --red: #ff6b6b;
+  --green: #3df2a0;
+  --yellow: #ffb000;
+  --blue: #6fb3f2;
+  --purple: #c99af2;
+  --cyan: #48d6cf;
+  --white: #b9c7be;
+  --brightBlack: #758679;
+  --brightRed: #ff9494;
+  --brightGreen: #86ffc6;
+  --brightYellow: #ffcb5c;
+  --brightBlue: #9ccbff;
+  --brightPurple: #ddbcff;
+  --brightCyan: #86ece6;
+  --brightWhite: #edefea;
+  --background: #0c110e;
+  --foreground: #cfddd3;
+  --cursorColor: #3df2a0;
+  --selectionBackground: #1e4533;
+  --luma: 0.061649;
+  --contrast: 0.790514;
+  --paletteName: Lit Cell;
+  --paletteFileName: Lit-Cell;
+  --isBright: 0;
+  --isDark: 1;
+  --by: zerebos  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
