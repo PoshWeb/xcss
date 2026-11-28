@@ -137,7 +137,8 @@ filter GetMarkdownHTML {
     } else {
         $markdown = $in
     }
-    (ConvertFrom-Markdown -InputObject "$markdown").Html -replace 
+    
+    [Markdig.Markdown]::ToHtml("$markdown") -replace 
         'disabled="disabled"' |
             Add-Member NoteProperty Metadata $metadata -Force -PassThru
 }
@@ -173,7 +174,7 @@ if (Test-Path $configPs1Path) { . $configPs1Path }
 
 #region Build
 $buildStart = [DateTime]::Now
-Write-Host "Started Building Pages @ $buildStart"
+Write-Host "Started Building Pages @ $buildStart" -ForegroundColor Cyan
 $defaultLayoutParameters = # Get the default layout parameters for the site.
     $layoutParameters = $Layout | GetScriptParameters $site
 $fileQueue = [Collections.Queue]::new()
@@ -207,6 +208,16 @@ while ($fileQueue.Count) {
             Push-Location $buildFile.Directory.FullName
             $scriptFile =
                 $invokeCommand.Getcommand($buildFile.FullName, 'ExternalScript')
+            foreach ($requiredModule in 
+                $scriptFile.ScriptBlock.Ast.ScriptRequirements.RequiredModules
+            ) {
+                if (-not $requiredModule.Name) { continue }
+                $requiredModuleLoaded = Get-Module $requiredModule.Name -ErrorAction Ignore
+                if (-not $requiredModuleLoaded) {
+                    Install-Module $requiredModule.Name -Scope CurrentUser -Force
+                    Import-Module $requiredModule.Name -Global -PassThru                        
+                }
+            }
             $page = $scriptFile | GetScriptMetadata
             $parameters = $scriptFile | GetScriptParameters $site $page
             $layoutParameters = $layout | GetScriptParameters $site $page
@@ -215,7 +226,6 @@ while ($fileQueue.Count) {
             $output = . $buildFile.FullName @parameters
             # If there is no output, pop out and continue
             if (-not $output) {
-
                 Pop-Location; continue nextFile
             }
             
@@ -276,5 +286,6 @@ $buildProgress.Status = "Finished Building @ $buildEnd"
 $buildProgress.Activity = "in $($buildEnd - $buildStart)"
 $buildProgress.Remove('PercentComplete')
 Write-Progress @buildProgress -Completed
+Write-Host "$($buildProgress.Status) $($buildProgress.Activity)" -ForegroundColor Cyan
 #endregion Build
 if ($PSScriptRoot) { Pop-Location } # Pop back out.
