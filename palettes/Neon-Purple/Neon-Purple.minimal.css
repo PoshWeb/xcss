@@ -1,0 +1,40 @@
+:root {
+  --name: Neon Purple;
+  --black: #000000;
+  --red: #cd0d76;
+  --green: #03eba5;
+  --yellow: #fffa6a;
+  --blue: #00bfff;
+  --purple: #ff00e0;
+  --cyan: #9aa5ed;
+  --white: #ffffff;
+  --brightBlack: #a8fcff;
+  --brightRed: #ff0da5;
+  --brightGreen: #00ffb6;
+  --brightYellow: #fff787;
+  --brightBlue: #1bccfd;
+  --brightPurple: #ff00f8;
+  --brightCyan: #a6b6ff;
+  --brightWhite: #ffffff;
+  --background: #291b47;
+  --foreground: #e5e5e5;
+  --cursorColor: #21f6bc;
+  --selectionBackground: #c1deff;
+  --luma: 0.130013;
+  --contrast: 0.768026;
+  --paletteName: Neon Purple;
+  --paletteFileName: Neon-Purple;
+  --isBright: 0;
+  --isDark: 1;
+  --by: imcarvalho  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
