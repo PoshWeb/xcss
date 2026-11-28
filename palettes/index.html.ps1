@@ -78,7 +78,7 @@ const paletteLink = document.getElementById("palette");
 // Palettes 
 function updatePaletteLinks() {
     var paletteName = getComputedStyle(paletteLink).getPropertyValue('--name');
-    var paletteFileName = getComputedStyle(paletteLink).getPropertyValue('--PaletteFileName');
+    var paletteFileName = getComputedStyle(paletteLink).getPropertyValue('--paletteFileName');
     console.log(paletteName)
     for (const nameElement of [...document.querySelectorAll('.palette-name')]) {
         nameElement.innerText = paletteName
@@ -138,15 +138,21 @@ $total = $palettes.Count
 $counter = 0 
 foreach ($paletteName in $palettes.Keys) {    
     $paletteDirectory = Get-Item -Path (
-        Join-Path $PSScriptRoot $palettes[$paletteName].FileName 
-    )
+        Join-Path $PSScriptRoot $palettes[$paletteName].FileName
+    ) -ErrorAction 'Continue'
+    if (-not $paletteDirectory) {
+        Write-Warning "Could not locate $paletteName"
+        continue
+    }
+
     $progress.Activity = $paletteName
     $progress.PercentComplete = (++$counter*100)/$total
     Write-Progress @progress
     $paletteHtml = $paletteName | viewPalette
-    $paletteLayout = [Ordered]@{} + $(
-        if ($layoutParameters) {
-            $layoutParameters
+    $paletteLayout = [Ordered]@{}
+    $(
+        if ($layoutParameters -is [Collections.IDictionary]) {
+            $paletteLayout += $layoutParameters
         }
     )
     $paletteLayout.title = $paletteName
