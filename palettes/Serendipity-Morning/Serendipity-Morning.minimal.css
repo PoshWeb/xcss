@@ -1,0 +1,39 @@
+:root {
+  --name: Serendipity Morning;
+  --black: #ccd0dc;
+  --red: #c25a4d;
+  --green: #2f7aab;
+  --yellow: #785fd0;
+  --blue: #6288d8;
+  --purple: #629aa5;
+  --cyan: #e58678;
+  --white: #3f4363;
+  --brightBlack: #505575;
+  --brightRed: #c25a4d;
+  --brightGreen: #2f7aab;
+  --brightYellow: #785fd0;
+  --brightBlue: #6288d8;
+  --brightPurple: #629aa5;
+  --brightCyan: #e58678;
+  --brightWhite: #3f4363;
+  --background: #f6f7fb;
+  --foreground: #3f4363;
+  --cursorColor: #6d7296;
+  --selectionBackground: #5a5670;
+  --luma: 0.968926;
+  --contrast: 0.700455;
+  --paletteName: Serendipity Morning;
+  --paletteFileName: Serendipity-Morning;
+  --isBright: 0;
+  --isDark: 1  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
