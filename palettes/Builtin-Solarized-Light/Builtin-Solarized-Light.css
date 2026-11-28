@@ -1,5 +1,5 @@
 :root {
-  --name: 'Builtin Solarized Light';
+  --name: Builtin Solarized Light;
   --black: #073642;
   --red: #dc322f;
   --green: #859900;
@@ -22,8 +22,8 @@
   --selectionBackground: #eee8d5;
   --Luma: 0.965162;
   --Contrast: 0.498886;
-  --PaletteName: 'Builtin Solarized Light';
-  --PaletteFileName: 'Builtin-Solarized-Light';
+  --PaletteName: Builtin Solarized Light;
+  --PaletteFileName: Builtin-Solarized-Light;
   --IsBright: 0;
   --IsDark: 1;
 }
@@ -202,6 +202,11 @@ a, a:visited, a:hover  { color: var(--cyan); }
 }
     
 form input[type="text"], form input[type="checkbox"], input[type="button"], button, textarea, select, option {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+input[type="file"]::file-selector-button {
     color: var(--foreground);
     background-color: var(--background);
 }
