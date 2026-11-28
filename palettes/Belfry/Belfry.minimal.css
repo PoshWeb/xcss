@@ -1,0 +1,39 @@
+:root {
+  --name: Belfry;
+  --black: #bcaeb0;
+  --red: #f1817b;
+  --green: #9dcc91;
+  --yellow: #e7c56d;
+  --blue: #91bfe0;
+  --purple: #d29ac0;
+  --cyan: #82cbc7;
+  --white: #fff0dc;
+  --brightBlack: #d0c3c5;
+  --brightRed: #f59c96;
+  --brightGreen: #b2d8a7;
+  --brightYellow: #efd58b;
+  --brightBlue: #accfe8;
+  --brightPurple: #dfb3cf;
+  --brightCyan: #a1d9d5;
+  --brightWhite: #fffaf0;
+  --background: #4a0c18;
+  --foreground: #fff0dc;
+  --cursorColor: #ef4858;
+  --selectionBackground: #702331;
+  --luma: 0.102147;
+  --contrast: 0.845873;
+  --paletteName: Belfry;
+  --paletteFileName: Belfry;
+  --isBright: 0;
+  --isDark: 1  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
