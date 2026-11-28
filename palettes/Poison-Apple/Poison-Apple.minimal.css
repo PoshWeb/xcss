@@ -1,0 +1,39 @@
+:root {
+  --name: Poison Apple;
+  --black: #bca8aa;
+  --red: #ef8178;
+  --green: #9ed25f;
+  --yellow: #e5c45b;
+  --blue: #86b9d8;
+  --purple: #c28bb9;
+  --cyan: #7cc4bc;
+  --white: #f7e8d8;
+  --brightBlack: #c4b2b4;
+  --brightRed: #f19088;
+  --brightGreen: #aad772;
+  --brightYellow: #e8cb6f;
+  --brightBlue: #95c1dd;
+  --brightPurple: #c999c1;
+  --brightCyan: #8ccbc4;
+  --brightWhite: #f8ebdd;
+  --background: #560b13;
+  --foreground: #f7e8d8;
+  --cursorColor: #f19088;
+  --selectionBackground: #c4b2b4;
+  --luma: 0.107932;
+  --contrast: 0.809848;
+  --paletteName: Poison Apple;
+  --paletteFileName: Poison-Apple;
+  --isBright: 0;
+  --isDark: 1  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
