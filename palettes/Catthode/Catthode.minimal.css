@@ -1,0 +1,40 @@
+:root {
+  --name: Catthode;
+  --black: #141414;
+  --red: #ff6b6b;
+  --green: #b9d665;
+  --yellow: #ffb86c;
+  --blue: #9cd9e6;
+  --purple: #eba4be;
+  --cyan: #aee6d6;
+  --white: #b3b3b3;
+  --brightBlack: #636363;
+  --brightRed: #ff6b6b;
+  --brightGreen: #b9d665;
+  --brightYellow: #fae2c8;
+  --brightBlue: #9cd9e6;
+  --brightPurple: #eba4be;
+  --brightCyan: #aee6d6;
+  --brightWhite: #ffffff;
+  --background: #000000;
+  --foreground: #ffffff;
+  --cursorColor: #ff9e3b;
+  --selectionBackground: #2d2d2d;
+  --luma: 0;
+  --contrast: 1;
+  --paletteName: Catthode;
+  --paletteFileName: Catthode;
+  --isBright: 0;
+  --isDark: 1;
+  --by: catthode  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
