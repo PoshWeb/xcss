@@ -1,0 +1,1 @@
+]4;0;rgb:aa/b7/c8\]4;1;rgb:ff/6b/6b\]4;2;rgb:5f/d9/ad\]4;3;rgb:ff/d1/66\]4;4;rgb:6e/a8/ff\]4;5;rgb:c5/8c/ff\]4;6;rgb:54/dd/eb\]4;7;rgb:e6/f1/ff\]4;8;rgb:c0/ca/d6\]4;9;rgb:ff/8b/8b\]4;10;rgb:80/e5/bd\]4;11;rgb:ff/e2/8a\]4;12;rgb:91/bd/ff\]4;13;rgb:d9/ad/ff\]4;14;rgb:7b/e9/f2\]4;15;rgb:ff/ff/ff\[38;2;230;241;255m[48;2;5;8;20m
