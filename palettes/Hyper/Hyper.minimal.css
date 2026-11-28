@@ -1,0 +1,40 @@
+:root {
+  --name: Hyper;
+  --black: #000000;
+  --red: #c51e14;
+  --green: #1dc121;
+  --yellow: #c7c329;
+  --blue: #0a2fc4;
+  --purple: #c839c5;
+  --cyan: #20c5c6;
+  --white: #c7c7c7;
+  --brightBlack: #686868;
+  --brightRed: #fd6f6b;
+  --brightGreen: #67f86f;
+  --brightYellow: #fffa72;
+  --brightBlue: #6a76fb;
+  --brightPurple: #fd7cfc;
+  --brightCyan: #68fdfe;
+  --brightWhite: #ffffff;
+  --background: #000000;
+  --foreground: #ffffff;
+  --cursorColor: #f81ce5;
+  --selectionBackground: #4a0845;
+  --luma: 0;
+  --contrast: 1;
+  --paletteName: Hyper;
+  --paletteFileName: Hyper;
+  --isBright: 0;
+  --isDark: 1;
+  --by: vercel  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
