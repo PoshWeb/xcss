@@ -1,0 +1,39 @@
+:root {
+  --name: Eight Hundred;
+  --black: #b2c0c9;
+  --red: #f08b81;
+  --green: #8ed1a3;
+  --yellow: #f3c76c;
+  --blue: #8bb9ea;
+  --purple: #c4a2e6;
+  --cyan: #69d9cb;
+  --white: #e9e6d9;
+  --brightBlack: #d1d9de;
+  --brightRed: #ffa69b;
+  --brightGreen: #a9e0b9;
+  --brightYellow: #ffe09a;
+  --brightBlue: #aacdf3;
+  --brightPurple: #d8bcee;
+  --brightCyan: #91e8dd;
+  --brightWhite: #ffffff;
+  --background: #101c28;
+  --foreground: #e9e6d9;
+  --cursorColor: #f3c76c;
+  --selectionBackground: #395468;
+  --luma: 0.103197;
+  --contrast: 0.797584;
+  --paletteName: Eight Hundred;
+  --paletteFileName: Eight-Hundred;
+  --isBright: 0;
+  --isDark: 1  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
