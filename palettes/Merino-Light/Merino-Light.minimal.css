@@ -1,0 +1,39 @@
+:root {
+  --name: Merino Light;
+  --black: #24292f;
+  --red: #cf222e;
+  --green: #116329;
+  --yellow: #9d5c00;
+  --blue: #0969da;
+  --purple: #8250df;
+  --cyan: #1b7c83;
+  --white: #6e7781;
+  --brightBlack: #57606a;
+  --brightRed: #a40e26;
+  --brightGreen: #1a7f37;
+  --brightYellow: #c47a00;
+  --brightBlue: #218bff;
+  --brightPurple: #a475f9;
+  --brightCyan: #3192aa;
+  --brightWhite: #8c959f;
+  --background: #ffffff;
+  --foreground: #1f2328;
+  --cursorColor: #0969da;
+  --selectionBackground: #1f2328;
+  --luma: 1;
+  --contrast: 0.864664;
+  --paletteName: Merino Light;
+  --paletteFileName: Merino-Light;
+  --isBright: 0;
+  --isDark: 1  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
