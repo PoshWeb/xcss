@@ -1,0 +1,40 @@
+:root {
+  --name: Onenord;
+  --black: #3b4252;
+  --red: #e06c75;
+  --green: #9ec183;
+  --yellow: #ebcb8b;
+  --blue: #81a1c1;
+  --purple: #b988b0;
+  --cyan: #88c0d0;
+  --white: #e5e9f0;
+  --brightBlack: #596377;
+  --brightRed: #e06c75;
+  --brightGreen: #9ec183;
+  --brightYellow: #ebcb8b;
+  --brightBlue: #81a1c1;
+  --brightPurple: #b988b0;
+  --brightCyan: #8fbcbb;
+  --brightWhite: #eceff4;
+  --background: #2e3440;
+  --foreground: #e5e9f0;
+  --cursorColor: #81a1c1;
+  --selectionBackground: #434c5e;
+  --luma: 0.202317;
+  --contrast: 0.710056;
+  --paletteName: Onenord;
+  --paletteFileName: Onenord;
+  --isBright: 0;
+  --isDark: 1;
+  --by: rmehri01  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
