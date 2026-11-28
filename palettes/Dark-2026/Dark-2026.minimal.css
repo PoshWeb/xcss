@@ -1,0 +1,40 @@
+:root {
+  --name: Dark 2026;
+  --black: #000000;
+  --red: #cd3131;
+  --green: #0dbc79;
+  --yellow: #e5e510;
+  --blue: #2472c8;
+  --purple: #bc3fbc;
+  --cyan: #11a8cd;
+  --white: #e5e5e5;
+  --brightBlack: #666666;
+  --brightRed: #f14c4c;
+  --brightGreen: #23d18b;
+  --brightYellow: #f5f543;
+  --brightBlue: #3b8eea;
+  --brightPurple: #d670d6;
+  --brightCyan: #29b8db;
+  --brightWhite: #e5e5e5;
+  --background: #191a1b;
+  --foreground: #cccccc;
+  --cursorColor: #bfbfbf;
+  --selectionBackground: #1f323b;
+  --luma: 0.10141;
+  --contrast: 0.69859;
+  --paletteName: Dark 2026;
+  --paletteFileName: Dark-2026;
+  --isBright: 0;
+  --isDark: 1;
+  --by: philiplindberg  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
