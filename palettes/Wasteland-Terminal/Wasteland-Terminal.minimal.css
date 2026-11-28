@@ -1,0 +1,40 @@
+:root {
+  --name: Wasteland Terminal;
+  --black: #050b05;
+  --red: #26b34f;
+  --green: #18ff62;
+  --yellow: #a1d64b;
+  --blue: #3e9b67;
+  --purple: #64b879;
+  --cyan: #60e899;
+  --white: #b5ffc5;
+  --brightBlack: #2c6b3f;
+  --brightRed: #3fd068;
+  --brightGreen: #5cff8f;
+  --brightYellow: #c4ee70;
+  --brightBlue: #56bd84;
+  --brightPurple: #84d69a;
+  --brightCyan: #8cf5b8;
+  --brightWhite: #e0ffe6;
+  --background: #050b05;
+  --foreground: #18ff62;
+  --cursorColor: #39ff72;
+  --selectionBackground: #1a4d27;
+  --luma: 0.036436;
+  --contrast: 0.726521;
+  --paletteName: Wasteland Terminal;
+  --paletteFileName: Wasteland-Terminal;
+  --isBright: 0;
+  --isDark: 1;
+  --by: chlp  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
