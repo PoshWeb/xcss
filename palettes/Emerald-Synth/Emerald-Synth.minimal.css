@@ -1,0 +1,39 @@
+:root {
+  --name: Emerald Synth;
+  --black: #0a0118;
+  --red: #ff2a6d;
+  --green: #00e67e;
+  --yellow: #ffcc66;
+  --blue: #8b9cf7;
+  --purple: #ff79c6;
+  --cyan: #4dd0e1;
+  --white: #f0e6ff;
+  --brightBlack: #6a5585;
+  --brightRed: #ff5c8a;
+  --brightGreen: #40ffdd;
+  --brightYellow: #ffe099;
+  --brightBlue: #b0b8fc;
+  --brightPurple: #ff9ed0;
+  --brightCyan: #7ee0ec;
+  --brightWhite: #ffffff;
+  --background: #0d0221;
+  --foreground: #00ffcc;
+  --cursorColor: #ff79c6;
+  --selectionBackground: #2e6b5f;
+  --luma: 0.025791;
+  --contrast: 0.747169;
+  --paletteName: Emerald Synth;
+  --paletteFileName: Emerald-Synth;
+  --isBright: 0;
+  --isDark: 1  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
