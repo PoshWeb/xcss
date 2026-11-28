@@ -1,0 +1,39 @@
+:root {
+  --name: Rainbows and Unicorns Sorbet;
+  --black: #3a2d48;
+  --red: #ff9eb5;
+  --green: #a8e6c3;
+  --yellow: #ffe8a3;
+  --blue: #a7c7ff;
+  --purple: #d7b3ff;
+  --cyan: #9fe8e6;
+  --white: #e4d6ec;
+  --brightBlack: #8a789e;
+  --brightRed: #ffbe98;
+  --brightGreen: #c6f3d9;
+  --brightYellow: #fff2c7;
+  --brightBlue: #c7dbff;
+  --brightPurple: #e8d1ff;
+  --brightCyan: #c5f4f2;
+  --brightWhite: #ffffff;
+  --background: #241b2f;
+  --foreground: #f3e8f5;
+  --cursorColor: #ff9eb5;
+  --selectionBackground: #d7b3ff;
+  --luma: 0.119049;
+  --contrast: 0.803607;
+  --paletteName: Rainbows and Unicorns Sorbet;
+  --paletteFileName: Rainbows-and-Unicorns-Sorbet;
+  --isBright: 0;
+  --isDark: 1  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
