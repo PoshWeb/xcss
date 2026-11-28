@@ -1,0 +1,39 @@
+:root {
+  --name: Hysterical Frequency;
+  --black: #a8b2b8;
+  --red: #e77b9c;
+  --green: #8dc8a0;
+  --yellow: #edc86e;
+  --blue: #82baf0;
+  --purple: #d1a1eb;
+  --cyan: #7bd1db;
+  --white: #f1ebfa;
+  --brightBlack: #b9c1c6;
+  --brightRed: #ea8ba8;
+  --brightGreen: #9bcfab;
+  --brightYellow: #efcf7f;
+  --brightBlue: #91c2f2;
+  --brightPurple: #d7aced;
+  --brightCyan: #8bd7df;
+  --brightWhite: #f4effb;
+  --background: #202444;
+  --foreground: #f1ebfa;
+  --cursorColor: #efcf7f;
+  --selectionBackground: #493f5c;
+  --luma: 0.146902;
+  --contrast: 0.783916;
+  --paletteName: Hysterical Frequency;
+  --paletteFileName: Hysterical-Frequency;
+  --isBright: 0;
+  --isDark: 1  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
