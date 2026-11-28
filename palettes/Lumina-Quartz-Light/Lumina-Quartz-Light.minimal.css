@@ -1,0 +1,39 @@
+:root {
+  --name: Lumina Quartz Light;
+  --black: #30353b;
+  --red: #7d2b28;
+  --green: #217550;
+  --yellow: #9a642c;
+  --blue: #446894;
+  --purple: #82527e;
+  --cyan: #007092;
+  --white: #6b7177;
+  --brightBlack: #656b72;
+  --brightRed: #5a2522;
+  --brightGreen: #215e41;
+  --brightYellow: #82511c;
+  --brightBlue: #31547e;
+  --brightPurple: #6c3f69;
+  --brightCyan: #115a74;
+  --brightWhite: #8a9097;
+  --background: #f5f7fa;
+  --foreground: #30353b;
+  --cursorColor: #30353b;
+  --selectionBackground: #bbbec1;
+  --luma: 0.967809;
+  --contrast: 0.762436;
+  --paletteName: Lumina Quartz Light;
+  --paletteFileName: Lumina-Quartz-Light;
+  --isBright: 0;
+  --isDark: 1  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
