@@ -1,0 +1,2190 @@
+<html>
+    <head>
+        <title>Outrun Electric</title>
+        <!-- Google tag (gtag.js) -->
+        <script async src='https://www.googletagmanager.com/gtag/js?id=G-G9D8TQ3G2L'></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-G9D8TQ3G2L');
+        </script>
+<meta name='viewport' content='width=device-width, initial-scale=1, minimum-scale=1.0' />
+<meta name='og:title' content='Outrun Electric' />
+<meta name='og:description' content='Plenty of Palettes' />
+<meta name='og:image' content='' />
+<link rel='alternate' type='application/rss+xml' title='xcss' href='/RSS/index.rss' />
+<link rel='stylesheet' href='/palettes/Outrun-Electric/Outrun-Electric.css' id='palette' />
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto' id='font' />
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Inconsolata' id='codeFont' />
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@latest/build/styles/default.min.css' id='highlight' />
+<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@latest/build/highlight.min.js"></script>
+<script src='https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@latest/build/languages/powershell.min.js'></script>
+<script src='https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@latest/build/languages/css.min.js'></script>
+<script src='https://unpkg.com/htmx.org@latest'></script>
+<style>body {
+    max-width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    margin: 1em;
+}
+
+header, footer {
+    text-align: center;
+}
+
+header > svg {
+    display: block;
+    text-align: center;
+}
+@media (orientation: landscape) { .header-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 0.5em; } .header-menu-item { text-align: center; padding: 0.5em; } } @media (orientation: portrait) { .header-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(66px, 1fr)); gap: 0.25em; position: sticky } .header-menu-item { text-align: center; padding: 0.25em; } }
+
+@media (orientation: landscape) { .footer-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 0.5em } .footer-menu-item { text-align: center; padding: 0.5em; } } @media (orientation: portrait) { .footer-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 0.25em } .footer-menu-item { text-align: center; padding: 0.25em; } }
+
+.logo { 
+    display: inline;
+    height: 4.2rem;
+}
+
+.expandInline { display: flex; flex-direction: row; }
+
+@media (orientation: landscape) {
+    .logo { height: 4.2rem; }
+    .site-title, .page-title {
+        font-size: 1.23rem;
+        line-height: .75rem
+    }
+}
+
+@media (orientation: portrait) {
+    .logo { height: 2.3rem; }
+    .site-title, .page-title {
+        font-size: 0.84em;
+        line-height: .66rem
+    }
+    .expandInline { display: flex; flex-direction: column; }
+}
+
+pre, code { font-family: 'Inconsolata', monospace; }
+
+a, a:visited {
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    text-decoration: underline;    
+}
+
+.main {
+    font-size: 1.23em;
+}
+
+.taskbar {
+    float: right;
+    position: absolute;
+    top: 0; right: 0; z-index: 10;    
+    display: flex; flex-direction: row-reverse;
+    align-content: right; align-items: flex-start;
+    margin: 1em; gap: 0.5em;
+}
+
+.taskbar summary { 
+    color: var(--cyan);
+    list-style-type: none;
+}
+
+.background {
+    position: fixed;    
+    top: 0; left: 0;
+    margin-bottom: 0;
+    min-width: 100%; height:100%;
+}
+
+.backdrop-svg {
+    z-index: -100;
+}
+
+.backdrop-canvas {
+    z-index: -99;
+}</style>
+    </head>
+    <body><svg class='background backdrop-svg' id='background-svg' width='100%' height='100%'>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"><defs><pattern id="turtle-639313805374962636-pattern" patternUnits="userSpaceOnUse" x="0" y="0" width="84" height="84" transform-origin="50% 50%"><animateTransform type="translate" values="0 0;-397 -1001;0 0" repeatCount="indefinite" dur="997s" additive="sum" id="translate-pattern" attributeType="XML" attributeName="patternTransform" /><animateTransform type="scale" values="0.66;0.33;0.66" repeatCount="indefinite" dur="277s" additive="sum" id="scale-pattern" attributeType="XML" attributeName="patternTransform" /><animateTransform type="rotate" values="0;3.6;0" repeatCount="indefinite" dur="317s" additive="sum" id="rotate-pattern" attributeType="XML" attributeName="patternTransform" /><animateTransform type="skewX" values="0;4.5;0" dur="401s" additive="sum" id="skewx-pattern" attributeType="XML" attributeName="patternTransform" /><animateTransform type="skewY" values="0;-4.5;0" dur="503s" additive="sum" id="skewy-pattern" attributeType="XML" attributeName="patternTransform" /><path id="turtle-639313805374962636-path" d="m 42 42   l 42 0 l -42 0 l 0 -42 a 42 42 0 0 0 42 42 m -42 0 l 0 42 l -0 -42 l 42 0 a 42 42 0 0 0 -42 42 m 0 -42 l -42 0 l 42 -0 l 0 42 a 42 42 0 0 0 -42 -42 m 42 -0 l -0 -42 l 0 42 l -42 0 a 42 42 0 0 0 42 -42 m 0 42" stroke="currentcolor" stroke-width="0.25%" fill="transparent" class="foreground-stroke" transform-origin="50% 50%" opacity="0.1" xmlns="http://www.w3.org/2000/svg"></path></pattern></defs><rect width="10000%" height="10000%" x="-5000%" y="-5000%" fill="url(#turtle-639313805374962636-pattern)" transform-origin="50% 50%" /></svg>
+</svg>
+<canvas id='background backdrop-canvas' width='0' height='0'></canvas>
+<div class='taskbar'>
+<a href='https://bsky.app/profile/mrpowershell.com' class='icon-link' target='_blank'>
+BlueSky
+</a>
+</div>
+<header>
+<a href='/'>
+<svg xmlns='http://www.w3.org/2000/svg' class='logo'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" transform-origin="50% 50%" width="100%" height="100%">
+  <path id="xcss-path" d="m 0 0" stroke="currentcolor" stroke-width="0.25%" fill="transparent" class="foreground-stroke" transform-origin="50% 50%">
+  </path>
+  <g id="xcss-children">
+    <path id="xcss-letterX-path" d="m 0 0" stroke="currentcolor" stroke-width="0.25%" fill="transparent" class="foreground-stroke" transform-origin="50% 50%" xmlns="http://www.w3.org/2000/svg">
+    </path>
+    <text id="xcss-letterX-text" dominant-baseline="middle" text-anchor="middle" x="12.5%" y="50%" fill="currentcolor" font-size="48em" font-family="sans-serif" xmlns="http://www.w3.org/2000/svg">
+      <title>x</title>
+x
+</text>
+    <path id="xcss-letterC-path" d="m 0 0" stroke="currentcolor" stroke-width="0.25%" fill="transparent" class="foreground-stroke" transform-origin="50% 50%" xmlns="http://www.w3.org/2000/svg">
+    </path>
+    <text id="xcss-letterC-text" dominant-baseline="middle" text-anchor="middle" x="37.5%" y="50%" fill="currentcolor" font-size="64em" font-family="sans-serif" xmlns="http://www.w3.org/2000/svg">
+      <title>c</title>
+c
+</text>
+    <path id="xcss-letterS1-path" d="m 0 0" stroke="currentcolor" stroke-width="0.25%" fill="transparent" class="foreground-stroke" transform-origin="50% 50%" xmlns="http://www.w3.org/2000/svg">
+    </path>
+    <text id="xcss-letterS1-text" dominant-baseline="middle" text-anchor="middle" x="62.5%" y="50%" fill="currentcolor" font-size="48em" font-family="sans-serif" xmlns="http://www.w3.org/2000/svg">
+      <title>s</title>
+s
+</text>
+    <path id="xcss-letterS2-path" d="m 0 0" stroke="currentcolor" stroke-width="0.25%" fill="transparent" class="foreground-stroke" transform-origin="50% 50%" xmlns="http://www.w3.org/2000/svg">
+    </path>
+    <text id="xcss-letterS2-text" dominant-baseline="middle" text-anchor="middle" x="87.5%" y="50%" fill="currentcolor" font-size="48em" font-family="sans-serif" xmlns="http://www.w3.org/2000/svg">
+      <title>s</title>
+s
+</text>
+    <path id="xcss-chevron-path" d="m 0 0" stroke="currentcolor" stroke-width="0.25%" fill="transparent" class="foreground-stroke" transform-origin="50% 50%" xmlns="http://www.w3.org/2000/svg">
+    </path>
+    <text id="xcss-chevron-text" dominant-baseline="middle" text-anchor="middle" x="50%" y="50%" fill="currentcolor" font-size="8em" font-family="sans-serif" xmlns="http://www.w3.org/2000/svg">
+      <title>&gt;</title>
+&gt;
+</text>
+  </g>
+</svg></svg>
+<br/>
+<h1 class='site-title'>xcss</h1>
+</a>
+<h2 class='page-title'>xcss palettes</h2>
+<nav class='header-menu'>
+</nav>
+</header>
+<div class='main'><style>
+    
+    .demoContainer {
+        display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2.5em; margin: 2.5em;
+    }
+
+    h1, h2 { text-align: center }
+
+
+        
+    
+    </style>
+<h1>
+<a class='palette-link' href='/palettes/Outrun-Electric'>
+<span class='palette-name'>Outrun Electric</span>
+</a>
+</h1>
+<h2><a href='/palettes'>912 palettes</a></h2>
+<a class='palette-css-link' href='/palettes/Outrun-Electric.css'>css</a>
+<div class='demoContainer'>
+<div>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generated with PSSVG 0.2.10 <https://github.com/StartAutomating/PSSVG> -->
+<svg viewBox="0 0 1920 1080" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">  
+  <ellipse id="foregroundCircle" cx="50%" cy="50%" rx="498" ry="498" class="foreground-fill">
+    <animate values="498;612.54;498" attributeName="rx" dur="04.2s" repeatCount="indefinite" />
+    <animate values="498;383.46;498" attributeName="ry" dur="04.2s" repeatCount="indefinite" />
+    <animate values="1;.42;1" attributeName="opacity" dur="04.2s" repeatCount="indefinite" />
+  </ellipse>
+  <ellipse id="ANSI0-Ellipse" cx="50%" cy="50%" rx="475" ry="475" class="ansi0-fill" fill="Black">
+    <animate values="475;365.75;475" attributeName="rx" dur="04.2s" repeatCount="indefinite" />
+    <animate values="475;584.25;475" attributeName="ry" dur="04.2s" repeatCount="indefinite" />
+    <animate values="1;.42;1" attributeName="opacity" dur="04.2s" repeatCount="indefinite" />
+  </ellipse>
+  <ellipse id="ANSI8-Ellipse" cx="50%" cy="50%" rx="459" ry="459" class="ansi8-fill" fill="Black">
+    <animate values="459;564.57;459" attributeName="rx" dur="04.2s" repeatCount="indefinite" />
+    <animate values="459;353.43;459" attributeName="ry" dur="04.2s" repeatCount="indefinite" />
+    <animate values="1;.42;1" attributeName="opacity" dur="04.2s" repeatCount="indefinite" />
+  </ellipse>
+  <ellipse id="ANSI1-Ellipse" cx="50%" cy="50%" rx="436" ry="436" class="ansi1-fill" fill="Red">
+    <animate values="436;335.72;436" attributeName="rx" dur="04.2s" repeatCount="indefinite" />
+    <animate values="436;536.28;436" attributeName="ry" dur="04.2s" repeatCount="indefinite" />
+    <animate values="1;.42;1" attributeName="opacity" dur="04.2s" repeatCount="indefinite" />
+  </ellipse>
+  <ellipse id="ANSI9-Ellipse" cx="50%" cy="50%" rx="420" ry="420" class="ansi9-fill" fill="Red">
+    <animate values="420;516.6;420" attributeName="rx" dur="04.2s" repeatCount="indefinite" />
+    <animate values="420;323.4;420" attributeName="ry" dur="04.2s" repeatCount="indefinite" />
+    <animate values="1;.42;1" attributeName="opacity" dur="04.2s" repeatCount="indefinite" />
+  </ellipse>
+  <ellipse id="ANSI2-Ellipse" cx="50%" cy="50%" rx="397" ry="397" class="ansi2-fill" fill="Green">
+    <animate values="397;305.69;397" attributeName="rx" dur="04.2s" repeatCount="indefinite" />
+    <animate values="397;488.31;397" attributeName="ry" dur="04.2s" repeatCount="indefinite" />
+    <animate values="1;.42;1" attributeName="opacity" dur="04.2s" repeatCount="indefinite" />
+  </ellipse>
+  <ellipse id="ANSI10-Ellipse" cx="50%" cy="50%" rx="381" ry="381" class="ansi10-fill" fill="Green">
+    <animate values="381;468.63;381" attributeName="rx" dur="04.2s" repeatCount="indefinite" />
+    <animate values="381;293.37;381" attributeName="ry" dur="04.2s" repeatCount="indefinite" />
+    <animate values="1;.42;1" attributeName="opacity" dur="04.2s" repeatCount="indefinite" />
+  </ellipse>
+  <ellipse id="ANSI3-Ellipse" cx="50%" cy="50%" rx="358" ry="358" class="ansi3-fill" fill="Yellow">
+    <animate values="358;275.66;358" attributeName="rx" dur="04.2s" repeatCount="indefinite" />
+    <animate values="358;440.34;358" attributeName="ry" dur="04.2s" repeatCount="indefinite" />
+    <animate values="1;.42;1" attributeName="opacity" dur="04.2s" repeatCount="indefinite" />
+  </ellipse>
+  <ellipse id="ANSI11-Ellipse" cx="50%" cy="50%" rx="342" ry="342" class="ansi11-fill" fill="Yellow">
+    <animate values="342;420.66;342" attributeName="rx" dur="04.2s" repeatCount="indefinite" />
+    <animate values="342;263.34;342" attributeName="ry" dur="04.2s" repeatCount="indefinite" />
+    <animate values="1;.42;1" attributeName="opacity" dur="04.2s" repeatCount="indefinite" />
+  </ellipse>
+  <ellipse id="ANSI4-Ellipse" cx="50%" cy="50%" rx="319" ry="319" class="ansi4-fill" fill="Blue">
+    <animate values="319;245.63;319" attributeName="rx" dur="04.2s" repeatCount="indefinite" />
+    <animate values="319;392.37;319" attributeName="ry" dur="04.2s" repeatCount="indefinite" />
+    <animate values="1;.42;1" attributeName="opacity" dur="04.2s" repeatCount="indefinite" />
+  </ellipse>
+  <ellipse id="ANSI12-Ellipse" cx="50%" cy="50%" rx="303" ry="303" class="ansi12-fill" fill="Blue">
+    <animate values="303;372.69;303" attributeName="rx" dur="04.2s" repeatCount="indefinite" />
+    <animate values="303;233.31;303" attributeName="ry" dur="04.2s" repeatCount="indefinite" />
+    <animate values="1;.42;1" attributeName="opacity" dur="04.2s" repeatCount="indefinite" />
+  </ellipse>
+  <ellipse id="ANSI5-Ellipse" cx="50%" cy="50%" rx="280" ry="280" class="ansi5-fill" fill="Purple">
+    <animate values="280;215.6;280" attributeName="rx" dur="04.2s" repeatCount="indefinite" />
+    <animate values="280;344.4;280" attributeName="ry" dur="04.2s" repeatCount="indefinite" />
+    <animate values="1;.42;1" attributeName="opacity" dur="04.2s" repeatCount="indefinite" />
+  </ellipse>
+  <ellipse id="ANSI13-Ellipse" cx="50%" cy="50%" rx="264" ry="264" class="ansi13-fill" fill="Purple">
+    <animate values="264;324.72;264" attributeName="rx" dur="04.2s" repeatCount="indefinite" />
+    <animate values="264;203.28;264" attributeName="ry" dur="04.2s" repeatCount="indefinite" />
+    <animate values="1;.42;1" attributeName="opacity" dur="04.2s" repeatCount="indefinite" />
+  </ellipse>
+  <ellipse id="ANSI6-Ellipse" cx="50%" cy="50%" rx="241" ry="241" class="ansi6-fill" fill="Cyan">
+    <animate values="241;185.57;241" attributeName="rx" dur="04.2s" repeatCount="indefinite" />
+    <animate values="241;296.43;241" attributeName="ry" dur="04.2s" repeatCount="indefinite" />
+    <animate values="1;.42;1" attributeName="opacity" dur="04.2s" repeatCount="indefinite" />
+  </ellipse>
+  <ellipse id="ANSI14-Ellipse" cx="50%" cy="50%" rx="225" ry="225" class="ansi14-fill" fill="Cyan">
+    <animate values="225;276.75;225" attributeName="rx" dur="04.2s" repeatCount="indefinite" />
+    <animate values="225;173.25;225" attributeName="ry" dur="04.2s" repeatCount="indefinite" />
+    <animate values="1;.42;1" attributeName="opacity" dur="04.2s" repeatCount="indefinite" />
+  </ellipse>
+  <ellipse id="ANSI7-Ellipse" cx="50%" cy="50%" rx="202" ry="202" class="ansi7-fill" fill="White">
+    <animate values="202;155.54;202" attributeName="rx" dur="04.2s" repeatCount="indefinite" />
+    <animate values="202;248.46;202" attributeName="ry" dur="04.2s" repeatCount="indefinite" />
+    <animate values="1;.42;1" attributeName="opacity" dur="04.2s" repeatCount="indefinite" />
+  </ellipse>
+  <ellipse id="ANSI15-Ellipse" cx="50%" cy="50%" rx="186" ry="186" class="ansi15-fill" fill="White">
+    <animate values="186;228.78;186" attributeName="rx" dur="04.2s" repeatCount="indefinite" />
+    <animate values="186;143.22;186" attributeName="ry" dur="04.2s" repeatCount="indefinite" />
+    <animate values="1;.42;1" attributeName="opacity" dur="04.2s" repeatCount="indefinite" />
+  </ellipse>
+</svg>
+
+</div>
+</div>
+<script type='module'>
+
+const paletteLink = document.getElementById("palette");
+
+
+// Palettes 
+function updatePaletteLinks() {
+    var paletteName = getComputedStyle(paletteLink).getPropertyValue('--name');
+    var paletteFileName = getComputedStyle(paletteLink).getPropertyValue('--PaletteFileName');
+    console.log(paletteName)
+    for (const nameElement of [...document.querySelectorAll('.palette-name')]) {
+        nameElement.innerText = paletteName
+    }
+    for (const linkElement of [...document.querySelectorAll('.palette-css-link')]) {
+        linkElement.href = `/palettes/${paletteFileName}/${paletteFileName}.css`
+    }
+    for (const linkElement of [...document.querySelectorAll('.palette-css-cdn-link')]) {
+        linkElement.href = 
+            `https://cdn.jsdelivr.net/gh/PowerShellWeb/xcss@latest/palettes/${paletteFileName}/${paletteFileName}.css`
+    }
+    for (const linkElement of [...document.querySelectorAll('.palette-link')]) {
+        linkElement.href = `/palettes/${paletteFileName}/`
+    }
+}
+
+paletteLink.addEventListener('load', updatePaletteLinks)
+const paletteObserver = new MutationObserver(function(mutations) {
+    mutations.forEach(function(mutationRecord) {
+        console.log('palette changing');        
+        console.log(mutationRecord);
+        setTimeout(50, updatePaletteLinks())        
+    });
+});
+
+
+paletteObserver.observe(paletteLink, { attributes : true, attributeFilter : ['href'] })
+</script></div>
+<style>footer { position:fixed; width:90vw;margin-left:5vw;margin-right:5vw;height:5vh;top:92.5vh;z-index:100
+        }</style>
+<footer>
+<style>
+@media (orientation: landscape) {
+.footer-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 1em }
+.footer-menu-item { text-align: center; padding: 1em; }
+}
+@media (orientation: portrait) {
+.footer-menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 0.5em }
+.footer-menu-item { text-align: center; padding: 0.5em; }
+}
+</style>
+<nav class='footer-menu'>
+</nav>
+<div>
+<script>
+function SetPalette(element) {
+    var selectedPalette = element.value
+    var palette = document.getElementById('palette')
+    if (! palette) {
+        palette = document.createElement('link')
+        palette.rel = 'stylesheet'
+        palette.id = 'palette'
+        document.head.appendChild(palette)
+    }    
+    palette.href = '/palettes/' + selectedPalette + '/' + selectedPalette + '.css'
+    var selectPalette = document.getElementById('select-palette-name')
+    if (selectPalette) { selectPalette.value = selectedPalette }
+    var inputPalette = document.getElementById('input-palette-name')
+    if (inputPalette) { inputPalette.value = selectedPalette }
+}
+
+function GetRandomPalette() {
+    var selectPalette = document.getElementById('select-palette-name')
+    if (selectPalette) {
+        var randomNumber = Math.floor(Math.random() * selectPalette.length);
+        selectPalette.selectedIndex = randomNumber
+        SetPalette(selectPalette)
+    }
+}
+</script>
+<datalist id='palette-names'>
+<option value='0x96f'>0x96f</option>
+<option value='12-bit-Rainbow'>12-bit Rainbow</option>
+<option value='13th-Floor'>13th Floor</option>
+<option value='3024-Day'>3024 Day</option>
+<option value='3024-Night'>3024 Night</option>
+<option value='5150-Mode'>5150 Mode</option>
+<option value='Aardvark-Blue'>Aardvark Blue</option>
+<option value='Aardvark-Ink'>Aardvark Ink</option>
+<option value='Abandoned'>Abandoned</option>
+<option value='Abernathy'>Abernathy</option>
+<option value='Acid-Lime'>Acid Lime</option>
+<option value='Adobe-Moon'>Adobe Moon</option>
+<option value='Adventure-Time'>Adventure Time</option>
+<option value='Adventure'>Adventure</option>
+<option value='Adwaita-Dark'>Adwaita Dark</option>
+<option value='Adwaita'>Adwaita</option>
+<option value='After-Hours'>After Hours</option>
+<option value='Afterglow'>Afterglow</option>
+<option value='Afterimage'>Afterimage</option>
+<option value='Agave-Dusk'>Agave Dusk</option>
+<option value='Aizen-Dark'>Aizen Dark</option>
+<option value='Aizen-Light'>Aizen Light</option>
+<option value='Alabaster'>Alabaster</option>
+<option value='Alien-Blood'>Alien Blood</option>
+<option value='Alpine-Milk'>Alpine Milk</option>
+<option value='AlxPro-Dark'>AlxPro Dark</option>
+<option value='AlxPro-Light'>AlxPro Light</option>
+<option value='Amber-CRT-Retro'>Amber CRT Retro</option>
+<option value='Analog-Heartbeat-Phosphor'>Analog Heartbeat: Phosphor</option>
+<option value='Analog-Heartbeat'>Analog Heartbeat</option>
+<option value='Analyzed-Dark'>Analyzed Dark</option>
+<option value='Analyzed-Light'>Analyzed Light</option>
+<option value='Andromeda'>Andromeda</option>
+<option value='Apple-Classic'>Apple Classic</option>
+<option value='Apple-System-Colors-Light'>Apple System Colors Light</option>
+<option value='Apple-System-Colors'>Apple System Colors</option>
+<option value='Arcoiris'>Arcoiris</option>
+<option value='Ardoise'>Ardoise</option>
+<option value='Argonaut'>Argonaut</option>
+<option value='Arizona-Monsoon'>Arizona Monsoon</option>
+<option value='Arthur'>Arthur</option>
+<option value='Atelier-Sulphurpool'>Atelier Sulphurpool</option>
+<option value='Atlas-Ragnarok'>Atlas Ragnarok</option>
+<option value='Atom-One-Dark'>Atom One Dark</option>
+<option value='Atom-One-Light'>Atom One Light</option>
+<option value='Atom'>Atom</option>
+<option value='Aubade'>Aubade</option>
+<option value='Aura-Dark'>Aura Dark</option>
+<option value='Aura'>Aura</option>
+<option value='Aurora-Drift'>Aurora Drift</option>
+<option value='Aurora'>Aurora</option>
+<option value='Autumn-After-Dark'>Autumn After Dark</option>
+<option value='Ayu-Light'>Ayu Light</option>
+<option value='Ayu-Mirage'>Ayu Mirage</option>
+<option value='Ayu'>Ayu</option>
+<option value='Aztec-Sunset'>Aztec Sunset</option>
+<option value='Banana-Blueberry'>Banana Blueberry</option>
+<option value='Barbenheimer-Bunker'>Barbenheimer Bunker</option>
+<option value='Barbenheimer-Dreamhouse'>Barbenheimer Dreamhouse</option>
+<option value='Barbenheimer-Nuclear-Sunrise'>Barbenheimer Nuclear Sunrise</option>
+<option value='Barrel-Cactus'>Barrel Cactus</option>
+<option value='base16-icy'>base16-icy</option>
+<option value='Batman'>Batman</option>
+<option value='Bauhaus-Dark'>Bauhaus Dark</option>
+<option value='Bauhaus-Light'>Bauhaus Light</option>
+<option value='Belafonte-Day'>Belafonte Day</option>
+<option value='Belafonte-Night'>Belafonte Night</option>
+<option value='Belfry'>Belfry</option>
+<option value='Birds-Of-Paradise'>Birds Of Paradise</option>
+<option value='Black-Box-Recorder'>Black Box Recorder</option>
+<option value='Black-Cat'>Black Cat</option>
+<option value='Black-Metal-Bathory'>Black Metal (Bathory)</option>
+<option value='Black-Metal-Burzum'>Black Metal (Burzum)</option>
+<option value='Black-Metal-Dark-Funeral'>Black Metal (Dark Funeral)</option>
+<option value='Black-Metal-Gorgoroth'>Black Metal (Gorgoroth)</option>
+<option value='Black-Metal-Immortal'>Black Metal (Immortal)</option>
+<option value='Black-Metal-Khold'>Black Metal (Khold)</option>
+<option value='Black-Metal-Marduk'>Black Metal (Marduk)</option>
+<option value='Black-Metal-Mayhem'>Black Metal (Mayhem)</option>
+<option value='Black-Metal-Nile'>Black Metal (Nile)</option>
+<option value='Black-Metal-Venom'>Black Metal (Venom)</option>
+<option value='Black-Metal'>Black Metal</option>
+<option value='Blazer'>Blazer</option>
+<option value='Blood-Moon'>Blood Moon</option>
+<option value='Blue-Berry-Pie'>Blue Berry Pie</option>
+<option value='Blue-Dolphin'>Blue Dolphin</option>
+<option value='Blue-Matrix'>Blue Matrix</option>
+<option value='Blueprint'>Blueprint</option>
+<option value='Bluloco-Dark'>Bluloco Dark</option>
+<option value='Bluloco-Light'>Bluloco Light</option>
+<option value='Bone-Yard'>Bone Yard</option>
+<option value='Borland'>Borland</option>
+<option value='Box'>Box</option>
+<option value='branch'>branch</option>
+<option value='Breadog'>Breadog</option>
+<option value='Breeze'>Breeze</option>
+<option value='Bright-Lights'>Bright Lights</option>
+<option value='Broadcast'>Broadcast</option>
+<option value='Brogrammer'>Brogrammer</option>
+<option value='Builtin-Dark'>Builtin Dark</option>
+<option value='Builtin-Light'>Builtin Light</option>
+<option value='Builtin-Pastel-Dark'>Builtin Pastel Dark</option>
+<option value='Builtin-Tango-Dark'>Builtin Tango Dark</option>
+<option value='Builtin-Tango-Light'>Builtin Tango Light</option>
+<option value='C64'>C64</option>
+<option value='Cactus-Bloom'>Cactus Bloom</option>
+<option value='Calamity'>Calamity</option>
+<option value='Caliche'>Caliche</option>
+<option value='Callie-Light'>Callie Light</option>
+<option value='Callie'>Callie</option>
+<option value='Candlelight'>Candlelight</option>
+<option value='Candy-Corn'>Candy Corn</option>
+<option value='Canyon-Shadow'>Canyon Shadow</option>
+<option value='Canyon-Walnut'>Canyon Walnut</option>
+<option value='Carbon-Paper'>Carbon Paper</option>
+<option value='Carbonfox'>Carbonfox</option>
+<option value='Cassette-Tape'>Cassette Tape</option>
+<option value='Catppuccin-Frappe'>Catppuccin Frappe</option>
+<option value='Catppuccin-Latte'>Catppuccin Latte</option>
+<option value='Catppuccin-Macchiato'>Catppuccin Macchiato</option>
+<option value='Catppuccin-Mocha'>Catppuccin Mocha</option>
+<option value='Catthode'>Catthode</option>
+<option value='CGA'>CGA</option>
+<option value='Chalk'>Chalk</option>
+<option value='Chalkboard'>Chalkboard</option>
+<option value='Challenger-Deep'>Challenger Deep</option>
+<option value='Charcoal'>Charcoal</option>
+<option value='Chester'>Chester</option>
+<option value='Cholla'>Cholla</option>
+<option value='Ciapre'>Ciapre</option>
+<option value='Citrus-Ink'>Citrus Ink</option>
+<option value='Citruszest'>Citruszest</option>
+<option value='Claude-Dark'>Claude Dark</option>
+<option value='Claude-Light'>Claude Light</option>
+<option value='Claude'>Claude</option>
+<option value='Clear-Dark'>Clear Dark</option>
+<option value='Clear-Light'>Clear Light</option>
+<option value='Clockwork-Gold'>Clockwork Gold</option>
+<option value='CLRS'>CLRS</option>
+<option value='Clu'>Clu</option>
+<option value='Cobalt-Foundry'>Cobalt Foundry</option>
+<option value='Cobalt-Neon'>Cobalt Neon</option>
+<option value='Cobalt-Next-Dark'>Cobalt Next Dark</option>
+<option value='Cobalt-Next-Minimal'>Cobalt Next Minimal</option>
+<option value='Cobalt-Next'>Cobalt Next</option>
+<option value='Cobalt2'>Cobalt2</option>
+<option value='Cobweb'>Cobweb</option>
+<option value='Code-2026-Dark'>Code 2026 Dark</option>
+<option value='Code-2026-Light'>Code 2026 Light</option>
+<option value='Coffee-Theme'>Coffee Theme</option>
+<option value='Cold-Storage'>Cold Storage</option>
+<option value='Cool-Night'>Cool Night</option>
+<option value='Copper-Canyon'>Copper Canyon</option>
+<option value='Count-Terminal'>Count Terminal</option>
+<option value='Crayon-Pony-Fish'>Crayon Pony Fish</option>
+<option value='CRT-Afterglow'>CRT Afterglow</option>
+<option value='CRT-Amber'>CRT Amber</option>
+<option value='Crypt-Keeper'>Crypt Keeper</option>
+<option value='Crystal-Ball'>Crystal Ball</option>
+<option value='Cursed-VHS'>Cursed VHS</option>
+<option value='Cursor-Dark'>Cursor Dark</option>
+<option value='Cursor-Light'>Cursor Light</option>
+<option value='Cutie-Pro'>Cutie Pro</option>
+<option value='Cyberdyne'>Cyberdyne</option>
+<option value='Cyberpunk-Scarlet-Protocol'>Cyberpunk Scarlet Protocol</option>
+<option value='cyberpunk-icy'>cyberpunk-icy</option>
+<option value='Cyberpunk'>Cyberpunk</option>
+<option value='Dalton-Dark'>Dalton Dark</option>
+<option value='Dark-2026'>Dark 2026</option>
+<option value='Dark-Modern'>Dark Modern</option>
+<option value='Dark-Pastel'>Dark Pastel</option>
+<option value='Dark+'>Dark+</option>
+<option value='Darkermatrix'>Darkermatrix</option>
+<option value='Darkmatrix'>Darkmatrix</option>
+<option value='Darkside'>Darkside</option>
+<option value='datum-dark'>datum (dark)</option>
+<option value='datum-light'>datum (light)</option>
+<option value='Dawnfox'>Dawnfox</option>
+<option value='Daybreak'>Daybreak</option>
+<option value='Daybreaker'>Daybreaker</option>
+<option value='Dayfox'>Dayfox</option>
+<option value='Dead-Letter-Office'>Dead Letter Office</option>
+<option value='Deep-Current'>Deep Current</option>
+<option value='Deep'>Deep</option>
+<option value='Desert-Bloom'>Desert Bloom</option>
+<option value='Desert-Moon'>Desert Moon</option>
+<option value='Desert-Morning'>Desert Morning</option>
+<option value='Desert-Rose'>Desert Rose</option>
+<option value='Desert-Thunder'>Desert Thunder</option>
+<option value='Desert'>Desert</option>
+<option value='Detroit-After-Dark'>Detroit After Dark</option>
+<option value='Detuned'>Detuned</option>
+<option value='Diary-of-a-Lunatic'>Diary of a Lunatic</option>
+<option value='Dimidium'>Dimidium</option>
+<option value='Dimmed-Monokai'>Dimmed Monokai</option>
+<option value='Django-Reborn-Again'>Django Reborn Again</option>
+<option value='Django-Smooth'>Django Smooth</option>
+<option value='Django'>Django</option>
+<option value='Dogxi-Misty'>Dogxi Misty</option>
+<option value='Doom-One'>Doom One</option>
+<option value='Doom-Peacock'>Doom Peacock</option>
+<option value='Dot-Gov'>Dot Gov</option>
+<option value='Dracula'>Dracula</option>
+<option value='Dracula+-High-Contrast'>Dracula+ High Contrast</option>
+<option value='Dracula+'>Dracula+</option>
+<option value='Dream-Onward'>Dream Onward</option>
+<option value='Driftwood'>Driftwood</option>
+<option value='Duckbones'>Duckbones</option>
+<option value='Duotone-Dark'>Duotone Dark</option>
+<option value='Duskfox'>Duskfox</option>
+<option value='Earl-Grey'>Earl Grey</option>
+<option value='Earthsong'>Earthsong</option>
+<option value='Eclipse'>Eclipse</option>
+<option value='Ectoplasm'>Ectoplasm</option>
+<option value='Edge-Light'>Edge Light</option>
+<option value='Eight-Hundred'>Eight Hundred</option>
+<option value='Electric-Voodoo'>Electric Voodoo</option>
+<option value='Electron-Highlighter-Day'>Electron Highlighter Day</option>
+<option value='Electron-Highlighter'>Electron Highlighter</option>
+<option value='Elegant'>Elegant</option>
+<option value='Elemental'>Elemental</option>
+<option value='Elementary'>Elementary</option>
+<option value='Embark'>Embark</option>
+<option value='Ember-Peak'>Ember Peak</option>
+<option value='Ember'>Ember</option>
+<option value='Emberglass'>Emberglass</option>
+<option value='Embers-Dark'>Embers Dark</option>
+<option value='Emerald-Synth'>Emerald Synth</option>
+<option value='ENCOM'>ENCOM</option>
+<option value='Espresso-Libre'>Espresso Libre</option>
+<option value='Espresso'>Espresso</option>
+<option value='Eventide'>Eventide</option>
+<option value='Everblush'>Everblush</option>
+<option value='Everforest-Dark-Hard'>Everforest Dark Hard</option>
+<option value='Everforest-Dark-Med'>Everforest Dark Med</option>
+<option value='Everforest-Dark-Soft'>Everforest Dark Soft</option>
+<option value='Everforest-Light-Hard'>Everforest Light Hard</option>
+<option value='Everforest-Light-Med'>Everforest Light Med</option>
+<option value='Everforest-Light-Soft'>Everforest Light Soft</option>
+<option value='Evergreen'>Evergreen</option>
+<option value='everslate'>everslate</option>
+<option value='EVH-FrankenTone'>EVH FrankenTone</option>
+<option value='eyesclosed'>eyesclosed</option>
+<option value='Fahrenheit'>Fahrenheit</option>
+<option value='Fairyfloss'>Fairyfloss</option>
+<option value='Farmhouse-Dark'>Farmhouse Dark</option>
+<option value='Farmhouse-Light'>Farmhouse Light</option>
+<option value='Fideloper'>Fideloper</option>
+<option value='Firefly-Traditional'>Firefly Traditional</option>
+<option value='Firefox-Dev'>Firefox Dev</option>
+<option value='Firewatch'>Firewatch</option>
+<option value='Fish-Tank'>Fish Tank</option>
+<option value='Flat'>Flat</option>
+<option value='Flatland'>Flatland</option>
+<option value='Flexoki-Dark'>Flexoki Dark</option>
+<option value='Flexoki-Light'>Flexoki Light</option>
+<option value='Floraverse'>Floraverse</option>
+<option value='Forest-Blue'>Forest Blue</option>
+<option value='Forge-Ember'>Forge Ember</option>
+<option value='Forged-in-Steel'>Forged in Steel</option>
+<option value='Framer'>Framer</option>
+<option value='Front-End-Delight'>Front End Delight</option>
+<option value='Frostbyte'>Frostbyte</option>
+<option value='Frostline'>Frostline</option>
+<option value='Fun-Forrest'>Fun Forrest</option>
+<option value='Galaxy'>Galaxy</option>
+<option value='Galizur'>Galizur</option>
+<option value='Ghost-Circuit'>Ghost Circuit</option>
+<option value='Ghostty-Default-Style-Dark'>Ghostty Default Style Dark</option>
+<option value='Gilded-Forest-Dark'>Gilded-Forest-Dark</option>
+<option value='GitHub-Dark-Colorblind'>GitHub Dark Colorblind</option>
+<option value='GitHub-Dark-Default'>GitHub Dark Default</option>
+<option value='GitHub-Dark-Dimmed'>GitHub Dark Dimmed</option>
+<option value='GitHub-Dark-High-Contrast'>GitHub Dark High Contrast</option>
+<option value='GitHub-Dark'>GitHub Dark</option>
+<option value='GitHub-Light-Colorblind'>GitHub Light Colorblind</option>
+<option value='GitHub-Light-Default'>GitHub Light Default</option>
+<option value='GitHub-Light-High-Contrast'>GitHub Light High Contrast</option>
+<option value='GitHub'>GitHub</option>
+<option value='GitLab-Dark-Grey'>GitLab Dark Grey</option>
+<option value='GitLab-Dark'>GitLab Dark</option>
+<option value='GitLab-Light'>GitLab Light</option>
+<option value='Glacier-Mint'>Glacier Mint</option>
+<option value='Glacier'>Glacier</option>
+<option value='Gleam-Classic'>Gleam Classic</option>
+<option value='Gleam'>Gleam</option>
+<option value='Golden-Mischief'>Golden Mischief</option>
+<option value='Golden-Retriever-Cream'>Golden Retriever Cream</option>
+<option value='Golden-Retriever-Honey'>Golden Retriever Honey</option>
+<option value='Golden-Retriever-Red'>Golden Retriever Red</option>
+<option value='Grape'>Grape</option>
+<option value='Graphite'>Graphite</option>
+<option value='Grass'>Grass</option>
+<option value='Graveyard-Shift'>Graveyard Shift</option>
+<option value='Great-Pumpkin'>Great Pumpkin</option>
+<option value='Green-Phosphor-CRT'>Green Phosphor CRT</option>
+<option value='Green-Screen'>Green Screen</option>
+<option value='Grey-Green'>Grey Green</option>
+<option value='Grok-Day'>Grok Day</option>
+<option value='Grok-Night'>Grok Night</option>
+<option value='Gruber-Darker-Legacy'>Gruber Darker Legacy</option>
+<option value='Gruber-Darker'>Gruber Darker</option>
+<option value='Gruvbox-Dark-Hard'>Gruvbox Dark Hard</option>
+<option value='Gruvbox-Dark'>Gruvbox Dark</option>
+<option value='Gruvbox-Light-Hard'>Gruvbox Light Hard</option>
+<option value='Gruvbox-Light'>Gruvbox Light</option>
+<option value='Gruvbox-Material-Dark'>Gruvbox Material Dark</option>
+<option value='Gruvbox-Material-Light'>Gruvbox Material Light</option>
+<option value='Gruvbox-Material'>Gruvbox Material</option>
+<option value='Guezwhoz'>Guezwhoz</option>
+<option value='Hacktober'>Hacktober</option>
+<option value='Hadal-Bloom'>Hadal Bloom</option>
+<option value='Hardcore'>Hardcore</option>
+<option value='Harper'>Harper</option>
+<option value='Harvest-Moon'>Harvest Moon</option>
+<option value='Haunted-House'>Haunted House</option>
+<option value='Havn-Daggry'>Havn Daggry</option>
+<option value='Havn-Skumring'>Havn Skumring</option>
+<option value='HaX0R-Blue'>HaX0R Blue</option>
+<option value='HaX0R-Gr33N'>HaX0R Gr33N</option>
+<option value='HaX0R-R3D'>HaX0R R3D</option>
+<option value='Heeler'>Heeler</option>
+<option value='Hellfire'>Hellfire</option>
+<option value='High-Desert-Snow'>High Desert Snow</option>
+<option value='High-Voltage-Highway'>High Voltage Highway</option>
+<option value='Highway'>Highway</option>
+<option value='Hipster-Green'>Hipster Green</option>
+<option value='Hivacruz'>Hivacruz</option>
+<option value='HN-After-Dark'>HN After Dark</option>
+<option value='HN-Classic'>HN Classic</option>
+<option value='Hocus-Pocus'>Hocus Pocus</option>
+<option value='Homebrew'>Homebrew</option>
+<option value='Hopscotch-256'>Hopscotch.256</option>
+<option value='Hopscotch'>Hopscotch</option>
+<option value='Horizon-Bright'>Horizon Bright</option>
+<option value='Horizon'>Horizon</option>
+<option value='Horizons'>Horizons</option>
+<option value='Hot-Dog-Stand-Mustard'>Hot Dog Stand (Mustard)</option>
+<option value='Hot-Dog-Stand'>Hot Dog Stand</option>
+<option value='Hurtado'>Hurtado</option>
+<option value='Hybrid'>Hybrid</option>
+<option value='Hyper'>Hyper</option>
+<option value='Hysterical-Frequency'>Hysterical Frequency</option>
+<option value='IBM-5153-CGA-Black'>IBM 5153 CGA (Black)</option>
+<option value='IBM-5153-CGA'>IBM 5153 CGA</option>
+<option value='IC-Green-PPL'>IC Green PPL</option>
+<option value='IC-Orange-PPL'>IC Orange PPL</option>
+<option value='Iceberg-Dark'>Iceberg Dark</option>
+<option value='Iceberg-Light'>Iceberg Light</option>
+<option value='Icy-Glacier'>Icy Glacier</option>
+<option value='Idea'>Idea</option>
+<option value='Idle-Toes'>Idle Toes</option>
+<option value='iglass-Dark'>iglass Dark</option>
+<option value='iglass-Light'>iglass Light</option>
+<option value='IR-Black'>IR Black</option>
+<option value='IRIX-Console'>IRIX Console</option>
+<option value='IRIX-Terminal'>IRIX Terminal</option>
+<option value='Isocon-Dark'>Isocon Dark</option>
+<option value='Isocon-Light'>Isocon Light</option>
+<option value='iTerm2-Dark-Background'>iTerm2 Dark Background</option>
+<option value='iTerm2-Default'>iTerm2 Default</option>
+<option value='iTerm2-Light-Background'>iTerm2 Light Background</option>
+<option value='iTerm2-Pastel-Dark-Background'>iTerm2 Pastel Dark Background</option>
+<option value='iTerm2-Smoooooth'>iTerm2 Smoooooth</option>
+<option value='iTerm2-Solarized-Dark'>iTerm2 Solarized Dark</option>
+<option value='iTerm2-Solarized-Light'>iTerm2 Solarized Light</option>
+<option value='iTerm2-Tango-Dark'>iTerm2 Tango Dark</option>
+<option value='iTerm2-Tango-Light'>iTerm2 Tango Light</option>
+<option value='Jack-O-Lantern'>Jack O&#39; Lantern</option>
+<option value='Jackie-Brown'>Jackie Brown</option>
+<option value='Japanesque'>Japanesque</option>
+<option value='Jellybeans'>Jellybeans</option>
+<option value='JetBrains-Darcula'>JetBrains Darcula</option>
+<option value='JetBrains-Islands-Dark'>JetBrains Islands Dark</option>
+<option value='JetCalm-Light'>JetCalm Light</option>
+<option value='Jubi'>Jubi</option>
+<option value='Jump-Start'>Jump Start</option>
+<option value='Jute-Espresso'>Jute Espresso</option>
+<option value='Kanagawa-Dragon'>Kanagawa Dragon</option>
+<option value='Kanagawa-Lotus'>Kanagawa Lotus</option>
+<option value='Kanagawa-Wave'>Kanagawa Wave</option>
+<option value='Kanagawabones'>Kanagawabones</option>
+<option value='Kanso-Ink'>Kanso Ink</option>
+<option value='Kanso-Mist'>Kanso Mist</option>
+<option value='Kanso-Pearl'>Kanso Pearl</option>
+<option value='Kanso-Zen'>Kanso Zen</option>
+<option value='Karasu-Night'>Karasu Night</option>
+<option value='Karasu-Snow'>Karasu Snow</option>
+<option value='Karma-Dark-Dimmed'>Karma Dark Dimmed</option>
+<option value='Karma-Dark-HC'>Karma Dark HC</option>
+<option value='Karma-Dark'>Karma Dark</option>
+<option value='Karma-Light-Dimmed'>Karma Light Dimmed</option>
+<option value='Karma-Light-HC'>Karma Light HC</option>
+<option value='Karma-Light'>Karma Light</option>
+<option value='Kashmir-Nights'>Kashmir Nights</option>
+<option value='Keys-Ocean-Sunset-HC'>Keys Ocean Sunset HC</option>
+<option value='Keys-Ocean-Sunset'>Keys Ocean Sunset</option>
+<option value='Kibble'>Kibble</option>
+<option value='Kitty-Default'>Kitty Default</option>
+<option value='Kitty-Low-Contrast'>Kitty Low Contrast</option>
+<option value='Klein-Void'>Klein Void</option>
+<option value='Kolorit'>Kolorit</option>
+<option value='Konsolas'>Konsolas</option>
+<option value='Kurokula'>Kurokula</option>
+<option value='Kwyjibo'>Kwyjibo</option>
+<option value='Lab-Fox'>Lab Fox</option>
+<option value='Laser'>Laser</option>
+<option value='Last-Broadcast'>Last Broadcast</option>
+<option value='Later-This-Evening'>Later This Evening</option>
+<option value='Lavandula'>Lavandula</option>
+<option value='Lemon-Graphite'>Lemon Graphite</option>
+<option value='Letterpress'>Letterpress</option>
+<option value='Light-2026'>Light 2026</option>
+<option value='Light-Owl'>Light Owl</option>
+<option value='Liquid-Carbon-Transparent'>Liquid Carbon Transparent</option>
+<option value='Liquid-Carbon'>Liquid Carbon</option>
+<option value='Lit-Cell-Light'>Lit Cell Light</option>
+<option value='Lit-Cell'>Lit Cell</option>
+<option value='London-Bonfire-Night'>London Bonfire Night</option>
+<option value='London-Columbia-Road'>London Columbia Road</option>
+<option value='London-Embankment-Dusk'>London Embankment Dusk</option>
+<option value='London-Soho-Night'>London Soho Night</option>
+<option value='Lovelace'>Lovelace</option>
+<option value='Lumina-Aurora-Dark'>Lumina Aurora Dark</option>
+<option value='Lumina-Aurora-Light'>Lumina Aurora Light</option>
+<option value='Lumina-Canopy-Dark'>Lumina Canopy Dark</option>
+<option value='Lumina-Canopy-Light'>Lumina Canopy Light</option>
+<option value='Lumina-Cherenkov-Dark'>Lumina Cherenkov Dark</option>
+<option value='Lumina-Cherenkov-Light'>Lumina Cherenkov Light</option>
+<option value='Lumina-Dusk-Dark'>Lumina Dusk Dark</option>
+<option value='Lumina-Dusk-Light'>Lumina Dusk Light</option>
+<option value='Lumina-Ember-Dark'>Lumina Ember Dark</option>
+<option value='Lumina-Ember-Light'>Lumina Ember Light</option>
+<option value='Lumina-Espresso-Dark'>Lumina Espresso Dark</option>
+<option value='Lumina-Espresso-Light'>Lumina Espresso Light</option>
+<option value='Lumina-Harbor-Dark'>Lumina Harbor Dark</option>
+<option value='Lumina-Harbor-Light'>Lumina Harbor Light</option>
+<option value='Lumina-Lagoon-Dark'>Lumina Lagoon Dark</option>
+<option value='Lumina-Lagoon-Light'>Lumina Lagoon Light</option>
+<option value='Lumina-Nebula-Dark'>Lumina Nebula Dark</option>
+<option value='Lumina-Nebula-Light'>Lumina Nebula Light</option>
+<option value='Lumina-Olive-Dark'>Lumina Olive Dark</option>
+<option value='Lumina-Olive-Light'>Lumina Olive Light</option>
+<option value='Lumina-Oxblood-Dark'>Lumina Oxblood Dark</option>
+<option value='Lumina-Oxblood-Light'>Lumina Oxblood Light</option>
+<option value='Lumina-Parchment-Dark'>Lumina Parchment Dark</option>
+<option value='Lumina-Parchment-Light'>Lumina Parchment Light</option>
+<option value='Lumina-Polaire-Dark'>Lumina Polaire Dark</option>
+<option value='Lumina-Polaire-Light'>Lumina Polaire Light</option>
+<option value='Lumina-Quartz-Dark'>Lumina Quartz Dark</option>
+<option value='Lumina-Quartz-Light'>Lumina Quartz Light</option>
+<option value='Lumina-Rayleigh-Dark'>Lumina Rayleigh Dark</option>
+<option value='Lumina-Rayleigh-Light'>Lumina Rayleigh Light</option>
+<option value='Lumina-Vitrail-Dark'>Lumina Vitrail Dark</option>
+<option value='Lumina-Vitrail-Light'>Lumina Vitrail Light</option>
+<option value='Lunar-Dust'>Lunar Dust</option>
+<option value='Madman-s-Diary'>Madman&#39;s Diary</option>
+<option value='Man-Page'>Man Page</option>
+<option value='Maple-Jute'>Maple Jute</option>
+<option value='Mariana'>Mariana</option>
+<option value='Matcha-Zen'>Matcha Zen</option>
+<option value='Material-Dark'>Material Dark</option>
+<option value='Material-Darker'>Material Darker</option>
+<option value='Material-Design-Colors'>Material Design Colors</option>
+<option value='Material-Ocean'>Material Ocean</option>
+<option value='Material'>Material</option>
+<option value='Mathias'>Mathias</option>
+<option value='Matrix'>Matrix</option>
+<option value='Matte-Black'>Matte Black</option>
+<option value='Medallion'>Medallion</option>
+<option value='Melange-Dark'>Melange Dark</option>
+<option value='Melange-Light'>Melange Light</option>
+<option value='Mellifluous'>Mellifluous</option>
+<option value='Mellow'>Mellow</option>
+<option value='Merino-Dark'>Merino Dark</option>
+<option value='Merino-Light'>Merino Light</option>
+<option value='Mesa-Blue'>Mesa Blue</option>
+<option value='Mesa-Twilight'>Mesa Twilight</option>
+<option value='Mesila-One'>Mesila One</option>
+<option value='Miami-Heat'>Miami Heat</option>
+<option value='Miasma'>Miasma</option>
+<option value='Midnight-Arcade'>Midnight Arcade</option>
+<option value='Midnight-In-Mojave'>Midnight In Mojave</option>
+<option value='Midnight-Rambler'>Midnight Rambler</option>
+<option value='Midnight-Tundra'>Midnight Tundra</option>
+<option value='Mindcrime'>Mindcrime</option>
+<option value='Mirage'>Mirage</option>
+<option value='Misterioso'>Misterioso</option>
+<option value='mistpine'>mistpine</option>
+<option value='Modus-Operandi-Deuteranopia'>Modus Operandi Deuteranopia</option>
+<option value='Modus-Operandi-Tinted'>Modus Operandi Tinted</option>
+<option value='Modus-Operandi-Tritanopia'>Modus Operandi Tritanopia</option>
+<option value='Modus-Operandi'>Modus Operandi</option>
+<option value='Modus-Vivendi-Deuteranopia'>Modus Vivendi Deuteranopia</option>
+<option value='Modus-Vivendi-Tinted'>Modus Vivendi Tinted</option>
+<option value='Modus-Vivendi-Tritanopia'>Modus Vivendi Tritanopia</option>
+<option value='Modus-Vivendi'>Modus Vivendi</option>
+<option value='Molokai'>Molokai</option>
+<option value='Molten-Core'>Molten Core</option>
+<option value='Mona-Lisa'>Mona Lisa</option>
+<option value='Monokai-Classic'>Monokai Classic</option>
+<option value='Monokai-Pro-Light-Sun'>Monokai Pro Light Sun</option>
+<option value='Monokai-Pro-Light'>Monokai Pro Light</option>
+<option value='Monokai-Pro-Machine'>Monokai Pro Machine</option>
+<option value='Monokai-Pro-Octagon'>Monokai Pro Octagon</option>
+<option value='Monokai-Pro-Ristretto'>Monokai Pro Ristretto</option>
+<option value='Monokai-Pro-Spectrum'>Monokai Pro Spectrum</option>
+<option value='Monokai-Pro'>Monokai Pro</option>
+<option value='Monokai-Remastered'>Monokai Remastered</option>
+<option value='Monokai-Soda'>Monokai Soda</option>
+<option value='Monokai-SublimeText'>Monokai SublimeText</option>
+<option value='Monokai-Vivid'>Monokai Vivid</option>
+<option value='Monospace-Dark'>Monospace Dark</option>
+<option value='Monospace-Light'>Monospace Light</option>
+<option value='Monsoon-Mesa'>Monsoon Mesa</option>
+<option value='Monster-Mash'>Monster Mash</option>
+<option value='Moonfly'>Moonfly</option>
+<option value='Moonwalk'>Moonwalk</option>
+<option value='Moss-Ember'>Moss &amp; Ember</option>
+<option value='Motel-Vacancy'>Motel Vacancy</option>
+<option value='Moving-Signals'>Moving Signals</option>
+<option value='N0Tch2K'>N0Tch2K</option>
+<option value='Nachtschicht'>Nachtschicht</option>
+<option value='Nebula-Drift'>Nebula Drift</option>
+<option value='Neobones-Dark'>Neobones Dark</option>
+<option value='Neobones-Light'>Neobones Light</option>
+<option value='Neon-Analog'>Neon Analog</option>
+<option value='Neon-Arcade'>Neon Arcade</option>
+<option value='Neon-Purple'>Neon Purple</option>
+<option value='Neon-Raincheck-After-Hours'>Neon Raincheck: After Hours</option>
+<option value='Neon-Raincheck'>Neon Raincheck</option>
+<option value='Neon'>Neon</option>
+<option value='Neopolitan'>Neopolitan</option>
+<option value='Nephrite-Forest'>Nephrite Forest</option>
+<option value='Nephrite-Jade'>Nephrite Jade</option>
+<option value='Nephrite-Mint'>Nephrite Mint</option>
+<option value='Neutron'>Neutron</option>
+<option value='Newsprint-Fog'>Newsprint Fog</option>
+<option value='Night-Lion-V1'>Night Lion V1</option>
+<option value='Night-Lion-V2'>Night Lion V2</option>
+<option value='Night-Owl'>Night Owl</option>
+<option value='Night-Owlish-Light'>Night Owlish Light</option>
+<option value='Night-Pharmacy'>Night Pharmacy</option>
+<option value='Nightfall'>Nightfall</option>
+<option value='Nightfox'>Nightfox</option>
+<option value='Niji'>Niji</option>
+<option value='No-Clown-Fiesta-Light'>No Clown Fiesta Light</option>
+<option value='No-Clown-Fiesta'>No Clown Fiesta</option>
+<option value='Noctis-Azureus'>Noctis Azureus</option>
+<option value='Noctis-Bordo'>Noctis Bordo</option>
+<option value='Noctis-Hibernus'>Noctis Hibernus</option>
+<option value='Noctis-Lilac'>Noctis Lilac</option>
+<option value='Noctis-Lux'>Noctis Lux</option>
+<option value='Noctis-Minimus'>Noctis Minimus</option>
+<option value='Noctis-Obscuro'>Noctis Obscuro</option>
+<option value='Noctis-Sereno'>Noctis Sereno</option>
+<option value='Noctis-Uva'>Noctis Uva</option>
+<option value='Noctis-Viola'>Noctis Viola</option>
+<option value='Noctis'>Noctis</option>
+<option value='Nocturnal-Winter'>Nocturnal Winter</option>
+<option value='Nord-Light'>Nord Light</option>
+<option value='Nord-Wave'>Nord Wave</option>
+<option value='Nord'>Nord</option>
+<option value='Nordfox'>Nordfox</option>
+<option value='Northstar'>Northstar</option>
+<option value='Novel'>Novel</option>
+<option value='novmbr'>novmbr</option>
+<option value='Numbers-Station'>Numbers Station</option>
+<option value='Nvim-Dark'>Nvim Dark</option>
+<option value='Nvim-Light'>Nvim Light</option>
+<option value='Obsidian'>Obsidian</option>
+<option value='Obsurdian'>Obsurdian</option>
+<option value='Ocean'>Ocean</option>
+<option value='Oceanic-Material'>Oceanic Material</option>
+<option value='Oceanic-Next'>Oceanic Next</option>
+<option value='Ocotillo'>Ocotillo</option>
+<option value='Ollie'>Ollie</option>
+<option value='One-Dark-Two'>One Dark Two</option>
+<option value='One-Double-Dark'>One Double Dark</option>
+<option value='One-Double-Light'>One Double Light</option>
+<option value='One-Half-Dark'>One Half Dark</option>
+<option value='One-Half-Light'>One Half Light</option>
+<option value='Onenord-Light'>Onenord Light</option>
+<option value='Onenord'>Onenord</option>
+<option value='Opaline'>Opaline</option>
+<option value='OpenCode-Dark'>OpenCode Dark</option>
+<option value='OpenCode-Light'>OpenCode Light</option>
+<option value='Operator-Mono-Dark'>Operator Mono Dark</option>
+<option value='Outrun-Electric'>Outrun Electric</option>
+<option value='Overnight-Slumber'>Overnight Slumber</option>
+<option value='owl'>owl</option>
+<option value='Oxblood'>Oxblood</option>
+<option value='Oxide'>Oxide</option>
+<option value='Oxocarbon'>Oxocarbon</option>
+<option value='Ozz-s-Blizzard'>Ozz&#39;s Blizzard</option>
+<option value='Painted-Desert'>Painted Desert</option>
+<option value='Pale-Night-Hc'>Pale Night Hc</option>
+<option value='Pandora'>Pandora</option>
+<option value='Paper-Crane-Midnight-Ink'>Paper Crane: Midnight Ink</option>
+<option value='Paper-Crane'>Paper Crane</option>
+<option value='Paper-Tiger'>Paper Tiger</option>
+<option value='Paraiso-Dark'>Paraiso Dark</option>
+<option value='Paranoid-Circuit'>Paranoid Circuit</option>
+<option value='Parchment'>Parchment</option>
+<option value='Patina-Dark-Soft'>Patina Dark Soft</option>
+<option value='Patina-Dark'>Patina Dark</option>
+<option value='Patina-Lichen'>Patina Lichen</option>
+<option value='Patina-Light'>Patina Light</option>
+<option value='Patina-Moss'>Patina Moss</option>
+<option value='Patina-Stellar'>Patina Stellar</option>
+<option value='Patina'>Patina</option>
+<option value='Paul-Millr'>Paul Millr</option>
+<option value='Pencil-Dark'>Pencil Dark</option>
+<option value='Pencil-Light'>Pencil Light</option>
+<option value='Peppermint'>Peppermint</option>
+<option value='Petrified'>Petrified</option>
+<option value='Petrol-Lagoon'>Petrol Lagoon</option>
+<option value='Phala-Green-Dark'>Phala Green Dark</option>
+<option value='Pharaoh-s-Voltage'>Pharaoh&#39;s Voltage</option>
+<option value='Piatto-Light'>Piatto Light</option>
+<option value='Pierre-Dark'>Pierre Dark</option>
+<option value='Pierre-Light'>Pierre Light</option>
+<option value='Pissed-Off-Pancakes'>Pissed Off Pancakes</option>
+<option value='Pnevma'>Pnevma</option>
+<option value='Poimandres-Darker'>Poimandres Darker</option>
+<option value='Poimandres-Storm'>Poimandres Storm</option>
+<option value='Poimandres-White'>Poimandres White</option>
+<option value='Poimandres'>Poimandres</option>
+<option value='Poison-Apple'>Poison Apple</option>
+<option value='Poltergeist'>Poltergeist</option>
+<option value='Popping-And-Locking'>Popping And Locking</option>
+<option value='Porcelain'>Porcelain</option>
+<option value='Possessed-Toaster'>Possessed Toaster</option>
+<option value='Powershell'>Powershell</option>
+<option value='Prickly-Pear'>Prickly Pear</option>
+<option value='Primary'>Primary</option>
+<option value='Prince-of-Barkness'>Prince of Barkness</option>
+<option value='Prince-of-Darkness'>Prince of Darkness</option>
+<option value='Prism'>Prism</option>
+<option value='Prismatica'>Prismatica</option>
+<option value='Pro-Light'>Pro Light</option>
+<option value='Pro'>Pro</option>
+<option value='Pueblo-Night'>Pueblo Night</option>
+<option value='Pumpkin-Patch'>Pumpkin Patch</option>
+<option value='Pumpkin-Spice'>Pumpkin Spice</option>
+<option value='Puppet-s-Master'>Puppet&#39;s Master</option>
+<option value='Purple-Portal'>Purple Portal</option>
+<option value='Purple-Rain'>Purple Rain</option>
+<option value='Purplepeter'>Purplepeter</option>
+<option value='Pyrokai-Light'>Pyrokai Light</option>
+<option value='Pyrokai'>Pyrokai</option>
+<option value='RadicalReborn'>RadicalReborn</option>
+<option value='Rainbows-and-Unicorns-Arcade'>Rainbows and Unicorns Arcade</option>
+<option value='Rainbows-and-Unicorns-Den'>Rainbows and Unicorns Den</option>
+<option value='Rainbows-and-Unicorns-EGA-85'>Rainbows and Unicorns EGA 85</option>
+<option value='Rainbows-and-Unicorns-Mane'>Rainbows and Unicorns Mane</option>
+<option value='Rainbows-and-Unicorns-Miami'>Rainbows and Unicorns Miami</option>
+<option value='Rainbows-and-Unicorns-Paper-White'>Rainbows and Unicorns Paper White</option>
+<option value='Rainbows-and-Unicorns-Sorbet'>Rainbows and Unicorns Sorbet</option>
+<option value='Rainbows-and-Unicorns-VHS'>Rainbows and Unicorns VHS</option>
+<option value='Rainbows-and-Unicorns-Workbench'>Rainbows and Unicorns Workbench</option>
+<option value='Rainbows-and-Unicorns'>Rainbows and Unicorns</option>
+<option value='Rapture'>Rapture</option>
+<option value='Raycast-Dark'>Raycast Dark</option>
+<option value='Raycast-Light'>Raycast Light</option>
+<option value='Rebecca'>Rebecca</option>
+<option value='Red-Alert'>Red Alert</option>
+<option value='Red-Planet'>Red Planet</option>
+<option value='Red-Rock'>Red Rock</option>
+<option value='Red-Sands'>Red Sands</option>
+<option value='Redacted'>Redacted</option>
+<option value='Relaxed'>Relaxed</option>
+<option value='Retro-Legends'>Retro Legends</option>
+<option value='Retro'>Retro</option>
+<option value='Rhoads-Concord'>Rhoads Concord</option>
+<option value='Rhoads-Insipired'>Rhoads Insipired</option>
+<option value='Rhoads-Legacy'>Rhoads Legacy</option>
+<option value='Rhoads-LP'>Rhoads LP</option>
+<option value='Rhoads-RR-Black'>Rhoads RR Black</option>
+<option value='Rhoads-Tribute'>Rhoads Tribute</option>
+<option value='Ride-the-Current'>Ride the Current</option>
+<option value='Rippedcasts'>Rippedcasts</option>
+<option value='Rose-Pine-Dawn'>Rose Pine Dawn</option>
+<option value='Rose-Pine-Moon'>Rose Pine Moon</option>
+<option value='Rose-Pine'>Rose Pine</option>
+<option value='Rouge-2'>Rouge 2</option>
+<option value='Royal-Rhapsody'>Royal Rhapsody</option>
+<option value='Royal'>Royal</option>
+<option value='Ryuuko'>Ryuuko</option>
+<option value='Safety-Glass'>Safety Glass</option>
+<option value='Saffron-Nightfall'>Saffron Nightfall</option>
+<option value='Saguaro'>Saguaro</option>
+<option value='Sakura'>Sakura</option>
+<option value='Salem'>Salem</option>
+<option value='Sandstone-Classic'>Sandstone Classic</option>
+<option value='Sandstone-Ink'>Sandstone Ink</option>
+<option value='Sandstone-Warm'>Sandstone Warm</option>
+<option value='Sauber'>Sauber</option>
+<option value='Scabos-Sand'>Scabos Sand</option>
+<option value='Scarlet-Protocol'>Scarlet Protocol</option>
+<option value='Sea-Shells'>Sea Shells</option>
+<option value='Seafoam-Pastel'>Seafoam Pastel</option>
+<option value='Seance'>Seance</option>
+<option value='Sedona'>Sedona</option>
+<option value='SeedFlip-Abyss'>SeedFlip Abyss</option>
+<option value='SeedFlip-Amethyst'>SeedFlip Amethyst</option>
+<option value='SeedFlip-Canopy'>SeedFlip Canopy</option>
+<option value='SeedFlip-Carbon'>SeedFlip Carbon</option>
+<option value='SeedFlip-Coral'>SeedFlip Coral</option>
+<option value='SeedFlip-Ember'>SeedFlip Ember</option>
+<option value='SeedFlip-Glacier'>SeedFlip Glacier</option>
+<option value='SeedFlip-Inkwell'>SeedFlip Inkwell</option>
+<option value='SeedFlip-Ivory'>SeedFlip Ivory</option>
+<option value='SeedFlip-Nightfall'>SeedFlip Nightfall</option>
+<option value='SeedFlip-Phosphor'>SeedFlip Phosphor</option>
+<option value='SeedFlip-Pulse'>SeedFlip Pulse</option>
+<option value='SeedFlip-Ultraviolet'>SeedFlip Ultraviolet</option>
+<option value='SeedFlip-Voltage'>SeedFlip Voltage</option>
+<option value='SeedFlip-Wavelength'>SeedFlip Wavelength</option>
+<option value='Selenized-Black'>Selenized Black</option>
+<option value='Selenized-Dark'>Selenized Dark</option>
+<option value='Selenized-Light'>Selenized Light</option>
+<option value='Seoulbones-Dark'>Seoulbones Dark</option>
+<option value='Seoulbones-Light'>Seoulbones Light</option>
+<option value='Sequoia-Monochrome-Dark'>Sequoia Monochrome Dark</option>
+<option value='Sequoia-Monochrome-Light'>Sequoia Monochrome Light</option>
+<option value='Sequoia-Moonlight-Dark'>Sequoia Moonlight Dark</option>
+<option value='Sequoia-Moonlight-Light'>Sequoia Moonlight Light</option>
+<option value='Sequoia-Retro-Dark'>Sequoia Retro Dark</option>
+<option value='Sequoia-Retro-Light'>Sequoia Retro Light</option>
+<option value='Serendipity-Midnight'>Serendipity Midnight</option>
+<option value='Serendipity-Morning'>Serendipity Morning</option>
+<option value='Serendipity-Sunset'>Serendipity Sunset</option>
+<option value='Seti'>Seti</option>
+<option value='Shades-Of-Purple'>Shades Of Purple</option>
+<option value='Shaman'>Shaman</option>
+<option value='Shokunin'>Shokunin</option>
+<option value='Sierra-Gold'>Sierra Gold</option>
+<option value='Signal-Ghost'>Signal Ghost</option>
+<option value='Silent-Empire'>Silent Empire</option>
+<option value='SilkCircuit-Dawn'>SilkCircuit Dawn</option>
+<option value='SilkCircuit-Glow'>SilkCircuit Glow</option>
+<option value='SilkCircuit-Neon'>SilkCircuit Neon</option>
+<option value='SilkCircuit-Soft'>SilkCircuit Soft</option>
+<option value='SilkCircuit-Vibrant'>SilkCircuit Vibrant</option>
+<option value='Slate'>Slate</option>
+<option value='Sleepy-Hollow'>Sleepy Hollow</option>
+<option value='SLOMP'>SLOMP</option>
+<option value='Smoke-on-the-Terminal'>Smoke on the Terminal</option>
+<option value='Smyck'>Smyck</option>
+<option value='Snazzy-Soft'>Snazzy Soft</option>
+<option value='Snazzy'>Snazzy</option>
+<option value='Soft-Server'>Soft Server</option>
+<option value='Solar-Flare'>Solar Flare</option>
+<option value='Solarized-Darcula'>Solarized Darcula</option>
+<option value='Solarized-Dark-Higher-Contrast'>Solarized Dark Higher Contrast</option>
+<option value='Solarized-Dark-Patched'>Solarized Dark Patched</option>
+<option value='Solarized-Osaka-Night'>Solarized Osaka Night</option>
+<option value='Sonokai'>Sonokai</option>
+<option value='Sonoran-Afterglow'>Sonoran Afterglow</option>
+<option value='Sonoran-Blue-Hour'>Sonoran Blue Hour</option>
+<option value='Sonoran-Dusk'>Sonoran Dusk</option>
+<option value='Spacedust'>Spacedust</option>
+<option value='Spacegray-Bright'>Spacegray Bright</option>
+<option value='Spacegray-Eighties-Dull'>Spacegray Eighties Dull</option>
+<option value='Spacegray-Eighties'>Spacegray Eighties</option>
+<option value='Spacegray'>Spacegray</option>
+<option value='Spiderman'>Spiderman</option>
+<option value='Spring'>Spring</option>
+<option value='Springfield-Resident-Hight-Contrast'>Springfield Resident Hight Contrast</option>
+<option value='Springfield-Resident'>Springfield Resident</option>
+<option value='Square'>Square</option>
+<option value='Squintless'>Squintless</option>
+<option value='Squirrelsong-Dark'>Squirrelsong Dark</option>
+<option value='Srcery'>Srcery</option>
+<option value='Stairway-Skies'>Stairway Skies</option>
+<option value='Stardust-Voltage'>Stardust Voltage</option>
+<option value='Starlight'>Starlight</option>
+<option value='Static-Memory'>Static Memory</option>
+<option value='Static-Noir'>Static Noir</option>
+<option value='Sublette'>Sublette</option>
+<option value='Subliminal'>Subliminal</option>
+<option value='Sugarplum'>Sugarplum</option>
+<option value='Sumi-Ink'>Sumi Ink</option>
+<option value='Sumi-Linen'>Sumi Linen</option>
+<option value='Sumi-Phosphor'>Sumi Phosphor</option>
+<option value='Sun-Bleached'>Sun Bleached</option>
+<option value='Sundried'>Sundried</option>
+<option value='Sunset-Copper-Relay'>Sunset Copper Relay</option>
+<option value='Sunset-Drive'>Sunset Drive</option>
+<option value='Sunset-Strip'>Sunset Strip</option>
+<option value='Sweet-Emotion'>Sweet Emotion</option>
+<option value='Symfonic'>Symfonic</option>
+<option value='Syncopation'>Syncopation</option>
+<option value='Synthwave-Alpha'>Synthwave Alpha</option>
+<option value='Synthwave-Everything'>Synthwave Everything</option>
+<option value='Synthwave'>Synthwave</option>
+<option value='Tailwind-Dark'>Tailwind Dark</option>
+<option value='Tailwind-Light'>Tailwind Light</option>
+<option value='Tango-Adapted'>Tango Adapted</option>
+<option value='Tango-Half-Adapted'>Tango Half Adapted</option>
+<option value='Tearout'>Tearout</option>
+<option value='Teerb'>Teerb</option>
+<option value='Terafox'>Terafox</option>
+<option value='Terminal-Basic-Dark'>Terminal Basic Dark</option>
+<option value='Terminal-Basic'>Terminal Basic</option>
+<option value='Terminal-Green-1999'>Terminal Green 1999</option>
+<option value='Termius-Dark'>Termius Dark</option>
+<option value='Termius-Light'>Termius Light</option>
+<option value='Thayer-Bright'>Thayer Bright</option>
+<option value='The-Fog'>The Fog</option>
+<option value='The-Hulk'>The Hulk</option>
+<option value='Thermal-Receipt'>Thermal Receipt</option>
+<option value='Thirteen'>Thirteen</option>
+<option value='This-One-Goes-to-11'>This One Goes to 11</option>
+<option value='Tinacious-Design-Dark'>Tinacious Design Dark</option>
+<option value='Tinacious-Design-Light'>Tinacious Design Light</option>
+<option value='Token-Dark'>Token Dark</option>
+<option value='Token-Light'>Token Light</option>
+<option value='TokyoNight-Day'>TokyoNight Day</option>
+<option value='TokyoNight-Moon'>TokyoNight Moon</option>
+<option value='TokyoNight-Night'>TokyoNight Night</option>
+<option value='TokyoNight-Storm'>TokyoNight Storm</option>
+<option value='TokyoNight'>TokyoNight</option>
+<option value='Tomorrow-Night-Blue'>Tomorrow Night Blue</option>
+<option value='Tomorrow-Night-Bright'>Tomorrow Night Bright</option>
+<option value='Tomorrow-Night-Burns'>Tomorrow Night Burns</option>
+<option value='Tomorrow-Night-Eighties'>Tomorrow Night Eighties</option>
+<option value='Tomorrow-Night'>Tomorrow Night</option>
+<option value='Tomorrow'>Tomorrow</option>
+<option value='Toy-Chest'>Toy Chest</option>
+<option value='traffic'>traffic</option>
+<option value='Trapped-in-Amber'>Trapped in Amber</option>
+<option value='Treehouse'>Treehouse</option>
+<option value='Trick-or-Treat'>Trick or Treat</option>
+<option value='Tumbling-Stones'>Tumbling Stones</option>
+<option value='Turquoise-Trail'>Turquoise Trail</option>
+<option value='Twilight'>Twilight</option>
+<option value='Ubuntu'>Ubuntu</option>
+<option value='Ultra-Dark'>Ultra Dark</option>
+<option value='Ultra-Violent'>Ultra Violent</option>
+<option value='Unalive-Em-All'>Unalive &#39;Em All</option>
+<option value='Undead'>Undead</option>
+<option value='Under-The-Sea'>Under The Sea</option>
+<option value='Unikitty'>Unikitty</option>
+<option value='urban'>urban</option>
+<option value='Urple'>Urple</option>
+<option value='Vacuum-Tube'>Vacuum Tube</option>
+<option value='Vague'>Vague</option>
+<option value='Vaporwave-Sunset'>Vaporwave Sunset</option>
+<option value='Vaughn'>Vaughn</option>
+<option value='Velvet-Court'>Velvet Court</option>
+<option value='Vercel-Light'>Vercel Light</option>
+<option value='Vercel'>Vercel</option>
+<option value='Verdigris'>Verdigris</option>
+<option value='Vesper'>Vesper</option>
+<option value='Vibrant-Ink'>Vibrant Ink</option>
+<option value='Vimbones'>Vimbones</option>
+<option value='Violet-Dark'>Violet Dark</option>
+<option value='Violet-Light'>Violet Light</option>
+<option value='Violite'>Violite</option>
+<option value='Warm-Burnout-Dark'>Warm Burnout Dark</option>
+<option value='Warm-Burnout-Light'>Warm Burnout Light</option>
+<option value='Warm-Neon'>Warm Neon</option>
+<option value='Wasteland-Terminal'>Wasteland Terminal</option>
+<option value='Wez'>Wez</option>
+<option value='Whimsy'>Whimsy</option>
+<option value='White-Sands'>White Sands</option>
+<option value='Wild-Charm-Dark'>Wild Charm Dark</option>
+<option value='Wild-Charm-Light'>Wild Charm Light</option>
+<option value='Wild-Cherry'>Wild Cherry</option>
+<option value='Willow-Grove'>Willow Grove</option>
+<option value='Wilmersdorf'>Wilmersdorf</option>
+<option value='Witches-Brew'>Witches&#39; Brew</option>
+<option value='Witching-Hour'>Witching Hour</option>
+<option value='Wombat'>Wombat</option>
+<option value='Wryan'>Wryan</option>
+<option value='X-Berlin'>X Berlin</option>
+<option value='X-Bogota'>X Bogota</option>
+<option value='X-Helsinki'>X Helsinki</option>
+<option value='X-Lahabana'>X Lahabana</option>
+<option value='X-London'>X London</option>
+<option value='X-Madrid'>X Madrid</option>
+<option value='X-Miami'>X Miami</option>
+<option value='X-Oslo'>X Oslo</option>
+<option value='X-Paris'>X Paris</option>
+<option value='X-Praha'>X Praha</option>
+<option value='X-Tokio'>X Tokio</option>
+<option value='X'>X</option>
+<option value='Xcode-Dark-hc'>Xcode Dark hc</option>
+<option value='Xcode-Dark'>Xcode Dark</option>
+<option value='Xcode-Light-hc'>Xcode Light hc</option>
+<option value='Xcode-Light'>Xcode Light</option>
+<option value='Xcode-WWDC'>Xcode WWDC</option>
+<option value='Y2K-Chrome'>Y2K Chrome</option>
+<option value='Yngwie-s-Strat'>Yngwie&#39;s Strat</option>
+<option value='Zacess-Cream'>Zacess Cream</option>
+<option value='Zacess-Dark'>Zacess Dark</option>
+<option value='Zacess-Deep-Contrast-Dark'>Zacess Deep Contrast Dark</option>
+<option value='Zacess-Deep-Contrast-Light'>Zacess Deep Contrast Light</option>
+<option value='Zacess-High-Contrast-Dark'>Zacess High Contrast Dark</option>
+<option value='Zacess-High-Contrast-Light'>Zacess High Contrast Light</option>
+<option value='Zacess-Light'>Zacess Light</option>
+<option value='Zacess-Warm-Dark'>Zacess Warm Dark</option>
+<option value='Zacess-Warm-Light'>Zacess Warm Light</option>
+<option value='Zacess-Yellow-on-Black'>Zacess Yellow on Black</option>
+<option value='Zenbones-Dark'>Zenbones Dark</option>
+<option value='Zenbones'>Zenbones</option>
+<option value='Zenburn'>Zenburn</option>
+<option value='Zenburned'>Zenburned</option>
+<option value='Zenwritten-Dark'>Zenwritten Dark</option>
+<option value='Zenwritten-Light'>Zenwritten Light</option>
+</datalist>
+<input id='input-palette-name' name='palette-name' list='palette-names' onchange='SetPalette(this)'></input>
+<select id='select-palette-name' name='palette-name' onchange='SetPalette(this)'>
+<option value='0x96f'>0x96f</option>
+<option value='12-bit-Rainbow'>12-bit Rainbow</option>
+<option value='13th-Floor'>13th Floor</option>
+<option value='3024-Day'>3024 Day</option>
+<option value='3024-Night'>3024 Night</option>
+<option value='5150-Mode'>5150 Mode</option>
+<option value='Aardvark-Blue'>Aardvark Blue</option>
+<option value='Aardvark-Ink'>Aardvark Ink</option>
+<option value='Abandoned'>Abandoned</option>
+<option value='Abernathy'>Abernathy</option>
+<option value='Acid-Lime'>Acid Lime</option>
+<option value='Adobe-Moon'>Adobe Moon</option>
+<option value='Adventure-Time'>Adventure Time</option>
+<option value='Adventure'>Adventure</option>
+<option value='Adwaita-Dark'>Adwaita Dark</option>
+<option value='Adwaita'>Adwaita</option>
+<option value='After-Hours'>After Hours</option>
+<option value='Afterglow'>Afterglow</option>
+<option value='Afterimage'>Afterimage</option>
+<option value='Agave-Dusk'>Agave Dusk</option>
+<option value='Aizen-Dark'>Aizen Dark</option>
+<option value='Aizen-Light'>Aizen Light</option>
+<option value='Alabaster'>Alabaster</option>
+<option value='Alien-Blood'>Alien Blood</option>
+<option value='Alpine-Milk'>Alpine Milk</option>
+<option value='AlxPro-Dark'>AlxPro Dark</option>
+<option value='AlxPro-Light'>AlxPro Light</option>
+<option value='Amber-CRT-Retro'>Amber CRT Retro</option>
+<option value='Analog-Heartbeat-Phosphor'>Analog Heartbeat: Phosphor</option>
+<option value='Analog-Heartbeat'>Analog Heartbeat</option>
+<option value='Analyzed-Dark'>Analyzed Dark</option>
+<option value='Analyzed-Light'>Analyzed Light</option>
+<option value='Andromeda'>Andromeda</option>
+<option value='Apple-Classic'>Apple Classic</option>
+<option value='Apple-System-Colors-Light'>Apple System Colors Light</option>
+<option value='Apple-System-Colors'>Apple System Colors</option>
+<option value='Arcoiris'>Arcoiris</option>
+<option value='Ardoise'>Ardoise</option>
+<option value='Argonaut'>Argonaut</option>
+<option value='Arizona-Monsoon'>Arizona Monsoon</option>
+<option value='Arthur'>Arthur</option>
+<option value='Atelier-Sulphurpool'>Atelier Sulphurpool</option>
+<option value='Atlas-Ragnarok'>Atlas Ragnarok</option>
+<option value='Atom-One-Dark'>Atom One Dark</option>
+<option value='Atom-One-Light'>Atom One Light</option>
+<option value='Atom'>Atom</option>
+<option value='Aubade'>Aubade</option>
+<option value='Aura-Dark'>Aura Dark</option>
+<option value='Aura'>Aura</option>
+<option value='Aurora-Drift'>Aurora Drift</option>
+<option value='Aurora'>Aurora</option>
+<option value='Autumn-After-Dark'>Autumn After Dark</option>
+<option value='Ayu-Light'>Ayu Light</option>
+<option value='Ayu-Mirage'>Ayu Mirage</option>
+<option value='Ayu'>Ayu</option>
+<option value='Aztec-Sunset'>Aztec Sunset</option>
+<option value='Banana-Blueberry'>Banana Blueberry</option>
+<option value='Barbenheimer-Bunker'>Barbenheimer Bunker</option>
+<option value='Barbenheimer-Dreamhouse'>Barbenheimer Dreamhouse</option>
+<option value='Barbenheimer-Nuclear-Sunrise'>Barbenheimer Nuclear Sunrise</option>
+<option value='Barrel-Cactus'>Barrel Cactus</option>
+<option value='base16-icy'>base16-icy</option>
+<option value='Batman'>Batman</option>
+<option value='Bauhaus-Dark'>Bauhaus Dark</option>
+<option value='Bauhaus-Light'>Bauhaus Light</option>
+<option value='Belafonte-Day'>Belafonte Day</option>
+<option value='Belafonte-Night'>Belafonte Night</option>
+<option value='Belfry'>Belfry</option>
+<option value='Birds-Of-Paradise'>Birds Of Paradise</option>
+<option value='Black-Box-Recorder'>Black Box Recorder</option>
+<option value='Black-Cat'>Black Cat</option>
+<option value='Black-Metal-Bathory'>Black Metal (Bathory)</option>
+<option value='Black-Metal-Burzum'>Black Metal (Burzum)</option>
+<option value='Black-Metal-Dark-Funeral'>Black Metal (Dark Funeral)</option>
+<option value='Black-Metal-Gorgoroth'>Black Metal (Gorgoroth)</option>
+<option value='Black-Metal-Immortal'>Black Metal (Immortal)</option>
+<option value='Black-Metal-Khold'>Black Metal (Khold)</option>
+<option value='Black-Metal-Marduk'>Black Metal (Marduk)</option>
+<option value='Black-Metal-Mayhem'>Black Metal (Mayhem)</option>
+<option value='Black-Metal-Nile'>Black Metal (Nile)</option>
+<option value='Black-Metal-Venom'>Black Metal (Venom)</option>
+<option value='Black-Metal'>Black Metal</option>
+<option value='Blazer'>Blazer</option>
+<option value='Blood-Moon'>Blood Moon</option>
+<option value='Blue-Berry-Pie'>Blue Berry Pie</option>
+<option value='Blue-Dolphin'>Blue Dolphin</option>
+<option value='Blue-Matrix'>Blue Matrix</option>
+<option value='Blueprint'>Blueprint</option>
+<option value='Bluloco-Dark'>Bluloco Dark</option>
+<option value='Bluloco-Light'>Bluloco Light</option>
+<option value='Bone-Yard'>Bone Yard</option>
+<option value='Borland'>Borland</option>
+<option value='Box'>Box</option>
+<option value='branch'>branch</option>
+<option value='Breadog'>Breadog</option>
+<option value='Breeze'>Breeze</option>
+<option value='Bright-Lights'>Bright Lights</option>
+<option value='Broadcast'>Broadcast</option>
+<option value='Brogrammer'>Brogrammer</option>
+<option value='Builtin-Dark'>Builtin Dark</option>
+<option value='Builtin-Light'>Builtin Light</option>
+<option value='Builtin-Pastel-Dark'>Builtin Pastel Dark</option>
+<option value='Builtin-Tango-Dark'>Builtin Tango Dark</option>
+<option value='Builtin-Tango-Light'>Builtin Tango Light</option>
+<option value='C64'>C64</option>
+<option value='Cactus-Bloom'>Cactus Bloom</option>
+<option value='Calamity'>Calamity</option>
+<option value='Caliche'>Caliche</option>
+<option value='Callie-Light'>Callie Light</option>
+<option value='Callie'>Callie</option>
+<option value='Candlelight'>Candlelight</option>
+<option value='Candy-Corn'>Candy Corn</option>
+<option value='Canyon-Shadow'>Canyon Shadow</option>
+<option value='Canyon-Walnut'>Canyon Walnut</option>
+<option value='Carbon-Paper'>Carbon Paper</option>
+<option value='Carbonfox'>Carbonfox</option>
+<option value='Cassette-Tape'>Cassette Tape</option>
+<option value='Catppuccin-Frappe'>Catppuccin Frappe</option>
+<option value='Catppuccin-Latte'>Catppuccin Latte</option>
+<option value='Catppuccin-Macchiato'>Catppuccin Macchiato</option>
+<option value='Catppuccin-Mocha'>Catppuccin Mocha</option>
+<option value='Catthode'>Catthode</option>
+<option value='CGA'>CGA</option>
+<option value='Chalk'>Chalk</option>
+<option value='Chalkboard'>Chalkboard</option>
+<option value='Challenger-Deep'>Challenger Deep</option>
+<option value='Charcoal'>Charcoal</option>
+<option value='Chester'>Chester</option>
+<option value='Cholla'>Cholla</option>
+<option value='Ciapre'>Ciapre</option>
+<option value='Citrus-Ink'>Citrus Ink</option>
+<option value='Citruszest'>Citruszest</option>
+<option value='Claude-Dark'>Claude Dark</option>
+<option value='Claude-Light'>Claude Light</option>
+<option value='Claude'>Claude</option>
+<option value='Clear-Dark'>Clear Dark</option>
+<option value='Clear-Light'>Clear Light</option>
+<option value='Clockwork-Gold'>Clockwork Gold</option>
+<option value='CLRS'>CLRS</option>
+<option value='Clu'>Clu</option>
+<option value='Cobalt-Foundry'>Cobalt Foundry</option>
+<option value='Cobalt-Neon'>Cobalt Neon</option>
+<option value='Cobalt-Next-Dark'>Cobalt Next Dark</option>
+<option value='Cobalt-Next-Minimal'>Cobalt Next Minimal</option>
+<option value='Cobalt-Next'>Cobalt Next</option>
+<option value='Cobalt2'>Cobalt2</option>
+<option value='Cobweb'>Cobweb</option>
+<option value='Code-2026-Dark'>Code 2026 Dark</option>
+<option value='Code-2026-Light'>Code 2026 Light</option>
+<option value='Coffee-Theme'>Coffee Theme</option>
+<option value='Cold-Storage'>Cold Storage</option>
+<option value='Cool-Night'>Cool Night</option>
+<option value='Copper-Canyon'>Copper Canyon</option>
+<option value='Count-Terminal'>Count Terminal</option>
+<option value='Crayon-Pony-Fish'>Crayon Pony Fish</option>
+<option value='CRT-Afterglow'>CRT Afterglow</option>
+<option value='CRT-Amber'>CRT Amber</option>
+<option value='Crypt-Keeper'>Crypt Keeper</option>
+<option value='Crystal-Ball'>Crystal Ball</option>
+<option value='Cursed-VHS'>Cursed VHS</option>
+<option value='Cursor-Dark'>Cursor Dark</option>
+<option value='Cursor-Light'>Cursor Light</option>
+<option value='Cutie-Pro'>Cutie Pro</option>
+<option value='Cyberdyne'>Cyberdyne</option>
+<option value='Cyberpunk-Scarlet-Protocol'>Cyberpunk Scarlet Protocol</option>
+<option value='cyberpunk-icy'>cyberpunk-icy</option>
+<option value='Cyberpunk'>Cyberpunk</option>
+<option value='Dalton-Dark'>Dalton Dark</option>
+<option value='Dark-2026'>Dark 2026</option>
+<option value='Dark-Modern'>Dark Modern</option>
+<option value='Dark-Pastel'>Dark Pastel</option>
+<option value='Dark+'>Dark+</option>
+<option value='Darkermatrix'>Darkermatrix</option>
+<option value='Darkmatrix'>Darkmatrix</option>
+<option value='Darkside'>Darkside</option>
+<option value='datum-dark'>datum (dark)</option>
+<option value='datum-light'>datum (light)</option>
+<option value='Dawnfox'>Dawnfox</option>
+<option value='Daybreak'>Daybreak</option>
+<option value='Daybreaker'>Daybreaker</option>
+<option value='Dayfox'>Dayfox</option>
+<option value='Dead-Letter-Office'>Dead Letter Office</option>
+<option value='Deep-Current'>Deep Current</option>
+<option value='Deep'>Deep</option>
+<option value='Desert-Bloom'>Desert Bloom</option>
+<option value='Desert-Moon'>Desert Moon</option>
+<option value='Desert-Morning'>Desert Morning</option>
+<option value='Desert-Rose'>Desert Rose</option>
+<option value='Desert-Thunder'>Desert Thunder</option>
+<option value='Desert'>Desert</option>
+<option value='Detroit-After-Dark'>Detroit After Dark</option>
+<option value='Detuned'>Detuned</option>
+<option value='Diary-of-a-Lunatic'>Diary of a Lunatic</option>
+<option value='Dimidium'>Dimidium</option>
+<option value='Dimmed-Monokai'>Dimmed Monokai</option>
+<option value='Django-Reborn-Again'>Django Reborn Again</option>
+<option value='Django-Smooth'>Django Smooth</option>
+<option value='Django'>Django</option>
+<option value='Dogxi-Misty'>Dogxi Misty</option>
+<option value='Doom-One'>Doom One</option>
+<option value='Doom-Peacock'>Doom Peacock</option>
+<option value='Dot-Gov'>Dot Gov</option>
+<option value='Dracula'>Dracula</option>
+<option value='Dracula+-High-Contrast'>Dracula+ High Contrast</option>
+<option value='Dracula+'>Dracula+</option>
+<option value='Dream-Onward'>Dream Onward</option>
+<option value='Driftwood'>Driftwood</option>
+<option value='Duckbones'>Duckbones</option>
+<option value='Duotone-Dark'>Duotone Dark</option>
+<option value='Duskfox'>Duskfox</option>
+<option value='Earl-Grey'>Earl Grey</option>
+<option value='Earthsong'>Earthsong</option>
+<option value='Eclipse'>Eclipse</option>
+<option value='Ectoplasm'>Ectoplasm</option>
+<option value='Edge-Light'>Edge Light</option>
+<option value='Eight-Hundred'>Eight Hundred</option>
+<option value='Electric-Voodoo'>Electric Voodoo</option>
+<option value='Electron-Highlighter-Day'>Electron Highlighter Day</option>
+<option value='Electron-Highlighter'>Electron Highlighter</option>
+<option value='Elegant'>Elegant</option>
+<option value='Elemental'>Elemental</option>
+<option value='Elementary'>Elementary</option>
+<option value='Embark'>Embark</option>
+<option value='Ember-Peak'>Ember Peak</option>
+<option value='Ember'>Ember</option>
+<option value='Emberglass'>Emberglass</option>
+<option value='Embers-Dark'>Embers Dark</option>
+<option value='Emerald-Synth'>Emerald Synth</option>
+<option value='ENCOM'>ENCOM</option>
+<option value='Espresso-Libre'>Espresso Libre</option>
+<option value='Espresso'>Espresso</option>
+<option value='Eventide'>Eventide</option>
+<option value='Everblush'>Everblush</option>
+<option value='Everforest-Dark-Hard'>Everforest Dark Hard</option>
+<option value='Everforest-Dark-Med'>Everforest Dark Med</option>
+<option value='Everforest-Dark-Soft'>Everforest Dark Soft</option>
+<option value='Everforest-Light-Hard'>Everforest Light Hard</option>
+<option value='Everforest-Light-Med'>Everforest Light Med</option>
+<option value='Everforest-Light-Soft'>Everforest Light Soft</option>
+<option value='Evergreen'>Evergreen</option>
+<option value='everslate'>everslate</option>
+<option value='EVH-FrankenTone'>EVH FrankenTone</option>
+<option value='eyesclosed'>eyesclosed</option>
+<option value='Fahrenheit'>Fahrenheit</option>
+<option value='Fairyfloss'>Fairyfloss</option>
+<option value='Farmhouse-Dark'>Farmhouse Dark</option>
+<option value='Farmhouse-Light'>Farmhouse Light</option>
+<option value='Fideloper'>Fideloper</option>
+<option value='Firefly-Traditional'>Firefly Traditional</option>
+<option value='Firefox-Dev'>Firefox Dev</option>
+<option value='Firewatch'>Firewatch</option>
+<option value='Fish-Tank'>Fish Tank</option>
+<option value='Flat'>Flat</option>
+<option value='Flatland'>Flatland</option>
+<option value='Flexoki-Dark'>Flexoki Dark</option>
+<option value='Flexoki-Light'>Flexoki Light</option>
+<option value='Floraverse'>Floraverse</option>
+<option value='Forest-Blue'>Forest Blue</option>
+<option value='Forge-Ember'>Forge Ember</option>
+<option value='Forged-in-Steel'>Forged in Steel</option>
+<option value='Framer'>Framer</option>
+<option value='Front-End-Delight'>Front End Delight</option>
+<option value='Frostbyte'>Frostbyte</option>
+<option value='Frostline'>Frostline</option>
+<option value='Fun-Forrest'>Fun Forrest</option>
+<option value='Galaxy'>Galaxy</option>
+<option value='Galizur'>Galizur</option>
+<option value='Ghost-Circuit'>Ghost Circuit</option>
+<option value='Ghostty-Default-Style-Dark'>Ghostty Default Style Dark</option>
+<option value='Gilded-Forest-Dark'>Gilded-Forest-Dark</option>
+<option value='GitHub-Dark-Colorblind'>GitHub Dark Colorblind</option>
+<option value='GitHub-Dark-Default'>GitHub Dark Default</option>
+<option value='GitHub-Dark-Dimmed'>GitHub Dark Dimmed</option>
+<option value='GitHub-Dark-High-Contrast'>GitHub Dark High Contrast</option>
+<option value='GitHub-Dark'>GitHub Dark</option>
+<option value='GitHub-Light-Colorblind'>GitHub Light Colorblind</option>
+<option value='GitHub-Light-Default'>GitHub Light Default</option>
+<option value='GitHub-Light-High-Contrast'>GitHub Light High Contrast</option>
+<option value='GitHub'>GitHub</option>
+<option value='GitLab-Dark-Grey'>GitLab Dark Grey</option>
+<option value='GitLab-Dark'>GitLab Dark</option>
+<option value='GitLab-Light'>GitLab Light</option>
+<option value='Glacier-Mint'>Glacier Mint</option>
+<option value='Glacier'>Glacier</option>
+<option value='Gleam-Classic'>Gleam Classic</option>
+<option value='Gleam'>Gleam</option>
+<option value='Golden-Mischief'>Golden Mischief</option>
+<option value='Golden-Retriever-Cream'>Golden Retriever Cream</option>
+<option value='Golden-Retriever-Honey'>Golden Retriever Honey</option>
+<option value='Golden-Retriever-Red'>Golden Retriever Red</option>
+<option value='Grape'>Grape</option>
+<option value='Graphite'>Graphite</option>
+<option value='Grass'>Grass</option>
+<option value='Graveyard-Shift'>Graveyard Shift</option>
+<option value='Great-Pumpkin'>Great Pumpkin</option>
+<option value='Green-Phosphor-CRT'>Green Phosphor CRT</option>
+<option value='Green-Screen'>Green Screen</option>
+<option value='Grey-Green'>Grey Green</option>
+<option value='Grok-Day'>Grok Day</option>
+<option value='Grok-Night'>Grok Night</option>
+<option value='Gruber-Darker-Legacy'>Gruber Darker Legacy</option>
+<option value='Gruber-Darker'>Gruber Darker</option>
+<option value='Gruvbox-Dark-Hard'>Gruvbox Dark Hard</option>
+<option value='Gruvbox-Dark'>Gruvbox Dark</option>
+<option value='Gruvbox-Light-Hard'>Gruvbox Light Hard</option>
+<option value='Gruvbox-Light'>Gruvbox Light</option>
+<option value='Gruvbox-Material-Dark'>Gruvbox Material Dark</option>
+<option value='Gruvbox-Material-Light'>Gruvbox Material Light</option>
+<option value='Gruvbox-Material'>Gruvbox Material</option>
+<option value='Guezwhoz'>Guezwhoz</option>
+<option value='Hacktober'>Hacktober</option>
+<option value='Hadal-Bloom'>Hadal Bloom</option>
+<option value='Hardcore'>Hardcore</option>
+<option value='Harper'>Harper</option>
+<option value='Harvest-Moon'>Harvest Moon</option>
+<option value='Haunted-House'>Haunted House</option>
+<option value='Havn-Daggry'>Havn Daggry</option>
+<option value='Havn-Skumring'>Havn Skumring</option>
+<option value='HaX0R-Blue'>HaX0R Blue</option>
+<option value='HaX0R-Gr33N'>HaX0R Gr33N</option>
+<option value='HaX0R-R3D'>HaX0R R3D</option>
+<option value='Heeler'>Heeler</option>
+<option value='Hellfire'>Hellfire</option>
+<option value='High-Desert-Snow'>High Desert Snow</option>
+<option value='High-Voltage-Highway'>High Voltage Highway</option>
+<option value='Highway'>Highway</option>
+<option value='Hipster-Green'>Hipster Green</option>
+<option value='Hivacruz'>Hivacruz</option>
+<option value='HN-After-Dark'>HN After Dark</option>
+<option value='HN-Classic'>HN Classic</option>
+<option value='Hocus-Pocus'>Hocus Pocus</option>
+<option value='Homebrew'>Homebrew</option>
+<option value='Hopscotch-256'>Hopscotch.256</option>
+<option value='Hopscotch'>Hopscotch</option>
+<option value='Horizon-Bright'>Horizon Bright</option>
+<option value='Horizon'>Horizon</option>
+<option value='Horizons'>Horizons</option>
+<option value='Hot-Dog-Stand-Mustard'>Hot Dog Stand (Mustard)</option>
+<option value='Hot-Dog-Stand'>Hot Dog Stand</option>
+<option value='Hurtado'>Hurtado</option>
+<option value='Hybrid'>Hybrid</option>
+<option value='Hyper'>Hyper</option>
+<option value='Hysterical-Frequency'>Hysterical Frequency</option>
+<option value='IBM-5153-CGA-Black'>IBM 5153 CGA (Black)</option>
+<option value='IBM-5153-CGA'>IBM 5153 CGA</option>
+<option value='IC-Green-PPL'>IC Green PPL</option>
+<option value='IC-Orange-PPL'>IC Orange PPL</option>
+<option value='Iceberg-Dark'>Iceberg Dark</option>
+<option value='Iceberg-Light'>Iceberg Light</option>
+<option value='Icy-Glacier'>Icy Glacier</option>
+<option value='Idea'>Idea</option>
+<option value='Idle-Toes'>Idle Toes</option>
+<option value='iglass-Dark'>iglass Dark</option>
+<option value='iglass-Light'>iglass Light</option>
+<option value='IR-Black'>IR Black</option>
+<option value='IRIX-Console'>IRIX Console</option>
+<option value='IRIX-Terminal'>IRIX Terminal</option>
+<option value='Isocon-Dark'>Isocon Dark</option>
+<option value='Isocon-Light'>Isocon Light</option>
+<option value='iTerm2-Dark-Background'>iTerm2 Dark Background</option>
+<option value='iTerm2-Default'>iTerm2 Default</option>
+<option value='iTerm2-Light-Background'>iTerm2 Light Background</option>
+<option value='iTerm2-Pastel-Dark-Background'>iTerm2 Pastel Dark Background</option>
+<option value='iTerm2-Smoooooth'>iTerm2 Smoooooth</option>
+<option value='iTerm2-Solarized-Dark'>iTerm2 Solarized Dark</option>
+<option value='iTerm2-Solarized-Light'>iTerm2 Solarized Light</option>
+<option value='iTerm2-Tango-Dark'>iTerm2 Tango Dark</option>
+<option value='iTerm2-Tango-Light'>iTerm2 Tango Light</option>
+<option value='Jack-O-Lantern'>Jack O&#39; Lantern</option>
+<option value='Jackie-Brown'>Jackie Brown</option>
+<option value='Japanesque'>Japanesque</option>
+<option value='Jellybeans'>Jellybeans</option>
+<option value='JetBrains-Darcula'>JetBrains Darcula</option>
+<option value='JetBrains-Islands-Dark'>JetBrains Islands Dark</option>
+<option value='JetCalm-Light'>JetCalm Light</option>
+<option value='Jubi'>Jubi</option>
+<option value='Jump-Start'>Jump Start</option>
+<option value='Jute-Espresso'>Jute Espresso</option>
+<option value='Kanagawa-Dragon'>Kanagawa Dragon</option>
+<option value='Kanagawa-Lotus'>Kanagawa Lotus</option>
+<option value='Kanagawa-Wave'>Kanagawa Wave</option>
+<option value='Kanagawabones'>Kanagawabones</option>
+<option value='Kanso-Ink'>Kanso Ink</option>
+<option value='Kanso-Mist'>Kanso Mist</option>
+<option value='Kanso-Pearl'>Kanso Pearl</option>
+<option value='Kanso-Zen'>Kanso Zen</option>
+<option value='Karasu-Night'>Karasu Night</option>
+<option value='Karasu-Snow'>Karasu Snow</option>
+<option value='Karma-Dark-Dimmed'>Karma Dark Dimmed</option>
+<option value='Karma-Dark-HC'>Karma Dark HC</option>
+<option value='Karma-Dark'>Karma Dark</option>
+<option value='Karma-Light-Dimmed'>Karma Light Dimmed</option>
+<option value='Karma-Light-HC'>Karma Light HC</option>
+<option value='Karma-Light'>Karma Light</option>
+<option value='Kashmir-Nights'>Kashmir Nights</option>
+<option value='Keys-Ocean-Sunset-HC'>Keys Ocean Sunset HC</option>
+<option value='Keys-Ocean-Sunset'>Keys Ocean Sunset</option>
+<option value='Kibble'>Kibble</option>
+<option value='Kitty-Default'>Kitty Default</option>
+<option value='Kitty-Low-Contrast'>Kitty Low Contrast</option>
+<option value='Klein-Void'>Klein Void</option>
+<option value='Kolorit'>Kolorit</option>
+<option value='Konsolas'>Konsolas</option>
+<option value='Kurokula'>Kurokula</option>
+<option value='Kwyjibo'>Kwyjibo</option>
+<option value='Lab-Fox'>Lab Fox</option>
+<option value='Laser'>Laser</option>
+<option value='Last-Broadcast'>Last Broadcast</option>
+<option value='Later-This-Evening'>Later This Evening</option>
+<option value='Lavandula'>Lavandula</option>
+<option value='Lemon-Graphite'>Lemon Graphite</option>
+<option value='Letterpress'>Letterpress</option>
+<option value='Light-2026'>Light 2026</option>
+<option value='Light-Owl'>Light Owl</option>
+<option value='Liquid-Carbon-Transparent'>Liquid Carbon Transparent</option>
+<option value='Liquid-Carbon'>Liquid Carbon</option>
+<option value='Lit-Cell-Light'>Lit Cell Light</option>
+<option value='Lit-Cell'>Lit Cell</option>
+<option value='London-Bonfire-Night'>London Bonfire Night</option>
+<option value='London-Columbia-Road'>London Columbia Road</option>
+<option value='London-Embankment-Dusk'>London Embankment Dusk</option>
+<option value='London-Soho-Night'>London Soho Night</option>
+<option value='Lovelace'>Lovelace</option>
+<option value='Lumina-Aurora-Dark'>Lumina Aurora Dark</option>
+<option value='Lumina-Aurora-Light'>Lumina Aurora Light</option>
+<option value='Lumina-Canopy-Dark'>Lumina Canopy Dark</option>
+<option value='Lumina-Canopy-Light'>Lumina Canopy Light</option>
+<option value='Lumina-Cherenkov-Dark'>Lumina Cherenkov Dark</option>
+<option value='Lumina-Cherenkov-Light'>Lumina Cherenkov Light</option>
+<option value='Lumina-Dusk-Dark'>Lumina Dusk Dark</option>
+<option value='Lumina-Dusk-Light'>Lumina Dusk Light</option>
+<option value='Lumina-Ember-Dark'>Lumina Ember Dark</option>
+<option value='Lumina-Ember-Light'>Lumina Ember Light</option>
+<option value='Lumina-Espresso-Dark'>Lumina Espresso Dark</option>
+<option value='Lumina-Espresso-Light'>Lumina Espresso Light</option>
+<option value='Lumina-Harbor-Dark'>Lumina Harbor Dark</option>
+<option value='Lumina-Harbor-Light'>Lumina Harbor Light</option>
+<option value='Lumina-Lagoon-Dark'>Lumina Lagoon Dark</option>
+<option value='Lumina-Lagoon-Light'>Lumina Lagoon Light</option>
+<option value='Lumina-Nebula-Dark'>Lumina Nebula Dark</option>
+<option value='Lumina-Nebula-Light'>Lumina Nebula Light</option>
+<option value='Lumina-Olive-Dark'>Lumina Olive Dark</option>
+<option value='Lumina-Olive-Light'>Lumina Olive Light</option>
+<option value='Lumina-Oxblood-Dark'>Lumina Oxblood Dark</option>
+<option value='Lumina-Oxblood-Light'>Lumina Oxblood Light</option>
+<option value='Lumina-Parchment-Dark'>Lumina Parchment Dark</option>
+<option value='Lumina-Parchment-Light'>Lumina Parchment Light</option>
+<option value='Lumina-Polaire-Dark'>Lumina Polaire Dark</option>
+<option value='Lumina-Polaire-Light'>Lumina Polaire Light</option>
+<option value='Lumina-Quartz-Dark'>Lumina Quartz Dark</option>
+<option value='Lumina-Quartz-Light'>Lumina Quartz Light</option>
+<option value='Lumina-Rayleigh-Dark'>Lumina Rayleigh Dark</option>
+<option value='Lumina-Rayleigh-Light'>Lumina Rayleigh Light</option>
+<option value='Lumina-Vitrail-Dark'>Lumina Vitrail Dark</option>
+<option value='Lumina-Vitrail-Light'>Lumina Vitrail Light</option>
+<option value='Lunar-Dust'>Lunar Dust</option>
+<option value='Madman-s-Diary'>Madman&#39;s Diary</option>
+<option value='Man-Page'>Man Page</option>
+<option value='Maple-Jute'>Maple Jute</option>
+<option value='Mariana'>Mariana</option>
+<option value='Matcha-Zen'>Matcha Zen</option>
+<option value='Material-Dark'>Material Dark</option>
+<option value='Material-Darker'>Material Darker</option>
+<option value='Material-Design-Colors'>Material Design Colors</option>
+<option value='Material-Ocean'>Material Ocean</option>
+<option value='Material'>Material</option>
+<option value='Mathias'>Mathias</option>
+<option value='Matrix'>Matrix</option>
+<option value='Matte-Black'>Matte Black</option>
+<option value='Medallion'>Medallion</option>
+<option value='Melange-Dark'>Melange Dark</option>
+<option value='Melange-Light'>Melange Light</option>
+<option value='Mellifluous'>Mellifluous</option>
+<option value='Mellow'>Mellow</option>
+<option value='Merino-Dark'>Merino Dark</option>
+<option value='Merino-Light'>Merino Light</option>
+<option value='Mesa-Blue'>Mesa Blue</option>
+<option value='Mesa-Twilight'>Mesa Twilight</option>
+<option value='Mesila-One'>Mesila One</option>
+<option value='Miami-Heat'>Miami Heat</option>
+<option value='Miasma'>Miasma</option>
+<option value='Midnight-Arcade'>Midnight Arcade</option>
+<option value='Midnight-In-Mojave'>Midnight In Mojave</option>
+<option value='Midnight-Rambler'>Midnight Rambler</option>
+<option value='Midnight-Tundra'>Midnight Tundra</option>
+<option value='Mindcrime'>Mindcrime</option>
+<option value='Mirage'>Mirage</option>
+<option value='Misterioso'>Misterioso</option>
+<option value='mistpine'>mistpine</option>
+<option value='Modus-Operandi-Deuteranopia'>Modus Operandi Deuteranopia</option>
+<option value='Modus-Operandi-Tinted'>Modus Operandi Tinted</option>
+<option value='Modus-Operandi-Tritanopia'>Modus Operandi Tritanopia</option>
+<option value='Modus-Operandi'>Modus Operandi</option>
+<option value='Modus-Vivendi-Deuteranopia'>Modus Vivendi Deuteranopia</option>
+<option value='Modus-Vivendi-Tinted'>Modus Vivendi Tinted</option>
+<option value='Modus-Vivendi-Tritanopia'>Modus Vivendi Tritanopia</option>
+<option value='Modus-Vivendi'>Modus Vivendi</option>
+<option value='Molokai'>Molokai</option>
+<option value='Molten-Core'>Molten Core</option>
+<option value='Mona-Lisa'>Mona Lisa</option>
+<option value='Monokai-Classic'>Monokai Classic</option>
+<option value='Monokai-Pro-Light-Sun'>Monokai Pro Light Sun</option>
+<option value='Monokai-Pro-Light'>Monokai Pro Light</option>
+<option value='Monokai-Pro-Machine'>Monokai Pro Machine</option>
+<option value='Monokai-Pro-Octagon'>Monokai Pro Octagon</option>
+<option value='Monokai-Pro-Ristretto'>Monokai Pro Ristretto</option>
+<option value='Monokai-Pro-Spectrum'>Monokai Pro Spectrum</option>
+<option value='Monokai-Pro'>Monokai Pro</option>
+<option value='Monokai-Remastered'>Monokai Remastered</option>
+<option value='Monokai-Soda'>Monokai Soda</option>
+<option value='Monokai-SublimeText'>Monokai SublimeText</option>
+<option value='Monokai-Vivid'>Monokai Vivid</option>
+<option value='Monospace-Dark'>Monospace Dark</option>
+<option value='Monospace-Light'>Monospace Light</option>
+<option value='Monsoon-Mesa'>Monsoon Mesa</option>
+<option value='Monster-Mash'>Monster Mash</option>
+<option value='Moonfly'>Moonfly</option>
+<option value='Moonwalk'>Moonwalk</option>
+<option value='Moss-Ember'>Moss &amp; Ember</option>
+<option value='Motel-Vacancy'>Motel Vacancy</option>
+<option value='Moving-Signals'>Moving Signals</option>
+<option value='N0Tch2K'>N0Tch2K</option>
+<option value='Nachtschicht'>Nachtschicht</option>
+<option value='Nebula-Drift'>Nebula Drift</option>
+<option value='Neobones-Dark'>Neobones Dark</option>
+<option value='Neobones-Light'>Neobones Light</option>
+<option value='Neon-Analog'>Neon Analog</option>
+<option value='Neon-Arcade'>Neon Arcade</option>
+<option value='Neon-Purple'>Neon Purple</option>
+<option value='Neon-Raincheck-After-Hours'>Neon Raincheck: After Hours</option>
+<option value='Neon-Raincheck'>Neon Raincheck</option>
+<option value='Neon'>Neon</option>
+<option value='Neopolitan'>Neopolitan</option>
+<option value='Nephrite-Forest'>Nephrite Forest</option>
+<option value='Nephrite-Jade'>Nephrite Jade</option>
+<option value='Nephrite-Mint'>Nephrite Mint</option>
+<option value='Neutron'>Neutron</option>
+<option value='Newsprint-Fog'>Newsprint Fog</option>
+<option value='Night-Lion-V1'>Night Lion V1</option>
+<option value='Night-Lion-V2'>Night Lion V2</option>
+<option value='Night-Owl'>Night Owl</option>
+<option value='Night-Owlish-Light'>Night Owlish Light</option>
+<option value='Night-Pharmacy'>Night Pharmacy</option>
+<option value='Nightfall'>Nightfall</option>
+<option value='Nightfox'>Nightfox</option>
+<option value='Niji'>Niji</option>
+<option value='No-Clown-Fiesta-Light'>No Clown Fiesta Light</option>
+<option value='No-Clown-Fiesta'>No Clown Fiesta</option>
+<option value='Noctis-Azureus'>Noctis Azureus</option>
+<option value='Noctis-Bordo'>Noctis Bordo</option>
+<option value='Noctis-Hibernus'>Noctis Hibernus</option>
+<option value='Noctis-Lilac'>Noctis Lilac</option>
+<option value='Noctis-Lux'>Noctis Lux</option>
+<option value='Noctis-Minimus'>Noctis Minimus</option>
+<option value='Noctis-Obscuro'>Noctis Obscuro</option>
+<option value='Noctis-Sereno'>Noctis Sereno</option>
+<option value='Noctis-Uva'>Noctis Uva</option>
+<option value='Noctis-Viola'>Noctis Viola</option>
+<option value='Noctis'>Noctis</option>
+<option value='Nocturnal-Winter'>Nocturnal Winter</option>
+<option value='Nord-Light'>Nord Light</option>
+<option value='Nord-Wave'>Nord Wave</option>
+<option value='Nord'>Nord</option>
+<option value='Nordfox'>Nordfox</option>
+<option value='Northstar'>Northstar</option>
+<option value='Novel'>Novel</option>
+<option value='novmbr'>novmbr</option>
+<option value='Numbers-Station'>Numbers Station</option>
+<option value='Nvim-Dark'>Nvim Dark</option>
+<option value='Nvim-Light'>Nvim Light</option>
+<option value='Obsidian'>Obsidian</option>
+<option value='Obsurdian'>Obsurdian</option>
+<option value='Ocean'>Ocean</option>
+<option value='Oceanic-Material'>Oceanic Material</option>
+<option value='Oceanic-Next'>Oceanic Next</option>
+<option value='Ocotillo'>Ocotillo</option>
+<option value='Ollie'>Ollie</option>
+<option value='One-Dark-Two'>One Dark Two</option>
+<option value='One-Double-Dark'>One Double Dark</option>
+<option value='One-Double-Light'>One Double Light</option>
+<option value='One-Half-Dark'>One Half Dark</option>
+<option value='One-Half-Light'>One Half Light</option>
+<option value='Onenord-Light'>Onenord Light</option>
+<option value='Onenord'>Onenord</option>
+<option value='Opaline'>Opaline</option>
+<option value='OpenCode-Dark'>OpenCode Dark</option>
+<option value='OpenCode-Light'>OpenCode Light</option>
+<option value='Operator-Mono-Dark'>Operator Mono Dark</option>
+<option value='Outrun-Electric'>Outrun Electric</option>
+<option value='Overnight-Slumber'>Overnight Slumber</option>
+<option value='owl'>owl</option>
+<option value='Oxblood'>Oxblood</option>
+<option value='Oxide'>Oxide</option>
+<option value='Oxocarbon'>Oxocarbon</option>
+<option value='Ozz-s-Blizzard'>Ozz&#39;s Blizzard</option>
+<option value='Painted-Desert'>Painted Desert</option>
+<option value='Pale-Night-Hc'>Pale Night Hc</option>
+<option value='Pandora'>Pandora</option>
+<option value='Paper-Crane-Midnight-Ink'>Paper Crane: Midnight Ink</option>
+<option value='Paper-Crane'>Paper Crane</option>
+<option value='Paper-Tiger'>Paper Tiger</option>
+<option value='Paraiso-Dark'>Paraiso Dark</option>
+<option value='Paranoid-Circuit'>Paranoid Circuit</option>
+<option value='Parchment'>Parchment</option>
+<option value='Patina-Dark-Soft'>Patina Dark Soft</option>
+<option value='Patina-Dark'>Patina Dark</option>
+<option value='Patina-Lichen'>Patina Lichen</option>
+<option value='Patina-Light'>Patina Light</option>
+<option value='Patina-Moss'>Patina Moss</option>
+<option value='Patina-Stellar'>Patina Stellar</option>
+<option value='Patina'>Patina</option>
+<option value='Paul-Millr'>Paul Millr</option>
+<option value='Pencil-Dark'>Pencil Dark</option>
+<option value='Pencil-Light'>Pencil Light</option>
+<option value='Peppermint'>Peppermint</option>
+<option value='Petrified'>Petrified</option>
+<option value='Petrol-Lagoon'>Petrol Lagoon</option>
+<option value='Phala-Green-Dark'>Phala Green Dark</option>
+<option value='Pharaoh-s-Voltage'>Pharaoh&#39;s Voltage</option>
+<option value='Piatto-Light'>Piatto Light</option>
+<option value='Pierre-Dark'>Pierre Dark</option>
+<option value='Pierre-Light'>Pierre Light</option>
+<option value='Pissed-Off-Pancakes'>Pissed Off Pancakes</option>
+<option value='Pnevma'>Pnevma</option>
+<option value='Poimandres-Darker'>Poimandres Darker</option>
+<option value='Poimandres-Storm'>Poimandres Storm</option>
+<option value='Poimandres-White'>Poimandres White</option>
+<option value='Poimandres'>Poimandres</option>
+<option value='Poison-Apple'>Poison Apple</option>
+<option value='Poltergeist'>Poltergeist</option>
+<option value='Popping-And-Locking'>Popping And Locking</option>
+<option value='Porcelain'>Porcelain</option>
+<option value='Possessed-Toaster'>Possessed Toaster</option>
+<option value='Powershell'>Powershell</option>
+<option value='Prickly-Pear'>Prickly Pear</option>
+<option value='Primary'>Primary</option>
+<option value='Prince-of-Barkness'>Prince of Barkness</option>
+<option value='Prince-of-Darkness'>Prince of Darkness</option>
+<option value='Prism'>Prism</option>
+<option value='Prismatica'>Prismatica</option>
+<option value='Pro-Light'>Pro Light</option>
+<option value='Pro'>Pro</option>
+<option value='Pueblo-Night'>Pueblo Night</option>
+<option value='Pumpkin-Patch'>Pumpkin Patch</option>
+<option value='Pumpkin-Spice'>Pumpkin Spice</option>
+<option value='Puppet-s-Master'>Puppet&#39;s Master</option>
+<option value='Purple-Portal'>Purple Portal</option>
+<option value='Purple-Rain'>Purple Rain</option>
+<option value='Purplepeter'>Purplepeter</option>
+<option value='Pyrokai-Light'>Pyrokai Light</option>
+<option value='Pyrokai'>Pyrokai</option>
+<option value='RadicalReborn'>RadicalReborn</option>
+<option value='Rainbows-and-Unicorns-Arcade'>Rainbows and Unicorns Arcade</option>
+<option value='Rainbows-and-Unicorns-Den'>Rainbows and Unicorns Den</option>
+<option value='Rainbows-and-Unicorns-EGA-85'>Rainbows and Unicorns EGA 85</option>
+<option value='Rainbows-and-Unicorns-Mane'>Rainbows and Unicorns Mane</option>
+<option value='Rainbows-and-Unicorns-Miami'>Rainbows and Unicorns Miami</option>
+<option value='Rainbows-and-Unicorns-Paper-White'>Rainbows and Unicorns Paper White</option>
+<option value='Rainbows-and-Unicorns-Sorbet'>Rainbows and Unicorns Sorbet</option>
+<option value='Rainbows-and-Unicorns-VHS'>Rainbows and Unicorns VHS</option>
+<option value='Rainbows-and-Unicorns-Workbench'>Rainbows and Unicorns Workbench</option>
+<option value='Rainbows-and-Unicorns'>Rainbows and Unicorns</option>
+<option value='Rapture'>Rapture</option>
+<option value='Raycast-Dark'>Raycast Dark</option>
+<option value='Raycast-Light'>Raycast Light</option>
+<option value='Rebecca'>Rebecca</option>
+<option value='Red-Alert'>Red Alert</option>
+<option value='Red-Planet'>Red Planet</option>
+<option value='Red-Rock'>Red Rock</option>
+<option value='Red-Sands'>Red Sands</option>
+<option value='Redacted'>Redacted</option>
+<option value='Relaxed'>Relaxed</option>
+<option value='Retro-Legends'>Retro Legends</option>
+<option value='Retro'>Retro</option>
+<option value='Rhoads-Concord'>Rhoads Concord</option>
+<option value='Rhoads-Insipired'>Rhoads Insipired</option>
+<option value='Rhoads-Legacy'>Rhoads Legacy</option>
+<option value='Rhoads-LP'>Rhoads LP</option>
+<option value='Rhoads-RR-Black'>Rhoads RR Black</option>
+<option value='Rhoads-Tribute'>Rhoads Tribute</option>
+<option value='Ride-the-Current'>Ride the Current</option>
+<option value='Rippedcasts'>Rippedcasts</option>
+<option value='Rose-Pine-Dawn'>Rose Pine Dawn</option>
+<option value='Rose-Pine-Moon'>Rose Pine Moon</option>
+<option value='Rose-Pine'>Rose Pine</option>
+<option value='Rouge-2'>Rouge 2</option>
+<option value='Royal-Rhapsody'>Royal Rhapsody</option>
+<option value='Royal'>Royal</option>
+<option value='Ryuuko'>Ryuuko</option>
+<option value='Safety-Glass'>Safety Glass</option>
+<option value='Saffron-Nightfall'>Saffron Nightfall</option>
+<option value='Saguaro'>Saguaro</option>
+<option value='Sakura'>Sakura</option>
+<option value='Salem'>Salem</option>
+<option value='Sandstone-Classic'>Sandstone Classic</option>
+<option value='Sandstone-Ink'>Sandstone Ink</option>
+<option value='Sandstone-Warm'>Sandstone Warm</option>
+<option value='Sauber'>Sauber</option>
+<option value='Scabos-Sand'>Scabos Sand</option>
+<option value='Scarlet-Protocol'>Scarlet Protocol</option>
+<option value='Sea-Shells'>Sea Shells</option>
+<option value='Seafoam-Pastel'>Seafoam Pastel</option>
+<option value='Seance'>Seance</option>
+<option value='Sedona'>Sedona</option>
+<option value='SeedFlip-Abyss'>SeedFlip Abyss</option>
+<option value='SeedFlip-Amethyst'>SeedFlip Amethyst</option>
+<option value='SeedFlip-Canopy'>SeedFlip Canopy</option>
+<option value='SeedFlip-Carbon'>SeedFlip Carbon</option>
+<option value='SeedFlip-Coral'>SeedFlip Coral</option>
+<option value='SeedFlip-Ember'>SeedFlip Ember</option>
+<option value='SeedFlip-Glacier'>SeedFlip Glacier</option>
+<option value='SeedFlip-Inkwell'>SeedFlip Inkwell</option>
+<option value='SeedFlip-Ivory'>SeedFlip Ivory</option>
+<option value='SeedFlip-Nightfall'>SeedFlip Nightfall</option>
+<option value='SeedFlip-Phosphor'>SeedFlip Phosphor</option>
+<option value='SeedFlip-Pulse'>SeedFlip Pulse</option>
+<option value='SeedFlip-Ultraviolet'>SeedFlip Ultraviolet</option>
+<option value='SeedFlip-Voltage'>SeedFlip Voltage</option>
+<option value='SeedFlip-Wavelength'>SeedFlip Wavelength</option>
+<option value='Selenized-Black'>Selenized Black</option>
+<option value='Selenized-Dark'>Selenized Dark</option>
+<option value='Selenized-Light'>Selenized Light</option>
+<option value='Seoulbones-Dark'>Seoulbones Dark</option>
+<option value='Seoulbones-Light'>Seoulbones Light</option>
+<option value='Sequoia-Monochrome-Dark'>Sequoia Monochrome Dark</option>
+<option value='Sequoia-Monochrome-Light'>Sequoia Monochrome Light</option>
+<option value='Sequoia-Moonlight-Dark'>Sequoia Moonlight Dark</option>
+<option value='Sequoia-Moonlight-Light'>Sequoia Moonlight Light</option>
+<option value='Sequoia-Retro-Dark'>Sequoia Retro Dark</option>
+<option value='Sequoia-Retro-Light'>Sequoia Retro Light</option>
+<option value='Serendipity-Midnight'>Serendipity Midnight</option>
+<option value='Serendipity-Morning'>Serendipity Morning</option>
+<option value='Serendipity-Sunset'>Serendipity Sunset</option>
+<option value='Seti'>Seti</option>
+<option value='Shades-Of-Purple'>Shades Of Purple</option>
+<option value='Shaman'>Shaman</option>
+<option value='Shokunin'>Shokunin</option>
+<option value='Sierra-Gold'>Sierra Gold</option>
+<option value='Signal-Ghost'>Signal Ghost</option>
+<option value='Silent-Empire'>Silent Empire</option>
+<option value='SilkCircuit-Dawn'>SilkCircuit Dawn</option>
+<option value='SilkCircuit-Glow'>SilkCircuit Glow</option>
+<option value='SilkCircuit-Neon'>SilkCircuit Neon</option>
+<option value='SilkCircuit-Soft'>SilkCircuit Soft</option>
+<option value='SilkCircuit-Vibrant'>SilkCircuit Vibrant</option>
+<option value='Slate'>Slate</option>
+<option value='Sleepy-Hollow'>Sleepy Hollow</option>
+<option value='SLOMP'>SLOMP</option>
+<option value='Smoke-on-the-Terminal'>Smoke on the Terminal</option>
+<option value='Smyck'>Smyck</option>
+<option value='Snazzy-Soft'>Snazzy Soft</option>
+<option value='Snazzy'>Snazzy</option>
+<option value='Soft-Server'>Soft Server</option>
+<option value='Solar-Flare'>Solar Flare</option>
+<option value='Solarized-Darcula'>Solarized Darcula</option>
+<option value='Solarized-Dark-Higher-Contrast'>Solarized Dark Higher Contrast</option>
+<option value='Solarized-Dark-Patched'>Solarized Dark Patched</option>
+<option value='Solarized-Osaka-Night'>Solarized Osaka Night</option>
+<option value='Sonokai'>Sonokai</option>
+<option value='Sonoran-Afterglow'>Sonoran Afterglow</option>
+<option value='Sonoran-Blue-Hour'>Sonoran Blue Hour</option>
+<option value='Sonoran-Dusk'>Sonoran Dusk</option>
+<option value='Spacedust'>Spacedust</option>
+<option value='Spacegray-Bright'>Spacegray Bright</option>
+<option value='Spacegray-Eighties-Dull'>Spacegray Eighties Dull</option>
+<option value='Spacegray-Eighties'>Spacegray Eighties</option>
+<option value='Spacegray'>Spacegray</option>
+<option value='Spiderman'>Spiderman</option>
+<option value='Spring'>Spring</option>
+<option value='Springfield-Resident-Hight-Contrast'>Springfield Resident Hight Contrast</option>
+<option value='Springfield-Resident'>Springfield Resident</option>
+<option value='Square'>Square</option>
+<option value='Squintless'>Squintless</option>
+<option value='Squirrelsong-Dark'>Squirrelsong Dark</option>
+<option value='Srcery'>Srcery</option>
+<option value='Stairway-Skies'>Stairway Skies</option>
+<option value='Stardust-Voltage'>Stardust Voltage</option>
+<option value='Starlight'>Starlight</option>
+<option value='Static-Memory'>Static Memory</option>
+<option value='Static-Noir'>Static Noir</option>
+<option value='Sublette'>Sublette</option>
+<option value='Subliminal'>Subliminal</option>
+<option value='Sugarplum'>Sugarplum</option>
+<option value='Sumi-Ink'>Sumi Ink</option>
+<option value='Sumi-Linen'>Sumi Linen</option>
+<option value='Sumi-Phosphor'>Sumi Phosphor</option>
+<option value='Sun-Bleached'>Sun Bleached</option>
+<option value='Sundried'>Sundried</option>
+<option value='Sunset-Copper-Relay'>Sunset Copper Relay</option>
+<option value='Sunset-Drive'>Sunset Drive</option>
+<option value='Sunset-Strip'>Sunset Strip</option>
+<option value='Sweet-Emotion'>Sweet Emotion</option>
+<option value='Symfonic'>Symfonic</option>
+<option value='Syncopation'>Syncopation</option>
+<option value='Synthwave-Alpha'>Synthwave Alpha</option>
+<option value='Synthwave-Everything'>Synthwave Everything</option>
+<option value='Synthwave'>Synthwave</option>
+<option value='Tailwind-Dark'>Tailwind Dark</option>
+<option value='Tailwind-Light'>Tailwind Light</option>
+<option value='Tango-Adapted'>Tango Adapted</option>
+<option value='Tango-Half-Adapted'>Tango Half Adapted</option>
+<option value='Tearout'>Tearout</option>
+<option value='Teerb'>Teerb</option>
+<option value='Terafox'>Terafox</option>
+<option value='Terminal-Basic-Dark'>Terminal Basic Dark</option>
+<option value='Terminal-Basic'>Terminal Basic</option>
+<option value='Terminal-Green-1999'>Terminal Green 1999</option>
+<option value='Termius-Dark'>Termius Dark</option>
+<option value='Termius-Light'>Termius Light</option>
+<option value='Thayer-Bright'>Thayer Bright</option>
+<option value='The-Fog'>The Fog</option>
+<option value='The-Hulk'>The Hulk</option>
+<option value='Thermal-Receipt'>Thermal Receipt</option>
+<option value='Thirteen'>Thirteen</option>
+<option value='This-One-Goes-to-11'>This One Goes to 11</option>
+<option value='Tinacious-Design-Dark'>Tinacious Design Dark</option>
+<option value='Tinacious-Design-Light'>Tinacious Design Light</option>
+<option value='Token-Dark'>Token Dark</option>
+<option value='Token-Light'>Token Light</option>
+<option value='TokyoNight-Day'>TokyoNight Day</option>
+<option value='TokyoNight-Moon'>TokyoNight Moon</option>
+<option value='TokyoNight-Night'>TokyoNight Night</option>
+<option value='TokyoNight-Storm'>TokyoNight Storm</option>
+<option value='TokyoNight'>TokyoNight</option>
+<option value='Tomorrow-Night-Blue'>Tomorrow Night Blue</option>
+<option value='Tomorrow-Night-Bright'>Tomorrow Night Bright</option>
+<option value='Tomorrow-Night-Burns'>Tomorrow Night Burns</option>
+<option value='Tomorrow-Night-Eighties'>Tomorrow Night Eighties</option>
+<option value='Tomorrow-Night'>Tomorrow Night</option>
+<option value='Tomorrow'>Tomorrow</option>
+<option value='Toy-Chest'>Toy Chest</option>
+<option value='traffic'>traffic</option>
+<option value='Trapped-in-Amber'>Trapped in Amber</option>
+<option value='Treehouse'>Treehouse</option>
+<option value='Trick-or-Treat'>Trick or Treat</option>
+<option value='Tumbling-Stones'>Tumbling Stones</option>
+<option value='Turquoise-Trail'>Turquoise Trail</option>
+<option value='Twilight'>Twilight</option>
+<option value='Ubuntu'>Ubuntu</option>
+<option value='Ultra-Dark'>Ultra Dark</option>
+<option value='Ultra-Violent'>Ultra Violent</option>
+<option value='Unalive-Em-All'>Unalive &#39;Em All</option>
+<option value='Undead'>Undead</option>
+<option value='Under-The-Sea'>Under The Sea</option>
+<option value='Unikitty'>Unikitty</option>
+<option value='urban'>urban</option>
+<option value='Urple'>Urple</option>
+<option value='Vacuum-Tube'>Vacuum Tube</option>
+<option value='Vague'>Vague</option>
+<option value='Vaporwave-Sunset'>Vaporwave Sunset</option>
+<option value='Vaughn'>Vaughn</option>
+<option value='Velvet-Court'>Velvet Court</option>
+<option value='Vercel-Light'>Vercel Light</option>
+<option value='Vercel'>Vercel</option>
+<option value='Verdigris'>Verdigris</option>
+<option value='Vesper'>Vesper</option>
+<option value='Vibrant-Ink'>Vibrant Ink</option>
+<option value='Vimbones'>Vimbones</option>
+<option value='Violet-Dark'>Violet Dark</option>
+<option value='Violet-Light'>Violet Light</option>
+<option value='Violite'>Violite</option>
+<option value='Warm-Burnout-Dark'>Warm Burnout Dark</option>
+<option value='Warm-Burnout-Light'>Warm Burnout Light</option>
+<option value='Warm-Neon'>Warm Neon</option>
+<option value='Wasteland-Terminal'>Wasteland Terminal</option>
+<option value='Wez'>Wez</option>
+<option value='Whimsy'>Whimsy</option>
+<option value='White-Sands'>White Sands</option>
+<option value='Wild-Charm-Dark'>Wild Charm Dark</option>
+<option value='Wild-Charm-Light'>Wild Charm Light</option>
+<option value='Wild-Cherry'>Wild Cherry</option>
+<option value='Willow-Grove'>Willow Grove</option>
+<option value='Wilmersdorf'>Wilmersdorf</option>
+<option value='Witches-Brew'>Witches&#39; Brew</option>
+<option value='Witching-Hour'>Witching Hour</option>
+<option value='Wombat'>Wombat</option>
+<option value='Wryan'>Wryan</option>
+<option value='X-Berlin'>X Berlin</option>
+<option value='X-Bogota'>X Bogota</option>
+<option value='X-Helsinki'>X Helsinki</option>
+<option value='X-Lahabana'>X Lahabana</option>
+<option value='X-London'>X London</option>
+<option value='X-Madrid'>X Madrid</option>
+<option value='X-Miami'>X Miami</option>
+<option value='X-Oslo'>X Oslo</option>
+<option value='X-Paris'>X Paris</option>
+<option value='X-Praha'>X Praha</option>
+<option value='X-Tokio'>X Tokio</option>
+<option value='X'>X</option>
+<option value='Xcode-Dark-hc'>Xcode Dark hc</option>
+<option value='Xcode-Dark'>Xcode Dark</option>
+<option value='Xcode-Light-hc'>Xcode Light hc</option>
+<option value='Xcode-Light'>Xcode Light</option>
+<option value='Xcode-WWDC'>Xcode WWDC</option>
+<option value='Y2K-Chrome'>Y2K Chrome</option>
+<option value='Yngwie-s-Strat'>Yngwie&#39;s Strat</option>
+<option value='Zacess-Cream'>Zacess Cream</option>
+<option value='Zacess-Dark'>Zacess Dark</option>
+<option value='Zacess-Deep-Contrast-Dark'>Zacess Deep Contrast Dark</option>
+<option value='Zacess-Deep-Contrast-Light'>Zacess Deep Contrast Light</option>
+<option value='Zacess-High-Contrast-Dark'>Zacess High Contrast Dark</option>
+<option value='Zacess-High-Contrast-Light'>Zacess High Contrast Light</option>
+<option value='Zacess-Light'>Zacess Light</option>
+<option value='Zacess-Warm-Dark'>Zacess Warm Dark</option>
+<option value='Zacess-Warm-Light'>Zacess Warm Light</option>
+<option value='Zacess-Yellow-on-Black'>Zacess Yellow on Black</option>
+<option value='Zenbones-Dark'>Zenbones Dark</option>
+<option value='Zenbones'>Zenbones</option>
+<option value='Zenburn'>Zenburn</option>
+<option value='Zenburned'>Zenburned</option>
+<option value='Zenwritten-Dark'>Zenwritten Dark</option>
+<option value='Zenwritten-Light'>Zenwritten Light</option>
+</select>
+<button onclick='GetRandomPalette()'>Random Palette</button>
+</div>
+</footer>
+<script>hljs.highlightAll();</script></body>
+</html>
