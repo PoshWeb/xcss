@@ -1,0 +1,40 @@
+:root {
+  --name: Driftwood;
+  --black: #211d19;
+  --red: #e77467;
+  --green: #aab971;
+  --yellow: #e1b869;
+  --blue: #78b3b5;
+  --purple: #c9a0bd;
+  --cyan: #a5c4b1;
+  --white: #c2b7a6;
+  --brightBlack: #9a8e7c;
+  --brightRed: #f38f7e;
+  --brightGreen: #becc8a;
+  --brightYellow: #e39962;
+  --brightBlue: #92c6c7;
+  --brightPurple: #dab6d1;
+  --brightCyan: #bbd6c3;
+  --brightWhite: #f2eadb;
+  --background: #2a2622;
+  --foreground: #e6ddd0;
+  --cursorColor: #dfb666;
+  --selectionBackground: #39332b;
+  --luma: 0.151222;
+  --contrast: 0.719267;
+  --paletteName: Driftwood;
+  --paletteFileName: Driftwood;
+  --isBright: 0;
+  --isDark: 1;
+  --by: livlign  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
