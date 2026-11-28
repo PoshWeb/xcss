@@ -1,0 +1,40 @@
+:root {
+  --name: Rainbows and Unicorns;
+  --black: #23232d;
+  --red: #e0453f;
+  --green: #62bb47;
+  --yellow: #fcb827;
+  --blue: #1d9be3;
+  --purple: #bb62c0;
+  --cyan: #35c9be;
+  --white: #c9c6bc;
+  --brightBlack: #6f6e7d;
+  --brightRed: #f5821f;
+  --brightGreen: #8ad46b;
+  --brightYellow: #ffd35c;
+  --brightBlue: #5db9f0;
+  --brightPurple: #d68adb;
+  --brightCyan: #6fddd3;
+  --brightWhite: #fffdf5;
+  --background: #0e0e13;
+  --foreground: #e6e3d8;
+  --cursorColor: #fcb827;
+  --selectionBackground: #963d97;
+  --luma: 0.056318;
+  --contrast: 0.833265;
+  --paletteName: Rainbows and Unicorns;
+  --paletteFileName: Rainbows-and-Unicorns;
+  --isBright: 0;
+  --isDark: 1;
+  --by: rodleviton  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
