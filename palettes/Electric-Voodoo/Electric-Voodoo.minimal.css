@@ -1,0 +1,39 @@
+:root {
+  --name: Electric Voodoo;
+  --black: #a8b2b8;
+  --red: #f08b76;
+  --green: #a9ca89;
+  --yellow: #edc077;
+  --blue: #92bae0;
+  --purple: #d99fe4;
+  --cyan: #8bd1c9;
+  --white: #fae6ce;
+  --brightBlack: #b9c1c6;
+  --brightRed: #f29986;
+  --brightGreen: #b3d097;
+  --brightYellow: #efc887;
+  --brightBlue: #9fc2e4;
+  --brightPurple: #deabe7;
+  --brightCyan: #99d7cf;
+  --brightWhite: #fbebd8;
+  --background: #40213c;
+  --foreground: #fae6ce;
+  --cursorColor: #efc887;
+  --selectionBackground: #603d56;
+  --luma: 0.162902;
+  --contrast: 0.748938;
+  --paletteName: Electric Voodoo;
+  --paletteFileName: Electric-Voodoo;
+  --isBright: 0;
+  --isDark: 1  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
