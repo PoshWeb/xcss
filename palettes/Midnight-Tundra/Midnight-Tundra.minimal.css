@@ -1,0 +1,39 @@
+:root {
+  --name: Midnight Tundra;
+  --black: #17202a;
+  --red: #d9707c;
+  --green: #7fb88a;
+  --yellow: #d8b174;
+  --blue: #6da3cf;
+  --purple: #a58cc7;
+  --cyan: #6fb5b8;
+  --white: #aebccb;
+  --brightBlack: #4f6272;
+  --brightRed: #e88a95;
+  --brightGreen: #99cfa3;
+  --brightYellow: #e8c88f;
+  --brightBlue: #8abde4;
+  --brightPurple: #bda6dd;
+  --brightCyan: #8cced0;
+  --brightWhite: #e6eef5;
+  --background: #0e141b;
+  --foreground: #c9d4de;
+  --cursorColor: #8fb8d8;
+  --selectionBackground: #24384a;
+  --luma: 0.075411;
+  --contrast: 0.749622;
+  --paletteName: Midnight Tundra;
+  --paletteFileName: Midnight-Tundra;
+  --isBright: 0;
+  --isDark: 1  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
