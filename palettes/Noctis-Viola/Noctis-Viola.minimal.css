@@ -1,0 +1,40 @@
+:root {
+  --name: Noctis Viola;
+  --black: #362f3d;
+  --red: #e66533;
+  --green: #49e9a6;
+  --yellow: #e4b781;
+  --blue: #49ace9;
+  --purple: #df769b;
+  --cyan: #49d6e9;
+  --white: #bfafcf;
+  --brightBlack: #594e65;
+  --brightRed: #e97749;
+  --brightGreen: #60ebb1;
+  --brightYellow: #e69533;
+  --brightBlue: #60b6eb;
+  --brightPurple: #e798b3;
+  --brightCyan: #60dbeb;
+  --brightWhite: #ccbfd9;
+  --background: #30243d;
+  --foreground: #ccbfd9;
+  --cursorColor: #ccbfd9;
+  --selectionBackground: #3e3352;
+  --luma: 0.15826;
+  --contrast: 0.60896;
+  --paletteName: Noctis Viola;
+  --paletteFileName: Noctis-Viola;
+  --isBright: 0;
+  --isDark: 1;
+  --by: liviuschera  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
