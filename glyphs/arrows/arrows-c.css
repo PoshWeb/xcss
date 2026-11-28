@@ -1,0 +1,1204 @@
+@layer supplemental-arrows-c {
+:root {
+--arrow-pointing-rightwards-then-curving-south-west:'\1F8B1';
+--arrow-pointing-upwards-then-north-west:'\1F8B0';
+--downwards-arrow-with-equilateral-arrowhead:'\1F817';
+--downwards-arrow-with-large-triangle-arrowhead:'\1F80B';
+--downwards-arrow-with-medium-triangle-arrowhead:'\1F807';
+--downwards-arrow-with-notched-tail:'\1F89B';
+--downwards-arrow-with-small-equilateral-arrowhead:'\1F813';
+--downwards-arrow-with-small-triangle-arrowhead:'\1F803';
+--downwards-compressed-arrow:'\1F83F';
+--downwards-finger-post-arrow:'\1F837';
+--downwards-heavy-arrow:'\1F847';
+--downwards-heavy-compressed-arrow:'\1F843';
+--downwards-sans-serif-arrow:'\1F853';
+--downwards-squared-arrow:'\1F83B';
+--downwards-triangle-arrowhead:'\1F893';
+--downwards-triangle-headed-arrow-with-bold-shaft:'\1F82B';
+--downwards-triangle-headed-arrow-with-heavy-shaft:'\1F82F';
+--downwards-triangle-headed-arrow-with-medium-shaft:'\1F827';
+--downwards-triangle-headed-arrow-with-narrow-shaft:'\1F823';
+--downwards-triangle-headed-arrow-with-very-heavy-shaft:'\1F833';
+--downwards-white-arrow-within-triangle-arrowhead:'\1F897';
+--heavy-arrow-shaft-width-one:'\1F89C';
+--heavy-arrow-shaft-width-one-half:'\1F89E';
+--heavy-arrow-shaft-width-one-third:'\1F89F';
+--heavy-arrow-shaft-width-two-thirds:'\1F89D';
+--heavy-downwards-arrow-with-equilateral-arrowhead:'\1F81B';
+--heavy-downwards-arrow-with-large-equilateral-arrowhead:'\1F81F';
+--heavy-leftwards-arrow-with-equilateral-arrowhead:'\1F818';
+--heavy-leftwards-arrow-with-large-equilateral-arrowhead:'\1F81C';
+--heavy-rightwards-arrow-with-equilateral-arrowhead:'\1F81A';
+--heavy-rightwards-arrow-with-large-equilateral-arrowhead:'\1F81E';
+--heavy-upwards-arrow-with-equilateral-arrowhead:'\1F819';
+--heavy-upwards-arrow-with-large-equilateral-arrowhead:'\1F81D';
+--left-right-sans-serif-arrow:'\1F858';
+--leftwards-arrow-with-equilateral-arrowhead:'\1F814';
+--leftwards-arrow-with-large-triangle-arrowhead:'\1F808';
+--leftwards-arrow-with-medium-triangle-arrowhead:'\1F804';
+--leftwards-arrow-with-notched-tail:'\1F898';
+--leftwards-arrow-with-small-equilateral-arrowhead:'\1F810';
+--leftwards-arrow-with-small-triangle-arrowhead:'\1F800';
+--leftwards-back-tilted-shadowed-white-arrow:'\1F8A8';
+--leftwards-bottom-shaded-white-arrow:'\1F8A0';
+--leftwards-compressed-arrow:'\1F83C';
+--leftwards-finger-post-arrow:'\1F834';
+--leftwards-front-tilted-shadowed-white-arrow:'\1F8AA';
+--leftwards-heavy-arrow:'\1F844';
+--leftwards-heavy-compressed-arrow:'\1F840';
+--leftwards-left-shaded-white-arrow:'\1F8A4';
+--leftwards-right-shaded-white-arrow:'\1F8A6';
+--leftwards-sans-serif-arrow:'\1F850';
+--leftwards-squared-arrow:'\1F838';
+--leftwards-top-shaded-white-arrow:'\1F8A2';
+--leftwards-triangle-arrowhead:'\1F890';
+--leftwards-triangle-headed-arrow-with-bold-shaft:'\1F828';
+--leftwards-triangle-headed-arrow-with-heavy-shaft:'\1F82C';
+--leftwards-triangle-headed-arrow-with-medium-shaft:'\1F824';
+--leftwards-triangle-headed-arrow-with-narrow-shaft:'\1F820';
+--leftwards-triangle-headed-arrow-with-very-heavy-shaft:'\1F830';
+--leftwards-white-arrow-within-triangle-arrowhead:'\1F894';
+--north-east-sans-serif-arrow:'\1F855';
+--north-west-sans-serif-arrow:'\1F854';
+--rightwards-arrow-with-equilateral-arrowhead:'\1F816';
+--rightwards-arrow-with-large-triangle-arrowhead:'\1F80A';
+--rightwards-arrow-with-medium-triangle-arrowhead:'\1F806';
+--rightwards-arrow-with-notched-tail:'\1F89A';
+--rightwards-arrow-with-small-equilateral-arrowhead:'\1F812';
+--rightwards-arrow-with-small-triangle-arrowhead:'\1F802';
+--rightwards-back-tilted-shadowed-white-arrow:'\1F8A9';
+--rightwards-bottom-shaded-white-arrow:'\1F8A1';
+--rightwards-compressed-arrow:'\1F83E';
+--rightwards-finger-post-arrow:'\1F836';
+--rightwards-front-tilted-shadowed-white-arrow:'\1F8AB';
+--rightwards-heavy-arrow:'\1F846';
+--rightwards-heavy-compressed-arrow:'\1F842';
+--rightwards-left-shaded-white-arrow:'\1F8A7';
+--rightwards-right-shaded-white-arrow:'\1F8A5';
+--rightwards-sans-serif-arrow:'\1F852';
+--rightwards-squared-arrow:'\1F83A';
+--rightwards-top-shaded-white-arrow:'\1F8A3';
+--rightwards-triangle-arrowhead:'\1F892';
+--rightwards-triangle-headed-arrow-with-bold-shaft:'\1F82A';
+--rightwards-triangle-headed-arrow-with-heavy-shaft:'\1F82E';
+--rightwards-triangle-headed-arrow-with-medium-shaft:'\1F826';
+--rightwards-triangle-headed-arrow-with-narrow-shaft:'\1F822';
+--rightwards-triangle-headed-arrow-with-very-heavy-shaft:'\1F832';
+--rightwards-white-arrow-within-triangle-arrowhead:'\1F896';
+--south-east-sans-serif-arrow:'\1F856';
+--south-west-sans-serif-arrow:'\1F857';
+--up-down-sans-serif-arrow:'\1F859';
+--upwards-arrow-with-equilateral-arrowhead:'\1F815';
+--upwards-arrow-with-large-triangle-arrowhead:'\1F809';
+--upwards-arrow-with-medium-triangle-arrowhead:'\1F805';
+--upwards-arrow-with-notched-tail:'\1F899';
+--upwards-arrow-with-small-equilateral-arrowhead:'\1F811';
+--upwards-arrow-with-small-triangle-arrowhead:'\1F801';
+--upwards-compressed-arrow:'\1F83D';
+--upwards-finger-post-arrow:'\1F835';
+--upwards-heavy-arrow:'\1F845';
+--upwards-heavy-compressed-arrow:'\1F841';
+--upwards-sans-serif-arrow:'\1F851';
+--upwards-squared-arrow:'\1F839';
+--upwards-triangle-arrowhead:'\1F891';
+--upwards-triangle-headed-arrow-with-bold-shaft:'\1F829';
+--upwards-triangle-headed-arrow-with-heavy-shaft:'\1F82D';
+--upwards-triangle-headed-arrow-with-medium-shaft:'\1F825';
+--upwards-triangle-headed-arrow-with-narrow-shaft:'\1F821';
+--upwards-triangle-headed-arrow-with-very-heavy-shaft:'\1F831';
+--upwards-white-arrow-within-triangle-arrowhead:'\1F895';
+--white-arrow-shaft-width-one:'\1F8AC';
+--white-arrow-shaft-width-two-thirds:'\1F8AD';
+--wide-headed-downwards-barb-arrow:'\1F86B';
+--wide-headed-downwards-heavy-barb-arrow:'\1F87B';
+--wide-headed-downwards-light-barb-arrow:'\1F863';
+--wide-headed-downwards-medium-barb-arrow:'\1F873';
+--wide-headed-downwards-very-heavy-barb-arrow:'\1F883';
+--wide-headed-leftwards-barb-arrow:'\1F868';
+--wide-headed-leftwards-heavy-barb-arrow:'\1F878';
+--wide-headed-leftwards-light-barb-arrow:'\1F860';
+--wide-headed-leftwards-medium-barb-arrow:'\1F870';
+--wide-headed-leftwards-very-heavy-barb-arrow:'\1F880';
+--wide-headed-north-east-barb-arrow:'\1F86D';
+--wide-headed-north-east-heavy-barb-arrow:'\1F87D';
+--wide-headed-north-east-light-barb-arrow:'\1F865';
+--wide-headed-north-east-medium-barb-arrow:'\1F875';
+--wide-headed-north-east-very-heavy-barb-arrow:'\1F885';
+--wide-headed-north-west-barb-arrow:'\1F86C';
+--wide-headed-north-west-heavy-barb-arrow:'\1F87C';
+--wide-headed-north-west-light-barb-arrow:'\1F864';
+--wide-headed-north-west-medium-barb-arrow:'\1F874';
+--wide-headed-north-west-very-heavy-barb-arrow:'\1F884';
+--wide-headed-rightwards-barb-arrow:'\1F86A';
+--wide-headed-rightwards-heavy-barb-arrow:'\1F87A';
+--wide-headed-rightwards-light-barb-arrow:'\1F862';
+--wide-headed-rightwards-medium-barb-arrow:'\1F872';
+--wide-headed-rightwards-very-heavy-barb-arrow:'\1F882';
+--wide-headed-south-east-barb-arrow:'\1F86E';
+--wide-headed-south-east-heavy-barb-arrow:'\1F87E';
+--wide-headed-south-east-light-barb-arrow:'\1F866';
+--wide-headed-south-east-medium-barb-arrow:'\1F876';
+--wide-headed-south-east-very-heavy-barb-arrow:'\1F886';
+--wide-headed-south-west-barb-arrow:'\1F86F';
+--wide-headed-south-west-heavy-barb-arrow:'\1F87F';
+--wide-headed-south-west-light-barb-arrow:'\1F867';
+--wide-headed-south-west-medium-barb-arrow:'\1F877';
+--wide-headed-south-west-very-heavy-barb-arrow:'\1F887';
+--wide-headed-upwards-barb-arrow:'\1F869';
+--wide-headed-upwards-heavy-barb-arrow:'\1F879';
+--wide-headed-upwards-light-barb-arrow:'\1F861';
+--wide-headed-upwards-medium-barb-arrow:'\1F871';
+--wide-headed-upwards-very-heavy-barb-arrow:'\1F881';
+}
+
+
+
+.arrow-pointing-rightwards-then-curving-south-west::before, .arrow-pointing-rightwards-then-curving-south-west-before::before{ content:var(--arrow-pointing-rightwards-then-curving-south-west)}
+.arrow-pointing-rightwards-then-curving-south-west-after::after{content:var(--arrow-pointing-rightwards-then-curving-south-west)}
+.arrow-pointing-rightwards-then-curving-south-west-both::after, .arrow-pointing-rightwards-then-curving-south-west-both::before {content:var(--arrow-pointing-rightwards-then-curving-south-west)}
+.arrow-pointing-rightwards-then-curving-south-west-list { list-style: var(--arrow-pointing-rightwards-then-curving-south-west)}
+
+
+
+.arrow-pointing-upwards-then-north-west::before, .arrow-pointing-upwards-then-north-west-before::before{ content:var(--arrow-pointing-upwards-then-north-west)}
+.arrow-pointing-upwards-then-north-west-after::after{content:var(--arrow-pointing-upwards-then-north-west)}
+.arrow-pointing-upwards-then-north-west-both::after, .arrow-pointing-upwards-then-north-west-both::before {content:var(--arrow-pointing-upwards-then-north-west)}
+.arrow-pointing-upwards-then-north-west-list { list-style: var(--arrow-pointing-upwards-then-north-west)}
+
+
+
+.downwards-arrow-with-equilateral-arrowhead::before, .downwards-arrow-with-equilateral-arrowhead-before::before{ content:var(--downwards-arrow-with-equilateral-arrowhead)}
+.downwards-arrow-with-equilateral-arrowhead-after::after{content:var(--downwards-arrow-with-equilateral-arrowhead)}
+.downwards-arrow-with-equilateral-arrowhead-both::after, .downwards-arrow-with-equilateral-arrowhead-both::before {content:var(--downwards-arrow-with-equilateral-arrowhead)}
+.downwards-arrow-with-equilateral-arrowhead-list { list-style: var(--downwards-arrow-with-equilateral-arrowhead)}
+
+
+
+.downwards-arrow-with-large-triangle-arrowhead::before, .downwards-arrow-with-large-triangle-arrowhead-before::before{ content:var(--downwards-arrow-with-large-triangle-arrowhead)}
+.downwards-arrow-with-large-triangle-arrowhead-after::after{content:var(--downwards-arrow-with-large-triangle-arrowhead)}
+.downwards-arrow-with-large-triangle-arrowhead-both::after, .downwards-arrow-with-large-triangle-arrowhead-both::before {content:var(--downwards-arrow-with-large-triangle-arrowhead)}
+.downwards-arrow-with-large-triangle-arrowhead-list { list-style: var(--downwards-arrow-with-large-triangle-arrowhead)}
+
+
+
+.downwards-arrow-with-medium-triangle-arrowhead::before, .downwards-arrow-with-medium-triangle-arrowhead-before::before{ content:var(--downwards-arrow-with-medium-triangle-arrowhead)}
+.downwards-arrow-with-medium-triangle-arrowhead-after::after{content:var(--downwards-arrow-with-medium-triangle-arrowhead)}
+.downwards-arrow-with-medium-triangle-arrowhead-both::after, .downwards-arrow-with-medium-triangle-arrowhead-both::before {content:var(--downwards-arrow-with-medium-triangle-arrowhead)}
+.downwards-arrow-with-medium-triangle-arrowhead-list { list-style: var(--downwards-arrow-with-medium-triangle-arrowhead)}
+
+
+
+.downwards-arrow-with-notched-tail::before, .downwards-arrow-with-notched-tail-before::before{ content:var(--downwards-arrow-with-notched-tail)}
+.downwards-arrow-with-notched-tail-after::after{content:var(--downwards-arrow-with-notched-tail)}
+.downwards-arrow-with-notched-tail-both::after, .downwards-arrow-with-notched-tail-both::before {content:var(--downwards-arrow-with-notched-tail)}
+.downwards-arrow-with-notched-tail-list { list-style: var(--downwards-arrow-with-notched-tail)}
+
+
+
+.downwards-arrow-with-small-equilateral-arrowhead::before, .downwards-arrow-with-small-equilateral-arrowhead-before::before{ content:var(--downwards-arrow-with-small-equilateral-arrowhead)}
+.downwards-arrow-with-small-equilateral-arrowhead-after::after{content:var(--downwards-arrow-with-small-equilateral-arrowhead)}
+.downwards-arrow-with-small-equilateral-arrowhead-both::after, .downwards-arrow-with-small-equilateral-arrowhead-both::before {content:var(--downwards-arrow-with-small-equilateral-arrowhead)}
+.downwards-arrow-with-small-equilateral-arrowhead-list { list-style: var(--downwards-arrow-with-small-equilateral-arrowhead)}
+
+
+
+.downwards-arrow-with-small-triangle-arrowhead::before, .downwards-arrow-with-small-triangle-arrowhead-before::before{ content:var(--downwards-arrow-with-small-triangle-arrowhead)}
+.downwards-arrow-with-small-triangle-arrowhead-after::after{content:var(--downwards-arrow-with-small-triangle-arrowhead)}
+.downwards-arrow-with-small-triangle-arrowhead-both::after, .downwards-arrow-with-small-triangle-arrowhead-both::before {content:var(--downwards-arrow-with-small-triangle-arrowhead)}
+.downwards-arrow-with-small-triangle-arrowhead-list { list-style: var(--downwards-arrow-with-small-triangle-arrowhead)}
+
+
+
+.downwards-compressed-arrow::before, .downwards-compressed-arrow-before::before{ content:var(--downwards-compressed-arrow)}
+.downwards-compressed-arrow-after::after{content:var(--downwards-compressed-arrow)}
+.downwards-compressed-arrow-both::after, .downwards-compressed-arrow-both::before {content:var(--downwards-compressed-arrow)}
+.downwards-compressed-arrow-list { list-style: var(--downwards-compressed-arrow)}
+
+
+
+.downwards-finger-post-arrow::before, .downwards-finger-post-arrow-before::before{ content:var(--downwards-finger-post-arrow)}
+.downwards-finger-post-arrow-after::after{content:var(--downwards-finger-post-arrow)}
+.downwards-finger-post-arrow-both::after, .downwards-finger-post-arrow-both::before {content:var(--downwards-finger-post-arrow)}
+.downwards-finger-post-arrow-list { list-style: var(--downwards-finger-post-arrow)}
+
+
+
+.downwards-heavy-arrow::before, .downwards-heavy-arrow-before::before{ content:var(--downwards-heavy-arrow)}
+.downwards-heavy-arrow-after::after{content:var(--downwards-heavy-arrow)}
+.downwards-heavy-arrow-both::after, .downwards-heavy-arrow-both::before {content:var(--downwards-heavy-arrow)}
+.downwards-heavy-arrow-list { list-style: var(--downwards-heavy-arrow)}
+
+
+
+.downwards-heavy-compressed-arrow::before, .downwards-heavy-compressed-arrow-before::before{ content:var(--downwards-heavy-compressed-arrow)}
+.downwards-heavy-compressed-arrow-after::after{content:var(--downwards-heavy-compressed-arrow)}
+.downwards-heavy-compressed-arrow-both::after, .downwards-heavy-compressed-arrow-both::before {content:var(--downwards-heavy-compressed-arrow)}
+.downwards-heavy-compressed-arrow-list { list-style: var(--downwards-heavy-compressed-arrow)}
+
+
+
+.downwards-sans-serif-arrow::before, .downwards-sans-serif-arrow-before::before{ content:var(--downwards-sans-serif-arrow)}
+.downwards-sans-serif-arrow-after::after{content:var(--downwards-sans-serif-arrow)}
+.downwards-sans-serif-arrow-both::after, .downwards-sans-serif-arrow-both::before {content:var(--downwards-sans-serif-arrow)}
+.downwards-sans-serif-arrow-list { list-style: var(--downwards-sans-serif-arrow)}
+
+
+
+.downwards-squared-arrow::before, .downwards-squared-arrow-before::before{ content:var(--downwards-squared-arrow)}
+.downwards-squared-arrow-after::after{content:var(--downwards-squared-arrow)}
+.downwards-squared-arrow-both::after, .downwards-squared-arrow-both::before {content:var(--downwards-squared-arrow)}
+.downwards-squared-arrow-list { list-style: var(--downwards-squared-arrow)}
+
+
+
+.downwards-triangle-arrowhead::before, .downwards-triangle-arrowhead-before::before{ content:var(--downwards-triangle-arrowhead)}
+.downwards-triangle-arrowhead-after::after{content:var(--downwards-triangle-arrowhead)}
+.downwards-triangle-arrowhead-both::after, .downwards-triangle-arrowhead-both::before {content:var(--downwards-triangle-arrowhead)}
+.downwards-triangle-arrowhead-list { list-style: var(--downwards-triangle-arrowhead)}
+
+
+
+.downwards-triangle-headed-arrow-with-bold-shaft::before, .downwards-triangle-headed-arrow-with-bold-shaft-before::before{ content:var(--downwards-triangle-headed-arrow-with-bold-shaft)}
+.downwards-triangle-headed-arrow-with-bold-shaft-after::after{content:var(--downwards-triangle-headed-arrow-with-bold-shaft)}
+.downwards-triangle-headed-arrow-with-bold-shaft-both::after, .downwards-triangle-headed-arrow-with-bold-shaft-both::before {content:var(--downwards-triangle-headed-arrow-with-bold-shaft)}
+.downwards-triangle-headed-arrow-with-bold-shaft-list { list-style: var(--downwards-triangle-headed-arrow-with-bold-shaft)}
+
+
+
+.downwards-triangle-headed-arrow-with-heavy-shaft::before, .downwards-triangle-headed-arrow-with-heavy-shaft-before::before{ content:var(--downwards-triangle-headed-arrow-with-heavy-shaft)}
+.downwards-triangle-headed-arrow-with-heavy-shaft-after::after{content:var(--downwards-triangle-headed-arrow-with-heavy-shaft)}
+.downwards-triangle-headed-arrow-with-heavy-shaft-both::after, .downwards-triangle-headed-arrow-with-heavy-shaft-both::before {content:var(--downwards-triangle-headed-arrow-with-heavy-shaft)}
+.downwards-triangle-headed-arrow-with-heavy-shaft-list { list-style: var(--downwards-triangle-headed-arrow-with-heavy-shaft)}
+
+
+
+.downwards-triangle-headed-arrow-with-medium-shaft::before, .downwards-triangle-headed-arrow-with-medium-shaft-before::before{ content:var(--downwards-triangle-headed-arrow-with-medium-shaft)}
+.downwards-triangle-headed-arrow-with-medium-shaft-after::after{content:var(--downwards-triangle-headed-arrow-with-medium-shaft)}
+.downwards-triangle-headed-arrow-with-medium-shaft-both::after, .downwards-triangle-headed-arrow-with-medium-shaft-both::before {content:var(--downwards-triangle-headed-arrow-with-medium-shaft)}
+.downwards-triangle-headed-arrow-with-medium-shaft-list { list-style: var(--downwards-triangle-headed-arrow-with-medium-shaft)}
+
+
+
+.downwards-triangle-headed-arrow-with-narrow-shaft::before, .downwards-triangle-headed-arrow-with-narrow-shaft-before::before{ content:var(--downwards-triangle-headed-arrow-with-narrow-shaft)}
+.downwards-triangle-headed-arrow-with-narrow-shaft-after::after{content:var(--downwards-triangle-headed-arrow-with-narrow-shaft)}
+.downwards-triangle-headed-arrow-with-narrow-shaft-both::after, .downwards-triangle-headed-arrow-with-narrow-shaft-both::before {content:var(--downwards-triangle-headed-arrow-with-narrow-shaft)}
+.downwards-triangle-headed-arrow-with-narrow-shaft-list { list-style: var(--downwards-triangle-headed-arrow-with-narrow-shaft)}
+
+
+
+.downwards-triangle-headed-arrow-with-very-heavy-shaft::before, .downwards-triangle-headed-arrow-with-very-heavy-shaft-before::before{ content:var(--downwards-triangle-headed-arrow-with-very-heavy-shaft)}
+.downwards-triangle-headed-arrow-with-very-heavy-shaft-after::after{content:var(--downwards-triangle-headed-arrow-with-very-heavy-shaft)}
+.downwards-triangle-headed-arrow-with-very-heavy-shaft-both::after, .downwards-triangle-headed-arrow-with-very-heavy-shaft-both::before {content:var(--downwards-triangle-headed-arrow-with-very-heavy-shaft)}
+.downwards-triangle-headed-arrow-with-very-heavy-shaft-list { list-style: var(--downwards-triangle-headed-arrow-with-very-heavy-shaft)}
+
+
+
+.downwards-white-arrow-within-triangle-arrowhead::before, .downwards-white-arrow-within-triangle-arrowhead-before::before{ content:var(--downwards-white-arrow-within-triangle-arrowhead)}
+.downwards-white-arrow-within-triangle-arrowhead-after::after{content:var(--downwards-white-arrow-within-triangle-arrowhead)}
+.downwards-white-arrow-within-triangle-arrowhead-both::after, .downwards-white-arrow-within-triangle-arrowhead-both::before {content:var(--downwards-white-arrow-within-triangle-arrowhead)}
+.downwards-white-arrow-within-triangle-arrowhead-list { list-style: var(--downwards-white-arrow-within-triangle-arrowhead)}
+
+
+
+.heavy-arrow-shaft-width-one::before, .heavy-arrow-shaft-width-one-before::before{ content:var(--heavy-arrow-shaft-width-one)}
+.heavy-arrow-shaft-width-one-after::after{content:var(--heavy-arrow-shaft-width-one)}
+.heavy-arrow-shaft-width-one-both::after, .heavy-arrow-shaft-width-one-both::before {content:var(--heavy-arrow-shaft-width-one)}
+.heavy-arrow-shaft-width-one-list { list-style: var(--heavy-arrow-shaft-width-one)}
+
+
+
+.heavy-arrow-shaft-width-one-half::before, .heavy-arrow-shaft-width-one-half-before::before{ content:var(--heavy-arrow-shaft-width-one-half)}
+.heavy-arrow-shaft-width-one-half-after::after{content:var(--heavy-arrow-shaft-width-one-half)}
+.heavy-arrow-shaft-width-one-half-both::after, .heavy-arrow-shaft-width-one-half-both::before {content:var(--heavy-arrow-shaft-width-one-half)}
+.heavy-arrow-shaft-width-one-half-list { list-style: var(--heavy-arrow-shaft-width-one-half)}
+
+
+
+.heavy-arrow-shaft-width-one-third::before, .heavy-arrow-shaft-width-one-third-before::before{ content:var(--heavy-arrow-shaft-width-one-third)}
+.heavy-arrow-shaft-width-one-third-after::after{content:var(--heavy-arrow-shaft-width-one-third)}
+.heavy-arrow-shaft-width-one-third-both::after, .heavy-arrow-shaft-width-one-third-both::before {content:var(--heavy-arrow-shaft-width-one-third)}
+.heavy-arrow-shaft-width-one-third-list { list-style: var(--heavy-arrow-shaft-width-one-third)}
+
+
+
+.heavy-arrow-shaft-width-two-thirds::before, .heavy-arrow-shaft-width-two-thirds-before::before{ content:var(--heavy-arrow-shaft-width-two-thirds)}
+.heavy-arrow-shaft-width-two-thirds-after::after{content:var(--heavy-arrow-shaft-width-two-thirds)}
+.heavy-arrow-shaft-width-two-thirds-both::after, .heavy-arrow-shaft-width-two-thirds-both::before {content:var(--heavy-arrow-shaft-width-two-thirds)}
+.heavy-arrow-shaft-width-two-thirds-list { list-style: var(--heavy-arrow-shaft-width-two-thirds)}
+
+
+
+.heavy-downwards-arrow-with-equilateral-arrowhead::before, .heavy-downwards-arrow-with-equilateral-arrowhead-before::before{ content:var(--heavy-downwards-arrow-with-equilateral-arrowhead)}
+.heavy-downwards-arrow-with-equilateral-arrowhead-after::after{content:var(--heavy-downwards-arrow-with-equilateral-arrowhead)}
+.heavy-downwards-arrow-with-equilateral-arrowhead-both::after, .heavy-downwards-arrow-with-equilateral-arrowhead-both::before {content:var(--heavy-downwards-arrow-with-equilateral-arrowhead)}
+.heavy-downwards-arrow-with-equilateral-arrowhead-list { list-style: var(--heavy-downwards-arrow-with-equilateral-arrowhead)}
+
+
+
+.heavy-downwards-arrow-with-large-equilateral-arrowhead::before, .heavy-downwards-arrow-with-large-equilateral-arrowhead-before::before{ content:var(--heavy-downwards-arrow-with-large-equilateral-arrowhead)}
+.heavy-downwards-arrow-with-large-equilateral-arrowhead-after::after{content:var(--heavy-downwards-arrow-with-large-equilateral-arrowhead)}
+.heavy-downwards-arrow-with-large-equilateral-arrowhead-both::after, .heavy-downwards-arrow-with-large-equilateral-arrowhead-both::before {content:var(--heavy-downwards-arrow-with-large-equilateral-arrowhead)}
+.heavy-downwards-arrow-with-large-equilateral-arrowhead-list { list-style: var(--heavy-downwards-arrow-with-large-equilateral-arrowhead)}
+
+
+
+.heavy-leftwards-arrow-with-equilateral-arrowhead::before, .heavy-leftwards-arrow-with-equilateral-arrowhead-before::before{ content:var(--heavy-leftwards-arrow-with-equilateral-arrowhead)}
+.heavy-leftwards-arrow-with-equilateral-arrowhead-after::after{content:var(--heavy-leftwards-arrow-with-equilateral-arrowhead)}
+.heavy-leftwards-arrow-with-equilateral-arrowhead-both::after, .heavy-leftwards-arrow-with-equilateral-arrowhead-both::before {content:var(--heavy-leftwards-arrow-with-equilateral-arrowhead)}
+.heavy-leftwards-arrow-with-equilateral-arrowhead-list { list-style: var(--heavy-leftwards-arrow-with-equilateral-arrowhead)}
+
+
+
+.heavy-leftwards-arrow-with-large-equilateral-arrowhead::before, .heavy-leftwards-arrow-with-large-equilateral-arrowhead-before::before{ content:var(--heavy-leftwards-arrow-with-large-equilateral-arrowhead)}
+.heavy-leftwards-arrow-with-large-equilateral-arrowhead-after::after{content:var(--heavy-leftwards-arrow-with-large-equilateral-arrowhead)}
+.heavy-leftwards-arrow-with-large-equilateral-arrowhead-both::after, .heavy-leftwards-arrow-with-large-equilateral-arrowhead-both::before {content:var(--heavy-leftwards-arrow-with-large-equilateral-arrowhead)}
+.heavy-leftwards-arrow-with-large-equilateral-arrowhead-list { list-style: var(--heavy-leftwards-arrow-with-large-equilateral-arrowhead)}
+
+
+
+.heavy-rightwards-arrow-with-equilateral-arrowhead::before, .heavy-rightwards-arrow-with-equilateral-arrowhead-before::before{ content:var(--heavy-rightwards-arrow-with-equilateral-arrowhead)}
+.heavy-rightwards-arrow-with-equilateral-arrowhead-after::after{content:var(--heavy-rightwards-arrow-with-equilateral-arrowhead)}
+.heavy-rightwards-arrow-with-equilateral-arrowhead-both::after, .heavy-rightwards-arrow-with-equilateral-arrowhead-both::before {content:var(--heavy-rightwards-arrow-with-equilateral-arrowhead)}
+.heavy-rightwards-arrow-with-equilateral-arrowhead-list { list-style: var(--heavy-rightwards-arrow-with-equilateral-arrowhead)}
+
+
+
+.heavy-rightwards-arrow-with-large-equilateral-arrowhead::before, .heavy-rightwards-arrow-with-large-equilateral-arrowhead-before::before{ content:var(--heavy-rightwards-arrow-with-large-equilateral-arrowhead)}
+.heavy-rightwards-arrow-with-large-equilateral-arrowhead-after::after{content:var(--heavy-rightwards-arrow-with-large-equilateral-arrowhead)}
+.heavy-rightwards-arrow-with-large-equilateral-arrowhead-both::after, .heavy-rightwards-arrow-with-large-equilateral-arrowhead-both::before {content:var(--heavy-rightwards-arrow-with-large-equilateral-arrowhead)}
+.heavy-rightwards-arrow-with-large-equilateral-arrowhead-list { list-style: var(--heavy-rightwards-arrow-with-large-equilateral-arrowhead)}
+
+
+
+.heavy-upwards-arrow-with-equilateral-arrowhead::before, .heavy-upwards-arrow-with-equilateral-arrowhead-before::before{ content:var(--heavy-upwards-arrow-with-equilateral-arrowhead)}
+.heavy-upwards-arrow-with-equilateral-arrowhead-after::after{content:var(--heavy-upwards-arrow-with-equilateral-arrowhead)}
+.heavy-upwards-arrow-with-equilateral-arrowhead-both::after, .heavy-upwards-arrow-with-equilateral-arrowhead-both::before {content:var(--heavy-upwards-arrow-with-equilateral-arrowhead)}
+.heavy-upwards-arrow-with-equilateral-arrowhead-list { list-style: var(--heavy-upwards-arrow-with-equilateral-arrowhead)}
+
+
+
+.heavy-upwards-arrow-with-large-equilateral-arrowhead::before, .heavy-upwards-arrow-with-large-equilateral-arrowhead-before::before{ content:var(--heavy-upwards-arrow-with-large-equilateral-arrowhead)}
+.heavy-upwards-arrow-with-large-equilateral-arrowhead-after::after{content:var(--heavy-upwards-arrow-with-large-equilateral-arrowhead)}
+.heavy-upwards-arrow-with-large-equilateral-arrowhead-both::after, .heavy-upwards-arrow-with-large-equilateral-arrowhead-both::before {content:var(--heavy-upwards-arrow-with-large-equilateral-arrowhead)}
+.heavy-upwards-arrow-with-large-equilateral-arrowhead-list { list-style: var(--heavy-upwards-arrow-with-large-equilateral-arrowhead)}
+
+
+
+.left-right-sans-serif-arrow::before, .left-right-sans-serif-arrow-before::before{ content:var(--left-right-sans-serif-arrow)}
+.left-right-sans-serif-arrow-after::after{content:var(--left-right-sans-serif-arrow)}
+.left-right-sans-serif-arrow-both::after, .left-right-sans-serif-arrow-both::before {content:var(--left-right-sans-serif-arrow)}
+.left-right-sans-serif-arrow-list { list-style: var(--left-right-sans-serif-arrow)}
+
+
+
+.leftwards-arrow-with-equilateral-arrowhead::before, .leftwards-arrow-with-equilateral-arrowhead-before::before{ content:var(--leftwards-arrow-with-equilateral-arrowhead)}
+.leftwards-arrow-with-equilateral-arrowhead-after::after{content:var(--leftwards-arrow-with-equilateral-arrowhead)}
+.leftwards-arrow-with-equilateral-arrowhead-both::after, .leftwards-arrow-with-equilateral-arrowhead-both::before {content:var(--leftwards-arrow-with-equilateral-arrowhead)}
+.leftwards-arrow-with-equilateral-arrowhead-list { list-style: var(--leftwards-arrow-with-equilateral-arrowhead)}
+
+
+
+.leftwards-arrow-with-large-triangle-arrowhead::before, .leftwards-arrow-with-large-triangle-arrowhead-before::before{ content:var(--leftwards-arrow-with-large-triangle-arrowhead)}
+.leftwards-arrow-with-large-triangle-arrowhead-after::after{content:var(--leftwards-arrow-with-large-triangle-arrowhead)}
+.leftwards-arrow-with-large-triangle-arrowhead-both::after, .leftwards-arrow-with-large-triangle-arrowhead-both::before {content:var(--leftwards-arrow-with-large-triangle-arrowhead)}
+.leftwards-arrow-with-large-triangle-arrowhead-list { list-style: var(--leftwards-arrow-with-large-triangle-arrowhead)}
+
+
+
+.leftwards-arrow-with-medium-triangle-arrowhead::before, .leftwards-arrow-with-medium-triangle-arrowhead-before::before{ content:var(--leftwards-arrow-with-medium-triangle-arrowhead)}
+.leftwards-arrow-with-medium-triangle-arrowhead-after::after{content:var(--leftwards-arrow-with-medium-triangle-arrowhead)}
+.leftwards-arrow-with-medium-triangle-arrowhead-both::after, .leftwards-arrow-with-medium-triangle-arrowhead-both::before {content:var(--leftwards-arrow-with-medium-triangle-arrowhead)}
+.leftwards-arrow-with-medium-triangle-arrowhead-list { list-style: var(--leftwards-arrow-with-medium-triangle-arrowhead)}
+
+
+
+.leftwards-arrow-with-notched-tail::before, .leftwards-arrow-with-notched-tail-before::before{ content:var(--leftwards-arrow-with-notched-tail)}
+.leftwards-arrow-with-notched-tail-after::after{content:var(--leftwards-arrow-with-notched-tail)}
+.leftwards-arrow-with-notched-tail-both::after, .leftwards-arrow-with-notched-tail-both::before {content:var(--leftwards-arrow-with-notched-tail)}
+.leftwards-arrow-with-notched-tail-list { list-style: var(--leftwards-arrow-with-notched-tail)}
+
+
+
+.leftwards-arrow-with-small-equilateral-arrowhead::before, .leftwards-arrow-with-small-equilateral-arrowhead-before::before{ content:var(--leftwards-arrow-with-small-equilateral-arrowhead)}
+.leftwards-arrow-with-small-equilateral-arrowhead-after::after{content:var(--leftwards-arrow-with-small-equilateral-arrowhead)}
+.leftwards-arrow-with-small-equilateral-arrowhead-both::after, .leftwards-arrow-with-small-equilateral-arrowhead-both::before {content:var(--leftwards-arrow-with-small-equilateral-arrowhead)}
+.leftwards-arrow-with-small-equilateral-arrowhead-list { list-style: var(--leftwards-arrow-with-small-equilateral-arrowhead)}
+
+
+
+.leftwards-arrow-with-small-triangle-arrowhead::before, .leftwards-arrow-with-small-triangle-arrowhead-before::before{ content:var(--leftwards-arrow-with-small-triangle-arrowhead)}
+.leftwards-arrow-with-small-triangle-arrowhead-after::after{content:var(--leftwards-arrow-with-small-triangle-arrowhead)}
+.leftwards-arrow-with-small-triangle-arrowhead-both::after, .leftwards-arrow-with-small-triangle-arrowhead-both::before {content:var(--leftwards-arrow-with-small-triangle-arrowhead)}
+.leftwards-arrow-with-small-triangle-arrowhead-list { list-style: var(--leftwards-arrow-with-small-triangle-arrowhead)}
+
+
+
+.leftwards-back-tilted-shadowed-white-arrow::before, .leftwards-back-tilted-shadowed-white-arrow-before::before{ content:var(--leftwards-back-tilted-shadowed-white-arrow)}
+.leftwards-back-tilted-shadowed-white-arrow-after::after{content:var(--leftwards-back-tilted-shadowed-white-arrow)}
+.leftwards-back-tilted-shadowed-white-arrow-both::after, .leftwards-back-tilted-shadowed-white-arrow-both::before {content:var(--leftwards-back-tilted-shadowed-white-arrow)}
+.leftwards-back-tilted-shadowed-white-arrow-list { list-style: var(--leftwards-back-tilted-shadowed-white-arrow)}
+
+
+
+.leftwards-bottom-shaded-white-arrow::before, .leftwards-bottom-shaded-white-arrow-before::before{ content:var(--leftwards-bottom-shaded-white-arrow)}
+.leftwards-bottom-shaded-white-arrow-after::after{content:var(--leftwards-bottom-shaded-white-arrow)}
+.leftwards-bottom-shaded-white-arrow-both::after, .leftwards-bottom-shaded-white-arrow-both::before {content:var(--leftwards-bottom-shaded-white-arrow)}
+.leftwards-bottom-shaded-white-arrow-list { list-style: var(--leftwards-bottom-shaded-white-arrow)}
+
+
+
+.leftwards-compressed-arrow::before, .leftwards-compressed-arrow-before::before{ content:var(--leftwards-compressed-arrow)}
+.leftwards-compressed-arrow-after::after{content:var(--leftwards-compressed-arrow)}
+.leftwards-compressed-arrow-both::after, .leftwards-compressed-arrow-both::before {content:var(--leftwards-compressed-arrow)}
+.leftwards-compressed-arrow-list { list-style: var(--leftwards-compressed-arrow)}
+
+
+
+.leftwards-finger-post-arrow::before, .leftwards-finger-post-arrow-before::before{ content:var(--leftwards-finger-post-arrow)}
+.leftwards-finger-post-arrow-after::after{content:var(--leftwards-finger-post-arrow)}
+.leftwards-finger-post-arrow-both::after, .leftwards-finger-post-arrow-both::before {content:var(--leftwards-finger-post-arrow)}
+.leftwards-finger-post-arrow-list { list-style: var(--leftwards-finger-post-arrow)}
+
+
+
+.leftwards-front-tilted-shadowed-white-arrow::before, .leftwards-front-tilted-shadowed-white-arrow-before::before{ content:var(--leftwards-front-tilted-shadowed-white-arrow)}
+.leftwards-front-tilted-shadowed-white-arrow-after::after{content:var(--leftwards-front-tilted-shadowed-white-arrow)}
+.leftwards-front-tilted-shadowed-white-arrow-both::after, .leftwards-front-tilted-shadowed-white-arrow-both::before {content:var(--leftwards-front-tilted-shadowed-white-arrow)}
+.leftwards-front-tilted-shadowed-white-arrow-list { list-style: var(--leftwards-front-tilted-shadowed-white-arrow)}
+
+
+
+.leftwards-heavy-arrow::before, .leftwards-heavy-arrow-before::before{ content:var(--leftwards-heavy-arrow)}
+.leftwards-heavy-arrow-after::after{content:var(--leftwards-heavy-arrow)}
+.leftwards-heavy-arrow-both::after, .leftwards-heavy-arrow-both::before {content:var(--leftwards-heavy-arrow)}
+.leftwards-heavy-arrow-list { list-style: var(--leftwards-heavy-arrow)}
+
+
+
+.leftwards-heavy-compressed-arrow::before, .leftwards-heavy-compressed-arrow-before::before{ content:var(--leftwards-heavy-compressed-arrow)}
+.leftwards-heavy-compressed-arrow-after::after{content:var(--leftwards-heavy-compressed-arrow)}
+.leftwards-heavy-compressed-arrow-both::after, .leftwards-heavy-compressed-arrow-both::before {content:var(--leftwards-heavy-compressed-arrow)}
+.leftwards-heavy-compressed-arrow-list { list-style: var(--leftwards-heavy-compressed-arrow)}
+
+
+
+.leftwards-left-shaded-white-arrow::before, .leftwards-left-shaded-white-arrow-before::before{ content:var(--leftwards-left-shaded-white-arrow)}
+.leftwards-left-shaded-white-arrow-after::after{content:var(--leftwards-left-shaded-white-arrow)}
+.leftwards-left-shaded-white-arrow-both::after, .leftwards-left-shaded-white-arrow-both::before {content:var(--leftwards-left-shaded-white-arrow)}
+.leftwards-left-shaded-white-arrow-list { list-style: var(--leftwards-left-shaded-white-arrow)}
+
+
+
+.leftwards-right-shaded-white-arrow::before, .leftwards-right-shaded-white-arrow-before::before{ content:var(--leftwards-right-shaded-white-arrow)}
+.leftwards-right-shaded-white-arrow-after::after{content:var(--leftwards-right-shaded-white-arrow)}
+.leftwards-right-shaded-white-arrow-both::after, .leftwards-right-shaded-white-arrow-both::before {content:var(--leftwards-right-shaded-white-arrow)}
+.leftwards-right-shaded-white-arrow-list { list-style: var(--leftwards-right-shaded-white-arrow)}
+
+
+
+.leftwards-sans-serif-arrow::before, .leftwards-sans-serif-arrow-before::before{ content:var(--leftwards-sans-serif-arrow)}
+.leftwards-sans-serif-arrow-after::after{content:var(--leftwards-sans-serif-arrow)}
+.leftwards-sans-serif-arrow-both::after, .leftwards-sans-serif-arrow-both::before {content:var(--leftwards-sans-serif-arrow)}
+.leftwards-sans-serif-arrow-list { list-style: var(--leftwards-sans-serif-arrow)}
+
+
+
+.leftwards-squared-arrow::before, .leftwards-squared-arrow-before::before{ content:var(--leftwards-squared-arrow)}
+.leftwards-squared-arrow-after::after{content:var(--leftwards-squared-arrow)}
+.leftwards-squared-arrow-both::after, .leftwards-squared-arrow-both::before {content:var(--leftwards-squared-arrow)}
+.leftwards-squared-arrow-list { list-style: var(--leftwards-squared-arrow)}
+
+
+
+.leftwards-top-shaded-white-arrow::before, .leftwards-top-shaded-white-arrow-before::before{ content:var(--leftwards-top-shaded-white-arrow)}
+.leftwards-top-shaded-white-arrow-after::after{content:var(--leftwards-top-shaded-white-arrow)}
+.leftwards-top-shaded-white-arrow-both::after, .leftwards-top-shaded-white-arrow-both::before {content:var(--leftwards-top-shaded-white-arrow)}
+.leftwards-top-shaded-white-arrow-list { list-style: var(--leftwards-top-shaded-white-arrow)}
+
+
+
+.leftwards-triangle-arrowhead::before, .leftwards-triangle-arrowhead-before::before{ content:var(--leftwards-triangle-arrowhead)}
+.leftwards-triangle-arrowhead-after::after{content:var(--leftwards-triangle-arrowhead)}
+.leftwards-triangle-arrowhead-both::after, .leftwards-triangle-arrowhead-both::before {content:var(--leftwards-triangle-arrowhead)}
+.leftwards-triangle-arrowhead-list { list-style: var(--leftwards-triangle-arrowhead)}
+
+
+
+.leftwards-triangle-headed-arrow-with-bold-shaft::before, .leftwards-triangle-headed-arrow-with-bold-shaft-before::before{ content:var(--leftwards-triangle-headed-arrow-with-bold-shaft)}
+.leftwards-triangle-headed-arrow-with-bold-shaft-after::after{content:var(--leftwards-triangle-headed-arrow-with-bold-shaft)}
+.leftwards-triangle-headed-arrow-with-bold-shaft-both::after, .leftwards-triangle-headed-arrow-with-bold-shaft-both::before {content:var(--leftwards-triangle-headed-arrow-with-bold-shaft)}
+.leftwards-triangle-headed-arrow-with-bold-shaft-list { list-style: var(--leftwards-triangle-headed-arrow-with-bold-shaft)}
+
+
+
+.leftwards-triangle-headed-arrow-with-heavy-shaft::before, .leftwards-triangle-headed-arrow-with-heavy-shaft-before::before{ content:var(--leftwards-triangle-headed-arrow-with-heavy-shaft)}
+.leftwards-triangle-headed-arrow-with-heavy-shaft-after::after{content:var(--leftwards-triangle-headed-arrow-with-heavy-shaft)}
+.leftwards-triangle-headed-arrow-with-heavy-shaft-both::after, .leftwards-triangle-headed-arrow-with-heavy-shaft-both::before {content:var(--leftwards-triangle-headed-arrow-with-heavy-shaft)}
+.leftwards-triangle-headed-arrow-with-heavy-shaft-list { list-style: var(--leftwards-triangle-headed-arrow-with-heavy-shaft)}
+
+
+
+.leftwards-triangle-headed-arrow-with-medium-shaft::before, .leftwards-triangle-headed-arrow-with-medium-shaft-before::before{ content:var(--leftwards-triangle-headed-arrow-with-medium-shaft)}
+.leftwards-triangle-headed-arrow-with-medium-shaft-after::after{content:var(--leftwards-triangle-headed-arrow-with-medium-shaft)}
+.leftwards-triangle-headed-arrow-with-medium-shaft-both::after, .leftwards-triangle-headed-arrow-with-medium-shaft-both::before {content:var(--leftwards-triangle-headed-arrow-with-medium-shaft)}
+.leftwards-triangle-headed-arrow-with-medium-shaft-list { list-style: var(--leftwards-triangle-headed-arrow-with-medium-shaft)}
+
+
+
+.leftwards-triangle-headed-arrow-with-narrow-shaft::before, .leftwards-triangle-headed-arrow-with-narrow-shaft-before::before{ content:var(--leftwards-triangle-headed-arrow-with-narrow-shaft)}
+.leftwards-triangle-headed-arrow-with-narrow-shaft-after::after{content:var(--leftwards-triangle-headed-arrow-with-narrow-shaft)}
+.leftwards-triangle-headed-arrow-with-narrow-shaft-both::after, .leftwards-triangle-headed-arrow-with-narrow-shaft-both::before {content:var(--leftwards-triangle-headed-arrow-with-narrow-shaft)}
+.leftwards-triangle-headed-arrow-with-narrow-shaft-list { list-style: var(--leftwards-triangle-headed-arrow-with-narrow-shaft)}
+
+
+
+.leftwards-triangle-headed-arrow-with-very-heavy-shaft::before, .leftwards-triangle-headed-arrow-with-very-heavy-shaft-before::before{ content:var(--leftwards-triangle-headed-arrow-with-very-heavy-shaft)}
+.leftwards-triangle-headed-arrow-with-very-heavy-shaft-after::after{content:var(--leftwards-triangle-headed-arrow-with-very-heavy-shaft)}
+.leftwards-triangle-headed-arrow-with-very-heavy-shaft-both::after, .leftwards-triangle-headed-arrow-with-very-heavy-shaft-both::before {content:var(--leftwards-triangle-headed-arrow-with-very-heavy-shaft)}
+.leftwards-triangle-headed-arrow-with-very-heavy-shaft-list { list-style: var(--leftwards-triangle-headed-arrow-with-very-heavy-shaft)}
+
+
+
+.leftwards-white-arrow-within-triangle-arrowhead::before, .leftwards-white-arrow-within-triangle-arrowhead-before::before{ content:var(--leftwards-white-arrow-within-triangle-arrowhead)}
+.leftwards-white-arrow-within-triangle-arrowhead-after::after{content:var(--leftwards-white-arrow-within-triangle-arrowhead)}
+.leftwards-white-arrow-within-triangle-arrowhead-both::after, .leftwards-white-arrow-within-triangle-arrowhead-both::before {content:var(--leftwards-white-arrow-within-triangle-arrowhead)}
+.leftwards-white-arrow-within-triangle-arrowhead-list { list-style: var(--leftwards-white-arrow-within-triangle-arrowhead)}
+
+
+
+.north-east-sans-serif-arrow::before, .north-east-sans-serif-arrow-before::before{ content:var(--north-east-sans-serif-arrow)}
+.north-east-sans-serif-arrow-after::after{content:var(--north-east-sans-serif-arrow)}
+.north-east-sans-serif-arrow-both::after, .north-east-sans-serif-arrow-both::before {content:var(--north-east-sans-serif-arrow)}
+.north-east-sans-serif-arrow-list { list-style: var(--north-east-sans-serif-arrow)}
+
+
+
+.north-west-sans-serif-arrow::before, .north-west-sans-serif-arrow-before::before{ content:var(--north-west-sans-serif-arrow)}
+.north-west-sans-serif-arrow-after::after{content:var(--north-west-sans-serif-arrow)}
+.north-west-sans-serif-arrow-both::after, .north-west-sans-serif-arrow-both::before {content:var(--north-west-sans-serif-arrow)}
+.north-west-sans-serif-arrow-list { list-style: var(--north-west-sans-serif-arrow)}
+
+
+
+.rightwards-arrow-with-equilateral-arrowhead::before, .rightwards-arrow-with-equilateral-arrowhead-before::before{ content:var(--rightwards-arrow-with-equilateral-arrowhead)}
+.rightwards-arrow-with-equilateral-arrowhead-after::after{content:var(--rightwards-arrow-with-equilateral-arrowhead)}
+.rightwards-arrow-with-equilateral-arrowhead-both::after, .rightwards-arrow-with-equilateral-arrowhead-both::before {content:var(--rightwards-arrow-with-equilateral-arrowhead)}
+.rightwards-arrow-with-equilateral-arrowhead-list { list-style: var(--rightwards-arrow-with-equilateral-arrowhead)}
+
+
+
+.rightwards-arrow-with-large-triangle-arrowhead::before, .rightwards-arrow-with-large-triangle-arrowhead-before::before{ content:var(--rightwards-arrow-with-large-triangle-arrowhead)}
+.rightwards-arrow-with-large-triangle-arrowhead-after::after{content:var(--rightwards-arrow-with-large-triangle-arrowhead)}
+.rightwards-arrow-with-large-triangle-arrowhead-both::after, .rightwards-arrow-with-large-triangle-arrowhead-both::before {content:var(--rightwards-arrow-with-large-triangle-arrowhead)}
+.rightwards-arrow-with-large-triangle-arrowhead-list { list-style: var(--rightwards-arrow-with-large-triangle-arrowhead)}
+
+
+
+.rightwards-arrow-with-medium-triangle-arrowhead::before, .rightwards-arrow-with-medium-triangle-arrowhead-before::before{ content:var(--rightwards-arrow-with-medium-triangle-arrowhead)}
+.rightwards-arrow-with-medium-triangle-arrowhead-after::after{content:var(--rightwards-arrow-with-medium-triangle-arrowhead)}
+.rightwards-arrow-with-medium-triangle-arrowhead-both::after, .rightwards-arrow-with-medium-triangle-arrowhead-both::before {content:var(--rightwards-arrow-with-medium-triangle-arrowhead)}
+.rightwards-arrow-with-medium-triangle-arrowhead-list { list-style: var(--rightwards-arrow-with-medium-triangle-arrowhead)}
+
+
+
+.rightwards-arrow-with-notched-tail::before, .rightwards-arrow-with-notched-tail-before::before{ content:var(--rightwards-arrow-with-notched-tail)}
+.rightwards-arrow-with-notched-tail-after::after{content:var(--rightwards-arrow-with-notched-tail)}
+.rightwards-arrow-with-notched-tail-both::after, .rightwards-arrow-with-notched-tail-both::before {content:var(--rightwards-arrow-with-notched-tail)}
+.rightwards-arrow-with-notched-tail-list { list-style: var(--rightwards-arrow-with-notched-tail)}
+
+
+
+.rightwards-arrow-with-small-equilateral-arrowhead::before, .rightwards-arrow-with-small-equilateral-arrowhead-before::before{ content:var(--rightwards-arrow-with-small-equilateral-arrowhead)}
+.rightwards-arrow-with-small-equilateral-arrowhead-after::after{content:var(--rightwards-arrow-with-small-equilateral-arrowhead)}
+.rightwards-arrow-with-small-equilateral-arrowhead-both::after, .rightwards-arrow-with-small-equilateral-arrowhead-both::before {content:var(--rightwards-arrow-with-small-equilateral-arrowhead)}
+.rightwards-arrow-with-small-equilateral-arrowhead-list { list-style: var(--rightwards-arrow-with-small-equilateral-arrowhead)}
+
+
+
+.rightwards-arrow-with-small-triangle-arrowhead::before, .rightwards-arrow-with-small-triangle-arrowhead-before::before{ content:var(--rightwards-arrow-with-small-triangle-arrowhead)}
+.rightwards-arrow-with-small-triangle-arrowhead-after::after{content:var(--rightwards-arrow-with-small-triangle-arrowhead)}
+.rightwards-arrow-with-small-triangle-arrowhead-both::after, .rightwards-arrow-with-small-triangle-arrowhead-both::before {content:var(--rightwards-arrow-with-small-triangle-arrowhead)}
+.rightwards-arrow-with-small-triangle-arrowhead-list { list-style: var(--rightwards-arrow-with-small-triangle-arrowhead)}
+
+
+
+.rightwards-back-tilted-shadowed-white-arrow::before, .rightwards-back-tilted-shadowed-white-arrow-before::before{ content:var(--rightwards-back-tilted-shadowed-white-arrow)}
+.rightwards-back-tilted-shadowed-white-arrow-after::after{content:var(--rightwards-back-tilted-shadowed-white-arrow)}
+.rightwards-back-tilted-shadowed-white-arrow-both::after, .rightwards-back-tilted-shadowed-white-arrow-both::before {content:var(--rightwards-back-tilted-shadowed-white-arrow)}
+.rightwards-back-tilted-shadowed-white-arrow-list { list-style: var(--rightwards-back-tilted-shadowed-white-arrow)}
+
+
+
+.rightwards-bottom-shaded-white-arrow::before, .rightwards-bottom-shaded-white-arrow-before::before{ content:var(--rightwards-bottom-shaded-white-arrow)}
+.rightwards-bottom-shaded-white-arrow-after::after{content:var(--rightwards-bottom-shaded-white-arrow)}
+.rightwards-bottom-shaded-white-arrow-both::after, .rightwards-bottom-shaded-white-arrow-both::before {content:var(--rightwards-bottom-shaded-white-arrow)}
+.rightwards-bottom-shaded-white-arrow-list { list-style: var(--rightwards-bottom-shaded-white-arrow)}
+
+
+
+.rightwards-compressed-arrow::before, .rightwards-compressed-arrow-before::before{ content:var(--rightwards-compressed-arrow)}
+.rightwards-compressed-arrow-after::after{content:var(--rightwards-compressed-arrow)}
+.rightwards-compressed-arrow-both::after, .rightwards-compressed-arrow-both::before {content:var(--rightwards-compressed-arrow)}
+.rightwards-compressed-arrow-list { list-style: var(--rightwards-compressed-arrow)}
+
+
+
+.rightwards-finger-post-arrow::before, .rightwards-finger-post-arrow-before::before{ content:var(--rightwards-finger-post-arrow)}
+.rightwards-finger-post-arrow-after::after{content:var(--rightwards-finger-post-arrow)}
+.rightwards-finger-post-arrow-both::after, .rightwards-finger-post-arrow-both::before {content:var(--rightwards-finger-post-arrow)}
+.rightwards-finger-post-arrow-list { list-style: var(--rightwards-finger-post-arrow)}
+
+
+
+.rightwards-front-tilted-shadowed-white-arrow::before, .rightwards-front-tilted-shadowed-white-arrow-before::before{ content:var(--rightwards-front-tilted-shadowed-white-arrow)}
+.rightwards-front-tilted-shadowed-white-arrow-after::after{content:var(--rightwards-front-tilted-shadowed-white-arrow)}
+.rightwards-front-tilted-shadowed-white-arrow-both::after, .rightwards-front-tilted-shadowed-white-arrow-both::before {content:var(--rightwards-front-tilted-shadowed-white-arrow)}
+.rightwards-front-tilted-shadowed-white-arrow-list { list-style: var(--rightwards-front-tilted-shadowed-white-arrow)}
+
+
+
+.rightwards-heavy-arrow::before, .rightwards-heavy-arrow-before::before{ content:var(--rightwards-heavy-arrow)}
+.rightwards-heavy-arrow-after::after{content:var(--rightwards-heavy-arrow)}
+.rightwards-heavy-arrow-both::after, .rightwards-heavy-arrow-both::before {content:var(--rightwards-heavy-arrow)}
+.rightwards-heavy-arrow-list { list-style: var(--rightwards-heavy-arrow)}
+
+
+
+.rightwards-heavy-compressed-arrow::before, .rightwards-heavy-compressed-arrow-before::before{ content:var(--rightwards-heavy-compressed-arrow)}
+.rightwards-heavy-compressed-arrow-after::after{content:var(--rightwards-heavy-compressed-arrow)}
+.rightwards-heavy-compressed-arrow-both::after, .rightwards-heavy-compressed-arrow-both::before {content:var(--rightwards-heavy-compressed-arrow)}
+.rightwards-heavy-compressed-arrow-list { list-style: var(--rightwards-heavy-compressed-arrow)}
+
+
+
+.rightwards-left-shaded-white-arrow::before, .rightwards-left-shaded-white-arrow-before::before{ content:var(--rightwards-left-shaded-white-arrow)}
+.rightwards-left-shaded-white-arrow-after::after{content:var(--rightwards-left-shaded-white-arrow)}
+.rightwards-left-shaded-white-arrow-both::after, .rightwards-left-shaded-white-arrow-both::before {content:var(--rightwards-left-shaded-white-arrow)}
+.rightwards-left-shaded-white-arrow-list { list-style: var(--rightwards-left-shaded-white-arrow)}
+
+
+
+.rightwards-right-shaded-white-arrow::before, .rightwards-right-shaded-white-arrow-before::before{ content:var(--rightwards-right-shaded-white-arrow)}
+.rightwards-right-shaded-white-arrow-after::after{content:var(--rightwards-right-shaded-white-arrow)}
+.rightwards-right-shaded-white-arrow-both::after, .rightwards-right-shaded-white-arrow-both::before {content:var(--rightwards-right-shaded-white-arrow)}
+.rightwards-right-shaded-white-arrow-list { list-style: var(--rightwards-right-shaded-white-arrow)}
+
+
+
+.rightwards-sans-serif-arrow::before, .rightwards-sans-serif-arrow-before::before{ content:var(--rightwards-sans-serif-arrow)}
+.rightwards-sans-serif-arrow-after::after{content:var(--rightwards-sans-serif-arrow)}
+.rightwards-sans-serif-arrow-both::after, .rightwards-sans-serif-arrow-both::before {content:var(--rightwards-sans-serif-arrow)}
+.rightwards-sans-serif-arrow-list { list-style: var(--rightwards-sans-serif-arrow)}
+
+
+
+.rightwards-squared-arrow::before, .rightwards-squared-arrow-before::before{ content:var(--rightwards-squared-arrow)}
+.rightwards-squared-arrow-after::after{content:var(--rightwards-squared-arrow)}
+.rightwards-squared-arrow-both::after, .rightwards-squared-arrow-both::before {content:var(--rightwards-squared-arrow)}
+.rightwards-squared-arrow-list { list-style: var(--rightwards-squared-arrow)}
+
+
+
+.rightwards-top-shaded-white-arrow::before, .rightwards-top-shaded-white-arrow-before::before{ content:var(--rightwards-top-shaded-white-arrow)}
+.rightwards-top-shaded-white-arrow-after::after{content:var(--rightwards-top-shaded-white-arrow)}
+.rightwards-top-shaded-white-arrow-both::after, .rightwards-top-shaded-white-arrow-both::before {content:var(--rightwards-top-shaded-white-arrow)}
+.rightwards-top-shaded-white-arrow-list { list-style: var(--rightwards-top-shaded-white-arrow)}
+
+
+
+.rightwards-triangle-arrowhead::before, .rightwards-triangle-arrowhead-before::before{ content:var(--rightwards-triangle-arrowhead)}
+.rightwards-triangle-arrowhead-after::after{content:var(--rightwards-triangle-arrowhead)}
+.rightwards-triangle-arrowhead-both::after, .rightwards-triangle-arrowhead-both::before {content:var(--rightwards-triangle-arrowhead)}
+.rightwards-triangle-arrowhead-list { list-style: var(--rightwards-triangle-arrowhead)}
+
+
+
+.rightwards-triangle-headed-arrow-with-bold-shaft::before, .rightwards-triangle-headed-arrow-with-bold-shaft-before::before{ content:var(--rightwards-triangle-headed-arrow-with-bold-shaft)}
+.rightwards-triangle-headed-arrow-with-bold-shaft-after::after{content:var(--rightwards-triangle-headed-arrow-with-bold-shaft)}
+.rightwards-triangle-headed-arrow-with-bold-shaft-both::after, .rightwards-triangle-headed-arrow-with-bold-shaft-both::before {content:var(--rightwards-triangle-headed-arrow-with-bold-shaft)}
+.rightwards-triangle-headed-arrow-with-bold-shaft-list { list-style: var(--rightwards-triangle-headed-arrow-with-bold-shaft)}
+
+
+
+.rightwards-triangle-headed-arrow-with-heavy-shaft::before, .rightwards-triangle-headed-arrow-with-heavy-shaft-before::before{ content:var(--rightwards-triangle-headed-arrow-with-heavy-shaft)}
+.rightwards-triangle-headed-arrow-with-heavy-shaft-after::after{content:var(--rightwards-triangle-headed-arrow-with-heavy-shaft)}
+.rightwards-triangle-headed-arrow-with-heavy-shaft-both::after, .rightwards-triangle-headed-arrow-with-heavy-shaft-both::before {content:var(--rightwards-triangle-headed-arrow-with-heavy-shaft)}
+.rightwards-triangle-headed-arrow-with-heavy-shaft-list { list-style: var(--rightwards-triangle-headed-arrow-with-heavy-shaft)}
+
+
+
+.rightwards-triangle-headed-arrow-with-medium-shaft::before, .rightwards-triangle-headed-arrow-with-medium-shaft-before::before{ content:var(--rightwards-triangle-headed-arrow-with-medium-shaft)}
+.rightwards-triangle-headed-arrow-with-medium-shaft-after::after{content:var(--rightwards-triangle-headed-arrow-with-medium-shaft)}
+.rightwards-triangle-headed-arrow-with-medium-shaft-both::after, .rightwards-triangle-headed-arrow-with-medium-shaft-both::before {content:var(--rightwards-triangle-headed-arrow-with-medium-shaft)}
+.rightwards-triangle-headed-arrow-with-medium-shaft-list { list-style: var(--rightwards-triangle-headed-arrow-with-medium-shaft)}
+
+
+
+.rightwards-triangle-headed-arrow-with-narrow-shaft::before, .rightwards-triangle-headed-arrow-with-narrow-shaft-before::before{ content:var(--rightwards-triangle-headed-arrow-with-narrow-shaft)}
+.rightwards-triangle-headed-arrow-with-narrow-shaft-after::after{content:var(--rightwards-triangle-headed-arrow-with-narrow-shaft)}
+.rightwards-triangle-headed-arrow-with-narrow-shaft-both::after, .rightwards-triangle-headed-arrow-with-narrow-shaft-both::before {content:var(--rightwards-triangle-headed-arrow-with-narrow-shaft)}
+.rightwards-triangle-headed-arrow-with-narrow-shaft-list { list-style: var(--rightwards-triangle-headed-arrow-with-narrow-shaft)}
+
+
+
+.rightwards-triangle-headed-arrow-with-very-heavy-shaft::before, .rightwards-triangle-headed-arrow-with-very-heavy-shaft-before::before{ content:var(--rightwards-triangle-headed-arrow-with-very-heavy-shaft)}
+.rightwards-triangle-headed-arrow-with-very-heavy-shaft-after::after{content:var(--rightwards-triangle-headed-arrow-with-very-heavy-shaft)}
+.rightwards-triangle-headed-arrow-with-very-heavy-shaft-both::after, .rightwards-triangle-headed-arrow-with-very-heavy-shaft-both::before {content:var(--rightwards-triangle-headed-arrow-with-very-heavy-shaft)}
+.rightwards-triangle-headed-arrow-with-very-heavy-shaft-list { list-style: var(--rightwards-triangle-headed-arrow-with-very-heavy-shaft)}
+
+
+
+.rightwards-white-arrow-within-triangle-arrowhead::before, .rightwards-white-arrow-within-triangle-arrowhead-before::before{ content:var(--rightwards-white-arrow-within-triangle-arrowhead)}
+.rightwards-white-arrow-within-triangle-arrowhead-after::after{content:var(--rightwards-white-arrow-within-triangle-arrowhead)}
+.rightwards-white-arrow-within-triangle-arrowhead-both::after, .rightwards-white-arrow-within-triangle-arrowhead-both::before {content:var(--rightwards-white-arrow-within-triangle-arrowhead)}
+.rightwards-white-arrow-within-triangle-arrowhead-list { list-style: var(--rightwards-white-arrow-within-triangle-arrowhead)}
+
+
+
+.south-east-sans-serif-arrow::before, .south-east-sans-serif-arrow-before::before{ content:var(--south-east-sans-serif-arrow)}
+.south-east-sans-serif-arrow-after::after{content:var(--south-east-sans-serif-arrow)}
+.south-east-sans-serif-arrow-both::after, .south-east-sans-serif-arrow-both::before {content:var(--south-east-sans-serif-arrow)}
+.south-east-sans-serif-arrow-list { list-style: var(--south-east-sans-serif-arrow)}
+
+
+
+.south-west-sans-serif-arrow::before, .south-west-sans-serif-arrow-before::before{ content:var(--south-west-sans-serif-arrow)}
+.south-west-sans-serif-arrow-after::after{content:var(--south-west-sans-serif-arrow)}
+.south-west-sans-serif-arrow-both::after, .south-west-sans-serif-arrow-both::before {content:var(--south-west-sans-serif-arrow)}
+.south-west-sans-serif-arrow-list { list-style: var(--south-west-sans-serif-arrow)}
+
+
+
+.up-down-sans-serif-arrow::before, .up-down-sans-serif-arrow-before::before{ content:var(--up-down-sans-serif-arrow)}
+.up-down-sans-serif-arrow-after::after{content:var(--up-down-sans-serif-arrow)}
+.up-down-sans-serif-arrow-both::after, .up-down-sans-serif-arrow-both::before {content:var(--up-down-sans-serif-arrow)}
+.up-down-sans-serif-arrow-list { list-style: var(--up-down-sans-serif-arrow)}
+
+
+
+.upwards-arrow-with-equilateral-arrowhead::before, .upwards-arrow-with-equilateral-arrowhead-before::before{ content:var(--upwards-arrow-with-equilateral-arrowhead)}
+.upwards-arrow-with-equilateral-arrowhead-after::after{content:var(--upwards-arrow-with-equilateral-arrowhead)}
+.upwards-arrow-with-equilateral-arrowhead-both::after, .upwards-arrow-with-equilateral-arrowhead-both::before {content:var(--upwards-arrow-with-equilateral-arrowhead)}
+.upwards-arrow-with-equilateral-arrowhead-list { list-style: var(--upwards-arrow-with-equilateral-arrowhead)}
+
+
+
+.upwards-arrow-with-large-triangle-arrowhead::before, .upwards-arrow-with-large-triangle-arrowhead-before::before{ content:var(--upwards-arrow-with-large-triangle-arrowhead)}
+.upwards-arrow-with-large-triangle-arrowhead-after::after{content:var(--upwards-arrow-with-large-triangle-arrowhead)}
+.upwards-arrow-with-large-triangle-arrowhead-both::after, .upwards-arrow-with-large-triangle-arrowhead-both::before {content:var(--upwards-arrow-with-large-triangle-arrowhead)}
+.upwards-arrow-with-large-triangle-arrowhead-list { list-style: var(--upwards-arrow-with-large-triangle-arrowhead)}
+
+
+
+.upwards-arrow-with-medium-triangle-arrowhead::before, .upwards-arrow-with-medium-triangle-arrowhead-before::before{ content:var(--upwards-arrow-with-medium-triangle-arrowhead)}
+.upwards-arrow-with-medium-triangle-arrowhead-after::after{content:var(--upwards-arrow-with-medium-triangle-arrowhead)}
+.upwards-arrow-with-medium-triangle-arrowhead-both::after, .upwards-arrow-with-medium-triangle-arrowhead-both::before {content:var(--upwards-arrow-with-medium-triangle-arrowhead)}
+.upwards-arrow-with-medium-triangle-arrowhead-list { list-style: var(--upwards-arrow-with-medium-triangle-arrowhead)}
+
+
+
+.upwards-arrow-with-notched-tail::before, .upwards-arrow-with-notched-tail-before::before{ content:var(--upwards-arrow-with-notched-tail)}
+.upwards-arrow-with-notched-tail-after::after{content:var(--upwards-arrow-with-notched-tail)}
+.upwards-arrow-with-notched-tail-both::after, .upwards-arrow-with-notched-tail-both::before {content:var(--upwards-arrow-with-notched-tail)}
+.upwards-arrow-with-notched-tail-list { list-style: var(--upwards-arrow-with-notched-tail)}
+
+
+
+.upwards-arrow-with-small-equilateral-arrowhead::before, .upwards-arrow-with-small-equilateral-arrowhead-before::before{ content:var(--upwards-arrow-with-small-equilateral-arrowhead)}
+.upwards-arrow-with-small-equilateral-arrowhead-after::after{content:var(--upwards-arrow-with-small-equilateral-arrowhead)}
+.upwards-arrow-with-small-equilateral-arrowhead-both::after, .upwards-arrow-with-small-equilateral-arrowhead-both::before {content:var(--upwards-arrow-with-small-equilateral-arrowhead)}
+.upwards-arrow-with-small-equilateral-arrowhead-list { list-style: var(--upwards-arrow-with-small-equilateral-arrowhead)}
+
+
+
+.upwards-arrow-with-small-triangle-arrowhead::before, .upwards-arrow-with-small-triangle-arrowhead-before::before{ content:var(--upwards-arrow-with-small-triangle-arrowhead)}
+.upwards-arrow-with-small-triangle-arrowhead-after::after{content:var(--upwards-arrow-with-small-triangle-arrowhead)}
+.upwards-arrow-with-small-triangle-arrowhead-both::after, .upwards-arrow-with-small-triangle-arrowhead-both::before {content:var(--upwards-arrow-with-small-triangle-arrowhead)}
+.upwards-arrow-with-small-triangle-arrowhead-list { list-style: var(--upwards-arrow-with-small-triangle-arrowhead)}
+
+
+
+.upwards-compressed-arrow::before, .upwards-compressed-arrow-before::before{ content:var(--upwards-compressed-arrow)}
+.upwards-compressed-arrow-after::after{content:var(--upwards-compressed-arrow)}
+.upwards-compressed-arrow-both::after, .upwards-compressed-arrow-both::before {content:var(--upwards-compressed-arrow)}
+.upwards-compressed-arrow-list { list-style: var(--upwards-compressed-arrow)}
+
+
+
+.upwards-finger-post-arrow::before, .upwards-finger-post-arrow-before::before{ content:var(--upwards-finger-post-arrow)}
+.upwards-finger-post-arrow-after::after{content:var(--upwards-finger-post-arrow)}
+.upwards-finger-post-arrow-both::after, .upwards-finger-post-arrow-both::before {content:var(--upwards-finger-post-arrow)}
+.upwards-finger-post-arrow-list { list-style: var(--upwards-finger-post-arrow)}
+
+
+
+.upwards-heavy-arrow::before, .upwards-heavy-arrow-before::before{ content:var(--upwards-heavy-arrow)}
+.upwards-heavy-arrow-after::after{content:var(--upwards-heavy-arrow)}
+.upwards-heavy-arrow-both::after, .upwards-heavy-arrow-both::before {content:var(--upwards-heavy-arrow)}
+.upwards-heavy-arrow-list { list-style: var(--upwards-heavy-arrow)}
+
+
+
+.upwards-heavy-compressed-arrow::before, .upwards-heavy-compressed-arrow-before::before{ content:var(--upwards-heavy-compressed-arrow)}
+.upwards-heavy-compressed-arrow-after::after{content:var(--upwards-heavy-compressed-arrow)}
+.upwards-heavy-compressed-arrow-both::after, .upwards-heavy-compressed-arrow-both::before {content:var(--upwards-heavy-compressed-arrow)}
+.upwards-heavy-compressed-arrow-list { list-style: var(--upwards-heavy-compressed-arrow)}
+
+
+
+.upwards-sans-serif-arrow::before, .upwards-sans-serif-arrow-before::before{ content:var(--upwards-sans-serif-arrow)}
+.upwards-sans-serif-arrow-after::after{content:var(--upwards-sans-serif-arrow)}
+.upwards-sans-serif-arrow-both::after, .upwards-sans-serif-arrow-both::before {content:var(--upwards-sans-serif-arrow)}
+.upwards-sans-serif-arrow-list { list-style: var(--upwards-sans-serif-arrow)}
+
+
+
+.upwards-squared-arrow::before, .upwards-squared-arrow-before::before{ content:var(--upwards-squared-arrow)}
+.upwards-squared-arrow-after::after{content:var(--upwards-squared-arrow)}
+.upwards-squared-arrow-both::after, .upwards-squared-arrow-both::before {content:var(--upwards-squared-arrow)}
+.upwards-squared-arrow-list { list-style: var(--upwards-squared-arrow)}
+
+
+
+.upwards-triangle-arrowhead::before, .upwards-triangle-arrowhead-before::before{ content:var(--upwards-triangle-arrowhead)}
+.upwards-triangle-arrowhead-after::after{content:var(--upwards-triangle-arrowhead)}
+.upwards-triangle-arrowhead-both::after, .upwards-triangle-arrowhead-both::before {content:var(--upwards-triangle-arrowhead)}
+.upwards-triangle-arrowhead-list { list-style: var(--upwards-triangle-arrowhead)}
+
+
+
+.upwards-triangle-headed-arrow-with-bold-shaft::before, .upwards-triangle-headed-arrow-with-bold-shaft-before::before{ content:var(--upwards-triangle-headed-arrow-with-bold-shaft)}
+.upwards-triangle-headed-arrow-with-bold-shaft-after::after{content:var(--upwards-triangle-headed-arrow-with-bold-shaft)}
+.upwards-triangle-headed-arrow-with-bold-shaft-both::after, .upwards-triangle-headed-arrow-with-bold-shaft-both::before {content:var(--upwards-triangle-headed-arrow-with-bold-shaft)}
+.upwards-triangle-headed-arrow-with-bold-shaft-list { list-style: var(--upwards-triangle-headed-arrow-with-bold-shaft)}
+
+
+
+.upwards-triangle-headed-arrow-with-heavy-shaft::before, .upwards-triangle-headed-arrow-with-heavy-shaft-before::before{ content:var(--upwards-triangle-headed-arrow-with-heavy-shaft)}
+.upwards-triangle-headed-arrow-with-heavy-shaft-after::after{content:var(--upwards-triangle-headed-arrow-with-heavy-shaft)}
+.upwards-triangle-headed-arrow-with-heavy-shaft-both::after, .upwards-triangle-headed-arrow-with-heavy-shaft-both::before {content:var(--upwards-triangle-headed-arrow-with-heavy-shaft)}
+.upwards-triangle-headed-arrow-with-heavy-shaft-list { list-style: var(--upwards-triangle-headed-arrow-with-heavy-shaft)}
+
+
+
+.upwards-triangle-headed-arrow-with-medium-shaft::before, .upwards-triangle-headed-arrow-with-medium-shaft-before::before{ content:var(--upwards-triangle-headed-arrow-with-medium-shaft)}
+.upwards-triangle-headed-arrow-with-medium-shaft-after::after{content:var(--upwards-triangle-headed-arrow-with-medium-shaft)}
+.upwards-triangle-headed-arrow-with-medium-shaft-both::after, .upwards-triangle-headed-arrow-with-medium-shaft-both::before {content:var(--upwards-triangle-headed-arrow-with-medium-shaft)}
+.upwards-triangle-headed-arrow-with-medium-shaft-list { list-style: var(--upwards-triangle-headed-arrow-with-medium-shaft)}
+
+
+
+.upwards-triangle-headed-arrow-with-narrow-shaft::before, .upwards-triangle-headed-arrow-with-narrow-shaft-before::before{ content:var(--upwards-triangle-headed-arrow-with-narrow-shaft)}
+.upwards-triangle-headed-arrow-with-narrow-shaft-after::after{content:var(--upwards-triangle-headed-arrow-with-narrow-shaft)}
+.upwards-triangle-headed-arrow-with-narrow-shaft-both::after, .upwards-triangle-headed-arrow-with-narrow-shaft-both::before {content:var(--upwards-triangle-headed-arrow-with-narrow-shaft)}
+.upwards-triangle-headed-arrow-with-narrow-shaft-list { list-style: var(--upwards-triangle-headed-arrow-with-narrow-shaft)}
+
+
+
+.upwards-triangle-headed-arrow-with-very-heavy-shaft::before, .upwards-triangle-headed-arrow-with-very-heavy-shaft-before::before{ content:var(--upwards-triangle-headed-arrow-with-very-heavy-shaft)}
+.upwards-triangle-headed-arrow-with-very-heavy-shaft-after::after{content:var(--upwards-triangle-headed-arrow-with-very-heavy-shaft)}
+.upwards-triangle-headed-arrow-with-very-heavy-shaft-both::after, .upwards-triangle-headed-arrow-with-very-heavy-shaft-both::before {content:var(--upwards-triangle-headed-arrow-with-very-heavy-shaft)}
+.upwards-triangle-headed-arrow-with-very-heavy-shaft-list { list-style: var(--upwards-triangle-headed-arrow-with-very-heavy-shaft)}
+
+
+
+.upwards-white-arrow-within-triangle-arrowhead::before, .upwards-white-arrow-within-triangle-arrowhead-before::before{ content:var(--upwards-white-arrow-within-triangle-arrowhead)}
+.upwards-white-arrow-within-triangle-arrowhead-after::after{content:var(--upwards-white-arrow-within-triangle-arrowhead)}
+.upwards-white-arrow-within-triangle-arrowhead-both::after, .upwards-white-arrow-within-triangle-arrowhead-both::before {content:var(--upwards-white-arrow-within-triangle-arrowhead)}
+.upwards-white-arrow-within-triangle-arrowhead-list { list-style: var(--upwards-white-arrow-within-triangle-arrowhead)}
+
+
+
+.white-arrow-shaft-width-one::before, .white-arrow-shaft-width-one-before::before{ content:var(--white-arrow-shaft-width-one)}
+.white-arrow-shaft-width-one-after::after{content:var(--white-arrow-shaft-width-one)}
+.white-arrow-shaft-width-one-both::after, .white-arrow-shaft-width-one-both::before {content:var(--white-arrow-shaft-width-one)}
+.white-arrow-shaft-width-one-list { list-style: var(--white-arrow-shaft-width-one)}
+
+
+
+.white-arrow-shaft-width-two-thirds::before, .white-arrow-shaft-width-two-thirds-before::before{ content:var(--white-arrow-shaft-width-two-thirds)}
+.white-arrow-shaft-width-two-thirds-after::after{content:var(--white-arrow-shaft-width-two-thirds)}
+.white-arrow-shaft-width-two-thirds-both::after, .white-arrow-shaft-width-two-thirds-both::before {content:var(--white-arrow-shaft-width-two-thirds)}
+.white-arrow-shaft-width-two-thirds-list { list-style: var(--white-arrow-shaft-width-two-thirds)}
+
+
+
+.wide-headed-downwards-barb-arrow::before, .wide-headed-downwards-barb-arrow-before::before{ content:var(--wide-headed-downwards-barb-arrow)}
+.wide-headed-downwards-barb-arrow-after::after{content:var(--wide-headed-downwards-barb-arrow)}
+.wide-headed-downwards-barb-arrow-both::after, .wide-headed-downwards-barb-arrow-both::before {content:var(--wide-headed-downwards-barb-arrow)}
+.wide-headed-downwards-barb-arrow-list { list-style: var(--wide-headed-downwards-barb-arrow)}
+
+
+
+.wide-headed-downwards-heavy-barb-arrow::before, .wide-headed-downwards-heavy-barb-arrow-before::before{ content:var(--wide-headed-downwards-heavy-barb-arrow)}
+.wide-headed-downwards-heavy-barb-arrow-after::after{content:var(--wide-headed-downwards-heavy-barb-arrow)}
+.wide-headed-downwards-heavy-barb-arrow-both::after, .wide-headed-downwards-heavy-barb-arrow-both::before {content:var(--wide-headed-downwards-heavy-barb-arrow)}
+.wide-headed-downwards-heavy-barb-arrow-list { list-style: var(--wide-headed-downwards-heavy-barb-arrow)}
+
+
+
+.wide-headed-downwards-light-barb-arrow::before, .wide-headed-downwards-light-barb-arrow-before::before{ content:var(--wide-headed-downwards-light-barb-arrow)}
+.wide-headed-downwards-light-barb-arrow-after::after{content:var(--wide-headed-downwards-light-barb-arrow)}
+.wide-headed-downwards-light-barb-arrow-both::after, .wide-headed-downwards-light-barb-arrow-both::before {content:var(--wide-headed-downwards-light-barb-arrow)}
+.wide-headed-downwards-light-barb-arrow-list { list-style: var(--wide-headed-downwards-light-barb-arrow)}
+
+
+
+.wide-headed-downwards-medium-barb-arrow::before, .wide-headed-downwards-medium-barb-arrow-before::before{ content:var(--wide-headed-downwards-medium-barb-arrow)}
+.wide-headed-downwards-medium-barb-arrow-after::after{content:var(--wide-headed-downwards-medium-barb-arrow)}
+.wide-headed-downwards-medium-barb-arrow-both::after, .wide-headed-downwards-medium-barb-arrow-both::before {content:var(--wide-headed-downwards-medium-barb-arrow)}
+.wide-headed-downwards-medium-barb-arrow-list { list-style: var(--wide-headed-downwards-medium-barb-arrow)}
+
+
+
+.wide-headed-downwards-very-heavy-barb-arrow::before, .wide-headed-downwards-very-heavy-barb-arrow-before::before{ content:var(--wide-headed-downwards-very-heavy-barb-arrow)}
+.wide-headed-downwards-very-heavy-barb-arrow-after::after{content:var(--wide-headed-downwards-very-heavy-barb-arrow)}
+.wide-headed-downwards-very-heavy-barb-arrow-both::after, .wide-headed-downwards-very-heavy-barb-arrow-both::before {content:var(--wide-headed-downwards-very-heavy-barb-arrow)}
+.wide-headed-downwards-very-heavy-barb-arrow-list { list-style: var(--wide-headed-downwards-very-heavy-barb-arrow)}
+
+
+
+.wide-headed-leftwards-barb-arrow::before, .wide-headed-leftwards-barb-arrow-before::before{ content:var(--wide-headed-leftwards-barb-arrow)}
+.wide-headed-leftwards-barb-arrow-after::after{content:var(--wide-headed-leftwards-barb-arrow)}
+.wide-headed-leftwards-barb-arrow-both::after, .wide-headed-leftwards-barb-arrow-both::before {content:var(--wide-headed-leftwards-barb-arrow)}
+.wide-headed-leftwards-barb-arrow-list { list-style: var(--wide-headed-leftwards-barb-arrow)}
+
+
+
+.wide-headed-leftwards-heavy-barb-arrow::before, .wide-headed-leftwards-heavy-barb-arrow-before::before{ content:var(--wide-headed-leftwards-heavy-barb-arrow)}
+.wide-headed-leftwards-heavy-barb-arrow-after::after{content:var(--wide-headed-leftwards-heavy-barb-arrow)}
+.wide-headed-leftwards-heavy-barb-arrow-both::after, .wide-headed-leftwards-heavy-barb-arrow-both::before {content:var(--wide-headed-leftwards-heavy-barb-arrow)}
+.wide-headed-leftwards-heavy-barb-arrow-list { list-style: var(--wide-headed-leftwards-heavy-barb-arrow)}
+
+
+
+.wide-headed-leftwards-light-barb-arrow::before, .wide-headed-leftwards-light-barb-arrow-before::before{ content:var(--wide-headed-leftwards-light-barb-arrow)}
+.wide-headed-leftwards-light-barb-arrow-after::after{content:var(--wide-headed-leftwards-light-barb-arrow)}
+.wide-headed-leftwards-light-barb-arrow-both::after, .wide-headed-leftwards-light-barb-arrow-both::before {content:var(--wide-headed-leftwards-light-barb-arrow)}
+.wide-headed-leftwards-light-barb-arrow-list { list-style: var(--wide-headed-leftwards-light-barb-arrow)}
+
+
+
+.wide-headed-leftwards-medium-barb-arrow::before, .wide-headed-leftwards-medium-barb-arrow-before::before{ content:var(--wide-headed-leftwards-medium-barb-arrow)}
+.wide-headed-leftwards-medium-barb-arrow-after::after{content:var(--wide-headed-leftwards-medium-barb-arrow)}
+.wide-headed-leftwards-medium-barb-arrow-both::after, .wide-headed-leftwards-medium-barb-arrow-both::before {content:var(--wide-headed-leftwards-medium-barb-arrow)}
+.wide-headed-leftwards-medium-barb-arrow-list { list-style: var(--wide-headed-leftwards-medium-barb-arrow)}
+
+
+
+.wide-headed-leftwards-very-heavy-barb-arrow::before, .wide-headed-leftwards-very-heavy-barb-arrow-before::before{ content:var(--wide-headed-leftwards-very-heavy-barb-arrow)}
+.wide-headed-leftwards-very-heavy-barb-arrow-after::after{content:var(--wide-headed-leftwards-very-heavy-barb-arrow)}
+.wide-headed-leftwards-very-heavy-barb-arrow-both::after, .wide-headed-leftwards-very-heavy-barb-arrow-both::before {content:var(--wide-headed-leftwards-very-heavy-barb-arrow)}
+.wide-headed-leftwards-very-heavy-barb-arrow-list { list-style: var(--wide-headed-leftwards-very-heavy-barb-arrow)}
+
+
+
+.wide-headed-north-east-barb-arrow::before, .wide-headed-north-east-barb-arrow-before::before{ content:var(--wide-headed-north-east-barb-arrow)}
+.wide-headed-north-east-barb-arrow-after::after{content:var(--wide-headed-north-east-barb-arrow)}
+.wide-headed-north-east-barb-arrow-both::after, .wide-headed-north-east-barb-arrow-both::before {content:var(--wide-headed-north-east-barb-arrow)}
+.wide-headed-north-east-barb-arrow-list { list-style: var(--wide-headed-north-east-barb-arrow)}
+
+
+
+.wide-headed-north-east-heavy-barb-arrow::before, .wide-headed-north-east-heavy-barb-arrow-before::before{ content:var(--wide-headed-north-east-heavy-barb-arrow)}
+.wide-headed-north-east-heavy-barb-arrow-after::after{content:var(--wide-headed-north-east-heavy-barb-arrow)}
+.wide-headed-north-east-heavy-barb-arrow-both::after, .wide-headed-north-east-heavy-barb-arrow-both::before {content:var(--wide-headed-north-east-heavy-barb-arrow)}
+.wide-headed-north-east-heavy-barb-arrow-list { list-style: var(--wide-headed-north-east-heavy-barb-arrow)}
+
+
+
+.wide-headed-north-east-light-barb-arrow::before, .wide-headed-north-east-light-barb-arrow-before::before{ content:var(--wide-headed-north-east-light-barb-arrow)}
+.wide-headed-north-east-light-barb-arrow-after::after{content:var(--wide-headed-north-east-light-barb-arrow)}
+.wide-headed-north-east-light-barb-arrow-both::after, .wide-headed-north-east-light-barb-arrow-both::before {content:var(--wide-headed-north-east-light-barb-arrow)}
+.wide-headed-north-east-light-barb-arrow-list { list-style: var(--wide-headed-north-east-light-barb-arrow)}
+
+
+
+.wide-headed-north-east-medium-barb-arrow::before, .wide-headed-north-east-medium-barb-arrow-before::before{ content:var(--wide-headed-north-east-medium-barb-arrow)}
+.wide-headed-north-east-medium-barb-arrow-after::after{content:var(--wide-headed-north-east-medium-barb-arrow)}
+.wide-headed-north-east-medium-barb-arrow-both::after, .wide-headed-north-east-medium-barb-arrow-both::before {content:var(--wide-headed-north-east-medium-barb-arrow)}
+.wide-headed-north-east-medium-barb-arrow-list { list-style: var(--wide-headed-north-east-medium-barb-arrow)}
+
+
+
+.wide-headed-north-east-very-heavy-barb-arrow::before, .wide-headed-north-east-very-heavy-barb-arrow-before::before{ content:var(--wide-headed-north-east-very-heavy-barb-arrow)}
+.wide-headed-north-east-very-heavy-barb-arrow-after::after{content:var(--wide-headed-north-east-very-heavy-barb-arrow)}
+.wide-headed-north-east-very-heavy-barb-arrow-both::after, .wide-headed-north-east-very-heavy-barb-arrow-both::before {content:var(--wide-headed-north-east-very-heavy-barb-arrow)}
+.wide-headed-north-east-very-heavy-barb-arrow-list { list-style: var(--wide-headed-north-east-very-heavy-barb-arrow)}
+
+
+
+.wide-headed-north-west-barb-arrow::before, .wide-headed-north-west-barb-arrow-before::before{ content:var(--wide-headed-north-west-barb-arrow)}
+.wide-headed-north-west-barb-arrow-after::after{content:var(--wide-headed-north-west-barb-arrow)}
+.wide-headed-north-west-barb-arrow-both::after, .wide-headed-north-west-barb-arrow-both::before {content:var(--wide-headed-north-west-barb-arrow)}
+.wide-headed-north-west-barb-arrow-list { list-style: var(--wide-headed-north-west-barb-arrow)}
+
+
+
+.wide-headed-north-west-heavy-barb-arrow::before, .wide-headed-north-west-heavy-barb-arrow-before::before{ content:var(--wide-headed-north-west-heavy-barb-arrow)}
+.wide-headed-north-west-heavy-barb-arrow-after::after{content:var(--wide-headed-north-west-heavy-barb-arrow)}
+.wide-headed-north-west-heavy-barb-arrow-both::after, .wide-headed-north-west-heavy-barb-arrow-both::before {content:var(--wide-headed-north-west-heavy-barb-arrow)}
+.wide-headed-north-west-heavy-barb-arrow-list { list-style: var(--wide-headed-north-west-heavy-barb-arrow)}
+
+
+
+.wide-headed-north-west-light-barb-arrow::before, .wide-headed-north-west-light-barb-arrow-before::before{ content:var(--wide-headed-north-west-light-barb-arrow)}
+.wide-headed-north-west-light-barb-arrow-after::after{content:var(--wide-headed-north-west-light-barb-arrow)}
+.wide-headed-north-west-light-barb-arrow-both::after, .wide-headed-north-west-light-barb-arrow-both::before {content:var(--wide-headed-north-west-light-barb-arrow)}
+.wide-headed-north-west-light-barb-arrow-list { list-style: var(--wide-headed-north-west-light-barb-arrow)}
+
+
+
+.wide-headed-north-west-medium-barb-arrow::before, .wide-headed-north-west-medium-barb-arrow-before::before{ content:var(--wide-headed-north-west-medium-barb-arrow)}
+.wide-headed-north-west-medium-barb-arrow-after::after{content:var(--wide-headed-north-west-medium-barb-arrow)}
+.wide-headed-north-west-medium-barb-arrow-both::after, .wide-headed-north-west-medium-barb-arrow-both::before {content:var(--wide-headed-north-west-medium-barb-arrow)}
+.wide-headed-north-west-medium-barb-arrow-list { list-style: var(--wide-headed-north-west-medium-barb-arrow)}
+
+
+
+.wide-headed-north-west-very-heavy-barb-arrow::before, .wide-headed-north-west-very-heavy-barb-arrow-before::before{ content:var(--wide-headed-north-west-very-heavy-barb-arrow)}
+.wide-headed-north-west-very-heavy-barb-arrow-after::after{content:var(--wide-headed-north-west-very-heavy-barb-arrow)}
+.wide-headed-north-west-very-heavy-barb-arrow-both::after, .wide-headed-north-west-very-heavy-barb-arrow-both::before {content:var(--wide-headed-north-west-very-heavy-barb-arrow)}
+.wide-headed-north-west-very-heavy-barb-arrow-list { list-style: var(--wide-headed-north-west-very-heavy-barb-arrow)}
+
+
+
+.wide-headed-rightwards-barb-arrow::before, .wide-headed-rightwards-barb-arrow-before::before{ content:var(--wide-headed-rightwards-barb-arrow)}
+.wide-headed-rightwards-barb-arrow-after::after{content:var(--wide-headed-rightwards-barb-arrow)}
+.wide-headed-rightwards-barb-arrow-both::after, .wide-headed-rightwards-barb-arrow-both::before {content:var(--wide-headed-rightwards-barb-arrow)}
+.wide-headed-rightwards-barb-arrow-list { list-style: var(--wide-headed-rightwards-barb-arrow)}
+
+
+
+.wide-headed-rightwards-heavy-barb-arrow::before, .wide-headed-rightwards-heavy-barb-arrow-before::before{ content:var(--wide-headed-rightwards-heavy-barb-arrow)}
+.wide-headed-rightwards-heavy-barb-arrow-after::after{content:var(--wide-headed-rightwards-heavy-barb-arrow)}
+.wide-headed-rightwards-heavy-barb-arrow-both::after, .wide-headed-rightwards-heavy-barb-arrow-both::before {content:var(--wide-headed-rightwards-heavy-barb-arrow)}
+.wide-headed-rightwards-heavy-barb-arrow-list { list-style: var(--wide-headed-rightwards-heavy-barb-arrow)}
+
+
+
+.wide-headed-rightwards-light-barb-arrow::before, .wide-headed-rightwards-light-barb-arrow-before::before{ content:var(--wide-headed-rightwards-light-barb-arrow)}
+.wide-headed-rightwards-light-barb-arrow-after::after{content:var(--wide-headed-rightwards-light-barb-arrow)}
+.wide-headed-rightwards-light-barb-arrow-both::after, .wide-headed-rightwards-light-barb-arrow-both::before {content:var(--wide-headed-rightwards-light-barb-arrow)}
+.wide-headed-rightwards-light-barb-arrow-list { list-style: var(--wide-headed-rightwards-light-barb-arrow)}
+
+
+
+.wide-headed-rightwards-medium-barb-arrow::before, .wide-headed-rightwards-medium-barb-arrow-before::before{ content:var(--wide-headed-rightwards-medium-barb-arrow)}
+.wide-headed-rightwards-medium-barb-arrow-after::after{content:var(--wide-headed-rightwards-medium-barb-arrow)}
+.wide-headed-rightwards-medium-barb-arrow-both::after, .wide-headed-rightwards-medium-barb-arrow-both::before {content:var(--wide-headed-rightwards-medium-barb-arrow)}
+.wide-headed-rightwards-medium-barb-arrow-list { list-style: var(--wide-headed-rightwards-medium-barb-arrow)}
+
+
+
+.wide-headed-rightwards-very-heavy-barb-arrow::before, .wide-headed-rightwards-very-heavy-barb-arrow-before::before{ content:var(--wide-headed-rightwards-very-heavy-barb-arrow)}
+.wide-headed-rightwards-very-heavy-barb-arrow-after::after{content:var(--wide-headed-rightwards-very-heavy-barb-arrow)}
+.wide-headed-rightwards-very-heavy-barb-arrow-both::after, .wide-headed-rightwards-very-heavy-barb-arrow-both::before {content:var(--wide-headed-rightwards-very-heavy-barb-arrow)}
+.wide-headed-rightwards-very-heavy-barb-arrow-list { list-style: var(--wide-headed-rightwards-very-heavy-barb-arrow)}
+
+
+
+.wide-headed-south-east-barb-arrow::before, .wide-headed-south-east-barb-arrow-before::before{ content:var(--wide-headed-south-east-barb-arrow)}
+.wide-headed-south-east-barb-arrow-after::after{content:var(--wide-headed-south-east-barb-arrow)}
+.wide-headed-south-east-barb-arrow-both::after, .wide-headed-south-east-barb-arrow-both::before {content:var(--wide-headed-south-east-barb-arrow)}
+.wide-headed-south-east-barb-arrow-list { list-style: var(--wide-headed-south-east-barb-arrow)}
+
+
+
+.wide-headed-south-east-heavy-barb-arrow::before, .wide-headed-south-east-heavy-barb-arrow-before::before{ content:var(--wide-headed-south-east-heavy-barb-arrow)}
+.wide-headed-south-east-heavy-barb-arrow-after::after{content:var(--wide-headed-south-east-heavy-barb-arrow)}
+.wide-headed-south-east-heavy-barb-arrow-both::after, .wide-headed-south-east-heavy-barb-arrow-both::before {content:var(--wide-headed-south-east-heavy-barb-arrow)}
+.wide-headed-south-east-heavy-barb-arrow-list { list-style: var(--wide-headed-south-east-heavy-barb-arrow)}
+
+
+
+.wide-headed-south-east-light-barb-arrow::before, .wide-headed-south-east-light-barb-arrow-before::before{ content:var(--wide-headed-south-east-light-barb-arrow)}
+.wide-headed-south-east-light-barb-arrow-after::after{content:var(--wide-headed-south-east-light-barb-arrow)}
+.wide-headed-south-east-light-barb-arrow-both::after, .wide-headed-south-east-light-barb-arrow-both::before {content:var(--wide-headed-south-east-light-barb-arrow)}
+.wide-headed-south-east-light-barb-arrow-list { list-style: var(--wide-headed-south-east-light-barb-arrow)}
+
+
+
+.wide-headed-south-east-medium-barb-arrow::before, .wide-headed-south-east-medium-barb-arrow-before::before{ content:var(--wide-headed-south-east-medium-barb-arrow)}
+.wide-headed-south-east-medium-barb-arrow-after::after{content:var(--wide-headed-south-east-medium-barb-arrow)}
+.wide-headed-south-east-medium-barb-arrow-both::after, .wide-headed-south-east-medium-barb-arrow-both::before {content:var(--wide-headed-south-east-medium-barb-arrow)}
+.wide-headed-south-east-medium-barb-arrow-list { list-style: var(--wide-headed-south-east-medium-barb-arrow)}
+
+
+
+.wide-headed-south-east-very-heavy-barb-arrow::before, .wide-headed-south-east-very-heavy-barb-arrow-before::before{ content:var(--wide-headed-south-east-very-heavy-barb-arrow)}
+.wide-headed-south-east-very-heavy-barb-arrow-after::after{content:var(--wide-headed-south-east-very-heavy-barb-arrow)}
+.wide-headed-south-east-very-heavy-barb-arrow-both::after, .wide-headed-south-east-very-heavy-barb-arrow-both::before {content:var(--wide-headed-south-east-very-heavy-barb-arrow)}
+.wide-headed-south-east-very-heavy-barb-arrow-list { list-style: var(--wide-headed-south-east-very-heavy-barb-arrow)}
+
+
+
+.wide-headed-south-west-barb-arrow::before, .wide-headed-south-west-barb-arrow-before::before{ content:var(--wide-headed-south-west-barb-arrow)}
+.wide-headed-south-west-barb-arrow-after::after{content:var(--wide-headed-south-west-barb-arrow)}
+.wide-headed-south-west-barb-arrow-both::after, .wide-headed-south-west-barb-arrow-both::before {content:var(--wide-headed-south-west-barb-arrow)}
+.wide-headed-south-west-barb-arrow-list { list-style: var(--wide-headed-south-west-barb-arrow)}
+
+
+
+.wide-headed-south-west-heavy-barb-arrow::before, .wide-headed-south-west-heavy-barb-arrow-before::before{ content:var(--wide-headed-south-west-heavy-barb-arrow)}
+.wide-headed-south-west-heavy-barb-arrow-after::after{content:var(--wide-headed-south-west-heavy-barb-arrow)}
+.wide-headed-south-west-heavy-barb-arrow-both::after, .wide-headed-south-west-heavy-barb-arrow-both::before {content:var(--wide-headed-south-west-heavy-barb-arrow)}
+.wide-headed-south-west-heavy-barb-arrow-list { list-style: var(--wide-headed-south-west-heavy-barb-arrow)}
+
+
+
+.wide-headed-south-west-light-barb-arrow::before, .wide-headed-south-west-light-barb-arrow-before::before{ content:var(--wide-headed-south-west-light-barb-arrow)}
+.wide-headed-south-west-light-barb-arrow-after::after{content:var(--wide-headed-south-west-light-barb-arrow)}
+.wide-headed-south-west-light-barb-arrow-both::after, .wide-headed-south-west-light-barb-arrow-both::before {content:var(--wide-headed-south-west-light-barb-arrow)}
+.wide-headed-south-west-light-barb-arrow-list { list-style: var(--wide-headed-south-west-light-barb-arrow)}
+
+
+
+.wide-headed-south-west-medium-barb-arrow::before, .wide-headed-south-west-medium-barb-arrow-before::before{ content:var(--wide-headed-south-west-medium-barb-arrow)}
+.wide-headed-south-west-medium-barb-arrow-after::after{content:var(--wide-headed-south-west-medium-barb-arrow)}
+.wide-headed-south-west-medium-barb-arrow-both::after, .wide-headed-south-west-medium-barb-arrow-both::before {content:var(--wide-headed-south-west-medium-barb-arrow)}
+.wide-headed-south-west-medium-barb-arrow-list { list-style: var(--wide-headed-south-west-medium-barb-arrow)}
+
+
+
+.wide-headed-south-west-very-heavy-barb-arrow::before, .wide-headed-south-west-very-heavy-barb-arrow-before::before{ content:var(--wide-headed-south-west-very-heavy-barb-arrow)}
+.wide-headed-south-west-very-heavy-barb-arrow-after::after{content:var(--wide-headed-south-west-very-heavy-barb-arrow)}
+.wide-headed-south-west-very-heavy-barb-arrow-both::after, .wide-headed-south-west-very-heavy-barb-arrow-both::before {content:var(--wide-headed-south-west-very-heavy-barb-arrow)}
+.wide-headed-south-west-very-heavy-barb-arrow-list { list-style: var(--wide-headed-south-west-very-heavy-barb-arrow)}
+
+
+
+.wide-headed-upwards-barb-arrow::before, .wide-headed-upwards-barb-arrow-before::before{ content:var(--wide-headed-upwards-barb-arrow)}
+.wide-headed-upwards-barb-arrow-after::after{content:var(--wide-headed-upwards-barb-arrow)}
+.wide-headed-upwards-barb-arrow-both::after, .wide-headed-upwards-barb-arrow-both::before {content:var(--wide-headed-upwards-barb-arrow)}
+.wide-headed-upwards-barb-arrow-list { list-style: var(--wide-headed-upwards-barb-arrow)}
+
+
+
+.wide-headed-upwards-heavy-barb-arrow::before, .wide-headed-upwards-heavy-barb-arrow-before::before{ content:var(--wide-headed-upwards-heavy-barb-arrow)}
+.wide-headed-upwards-heavy-barb-arrow-after::after{content:var(--wide-headed-upwards-heavy-barb-arrow)}
+.wide-headed-upwards-heavy-barb-arrow-both::after, .wide-headed-upwards-heavy-barb-arrow-both::before {content:var(--wide-headed-upwards-heavy-barb-arrow)}
+.wide-headed-upwards-heavy-barb-arrow-list { list-style: var(--wide-headed-upwards-heavy-barb-arrow)}
+
+
+
+.wide-headed-upwards-light-barb-arrow::before, .wide-headed-upwards-light-barb-arrow-before::before{ content:var(--wide-headed-upwards-light-barb-arrow)}
+.wide-headed-upwards-light-barb-arrow-after::after{content:var(--wide-headed-upwards-light-barb-arrow)}
+.wide-headed-upwards-light-barb-arrow-both::after, .wide-headed-upwards-light-barb-arrow-both::before {content:var(--wide-headed-upwards-light-barb-arrow)}
+.wide-headed-upwards-light-barb-arrow-list { list-style: var(--wide-headed-upwards-light-barb-arrow)}
+
+
+
+.wide-headed-upwards-medium-barb-arrow::before, .wide-headed-upwards-medium-barb-arrow-before::before{ content:var(--wide-headed-upwards-medium-barb-arrow)}
+.wide-headed-upwards-medium-barb-arrow-after::after{content:var(--wide-headed-upwards-medium-barb-arrow)}
+.wide-headed-upwards-medium-barb-arrow-both::after, .wide-headed-upwards-medium-barb-arrow-both::before {content:var(--wide-headed-upwards-medium-barb-arrow)}
+.wide-headed-upwards-medium-barb-arrow-list { list-style: var(--wide-headed-upwards-medium-barb-arrow)}
+
+
+
+.wide-headed-upwards-very-heavy-barb-arrow::before, .wide-headed-upwards-very-heavy-barb-arrow-before::before{ content:var(--wide-headed-upwards-very-heavy-barb-arrow)}
+.wide-headed-upwards-very-heavy-barb-arrow-after::after{content:var(--wide-headed-upwards-very-heavy-barb-arrow)}
+.wide-headed-upwards-very-heavy-barb-arrow-both::after, .wide-headed-upwards-very-heavy-barb-arrow-both::before {content:var(--wide-headed-upwards-very-heavy-barb-arrow)}
+.wide-headed-upwards-very-heavy-barb-arrow-list { list-style: var(--wide-headed-upwards-very-heavy-barb-arrow)}
+}

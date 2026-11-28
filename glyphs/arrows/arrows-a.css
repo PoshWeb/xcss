@@ -1,0 +1,132 @@
+@layer supplemental-arrows-a {
+:root {
+--anticlockwise-gapped-circle-arrow:'\27F2';
+--clockwise-gapped-circle-arrow:'\27F3';
+--downwards-quadruple-arrow:'\27F1';
+--long-left-right-arrow:'\27F7';
+--long-left-right-double-arrow:'\27FA';
+--long-leftwards-arrow:'\27F5';
+--long-leftwards-arrow-from-bar:'\27FB';
+--long-leftwards-double-arrow:'\27F8';
+--long-leftwards-double-arrow-from-bar:'\27FD';
+--long-rightwards-arrow:'\27F6';
+--long-rightwards-arrow-from-bar:'\27FC';
+--long-rightwards-double-arrow:'\27F9';
+--long-rightwards-double-arrow-from-bar:'\27FE';
+--long-rightwards-squiggle-arrow:'\27FF';
+--right-arrow-with-circled-plus:'\27F4';
+--upwards-quadruple-arrow:'\27F0';
+}
+
+
+
+.anticlockwise-gapped-circle-arrow::before, .anticlockwise-gapped-circle-arrow-before::before{ content:var(--anticlockwise-gapped-circle-arrow)}
+.anticlockwise-gapped-circle-arrow-after::after{content:var(--anticlockwise-gapped-circle-arrow)}
+.anticlockwise-gapped-circle-arrow-both::after, .anticlockwise-gapped-circle-arrow-both::before {content:var(--anticlockwise-gapped-circle-arrow)}
+.anticlockwise-gapped-circle-arrow-list { list-style: var(--anticlockwise-gapped-circle-arrow)}
+
+
+
+.clockwise-gapped-circle-arrow::before, .clockwise-gapped-circle-arrow-before::before{ content:var(--clockwise-gapped-circle-arrow)}
+.clockwise-gapped-circle-arrow-after::after{content:var(--clockwise-gapped-circle-arrow)}
+.clockwise-gapped-circle-arrow-both::after, .clockwise-gapped-circle-arrow-both::before {content:var(--clockwise-gapped-circle-arrow)}
+.clockwise-gapped-circle-arrow-list { list-style: var(--clockwise-gapped-circle-arrow)}
+
+
+
+.downwards-quadruple-arrow::before, .downwards-quadruple-arrow-before::before{ content:var(--downwards-quadruple-arrow)}
+.downwards-quadruple-arrow-after::after{content:var(--downwards-quadruple-arrow)}
+.downwards-quadruple-arrow-both::after, .downwards-quadruple-arrow-both::before {content:var(--downwards-quadruple-arrow)}
+.downwards-quadruple-arrow-list { list-style: var(--downwards-quadruple-arrow)}
+
+
+
+.long-left-right-arrow::before, .long-left-right-arrow-before::before{ content:var(--long-left-right-arrow)}
+.long-left-right-arrow-after::after{content:var(--long-left-right-arrow)}
+.long-left-right-arrow-both::after, .long-left-right-arrow-both::before {content:var(--long-left-right-arrow)}
+.long-left-right-arrow-list { list-style: var(--long-left-right-arrow)}
+
+
+
+.long-left-right-double-arrow::before, .long-left-right-double-arrow-before::before{ content:var(--long-left-right-double-arrow)}
+.long-left-right-double-arrow-after::after{content:var(--long-left-right-double-arrow)}
+.long-left-right-double-arrow-both::after, .long-left-right-double-arrow-both::before {content:var(--long-left-right-double-arrow)}
+.long-left-right-double-arrow-list { list-style: var(--long-left-right-double-arrow)}
+
+
+
+.long-leftwards-arrow::before, .long-leftwards-arrow-before::before{ content:var(--long-leftwards-arrow)}
+.long-leftwards-arrow-after::after{content:var(--long-leftwards-arrow)}
+.long-leftwards-arrow-both::after, .long-leftwards-arrow-both::before {content:var(--long-leftwards-arrow)}
+.long-leftwards-arrow-list { list-style: var(--long-leftwards-arrow)}
+
+
+
+.long-leftwards-arrow-from-bar::before, .long-leftwards-arrow-from-bar-before::before{ content:var(--long-leftwards-arrow-from-bar)}
+.long-leftwards-arrow-from-bar-after::after{content:var(--long-leftwards-arrow-from-bar)}
+.long-leftwards-arrow-from-bar-both::after, .long-leftwards-arrow-from-bar-both::before {content:var(--long-leftwards-arrow-from-bar)}
+.long-leftwards-arrow-from-bar-list { list-style: var(--long-leftwards-arrow-from-bar)}
+
+
+
+.long-leftwards-double-arrow::before, .long-leftwards-double-arrow-before::before{ content:var(--long-leftwards-double-arrow)}
+.long-leftwards-double-arrow-after::after{content:var(--long-leftwards-double-arrow)}
+.long-leftwards-double-arrow-both::after, .long-leftwards-double-arrow-both::before {content:var(--long-leftwards-double-arrow)}
+.long-leftwards-double-arrow-list { list-style: var(--long-leftwards-double-arrow)}
+
+
+
+.long-leftwards-double-arrow-from-bar::before, .long-leftwards-double-arrow-from-bar-before::before{ content:var(--long-leftwards-double-arrow-from-bar)}
+.long-leftwards-double-arrow-from-bar-after::after{content:var(--long-leftwards-double-arrow-from-bar)}
+.long-leftwards-double-arrow-from-bar-both::after, .long-leftwards-double-arrow-from-bar-both::before {content:var(--long-leftwards-double-arrow-from-bar)}
+.long-leftwards-double-arrow-from-bar-list { list-style: var(--long-leftwards-double-arrow-from-bar)}
+
+
+
+.long-rightwards-arrow::before, .long-rightwards-arrow-before::before{ content:var(--long-rightwards-arrow)}
+.long-rightwards-arrow-after::after{content:var(--long-rightwards-arrow)}
+.long-rightwards-arrow-both::after, .long-rightwards-arrow-both::before {content:var(--long-rightwards-arrow)}
+.long-rightwards-arrow-list { list-style: var(--long-rightwards-arrow)}
+
+
+
+.long-rightwards-arrow-from-bar::before, .long-rightwards-arrow-from-bar-before::before{ content:var(--long-rightwards-arrow-from-bar)}
+.long-rightwards-arrow-from-bar-after::after{content:var(--long-rightwards-arrow-from-bar)}
+.long-rightwards-arrow-from-bar-both::after, .long-rightwards-arrow-from-bar-both::before {content:var(--long-rightwards-arrow-from-bar)}
+.long-rightwards-arrow-from-bar-list { list-style: var(--long-rightwards-arrow-from-bar)}
+
+
+
+.long-rightwards-double-arrow::before, .long-rightwards-double-arrow-before::before{ content:var(--long-rightwards-double-arrow)}
+.long-rightwards-double-arrow-after::after{content:var(--long-rightwards-double-arrow)}
+.long-rightwards-double-arrow-both::after, .long-rightwards-double-arrow-both::before {content:var(--long-rightwards-double-arrow)}
+.long-rightwards-double-arrow-list { list-style: var(--long-rightwards-double-arrow)}
+
+
+
+.long-rightwards-double-arrow-from-bar::before, .long-rightwards-double-arrow-from-bar-before::before{ content:var(--long-rightwards-double-arrow-from-bar)}
+.long-rightwards-double-arrow-from-bar-after::after{content:var(--long-rightwards-double-arrow-from-bar)}
+.long-rightwards-double-arrow-from-bar-both::after, .long-rightwards-double-arrow-from-bar-both::before {content:var(--long-rightwards-double-arrow-from-bar)}
+.long-rightwards-double-arrow-from-bar-list { list-style: var(--long-rightwards-double-arrow-from-bar)}
+
+
+
+.long-rightwards-squiggle-arrow::before, .long-rightwards-squiggle-arrow-before::before{ content:var(--long-rightwards-squiggle-arrow)}
+.long-rightwards-squiggle-arrow-after::after{content:var(--long-rightwards-squiggle-arrow)}
+.long-rightwards-squiggle-arrow-both::after, .long-rightwards-squiggle-arrow-both::before {content:var(--long-rightwards-squiggle-arrow)}
+.long-rightwards-squiggle-arrow-list { list-style: var(--long-rightwards-squiggle-arrow)}
+
+
+
+.right-arrow-with-circled-plus::before, .right-arrow-with-circled-plus-before::before{ content:var(--right-arrow-with-circled-plus)}
+.right-arrow-with-circled-plus-after::after{content:var(--right-arrow-with-circled-plus)}
+.right-arrow-with-circled-plus-both::after, .right-arrow-with-circled-plus-both::before {content:var(--right-arrow-with-circled-plus)}
+.right-arrow-with-circled-plus-list { list-style: var(--right-arrow-with-circled-plus)}
+
+
+
+.upwards-quadruple-arrow::before, .upwards-quadruple-arrow-before::before{ content:var(--upwards-quadruple-arrow)}
+.upwards-quadruple-arrow-after::after{content:var(--upwards-quadruple-arrow)}
+.upwards-quadruple-arrow-both::after, .upwards-quadruple-arrow-both::before {content:var(--upwards-quadruple-arrow)}
+.upwards-quadruple-arrow-list { list-style: var(--upwards-quadruple-arrow)}
+}
