@@ -1,0 +1,39 @@
+:root {
+  --name: Edge Light;
+  --black: #fafafa;
+  --red: #d05858;
+  --green: #608e32;
+  --yellow: #be7e05;
+  --blue: #5079be;
+  --purple: #b05ccc;
+  --cyan: #3a8b84;
+  --white: #8790a0;
+  --brightBlack: #afb8c2;
+  --brightRed: #e17373;
+  --brightGreen: #76af6f;
+  --brightYellow: #deb974;
+  --brightBlue: #6996e0;
+  --brightPurple: #bf75d6;
+  --brightCyan: #5dbbc1;
+  --brightWhite: #7e869b;
+  --background: #fafafa;
+  --foreground: #4b505b;
+  --cursorColor: #3a8b84;
+  --selectionBackground: #e3eaf6;
+  --luma: 0.980392;
+  --contrast: 0.667721;
+  --paletteName: Edge Light;
+  --paletteFileName: Edge-Light;
+  --isBright: 0;
+  --isDark: 1  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
