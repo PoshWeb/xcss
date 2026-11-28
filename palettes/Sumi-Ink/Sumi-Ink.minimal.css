@@ -1,0 +1,40 @@
+:root {
+  --name: Sumi Ink;
+  --black: #3a342e;
+  --red: #c0503f;
+  --green: #7f9a6a;
+  --yellow: #c9a45c;
+  --blue: #6f86a8;
+  --purple: #a66b86;
+  --cyan: #6fa39a;
+  --white: #d8ccb4;
+  --brightBlack: #7a7166;
+  --brightRed: #d8705e;
+  --brightGreen: #9cb585;
+  --brightYellow: #dcbd7a;
+  --brightBlue: #8ea2c0;
+  --brightPurple: #c08aa2;
+  --brightCyan: #8fbdb3;
+  --brightWhite: #efe5d1;
+  --background: #1e1b18;
+  --foreground: #e6dcc6;
+  --cursorColor: #a3362a;
+  --selectionBackground: #a3362a;
+  --luma: 0.107534;
+  --contrast: 0.757319;
+  --paletteName: Sumi Ink;
+  --paletteFileName: Sumi-Ink;
+  --isBright: 0;
+  --isDark: 1;
+  --by: EldinBegano  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
