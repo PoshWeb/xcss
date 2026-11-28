@@ -144,7 +144,7 @@ $env:TURTLE_BOT = $true
 filter paletteToOption {
     $paletteName = $_
     "<option value='$(
-        [Web.HttpUtility]::HtmlAttributeEncode($palettes[$paletteName].FileName)
+        [Web.HttpUtility]::HtmlAttributeEncode($palettes[$paletteName].fileName)
     )'>$(
         [Web.HttpUtility]::HtmlEncode($paletteName)
     )</option>"
@@ -239,11 +239,11 @@ $backgroundPatternAnimations = $endlessAnimations =
     },[Ordered]@{
         type = 'scale'    ; values = 0.66,0.33, 0.66 ; repeatCount = 'indefinite' ;dur = "277s"; additive = 'sum';id ='scale-pattern'
     }, [Ordered]@{
-        type = 'rotate'   ; values = 0, 360 ;repeatCount = 'indefinite'; dur = "317s"; additive = 'sum'; id ='rotate-pattern'
+        type = 'rotate'   ; values = 0, 3.6,0 ;repeatCount = 'indefinite'; dur = "317s"; additive = 'sum'; id ='rotate-pattern'
     }, [Ordered]@{
-        type = 'skewX'   ; values = "0;45;0"; dur = "401s"; additive = 'sum'; id ='skewx-pattern'
+        type = 'skewX'   ; values = "0;4.5;0"; dur = "401s"; additive = 'sum'; id ='skewx-pattern'
     }, [Ordered]@{
-        type = 'skewY'   ; values = "0;-45;0"; dur = "503s"; additive = 'sum'; id ='skewy-pattern'
+        type = 'skewY'   ; values = "0;-4.5;0"; dur = "503s"; additive = 'sum'; id ='skewy-pattern'
     }
 
 
