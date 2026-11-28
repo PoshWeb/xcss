@@ -1,0 +1,39 @@
+:root {
+  --name: Lumina Rayleigh Light;
+  --black: #1d2f47;
+  --red: #94171b;
+  --green: #1e773b;
+  --yellow: #a35f00;
+  --blue: #0160a7;
+  --purple: #8d4487;
+  --cyan: #056271;
+  --white: #5d718d;
+  --brightBlack: #576c81;
+  --brightRed: #6c1f1d;
+  --brightGreen: #01622a;
+  --brightYellow: #874e00;
+  --brightBlue: #004c87;
+  --brightPurple: #763171;
+  --brightCyan: #004d59;
+  --brightWhite: #7b90ad;
+  --background: #edf8ff;
+  --foreground: #1d2f47;
+  --cursorColor: #1d2f47;
+  --selectionBackground: #b5d0e9;
+  --luma: 0.96536;
+  --contrast: 0.789258;
+  --paletteName: Lumina Rayleigh Light;
+  --paletteFileName: Lumina-Rayleigh-Light;
+  --isBright: 0;
+  --isDark: 1  
+}
+.foreground, .Foreground { color: var(--foreground); }
+.background, .Background { background-color: var(--background); }
+
+.foreground-border , .Foreground-Border   { border-color: var(--foreground)  }
+.foreground-fill   , .Foreground-Fill     { fill: var(--foreground)          }
+.foreground-stroke , .Foreground-Stroke   { stroke: var(--foreground)        }
+
+.background-border , .Background-Border  { border-color: var(--background)   }
+.background-fill   , .Background-Fill    { fill: var(--background)           }
+.background-stroke , .Background-Stroke  { stroke: var(--background)         }
