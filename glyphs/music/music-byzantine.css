@@ -1,0 +1,1972 @@
+@layer byzantine-musical-symbols {
+:root {
+--byzantine-musical-symbol-agogi-argi:'\1D09C';
+--byzantine-musical-symbol-agogi-argoteri:'\1D09B';
+--byzantine-musical-symbol-agogi-gorgi:'\1D09F';
+--byzantine-musical-symbol-agogi-gorgoteri:'\1D0A0';
+--byzantine-musical-symbol-agogi-mesi:'\1D09E';
+--byzantine-musical-symbol-agogi-metria:'\1D09D';
+--byzantine-musical-symbol-agogi-poli-argi:'\1D09A';
+--byzantine-musical-symbol-agogi-poli-gorgi:'\1D0A1';
+--byzantine-musical-symbol-anatrichisma:'\1D028';
+--byzantine-musical-symbol-antikenokylisma:'\1D062';
+--byzantine-musical-symbol-antikenoma:'\1D05C';
+--byzantine-musical-symbol-apeso-ekfonitikon:'\1D00D';
+--byzantine-musical-symbol-apeso-exo-neo:'\1D033';
+--byzantine-musical-symbol-apli:'\1D085';
+--byzantine-musical-symbol-apoderma-archaion:'\1D022';
+--byzantine-musical-symbol-apoderma-neo:'\1D084';
+--byzantine-musical-symbol-apostrofoi-syndesmos-neo:'\1D052';
+--byzantine-musical-symbol-apostrofoi-telous-ichimatos:'\1D0AD';
+--byzantine-musical-symbol-apostrofos:'\1D011';
+--byzantine-musical-symbol-apostrofos-dipli:'\1D012';
+--byzantine-musical-symbol-apostrofos-neo:'\1D051';
+--byzantine-musical-symbol-apothema:'\1D023';
+--byzantine-musical-symbol-argon:'\1D097';
+--byzantine-musical-symbol-argosyntheton:'\1D073';
+--byzantine-musical-symbol-arktiko-di:'\1D0EC';
+--byzantine-musical-symbol-arktiko-ga:'\1D0EB';
+--byzantine-musical-symbol-arktiko-ke:'\1D0ED';
+--byzantine-musical-symbol-arktiko-ni:'\1D0EF';
+--byzantine-musical-symbol-arktiko-pa:'\1D0E9';
+--byzantine-musical-symbol-arktiko-vou:'\1D0EA';
+--byzantine-musical-symbol-arktiko-zo:'\1D0EE';
+--byzantine-musical-symbol-chamili:'\1D056';
+--byzantine-musical-symbol-chamilon:'\1D018';
+--byzantine-musical-symbol-chorevma-archaion:'\1D03B';
+--byzantine-musical-symbol-chorevma-neo:'\1D067';
+--byzantine-musical-symbol-chroa-kliton:'\1D0C9';
+--byzantine-musical-symbol-chroa-spathi:'\1D0CA';
+--byzantine-musical-symbol-chroa-zygos:'\1D0C8';
+--byzantine-musical-symbol-daseia:'\1D001';
+--byzantine-musical-symbol-diargon:'\1D099';
+--byzantine-musical-symbol-diastoli-apli-megali:'\1D0DB';
+--byzantine-musical-symbol-diastoli-apli-mikri:'\1D0DA';
+--byzantine-musical-symbol-diastoli-dipli:'\1D0DC';
+--byzantine-musical-symbol-diastoli-theseos:'\1D0DD';
+--byzantine-musical-symbol-diesis-apli-dyo-dodekata:'\1D0D0';
+--byzantine-musical-symbol-diesis-digrammos-ex-dodekata:'\1D0D2';
+--byzantine-musical-symbol-diesis-monogrammos-tessera-dodekata:'\1D0D1';
+--byzantine-musical-symbol-diesis-tetartimorion:'\1D0CF';
+--byzantine-musical-symbol-diesis-trigrammos-okto-dodekata:'\1D0D3';
+--byzantine-musical-symbol-diesis-tritimorion:'\1D0CE';
+--byzantine-musical-symbol-diftoggos-ou:'\1D0E7';
+--byzantine-musical-symbol-digorgon:'\1D092';
+--byzantine-musical-symbol-digorgon-parestigmenon-aristera-ano:'\1D094';
+--byzantine-musical-symbol-digorgon-parestigmenon-aristera-kato:'\1D093';
+--byzantine-musical-symbol-digorgon-parestigmenon-dexia:'\1D095';
+--byzantine-musical-symbol-digramma-gg:'\1D0E6';
+--byzantine-musical-symbol-dipli:'\1D086';
+--byzantine-musical-symbol-dipli-archaion:'\1D080';
+--byzantine-musical-symbol-dyo:'\1D02F';
+--byzantine-musical-symbol-ekstrepton:'\1D064';
+--byzantine-musical-symbol-elafron:'\1D055';
+--byzantine-musical-symbol-enarxis-kai-fthora-vou:'\1D0B6';
+--byzantine-musical-symbol-endofonon:'\1D07B';
+--byzantine-musical-symbol-epegerma:'\1D068';
+--byzantine-musical-symbol-eteron-argosyntheton:'\1D074';
+--byzantine-musical-symbol-eteron-parakalesma:'\1D060';
+--byzantine-musical-symbol-exo-ekfonitikon:'\1D00E';
+--byzantine-musical-symbol-fanerosis-difonias:'\1D0B0';
+--byzantine-musical-symbol-fanerosis-monofonias:'\1D0AF';
+--byzantine-musical-symbol-fanerosis-tetrafonias:'\1D0AE';
+--byzantine-musical-symbol-fhtora-skliron-chroma-vasis:'\1D0C5';
+--byzantine-musical-symbol-fthora-archaion:'\1D034';
+--byzantine-musical-symbol-fthora-archaion-deyterou-ichou:'\1D0B9';
+--byzantine-musical-symbol-fthora-diatoniki-di:'\1D0BD';
+--byzantine-musical-symbol-fthora-diatoniki-ke:'\1D0BF';
+--byzantine-musical-symbol-fthora-diatoniki-nana:'\1D0BB';
+--byzantine-musical-symbol-fthora-diatoniki-ni-ano:'\1D0C2';
+--byzantine-musical-symbol-fthora-diatoniki-ni-kato:'\1D0C1';
+--byzantine-musical-symbol-fthora-diatoniki-pa:'\1D0BA';
+--byzantine-musical-symbol-fthora-diatoniki-zo:'\1D0C0';
+--byzantine-musical-symbol-fthora-enarmonios-antifonia:'\1D0CC';
+--byzantine-musical-symbol-fthora-i-yfesis-tetartimorion:'\1D0CB';
+--byzantine-musical-symbol-fthora-malakon-chroma-difonias:'\1D0C3';
+--byzantine-musical-symbol-fthora-malakon-chroma-monofonias:'\1D0C4';
+--byzantine-musical-symbol-fthora-naos-ichos:'\1D0BC';
+--byzantine-musical-symbol-fthora-nenano:'\1D0C7';
+--byzantine-musical-symbol-fthora-skliron-chroma-synafi:'\1D0C6';
+--byzantine-musical-symbol-fthora-skliron-diatonon-di:'\1D0BE';
+--byzantine-musical-symbol-geniki-diesis:'\1D0D8';
+--byzantine-musical-symbol-geniki-yfesis:'\1D0D9';
+--byzantine-musical-symbol-gorgon-archaion:'\1D016';
+--byzantine-musical-symbol-gorgon-neo-ano:'\1D08F';
+--byzantine-musical-symbol-gorgon-neo-kato:'\1D0F5';
+--byzantine-musical-symbol-gorgon-parestigmenon-aristera:'\1D090';
+--byzantine-musical-symbol-gorgon-parestigmenon-dexia:'\1D091';
+--byzantine-musical-symbol-gorgosyntheton:'\1D072';
+--byzantine-musical-symbol-gorthmikon-n-aploun:'\1D0B4';
+--byzantine-musical-symbol-gorthmikon-n-diploun:'\1D0B5';
+--byzantine-musical-symbol-gronthismata:'\1D045';
+--byzantine-musical-symbol-ichadin:'\1D03F';
+--byzantine-musical-symbol-imidiargon:'\1D098';
+--byzantine-musical-symbol-imifonon:'\1D0B7';
+--byzantine-musical-symbol-imifthora:'\1D035';
+--byzantine-musical-symbol-imifthoron:'\1D0B8';
+--byzantine-musical-symbol-isakia-telous-ichimatos:'\1D0AC';
+--byzantine-musical-symbol-ison-archaion:'\1D01A';
+--byzantine-musical-symbol-ison-neo:'\1D046';
+--byzantine-musical-symbol-katava-tromikon:'\1D037';
+--byzantine-musical-symbol-katavasma:'\1D07A';
+--byzantine-musical-symbol-kathisti:'\1D007';
+--byzantine-musical-symbol-kentima-archaion:'\1D01B';
+--byzantine-musical-symbol-kentima-neo-ano:'\1D04F';
+--byzantine-musical-symbol-kentima-neo-kato:'\1D0F3';
+--byzantine-musical-symbol-kentima-neo-meso:'\1D0F1';
+--byzantine-musical-symbol-kentimata:'\1D010';
+--byzantine-musical-symbol-kentimata-archaion:'\1D01C';
+--byzantine-musical-symbol-kentimata-neo-ano:'\1D04E';
+--byzantine-musical-symbol-kentimata-neo-kato:'\1D0F2';
+--byzantine-musical-symbol-kentimata-neo-meso:'\1D0F0';
+--byzantine-musical-symbol-klasma:'\1D024';
+--byzantine-musical-symbol-klasma-ano:'\1D07F';
+--byzantine-musical-symbol-klasma-kato:'\1D0F4';
+--byzantine-musical-symbol-kontevma:'\1D03A';
+--byzantine-musical-symbol-kontevma-allo:'\1D042';
+--byzantine-musical-symbol-koronis:'\1D089';
+--byzantine-musical-symbol-koufisma:'\1D04A';
+--byzantine-musical-symbol-kratima-allo:'\1D082';
+--byzantine-musical-symbol-kratima-archaion:'\1D081';
+--byzantine-musical-symbol-kratima-neo:'\1D083';
+--byzantine-musical-symbol-kratimata:'\1D032';
+--byzantine-musical-symbol-kratimokoufisma:'\1D04C';
+--byzantine-musical-symbol-kratimoyporroon:'\1D054';
+--byzantine-musical-symbol-kremasti:'\1D00C';
+--byzantine-musical-symbol-kylisma:'\1D061';
+--byzantine-musical-symbol-leimma-dyo-chronon:'\1D08B';
+--byzantine-musical-symbol-leimma-enos-chronou:'\1D08A';
+--byzantine-musical-symbol-leimma-imiseos-chronou:'\1D08E';
+--byzantine-musical-symbol-leimma-tessaron-chronon:'\1D08D';
+--byzantine-musical-symbol-leimma-trion-chronon:'\1D08C';
+--byzantine-musical-symbol-lemoi:'\1D02E';
+--byzantine-musical-symbol-lygisma:'\1D05D';
+--byzantine-musical-symbol-martyria-alli-deyteros-ichos:'\1D0A5';
+--byzantine-musical-symbol-martyria-alli-protos-ichos:'\1D0A3';
+--byzantine-musical-symbol-martyria-deyteros-ichos:'\1D0A4';
+--byzantine-musical-symbol-martyria-legetos-ichos:'\1D0AA';
+--byzantine-musical-symbol-martyria-plagios-ichos:'\1D0AB';
+--byzantine-musical-symbol-martyria-plagios-tetartos-ichos:'\1D0B3';
+--byzantine-musical-symbol-martyria-protos-ichos:'\1D0A2';
+--byzantine-musical-symbol-martyria-protovarys-ichos:'\1D0B2';
+--byzantine-musical-symbol-martyria-tetartos-ichos:'\1D0A8';
+--byzantine-musical-symbol-martyria-tetartos-legetos-ichos:'\1D0A9';
+--byzantine-musical-symbol-martyria-trifonias:'\1D0A7';
+--byzantine-musical-symbol-martyria-tritos-ichos:'\1D0A6';
+--byzantine-musical-symbol-martyria-varys-ichos:'\1D0B1';
+--byzantine-musical-symbol-mikron-ison:'\1D057';
+--byzantine-musical-symbol-nana:'\1D040';
+--byzantine-musical-symbol-oligon-archaion:'\1D015';
+--byzantine-musical-symbol-oligon-neo:'\1D047';
+--byzantine-musical-symbol-omalon:'\1D05B';
+--byzantine-musical-symbol-oxeia-dipli:'\1D004';
+--byzantine-musical-symbol-oxeia-ekfonitikon:'\1D003';
+--byzantine-musical-symbol-oxeia-neo:'\1D048';
+--byzantine-musical-symbol-oxeiai-archaion:'\1D020';
+--byzantine-musical-symbol-oyranisma-archaion:'\1D02C';
+--byzantine-musical-symbol-oyranisma-neo:'\1D075';
+--byzantine-musical-symbol-parakalesma-archaion:'\1D03D';
+--byzantine-musical-symbol-parakalesma-neo:'\1D05F';
+--byzantine-musical-symbol-paraklitiki:'\1D009';
+--byzantine-musical-symbol-paraklitiki-archaion:'\1D03E';
+--byzantine-musical-symbol-paraklitiki-neo:'\1D05E';
+--byzantine-musical-symbol-parichon:'\1D01E';
+--byzantine-musical-symbol-pelaston:'\1D038';
+--byzantine-musical-symbol-pelaston-neo:'\1D04D';
+--byzantine-musical-symbol-perispomeni:'\1D002';
+--byzantine-musical-symbol-petasma:'\1D041';
+--byzantine-musical-symbol-petasti:'\1D049';
+--byzantine-musical-symbol-petastokoufisma:'\1D04B';
+--byzantine-musical-symbol-piasma-archaion:'\1D026';
+--byzantine-musical-symbol-piasma-neo:'\1D059';
+--byzantine-musical-symbol-psifistolygisma:'\1D06C';
+--byzantine-musical-symbol-psifiston:'\1D039';
+--byzantine-musical-symbol-psifiston-neo:'\1D05A';
+--byzantine-musical-symbol-psifistoparakalesma:'\1D06F';
+--byzantine-musical-symbol-psifistosynagma:'\1D071';
+--byzantine-musical-symbol-psili:'\1D000';
+--byzantine-musical-symbol-psilon:'\1D017';
+--byzantine-musical-symbol-rapisma:'\1D03C';
+--byzantine-musical-symbol-revma:'\1D025';
+--byzantine-musical-symbol-saximata:'\1D01D';
+--byzantine-musical-symbol-seisma:'\1D029';
+--byzantine-musical-symbol-seisma-neo:'\1D069';
+--byzantine-musical-symbol-simansis-arseos:'\1D0E2';
+--byzantine-musical-symbol-simansis-arseos-disimou:'\1D0E3';
+--byzantine-musical-symbol-simansis-arseos-tetrasimou:'\1D0E5';
+--byzantine-musical-symbol-simansis-arseos-trisimou:'\1D0E4';
+--byzantine-musical-symbol-simansis-theseos:'\1D0DE';
+--byzantine-musical-symbol-simansis-theseos-disimou:'\1D0DF';
+--byzantine-musical-symbol-simansis-theseos-tetrasimou:'\1D0E1';
+--byzantine-musical-symbol-simansis-theseos-trisimou:'\1D0E0';
+--byzantine-musical-symbol-stavros:'\1D07E';
+--byzantine-musical-symbol-stavros-apodexia:'\1D01F';
+--byzantine-musical-symbol-stigma:'\1D0E8';
+--byzantine-musical-symbol-straggismata:'\1D044';
+--byzantine-musical-symbol-synagma-archaion:'\1D02A';
+--byzantine-musical-symbol-synagma-meta-stavrou:'\1D02B';
+--byzantine-musical-symbol-synagma-neo:'\1D065';
+--byzantine-musical-symbol-synevma:'\1D013';
+--byzantine-musical-symbol-syrma:'\1D066';
+--byzantine-musical-symbol-syrmatiki:'\1D008';
+--byzantine-musical-symbol-teleia:'\1D00F';
+--byzantine-musical-symbol-tessera:'\1D031';
+--byzantine-musical-symbol-tetrapli:'\1D088';
+--byzantine-musical-symbol-thema:'\1D02D';
+--byzantine-musical-symbol-thema-aploun:'\1D078';
+--byzantine-musical-symbol-thematismos-eso:'\1D076';
+--byzantine-musical-symbol-thematismos-exo:'\1D077';
+--byzantine-musical-symbol-thes-kai-apothes:'\1D079';
+--byzantine-musical-symbol-thita:'\1D014';
+--byzantine-musical-symbol-tinagma:'\1D027';
+--byzantine-musical-symbol-tria:'\1D030';
+--byzantine-musical-symbol-trigorgon:'\1D096';
+--byzantine-musical-symbol-tripli:'\1D087';
+--byzantine-musical-symbol-tromikolygisma:'\1D06D';
+--byzantine-musical-symbol-tromikon-allo:'\1D043';
+--byzantine-musical-symbol-tromikon-archaion:'\1D036';
+--byzantine-musical-symbol-tromikon-neo:'\1D063';
+--byzantine-musical-symbol-tromikoparakalesma:'\1D06E';
+--byzantine-musical-symbol-tromikopsifiston:'\1D06B';
+--byzantine-musical-symbol-tromikosynagma:'\1D070';
+--byzantine-musical-symbol-vareia-dipli:'\1D006';
+--byzantine-musical-symbol-vareia-ekfonitikon:'\1D005';
+--byzantine-musical-symbol-vareia-neo:'\1D058';
+--byzantine-musical-symbol-vareiai-archaion:'\1D021';
+--byzantine-musical-symbol-vathy:'\1D019';
+--byzantine-musical-symbol-xiron-klasma:'\1D06A';
+--byzantine-musical-symbol-yfen-ano:'\1D07D';
+--byzantine-musical-symbol-yfen-kato:'\1D07C';
+--byzantine-musical-symbol-yfesis-apli-dyo-dodekata:'\1D0D4';
+--byzantine-musical-symbol-yfesis-digrammos-ex-dodekata:'\1D0D6';
+--byzantine-musical-symbol-yfesis-monogrammos-tessera-dodekata:'\1D0D5';
+--byzantine-musical-symbol-yfesis-trigrammos-okto-dodekata:'\1D0D7';
+--byzantine-musical-symbol-yfesis-tritimorion:'\1D0CD';
+--byzantine-musical-symbol-ypokrisis:'\1D00A';
+--byzantine-musical-symbol-ypokrisis-dipli:'\1D00B';
+--byzantine-musical-symbol-yporroi:'\1D053';
+--byzantine-musical-symbol-ypsili:'\1D050';
+}
+
+
+
+.byzantine-musical-symbol-agogi-argi::before, .byzantine-musical-symbol-agogi-argi-before::before{ content:var(--byzantine-musical-symbol-agogi-argi)}
+.byzantine-musical-symbol-agogi-argi-after::after{content:var(--byzantine-musical-symbol-agogi-argi)}
+.byzantine-musical-symbol-agogi-argi-both::after, .byzantine-musical-symbol-agogi-argi-both::before {content:var(--byzantine-musical-symbol-agogi-argi)}
+.byzantine-musical-symbol-agogi-argi-list { list-style: var(--byzantine-musical-symbol-agogi-argi)}
+
+
+
+.byzantine-musical-symbol-agogi-argoteri::before, .byzantine-musical-symbol-agogi-argoteri-before::before{ content:var(--byzantine-musical-symbol-agogi-argoteri)}
+.byzantine-musical-symbol-agogi-argoteri-after::after{content:var(--byzantine-musical-symbol-agogi-argoteri)}
+.byzantine-musical-symbol-agogi-argoteri-both::after, .byzantine-musical-symbol-agogi-argoteri-both::before {content:var(--byzantine-musical-symbol-agogi-argoteri)}
+.byzantine-musical-symbol-agogi-argoteri-list { list-style: var(--byzantine-musical-symbol-agogi-argoteri)}
+
+
+
+.byzantine-musical-symbol-agogi-gorgi::before, .byzantine-musical-symbol-agogi-gorgi-before::before{ content:var(--byzantine-musical-symbol-agogi-gorgi)}
+.byzantine-musical-symbol-agogi-gorgi-after::after{content:var(--byzantine-musical-symbol-agogi-gorgi)}
+.byzantine-musical-symbol-agogi-gorgi-both::after, .byzantine-musical-symbol-agogi-gorgi-both::before {content:var(--byzantine-musical-symbol-agogi-gorgi)}
+.byzantine-musical-symbol-agogi-gorgi-list { list-style: var(--byzantine-musical-symbol-agogi-gorgi)}
+
+
+
+.byzantine-musical-symbol-agogi-gorgoteri::before, .byzantine-musical-symbol-agogi-gorgoteri-before::before{ content:var(--byzantine-musical-symbol-agogi-gorgoteri)}
+.byzantine-musical-symbol-agogi-gorgoteri-after::after{content:var(--byzantine-musical-symbol-agogi-gorgoteri)}
+.byzantine-musical-symbol-agogi-gorgoteri-both::after, .byzantine-musical-symbol-agogi-gorgoteri-both::before {content:var(--byzantine-musical-symbol-agogi-gorgoteri)}
+.byzantine-musical-symbol-agogi-gorgoteri-list { list-style: var(--byzantine-musical-symbol-agogi-gorgoteri)}
+
+
+
+.byzantine-musical-symbol-agogi-mesi::before, .byzantine-musical-symbol-agogi-mesi-before::before{ content:var(--byzantine-musical-symbol-agogi-mesi)}
+.byzantine-musical-symbol-agogi-mesi-after::after{content:var(--byzantine-musical-symbol-agogi-mesi)}
+.byzantine-musical-symbol-agogi-mesi-both::after, .byzantine-musical-symbol-agogi-mesi-both::before {content:var(--byzantine-musical-symbol-agogi-mesi)}
+.byzantine-musical-symbol-agogi-mesi-list { list-style: var(--byzantine-musical-symbol-agogi-mesi)}
+
+
+
+.byzantine-musical-symbol-agogi-metria::before, .byzantine-musical-symbol-agogi-metria-before::before{ content:var(--byzantine-musical-symbol-agogi-metria)}
+.byzantine-musical-symbol-agogi-metria-after::after{content:var(--byzantine-musical-symbol-agogi-metria)}
+.byzantine-musical-symbol-agogi-metria-both::after, .byzantine-musical-symbol-agogi-metria-both::before {content:var(--byzantine-musical-symbol-agogi-metria)}
+.byzantine-musical-symbol-agogi-metria-list { list-style: var(--byzantine-musical-symbol-agogi-metria)}
+
+
+
+.byzantine-musical-symbol-agogi-poli-argi::before, .byzantine-musical-symbol-agogi-poli-argi-before::before{ content:var(--byzantine-musical-symbol-agogi-poli-argi)}
+.byzantine-musical-symbol-agogi-poli-argi-after::after{content:var(--byzantine-musical-symbol-agogi-poli-argi)}
+.byzantine-musical-symbol-agogi-poli-argi-both::after, .byzantine-musical-symbol-agogi-poli-argi-both::before {content:var(--byzantine-musical-symbol-agogi-poli-argi)}
+.byzantine-musical-symbol-agogi-poli-argi-list { list-style: var(--byzantine-musical-symbol-agogi-poli-argi)}
+
+
+
+.byzantine-musical-symbol-agogi-poli-gorgi::before, .byzantine-musical-symbol-agogi-poli-gorgi-before::before{ content:var(--byzantine-musical-symbol-agogi-poli-gorgi)}
+.byzantine-musical-symbol-agogi-poli-gorgi-after::after{content:var(--byzantine-musical-symbol-agogi-poli-gorgi)}
+.byzantine-musical-symbol-agogi-poli-gorgi-both::after, .byzantine-musical-symbol-agogi-poli-gorgi-both::before {content:var(--byzantine-musical-symbol-agogi-poli-gorgi)}
+.byzantine-musical-symbol-agogi-poli-gorgi-list { list-style: var(--byzantine-musical-symbol-agogi-poli-gorgi)}
+
+
+
+.byzantine-musical-symbol-anatrichisma::before, .byzantine-musical-symbol-anatrichisma-before::before{ content:var(--byzantine-musical-symbol-anatrichisma)}
+.byzantine-musical-symbol-anatrichisma-after::after{content:var(--byzantine-musical-symbol-anatrichisma)}
+.byzantine-musical-symbol-anatrichisma-both::after, .byzantine-musical-symbol-anatrichisma-both::before {content:var(--byzantine-musical-symbol-anatrichisma)}
+.byzantine-musical-symbol-anatrichisma-list { list-style: var(--byzantine-musical-symbol-anatrichisma)}
+
+
+
+.byzantine-musical-symbol-antikenokylisma::before, .byzantine-musical-symbol-antikenokylisma-before::before{ content:var(--byzantine-musical-symbol-antikenokylisma)}
+.byzantine-musical-symbol-antikenokylisma-after::after{content:var(--byzantine-musical-symbol-antikenokylisma)}
+.byzantine-musical-symbol-antikenokylisma-both::after, .byzantine-musical-symbol-antikenokylisma-both::before {content:var(--byzantine-musical-symbol-antikenokylisma)}
+.byzantine-musical-symbol-antikenokylisma-list { list-style: var(--byzantine-musical-symbol-antikenokylisma)}
+
+
+
+.byzantine-musical-symbol-antikenoma::before, .byzantine-musical-symbol-antikenoma-before::before{ content:var(--byzantine-musical-symbol-antikenoma)}
+.byzantine-musical-symbol-antikenoma-after::after{content:var(--byzantine-musical-symbol-antikenoma)}
+.byzantine-musical-symbol-antikenoma-both::after, .byzantine-musical-symbol-antikenoma-both::before {content:var(--byzantine-musical-symbol-antikenoma)}
+.byzantine-musical-symbol-antikenoma-list { list-style: var(--byzantine-musical-symbol-antikenoma)}
+
+
+
+.byzantine-musical-symbol-apeso-ekfonitikon::before, .byzantine-musical-symbol-apeso-ekfonitikon-before::before{ content:var(--byzantine-musical-symbol-apeso-ekfonitikon)}
+.byzantine-musical-symbol-apeso-ekfonitikon-after::after{content:var(--byzantine-musical-symbol-apeso-ekfonitikon)}
+.byzantine-musical-symbol-apeso-ekfonitikon-both::after, .byzantine-musical-symbol-apeso-ekfonitikon-both::before {content:var(--byzantine-musical-symbol-apeso-ekfonitikon)}
+.byzantine-musical-symbol-apeso-ekfonitikon-list { list-style: var(--byzantine-musical-symbol-apeso-ekfonitikon)}
+
+
+
+.byzantine-musical-symbol-apeso-exo-neo::before, .byzantine-musical-symbol-apeso-exo-neo-before::before{ content:var(--byzantine-musical-symbol-apeso-exo-neo)}
+.byzantine-musical-symbol-apeso-exo-neo-after::after{content:var(--byzantine-musical-symbol-apeso-exo-neo)}
+.byzantine-musical-symbol-apeso-exo-neo-both::after, .byzantine-musical-symbol-apeso-exo-neo-both::before {content:var(--byzantine-musical-symbol-apeso-exo-neo)}
+.byzantine-musical-symbol-apeso-exo-neo-list { list-style: var(--byzantine-musical-symbol-apeso-exo-neo)}
+
+
+
+.byzantine-musical-symbol-apli::before, .byzantine-musical-symbol-apli-before::before{ content:var(--byzantine-musical-symbol-apli)}
+.byzantine-musical-symbol-apli-after::after{content:var(--byzantine-musical-symbol-apli)}
+.byzantine-musical-symbol-apli-both::after, .byzantine-musical-symbol-apli-both::before {content:var(--byzantine-musical-symbol-apli)}
+.byzantine-musical-symbol-apli-list { list-style: var(--byzantine-musical-symbol-apli)}
+
+
+
+.byzantine-musical-symbol-apoderma-archaion::before, .byzantine-musical-symbol-apoderma-archaion-before::before{ content:var(--byzantine-musical-symbol-apoderma-archaion)}
+.byzantine-musical-symbol-apoderma-archaion-after::after{content:var(--byzantine-musical-symbol-apoderma-archaion)}
+.byzantine-musical-symbol-apoderma-archaion-both::after, .byzantine-musical-symbol-apoderma-archaion-both::before {content:var(--byzantine-musical-symbol-apoderma-archaion)}
+.byzantine-musical-symbol-apoderma-archaion-list { list-style: var(--byzantine-musical-symbol-apoderma-archaion)}
+
+
+
+.byzantine-musical-symbol-apoderma-neo::before, .byzantine-musical-symbol-apoderma-neo-before::before{ content:var(--byzantine-musical-symbol-apoderma-neo)}
+.byzantine-musical-symbol-apoderma-neo-after::after{content:var(--byzantine-musical-symbol-apoderma-neo)}
+.byzantine-musical-symbol-apoderma-neo-both::after, .byzantine-musical-symbol-apoderma-neo-both::before {content:var(--byzantine-musical-symbol-apoderma-neo)}
+.byzantine-musical-symbol-apoderma-neo-list { list-style: var(--byzantine-musical-symbol-apoderma-neo)}
+
+
+
+.byzantine-musical-symbol-apostrofoi-syndesmos-neo::before, .byzantine-musical-symbol-apostrofoi-syndesmos-neo-before::before{ content:var(--byzantine-musical-symbol-apostrofoi-syndesmos-neo)}
+.byzantine-musical-symbol-apostrofoi-syndesmos-neo-after::after{content:var(--byzantine-musical-symbol-apostrofoi-syndesmos-neo)}
+.byzantine-musical-symbol-apostrofoi-syndesmos-neo-both::after, .byzantine-musical-symbol-apostrofoi-syndesmos-neo-both::before {content:var(--byzantine-musical-symbol-apostrofoi-syndesmos-neo)}
+.byzantine-musical-symbol-apostrofoi-syndesmos-neo-list { list-style: var(--byzantine-musical-symbol-apostrofoi-syndesmos-neo)}
+
+
+
+.byzantine-musical-symbol-apostrofoi-telous-ichimatos::before, .byzantine-musical-symbol-apostrofoi-telous-ichimatos-before::before{ content:var(--byzantine-musical-symbol-apostrofoi-telous-ichimatos)}
+.byzantine-musical-symbol-apostrofoi-telous-ichimatos-after::after{content:var(--byzantine-musical-symbol-apostrofoi-telous-ichimatos)}
+.byzantine-musical-symbol-apostrofoi-telous-ichimatos-both::after, .byzantine-musical-symbol-apostrofoi-telous-ichimatos-both::before {content:var(--byzantine-musical-symbol-apostrofoi-telous-ichimatos)}
+.byzantine-musical-symbol-apostrofoi-telous-ichimatos-list { list-style: var(--byzantine-musical-symbol-apostrofoi-telous-ichimatos)}
+
+
+
+.byzantine-musical-symbol-apostrofos::before, .byzantine-musical-symbol-apostrofos-before::before{ content:var(--byzantine-musical-symbol-apostrofos)}
+.byzantine-musical-symbol-apostrofos-after::after{content:var(--byzantine-musical-symbol-apostrofos)}
+.byzantine-musical-symbol-apostrofos-both::after, .byzantine-musical-symbol-apostrofos-both::before {content:var(--byzantine-musical-symbol-apostrofos)}
+.byzantine-musical-symbol-apostrofos-list { list-style: var(--byzantine-musical-symbol-apostrofos)}
+
+
+
+.byzantine-musical-symbol-apostrofos-dipli::before, .byzantine-musical-symbol-apostrofos-dipli-before::before{ content:var(--byzantine-musical-symbol-apostrofos-dipli)}
+.byzantine-musical-symbol-apostrofos-dipli-after::after{content:var(--byzantine-musical-symbol-apostrofos-dipli)}
+.byzantine-musical-symbol-apostrofos-dipli-both::after, .byzantine-musical-symbol-apostrofos-dipli-both::before {content:var(--byzantine-musical-symbol-apostrofos-dipli)}
+.byzantine-musical-symbol-apostrofos-dipli-list { list-style: var(--byzantine-musical-symbol-apostrofos-dipli)}
+
+
+
+.byzantine-musical-symbol-apostrofos-neo::before, .byzantine-musical-symbol-apostrofos-neo-before::before{ content:var(--byzantine-musical-symbol-apostrofos-neo)}
+.byzantine-musical-symbol-apostrofos-neo-after::after{content:var(--byzantine-musical-symbol-apostrofos-neo)}
+.byzantine-musical-symbol-apostrofos-neo-both::after, .byzantine-musical-symbol-apostrofos-neo-both::before {content:var(--byzantine-musical-symbol-apostrofos-neo)}
+.byzantine-musical-symbol-apostrofos-neo-list { list-style: var(--byzantine-musical-symbol-apostrofos-neo)}
+
+
+
+.byzantine-musical-symbol-apothema::before, .byzantine-musical-symbol-apothema-before::before{ content:var(--byzantine-musical-symbol-apothema)}
+.byzantine-musical-symbol-apothema-after::after{content:var(--byzantine-musical-symbol-apothema)}
+.byzantine-musical-symbol-apothema-both::after, .byzantine-musical-symbol-apothema-both::before {content:var(--byzantine-musical-symbol-apothema)}
+.byzantine-musical-symbol-apothema-list { list-style: var(--byzantine-musical-symbol-apothema)}
+
+
+
+.byzantine-musical-symbol-argon::before, .byzantine-musical-symbol-argon-before::before{ content:var(--byzantine-musical-symbol-argon)}
+.byzantine-musical-symbol-argon-after::after{content:var(--byzantine-musical-symbol-argon)}
+.byzantine-musical-symbol-argon-both::after, .byzantine-musical-symbol-argon-both::before {content:var(--byzantine-musical-symbol-argon)}
+.byzantine-musical-symbol-argon-list { list-style: var(--byzantine-musical-symbol-argon)}
+
+
+
+.byzantine-musical-symbol-argosyntheton::before, .byzantine-musical-symbol-argosyntheton-before::before{ content:var(--byzantine-musical-symbol-argosyntheton)}
+.byzantine-musical-symbol-argosyntheton-after::after{content:var(--byzantine-musical-symbol-argosyntheton)}
+.byzantine-musical-symbol-argosyntheton-both::after, .byzantine-musical-symbol-argosyntheton-both::before {content:var(--byzantine-musical-symbol-argosyntheton)}
+.byzantine-musical-symbol-argosyntheton-list { list-style: var(--byzantine-musical-symbol-argosyntheton)}
+
+
+
+.byzantine-musical-symbol-arktiko-di::before, .byzantine-musical-symbol-arktiko-di-before::before{ content:var(--byzantine-musical-symbol-arktiko-di)}
+.byzantine-musical-symbol-arktiko-di-after::after{content:var(--byzantine-musical-symbol-arktiko-di)}
+.byzantine-musical-symbol-arktiko-di-both::after, .byzantine-musical-symbol-arktiko-di-both::before {content:var(--byzantine-musical-symbol-arktiko-di)}
+.byzantine-musical-symbol-arktiko-di-list { list-style: var(--byzantine-musical-symbol-arktiko-di)}
+
+
+
+.byzantine-musical-symbol-arktiko-ga::before, .byzantine-musical-symbol-arktiko-ga-before::before{ content:var(--byzantine-musical-symbol-arktiko-ga)}
+.byzantine-musical-symbol-arktiko-ga-after::after{content:var(--byzantine-musical-symbol-arktiko-ga)}
+.byzantine-musical-symbol-arktiko-ga-both::after, .byzantine-musical-symbol-arktiko-ga-both::before {content:var(--byzantine-musical-symbol-arktiko-ga)}
+.byzantine-musical-symbol-arktiko-ga-list { list-style: var(--byzantine-musical-symbol-arktiko-ga)}
+
+
+
+.byzantine-musical-symbol-arktiko-ke::before, .byzantine-musical-symbol-arktiko-ke-before::before{ content:var(--byzantine-musical-symbol-arktiko-ke)}
+.byzantine-musical-symbol-arktiko-ke-after::after{content:var(--byzantine-musical-symbol-arktiko-ke)}
+.byzantine-musical-symbol-arktiko-ke-both::after, .byzantine-musical-symbol-arktiko-ke-both::before {content:var(--byzantine-musical-symbol-arktiko-ke)}
+.byzantine-musical-symbol-arktiko-ke-list { list-style: var(--byzantine-musical-symbol-arktiko-ke)}
+
+
+
+.byzantine-musical-symbol-arktiko-ni::before, .byzantine-musical-symbol-arktiko-ni-before::before{ content:var(--byzantine-musical-symbol-arktiko-ni)}
+.byzantine-musical-symbol-arktiko-ni-after::after{content:var(--byzantine-musical-symbol-arktiko-ni)}
+.byzantine-musical-symbol-arktiko-ni-both::after, .byzantine-musical-symbol-arktiko-ni-both::before {content:var(--byzantine-musical-symbol-arktiko-ni)}
+.byzantine-musical-symbol-arktiko-ni-list { list-style: var(--byzantine-musical-symbol-arktiko-ni)}
+
+
+
+.byzantine-musical-symbol-arktiko-pa::before, .byzantine-musical-symbol-arktiko-pa-before::before{ content:var(--byzantine-musical-symbol-arktiko-pa)}
+.byzantine-musical-symbol-arktiko-pa-after::after{content:var(--byzantine-musical-symbol-arktiko-pa)}
+.byzantine-musical-symbol-arktiko-pa-both::after, .byzantine-musical-symbol-arktiko-pa-both::before {content:var(--byzantine-musical-symbol-arktiko-pa)}
+.byzantine-musical-symbol-arktiko-pa-list { list-style: var(--byzantine-musical-symbol-arktiko-pa)}
+
+
+
+.byzantine-musical-symbol-arktiko-vou::before, .byzantine-musical-symbol-arktiko-vou-before::before{ content:var(--byzantine-musical-symbol-arktiko-vou)}
+.byzantine-musical-symbol-arktiko-vou-after::after{content:var(--byzantine-musical-symbol-arktiko-vou)}
+.byzantine-musical-symbol-arktiko-vou-both::after, .byzantine-musical-symbol-arktiko-vou-both::before {content:var(--byzantine-musical-symbol-arktiko-vou)}
+.byzantine-musical-symbol-arktiko-vou-list { list-style: var(--byzantine-musical-symbol-arktiko-vou)}
+
+
+
+.byzantine-musical-symbol-arktiko-zo::before, .byzantine-musical-symbol-arktiko-zo-before::before{ content:var(--byzantine-musical-symbol-arktiko-zo)}
+.byzantine-musical-symbol-arktiko-zo-after::after{content:var(--byzantine-musical-symbol-arktiko-zo)}
+.byzantine-musical-symbol-arktiko-zo-both::after, .byzantine-musical-symbol-arktiko-zo-both::before {content:var(--byzantine-musical-symbol-arktiko-zo)}
+.byzantine-musical-symbol-arktiko-zo-list { list-style: var(--byzantine-musical-symbol-arktiko-zo)}
+
+
+
+.byzantine-musical-symbol-chamili::before, .byzantine-musical-symbol-chamili-before::before{ content:var(--byzantine-musical-symbol-chamili)}
+.byzantine-musical-symbol-chamili-after::after{content:var(--byzantine-musical-symbol-chamili)}
+.byzantine-musical-symbol-chamili-both::after, .byzantine-musical-symbol-chamili-both::before {content:var(--byzantine-musical-symbol-chamili)}
+.byzantine-musical-symbol-chamili-list { list-style: var(--byzantine-musical-symbol-chamili)}
+
+
+
+.byzantine-musical-symbol-chamilon::before, .byzantine-musical-symbol-chamilon-before::before{ content:var(--byzantine-musical-symbol-chamilon)}
+.byzantine-musical-symbol-chamilon-after::after{content:var(--byzantine-musical-symbol-chamilon)}
+.byzantine-musical-symbol-chamilon-both::after, .byzantine-musical-symbol-chamilon-both::before {content:var(--byzantine-musical-symbol-chamilon)}
+.byzantine-musical-symbol-chamilon-list { list-style: var(--byzantine-musical-symbol-chamilon)}
+
+
+
+.byzantine-musical-symbol-chorevma-archaion::before, .byzantine-musical-symbol-chorevma-archaion-before::before{ content:var(--byzantine-musical-symbol-chorevma-archaion)}
+.byzantine-musical-symbol-chorevma-archaion-after::after{content:var(--byzantine-musical-symbol-chorevma-archaion)}
+.byzantine-musical-symbol-chorevma-archaion-both::after, .byzantine-musical-symbol-chorevma-archaion-both::before {content:var(--byzantine-musical-symbol-chorevma-archaion)}
+.byzantine-musical-symbol-chorevma-archaion-list { list-style: var(--byzantine-musical-symbol-chorevma-archaion)}
+
+
+
+.byzantine-musical-symbol-chorevma-neo::before, .byzantine-musical-symbol-chorevma-neo-before::before{ content:var(--byzantine-musical-symbol-chorevma-neo)}
+.byzantine-musical-symbol-chorevma-neo-after::after{content:var(--byzantine-musical-symbol-chorevma-neo)}
+.byzantine-musical-symbol-chorevma-neo-both::after, .byzantine-musical-symbol-chorevma-neo-both::before {content:var(--byzantine-musical-symbol-chorevma-neo)}
+.byzantine-musical-symbol-chorevma-neo-list { list-style: var(--byzantine-musical-symbol-chorevma-neo)}
+
+
+
+.byzantine-musical-symbol-chroa-kliton::before, .byzantine-musical-symbol-chroa-kliton-before::before{ content:var(--byzantine-musical-symbol-chroa-kliton)}
+.byzantine-musical-symbol-chroa-kliton-after::after{content:var(--byzantine-musical-symbol-chroa-kliton)}
+.byzantine-musical-symbol-chroa-kliton-both::after, .byzantine-musical-symbol-chroa-kliton-both::before {content:var(--byzantine-musical-symbol-chroa-kliton)}
+.byzantine-musical-symbol-chroa-kliton-list { list-style: var(--byzantine-musical-symbol-chroa-kliton)}
+
+
+
+.byzantine-musical-symbol-chroa-spathi::before, .byzantine-musical-symbol-chroa-spathi-before::before{ content:var(--byzantine-musical-symbol-chroa-spathi)}
+.byzantine-musical-symbol-chroa-spathi-after::after{content:var(--byzantine-musical-symbol-chroa-spathi)}
+.byzantine-musical-symbol-chroa-spathi-both::after, .byzantine-musical-symbol-chroa-spathi-both::before {content:var(--byzantine-musical-symbol-chroa-spathi)}
+.byzantine-musical-symbol-chroa-spathi-list { list-style: var(--byzantine-musical-symbol-chroa-spathi)}
+
+
+
+.byzantine-musical-symbol-chroa-zygos::before, .byzantine-musical-symbol-chroa-zygos-before::before{ content:var(--byzantine-musical-symbol-chroa-zygos)}
+.byzantine-musical-symbol-chroa-zygos-after::after{content:var(--byzantine-musical-symbol-chroa-zygos)}
+.byzantine-musical-symbol-chroa-zygos-both::after, .byzantine-musical-symbol-chroa-zygos-both::before {content:var(--byzantine-musical-symbol-chroa-zygos)}
+.byzantine-musical-symbol-chroa-zygos-list { list-style: var(--byzantine-musical-symbol-chroa-zygos)}
+
+
+
+.byzantine-musical-symbol-daseia::before, .byzantine-musical-symbol-daseia-before::before{ content:var(--byzantine-musical-symbol-daseia)}
+.byzantine-musical-symbol-daseia-after::after{content:var(--byzantine-musical-symbol-daseia)}
+.byzantine-musical-symbol-daseia-both::after, .byzantine-musical-symbol-daseia-both::before {content:var(--byzantine-musical-symbol-daseia)}
+.byzantine-musical-symbol-daseia-list { list-style: var(--byzantine-musical-symbol-daseia)}
+
+
+
+.byzantine-musical-symbol-diargon::before, .byzantine-musical-symbol-diargon-before::before{ content:var(--byzantine-musical-symbol-diargon)}
+.byzantine-musical-symbol-diargon-after::after{content:var(--byzantine-musical-symbol-diargon)}
+.byzantine-musical-symbol-diargon-both::after, .byzantine-musical-symbol-diargon-both::before {content:var(--byzantine-musical-symbol-diargon)}
+.byzantine-musical-symbol-diargon-list { list-style: var(--byzantine-musical-symbol-diargon)}
+
+
+
+.byzantine-musical-symbol-diastoli-apli-megali::before, .byzantine-musical-symbol-diastoli-apli-megali-before::before{ content:var(--byzantine-musical-symbol-diastoli-apli-megali)}
+.byzantine-musical-symbol-diastoli-apli-megali-after::after{content:var(--byzantine-musical-symbol-diastoli-apli-megali)}
+.byzantine-musical-symbol-diastoli-apli-megali-both::after, .byzantine-musical-symbol-diastoli-apli-megali-both::before {content:var(--byzantine-musical-symbol-diastoli-apli-megali)}
+.byzantine-musical-symbol-diastoli-apli-megali-list { list-style: var(--byzantine-musical-symbol-diastoli-apli-megali)}
+
+
+
+.byzantine-musical-symbol-diastoli-apli-mikri::before, .byzantine-musical-symbol-diastoli-apli-mikri-before::before{ content:var(--byzantine-musical-symbol-diastoli-apli-mikri)}
+.byzantine-musical-symbol-diastoli-apli-mikri-after::after{content:var(--byzantine-musical-symbol-diastoli-apli-mikri)}
+.byzantine-musical-symbol-diastoli-apli-mikri-both::after, .byzantine-musical-symbol-diastoli-apli-mikri-both::before {content:var(--byzantine-musical-symbol-diastoli-apli-mikri)}
+.byzantine-musical-symbol-diastoli-apli-mikri-list { list-style: var(--byzantine-musical-symbol-diastoli-apli-mikri)}
+
+
+
+.byzantine-musical-symbol-diastoli-dipli::before, .byzantine-musical-symbol-diastoli-dipli-before::before{ content:var(--byzantine-musical-symbol-diastoli-dipli)}
+.byzantine-musical-symbol-diastoli-dipli-after::after{content:var(--byzantine-musical-symbol-diastoli-dipli)}
+.byzantine-musical-symbol-diastoli-dipli-both::after, .byzantine-musical-symbol-diastoli-dipli-both::before {content:var(--byzantine-musical-symbol-diastoli-dipli)}
+.byzantine-musical-symbol-diastoli-dipli-list { list-style: var(--byzantine-musical-symbol-diastoli-dipli)}
+
+
+
+.byzantine-musical-symbol-diastoli-theseos::before, .byzantine-musical-symbol-diastoli-theseos-before::before{ content:var(--byzantine-musical-symbol-diastoli-theseos)}
+.byzantine-musical-symbol-diastoli-theseos-after::after{content:var(--byzantine-musical-symbol-diastoli-theseos)}
+.byzantine-musical-symbol-diastoli-theseos-both::after, .byzantine-musical-symbol-diastoli-theseos-both::before {content:var(--byzantine-musical-symbol-diastoli-theseos)}
+.byzantine-musical-symbol-diastoli-theseos-list { list-style: var(--byzantine-musical-symbol-diastoli-theseos)}
+
+
+
+.byzantine-musical-symbol-diesis-apli-dyo-dodekata::before, .byzantine-musical-symbol-diesis-apli-dyo-dodekata-before::before{ content:var(--byzantine-musical-symbol-diesis-apli-dyo-dodekata)}
+.byzantine-musical-symbol-diesis-apli-dyo-dodekata-after::after{content:var(--byzantine-musical-symbol-diesis-apli-dyo-dodekata)}
+.byzantine-musical-symbol-diesis-apli-dyo-dodekata-both::after, .byzantine-musical-symbol-diesis-apli-dyo-dodekata-both::before {content:var(--byzantine-musical-symbol-diesis-apli-dyo-dodekata)}
+.byzantine-musical-symbol-diesis-apli-dyo-dodekata-list { list-style: var(--byzantine-musical-symbol-diesis-apli-dyo-dodekata)}
+
+
+
+.byzantine-musical-symbol-diesis-digrammos-ex-dodekata::before, .byzantine-musical-symbol-diesis-digrammos-ex-dodekata-before::before{ content:var(--byzantine-musical-symbol-diesis-digrammos-ex-dodekata)}
+.byzantine-musical-symbol-diesis-digrammos-ex-dodekata-after::after{content:var(--byzantine-musical-symbol-diesis-digrammos-ex-dodekata)}
+.byzantine-musical-symbol-diesis-digrammos-ex-dodekata-both::after, .byzantine-musical-symbol-diesis-digrammos-ex-dodekata-both::before {content:var(--byzantine-musical-symbol-diesis-digrammos-ex-dodekata)}
+.byzantine-musical-symbol-diesis-digrammos-ex-dodekata-list { list-style: var(--byzantine-musical-symbol-diesis-digrammos-ex-dodekata)}
+
+
+
+.byzantine-musical-symbol-diesis-monogrammos-tessera-dodekata::before, .byzantine-musical-symbol-diesis-monogrammos-tessera-dodekata-before::before{ content:var(--byzantine-musical-symbol-diesis-monogrammos-tessera-dodekata)}
+.byzantine-musical-symbol-diesis-monogrammos-tessera-dodekata-after::after{content:var(--byzantine-musical-symbol-diesis-monogrammos-tessera-dodekata)}
+.byzantine-musical-symbol-diesis-monogrammos-tessera-dodekata-both::after, .byzantine-musical-symbol-diesis-monogrammos-tessera-dodekata-both::before {content:var(--byzantine-musical-symbol-diesis-monogrammos-tessera-dodekata)}
+.byzantine-musical-symbol-diesis-monogrammos-tessera-dodekata-list { list-style: var(--byzantine-musical-symbol-diesis-monogrammos-tessera-dodekata)}
+
+
+
+.byzantine-musical-symbol-diesis-tetartimorion::before, .byzantine-musical-symbol-diesis-tetartimorion-before::before{ content:var(--byzantine-musical-symbol-diesis-tetartimorion)}
+.byzantine-musical-symbol-diesis-tetartimorion-after::after{content:var(--byzantine-musical-symbol-diesis-tetartimorion)}
+.byzantine-musical-symbol-diesis-tetartimorion-both::after, .byzantine-musical-symbol-diesis-tetartimorion-both::before {content:var(--byzantine-musical-symbol-diesis-tetartimorion)}
+.byzantine-musical-symbol-diesis-tetartimorion-list { list-style: var(--byzantine-musical-symbol-diesis-tetartimorion)}
+
+
+
+.byzantine-musical-symbol-diesis-trigrammos-okto-dodekata::before, .byzantine-musical-symbol-diesis-trigrammos-okto-dodekata-before::before{ content:var(--byzantine-musical-symbol-diesis-trigrammos-okto-dodekata)}
+.byzantine-musical-symbol-diesis-trigrammos-okto-dodekata-after::after{content:var(--byzantine-musical-symbol-diesis-trigrammos-okto-dodekata)}
+.byzantine-musical-symbol-diesis-trigrammos-okto-dodekata-both::after, .byzantine-musical-symbol-diesis-trigrammos-okto-dodekata-both::before {content:var(--byzantine-musical-symbol-diesis-trigrammos-okto-dodekata)}
+.byzantine-musical-symbol-diesis-trigrammos-okto-dodekata-list { list-style: var(--byzantine-musical-symbol-diesis-trigrammos-okto-dodekata)}
+
+
+
+.byzantine-musical-symbol-diesis-tritimorion::before, .byzantine-musical-symbol-diesis-tritimorion-before::before{ content:var(--byzantine-musical-symbol-diesis-tritimorion)}
+.byzantine-musical-symbol-diesis-tritimorion-after::after{content:var(--byzantine-musical-symbol-diesis-tritimorion)}
+.byzantine-musical-symbol-diesis-tritimorion-both::after, .byzantine-musical-symbol-diesis-tritimorion-both::before {content:var(--byzantine-musical-symbol-diesis-tritimorion)}
+.byzantine-musical-symbol-diesis-tritimorion-list { list-style: var(--byzantine-musical-symbol-diesis-tritimorion)}
+
+
+
+.byzantine-musical-symbol-diftoggos-ou::before, .byzantine-musical-symbol-diftoggos-ou-before::before{ content:var(--byzantine-musical-symbol-diftoggos-ou)}
+.byzantine-musical-symbol-diftoggos-ou-after::after{content:var(--byzantine-musical-symbol-diftoggos-ou)}
+.byzantine-musical-symbol-diftoggos-ou-both::after, .byzantine-musical-symbol-diftoggos-ou-both::before {content:var(--byzantine-musical-symbol-diftoggos-ou)}
+.byzantine-musical-symbol-diftoggos-ou-list { list-style: var(--byzantine-musical-symbol-diftoggos-ou)}
+
+
+
+.byzantine-musical-symbol-digorgon::before, .byzantine-musical-symbol-digorgon-before::before{ content:var(--byzantine-musical-symbol-digorgon)}
+.byzantine-musical-symbol-digorgon-after::after{content:var(--byzantine-musical-symbol-digorgon)}
+.byzantine-musical-symbol-digorgon-both::after, .byzantine-musical-symbol-digorgon-both::before {content:var(--byzantine-musical-symbol-digorgon)}
+.byzantine-musical-symbol-digorgon-list { list-style: var(--byzantine-musical-symbol-digorgon)}
+
+
+
+.byzantine-musical-symbol-digorgon-parestigmenon-aristera-ano::before, .byzantine-musical-symbol-digorgon-parestigmenon-aristera-ano-before::before{ content:var(--byzantine-musical-symbol-digorgon-parestigmenon-aristera-ano)}
+.byzantine-musical-symbol-digorgon-parestigmenon-aristera-ano-after::after{content:var(--byzantine-musical-symbol-digorgon-parestigmenon-aristera-ano)}
+.byzantine-musical-symbol-digorgon-parestigmenon-aristera-ano-both::after, .byzantine-musical-symbol-digorgon-parestigmenon-aristera-ano-both::before {content:var(--byzantine-musical-symbol-digorgon-parestigmenon-aristera-ano)}
+.byzantine-musical-symbol-digorgon-parestigmenon-aristera-ano-list { list-style: var(--byzantine-musical-symbol-digorgon-parestigmenon-aristera-ano)}
+
+
+
+.byzantine-musical-symbol-digorgon-parestigmenon-aristera-kato::before, .byzantine-musical-symbol-digorgon-parestigmenon-aristera-kato-before::before{ content:var(--byzantine-musical-symbol-digorgon-parestigmenon-aristera-kato)}
+.byzantine-musical-symbol-digorgon-parestigmenon-aristera-kato-after::after{content:var(--byzantine-musical-symbol-digorgon-parestigmenon-aristera-kato)}
+.byzantine-musical-symbol-digorgon-parestigmenon-aristera-kato-both::after, .byzantine-musical-symbol-digorgon-parestigmenon-aristera-kato-both::before {content:var(--byzantine-musical-symbol-digorgon-parestigmenon-aristera-kato)}
+.byzantine-musical-symbol-digorgon-parestigmenon-aristera-kato-list { list-style: var(--byzantine-musical-symbol-digorgon-parestigmenon-aristera-kato)}
+
+
+
+.byzantine-musical-symbol-digorgon-parestigmenon-dexia::before, .byzantine-musical-symbol-digorgon-parestigmenon-dexia-before::before{ content:var(--byzantine-musical-symbol-digorgon-parestigmenon-dexia)}
+.byzantine-musical-symbol-digorgon-parestigmenon-dexia-after::after{content:var(--byzantine-musical-symbol-digorgon-parestigmenon-dexia)}
+.byzantine-musical-symbol-digorgon-parestigmenon-dexia-both::after, .byzantine-musical-symbol-digorgon-parestigmenon-dexia-both::before {content:var(--byzantine-musical-symbol-digorgon-parestigmenon-dexia)}
+.byzantine-musical-symbol-digorgon-parestigmenon-dexia-list { list-style: var(--byzantine-musical-symbol-digorgon-parestigmenon-dexia)}
+
+
+
+.byzantine-musical-symbol-digramma-gg::before, .byzantine-musical-symbol-digramma-gg-before::before{ content:var(--byzantine-musical-symbol-digramma-gg)}
+.byzantine-musical-symbol-digramma-gg-after::after{content:var(--byzantine-musical-symbol-digramma-gg)}
+.byzantine-musical-symbol-digramma-gg-both::after, .byzantine-musical-symbol-digramma-gg-both::before {content:var(--byzantine-musical-symbol-digramma-gg)}
+.byzantine-musical-symbol-digramma-gg-list { list-style: var(--byzantine-musical-symbol-digramma-gg)}
+
+
+
+.byzantine-musical-symbol-dipli::before, .byzantine-musical-symbol-dipli-before::before{ content:var(--byzantine-musical-symbol-dipli)}
+.byzantine-musical-symbol-dipli-after::after{content:var(--byzantine-musical-symbol-dipli)}
+.byzantine-musical-symbol-dipli-both::after, .byzantine-musical-symbol-dipli-both::before {content:var(--byzantine-musical-symbol-dipli)}
+.byzantine-musical-symbol-dipli-list { list-style: var(--byzantine-musical-symbol-dipli)}
+
+
+
+.byzantine-musical-symbol-dipli-archaion::before, .byzantine-musical-symbol-dipli-archaion-before::before{ content:var(--byzantine-musical-symbol-dipli-archaion)}
+.byzantine-musical-symbol-dipli-archaion-after::after{content:var(--byzantine-musical-symbol-dipli-archaion)}
+.byzantine-musical-symbol-dipli-archaion-both::after, .byzantine-musical-symbol-dipli-archaion-both::before {content:var(--byzantine-musical-symbol-dipli-archaion)}
+.byzantine-musical-symbol-dipli-archaion-list { list-style: var(--byzantine-musical-symbol-dipli-archaion)}
+
+
+
+.byzantine-musical-symbol-dyo::before, .byzantine-musical-symbol-dyo-before::before{ content:var(--byzantine-musical-symbol-dyo)}
+.byzantine-musical-symbol-dyo-after::after{content:var(--byzantine-musical-symbol-dyo)}
+.byzantine-musical-symbol-dyo-both::after, .byzantine-musical-symbol-dyo-both::before {content:var(--byzantine-musical-symbol-dyo)}
+.byzantine-musical-symbol-dyo-list { list-style: var(--byzantine-musical-symbol-dyo)}
+
+
+
+.byzantine-musical-symbol-ekstrepton::before, .byzantine-musical-symbol-ekstrepton-before::before{ content:var(--byzantine-musical-symbol-ekstrepton)}
+.byzantine-musical-symbol-ekstrepton-after::after{content:var(--byzantine-musical-symbol-ekstrepton)}
+.byzantine-musical-symbol-ekstrepton-both::after, .byzantine-musical-symbol-ekstrepton-both::before {content:var(--byzantine-musical-symbol-ekstrepton)}
+.byzantine-musical-symbol-ekstrepton-list { list-style: var(--byzantine-musical-symbol-ekstrepton)}
+
+
+
+.byzantine-musical-symbol-elafron::before, .byzantine-musical-symbol-elafron-before::before{ content:var(--byzantine-musical-symbol-elafron)}
+.byzantine-musical-symbol-elafron-after::after{content:var(--byzantine-musical-symbol-elafron)}
+.byzantine-musical-symbol-elafron-both::after, .byzantine-musical-symbol-elafron-both::before {content:var(--byzantine-musical-symbol-elafron)}
+.byzantine-musical-symbol-elafron-list { list-style: var(--byzantine-musical-symbol-elafron)}
+
+
+
+.byzantine-musical-symbol-enarxis-kai-fthora-vou::before, .byzantine-musical-symbol-enarxis-kai-fthora-vou-before::before{ content:var(--byzantine-musical-symbol-enarxis-kai-fthora-vou)}
+.byzantine-musical-symbol-enarxis-kai-fthora-vou-after::after{content:var(--byzantine-musical-symbol-enarxis-kai-fthora-vou)}
+.byzantine-musical-symbol-enarxis-kai-fthora-vou-both::after, .byzantine-musical-symbol-enarxis-kai-fthora-vou-both::before {content:var(--byzantine-musical-symbol-enarxis-kai-fthora-vou)}
+.byzantine-musical-symbol-enarxis-kai-fthora-vou-list { list-style: var(--byzantine-musical-symbol-enarxis-kai-fthora-vou)}
+
+
+
+.byzantine-musical-symbol-endofonon::before, .byzantine-musical-symbol-endofonon-before::before{ content:var(--byzantine-musical-symbol-endofonon)}
+.byzantine-musical-symbol-endofonon-after::after{content:var(--byzantine-musical-symbol-endofonon)}
+.byzantine-musical-symbol-endofonon-both::after, .byzantine-musical-symbol-endofonon-both::before {content:var(--byzantine-musical-symbol-endofonon)}
+.byzantine-musical-symbol-endofonon-list { list-style: var(--byzantine-musical-symbol-endofonon)}
+
+
+
+.byzantine-musical-symbol-epegerma::before, .byzantine-musical-symbol-epegerma-before::before{ content:var(--byzantine-musical-symbol-epegerma)}
+.byzantine-musical-symbol-epegerma-after::after{content:var(--byzantine-musical-symbol-epegerma)}
+.byzantine-musical-symbol-epegerma-both::after, .byzantine-musical-symbol-epegerma-both::before {content:var(--byzantine-musical-symbol-epegerma)}
+.byzantine-musical-symbol-epegerma-list { list-style: var(--byzantine-musical-symbol-epegerma)}
+
+
+
+.byzantine-musical-symbol-eteron-argosyntheton::before, .byzantine-musical-symbol-eteron-argosyntheton-before::before{ content:var(--byzantine-musical-symbol-eteron-argosyntheton)}
+.byzantine-musical-symbol-eteron-argosyntheton-after::after{content:var(--byzantine-musical-symbol-eteron-argosyntheton)}
+.byzantine-musical-symbol-eteron-argosyntheton-both::after, .byzantine-musical-symbol-eteron-argosyntheton-both::before {content:var(--byzantine-musical-symbol-eteron-argosyntheton)}
+.byzantine-musical-symbol-eteron-argosyntheton-list { list-style: var(--byzantine-musical-symbol-eteron-argosyntheton)}
+
+
+
+.byzantine-musical-symbol-eteron-parakalesma::before, .byzantine-musical-symbol-eteron-parakalesma-before::before{ content:var(--byzantine-musical-symbol-eteron-parakalesma)}
+.byzantine-musical-symbol-eteron-parakalesma-after::after{content:var(--byzantine-musical-symbol-eteron-parakalesma)}
+.byzantine-musical-symbol-eteron-parakalesma-both::after, .byzantine-musical-symbol-eteron-parakalesma-both::before {content:var(--byzantine-musical-symbol-eteron-parakalesma)}
+.byzantine-musical-symbol-eteron-parakalesma-list { list-style: var(--byzantine-musical-symbol-eteron-parakalesma)}
+
+
+
+.byzantine-musical-symbol-exo-ekfonitikon::before, .byzantine-musical-symbol-exo-ekfonitikon-before::before{ content:var(--byzantine-musical-symbol-exo-ekfonitikon)}
+.byzantine-musical-symbol-exo-ekfonitikon-after::after{content:var(--byzantine-musical-symbol-exo-ekfonitikon)}
+.byzantine-musical-symbol-exo-ekfonitikon-both::after, .byzantine-musical-symbol-exo-ekfonitikon-both::before {content:var(--byzantine-musical-symbol-exo-ekfonitikon)}
+.byzantine-musical-symbol-exo-ekfonitikon-list { list-style: var(--byzantine-musical-symbol-exo-ekfonitikon)}
+
+
+
+.byzantine-musical-symbol-fanerosis-difonias::before, .byzantine-musical-symbol-fanerosis-difonias-before::before{ content:var(--byzantine-musical-symbol-fanerosis-difonias)}
+.byzantine-musical-symbol-fanerosis-difonias-after::after{content:var(--byzantine-musical-symbol-fanerosis-difonias)}
+.byzantine-musical-symbol-fanerosis-difonias-both::after, .byzantine-musical-symbol-fanerosis-difonias-both::before {content:var(--byzantine-musical-symbol-fanerosis-difonias)}
+.byzantine-musical-symbol-fanerosis-difonias-list { list-style: var(--byzantine-musical-symbol-fanerosis-difonias)}
+
+
+
+.byzantine-musical-symbol-fanerosis-monofonias::before, .byzantine-musical-symbol-fanerosis-monofonias-before::before{ content:var(--byzantine-musical-symbol-fanerosis-monofonias)}
+.byzantine-musical-symbol-fanerosis-monofonias-after::after{content:var(--byzantine-musical-symbol-fanerosis-monofonias)}
+.byzantine-musical-symbol-fanerosis-monofonias-both::after, .byzantine-musical-symbol-fanerosis-monofonias-both::before {content:var(--byzantine-musical-symbol-fanerosis-monofonias)}
+.byzantine-musical-symbol-fanerosis-monofonias-list { list-style: var(--byzantine-musical-symbol-fanerosis-monofonias)}
+
+
+
+.byzantine-musical-symbol-fanerosis-tetrafonias::before, .byzantine-musical-symbol-fanerosis-tetrafonias-before::before{ content:var(--byzantine-musical-symbol-fanerosis-tetrafonias)}
+.byzantine-musical-symbol-fanerosis-tetrafonias-after::after{content:var(--byzantine-musical-symbol-fanerosis-tetrafonias)}
+.byzantine-musical-symbol-fanerosis-tetrafonias-both::after, .byzantine-musical-symbol-fanerosis-tetrafonias-both::before {content:var(--byzantine-musical-symbol-fanerosis-tetrafonias)}
+.byzantine-musical-symbol-fanerosis-tetrafonias-list { list-style: var(--byzantine-musical-symbol-fanerosis-tetrafonias)}
+
+
+
+.byzantine-musical-symbol-fhtora-skliron-chroma-vasis::before, .byzantine-musical-symbol-fhtora-skliron-chroma-vasis-before::before{ content:var(--byzantine-musical-symbol-fhtora-skliron-chroma-vasis)}
+.byzantine-musical-symbol-fhtora-skliron-chroma-vasis-after::after{content:var(--byzantine-musical-symbol-fhtora-skliron-chroma-vasis)}
+.byzantine-musical-symbol-fhtora-skliron-chroma-vasis-both::after, .byzantine-musical-symbol-fhtora-skliron-chroma-vasis-both::before {content:var(--byzantine-musical-symbol-fhtora-skliron-chroma-vasis)}
+.byzantine-musical-symbol-fhtora-skliron-chroma-vasis-list { list-style: var(--byzantine-musical-symbol-fhtora-skliron-chroma-vasis)}
+
+
+
+.byzantine-musical-symbol-fthora-archaion::before, .byzantine-musical-symbol-fthora-archaion-before::before{ content:var(--byzantine-musical-symbol-fthora-archaion)}
+.byzantine-musical-symbol-fthora-archaion-after::after{content:var(--byzantine-musical-symbol-fthora-archaion)}
+.byzantine-musical-symbol-fthora-archaion-both::after, .byzantine-musical-symbol-fthora-archaion-both::before {content:var(--byzantine-musical-symbol-fthora-archaion)}
+.byzantine-musical-symbol-fthora-archaion-list { list-style: var(--byzantine-musical-symbol-fthora-archaion)}
+
+
+
+.byzantine-musical-symbol-fthora-archaion-deyterou-ichou::before, .byzantine-musical-symbol-fthora-archaion-deyterou-ichou-before::before{ content:var(--byzantine-musical-symbol-fthora-archaion-deyterou-ichou)}
+.byzantine-musical-symbol-fthora-archaion-deyterou-ichou-after::after{content:var(--byzantine-musical-symbol-fthora-archaion-deyterou-ichou)}
+.byzantine-musical-symbol-fthora-archaion-deyterou-ichou-both::after, .byzantine-musical-symbol-fthora-archaion-deyterou-ichou-both::before {content:var(--byzantine-musical-symbol-fthora-archaion-deyterou-ichou)}
+.byzantine-musical-symbol-fthora-archaion-deyterou-ichou-list { list-style: var(--byzantine-musical-symbol-fthora-archaion-deyterou-ichou)}
+
+
+
+.byzantine-musical-symbol-fthora-diatoniki-di::before, .byzantine-musical-symbol-fthora-diatoniki-di-before::before{ content:var(--byzantine-musical-symbol-fthora-diatoniki-di)}
+.byzantine-musical-symbol-fthora-diatoniki-di-after::after{content:var(--byzantine-musical-symbol-fthora-diatoniki-di)}
+.byzantine-musical-symbol-fthora-diatoniki-di-both::after, .byzantine-musical-symbol-fthora-diatoniki-di-both::before {content:var(--byzantine-musical-symbol-fthora-diatoniki-di)}
+.byzantine-musical-symbol-fthora-diatoniki-di-list { list-style: var(--byzantine-musical-symbol-fthora-diatoniki-di)}
+
+
+
+.byzantine-musical-symbol-fthora-diatoniki-ke::before, .byzantine-musical-symbol-fthora-diatoniki-ke-before::before{ content:var(--byzantine-musical-symbol-fthora-diatoniki-ke)}
+.byzantine-musical-symbol-fthora-diatoniki-ke-after::after{content:var(--byzantine-musical-symbol-fthora-diatoniki-ke)}
+.byzantine-musical-symbol-fthora-diatoniki-ke-both::after, .byzantine-musical-symbol-fthora-diatoniki-ke-both::before {content:var(--byzantine-musical-symbol-fthora-diatoniki-ke)}
+.byzantine-musical-symbol-fthora-diatoniki-ke-list { list-style: var(--byzantine-musical-symbol-fthora-diatoniki-ke)}
+
+
+
+.byzantine-musical-symbol-fthora-diatoniki-nana::before, .byzantine-musical-symbol-fthora-diatoniki-nana-before::before{ content:var(--byzantine-musical-symbol-fthora-diatoniki-nana)}
+.byzantine-musical-symbol-fthora-diatoniki-nana-after::after{content:var(--byzantine-musical-symbol-fthora-diatoniki-nana)}
+.byzantine-musical-symbol-fthora-diatoniki-nana-both::after, .byzantine-musical-symbol-fthora-diatoniki-nana-both::before {content:var(--byzantine-musical-symbol-fthora-diatoniki-nana)}
+.byzantine-musical-symbol-fthora-diatoniki-nana-list { list-style: var(--byzantine-musical-symbol-fthora-diatoniki-nana)}
+
+
+
+.byzantine-musical-symbol-fthora-diatoniki-ni-ano::before, .byzantine-musical-symbol-fthora-diatoniki-ni-ano-before::before{ content:var(--byzantine-musical-symbol-fthora-diatoniki-ni-ano)}
+.byzantine-musical-symbol-fthora-diatoniki-ni-ano-after::after{content:var(--byzantine-musical-symbol-fthora-diatoniki-ni-ano)}
+.byzantine-musical-symbol-fthora-diatoniki-ni-ano-both::after, .byzantine-musical-symbol-fthora-diatoniki-ni-ano-both::before {content:var(--byzantine-musical-symbol-fthora-diatoniki-ni-ano)}
+.byzantine-musical-symbol-fthora-diatoniki-ni-ano-list { list-style: var(--byzantine-musical-symbol-fthora-diatoniki-ni-ano)}
+
+
+
+.byzantine-musical-symbol-fthora-diatoniki-ni-kato::before, .byzantine-musical-symbol-fthora-diatoniki-ni-kato-before::before{ content:var(--byzantine-musical-symbol-fthora-diatoniki-ni-kato)}
+.byzantine-musical-symbol-fthora-diatoniki-ni-kato-after::after{content:var(--byzantine-musical-symbol-fthora-diatoniki-ni-kato)}
+.byzantine-musical-symbol-fthora-diatoniki-ni-kato-both::after, .byzantine-musical-symbol-fthora-diatoniki-ni-kato-both::before {content:var(--byzantine-musical-symbol-fthora-diatoniki-ni-kato)}
+.byzantine-musical-symbol-fthora-diatoniki-ni-kato-list { list-style: var(--byzantine-musical-symbol-fthora-diatoniki-ni-kato)}
+
+
+
+.byzantine-musical-symbol-fthora-diatoniki-pa::before, .byzantine-musical-symbol-fthora-diatoniki-pa-before::before{ content:var(--byzantine-musical-symbol-fthora-diatoniki-pa)}
+.byzantine-musical-symbol-fthora-diatoniki-pa-after::after{content:var(--byzantine-musical-symbol-fthora-diatoniki-pa)}
+.byzantine-musical-symbol-fthora-diatoniki-pa-both::after, .byzantine-musical-symbol-fthora-diatoniki-pa-both::before {content:var(--byzantine-musical-symbol-fthora-diatoniki-pa)}
+.byzantine-musical-symbol-fthora-diatoniki-pa-list { list-style: var(--byzantine-musical-symbol-fthora-diatoniki-pa)}
+
+
+
+.byzantine-musical-symbol-fthora-diatoniki-zo::before, .byzantine-musical-symbol-fthora-diatoniki-zo-before::before{ content:var(--byzantine-musical-symbol-fthora-diatoniki-zo)}
+.byzantine-musical-symbol-fthora-diatoniki-zo-after::after{content:var(--byzantine-musical-symbol-fthora-diatoniki-zo)}
+.byzantine-musical-symbol-fthora-diatoniki-zo-both::after, .byzantine-musical-symbol-fthora-diatoniki-zo-both::before {content:var(--byzantine-musical-symbol-fthora-diatoniki-zo)}
+.byzantine-musical-symbol-fthora-diatoniki-zo-list { list-style: var(--byzantine-musical-symbol-fthora-diatoniki-zo)}
+
+
+
+.byzantine-musical-symbol-fthora-enarmonios-antifonia::before, .byzantine-musical-symbol-fthora-enarmonios-antifonia-before::before{ content:var(--byzantine-musical-symbol-fthora-enarmonios-antifonia)}
+.byzantine-musical-symbol-fthora-enarmonios-antifonia-after::after{content:var(--byzantine-musical-symbol-fthora-enarmonios-antifonia)}
+.byzantine-musical-symbol-fthora-enarmonios-antifonia-both::after, .byzantine-musical-symbol-fthora-enarmonios-antifonia-both::before {content:var(--byzantine-musical-symbol-fthora-enarmonios-antifonia)}
+.byzantine-musical-symbol-fthora-enarmonios-antifonia-list { list-style: var(--byzantine-musical-symbol-fthora-enarmonios-antifonia)}
+
+
+
+.byzantine-musical-symbol-fthora-i-yfesis-tetartimorion::before, .byzantine-musical-symbol-fthora-i-yfesis-tetartimorion-before::before{ content:var(--byzantine-musical-symbol-fthora-i-yfesis-tetartimorion)}
+.byzantine-musical-symbol-fthora-i-yfesis-tetartimorion-after::after{content:var(--byzantine-musical-symbol-fthora-i-yfesis-tetartimorion)}
+.byzantine-musical-symbol-fthora-i-yfesis-tetartimorion-both::after, .byzantine-musical-symbol-fthora-i-yfesis-tetartimorion-both::before {content:var(--byzantine-musical-symbol-fthora-i-yfesis-tetartimorion)}
+.byzantine-musical-symbol-fthora-i-yfesis-tetartimorion-list { list-style: var(--byzantine-musical-symbol-fthora-i-yfesis-tetartimorion)}
+
+
+
+.byzantine-musical-symbol-fthora-malakon-chroma-difonias::before, .byzantine-musical-symbol-fthora-malakon-chroma-difonias-before::before{ content:var(--byzantine-musical-symbol-fthora-malakon-chroma-difonias)}
+.byzantine-musical-symbol-fthora-malakon-chroma-difonias-after::after{content:var(--byzantine-musical-symbol-fthora-malakon-chroma-difonias)}
+.byzantine-musical-symbol-fthora-malakon-chroma-difonias-both::after, .byzantine-musical-symbol-fthora-malakon-chroma-difonias-both::before {content:var(--byzantine-musical-symbol-fthora-malakon-chroma-difonias)}
+.byzantine-musical-symbol-fthora-malakon-chroma-difonias-list { list-style: var(--byzantine-musical-symbol-fthora-malakon-chroma-difonias)}
+
+
+
+.byzantine-musical-symbol-fthora-malakon-chroma-monofonias::before, .byzantine-musical-symbol-fthora-malakon-chroma-monofonias-before::before{ content:var(--byzantine-musical-symbol-fthora-malakon-chroma-monofonias)}
+.byzantine-musical-symbol-fthora-malakon-chroma-monofonias-after::after{content:var(--byzantine-musical-symbol-fthora-malakon-chroma-monofonias)}
+.byzantine-musical-symbol-fthora-malakon-chroma-monofonias-both::after, .byzantine-musical-symbol-fthora-malakon-chroma-monofonias-both::before {content:var(--byzantine-musical-symbol-fthora-malakon-chroma-monofonias)}
+.byzantine-musical-symbol-fthora-malakon-chroma-monofonias-list { list-style: var(--byzantine-musical-symbol-fthora-malakon-chroma-monofonias)}
+
+
+
+.byzantine-musical-symbol-fthora-naos-ichos::before, .byzantine-musical-symbol-fthora-naos-ichos-before::before{ content:var(--byzantine-musical-symbol-fthora-naos-ichos)}
+.byzantine-musical-symbol-fthora-naos-ichos-after::after{content:var(--byzantine-musical-symbol-fthora-naos-ichos)}
+.byzantine-musical-symbol-fthora-naos-ichos-both::after, .byzantine-musical-symbol-fthora-naos-ichos-both::before {content:var(--byzantine-musical-symbol-fthora-naos-ichos)}
+.byzantine-musical-symbol-fthora-naos-ichos-list { list-style: var(--byzantine-musical-symbol-fthora-naos-ichos)}
+
+
+
+.byzantine-musical-symbol-fthora-nenano::before, .byzantine-musical-symbol-fthora-nenano-before::before{ content:var(--byzantine-musical-symbol-fthora-nenano)}
+.byzantine-musical-symbol-fthora-nenano-after::after{content:var(--byzantine-musical-symbol-fthora-nenano)}
+.byzantine-musical-symbol-fthora-nenano-both::after, .byzantine-musical-symbol-fthora-nenano-both::before {content:var(--byzantine-musical-symbol-fthora-nenano)}
+.byzantine-musical-symbol-fthora-nenano-list { list-style: var(--byzantine-musical-symbol-fthora-nenano)}
+
+
+
+.byzantine-musical-symbol-fthora-skliron-chroma-synafi::before, .byzantine-musical-symbol-fthora-skliron-chroma-synafi-before::before{ content:var(--byzantine-musical-symbol-fthora-skliron-chroma-synafi)}
+.byzantine-musical-symbol-fthora-skliron-chroma-synafi-after::after{content:var(--byzantine-musical-symbol-fthora-skliron-chroma-synafi)}
+.byzantine-musical-symbol-fthora-skliron-chroma-synafi-both::after, .byzantine-musical-symbol-fthora-skliron-chroma-synafi-both::before {content:var(--byzantine-musical-symbol-fthora-skliron-chroma-synafi)}
+.byzantine-musical-symbol-fthora-skliron-chroma-synafi-list { list-style: var(--byzantine-musical-symbol-fthora-skliron-chroma-synafi)}
+
+
+
+.byzantine-musical-symbol-fthora-skliron-diatonon-di::before, .byzantine-musical-symbol-fthora-skliron-diatonon-di-before::before{ content:var(--byzantine-musical-symbol-fthora-skliron-diatonon-di)}
+.byzantine-musical-symbol-fthora-skliron-diatonon-di-after::after{content:var(--byzantine-musical-symbol-fthora-skliron-diatonon-di)}
+.byzantine-musical-symbol-fthora-skliron-diatonon-di-both::after, .byzantine-musical-symbol-fthora-skliron-diatonon-di-both::before {content:var(--byzantine-musical-symbol-fthora-skliron-diatonon-di)}
+.byzantine-musical-symbol-fthora-skliron-diatonon-di-list { list-style: var(--byzantine-musical-symbol-fthora-skliron-diatonon-di)}
+
+
+
+.byzantine-musical-symbol-geniki-diesis::before, .byzantine-musical-symbol-geniki-diesis-before::before{ content:var(--byzantine-musical-symbol-geniki-diesis)}
+.byzantine-musical-symbol-geniki-diesis-after::after{content:var(--byzantine-musical-symbol-geniki-diesis)}
+.byzantine-musical-symbol-geniki-diesis-both::after, .byzantine-musical-symbol-geniki-diesis-both::before {content:var(--byzantine-musical-symbol-geniki-diesis)}
+.byzantine-musical-symbol-geniki-diesis-list { list-style: var(--byzantine-musical-symbol-geniki-diesis)}
+
+
+
+.byzantine-musical-symbol-geniki-yfesis::before, .byzantine-musical-symbol-geniki-yfesis-before::before{ content:var(--byzantine-musical-symbol-geniki-yfesis)}
+.byzantine-musical-symbol-geniki-yfesis-after::after{content:var(--byzantine-musical-symbol-geniki-yfesis)}
+.byzantine-musical-symbol-geniki-yfesis-both::after, .byzantine-musical-symbol-geniki-yfesis-both::before {content:var(--byzantine-musical-symbol-geniki-yfesis)}
+.byzantine-musical-symbol-geniki-yfesis-list { list-style: var(--byzantine-musical-symbol-geniki-yfesis)}
+
+
+
+.byzantine-musical-symbol-gorgon-archaion::before, .byzantine-musical-symbol-gorgon-archaion-before::before{ content:var(--byzantine-musical-symbol-gorgon-archaion)}
+.byzantine-musical-symbol-gorgon-archaion-after::after{content:var(--byzantine-musical-symbol-gorgon-archaion)}
+.byzantine-musical-symbol-gorgon-archaion-both::after, .byzantine-musical-symbol-gorgon-archaion-both::before {content:var(--byzantine-musical-symbol-gorgon-archaion)}
+.byzantine-musical-symbol-gorgon-archaion-list { list-style: var(--byzantine-musical-symbol-gorgon-archaion)}
+
+
+
+.byzantine-musical-symbol-gorgon-neo-ano::before, .byzantine-musical-symbol-gorgon-neo-ano-before::before{ content:var(--byzantine-musical-symbol-gorgon-neo-ano)}
+.byzantine-musical-symbol-gorgon-neo-ano-after::after{content:var(--byzantine-musical-symbol-gorgon-neo-ano)}
+.byzantine-musical-symbol-gorgon-neo-ano-both::after, .byzantine-musical-symbol-gorgon-neo-ano-both::before {content:var(--byzantine-musical-symbol-gorgon-neo-ano)}
+.byzantine-musical-symbol-gorgon-neo-ano-list { list-style: var(--byzantine-musical-symbol-gorgon-neo-ano)}
+
+
+
+.byzantine-musical-symbol-gorgon-neo-kato::before, .byzantine-musical-symbol-gorgon-neo-kato-before::before{ content:var(--byzantine-musical-symbol-gorgon-neo-kato)}
+.byzantine-musical-symbol-gorgon-neo-kato-after::after{content:var(--byzantine-musical-symbol-gorgon-neo-kato)}
+.byzantine-musical-symbol-gorgon-neo-kato-both::after, .byzantine-musical-symbol-gorgon-neo-kato-both::before {content:var(--byzantine-musical-symbol-gorgon-neo-kato)}
+.byzantine-musical-symbol-gorgon-neo-kato-list { list-style: var(--byzantine-musical-symbol-gorgon-neo-kato)}
+
+
+
+.byzantine-musical-symbol-gorgon-parestigmenon-aristera::before, .byzantine-musical-symbol-gorgon-parestigmenon-aristera-before::before{ content:var(--byzantine-musical-symbol-gorgon-parestigmenon-aristera)}
+.byzantine-musical-symbol-gorgon-parestigmenon-aristera-after::after{content:var(--byzantine-musical-symbol-gorgon-parestigmenon-aristera)}
+.byzantine-musical-symbol-gorgon-parestigmenon-aristera-both::after, .byzantine-musical-symbol-gorgon-parestigmenon-aristera-both::before {content:var(--byzantine-musical-symbol-gorgon-parestigmenon-aristera)}
+.byzantine-musical-symbol-gorgon-parestigmenon-aristera-list { list-style: var(--byzantine-musical-symbol-gorgon-parestigmenon-aristera)}
+
+
+
+.byzantine-musical-symbol-gorgon-parestigmenon-dexia::before, .byzantine-musical-symbol-gorgon-parestigmenon-dexia-before::before{ content:var(--byzantine-musical-symbol-gorgon-parestigmenon-dexia)}
+.byzantine-musical-symbol-gorgon-parestigmenon-dexia-after::after{content:var(--byzantine-musical-symbol-gorgon-parestigmenon-dexia)}
+.byzantine-musical-symbol-gorgon-parestigmenon-dexia-both::after, .byzantine-musical-symbol-gorgon-parestigmenon-dexia-both::before {content:var(--byzantine-musical-symbol-gorgon-parestigmenon-dexia)}
+.byzantine-musical-symbol-gorgon-parestigmenon-dexia-list { list-style: var(--byzantine-musical-symbol-gorgon-parestigmenon-dexia)}
+
+
+
+.byzantine-musical-symbol-gorgosyntheton::before, .byzantine-musical-symbol-gorgosyntheton-before::before{ content:var(--byzantine-musical-symbol-gorgosyntheton)}
+.byzantine-musical-symbol-gorgosyntheton-after::after{content:var(--byzantine-musical-symbol-gorgosyntheton)}
+.byzantine-musical-symbol-gorgosyntheton-both::after, .byzantine-musical-symbol-gorgosyntheton-both::before {content:var(--byzantine-musical-symbol-gorgosyntheton)}
+.byzantine-musical-symbol-gorgosyntheton-list { list-style: var(--byzantine-musical-symbol-gorgosyntheton)}
+
+
+
+.byzantine-musical-symbol-gorthmikon-n-aploun::before, .byzantine-musical-symbol-gorthmikon-n-aploun-before::before{ content:var(--byzantine-musical-symbol-gorthmikon-n-aploun)}
+.byzantine-musical-symbol-gorthmikon-n-aploun-after::after{content:var(--byzantine-musical-symbol-gorthmikon-n-aploun)}
+.byzantine-musical-symbol-gorthmikon-n-aploun-both::after, .byzantine-musical-symbol-gorthmikon-n-aploun-both::before {content:var(--byzantine-musical-symbol-gorthmikon-n-aploun)}
+.byzantine-musical-symbol-gorthmikon-n-aploun-list { list-style: var(--byzantine-musical-symbol-gorthmikon-n-aploun)}
+
+
+
+.byzantine-musical-symbol-gorthmikon-n-diploun::before, .byzantine-musical-symbol-gorthmikon-n-diploun-before::before{ content:var(--byzantine-musical-symbol-gorthmikon-n-diploun)}
+.byzantine-musical-symbol-gorthmikon-n-diploun-after::after{content:var(--byzantine-musical-symbol-gorthmikon-n-diploun)}
+.byzantine-musical-symbol-gorthmikon-n-diploun-both::after, .byzantine-musical-symbol-gorthmikon-n-diploun-both::before {content:var(--byzantine-musical-symbol-gorthmikon-n-diploun)}
+.byzantine-musical-symbol-gorthmikon-n-diploun-list { list-style: var(--byzantine-musical-symbol-gorthmikon-n-diploun)}
+
+
+
+.byzantine-musical-symbol-gronthismata::before, .byzantine-musical-symbol-gronthismata-before::before{ content:var(--byzantine-musical-symbol-gronthismata)}
+.byzantine-musical-symbol-gronthismata-after::after{content:var(--byzantine-musical-symbol-gronthismata)}
+.byzantine-musical-symbol-gronthismata-both::after, .byzantine-musical-symbol-gronthismata-both::before {content:var(--byzantine-musical-symbol-gronthismata)}
+.byzantine-musical-symbol-gronthismata-list { list-style: var(--byzantine-musical-symbol-gronthismata)}
+
+
+
+.byzantine-musical-symbol-ichadin::before, .byzantine-musical-symbol-ichadin-before::before{ content:var(--byzantine-musical-symbol-ichadin)}
+.byzantine-musical-symbol-ichadin-after::after{content:var(--byzantine-musical-symbol-ichadin)}
+.byzantine-musical-symbol-ichadin-both::after, .byzantine-musical-symbol-ichadin-both::before {content:var(--byzantine-musical-symbol-ichadin)}
+.byzantine-musical-symbol-ichadin-list { list-style: var(--byzantine-musical-symbol-ichadin)}
+
+
+
+.byzantine-musical-symbol-imidiargon::before, .byzantine-musical-symbol-imidiargon-before::before{ content:var(--byzantine-musical-symbol-imidiargon)}
+.byzantine-musical-symbol-imidiargon-after::after{content:var(--byzantine-musical-symbol-imidiargon)}
+.byzantine-musical-symbol-imidiargon-both::after, .byzantine-musical-symbol-imidiargon-both::before {content:var(--byzantine-musical-symbol-imidiargon)}
+.byzantine-musical-symbol-imidiargon-list { list-style: var(--byzantine-musical-symbol-imidiargon)}
+
+
+
+.byzantine-musical-symbol-imifonon::before, .byzantine-musical-symbol-imifonon-before::before{ content:var(--byzantine-musical-symbol-imifonon)}
+.byzantine-musical-symbol-imifonon-after::after{content:var(--byzantine-musical-symbol-imifonon)}
+.byzantine-musical-symbol-imifonon-both::after, .byzantine-musical-symbol-imifonon-both::before {content:var(--byzantine-musical-symbol-imifonon)}
+.byzantine-musical-symbol-imifonon-list { list-style: var(--byzantine-musical-symbol-imifonon)}
+
+
+
+.byzantine-musical-symbol-imifthora::before, .byzantine-musical-symbol-imifthora-before::before{ content:var(--byzantine-musical-symbol-imifthora)}
+.byzantine-musical-symbol-imifthora-after::after{content:var(--byzantine-musical-symbol-imifthora)}
+.byzantine-musical-symbol-imifthora-both::after, .byzantine-musical-symbol-imifthora-both::before {content:var(--byzantine-musical-symbol-imifthora)}
+.byzantine-musical-symbol-imifthora-list { list-style: var(--byzantine-musical-symbol-imifthora)}
+
+
+
+.byzantine-musical-symbol-imifthoron::before, .byzantine-musical-symbol-imifthoron-before::before{ content:var(--byzantine-musical-symbol-imifthoron)}
+.byzantine-musical-symbol-imifthoron-after::after{content:var(--byzantine-musical-symbol-imifthoron)}
+.byzantine-musical-symbol-imifthoron-both::after, .byzantine-musical-symbol-imifthoron-both::before {content:var(--byzantine-musical-symbol-imifthoron)}
+.byzantine-musical-symbol-imifthoron-list { list-style: var(--byzantine-musical-symbol-imifthoron)}
+
+
+
+.byzantine-musical-symbol-isakia-telous-ichimatos::before, .byzantine-musical-symbol-isakia-telous-ichimatos-before::before{ content:var(--byzantine-musical-symbol-isakia-telous-ichimatos)}
+.byzantine-musical-symbol-isakia-telous-ichimatos-after::after{content:var(--byzantine-musical-symbol-isakia-telous-ichimatos)}
+.byzantine-musical-symbol-isakia-telous-ichimatos-both::after, .byzantine-musical-symbol-isakia-telous-ichimatos-both::before {content:var(--byzantine-musical-symbol-isakia-telous-ichimatos)}
+.byzantine-musical-symbol-isakia-telous-ichimatos-list { list-style: var(--byzantine-musical-symbol-isakia-telous-ichimatos)}
+
+
+
+.byzantine-musical-symbol-ison-archaion::before, .byzantine-musical-symbol-ison-archaion-before::before{ content:var(--byzantine-musical-symbol-ison-archaion)}
+.byzantine-musical-symbol-ison-archaion-after::after{content:var(--byzantine-musical-symbol-ison-archaion)}
+.byzantine-musical-symbol-ison-archaion-both::after, .byzantine-musical-symbol-ison-archaion-both::before {content:var(--byzantine-musical-symbol-ison-archaion)}
+.byzantine-musical-symbol-ison-archaion-list { list-style: var(--byzantine-musical-symbol-ison-archaion)}
+
+
+
+.byzantine-musical-symbol-ison-neo::before, .byzantine-musical-symbol-ison-neo-before::before{ content:var(--byzantine-musical-symbol-ison-neo)}
+.byzantine-musical-symbol-ison-neo-after::after{content:var(--byzantine-musical-symbol-ison-neo)}
+.byzantine-musical-symbol-ison-neo-both::after, .byzantine-musical-symbol-ison-neo-both::before {content:var(--byzantine-musical-symbol-ison-neo)}
+.byzantine-musical-symbol-ison-neo-list { list-style: var(--byzantine-musical-symbol-ison-neo)}
+
+
+
+.byzantine-musical-symbol-katava-tromikon::before, .byzantine-musical-symbol-katava-tromikon-before::before{ content:var(--byzantine-musical-symbol-katava-tromikon)}
+.byzantine-musical-symbol-katava-tromikon-after::after{content:var(--byzantine-musical-symbol-katava-tromikon)}
+.byzantine-musical-symbol-katava-tromikon-both::after, .byzantine-musical-symbol-katava-tromikon-both::before {content:var(--byzantine-musical-symbol-katava-tromikon)}
+.byzantine-musical-symbol-katava-tromikon-list { list-style: var(--byzantine-musical-symbol-katava-tromikon)}
+
+
+
+.byzantine-musical-symbol-katavasma::before, .byzantine-musical-symbol-katavasma-before::before{ content:var(--byzantine-musical-symbol-katavasma)}
+.byzantine-musical-symbol-katavasma-after::after{content:var(--byzantine-musical-symbol-katavasma)}
+.byzantine-musical-symbol-katavasma-both::after, .byzantine-musical-symbol-katavasma-both::before {content:var(--byzantine-musical-symbol-katavasma)}
+.byzantine-musical-symbol-katavasma-list { list-style: var(--byzantine-musical-symbol-katavasma)}
+
+
+
+.byzantine-musical-symbol-kathisti::before, .byzantine-musical-symbol-kathisti-before::before{ content:var(--byzantine-musical-symbol-kathisti)}
+.byzantine-musical-symbol-kathisti-after::after{content:var(--byzantine-musical-symbol-kathisti)}
+.byzantine-musical-symbol-kathisti-both::after, .byzantine-musical-symbol-kathisti-both::before {content:var(--byzantine-musical-symbol-kathisti)}
+.byzantine-musical-symbol-kathisti-list { list-style: var(--byzantine-musical-symbol-kathisti)}
+
+
+
+.byzantine-musical-symbol-kentima-archaion::before, .byzantine-musical-symbol-kentima-archaion-before::before{ content:var(--byzantine-musical-symbol-kentima-archaion)}
+.byzantine-musical-symbol-kentima-archaion-after::after{content:var(--byzantine-musical-symbol-kentima-archaion)}
+.byzantine-musical-symbol-kentima-archaion-both::after, .byzantine-musical-symbol-kentima-archaion-both::before {content:var(--byzantine-musical-symbol-kentima-archaion)}
+.byzantine-musical-symbol-kentima-archaion-list { list-style: var(--byzantine-musical-symbol-kentima-archaion)}
+
+
+
+.byzantine-musical-symbol-kentima-neo-ano::before, .byzantine-musical-symbol-kentima-neo-ano-before::before{ content:var(--byzantine-musical-symbol-kentima-neo-ano)}
+.byzantine-musical-symbol-kentima-neo-ano-after::after{content:var(--byzantine-musical-symbol-kentima-neo-ano)}
+.byzantine-musical-symbol-kentima-neo-ano-both::after, .byzantine-musical-symbol-kentima-neo-ano-both::before {content:var(--byzantine-musical-symbol-kentima-neo-ano)}
+.byzantine-musical-symbol-kentima-neo-ano-list { list-style: var(--byzantine-musical-symbol-kentima-neo-ano)}
+
+
+
+.byzantine-musical-symbol-kentima-neo-kato::before, .byzantine-musical-symbol-kentima-neo-kato-before::before{ content:var(--byzantine-musical-symbol-kentima-neo-kato)}
+.byzantine-musical-symbol-kentima-neo-kato-after::after{content:var(--byzantine-musical-symbol-kentima-neo-kato)}
+.byzantine-musical-symbol-kentima-neo-kato-both::after, .byzantine-musical-symbol-kentima-neo-kato-both::before {content:var(--byzantine-musical-symbol-kentima-neo-kato)}
+.byzantine-musical-symbol-kentima-neo-kato-list { list-style: var(--byzantine-musical-symbol-kentima-neo-kato)}
+
+
+
+.byzantine-musical-symbol-kentima-neo-meso::before, .byzantine-musical-symbol-kentima-neo-meso-before::before{ content:var(--byzantine-musical-symbol-kentima-neo-meso)}
+.byzantine-musical-symbol-kentima-neo-meso-after::after{content:var(--byzantine-musical-symbol-kentima-neo-meso)}
+.byzantine-musical-symbol-kentima-neo-meso-both::after, .byzantine-musical-symbol-kentima-neo-meso-both::before {content:var(--byzantine-musical-symbol-kentima-neo-meso)}
+.byzantine-musical-symbol-kentima-neo-meso-list { list-style: var(--byzantine-musical-symbol-kentima-neo-meso)}
+
+
+
+.byzantine-musical-symbol-kentimata::before, .byzantine-musical-symbol-kentimata-before::before{ content:var(--byzantine-musical-symbol-kentimata)}
+.byzantine-musical-symbol-kentimata-after::after{content:var(--byzantine-musical-symbol-kentimata)}
+.byzantine-musical-symbol-kentimata-both::after, .byzantine-musical-symbol-kentimata-both::before {content:var(--byzantine-musical-symbol-kentimata)}
+.byzantine-musical-symbol-kentimata-list { list-style: var(--byzantine-musical-symbol-kentimata)}
+
+
+
+.byzantine-musical-symbol-kentimata-archaion::before, .byzantine-musical-symbol-kentimata-archaion-before::before{ content:var(--byzantine-musical-symbol-kentimata-archaion)}
+.byzantine-musical-symbol-kentimata-archaion-after::after{content:var(--byzantine-musical-symbol-kentimata-archaion)}
+.byzantine-musical-symbol-kentimata-archaion-both::after, .byzantine-musical-symbol-kentimata-archaion-both::before {content:var(--byzantine-musical-symbol-kentimata-archaion)}
+.byzantine-musical-symbol-kentimata-archaion-list { list-style: var(--byzantine-musical-symbol-kentimata-archaion)}
+
+
+
+.byzantine-musical-symbol-kentimata-neo-ano::before, .byzantine-musical-symbol-kentimata-neo-ano-before::before{ content:var(--byzantine-musical-symbol-kentimata-neo-ano)}
+.byzantine-musical-symbol-kentimata-neo-ano-after::after{content:var(--byzantine-musical-symbol-kentimata-neo-ano)}
+.byzantine-musical-symbol-kentimata-neo-ano-both::after, .byzantine-musical-symbol-kentimata-neo-ano-both::before {content:var(--byzantine-musical-symbol-kentimata-neo-ano)}
+.byzantine-musical-symbol-kentimata-neo-ano-list { list-style: var(--byzantine-musical-symbol-kentimata-neo-ano)}
+
+
+
+.byzantine-musical-symbol-kentimata-neo-kato::before, .byzantine-musical-symbol-kentimata-neo-kato-before::before{ content:var(--byzantine-musical-symbol-kentimata-neo-kato)}
+.byzantine-musical-symbol-kentimata-neo-kato-after::after{content:var(--byzantine-musical-symbol-kentimata-neo-kato)}
+.byzantine-musical-symbol-kentimata-neo-kato-both::after, .byzantine-musical-symbol-kentimata-neo-kato-both::before {content:var(--byzantine-musical-symbol-kentimata-neo-kato)}
+.byzantine-musical-symbol-kentimata-neo-kato-list { list-style: var(--byzantine-musical-symbol-kentimata-neo-kato)}
+
+
+
+.byzantine-musical-symbol-kentimata-neo-meso::before, .byzantine-musical-symbol-kentimata-neo-meso-before::before{ content:var(--byzantine-musical-symbol-kentimata-neo-meso)}
+.byzantine-musical-symbol-kentimata-neo-meso-after::after{content:var(--byzantine-musical-symbol-kentimata-neo-meso)}
+.byzantine-musical-symbol-kentimata-neo-meso-both::after, .byzantine-musical-symbol-kentimata-neo-meso-both::before {content:var(--byzantine-musical-symbol-kentimata-neo-meso)}
+.byzantine-musical-symbol-kentimata-neo-meso-list { list-style: var(--byzantine-musical-symbol-kentimata-neo-meso)}
+
+
+
+.byzantine-musical-symbol-klasma::before, .byzantine-musical-symbol-klasma-before::before{ content:var(--byzantine-musical-symbol-klasma)}
+.byzantine-musical-symbol-klasma-after::after{content:var(--byzantine-musical-symbol-klasma)}
+.byzantine-musical-symbol-klasma-both::after, .byzantine-musical-symbol-klasma-both::before {content:var(--byzantine-musical-symbol-klasma)}
+.byzantine-musical-symbol-klasma-list { list-style: var(--byzantine-musical-symbol-klasma)}
+
+
+
+.byzantine-musical-symbol-klasma-ano::before, .byzantine-musical-symbol-klasma-ano-before::before{ content:var(--byzantine-musical-symbol-klasma-ano)}
+.byzantine-musical-symbol-klasma-ano-after::after{content:var(--byzantine-musical-symbol-klasma-ano)}
+.byzantine-musical-symbol-klasma-ano-both::after, .byzantine-musical-symbol-klasma-ano-both::before {content:var(--byzantine-musical-symbol-klasma-ano)}
+.byzantine-musical-symbol-klasma-ano-list { list-style: var(--byzantine-musical-symbol-klasma-ano)}
+
+
+
+.byzantine-musical-symbol-klasma-kato::before, .byzantine-musical-symbol-klasma-kato-before::before{ content:var(--byzantine-musical-symbol-klasma-kato)}
+.byzantine-musical-symbol-klasma-kato-after::after{content:var(--byzantine-musical-symbol-klasma-kato)}
+.byzantine-musical-symbol-klasma-kato-both::after, .byzantine-musical-symbol-klasma-kato-both::before {content:var(--byzantine-musical-symbol-klasma-kato)}
+.byzantine-musical-symbol-klasma-kato-list { list-style: var(--byzantine-musical-symbol-klasma-kato)}
+
+
+
+.byzantine-musical-symbol-kontevma::before, .byzantine-musical-symbol-kontevma-before::before{ content:var(--byzantine-musical-symbol-kontevma)}
+.byzantine-musical-symbol-kontevma-after::after{content:var(--byzantine-musical-symbol-kontevma)}
+.byzantine-musical-symbol-kontevma-both::after, .byzantine-musical-symbol-kontevma-both::before {content:var(--byzantine-musical-symbol-kontevma)}
+.byzantine-musical-symbol-kontevma-list { list-style: var(--byzantine-musical-symbol-kontevma)}
+
+
+
+.byzantine-musical-symbol-kontevma-allo::before, .byzantine-musical-symbol-kontevma-allo-before::before{ content:var(--byzantine-musical-symbol-kontevma-allo)}
+.byzantine-musical-symbol-kontevma-allo-after::after{content:var(--byzantine-musical-symbol-kontevma-allo)}
+.byzantine-musical-symbol-kontevma-allo-both::after, .byzantine-musical-symbol-kontevma-allo-both::before {content:var(--byzantine-musical-symbol-kontevma-allo)}
+.byzantine-musical-symbol-kontevma-allo-list { list-style: var(--byzantine-musical-symbol-kontevma-allo)}
+
+
+
+.byzantine-musical-symbol-koronis::before, .byzantine-musical-symbol-koronis-before::before{ content:var(--byzantine-musical-symbol-koronis)}
+.byzantine-musical-symbol-koronis-after::after{content:var(--byzantine-musical-symbol-koronis)}
+.byzantine-musical-symbol-koronis-both::after, .byzantine-musical-symbol-koronis-both::before {content:var(--byzantine-musical-symbol-koronis)}
+.byzantine-musical-symbol-koronis-list { list-style: var(--byzantine-musical-symbol-koronis)}
+
+
+
+.byzantine-musical-symbol-koufisma::before, .byzantine-musical-symbol-koufisma-before::before{ content:var(--byzantine-musical-symbol-koufisma)}
+.byzantine-musical-symbol-koufisma-after::after{content:var(--byzantine-musical-symbol-koufisma)}
+.byzantine-musical-symbol-koufisma-both::after, .byzantine-musical-symbol-koufisma-both::before {content:var(--byzantine-musical-symbol-koufisma)}
+.byzantine-musical-symbol-koufisma-list { list-style: var(--byzantine-musical-symbol-koufisma)}
+
+
+
+.byzantine-musical-symbol-kratima-allo::before, .byzantine-musical-symbol-kratima-allo-before::before{ content:var(--byzantine-musical-symbol-kratima-allo)}
+.byzantine-musical-symbol-kratima-allo-after::after{content:var(--byzantine-musical-symbol-kratima-allo)}
+.byzantine-musical-symbol-kratima-allo-both::after, .byzantine-musical-symbol-kratima-allo-both::before {content:var(--byzantine-musical-symbol-kratima-allo)}
+.byzantine-musical-symbol-kratima-allo-list { list-style: var(--byzantine-musical-symbol-kratima-allo)}
+
+
+
+.byzantine-musical-symbol-kratima-archaion::before, .byzantine-musical-symbol-kratima-archaion-before::before{ content:var(--byzantine-musical-symbol-kratima-archaion)}
+.byzantine-musical-symbol-kratima-archaion-after::after{content:var(--byzantine-musical-symbol-kratima-archaion)}
+.byzantine-musical-symbol-kratima-archaion-both::after, .byzantine-musical-symbol-kratima-archaion-both::before {content:var(--byzantine-musical-symbol-kratima-archaion)}
+.byzantine-musical-symbol-kratima-archaion-list { list-style: var(--byzantine-musical-symbol-kratima-archaion)}
+
+
+
+.byzantine-musical-symbol-kratima-neo::before, .byzantine-musical-symbol-kratima-neo-before::before{ content:var(--byzantine-musical-symbol-kratima-neo)}
+.byzantine-musical-symbol-kratima-neo-after::after{content:var(--byzantine-musical-symbol-kratima-neo)}
+.byzantine-musical-symbol-kratima-neo-both::after, .byzantine-musical-symbol-kratima-neo-both::before {content:var(--byzantine-musical-symbol-kratima-neo)}
+.byzantine-musical-symbol-kratima-neo-list { list-style: var(--byzantine-musical-symbol-kratima-neo)}
+
+
+
+.byzantine-musical-symbol-kratimata::before, .byzantine-musical-symbol-kratimata-before::before{ content:var(--byzantine-musical-symbol-kratimata)}
+.byzantine-musical-symbol-kratimata-after::after{content:var(--byzantine-musical-symbol-kratimata)}
+.byzantine-musical-symbol-kratimata-both::after, .byzantine-musical-symbol-kratimata-both::before {content:var(--byzantine-musical-symbol-kratimata)}
+.byzantine-musical-symbol-kratimata-list { list-style: var(--byzantine-musical-symbol-kratimata)}
+
+
+
+.byzantine-musical-symbol-kratimokoufisma::before, .byzantine-musical-symbol-kratimokoufisma-before::before{ content:var(--byzantine-musical-symbol-kratimokoufisma)}
+.byzantine-musical-symbol-kratimokoufisma-after::after{content:var(--byzantine-musical-symbol-kratimokoufisma)}
+.byzantine-musical-symbol-kratimokoufisma-both::after, .byzantine-musical-symbol-kratimokoufisma-both::before {content:var(--byzantine-musical-symbol-kratimokoufisma)}
+.byzantine-musical-symbol-kratimokoufisma-list { list-style: var(--byzantine-musical-symbol-kratimokoufisma)}
+
+
+
+.byzantine-musical-symbol-kratimoyporroon::before, .byzantine-musical-symbol-kratimoyporroon-before::before{ content:var(--byzantine-musical-symbol-kratimoyporroon)}
+.byzantine-musical-symbol-kratimoyporroon-after::after{content:var(--byzantine-musical-symbol-kratimoyporroon)}
+.byzantine-musical-symbol-kratimoyporroon-both::after, .byzantine-musical-symbol-kratimoyporroon-both::before {content:var(--byzantine-musical-symbol-kratimoyporroon)}
+.byzantine-musical-symbol-kratimoyporroon-list { list-style: var(--byzantine-musical-symbol-kratimoyporroon)}
+
+
+
+.byzantine-musical-symbol-kremasti::before, .byzantine-musical-symbol-kremasti-before::before{ content:var(--byzantine-musical-symbol-kremasti)}
+.byzantine-musical-symbol-kremasti-after::after{content:var(--byzantine-musical-symbol-kremasti)}
+.byzantine-musical-symbol-kremasti-both::after, .byzantine-musical-symbol-kremasti-both::before {content:var(--byzantine-musical-symbol-kremasti)}
+.byzantine-musical-symbol-kremasti-list { list-style: var(--byzantine-musical-symbol-kremasti)}
+
+
+
+.byzantine-musical-symbol-kylisma::before, .byzantine-musical-symbol-kylisma-before::before{ content:var(--byzantine-musical-symbol-kylisma)}
+.byzantine-musical-symbol-kylisma-after::after{content:var(--byzantine-musical-symbol-kylisma)}
+.byzantine-musical-symbol-kylisma-both::after, .byzantine-musical-symbol-kylisma-both::before {content:var(--byzantine-musical-symbol-kylisma)}
+.byzantine-musical-symbol-kylisma-list { list-style: var(--byzantine-musical-symbol-kylisma)}
+
+
+
+.byzantine-musical-symbol-leimma-dyo-chronon::before, .byzantine-musical-symbol-leimma-dyo-chronon-before::before{ content:var(--byzantine-musical-symbol-leimma-dyo-chronon)}
+.byzantine-musical-symbol-leimma-dyo-chronon-after::after{content:var(--byzantine-musical-symbol-leimma-dyo-chronon)}
+.byzantine-musical-symbol-leimma-dyo-chronon-both::after, .byzantine-musical-symbol-leimma-dyo-chronon-both::before {content:var(--byzantine-musical-symbol-leimma-dyo-chronon)}
+.byzantine-musical-symbol-leimma-dyo-chronon-list { list-style: var(--byzantine-musical-symbol-leimma-dyo-chronon)}
+
+
+
+.byzantine-musical-symbol-leimma-enos-chronou::before, .byzantine-musical-symbol-leimma-enos-chronou-before::before{ content:var(--byzantine-musical-symbol-leimma-enos-chronou)}
+.byzantine-musical-symbol-leimma-enos-chronou-after::after{content:var(--byzantine-musical-symbol-leimma-enos-chronou)}
+.byzantine-musical-symbol-leimma-enos-chronou-both::after, .byzantine-musical-symbol-leimma-enos-chronou-both::before {content:var(--byzantine-musical-symbol-leimma-enos-chronou)}
+.byzantine-musical-symbol-leimma-enos-chronou-list { list-style: var(--byzantine-musical-symbol-leimma-enos-chronou)}
+
+
+
+.byzantine-musical-symbol-leimma-imiseos-chronou::before, .byzantine-musical-symbol-leimma-imiseos-chronou-before::before{ content:var(--byzantine-musical-symbol-leimma-imiseos-chronou)}
+.byzantine-musical-symbol-leimma-imiseos-chronou-after::after{content:var(--byzantine-musical-symbol-leimma-imiseos-chronou)}
+.byzantine-musical-symbol-leimma-imiseos-chronou-both::after, .byzantine-musical-symbol-leimma-imiseos-chronou-both::before {content:var(--byzantine-musical-symbol-leimma-imiseos-chronou)}
+.byzantine-musical-symbol-leimma-imiseos-chronou-list { list-style: var(--byzantine-musical-symbol-leimma-imiseos-chronou)}
+
+
+
+.byzantine-musical-symbol-leimma-tessaron-chronon::before, .byzantine-musical-symbol-leimma-tessaron-chronon-before::before{ content:var(--byzantine-musical-symbol-leimma-tessaron-chronon)}
+.byzantine-musical-symbol-leimma-tessaron-chronon-after::after{content:var(--byzantine-musical-symbol-leimma-tessaron-chronon)}
+.byzantine-musical-symbol-leimma-tessaron-chronon-both::after, .byzantine-musical-symbol-leimma-tessaron-chronon-both::before {content:var(--byzantine-musical-symbol-leimma-tessaron-chronon)}
+.byzantine-musical-symbol-leimma-tessaron-chronon-list { list-style: var(--byzantine-musical-symbol-leimma-tessaron-chronon)}
+
+
+
+.byzantine-musical-symbol-leimma-trion-chronon::before, .byzantine-musical-symbol-leimma-trion-chronon-before::before{ content:var(--byzantine-musical-symbol-leimma-trion-chronon)}
+.byzantine-musical-symbol-leimma-trion-chronon-after::after{content:var(--byzantine-musical-symbol-leimma-trion-chronon)}
+.byzantine-musical-symbol-leimma-trion-chronon-both::after, .byzantine-musical-symbol-leimma-trion-chronon-both::before {content:var(--byzantine-musical-symbol-leimma-trion-chronon)}
+.byzantine-musical-symbol-leimma-trion-chronon-list { list-style: var(--byzantine-musical-symbol-leimma-trion-chronon)}
+
+
+
+.byzantine-musical-symbol-lemoi::before, .byzantine-musical-symbol-lemoi-before::before{ content:var(--byzantine-musical-symbol-lemoi)}
+.byzantine-musical-symbol-lemoi-after::after{content:var(--byzantine-musical-symbol-lemoi)}
+.byzantine-musical-symbol-lemoi-both::after, .byzantine-musical-symbol-lemoi-both::before {content:var(--byzantine-musical-symbol-lemoi)}
+.byzantine-musical-symbol-lemoi-list { list-style: var(--byzantine-musical-symbol-lemoi)}
+
+
+
+.byzantine-musical-symbol-lygisma::before, .byzantine-musical-symbol-lygisma-before::before{ content:var(--byzantine-musical-symbol-lygisma)}
+.byzantine-musical-symbol-lygisma-after::after{content:var(--byzantine-musical-symbol-lygisma)}
+.byzantine-musical-symbol-lygisma-both::after, .byzantine-musical-symbol-lygisma-both::before {content:var(--byzantine-musical-symbol-lygisma)}
+.byzantine-musical-symbol-lygisma-list { list-style: var(--byzantine-musical-symbol-lygisma)}
+
+
+
+.byzantine-musical-symbol-martyria-alli-deyteros-ichos::before, .byzantine-musical-symbol-martyria-alli-deyteros-ichos-before::before{ content:var(--byzantine-musical-symbol-martyria-alli-deyteros-ichos)}
+.byzantine-musical-symbol-martyria-alli-deyteros-ichos-after::after{content:var(--byzantine-musical-symbol-martyria-alli-deyteros-ichos)}
+.byzantine-musical-symbol-martyria-alli-deyteros-ichos-both::after, .byzantine-musical-symbol-martyria-alli-deyteros-ichos-both::before {content:var(--byzantine-musical-symbol-martyria-alli-deyteros-ichos)}
+.byzantine-musical-symbol-martyria-alli-deyteros-ichos-list { list-style: var(--byzantine-musical-symbol-martyria-alli-deyteros-ichos)}
+
+
+
+.byzantine-musical-symbol-martyria-alli-protos-ichos::before, .byzantine-musical-symbol-martyria-alli-protos-ichos-before::before{ content:var(--byzantine-musical-symbol-martyria-alli-protos-ichos)}
+.byzantine-musical-symbol-martyria-alli-protos-ichos-after::after{content:var(--byzantine-musical-symbol-martyria-alli-protos-ichos)}
+.byzantine-musical-symbol-martyria-alli-protos-ichos-both::after, .byzantine-musical-symbol-martyria-alli-protos-ichos-both::before {content:var(--byzantine-musical-symbol-martyria-alli-protos-ichos)}
+.byzantine-musical-symbol-martyria-alli-protos-ichos-list { list-style: var(--byzantine-musical-symbol-martyria-alli-protos-ichos)}
+
+
+
+.byzantine-musical-symbol-martyria-deyteros-ichos::before, .byzantine-musical-symbol-martyria-deyteros-ichos-before::before{ content:var(--byzantine-musical-symbol-martyria-deyteros-ichos)}
+.byzantine-musical-symbol-martyria-deyteros-ichos-after::after{content:var(--byzantine-musical-symbol-martyria-deyteros-ichos)}
+.byzantine-musical-symbol-martyria-deyteros-ichos-both::after, .byzantine-musical-symbol-martyria-deyteros-ichos-both::before {content:var(--byzantine-musical-symbol-martyria-deyteros-ichos)}
+.byzantine-musical-symbol-martyria-deyteros-ichos-list { list-style: var(--byzantine-musical-symbol-martyria-deyteros-ichos)}
+
+
+
+.byzantine-musical-symbol-martyria-legetos-ichos::before, .byzantine-musical-symbol-martyria-legetos-ichos-before::before{ content:var(--byzantine-musical-symbol-martyria-legetos-ichos)}
+.byzantine-musical-symbol-martyria-legetos-ichos-after::after{content:var(--byzantine-musical-symbol-martyria-legetos-ichos)}
+.byzantine-musical-symbol-martyria-legetos-ichos-both::after, .byzantine-musical-symbol-martyria-legetos-ichos-both::before {content:var(--byzantine-musical-symbol-martyria-legetos-ichos)}
+.byzantine-musical-symbol-martyria-legetos-ichos-list { list-style: var(--byzantine-musical-symbol-martyria-legetos-ichos)}
+
+
+
+.byzantine-musical-symbol-martyria-plagios-ichos::before, .byzantine-musical-symbol-martyria-plagios-ichos-before::before{ content:var(--byzantine-musical-symbol-martyria-plagios-ichos)}
+.byzantine-musical-symbol-martyria-plagios-ichos-after::after{content:var(--byzantine-musical-symbol-martyria-plagios-ichos)}
+.byzantine-musical-symbol-martyria-plagios-ichos-both::after, .byzantine-musical-symbol-martyria-plagios-ichos-both::before {content:var(--byzantine-musical-symbol-martyria-plagios-ichos)}
+.byzantine-musical-symbol-martyria-plagios-ichos-list { list-style: var(--byzantine-musical-symbol-martyria-plagios-ichos)}
+
+
+
+.byzantine-musical-symbol-martyria-plagios-tetartos-ichos::before, .byzantine-musical-symbol-martyria-plagios-tetartos-ichos-before::before{ content:var(--byzantine-musical-symbol-martyria-plagios-tetartos-ichos)}
+.byzantine-musical-symbol-martyria-plagios-tetartos-ichos-after::after{content:var(--byzantine-musical-symbol-martyria-plagios-tetartos-ichos)}
+.byzantine-musical-symbol-martyria-plagios-tetartos-ichos-both::after, .byzantine-musical-symbol-martyria-plagios-tetartos-ichos-both::before {content:var(--byzantine-musical-symbol-martyria-plagios-tetartos-ichos)}
+.byzantine-musical-symbol-martyria-plagios-tetartos-ichos-list { list-style: var(--byzantine-musical-symbol-martyria-plagios-tetartos-ichos)}
+
+
+
+.byzantine-musical-symbol-martyria-protos-ichos::before, .byzantine-musical-symbol-martyria-protos-ichos-before::before{ content:var(--byzantine-musical-symbol-martyria-protos-ichos)}
+.byzantine-musical-symbol-martyria-protos-ichos-after::after{content:var(--byzantine-musical-symbol-martyria-protos-ichos)}
+.byzantine-musical-symbol-martyria-protos-ichos-both::after, .byzantine-musical-symbol-martyria-protos-ichos-both::before {content:var(--byzantine-musical-symbol-martyria-protos-ichos)}
+.byzantine-musical-symbol-martyria-protos-ichos-list { list-style: var(--byzantine-musical-symbol-martyria-protos-ichos)}
+
+
+
+.byzantine-musical-symbol-martyria-protovarys-ichos::before, .byzantine-musical-symbol-martyria-protovarys-ichos-before::before{ content:var(--byzantine-musical-symbol-martyria-protovarys-ichos)}
+.byzantine-musical-symbol-martyria-protovarys-ichos-after::after{content:var(--byzantine-musical-symbol-martyria-protovarys-ichos)}
+.byzantine-musical-symbol-martyria-protovarys-ichos-both::after, .byzantine-musical-symbol-martyria-protovarys-ichos-both::before {content:var(--byzantine-musical-symbol-martyria-protovarys-ichos)}
+.byzantine-musical-symbol-martyria-protovarys-ichos-list { list-style: var(--byzantine-musical-symbol-martyria-protovarys-ichos)}
+
+
+
+.byzantine-musical-symbol-martyria-tetartos-ichos::before, .byzantine-musical-symbol-martyria-tetartos-ichos-before::before{ content:var(--byzantine-musical-symbol-martyria-tetartos-ichos)}
+.byzantine-musical-symbol-martyria-tetartos-ichos-after::after{content:var(--byzantine-musical-symbol-martyria-tetartos-ichos)}
+.byzantine-musical-symbol-martyria-tetartos-ichos-both::after, .byzantine-musical-symbol-martyria-tetartos-ichos-both::before {content:var(--byzantine-musical-symbol-martyria-tetartos-ichos)}
+.byzantine-musical-symbol-martyria-tetartos-ichos-list { list-style: var(--byzantine-musical-symbol-martyria-tetartos-ichos)}
+
+
+
+.byzantine-musical-symbol-martyria-tetartos-legetos-ichos::before, .byzantine-musical-symbol-martyria-tetartos-legetos-ichos-before::before{ content:var(--byzantine-musical-symbol-martyria-tetartos-legetos-ichos)}
+.byzantine-musical-symbol-martyria-tetartos-legetos-ichos-after::after{content:var(--byzantine-musical-symbol-martyria-tetartos-legetos-ichos)}
+.byzantine-musical-symbol-martyria-tetartos-legetos-ichos-both::after, .byzantine-musical-symbol-martyria-tetartos-legetos-ichos-both::before {content:var(--byzantine-musical-symbol-martyria-tetartos-legetos-ichos)}
+.byzantine-musical-symbol-martyria-tetartos-legetos-ichos-list { list-style: var(--byzantine-musical-symbol-martyria-tetartos-legetos-ichos)}
+
+
+
+.byzantine-musical-symbol-martyria-trifonias::before, .byzantine-musical-symbol-martyria-trifonias-before::before{ content:var(--byzantine-musical-symbol-martyria-trifonias)}
+.byzantine-musical-symbol-martyria-trifonias-after::after{content:var(--byzantine-musical-symbol-martyria-trifonias)}
+.byzantine-musical-symbol-martyria-trifonias-both::after, .byzantine-musical-symbol-martyria-trifonias-both::before {content:var(--byzantine-musical-symbol-martyria-trifonias)}
+.byzantine-musical-symbol-martyria-trifonias-list { list-style: var(--byzantine-musical-symbol-martyria-trifonias)}
+
+
+
+.byzantine-musical-symbol-martyria-tritos-ichos::before, .byzantine-musical-symbol-martyria-tritos-ichos-before::before{ content:var(--byzantine-musical-symbol-martyria-tritos-ichos)}
+.byzantine-musical-symbol-martyria-tritos-ichos-after::after{content:var(--byzantine-musical-symbol-martyria-tritos-ichos)}
+.byzantine-musical-symbol-martyria-tritos-ichos-both::after, .byzantine-musical-symbol-martyria-tritos-ichos-both::before {content:var(--byzantine-musical-symbol-martyria-tritos-ichos)}
+.byzantine-musical-symbol-martyria-tritos-ichos-list { list-style: var(--byzantine-musical-symbol-martyria-tritos-ichos)}
+
+
+
+.byzantine-musical-symbol-martyria-varys-ichos::before, .byzantine-musical-symbol-martyria-varys-ichos-before::before{ content:var(--byzantine-musical-symbol-martyria-varys-ichos)}
+.byzantine-musical-symbol-martyria-varys-ichos-after::after{content:var(--byzantine-musical-symbol-martyria-varys-ichos)}
+.byzantine-musical-symbol-martyria-varys-ichos-both::after, .byzantine-musical-symbol-martyria-varys-ichos-both::before {content:var(--byzantine-musical-symbol-martyria-varys-ichos)}
+.byzantine-musical-symbol-martyria-varys-ichos-list { list-style: var(--byzantine-musical-symbol-martyria-varys-ichos)}
+
+
+
+.byzantine-musical-symbol-mikron-ison::before, .byzantine-musical-symbol-mikron-ison-before::before{ content:var(--byzantine-musical-symbol-mikron-ison)}
+.byzantine-musical-symbol-mikron-ison-after::after{content:var(--byzantine-musical-symbol-mikron-ison)}
+.byzantine-musical-symbol-mikron-ison-both::after, .byzantine-musical-symbol-mikron-ison-both::before {content:var(--byzantine-musical-symbol-mikron-ison)}
+.byzantine-musical-symbol-mikron-ison-list { list-style: var(--byzantine-musical-symbol-mikron-ison)}
+
+
+
+.byzantine-musical-symbol-nana::before, .byzantine-musical-symbol-nana-before::before{ content:var(--byzantine-musical-symbol-nana)}
+.byzantine-musical-symbol-nana-after::after{content:var(--byzantine-musical-symbol-nana)}
+.byzantine-musical-symbol-nana-both::after, .byzantine-musical-symbol-nana-both::before {content:var(--byzantine-musical-symbol-nana)}
+.byzantine-musical-symbol-nana-list { list-style: var(--byzantine-musical-symbol-nana)}
+
+
+
+.byzantine-musical-symbol-oligon-archaion::before, .byzantine-musical-symbol-oligon-archaion-before::before{ content:var(--byzantine-musical-symbol-oligon-archaion)}
+.byzantine-musical-symbol-oligon-archaion-after::after{content:var(--byzantine-musical-symbol-oligon-archaion)}
+.byzantine-musical-symbol-oligon-archaion-both::after, .byzantine-musical-symbol-oligon-archaion-both::before {content:var(--byzantine-musical-symbol-oligon-archaion)}
+.byzantine-musical-symbol-oligon-archaion-list { list-style: var(--byzantine-musical-symbol-oligon-archaion)}
+
+
+
+.byzantine-musical-symbol-oligon-neo::before, .byzantine-musical-symbol-oligon-neo-before::before{ content:var(--byzantine-musical-symbol-oligon-neo)}
+.byzantine-musical-symbol-oligon-neo-after::after{content:var(--byzantine-musical-symbol-oligon-neo)}
+.byzantine-musical-symbol-oligon-neo-both::after, .byzantine-musical-symbol-oligon-neo-both::before {content:var(--byzantine-musical-symbol-oligon-neo)}
+.byzantine-musical-symbol-oligon-neo-list { list-style: var(--byzantine-musical-symbol-oligon-neo)}
+
+
+
+.byzantine-musical-symbol-omalon::before, .byzantine-musical-symbol-omalon-before::before{ content:var(--byzantine-musical-symbol-omalon)}
+.byzantine-musical-symbol-omalon-after::after{content:var(--byzantine-musical-symbol-omalon)}
+.byzantine-musical-symbol-omalon-both::after, .byzantine-musical-symbol-omalon-both::before {content:var(--byzantine-musical-symbol-omalon)}
+.byzantine-musical-symbol-omalon-list { list-style: var(--byzantine-musical-symbol-omalon)}
+
+
+
+.byzantine-musical-symbol-oxeia-dipli::before, .byzantine-musical-symbol-oxeia-dipli-before::before{ content:var(--byzantine-musical-symbol-oxeia-dipli)}
+.byzantine-musical-symbol-oxeia-dipli-after::after{content:var(--byzantine-musical-symbol-oxeia-dipli)}
+.byzantine-musical-symbol-oxeia-dipli-both::after, .byzantine-musical-symbol-oxeia-dipli-both::before {content:var(--byzantine-musical-symbol-oxeia-dipli)}
+.byzantine-musical-symbol-oxeia-dipli-list { list-style: var(--byzantine-musical-symbol-oxeia-dipli)}
+
+
+
+.byzantine-musical-symbol-oxeia-ekfonitikon::before, .byzantine-musical-symbol-oxeia-ekfonitikon-before::before{ content:var(--byzantine-musical-symbol-oxeia-ekfonitikon)}
+.byzantine-musical-symbol-oxeia-ekfonitikon-after::after{content:var(--byzantine-musical-symbol-oxeia-ekfonitikon)}
+.byzantine-musical-symbol-oxeia-ekfonitikon-both::after, .byzantine-musical-symbol-oxeia-ekfonitikon-both::before {content:var(--byzantine-musical-symbol-oxeia-ekfonitikon)}
+.byzantine-musical-symbol-oxeia-ekfonitikon-list { list-style: var(--byzantine-musical-symbol-oxeia-ekfonitikon)}
+
+
+
+.byzantine-musical-symbol-oxeia-neo::before, .byzantine-musical-symbol-oxeia-neo-before::before{ content:var(--byzantine-musical-symbol-oxeia-neo)}
+.byzantine-musical-symbol-oxeia-neo-after::after{content:var(--byzantine-musical-symbol-oxeia-neo)}
+.byzantine-musical-symbol-oxeia-neo-both::after, .byzantine-musical-symbol-oxeia-neo-both::before {content:var(--byzantine-musical-symbol-oxeia-neo)}
+.byzantine-musical-symbol-oxeia-neo-list { list-style: var(--byzantine-musical-symbol-oxeia-neo)}
+
+
+
+.byzantine-musical-symbol-oxeiai-archaion::before, .byzantine-musical-symbol-oxeiai-archaion-before::before{ content:var(--byzantine-musical-symbol-oxeiai-archaion)}
+.byzantine-musical-symbol-oxeiai-archaion-after::after{content:var(--byzantine-musical-symbol-oxeiai-archaion)}
+.byzantine-musical-symbol-oxeiai-archaion-both::after, .byzantine-musical-symbol-oxeiai-archaion-both::before {content:var(--byzantine-musical-symbol-oxeiai-archaion)}
+.byzantine-musical-symbol-oxeiai-archaion-list { list-style: var(--byzantine-musical-symbol-oxeiai-archaion)}
+
+
+
+.byzantine-musical-symbol-oyranisma-archaion::before, .byzantine-musical-symbol-oyranisma-archaion-before::before{ content:var(--byzantine-musical-symbol-oyranisma-archaion)}
+.byzantine-musical-symbol-oyranisma-archaion-after::after{content:var(--byzantine-musical-symbol-oyranisma-archaion)}
+.byzantine-musical-symbol-oyranisma-archaion-both::after, .byzantine-musical-symbol-oyranisma-archaion-both::before {content:var(--byzantine-musical-symbol-oyranisma-archaion)}
+.byzantine-musical-symbol-oyranisma-archaion-list { list-style: var(--byzantine-musical-symbol-oyranisma-archaion)}
+
+
+
+.byzantine-musical-symbol-oyranisma-neo::before, .byzantine-musical-symbol-oyranisma-neo-before::before{ content:var(--byzantine-musical-symbol-oyranisma-neo)}
+.byzantine-musical-symbol-oyranisma-neo-after::after{content:var(--byzantine-musical-symbol-oyranisma-neo)}
+.byzantine-musical-symbol-oyranisma-neo-both::after, .byzantine-musical-symbol-oyranisma-neo-both::before {content:var(--byzantine-musical-symbol-oyranisma-neo)}
+.byzantine-musical-symbol-oyranisma-neo-list { list-style: var(--byzantine-musical-symbol-oyranisma-neo)}
+
+
+
+.byzantine-musical-symbol-parakalesma-archaion::before, .byzantine-musical-symbol-parakalesma-archaion-before::before{ content:var(--byzantine-musical-symbol-parakalesma-archaion)}
+.byzantine-musical-symbol-parakalesma-archaion-after::after{content:var(--byzantine-musical-symbol-parakalesma-archaion)}
+.byzantine-musical-symbol-parakalesma-archaion-both::after, .byzantine-musical-symbol-parakalesma-archaion-both::before {content:var(--byzantine-musical-symbol-parakalesma-archaion)}
+.byzantine-musical-symbol-parakalesma-archaion-list { list-style: var(--byzantine-musical-symbol-parakalesma-archaion)}
+
+
+
+.byzantine-musical-symbol-parakalesma-neo::before, .byzantine-musical-symbol-parakalesma-neo-before::before{ content:var(--byzantine-musical-symbol-parakalesma-neo)}
+.byzantine-musical-symbol-parakalesma-neo-after::after{content:var(--byzantine-musical-symbol-parakalesma-neo)}
+.byzantine-musical-symbol-parakalesma-neo-both::after, .byzantine-musical-symbol-parakalesma-neo-both::before {content:var(--byzantine-musical-symbol-parakalesma-neo)}
+.byzantine-musical-symbol-parakalesma-neo-list { list-style: var(--byzantine-musical-symbol-parakalesma-neo)}
+
+
+
+.byzantine-musical-symbol-paraklitiki::before, .byzantine-musical-symbol-paraklitiki-before::before{ content:var(--byzantine-musical-symbol-paraklitiki)}
+.byzantine-musical-symbol-paraklitiki-after::after{content:var(--byzantine-musical-symbol-paraklitiki)}
+.byzantine-musical-symbol-paraklitiki-both::after, .byzantine-musical-symbol-paraklitiki-both::before {content:var(--byzantine-musical-symbol-paraklitiki)}
+.byzantine-musical-symbol-paraklitiki-list { list-style: var(--byzantine-musical-symbol-paraklitiki)}
+
+
+
+.byzantine-musical-symbol-paraklitiki-archaion::before, .byzantine-musical-symbol-paraklitiki-archaion-before::before{ content:var(--byzantine-musical-symbol-paraklitiki-archaion)}
+.byzantine-musical-symbol-paraklitiki-archaion-after::after{content:var(--byzantine-musical-symbol-paraklitiki-archaion)}
+.byzantine-musical-symbol-paraklitiki-archaion-both::after, .byzantine-musical-symbol-paraklitiki-archaion-both::before {content:var(--byzantine-musical-symbol-paraklitiki-archaion)}
+.byzantine-musical-symbol-paraklitiki-archaion-list { list-style: var(--byzantine-musical-symbol-paraklitiki-archaion)}
+
+
+
+.byzantine-musical-symbol-paraklitiki-neo::before, .byzantine-musical-symbol-paraklitiki-neo-before::before{ content:var(--byzantine-musical-symbol-paraklitiki-neo)}
+.byzantine-musical-symbol-paraklitiki-neo-after::after{content:var(--byzantine-musical-symbol-paraklitiki-neo)}
+.byzantine-musical-symbol-paraklitiki-neo-both::after, .byzantine-musical-symbol-paraklitiki-neo-both::before {content:var(--byzantine-musical-symbol-paraklitiki-neo)}
+.byzantine-musical-symbol-paraklitiki-neo-list { list-style: var(--byzantine-musical-symbol-paraklitiki-neo)}
+
+
+
+.byzantine-musical-symbol-parichon::before, .byzantine-musical-symbol-parichon-before::before{ content:var(--byzantine-musical-symbol-parichon)}
+.byzantine-musical-symbol-parichon-after::after{content:var(--byzantine-musical-symbol-parichon)}
+.byzantine-musical-symbol-parichon-both::after, .byzantine-musical-symbol-parichon-both::before {content:var(--byzantine-musical-symbol-parichon)}
+.byzantine-musical-symbol-parichon-list { list-style: var(--byzantine-musical-symbol-parichon)}
+
+
+
+.byzantine-musical-symbol-pelaston::before, .byzantine-musical-symbol-pelaston-before::before{ content:var(--byzantine-musical-symbol-pelaston)}
+.byzantine-musical-symbol-pelaston-after::after{content:var(--byzantine-musical-symbol-pelaston)}
+.byzantine-musical-symbol-pelaston-both::after, .byzantine-musical-symbol-pelaston-both::before {content:var(--byzantine-musical-symbol-pelaston)}
+.byzantine-musical-symbol-pelaston-list { list-style: var(--byzantine-musical-symbol-pelaston)}
+
+
+
+.byzantine-musical-symbol-pelaston-neo::before, .byzantine-musical-symbol-pelaston-neo-before::before{ content:var(--byzantine-musical-symbol-pelaston-neo)}
+.byzantine-musical-symbol-pelaston-neo-after::after{content:var(--byzantine-musical-symbol-pelaston-neo)}
+.byzantine-musical-symbol-pelaston-neo-both::after, .byzantine-musical-symbol-pelaston-neo-both::before {content:var(--byzantine-musical-symbol-pelaston-neo)}
+.byzantine-musical-symbol-pelaston-neo-list { list-style: var(--byzantine-musical-symbol-pelaston-neo)}
+
+
+
+.byzantine-musical-symbol-perispomeni::before, .byzantine-musical-symbol-perispomeni-before::before{ content:var(--byzantine-musical-symbol-perispomeni)}
+.byzantine-musical-symbol-perispomeni-after::after{content:var(--byzantine-musical-symbol-perispomeni)}
+.byzantine-musical-symbol-perispomeni-both::after, .byzantine-musical-symbol-perispomeni-both::before {content:var(--byzantine-musical-symbol-perispomeni)}
+.byzantine-musical-symbol-perispomeni-list { list-style: var(--byzantine-musical-symbol-perispomeni)}
+
+
+
+.byzantine-musical-symbol-petasma::before, .byzantine-musical-symbol-petasma-before::before{ content:var(--byzantine-musical-symbol-petasma)}
+.byzantine-musical-symbol-petasma-after::after{content:var(--byzantine-musical-symbol-petasma)}
+.byzantine-musical-symbol-petasma-both::after, .byzantine-musical-symbol-petasma-both::before {content:var(--byzantine-musical-symbol-petasma)}
+.byzantine-musical-symbol-petasma-list { list-style: var(--byzantine-musical-symbol-petasma)}
+
+
+
+.byzantine-musical-symbol-petasti::before, .byzantine-musical-symbol-petasti-before::before{ content:var(--byzantine-musical-symbol-petasti)}
+.byzantine-musical-symbol-petasti-after::after{content:var(--byzantine-musical-symbol-petasti)}
+.byzantine-musical-symbol-petasti-both::after, .byzantine-musical-symbol-petasti-both::before {content:var(--byzantine-musical-symbol-petasti)}
+.byzantine-musical-symbol-petasti-list { list-style: var(--byzantine-musical-symbol-petasti)}
+
+
+
+.byzantine-musical-symbol-petastokoufisma::before, .byzantine-musical-symbol-petastokoufisma-before::before{ content:var(--byzantine-musical-symbol-petastokoufisma)}
+.byzantine-musical-symbol-petastokoufisma-after::after{content:var(--byzantine-musical-symbol-petastokoufisma)}
+.byzantine-musical-symbol-petastokoufisma-both::after, .byzantine-musical-symbol-petastokoufisma-both::before {content:var(--byzantine-musical-symbol-petastokoufisma)}
+.byzantine-musical-symbol-petastokoufisma-list { list-style: var(--byzantine-musical-symbol-petastokoufisma)}
+
+
+
+.byzantine-musical-symbol-piasma-archaion::before, .byzantine-musical-symbol-piasma-archaion-before::before{ content:var(--byzantine-musical-symbol-piasma-archaion)}
+.byzantine-musical-symbol-piasma-archaion-after::after{content:var(--byzantine-musical-symbol-piasma-archaion)}
+.byzantine-musical-symbol-piasma-archaion-both::after, .byzantine-musical-symbol-piasma-archaion-both::before {content:var(--byzantine-musical-symbol-piasma-archaion)}
+.byzantine-musical-symbol-piasma-archaion-list { list-style: var(--byzantine-musical-symbol-piasma-archaion)}
+
+
+
+.byzantine-musical-symbol-piasma-neo::before, .byzantine-musical-symbol-piasma-neo-before::before{ content:var(--byzantine-musical-symbol-piasma-neo)}
+.byzantine-musical-symbol-piasma-neo-after::after{content:var(--byzantine-musical-symbol-piasma-neo)}
+.byzantine-musical-symbol-piasma-neo-both::after, .byzantine-musical-symbol-piasma-neo-both::before {content:var(--byzantine-musical-symbol-piasma-neo)}
+.byzantine-musical-symbol-piasma-neo-list { list-style: var(--byzantine-musical-symbol-piasma-neo)}
+
+
+
+.byzantine-musical-symbol-psifistolygisma::before, .byzantine-musical-symbol-psifistolygisma-before::before{ content:var(--byzantine-musical-symbol-psifistolygisma)}
+.byzantine-musical-symbol-psifistolygisma-after::after{content:var(--byzantine-musical-symbol-psifistolygisma)}
+.byzantine-musical-symbol-psifistolygisma-both::after, .byzantine-musical-symbol-psifistolygisma-both::before {content:var(--byzantine-musical-symbol-psifistolygisma)}
+.byzantine-musical-symbol-psifistolygisma-list { list-style: var(--byzantine-musical-symbol-psifistolygisma)}
+
+
+
+.byzantine-musical-symbol-psifiston::before, .byzantine-musical-symbol-psifiston-before::before{ content:var(--byzantine-musical-symbol-psifiston)}
+.byzantine-musical-symbol-psifiston-after::after{content:var(--byzantine-musical-symbol-psifiston)}
+.byzantine-musical-symbol-psifiston-both::after, .byzantine-musical-symbol-psifiston-both::before {content:var(--byzantine-musical-symbol-psifiston)}
+.byzantine-musical-symbol-psifiston-list { list-style: var(--byzantine-musical-symbol-psifiston)}
+
+
+
+.byzantine-musical-symbol-psifiston-neo::before, .byzantine-musical-symbol-psifiston-neo-before::before{ content:var(--byzantine-musical-symbol-psifiston-neo)}
+.byzantine-musical-symbol-psifiston-neo-after::after{content:var(--byzantine-musical-symbol-psifiston-neo)}
+.byzantine-musical-symbol-psifiston-neo-both::after, .byzantine-musical-symbol-psifiston-neo-both::before {content:var(--byzantine-musical-symbol-psifiston-neo)}
+.byzantine-musical-symbol-psifiston-neo-list { list-style: var(--byzantine-musical-symbol-psifiston-neo)}
+
+
+
+.byzantine-musical-symbol-psifistoparakalesma::before, .byzantine-musical-symbol-psifistoparakalesma-before::before{ content:var(--byzantine-musical-symbol-psifistoparakalesma)}
+.byzantine-musical-symbol-psifistoparakalesma-after::after{content:var(--byzantine-musical-symbol-psifistoparakalesma)}
+.byzantine-musical-symbol-psifistoparakalesma-both::after, .byzantine-musical-symbol-psifistoparakalesma-both::before {content:var(--byzantine-musical-symbol-psifistoparakalesma)}
+.byzantine-musical-symbol-psifistoparakalesma-list { list-style: var(--byzantine-musical-symbol-psifistoparakalesma)}
+
+
+
+.byzantine-musical-symbol-psifistosynagma::before, .byzantine-musical-symbol-psifistosynagma-before::before{ content:var(--byzantine-musical-symbol-psifistosynagma)}
+.byzantine-musical-symbol-psifistosynagma-after::after{content:var(--byzantine-musical-symbol-psifistosynagma)}
+.byzantine-musical-symbol-psifistosynagma-both::after, .byzantine-musical-symbol-psifistosynagma-both::before {content:var(--byzantine-musical-symbol-psifistosynagma)}
+.byzantine-musical-symbol-psifistosynagma-list { list-style: var(--byzantine-musical-symbol-psifistosynagma)}
+
+
+
+.byzantine-musical-symbol-psili::before, .byzantine-musical-symbol-psili-before::before{ content:var(--byzantine-musical-symbol-psili)}
+.byzantine-musical-symbol-psili-after::after{content:var(--byzantine-musical-symbol-psili)}
+.byzantine-musical-symbol-psili-both::after, .byzantine-musical-symbol-psili-both::before {content:var(--byzantine-musical-symbol-psili)}
+.byzantine-musical-symbol-psili-list { list-style: var(--byzantine-musical-symbol-psili)}
+
+
+
+.byzantine-musical-symbol-psilon::before, .byzantine-musical-symbol-psilon-before::before{ content:var(--byzantine-musical-symbol-psilon)}
+.byzantine-musical-symbol-psilon-after::after{content:var(--byzantine-musical-symbol-psilon)}
+.byzantine-musical-symbol-psilon-both::after, .byzantine-musical-symbol-psilon-both::before {content:var(--byzantine-musical-symbol-psilon)}
+.byzantine-musical-symbol-psilon-list { list-style: var(--byzantine-musical-symbol-psilon)}
+
+
+
+.byzantine-musical-symbol-rapisma::before, .byzantine-musical-symbol-rapisma-before::before{ content:var(--byzantine-musical-symbol-rapisma)}
+.byzantine-musical-symbol-rapisma-after::after{content:var(--byzantine-musical-symbol-rapisma)}
+.byzantine-musical-symbol-rapisma-both::after, .byzantine-musical-symbol-rapisma-both::before {content:var(--byzantine-musical-symbol-rapisma)}
+.byzantine-musical-symbol-rapisma-list { list-style: var(--byzantine-musical-symbol-rapisma)}
+
+
+
+.byzantine-musical-symbol-revma::before, .byzantine-musical-symbol-revma-before::before{ content:var(--byzantine-musical-symbol-revma)}
+.byzantine-musical-symbol-revma-after::after{content:var(--byzantine-musical-symbol-revma)}
+.byzantine-musical-symbol-revma-both::after, .byzantine-musical-symbol-revma-both::before {content:var(--byzantine-musical-symbol-revma)}
+.byzantine-musical-symbol-revma-list { list-style: var(--byzantine-musical-symbol-revma)}
+
+
+
+.byzantine-musical-symbol-saximata::before, .byzantine-musical-symbol-saximata-before::before{ content:var(--byzantine-musical-symbol-saximata)}
+.byzantine-musical-symbol-saximata-after::after{content:var(--byzantine-musical-symbol-saximata)}
+.byzantine-musical-symbol-saximata-both::after, .byzantine-musical-symbol-saximata-both::before {content:var(--byzantine-musical-symbol-saximata)}
+.byzantine-musical-symbol-saximata-list { list-style: var(--byzantine-musical-symbol-saximata)}
+
+
+
+.byzantine-musical-symbol-seisma::before, .byzantine-musical-symbol-seisma-before::before{ content:var(--byzantine-musical-symbol-seisma)}
+.byzantine-musical-symbol-seisma-after::after{content:var(--byzantine-musical-symbol-seisma)}
+.byzantine-musical-symbol-seisma-both::after, .byzantine-musical-symbol-seisma-both::before {content:var(--byzantine-musical-symbol-seisma)}
+.byzantine-musical-symbol-seisma-list { list-style: var(--byzantine-musical-symbol-seisma)}
+
+
+
+.byzantine-musical-symbol-seisma-neo::before, .byzantine-musical-symbol-seisma-neo-before::before{ content:var(--byzantine-musical-symbol-seisma-neo)}
+.byzantine-musical-symbol-seisma-neo-after::after{content:var(--byzantine-musical-symbol-seisma-neo)}
+.byzantine-musical-symbol-seisma-neo-both::after, .byzantine-musical-symbol-seisma-neo-both::before {content:var(--byzantine-musical-symbol-seisma-neo)}
+.byzantine-musical-symbol-seisma-neo-list { list-style: var(--byzantine-musical-symbol-seisma-neo)}
+
+
+
+.byzantine-musical-symbol-simansis-arseos::before, .byzantine-musical-symbol-simansis-arseos-before::before{ content:var(--byzantine-musical-symbol-simansis-arseos)}
+.byzantine-musical-symbol-simansis-arseos-after::after{content:var(--byzantine-musical-symbol-simansis-arseos)}
+.byzantine-musical-symbol-simansis-arseos-both::after, .byzantine-musical-symbol-simansis-arseos-both::before {content:var(--byzantine-musical-symbol-simansis-arseos)}
+.byzantine-musical-symbol-simansis-arseos-list { list-style: var(--byzantine-musical-symbol-simansis-arseos)}
+
+
+
+.byzantine-musical-symbol-simansis-arseos-disimou::before, .byzantine-musical-symbol-simansis-arseos-disimou-before::before{ content:var(--byzantine-musical-symbol-simansis-arseos-disimou)}
+.byzantine-musical-symbol-simansis-arseos-disimou-after::after{content:var(--byzantine-musical-symbol-simansis-arseos-disimou)}
+.byzantine-musical-symbol-simansis-arseos-disimou-both::after, .byzantine-musical-symbol-simansis-arseos-disimou-both::before {content:var(--byzantine-musical-symbol-simansis-arseos-disimou)}
+.byzantine-musical-symbol-simansis-arseos-disimou-list { list-style: var(--byzantine-musical-symbol-simansis-arseos-disimou)}
+
+
+
+.byzantine-musical-symbol-simansis-arseos-tetrasimou::before, .byzantine-musical-symbol-simansis-arseos-tetrasimou-before::before{ content:var(--byzantine-musical-symbol-simansis-arseos-tetrasimou)}
+.byzantine-musical-symbol-simansis-arseos-tetrasimou-after::after{content:var(--byzantine-musical-symbol-simansis-arseos-tetrasimou)}
+.byzantine-musical-symbol-simansis-arseos-tetrasimou-both::after, .byzantine-musical-symbol-simansis-arseos-tetrasimou-both::before {content:var(--byzantine-musical-symbol-simansis-arseos-tetrasimou)}
+.byzantine-musical-symbol-simansis-arseos-tetrasimou-list { list-style: var(--byzantine-musical-symbol-simansis-arseos-tetrasimou)}
+
+
+
+.byzantine-musical-symbol-simansis-arseos-trisimou::before, .byzantine-musical-symbol-simansis-arseos-trisimou-before::before{ content:var(--byzantine-musical-symbol-simansis-arseos-trisimou)}
+.byzantine-musical-symbol-simansis-arseos-trisimou-after::after{content:var(--byzantine-musical-symbol-simansis-arseos-trisimou)}
+.byzantine-musical-symbol-simansis-arseos-trisimou-both::after, .byzantine-musical-symbol-simansis-arseos-trisimou-both::before {content:var(--byzantine-musical-symbol-simansis-arseos-trisimou)}
+.byzantine-musical-symbol-simansis-arseos-trisimou-list { list-style: var(--byzantine-musical-symbol-simansis-arseos-trisimou)}
+
+
+
+.byzantine-musical-symbol-simansis-theseos::before, .byzantine-musical-symbol-simansis-theseos-before::before{ content:var(--byzantine-musical-symbol-simansis-theseos)}
+.byzantine-musical-symbol-simansis-theseos-after::after{content:var(--byzantine-musical-symbol-simansis-theseos)}
+.byzantine-musical-symbol-simansis-theseos-both::after, .byzantine-musical-symbol-simansis-theseos-both::before {content:var(--byzantine-musical-symbol-simansis-theseos)}
+.byzantine-musical-symbol-simansis-theseos-list { list-style: var(--byzantine-musical-symbol-simansis-theseos)}
+
+
+
+.byzantine-musical-symbol-simansis-theseos-disimou::before, .byzantine-musical-symbol-simansis-theseos-disimou-before::before{ content:var(--byzantine-musical-symbol-simansis-theseos-disimou)}
+.byzantine-musical-symbol-simansis-theseos-disimou-after::after{content:var(--byzantine-musical-symbol-simansis-theseos-disimou)}
+.byzantine-musical-symbol-simansis-theseos-disimou-both::after, .byzantine-musical-symbol-simansis-theseos-disimou-both::before {content:var(--byzantine-musical-symbol-simansis-theseos-disimou)}
+.byzantine-musical-symbol-simansis-theseos-disimou-list { list-style: var(--byzantine-musical-symbol-simansis-theseos-disimou)}
+
+
+
+.byzantine-musical-symbol-simansis-theseos-tetrasimou::before, .byzantine-musical-symbol-simansis-theseos-tetrasimou-before::before{ content:var(--byzantine-musical-symbol-simansis-theseos-tetrasimou)}
+.byzantine-musical-symbol-simansis-theseos-tetrasimou-after::after{content:var(--byzantine-musical-symbol-simansis-theseos-tetrasimou)}
+.byzantine-musical-symbol-simansis-theseos-tetrasimou-both::after, .byzantine-musical-symbol-simansis-theseos-tetrasimou-both::before {content:var(--byzantine-musical-symbol-simansis-theseos-tetrasimou)}
+.byzantine-musical-symbol-simansis-theseos-tetrasimou-list { list-style: var(--byzantine-musical-symbol-simansis-theseos-tetrasimou)}
+
+
+
+.byzantine-musical-symbol-simansis-theseos-trisimou::before, .byzantine-musical-symbol-simansis-theseos-trisimou-before::before{ content:var(--byzantine-musical-symbol-simansis-theseos-trisimou)}
+.byzantine-musical-symbol-simansis-theseos-trisimou-after::after{content:var(--byzantine-musical-symbol-simansis-theseos-trisimou)}
+.byzantine-musical-symbol-simansis-theseos-trisimou-both::after, .byzantine-musical-symbol-simansis-theseos-trisimou-both::before {content:var(--byzantine-musical-symbol-simansis-theseos-trisimou)}
+.byzantine-musical-symbol-simansis-theseos-trisimou-list { list-style: var(--byzantine-musical-symbol-simansis-theseos-trisimou)}
+
+
+
+.byzantine-musical-symbol-stavros::before, .byzantine-musical-symbol-stavros-before::before{ content:var(--byzantine-musical-symbol-stavros)}
+.byzantine-musical-symbol-stavros-after::after{content:var(--byzantine-musical-symbol-stavros)}
+.byzantine-musical-symbol-stavros-both::after, .byzantine-musical-symbol-stavros-both::before {content:var(--byzantine-musical-symbol-stavros)}
+.byzantine-musical-symbol-stavros-list { list-style: var(--byzantine-musical-symbol-stavros)}
+
+
+
+.byzantine-musical-symbol-stavros-apodexia::before, .byzantine-musical-symbol-stavros-apodexia-before::before{ content:var(--byzantine-musical-symbol-stavros-apodexia)}
+.byzantine-musical-symbol-stavros-apodexia-after::after{content:var(--byzantine-musical-symbol-stavros-apodexia)}
+.byzantine-musical-symbol-stavros-apodexia-both::after, .byzantine-musical-symbol-stavros-apodexia-both::before {content:var(--byzantine-musical-symbol-stavros-apodexia)}
+.byzantine-musical-symbol-stavros-apodexia-list { list-style: var(--byzantine-musical-symbol-stavros-apodexia)}
+
+
+
+.byzantine-musical-symbol-stigma::before, .byzantine-musical-symbol-stigma-before::before{ content:var(--byzantine-musical-symbol-stigma)}
+.byzantine-musical-symbol-stigma-after::after{content:var(--byzantine-musical-symbol-stigma)}
+.byzantine-musical-symbol-stigma-both::after, .byzantine-musical-symbol-stigma-both::before {content:var(--byzantine-musical-symbol-stigma)}
+.byzantine-musical-symbol-stigma-list { list-style: var(--byzantine-musical-symbol-stigma)}
+
+
+
+.byzantine-musical-symbol-straggismata::before, .byzantine-musical-symbol-straggismata-before::before{ content:var(--byzantine-musical-symbol-straggismata)}
+.byzantine-musical-symbol-straggismata-after::after{content:var(--byzantine-musical-symbol-straggismata)}
+.byzantine-musical-symbol-straggismata-both::after, .byzantine-musical-symbol-straggismata-both::before {content:var(--byzantine-musical-symbol-straggismata)}
+.byzantine-musical-symbol-straggismata-list { list-style: var(--byzantine-musical-symbol-straggismata)}
+
+
+
+.byzantine-musical-symbol-synagma-archaion::before, .byzantine-musical-symbol-synagma-archaion-before::before{ content:var(--byzantine-musical-symbol-synagma-archaion)}
+.byzantine-musical-symbol-synagma-archaion-after::after{content:var(--byzantine-musical-symbol-synagma-archaion)}
+.byzantine-musical-symbol-synagma-archaion-both::after, .byzantine-musical-symbol-synagma-archaion-both::before {content:var(--byzantine-musical-symbol-synagma-archaion)}
+.byzantine-musical-symbol-synagma-archaion-list { list-style: var(--byzantine-musical-symbol-synagma-archaion)}
+
+
+
+.byzantine-musical-symbol-synagma-meta-stavrou::before, .byzantine-musical-symbol-synagma-meta-stavrou-before::before{ content:var(--byzantine-musical-symbol-synagma-meta-stavrou)}
+.byzantine-musical-symbol-synagma-meta-stavrou-after::after{content:var(--byzantine-musical-symbol-synagma-meta-stavrou)}
+.byzantine-musical-symbol-synagma-meta-stavrou-both::after, .byzantine-musical-symbol-synagma-meta-stavrou-both::before {content:var(--byzantine-musical-symbol-synagma-meta-stavrou)}
+.byzantine-musical-symbol-synagma-meta-stavrou-list { list-style: var(--byzantine-musical-symbol-synagma-meta-stavrou)}
+
+
+
+.byzantine-musical-symbol-synagma-neo::before, .byzantine-musical-symbol-synagma-neo-before::before{ content:var(--byzantine-musical-symbol-synagma-neo)}
+.byzantine-musical-symbol-synagma-neo-after::after{content:var(--byzantine-musical-symbol-synagma-neo)}
+.byzantine-musical-symbol-synagma-neo-both::after, .byzantine-musical-symbol-synagma-neo-both::before {content:var(--byzantine-musical-symbol-synagma-neo)}
+.byzantine-musical-symbol-synagma-neo-list { list-style: var(--byzantine-musical-symbol-synagma-neo)}
+
+
+
+.byzantine-musical-symbol-synevma::before, .byzantine-musical-symbol-synevma-before::before{ content:var(--byzantine-musical-symbol-synevma)}
+.byzantine-musical-symbol-synevma-after::after{content:var(--byzantine-musical-symbol-synevma)}
+.byzantine-musical-symbol-synevma-both::after, .byzantine-musical-symbol-synevma-both::before {content:var(--byzantine-musical-symbol-synevma)}
+.byzantine-musical-symbol-synevma-list { list-style: var(--byzantine-musical-symbol-synevma)}
+
+
+
+.byzantine-musical-symbol-syrma::before, .byzantine-musical-symbol-syrma-before::before{ content:var(--byzantine-musical-symbol-syrma)}
+.byzantine-musical-symbol-syrma-after::after{content:var(--byzantine-musical-symbol-syrma)}
+.byzantine-musical-symbol-syrma-both::after, .byzantine-musical-symbol-syrma-both::before {content:var(--byzantine-musical-symbol-syrma)}
+.byzantine-musical-symbol-syrma-list { list-style: var(--byzantine-musical-symbol-syrma)}
+
+
+
+.byzantine-musical-symbol-syrmatiki::before, .byzantine-musical-symbol-syrmatiki-before::before{ content:var(--byzantine-musical-symbol-syrmatiki)}
+.byzantine-musical-symbol-syrmatiki-after::after{content:var(--byzantine-musical-symbol-syrmatiki)}
+.byzantine-musical-symbol-syrmatiki-both::after, .byzantine-musical-symbol-syrmatiki-both::before {content:var(--byzantine-musical-symbol-syrmatiki)}
+.byzantine-musical-symbol-syrmatiki-list { list-style: var(--byzantine-musical-symbol-syrmatiki)}
+
+
+
+.byzantine-musical-symbol-teleia::before, .byzantine-musical-symbol-teleia-before::before{ content:var(--byzantine-musical-symbol-teleia)}
+.byzantine-musical-symbol-teleia-after::after{content:var(--byzantine-musical-symbol-teleia)}
+.byzantine-musical-symbol-teleia-both::after, .byzantine-musical-symbol-teleia-both::before {content:var(--byzantine-musical-symbol-teleia)}
+.byzantine-musical-symbol-teleia-list { list-style: var(--byzantine-musical-symbol-teleia)}
+
+
+
+.byzantine-musical-symbol-tessera::before, .byzantine-musical-symbol-tessera-before::before{ content:var(--byzantine-musical-symbol-tessera)}
+.byzantine-musical-symbol-tessera-after::after{content:var(--byzantine-musical-symbol-tessera)}
+.byzantine-musical-symbol-tessera-both::after, .byzantine-musical-symbol-tessera-both::before {content:var(--byzantine-musical-symbol-tessera)}
+.byzantine-musical-symbol-tessera-list { list-style: var(--byzantine-musical-symbol-tessera)}
+
+
+
+.byzantine-musical-symbol-tetrapli::before, .byzantine-musical-symbol-tetrapli-before::before{ content:var(--byzantine-musical-symbol-tetrapli)}
+.byzantine-musical-symbol-tetrapli-after::after{content:var(--byzantine-musical-symbol-tetrapli)}
+.byzantine-musical-symbol-tetrapli-both::after, .byzantine-musical-symbol-tetrapli-both::before {content:var(--byzantine-musical-symbol-tetrapli)}
+.byzantine-musical-symbol-tetrapli-list { list-style: var(--byzantine-musical-symbol-tetrapli)}
+
+
+
+.byzantine-musical-symbol-thema::before, .byzantine-musical-symbol-thema-before::before{ content:var(--byzantine-musical-symbol-thema)}
+.byzantine-musical-symbol-thema-after::after{content:var(--byzantine-musical-symbol-thema)}
+.byzantine-musical-symbol-thema-both::after, .byzantine-musical-symbol-thema-both::before {content:var(--byzantine-musical-symbol-thema)}
+.byzantine-musical-symbol-thema-list { list-style: var(--byzantine-musical-symbol-thema)}
+
+
+
+.byzantine-musical-symbol-thema-aploun::before, .byzantine-musical-symbol-thema-aploun-before::before{ content:var(--byzantine-musical-symbol-thema-aploun)}
+.byzantine-musical-symbol-thema-aploun-after::after{content:var(--byzantine-musical-symbol-thema-aploun)}
+.byzantine-musical-symbol-thema-aploun-both::after, .byzantine-musical-symbol-thema-aploun-both::before {content:var(--byzantine-musical-symbol-thema-aploun)}
+.byzantine-musical-symbol-thema-aploun-list { list-style: var(--byzantine-musical-symbol-thema-aploun)}
+
+
+
+.byzantine-musical-symbol-thematismos-eso::before, .byzantine-musical-symbol-thematismos-eso-before::before{ content:var(--byzantine-musical-symbol-thematismos-eso)}
+.byzantine-musical-symbol-thematismos-eso-after::after{content:var(--byzantine-musical-symbol-thematismos-eso)}
+.byzantine-musical-symbol-thematismos-eso-both::after, .byzantine-musical-symbol-thematismos-eso-both::before {content:var(--byzantine-musical-symbol-thematismos-eso)}
+.byzantine-musical-symbol-thematismos-eso-list { list-style: var(--byzantine-musical-symbol-thematismos-eso)}
+
+
+
+.byzantine-musical-symbol-thematismos-exo::before, .byzantine-musical-symbol-thematismos-exo-before::before{ content:var(--byzantine-musical-symbol-thematismos-exo)}
+.byzantine-musical-symbol-thematismos-exo-after::after{content:var(--byzantine-musical-symbol-thematismos-exo)}
+.byzantine-musical-symbol-thematismos-exo-both::after, .byzantine-musical-symbol-thematismos-exo-both::before {content:var(--byzantine-musical-symbol-thematismos-exo)}
+.byzantine-musical-symbol-thematismos-exo-list { list-style: var(--byzantine-musical-symbol-thematismos-exo)}
+
+
+
+.byzantine-musical-symbol-thes-kai-apothes::before, .byzantine-musical-symbol-thes-kai-apothes-before::before{ content:var(--byzantine-musical-symbol-thes-kai-apothes)}
+.byzantine-musical-symbol-thes-kai-apothes-after::after{content:var(--byzantine-musical-symbol-thes-kai-apothes)}
+.byzantine-musical-symbol-thes-kai-apothes-both::after, .byzantine-musical-symbol-thes-kai-apothes-both::before {content:var(--byzantine-musical-symbol-thes-kai-apothes)}
+.byzantine-musical-symbol-thes-kai-apothes-list { list-style: var(--byzantine-musical-symbol-thes-kai-apothes)}
+
+
+
+.byzantine-musical-symbol-thita::before, .byzantine-musical-symbol-thita-before::before{ content:var(--byzantine-musical-symbol-thita)}
+.byzantine-musical-symbol-thita-after::after{content:var(--byzantine-musical-symbol-thita)}
+.byzantine-musical-symbol-thita-both::after, .byzantine-musical-symbol-thita-both::before {content:var(--byzantine-musical-symbol-thita)}
+.byzantine-musical-symbol-thita-list { list-style: var(--byzantine-musical-symbol-thita)}
+
+
+
+.byzantine-musical-symbol-tinagma::before, .byzantine-musical-symbol-tinagma-before::before{ content:var(--byzantine-musical-symbol-tinagma)}
+.byzantine-musical-symbol-tinagma-after::after{content:var(--byzantine-musical-symbol-tinagma)}
+.byzantine-musical-symbol-tinagma-both::after, .byzantine-musical-symbol-tinagma-both::before {content:var(--byzantine-musical-symbol-tinagma)}
+.byzantine-musical-symbol-tinagma-list { list-style: var(--byzantine-musical-symbol-tinagma)}
+
+
+
+.byzantine-musical-symbol-tria::before, .byzantine-musical-symbol-tria-before::before{ content:var(--byzantine-musical-symbol-tria)}
+.byzantine-musical-symbol-tria-after::after{content:var(--byzantine-musical-symbol-tria)}
+.byzantine-musical-symbol-tria-both::after, .byzantine-musical-symbol-tria-both::before {content:var(--byzantine-musical-symbol-tria)}
+.byzantine-musical-symbol-tria-list { list-style: var(--byzantine-musical-symbol-tria)}
+
+
+
+.byzantine-musical-symbol-trigorgon::before, .byzantine-musical-symbol-trigorgon-before::before{ content:var(--byzantine-musical-symbol-trigorgon)}
+.byzantine-musical-symbol-trigorgon-after::after{content:var(--byzantine-musical-symbol-trigorgon)}
+.byzantine-musical-symbol-trigorgon-both::after, .byzantine-musical-symbol-trigorgon-both::before {content:var(--byzantine-musical-symbol-trigorgon)}
+.byzantine-musical-symbol-trigorgon-list { list-style: var(--byzantine-musical-symbol-trigorgon)}
+
+
+
+.byzantine-musical-symbol-tripli::before, .byzantine-musical-symbol-tripli-before::before{ content:var(--byzantine-musical-symbol-tripli)}
+.byzantine-musical-symbol-tripli-after::after{content:var(--byzantine-musical-symbol-tripli)}
+.byzantine-musical-symbol-tripli-both::after, .byzantine-musical-symbol-tripli-both::before {content:var(--byzantine-musical-symbol-tripli)}
+.byzantine-musical-symbol-tripli-list { list-style: var(--byzantine-musical-symbol-tripli)}
+
+
+
+.byzantine-musical-symbol-tromikolygisma::before, .byzantine-musical-symbol-tromikolygisma-before::before{ content:var(--byzantine-musical-symbol-tromikolygisma)}
+.byzantine-musical-symbol-tromikolygisma-after::after{content:var(--byzantine-musical-symbol-tromikolygisma)}
+.byzantine-musical-symbol-tromikolygisma-both::after, .byzantine-musical-symbol-tromikolygisma-both::before {content:var(--byzantine-musical-symbol-tromikolygisma)}
+.byzantine-musical-symbol-tromikolygisma-list { list-style: var(--byzantine-musical-symbol-tromikolygisma)}
+
+
+
+.byzantine-musical-symbol-tromikon-allo::before, .byzantine-musical-symbol-tromikon-allo-before::before{ content:var(--byzantine-musical-symbol-tromikon-allo)}
+.byzantine-musical-symbol-tromikon-allo-after::after{content:var(--byzantine-musical-symbol-tromikon-allo)}
+.byzantine-musical-symbol-tromikon-allo-both::after, .byzantine-musical-symbol-tromikon-allo-both::before {content:var(--byzantine-musical-symbol-tromikon-allo)}
+.byzantine-musical-symbol-tromikon-allo-list { list-style: var(--byzantine-musical-symbol-tromikon-allo)}
+
+
+
+.byzantine-musical-symbol-tromikon-archaion::before, .byzantine-musical-symbol-tromikon-archaion-before::before{ content:var(--byzantine-musical-symbol-tromikon-archaion)}
+.byzantine-musical-symbol-tromikon-archaion-after::after{content:var(--byzantine-musical-symbol-tromikon-archaion)}
+.byzantine-musical-symbol-tromikon-archaion-both::after, .byzantine-musical-symbol-tromikon-archaion-both::before {content:var(--byzantine-musical-symbol-tromikon-archaion)}
+.byzantine-musical-symbol-tromikon-archaion-list { list-style: var(--byzantine-musical-symbol-tromikon-archaion)}
+
+
+
+.byzantine-musical-symbol-tromikon-neo::before, .byzantine-musical-symbol-tromikon-neo-before::before{ content:var(--byzantine-musical-symbol-tromikon-neo)}
+.byzantine-musical-symbol-tromikon-neo-after::after{content:var(--byzantine-musical-symbol-tromikon-neo)}
+.byzantine-musical-symbol-tromikon-neo-both::after, .byzantine-musical-symbol-tromikon-neo-both::before {content:var(--byzantine-musical-symbol-tromikon-neo)}
+.byzantine-musical-symbol-tromikon-neo-list { list-style: var(--byzantine-musical-symbol-tromikon-neo)}
+
+
+
+.byzantine-musical-symbol-tromikoparakalesma::before, .byzantine-musical-symbol-tromikoparakalesma-before::before{ content:var(--byzantine-musical-symbol-tromikoparakalesma)}
+.byzantine-musical-symbol-tromikoparakalesma-after::after{content:var(--byzantine-musical-symbol-tromikoparakalesma)}
+.byzantine-musical-symbol-tromikoparakalesma-both::after, .byzantine-musical-symbol-tromikoparakalesma-both::before {content:var(--byzantine-musical-symbol-tromikoparakalesma)}
+.byzantine-musical-symbol-tromikoparakalesma-list { list-style: var(--byzantine-musical-symbol-tromikoparakalesma)}
+
+
+
+.byzantine-musical-symbol-tromikopsifiston::before, .byzantine-musical-symbol-tromikopsifiston-before::before{ content:var(--byzantine-musical-symbol-tromikopsifiston)}
+.byzantine-musical-symbol-tromikopsifiston-after::after{content:var(--byzantine-musical-symbol-tromikopsifiston)}
+.byzantine-musical-symbol-tromikopsifiston-both::after, .byzantine-musical-symbol-tromikopsifiston-both::before {content:var(--byzantine-musical-symbol-tromikopsifiston)}
+.byzantine-musical-symbol-tromikopsifiston-list { list-style: var(--byzantine-musical-symbol-tromikopsifiston)}
+
+
+
+.byzantine-musical-symbol-tromikosynagma::before, .byzantine-musical-symbol-tromikosynagma-before::before{ content:var(--byzantine-musical-symbol-tromikosynagma)}
+.byzantine-musical-symbol-tromikosynagma-after::after{content:var(--byzantine-musical-symbol-tromikosynagma)}
+.byzantine-musical-symbol-tromikosynagma-both::after, .byzantine-musical-symbol-tromikosynagma-both::before {content:var(--byzantine-musical-symbol-tromikosynagma)}
+.byzantine-musical-symbol-tromikosynagma-list { list-style: var(--byzantine-musical-symbol-tromikosynagma)}
+
+
+
+.byzantine-musical-symbol-vareia-dipli::before, .byzantine-musical-symbol-vareia-dipli-before::before{ content:var(--byzantine-musical-symbol-vareia-dipli)}
+.byzantine-musical-symbol-vareia-dipli-after::after{content:var(--byzantine-musical-symbol-vareia-dipli)}
+.byzantine-musical-symbol-vareia-dipli-both::after, .byzantine-musical-symbol-vareia-dipli-both::before {content:var(--byzantine-musical-symbol-vareia-dipli)}
+.byzantine-musical-symbol-vareia-dipli-list { list-style: var(--byzantine-musical-symbol-vareia-dipli)}
+
+
+
+.byzantine-musical-symbol-vareia-ekfonitikon::before, .byzantine-musical-symbol-vareia-ekfonitikon-before::before{ content:var(--byzantine-musical-symbol-vareia-ekfonitikon)}
+.byzantine-musical-symbol-vareia-ekfonitikon-after::after{content:var(--byzantine-musical-symbol-vareia-ekfonitikon)}
+.byzantine-musical-symbol-vareia-ekfonitikon-both::after, .byzantine-musical-symbol-vareia-ekfonitikon-both::before {content:var(--byzantine-musical-symbol-vareia-ekfonitikon)}
+.byzantine-musical-symbol-vareia-ekfonitikon-list { list-style: var(--byzantine-musical-symbol-vareia-ekfonitikon)}
+
+
+
+.byzantine-musical-symbol-vareia-neo::before, .byzantine-musical-symbol-vareia-neo-before::before{ content:var(--byzantine-musical-symbol-vareia-neo)}
+.byzantine-musical-symbol-vareia-neo-after::after{content:var(--byzantine-musical-symbol-vareia-neo)}
+.byzantine-musical-symbol-vareia-neo-both::after, .byzantine-musical-symbol-vareia-neo-both::before {content:var(--byzantine-musical-symbol-vareia-neo)}
+.byzantine-musical-symbol-vareia-neo-list { list-style: var(--byzantine-musical-symbol-vareia-neo)}
+
+
+
+.byzantine-musical-symbol-vareiai-archaion::before, .byzantine-musical-symbol-vareiai-archaion-before::before{ content:var(--byzantine-musical-symbol-vareiai-archaion)}
+.byzantine-musical-symbol-vareiai-archaion-after::after{content:var(--byzantine-musical-symbol-vareiai-archaion)}
+.byzantine-musical-symbol-vareiai-archaion-both::after, .byzantine-musical-symbol-vareiai-archaion-both::before {content:var(--byzantine-musical-symbol-vareiai-archaion)}
+.byzantine-musical-symbol-vareiai-archaion-list { list-style: var(--byzantine-musical-symbol-vareiai-archaion)}
+
+
+
+.byzantine-musical-symbol-vathy::before, .byzantine-musical-symbol-vathy-before::before{ content:var(--byzantine-musical-symbol-vathy)}
+.byzantine-musical-symbol-vathy-after::after{content:var(--byzantine-musical-symbol-vathy)}
+.byzantine-musical-symbol-vathy-both::after, .byzantine-musical-symbol-vathy-both::before {content:var(--byzantine-musical-symbol-vathy)}
+.byzantine-musical-symbol-vathy-list { list-style: var(--byzantine-musical-symbol-vathy)}
+
+
+
+.byzantine-musical-symbol-xiron-klasma::before, .byzantine-musical-symbol-xiron-klasma-before::before{ content:var(--byzantine-musical-symbol-xiron-klasma)}
+.byzantine-musical-symbol-xiron-klasma-after::after{content:var(--byzantine-musical-symbol-xiron-klasma)}
+.byzantine-musical-symbol-xiron-klasma-both::after, .byzantine-musical-symbol-xiron-klasma-both::before {content:var(--byzantine-musical-symbol-xiron-klasma)}
+.byzantine-musical-symbol-xiron-klasma-list { list-style: var(--byzantine-musical-symbol-xiron-klasma)}
+
+
+
+.byzantine-musical-symbol-yfen-ano::before, .byzantine-musical-symbol-yfen-ano-before::before{ content:var(--byzantine-musical-symbol-yfen-ano)}
+.byzantine-musical-symbol-yfen-ano-after::after{content:var(--byzantine-musical-symbol-yfen-ano)}
+.byzantine-musical-symbol-yfen-ano-both::after, .byzantine-musical-symbol-yfen-ano-both::before {content:var(--byzantine-musical-symbol-yfen-ano)}
+.byzantine-musical-symbol-yfen-ano-list { list-style: var(--byzantine-musical-symbol-yfen-ano)}
+
+
+
+.byzantine-musical-symbol-yfen-kato::before, .byzantine-musical-symbol-yfen-kato-before::before{ content:var(--byzantine-musical-symbol-yfen-kato)}
+.byzantine-musical-symbol-yfen-kato-after::after{content:var(--byzantine-musical-symbol-yfen-kato)}
+.byzantine-musical-symbol-yfen-kato-both::after, .byzantine-musical-symbol-yfen-kato-both::before {content:var(--byzantine-musical-symbol-yfen-kato)}
+.byzantine-musical-symbol-yfen-kato-list { list-style: var(--byzantine-musical-symbol-yfen-kato)}
+
+
+
+.byzantine-musical-symbol-yfesis-apli-dyo-dodekata::before, .byzantine-musical-symbol-yfesis-apli-dyo-dodekata-before::before{ content:var(--byzantine-musical-symbol-yfesis-apli-dyo-dodekata)}
+.byzantine-musical-symbol-yfesis-apli-dyo-dodekata-after::after{content:var(--byzantine-musical-symbol-yfesis-apli-dyo-dodekata)}
+.byzantine-musical-symbol-yfesis-apli-dyo-dodekata-both::after, .byzantine-musical-symbol-yfesis-apli-dyo-dodekata-both::before {content:var(--byzantine-musical-symbol-yfesis-apli-dyo-dodekata)}
+.byzantine-musical-symbol-yfesis-apli-dyo-dodekata-list { list-style: var(--byzantine-musical-symbol-yfesis-apli-dyo-dodekata)}
+
+
+
+.byzantine-musical-symbol-yfesis-digrammos-ex-dodekata::before, .byzantine-musical-symbol-yfesis-digrammos-ex-dodekata-before::before{ content:var(--byzantine-musical-symbol-yfesis-digrammos-ex-dodekata)}
+.byzantine-musical-symbol-yfesis-digrammos-ex-dodekata-after::after{content:var(--byzantine-musical-symbol-yfesis-digrammos-ex-dodekata)}
+.byzantine-musical-symbol-yfesis-digrammos-ex-dodekata-both::after, .byzantine-musical-symbol-yfesis-digrammos-ex-dodekata-both::before {content:var(--byzantine-musical-symbol-yfesis-digrammos-ex-dodekata)}
+.byzantine-musical-symbol-yfesis-digrammos-ex-dodekata-list { list-style: var(--byzantine-musical-symbol-yfesis-digrammos-ex-dodekata)}
+
+
+
+.byzantine-musical-symbol-yfesis-monogrammos-tessera-dodekata::before, .byzantine-musical-symbol-yfesis-monogrammos-tessera-dodekata-before::before{ content:var(--byzantine-musical-symbol-yfesis-monogrammos-tessera-dodekata)}
+.byzantine-musical-symbol-yfesis-monogrammos-tessera-dodekata-after::after{content:var(--byzantine-musical-symbol-yfesis-monogrammos-tessera-dodekata)}
+.byzantine-musical-symbol-yfesis-monogrammos-tessera-dodekata-both::after, .byzantine-musical-symbol-yfesis-monogrammos-tessera-dodekata-both::before {content:var(--byzantine-musical-symbol-yfesis-monogrammos-tessera-dodekata)}
+.byzantine-musical-symbol-yfesis-monogrammos-tessera-dodekata-list { list-style: var(--byzantine-musical-symbol-yfesis-monogrammos-tessera-dodekata)}
+
+
+
+.byzantine-musical-symbol-yfesis-trigrammos-okto-dodekata::before, .byzantine-musical-symbol-yfesis-trigrammos-okto-dodekata-before::before{ content:var(--byzantine-musical-symbol-yfesis-trigrammos-okto-dodekata)}
+.byzantine-musical-symbol-yfesis-trigrammos-okto-dodekata-after::after{content:var(--byzantine-musical-symbol-yfesis-trigrammos-okto-dodekata)}
+.byzantine-musical-symbol-yfesis-trigrammos-okto-dodekata-both::after, .byzantine-musical-symbol-yfesis-trigrammos-okto-dodekata-both::before {content:var(--byzantine-musical-symbol-yfesis-trigrammos-okto-dodekata)}
+.byzantine-musical-symbol-yfesis-trigrammos-okto-dodekata-list { list-style: var(--byzantine-musical-symbol-yfesis-trigrammos-okto-dodekata)}
+
+
+
+.byzantine-musical-symbol-yfesis-tritimorion::before, .byzantine-musical-symbol-yfesis-tritimorion-before::before{ content:var(--byzantine-musical-symbol-yfesis-tritimorion)}
+.byzantine-musical-symbol-yfesis-tritimorion-after::after{content:var(--byzantine-musical-symbol-yfesis-tritimorion)}
+.byzantine-musical-symbol-yfesis-tritimorion-both::after, .byzantine-musical-symbol-yfesis-tritimorion-both::before {content:var(--byzantine-musical-symbol-yfesis-tritimorion)}
+.byzantine-musical-symbol-yfesis-tritimorion-list { list-style: var(--byzantine-musical-symbol-yfesis-tritimorion)}
+
+
+
+.byzantine-musical-symbol-ypokrisis::before, .byzantine-musical-symbol-ypokrisis-before::before{ content:var(--byzantine-musical-symbol-ypokrisis)}
+.byzantine-musical-symbol-ypokrisis-after::after{content:var(--byzantine-musical-symbol-ypokrisis)}
+.byzantine-musical-symbol-ypokrisis-both::after, .byzantine-musical-symbol-ypokrisis-both::before {content:var(--byzantine-musical-symbol-ypokrisis)}
+.byzantine-musical-symbol-ypokrisis-list { list-style: var(--byzantine-musical-symbol-ypokrisis)}
+
+
+
+.byzantine-musical-symbol-ypokrisis-dipli::before, .byzantine-musical-symbol-ypokrisis-dipli-before::before{ content:var(--byzantine-musical-symbol-ypokrisis-dipli)}
+.byzantine-musical-symbol-ypokrisis-dipli-after::after{content:var(--byzantine-musical-symbol-ypokrisis-dipli)}
+.byzantine-musical-symbol-ypokrisis-dipli-both::after, .byzantine-musical-symbol-ypokrisis-dipli-both::before {content:var(--byzantine-musical-symbol-ypokrisis-dipli)}
+.byzantine-musical-symbol-ypokrisis-dipli-list { list-style: var(--byzantine-musical-symbol-ypokrisis-dipli)}
+
+
+
+.byzantine-musical-symbol-yporroi::before, .byzantine-musical-symbol-yporroi-before::before{ content:var(--byzantine-musical-symbol-yporroi)}
+.byzantine-musical-symbol-yporroi-after::after{content:var(--byzantine-musical-symbol-yporroi)}
+.byzantine-musical-symbol-yporroi-both::after, .byzantine-musical-symbol-yporroi-both::before {content:var(--byzantine-musical-symbol-yporroi)}
+.byzantine-musical-symbol-yporroi-list { list-style: var(--byzantine-musical-symbol-yporroi)}
+
+
+
+.byzantine-musical-symbol-ypsili::before, .byzantine-musical-symbol-ypsili-before::before{ content:var(--byzantine-musical-symbol-ypsili)}
+.byzantine-musical-symbol-ypsili-after::after{content:var(--byzantine-musical-symbol-ypsili)}
+.byzantine-musical-symbol-ypsili-both::after, .byzantine-musical-symbol-ypsili-both::before {content:var(--byzantine-musical-symbol-ypsili)}
+.byzantine-musical-symbol-ypsili-list { list-style: var(--byzantine-musical-symbol-ypsili)}
+}

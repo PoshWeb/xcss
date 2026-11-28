@@ -1,0 +1,564 @@
+@layer ancient-greek-musical-notation {
+:root {
+--combining-greek-musical-pentaseme:'\1D244';
+--combining-greek-musical-tetraseme:'\1D243';
+--combining-greek-musical-triseme:'\1D242';
+--greek-instrumental-notation-symbol-1:'\1D21D';
+--greek-instrumental-notation-symbol-11:'\1D223';
+--greek-instrumental-notation-symbol-12:'\1D224';
+--greek-instrumental-notation-symbol-13:'\1D225';
+--greek-instrumental-notation-symbol-14:'\1D226';
+--greek-instrumental-notation-symbol-17:'\1D227';
+--greek-instrumental-notation-symbol-18:'\1D228';
+--greek-instrumental-notation-symbol-19:'\1D229';
+--greek-instrumental-notation-symbol-2:'\1D21E';
+--greek-instrumental-notation-symbol-23:'\1D22A';
+--greek-instrumental-notation-symbol-24:'\1D22B';
+--greek-instrumental-notation-symbol-25:'\1D22C';
+--greek-instrumental-notation-symbol-26:'\1D22D';
+--greek-instrumental-notation-symbol-27:'\1D22E';
+--greek-instrumental-notation-symbol-29:'\1D22F';
+--greek-instrumental-notation-symbol-30:'\1D230';
+--greek-instrumental-notation-symbol-32:'\1D231';
+--greek-instrumental-notation-symbol-36:'\1D232';
+--greek-instrumental-notation-symbol-37:'\1D233';
+--greek-instrumental-notation-symbol-38:'\1D234';
+--greek-instrumental-notation-symbol-39:'\1D235';
+--greek-instrumental-notation-symbol-4:'\1D21F';
+--greek-instrumental-notation-symbol-40:'\1D236';
+--greek-instrumental-notation-symbol-42:'\1D237';
+--greek-instrumental-notation-symbol-43:'\1D238';
+--greek-instrumental-notation-symbol-45:'\1D239';
+--greek-instrumental-notation-symbol-47:'\1D23A';
+--greek-instrumental-notation-symbol-48:'\1D23B';
+--greek-instrumental-notation-symbol-49:'\1D23C';
+--greek-instrumental-notation-symbol-5:'\1D220';
+--greek-instrumental-notation-symbol-50:'\1D23D';
+--greek-instrumental-notation-symbol-51:'\1D23E';
+--greek-instrumental-notation-symbol-52:'\1D23F';
+--greek-instrumental-notation-symbol-53:'\1D240';
+--greek-instrumental-notation-symbol-54:'\1D241';
+--greek-instrumental-notation-symbol-7:'\1D221';
+--greek-instrumental-notation-symbol-8:'\1D222';
+--greek-musical-leimma:'\1D245';
+--greek-vocal-notation-symbol-1:'\1D200';
+--greek-vocal-notation-symbol-10:'\1D209';
+--greek-vocal-notation-symbol-11:'\1D20A';
+--greek-vocal-notation-symbol-12:'\1D20B';
+--greek-vocal-notation-symbol-13:'\1D20C';
+--greek-vocal-notation-symbol-14:'\1D20D';
+--greek-vocal-notation-symbol-15:'\1D20E';
+--greek-vocal-notation-symbol-16:'\1D20F';
+--greek-vocal-notation-symbol-17:'\1D210';
+--greek-vocal-notation-symbol-18:'\1D211';
+--greek-vocal-notation-symbol-19:'\1D212';
+--greek-vocal-notation-symbol-2:'\1D201';
+--greek-vocal-notation-symbol-20:'\1D213';
+--greek-vocal-notation-symbol-21:'\1D214';
+--greek-vocal-notation-symbol-22:'\1D215';
+--greek-vocal-notation-symbol-23:'\1D216';
+--greek-vocal-notation-symbol-24:'\1D217';
+--greek-vocal-notation-symbol-3:'\1D202';
+--greek-vocal-notation-symbol-4:'\1D203';
+--greek-vocal-notation-symbol-5:'\1D204';
+--greek-vocal-notation-symbol-50:'\1D218';
+--greek-vocal-notation-symbol-51:'\1D219';
+--greek-vocal-notation-symbol-52:'\1D21A';
+--greek-vocal-notation-symbol-53:'\1D21B';
+--greek-vocal-notation-symbol-54:'\1D21C';
+--greek-vocal-notation-symbol-6:'\1D205';
+--greek-vocal-notation-symbol-7:'\1D206';
+--greek-vocal-notation-symbol-8:'\1D207';
+--greek-vocal-notation-symbol-9:'\1D208';
+}
+
+
+
+.combining-greek-musical-pentaseme::before, .combining-greek-musical-pentaseme-before::before{ content:var(--combining-greek-musical-pentaseme)}
+.combining-greek-musical-pentaseme-after::after{content:var(--combining-greek-musical-pentaseme)}
+.combining-greek-musical-pentaseme-both::after, .combining-greek-musical-pentaseme-both::before {content:var(--combining-greek-musical-pentaseme)}
+.combining-greek-musical-pentaseme-list { list-style: var(--combining-greek-musical-pentaseme)}
+
+
+
+.combining-greek-musical-tetraseme::before, .combining-greek-musical-tetraseme-before::before{ content:var(--combining-greek-musical-tetraseme)}
+.combining-greek-musical-tetraseme-after::after{content:var(--combining-greek-musical-tetraseme)}
+.combining-greek-musical-tetraseme-both::after, .combining-greek-musical-tetraseme-both::before {content:var(--combining-greek-musical-tetraseme)}
+.combining-greek-musical-tetraseme-list { list-style: var(--combining-greek-musical-tetraseme)}
+
+
+
+.combining-greek-musical-triseme::before, .combining-greek-musical-triseme-before::before{ content:var(--combining-greek-musical-triseme)}
+.combining-greek-musical-triseme-after::after{content:var(--combining-greek-musical-triseme)}
+.combining-greek-musical-triseme-both::after, .combining-greek-musical-triseme-both::before {content:var(--combining-greek-musical-triseme)}
+.combining-greek-musical-triseme-list { list-style: var(--combining-greek-musical-triseme)}
+
+
+
+.greek-instrumental-notation-symbol-1::before, .greek-instrumental-notation-symbol-1-before::before{ content:var(--greek-instrumental-notation-symbol-1)}
+.greek-instrumental-notation-symbol-1-after::after{content:var(--greek-instrumental-notation-symbol-1)}
+.greek-instrumental-notation-symbol-1-both::after, .greek-instrumental-notation-symbol-1-both::before {content:var(--greek-instrumental-notation-symbol-1)}
+.greek-instrumental-notation-symbol-1-list { list-style: var(--greek-instrumental-notation-symbol-1)}
+
+
+
+.greek-instrumental-notation-symbol-11::before, .greek-instrumental-notation-symbol-11-before::before{ content:var(--greek-instrumental-notation-symbol-11)}
+.greek-instrumental-notation-symbol-11-after::after{content:var(--greek-instrumental-notation-symbol-11)}
+.greek-instrumental-notation-symbol-11-both::after, .greek-instrumental-notation-symbol-11-both::before {content:var(--greek-instrumental-notation-symbol-11)}
+.greek-instrumental-notation-symbol-11-list { list-style: var(--greek-instrumental-notation-symbol-11)}
+
+
+
+.greek-instrumental-notation-symbol-12::before, .greek-instrumental-notation-symbol-12-before::before{ content:var(--greek-instrumental-notation-symbol-12)}
+.greek-instrumental-notation-symbol-12-after::after{content:var(--greek-instrumental-notation-symbol-12)}
+.greek-instrumental-notation-symbol-12-both::after, .greek-instrumental-notation-symbol-12-both::before {content:var(--greek-instrumental-notation-symbol-12)}
+.greek-instrumental-notation-symbol-12-list { list-style: var(--greek-instrumental-notation-symbol-12)}
+
+
+
+.greek-instrumental-notation-symbol-13::before, .greek-instrumental-notation-symbol-13-before::before{ content:var(--greek-instrumental-notation-symbol-13)}
+.greek-instrumental-notation-symbol-13-after::after{content:var(--greek-instrumental-notation-symbol-13)}
+.greek-instrumental-notation-symbol-13-both::after, .greek-instrumental-notation-symbol-13-both::before {content:var(--greek-instrumental-notation-symbol-13)}
+.greek-instrumental-notation-symbol-13-list { list-style: var(--greek-instrumental-notation-symbol-13)}
+
+
+
+.greek-instrumental-notation-symbol-14::before, .greek-instrumental-notation-symbol-14-before::before{ content:var(--greek-instrumental-notation-symbol-14)}
+.greek-instrumental-notation-symbol-14-after::after{content:var(--greek-instrumental-notation-symbol-14)}
+.greek-instrumental-notation-symbol-14-both::after, .greek-instrumental-notation-symbol-14-both::before {content:var(--greek-instrumental-notation-symbol-14)}
+.greek-instrumental-notation-symbol-14-list { list-style: var(--greek-instrumental-notation-symbol-14)}
+
+
+
+.greek-instrumental-notation-symbol-17::before, .greek-instrumental-notation-symbol-17-before::before{ content:var(--greek-instrumental-notation-symbol-17)}
+.greek-instrumental-notation-symbol-17-after::after{content:var(--greek-instrumental-notation-symbol-17)}
+.greek-instrumental-notation-symbol-17-both::after, .greek-instrumental-notation-symbol-17-both::before {content:var(--greek-instrumental-notation-symbol-17)}
+.greek-instrumental-notation-symbol-17-list { list-style: var(--greek-instrumental-notation-symbol-17)}
+
+
+
+.greek-instrumental-notation-symbol-18::before, .greek-instrumental-notation-symbol-18-before::before{ content:var(--greek-instrumental-notation-symbol-18)}
+.greek-instrumental-notation-symbol-18-after::after{content:var(--greek-instrumental-notation-symbol-18)}
+.greek-instrumental-notation-symbol-18-both::after, .greek-instrumental-notation-symbol-18-both::before {content:var(--greek-instrumental-notation-symbol-18)}
+.greek-instrumental-notation-symbol-18-list { list-style: var(--greek-instrumental-notation-symbol-18)}
+
+
+
+.greek-instrumental-notation-symbol-19::before, .greek-instrumental-notation-symbol-19-before::before{ content:var(--greek-instrumental-notation-symbol-19)}
+.greek-instrumental-notation-symbol-19-after::after{content:var(--greek-instrumental-notation-symbol-19)}
+.greek-instrumental-notation-symbol-19-both::after, .greek-instrumental-notation-symbol-19-both::before {content:var(--greek-instrumental-notation-symbol-19)}
+.greek-instrumental-notation-symbol-19-list { list-style: var(--greek-instrumental-notation-symbol-19)}
+
+
+
+.greek-instrumental-notation-symbol-2::before, .greek-instrumental-notation-symbol-2-before::before{ content:var(--greek-instrumental-notation-symbol-2)}
+.greek-instrumental-notation-symbol-2-after::after{content:var(--greek-instrumental-notation-symbol-2)}
+.greek-instrumental-notation-symbol-2-both::after, .greek-instrumental-notation-symbol-2-both::before {content:var(--greek-instrumental-notation-symbol-2)}
+.greek-instrumental-notation-symbol-2-list { list-style: var(--greek-instrumental-notation-symbol-2)}
+
+
+
+.greek-instrumental-notation-symbol-23::before, .greek-instrumental-notation-symbol-23-before::before{ content:var(--greek-instrumental-notation-symbol-23)}
+.greek-instrumental-notation-symbol-23-after::after{content:var(--greek-instrumental-notation-symbol-23)}
+.greek-instrumental-notation-symbol-23-both::after, .greek-instrumental-notation-symbol-23-both::before {content:var(--greek-instrumental-notation-symbol-23)}
+.greek-instrumental-notation-symbol-23-list { list-style: var(--greek-instrumental-notation-symbol-23)}
+
+
+
+.greek-instrumental-notation-symbol-24::before, .greek-instrumental-notation-symbol-24-before::before{ content:var(--greek-instrumental-notation-symbol-24)}
+.greek-instrumental-notation-symbol-24-after::after{content:var(--greek-instrumental-notation-symbol-24)}
+.greek-instrumental-notation-symbol-24-both::after, .greek-instrumental-notation-symbol-24-both::before {content:var(--greek-instrumental-notation-symbol-24)}
+.greek-instrumental-notation-symbol-24-list { list-style: var(--greek-instrumental-notation-symbol-24)}
+
+
+
+.greek-instrumental-notation-symbol-25::before, .greek-instrumental-notation-symbol-25-before::before{ content:var(--greek-instrumental-notation-symbol-25)}
+.greek-instrumental-notation-symbol-25-after::after{content:var(--greek-instrumental-notation-symbol-25)}
+.greek-instrumental-notation-symbol-25-both::after, .greek-instrumental-notation-symbol-25-both::before {content:var(--greek-instrumental-notation-symbol-25)}
+.greek-instrumental-notation-symbol-25-list { list-style: var(--greek-instrumental-notation-symbol-25)}
+
+
+
+.greek-instrumental-notation-symbol-26::before, .greek-instrumental-notation-symbol-26-before::before{ content:var(--greek-instrumental-notation-symbol-26)}
+.greek-instrumental-notation-symbol-26-after::after{content:var(--greek-instrumental-notation-symbol-26)}
+.greek-instrumental-notation-symbol-26-both::after, .greek-instrumental-notation-symbol-26-both::before {content:var(--greek-instrumental-notation-symbol-26)}
+.greek-instrumental-notation-symbol-26-list { list-style: var(--greek-instrumental-notation-symbol-26)}
+
+
+
+.greek-instrumental-notation-symbol-27::before, .greek-instrumental-notation-symbol-27-before::before{ content:var(--greek-instrumental-notation-symbol-27)}
+.greek-instrumental-notation-symbol-27-after::after{content:var(--greek-instrumental-notation-symbol-27)}
+.greek-instrumental-notation-symbol-27-both::after, .greek-instrumental-notation-symbol-27-both::before {content:var(--greek-instrumental-notation-symbol-27)}
+.greek-instrumental-notation-symbol-27-list { list-style: var(--greek-instrumental-notation-symbol-27)}
+
+
+
+.greek-instrumental-notation-symbol-29::before, .greek-instrumental-notation-symbol-29-before::before{ content:var(--greek-instrumental-notation-symbol-29)}
+.greek-instrumental-notation-symbol-29-after::after{content:var(--greek-instrumental-notation-symbol-29)}
+.greek-instrumental-notation-symbol-29-both::after, .greek-instrumental-notation-symbol-29-both::before {content:var(--greek-instrumental-notation-symbol-29)}
+.greek-instrumental-notation-symbol-29-list { list-style: var(--greek-instrumental-notation-symbol-29)}
+
+
+
+.greek-instrumental-notation-symbol-30::before, .greek-instrumental-notation-symbol-30-before::before{ content:var(--greek-instrumental-notation-symbol-30)}
+.greek-instrumental-notation-symbol-30-after::after{content:var(--greek-instrumental-notation-symbol-30)}
+.greek-instrumental-notation-symbol-30-both::after, .greek-instrumental-notation-symbol-30-both::before {content:var(--greek-instrumental-notation-symbol-30)}
+.greek-instrumental-notation-symbol-30-list { list-style: var(--greek-instrumental-notation-symbol-30)}
+
+
+
+.greek-instrumental-notation-symbol-32::before, .greek-instrumental-notation-symbol-32-before::before{ content:var(--greek-instrumental-notation-symbol-32)}
+.greek-instrumental-notation-symbol-32-after::after{content:var(--greek-instrumental-notation-symbol-32)}
+.greek-instrumental-notation-symbol-32-both::after, .greek-instrumental-notation-symbol-32-both::before {content:var(--greek-instrumental-notation-symbol-32)}
+.greek-instrumental-notation-symbol-32-list { list-style: var(--greek-instrumental-notation-symbol-32)}
+
+
+
+.greek-instrumental-notation-symbol-36::before, .greek-instrumental-notation-symbol-36-before::before{ content:var(--greek-instrumental-notation-symbol-36)}
+.greek-instrumental-notation-symbol-36-after::after{content:var(--greek-instrumental-notation-symbol-36)}
+.greek-instrumental-notation-symbol-36-both::after, .greek-instrumental-notation-symbol-36-both::before {content:var(--greek-instrumental-notation-symbol-36)}
+.greek-instrumental-notation-symbol-36-list { list-style: var(--greek-instrumental-notation-symbol-36)}
+
+
+
+.greek-instrumental-notation-symbol-37::before, .greek-instrumental-notation-symbol-37-before::before{ content:var(--greek-instrumental-notation-symbol-37)}
+.greek-instrumental-notation-symbol-37-after::after{content:var(--greek-instrumental-notation-symbol-37)}
+.greek-instrumental-notation-symbol-37-both::after, .greek-instrumental-notation-symbol-37-both::before {content:var(--greek-instrumental-notation-symbol-37)}
+.greek-instrumental-notation-symbol-37-list { list-style: var(--greek-instrumental-notation-symbol-37)}
+
+
+
+.greek-instrumental-notation-symbol-38::before, .greek-instrumental-notation-symbol-38-before::before{ content:var(--greek-instrumental-notation-symbol-38)}
+.greek-instrumental-notation-symbol-38-after::after{content:var(--greek-instrumental-notation-symbol-38)}
+.greek-instrumental-notation-symbol-38-both::after, .greek-instrumental-notation-symbol-38-both::before {content:var(--greek-instrumental-notation-symbol-38)}
+.greek-instrumental-notation-symbol-38-list { list-style: var(--greek-instrumental-notation-symbol-38)}
+
+
+
+.greek-instrumental-notation-symbol-39::before, .greek-instrumental-notation-symbol-39-before::before{ content:var(--greek-instrumental-notation-symbol-39)}
+.greek-instrumental-notation-symbol-39-after::after{content:var(--greek-instrumental-notation-symbol-39)}
+.greek-instrumental-notation-symbol-39-both::after, .greek-instrumental-notation-symbol-39-both::before {content:var(--greek-instrumental-notation-symbol-39)}
+.greek-instrumental-notation-symbol-39-list { list-style: var(--greek-instrumental-notation-symbol-39)}
+
+
+
+.greek-instrumental-notation-symbol-4::before, .greek-instrumental-notation-symbol-4-before::before{ content:var(--greek-instrumental-notation-symbol-4)}
+.greek-instrumental-notation-symbol-4-after::after{content:var(--greek-instrumental-notation-symbol-4)}
+.greek-instrumental-notation-symbol-4-both::after, .greek-instrumental-notation-symbol-4-both::before {content:var(--greek-instrumental-notation-symbol-4)}
+.greek-instrumental-notation-symbol-4-list { list-style: var(--greek-instrumental-notation-symbol-4)}
+
+
+
+.greek-instrumental-notation-symbol-40::before, .greek-instrumental-notation-symbol-40-before::before{ content:var(--greek-instrumental-notation-symbol-40)}
+.greek-instrumental-notation-symbol-40-after::after{content:var(--greek-instrumental-notation-symbol-40)}
+.greek-instrumental-notation-symbol-40-both::after, .greek-instrumental-notation-symbol-40-both::before {content:var(--greek-instrumental-notation-symbol-40)}
+.greek-instrumental-notation-symbol-40-list { list-style: var(--greek-instrumental-notation-symbol-40)}
+
+
+
+.greek-instrumental-notation-symbol-42::before, .greek-instrumental-notation-symbol-42-before::before{ content:var(--greek-instrumental-notation-symbol-42)}
+.greek-instrumental-notation-symbol-42-after::after{content:var(--greek-instrumental-notation-symbol-42)}
+.greek-instrumental-notation-symbol-42-both::after, .greek-instrumental-notation-symbol-42-both::before {content:var(--greek-instrumental-notation-symbol-42)}
+.greek-instrumental-notation-symbol-42-list { list-style: var(--greek-instrumental-notation-symbol-42)}
+
+
+
+.greek-instrumental-notation-symbol-43::before, .greek-instrumental-notation-symbol-43-before::before{ content:var(--greek-instrumental-notation-symbol-43)}
+.greek-instrumental-notation-symbol-43-after::after{content:var(--greek-instrumental-notation-symbol-43)}
+.greek-instrumental-notation-symbol-43-both::after, .greek-instrumental-notation-symbol-43-both::before {content:var(--greek-instrumental-notation-symbol-43)}
+.greek-instrumental-notation-symbol-43-list { list-style: var(--greek-instrumental-notation-symbol-43)}
+
+
+
+.greek-instrumental-notation-symbol-45::before, .greek-instrumental-notation-symbol-45-before::before{ content:var(--greek-instrumental-notation-symbol-45)}
+.greek-instrumental-notation-symbol-45-after::after{content:var(--greek-instrumental-notation-symbol-45)}
+.greek-instrumental-notation-symbol-45-both::after, .greek-instrumental-notation-symbol-45-both::before {content:var(--greek-instrumental-notation-symbol-45)}
+.greek-instrumental-notation-symbol-45-list { list-style: var(--greek-instrumental-notation-symbol-45)}
+
+
+
+.greek-instrumental-notation-symbol-47::before, .greek-instrumental-notation-symbol-47-before::before{ content:var(--greek-instrumental-notation-symbol-47)}
+.greek-instrumental-notation-symbol-47-after::after{content:var(--greek-instrumental-notation-symbol-47)}
+.greek-instrumental-notation-symbol-47-both::after, .greek-instrumental-notation-symbol-47-both::before {content:var(--greek-instrumental-notation-symbol-47)}
+.greek-instrumental-notation-symbol-47-list { list-style: var(--greek-instrumental-notation-symbol-47)}
+
+
+
+.greek-instrumental-notation-symbol-48::before, .greek-instrumental-notation-symbol-48-before::before{ content:var(--greek-instrumental-notation-symbol-48)}
+.greek-instrumental-notation-symbol-48-after::after{content:var(--greek-instrumental-notation-symbol-48)}
+.greek-instrumental-notation-symbol-48-both::after, .greek-instrumental-notation-symbol-48-both::before {content:var(--greek-instrumental-notation-symbol-48)}
+.greek-instrumental-notation-symbol-48-list { list-style: var(--greek-instrumental-notation-symbol-48)}
+
+
+
+.greek-instrumental-notation-symbol-49::before, .greek-instrumental-notation-symbol-49-before::before{ content:var(--greek-instrumental-notation-symbol-49)}
+.greek-instrumental-notation-symbol-49-after::after{content:var(--greek-instrumental-notation-symbol-49)}
+.greek-instrumental-notation-symbol-49-both::after, .greek-instrumental-notation-symbol-49-both::before {content:var(--greek-instrumental-notation-symbol-49)}
+.greek-instrumental-notation-symbol-49-list { list-style: var(--greek-instrumental-notation-symbol-49)}
+
+
+
+.greek-instrumental-notation-symbol-5::before, .greek-instrumental-notation-symbol-5-before::before{ content:var(--greek-instrumental-notation-symbol-5)}
+.greek-instrumental-notation-symbol-5-after::after{content:var(--greek-instrumental-notation-symbol-5)}
+.greek-instrumental-notation-symbol-5-both::after, .greek-instrumental-notation-symbol-5-both::before {content:var(--greek-instrumental-notation-symbol-5)}
+.greek-instrumental-notation-symbol-5-list { list-style: var(--greek-instrumental-notation-symbol-5)}
+
+
+
+.greek-instrumental-notation-symbol-50::before, .greek-instrumental-notation-symbol-50-before::before{ content:var(--greek-instrumental-notation-symbol-50)}
+.greek-instrumental-notation-symbol-50-after::after{content:var(--greek-instrumental-notation-symbol-50)}
+.greek-instrumental-notation-symbol-50-both::after, .greek-instrumental-notation-symbol-50-both::before {content:var(--greek-instrumental-notation-symbol-50)}
+.greek-instrumental-notation-symbol-50-list { list-style: var(--greek-instrumental-notation-symbol-50)}
+
+
+
+.greek-instrumental-notation-symbol-51::before, .greek-instrumental-notation-symbol-51-before::before{ content:var(--greek-instrumental-notation-symbol-51)}
+.greek-instrumental-notation-symbol-51-after::after{content:var(--greek-instrumental-notation-symbol-51)}
+.greek-instrumental-notation-symbol-51-both::after, .greek-instrumental-notation-symbol-51-both::before {content:var(--greek-instrumental-notation-symbol-51)}
+.greek-instrumental-notation-symbol-51-list { list-style: var(--greek-instrumental-notation-symbol-51)}
+
+
+
+.greek-instrumental-notation-symbol-52::before, .greek-instrumental-notation-symbol-52-before::before{ content:var(--greek-instrumental-notation-symbol-52)}
+.greek-instrumental-notation-symbol-52-after::after{content:var(--greek-instrumental-notation-symbol-52)}
+.greek-instrumental-notation-symbol-52-both::after, .greek-instrumental-notation-symbol-52-both::before {content:var(--greek-instrumental-notation-symbol-52)}
+.greek-instrumental-notation-symbol-52-list { list-style: var(--greek-instrumental-notation-symbol-52)}
+
+
+
+.greek-instrumental-notation-symbol-53::before, .greek-instrumental-notation-symbol-53-before::before{ content:var(--greek-instrumental-notation-symbol-53)}
+.greek-instrumental-notation-symbol-53-after::after{content:var(--greek-instrumental-notation-symbol-53)}
+.greek-instrumental-notation-symbol-53-both::after, .greek-instrumental-notation-symbol-53-both::before {content:var(--greek-instrumental-notation-symbol-53)}
+.greek-instrumental-notation-symbol-53-list { list-style: var(--greek-instrumental-notation-symbol-53)}
+
+
+
+.greek-instrumental-notation-symbol-54::before, .greek-instrumental-notation-symbol-54-before::before{ content:var(--greek-instrumental-notation-symbol-54)}
+.greek-instrumental-notation-symbol-54-after::after{content:var(--greek-instrumental-notation-symbol-54)}
+.greek-instrumental-notation-symbol-54-both::after, .greek-instrumental-notation-symbol-54-both::before {content:var(--greek-instrumental-notation-symbol-54)}
+.greek-instrumental-notation-symbol-54-list { list-style: var(--greek-instrumental-notation-symbol-54)}
+
+
+
+.greek-instrumental-notation-symbol-7::before, .greek-instrumental-notation-symbol-7-before::before{ content:var(--greek-instrumental-notation-symbol-7)}
+.greek-instrumental-notation-symbol-7-after::after{content:var(--greek-instrumental-notation-symbol-7)}
+.greek-instrumental-notation-symbol-7-both::after, .greek-instrumental-notation-symbol-7-both::before {content:var(--greek-instrumental-notation-symbol-7)}
+.greek-instrumental-notation-symbol-7-list { list-style: var(--greek-instrumental-notation-symbol-7)}
+
+
+
+.greek-instrumental-notation-symbol-8::before, .greek-instrumental-notation-symbol-8-before::before{ content:var(--greek-instrumental-notation-symbol-8)}
+.greek-instrumental-notation-symbol-8-after::after{content:var(--greek-instrumental-notation-symbol-8)}
+.greek-instrumental-notation-symbol-8-both::after, .greek-instrumental-notation-symbol-8-both::before {content:var(--greek-instrumental-notation-symbol-8)}
+.greek-instrumental-notation-symbol-8-list { list-style: var(--greek-instrumental-notation-symbol-8)}
+
+
+
+.greek-musical-leimma::before, .greek-musical-leimma-before::before{ content:var(--greek-musical-leimma)}
+.greek-musical-leimma-after::after{content:var(--greek-musical-leimma)}
+.greek-musical-leimma-both::after, .greek-musical-leimma-both::before {content:var(--greek-musical-leimma)}
+.greek-musical-leimma-list { list-style: var(--greek-musical-leimma)}
+
+
+
+.greek-vocal-notation-symbol-1::before, .greek-vocal-notation-symbol-1-before::before{ content:var(--greek-vocal-notation-symbol-1)}
+.greek-vocal-notation-symbol-1-after::after{content:var(--greek-vocal-notation-symbol-1)}
+.greek-vocal-notation-symbol-1-both::after, .greek-vocal-notation-symbol-1-both::before {content:var(--greek-vocal-notation-symbol-1)}
+.greek-vocal-notation-symbol-1-list { list-style: var(--greek-vocal-notation-symbol-1)}
+
+
+
+.greek-vocal-notation-symbol-10::before, .greek-vocal-notation-symbol-10-before::before{ content:var(--greek-vocal-notation-symbol-10)}
+.greek-vocal-notation-symbol-10-after::after{content:var(--greek-vocal-notation-symbol-10)}
+.greek-vocal-notation-symbol-10-both::after, .greek-vocal-notation-symbol-10-both::before {content:var(--greek-vocal-notation-symbol-10)}
+.greek-vocal-notation-symbol-10-list { list-style: var(--greek-vocal-notation-symbol-10)}
+
+
+
+.greek-vocal-notation-symbol-11::before, .greek-vocal-notation-symbol-11-before::before{ content:var(--greek-vocal-notation-symbol-11)}
+.greek-vocal-notation-symbol-11-after::after{content:var(--greek-vocal-notation-symbol-11)}
+.greek-vocal-notation-symbol-11-both::after, .greek-vocal-notation-symbol-11-both::before {content:var(--greek-vocal-notation-symbol-11)}
+.greek-vocal-notation-symbol-11-list { list-style: var(--greek-vocal-notation-symbol-11)}
+
+
+
+.greek-vocal-notation-symbol-12::before, .greek-vocal-notation-symbol-12-before::before{ content:var(--greek-vocal-notation-symbol-12)}
+.greek-vocal-notation-symbol-12-after::after{content:var(--greek-vocal-notation-symbol-12)}
+.greek-vocal-notation-symbol-12-both::after, .greek-vocal-notation-symbol-12-both::before {content:var(--greek-vocal-notation-symbol-12)}
+.greek-vocal-notation-symbol-12-list { list-style: var(--greek-vocal-notation-symbol-12)}
+
+
+
+.greek-vocal-notation-symbol-13::before, .greek-vocal-notation-symbol-13-before::before{ content:var(--greek-vocal-notation-symbol-13)}
+.greek-vocal-notation-symbol-13-after::after{content:var(--greek-vocal-notation-symbol-13)}
+.greek-vocal-notation-symbol-13-both::after, .greek-vocal-notation-symbol-13-both::before {content:var(--greek-vocal-notation-symbol-13)}
+.greek-vocal-notation-symbol-13-list { list-style: var(--greek-vocal-notation-symbol-13)}
+
+
+
+.greek-vocal-notation-symbol-14::before, .greek-vocal-notation-symbol-14-before::before{ content:var(--greek-vocal-notation-symbol-14)}
+.greek-vocal-notation-symbol-14-after::after{content:var(--greek-vocal-notation-symbol-14)}
+.greek-vocal-notation-symbol-14-both::after, .greek-vocal-notation-symbol-14-both::before {content:var(--greek-vocal-notation-symbol-14)}
+.greek-vocal-notation-symbol-14-list { list-style: var(--greek-vocal-notation-symbol-14)}
+
+
+
+.greek-vocal-notation-symbol-15::before, .greek-vocal-notation-symbol-15-before::before{ content:var(--greek-vocal-notation-symbol-15)}
+.greek-vocal-notation-symbol-15-after::after{content:var(--greek-vocal-notation-symbol-15)}
+.greek-vocal-notation-symbol-15-both::after, .greek-vocal-notation-symbol-15-both::before {content:var(--greek-vocal-notation-symbol-15)}
+.greek-vocal-notation-symbol-15-list { list-style: var(--greek-vocal-notation-symbol-15)}
+
+
+
+.greek-vocal-notation-symbol-16::before, .greek-vocal-notation-symbol-16-before::before{ content:var(--greek-vocal-notation-symbol-16)}
+.greek-vocal-notation-symbol-16-after::after{content:var(--greek-vocal-notation-symbol-16)}
+.greek-vocal-notation-symbol-16-both::after, .greek-vocal-notation-symbol-16-both::before {content:var(--greek-vocal-notation-symbol-16)}
+.greek-vocal-notation-symbol-16-list { list-style: var(--greek-vocal-notation-symbol-16)}
+
+
+
+.greek-vocal-notation-symbol-17::before, .greek-vocal-notation-symbol-17-before::before{ content:var(--greek-vocal-notation-symbol-17)}
+.greek-vocal-notation-symbol-17-after::after{content:var(--greek-vocal-notation-symbol-17)}
+.greek-vocal-notation-symbol-17-both::after, .greek-vocal-notation-symbol-17-both::before {content:var(--greek-vocal-notation-symbol-17)}
+.greek-vocal-notation-symbol-17-list { list-style: var(--greek-vocal-notation-symbol-17)}
+
+
+
+.greek-vocal-notation-symbol-18::before, .greek-vocal-notation-symbol-18-before::before{ content:var(--greek-vocal-notation-symbol-18)}
+.greek-vocal-notation-symbol-18-after::after{content:var(--greek-vocal-notation-symbol-18)}
+.greek-vocal-notation-symbol-18-both::after, .greek-vocal-notation-symbol-18-both::before {content:var(--greek-vocal-notation-symbol-18)}
+.greek-vocal-notation-symbol-18-list { list-style: var(--greek-vocal-notation-symbol-18)}
+
+
+
+.greek-vocal-notation-symbol-19::before, .greek-vocal-notation-symbol-19-before::before{ content:var(--greek-vocal-notation-symbol-19)}
+.greek-vocal-notation-symbol-19-after::after{content:var(--greek-vocal-notation-symbol-19)}
+.greek-vocal-notation-symbol-19-both::after, .greek-vocal-notation-symbol-19-both::before {content:var(--greek-vocal-notation-symbol-19)}
+.greek-vocal-notation-symbol-19-list { list-style: var(--greek-vocal-notation-symbol-19)}
+
+
+
+.greek-vocal-notation-symbol-2::before, .greek-vocal-notation-symbol-2-before::before{ content:var(--greek-vocal-notation-symbol-2)}
+.greek-vocal-notation-symbol-2-after::after{content:var(--greek-vocal-notation-symbol-2)}
+.greek-vocal-notation-symbol-2-both::after, .greek-vocal-notation-symbol-2-both::before {content:var(--greek-vocal-notation-symbol-2)}
+.greek-vocal-notation-symbol-2-list { list-style: var(--greek-vocal-notation-symbol-2)}
+
+
+
+.greek-vocal-notation-symbol-20::before, .greek-vocal-notation-symbol-20-before::before{ content:var(--greek-vocal-notation-symbol-20)}
+.greek-vocal-notation-symbol-20-after::after{content:var(--greek-vocal-notation-symbol-20)}
+.greek-vocal-notation-symbol-20-both::after, .greek-vocal-notation-symbol-20-both::before {content:var(--greek-vocal-notation-symbol-20)}
+.greek-vocal-notation-symbol-20-list { list-style: var(--greek-vocal-notation-symbol-20)}
+
+
+
+.greek-vocal-notation-symbol-21::before, .greek-vocal-notation-symbol-21-before::before{ content:var(--greek-vocal-notation-symbol-21)}
+.greek-vocal-notation-symbol-21-after::after{content:var(--greek-vocal-notation-symbol-21)}
+.greek-vocal-notation-symbol-21-both::after, .greek-vocal-notation-symbol-21-both::before {content:var(--greek-vocal-notation-symbol-21)}
+.greek-vocal-notation-symbol-21-list { list-style: var(--greek-vocal-notation-symbol-21)}
+
+
+
+.greek-vocal-notation-symbol-22::before, .greek-vocal-notation-symbol-22-before::before{ content:var(--greek-vocal-notation-symbol-22)}
+.greek-vocal-notation-symbol-22-after::after{content:var(--greek-vocal-notation-symbol-22)}
+.greek-vocal-notation-symbol-22-both::after, .greek-vocal-notation-symbol-22-both::before {content:var(--greek-vocal-notation-symbol-22)}
+.greek-vocal-notation-symbol-22-list { list-style: var(--greek-vocal-notation-symbol-22)}
+
+
+
+.greek-vocal-notation-symbol-23::before, .greek-vocal-notation-symbol-23-before::before{ content:var(--greek-vocal-notation-symbol-23)}
+.greek-vocal-notation-symbol-23-after::after{content:var(--greek-vocal-notation-symbol-23)}
+.greek-vocal-notation-symbol-23-both::after, .greek-vocal-notation-symbol-23-both::before {content:var(--greek-vocal-notation-symbol-23)}
+.greek-vocal-notation-symbol-23-list { list-style: var(--greek-vocal-notation-symbol-23)}
+
+
+
+.greek-vocal-notation-symbol-24::before, .greek-vocal-notation-symbol-24-before::before{ content:var(--greek-vocal-notation-symbol-24)}
+.greek-vocal-notation-symbol-24-after::after{content:var(--greek-vocal-notation-symbol-24)}
+.greek-vocal-notation-symbol-24-both::after, .greek-vocal-notation-symbol-24-both::before {content:var(--greek-vocal-notation-symbol-24)}
+.greek-vocal-notation-symbol-24-list { list-style: var(--greek-vocal-notation-symbol-24)}
+
+
+
+.greek-vocal-notation-symbol-3::before, .greek-vocal-notation-symbol-3-before::before{ content:var(--greek-vocal-notation-symbol-3)}
+.greek-vocal-notation-symbol-3-after::after{content:var(--greek-vocal-notation-symbol-3)}
+.greek-vocal-notation-symbol-3-both::after, .greek-vocal-notation-symbol-3-both::before {content:var(--greek-vocal-notation-symbol-3)}
+.greek-vocal-notation-symbol-3-list { list-style: var(--greek-vocal-notation-symbol-3)}
+
+
+
+.greek-vocal-notation-symbol-4::before, .greek-vocal-notation-symbol-4-before::before{ content:var(--greek-vocal-notation-symbol-4)}
+.greek-vocal-notation-symbol-4-after::after{content:var(--greek-vocal-notation-symbol-4)}
+.greek-vocal-notation-symbol-4-both::after, .greek-vocal-notation-symbol-4-both::before {content:var(--greek-vocal-notation-symbol-4)}
+.greek-vocal-notation-symbol-4-list { list-style: var(--greek-vocal-notation-symbol-4)}
+
+
+
+.greek-vocal-notation-symbol-5::before, .greek-vocal-notation-symbol-5-before::before{ content:var(--greek-vocal-notation-symbol-5)}
+.greek-vocal-notation-symbol-5-after::after{content:var(--greek-vocal-notation-symbol-5)}
+.greek-vocal-notation-symbol-5-both::after, .greek-vocal-notation-symbol-5-both::before {content:var(--greek-vocal-notation-symbol-5)}
+.greek-vocal-notation-symbol-5-list { list-style: var(--greek-vocal-notation-symbol-5)}
+
+
+
+.greek-vocal-notation-symbol-50::before, .greek-vocal-notation-symbol-50-before::before{ content:var(--greek-vocal-notation-symbol-50)}
+.greek-vocal-notation-symbol-50-after::after{content:var(--greek-vocal-notation-symbol-50)}
+.greek-vocal-notation-symbol-50-both::after, .greek-vocal-notation-symbol-50-both::before {content:var(--greek-vocal-notation-symbol-50)}
+.greek-vocal-notation-symbol-50-list { list-style: var(--greek-vocal-notation-symbol-50)}
+
+
+
+.greek-vocal-notation-symbol-51::before, .greek-vocal-notation-symbol-51-before::before{ content:var(--greek-vocal-notation-symbol-51)}
+.greek-vocal-notation-symbol-51-after::after{content:var(--greek-vocal-notation-symbol-51)}
+.greek-vocal-notation-symbol-51-both::after, .greek-vocal-notation-symbol-51-both::before {content:var(--greek-vocal-notation-symbol-51)}
+.greek-vocal-notation-symbol-51-list { list-style: var(--greek-vocal-notation-symbol-51)}
+
+
+
+.greek-vocal-notation-symbol-52::before, .greek-vocal-notation-symbol-52-before::before{ content:var(--greek-vocal-notation-symbol-52)}
+.greek-vocal-notation-symbol-52-after::after{content:var(--greek-vocal-notation-symbol-52)}
+.greek-vocal-notation-symbol-52-both::after, .greek-vocal-notation-symbol-52-both::before {content:var(--greek-vocal-notation-symbol-52)}
+.greek-vocal-notation-symbol-52-list { list-style: var(--greek-vocal-notation-symbol-52)}
+
+
+
+.greek-vocal-notation-symbol-53::before, .greek-vocal-notation-symbol-53-before::before{ content:var(--greek-vocal-notation-symbol-53)}
+.greek-vocal-notation-symbol-53-after::after{content:var(--greek-vocal-notation-symbol-53)}
+.greek-vocal-notation-symbol-53-both::after, .greek-vocal-notation-symbol-53-both::before {content:var(--greek-vocal-notation-symbol-53)}
+.greek-vocal-notation-symbol-53-list { list-style: var(--greek-vocal-notation-symbol-53)}
+
+
+
+.greek-vocal-notation-symbol-54::before, .greek-vocal-notation-symbol-54-before::before{ content:var(--greek-vocal-notation-symbol-54)}
+.greek-vocal-notation-symbol-54-after::after{content:var(--greek-vocal-notation-symbol-54)}
+.greek-vocal-notation-symbol-54-both::after, .greek-vocal-notation-symbol-54-both::before {content:var(--greek-vocal-notation-symbol-54)}
+.greek-vocal-notation-symbol-54-list { list-style: var(--greek-vocal-notation-symbol-54)}
+
+
+
+.greek-vocal-notation-symbol-6::before, .greek-vocal-notation-symbol-6-before::before{ content:var(--greek-vocal-notation-symbol-6)}
+.greek-vocal-notation-symbol-6-after::after{content:var(--greek-vocal-notation-symbol-6)}
+.greek-vocal-notation-symbol-6-both::after, .greek-vocal-notation-symbol-6-both::before {content:var(--greek-vocal-notation-symbol-6)}
+.greek-vocal-notation-symbol-6-list { list-style: var(--greek-vocal-notation-symbol-6)}
+
+
+
+.greek-vocal-notation-symbol-7::before, .greek-vocal-notation-symbol-7-before::before{ content:var(--greek-vocal-notation-symbol-7)}
+.greek-vocal-notation-symbol-7-after::after{content:var(--greek-vocal-notation-symbol-7)}
+.greek-vocal-notation-symbol-7-both::after, .greek-vocal-notation-symbol-7-both::before {content:var(--greek-vocal-notation-symbol-7)}
+.greek-vocal-notation-symbol-7-list { list-style: var(--greek-vocal-notation-symbol-7)}
+
+
+
+.greek-vocal-notation-symbol-8::before, .greek-vocal-notation-symbol-8-before::before{ content:var(--greek-vocal-notation-symbol-8)}
+.greek-vocal-notation-symbol-8-after::after{content:var(--greek-vocal-notation-symbol-8)}
+.greek-vocal-notation-symbol-8-both::after, .greek-vocal-notation-symbol-8-both::before {content:var(--greek-vocal-notation-symbol-8)}
+.greek-vocal-notation-symbol-8-list { list-style: var(--greek-vocal-notation-symbol-8)}
+
+
+
+.greek-vocal-notation-symbol-9::before, .greek-vocal-notation-symbol-9-before::before{ content:var(--greek-vocal-notation-symbol-9)}
+.greek-vocal-notation-symbol-9-after::after{content:var(--greek-vocal-notation-symbol-9)}
+.greek-vocal-notation-symbol-9-both::after, .greek-vocal-notation-symbol-9-both::before {content:var(--greek-vocal-notation-symbol-9)}
+.greek-vocal-notation-symbol-9-list { list-style: var(--greek-vocal-notation-symbol-9)}
+}

@@ -1,0 +1,1868 @@
+@layer musical-symbols {
+:root {
+--musical-symbol-arpeggiato-down:'\1D184';
+--musical-symbol-arpeggiato-up:'\1D183';
+--musical-symbol-begin-beam:'\1D173';
+--musical-symbol-begin-phrase:'\1D179';
+--musical-symbol-begin-slur:'\1D177';
+--musical-symbol-begin-tie:'\1D175';
+--musical-symbol-brace:'\1D114';
+--musical-symbol-bracket:'\1D115';
+--musical-symbol-breath-mark:'\1D112';
+--musical-symbol-breve:'\1D15C';
+--musical-symbol-brevis:'\1D1B8';
+--musical-symbol-brevis-rest:'\1D1C3';
+--musical-symbol-c-clef:'\1D121';
+--musical-symbol-caesura:'\1D113';
+--musical-symbol-circle-x-notehead:'\1D145';
+--musical-symbol-climacus:'\1D1D7';
+--musical-symbol-clivis:'\1D1D5';
+--musical-symbol-cluster-notehead-black:'\1D15B';
+--musical-symbol-cluster-notehead-white:'\1D15A';
+--musical-symbol-coda:'\1D10C';
+--musical-symbol-combining-accent:'\1D17B';
+--musical-symbol-combining-accent-staccato:'\1D181';
+--musical-symbol-combining-augmentation-dot:'\1D16D';
+--musical-symbol-combining-bend:'\1D189';
+--musical-symbol-combining-doit:'\1D185';
+--musical-symbol-combining-double-tongue:'\1D18A';
+--musical-symbol-combining-down-bow:'\1D1AA';
+--musical-symbol-combining-flag-1:'\1D16E';
+--musical-symbol-combining-flag-2:'\1D16F';
+--musical-symbol-combining-flag-3:'\1D170';
+--musical-symbol-combining-flag-4:'\1D171';
+--musical-symbol-combining-flag-5:'\1D172';
+--musical-symbol-combining-flip:'\1D187';
+--musical-symbol-combining-harmonic:'\1D1AC';
+--musical-symbol-combining-loure:'\1D182';
+--musical-symbol-combining-marcato:'\1D17F';
+--musical-symbol-combining-marcato-staccato:'\1D180';
+--musical-symbol-combining-rip:'\1D186';
+--musical-symbol-combining-smear:'\1D188';
+--musical-symbol-combining-snap-pizzicato:'\1D1AD';
+--musical-symbol-combining-sprechgesang-stem:'\1D166';
+--musical-symbol-combining-staccatissimo:'\1D17E';
+--musical-symbol-combining-staccato:'\1D17C';
+--musical-symbol-combining-stem:'\1D165';
+--musical-symbol-combining-tenuto:'\1D17D';
+--musical-symbol-combining-tremolo-1:'\1D167';
+--musical-symbol-combining-tremolo-2:'\1D168';
+--musical-symbol-combining-tremolo-3:'\1D169';
+--musical-symbol-combining-triple-tongue:'\1D18B';
+--musical-symbol-combining-up-bow:'\1D1AB';
+--musical-symbol-common-time:'\1D134';
+--musical-symbol-crescendo:'\1D192';
+--musical-symbol-croix:'\1D1CF';
+--musical-symbol-cut-time:'\1D135';
+--musical-symbol-da-capo:'\1D10A';
+--musical-symbol-dal-segno:'\1D109';
+--musical-symbol-damp:'\1D1B4';
+--musical-symbol-damp-all:'\1D1B5';
+--musical-symbol-dashed-barline:'\1D104';
+--musical-symbol-decrescendo:'\1D193';
+--musical-symbol-degree-slash:'\1D1A9';
+--musical-symbol-double-barline:'\1D101';
+--musical-symbol-double-flat:'\1D12B';
+--musical-symbol-double-sharp:'\1D12A';
+--musical-symbol-drum-clef-1:'\1D125';
+--musical-symbol-drum-clef-2:'\1D126';
+--musical-symbol-eighth-note:'\1D160';
+--musical-symbol-eighth-rest:'\1D13E';
+--musical-symbol-end-beam:'\1D174';
+--musical-symbol-end-of-stimme:'\1D1A8';
+--musical-symbol-end-phrase:'\1D17A';
+--musical-symbol-end-slur:'\1D178';
+--musical-symbol-end-tie:'\1D176';
+--musical-symbol-f-clef:'\1D122';
+--musical-symbol-f-clef-ottava-alta:'\1D123';
+--musical-symbol-f-clef-ottava-bassa:'\1D124';
+--musical-symbol-fermata:'\1D110';
+--musical-symbol-fermata-below:'\1D111';
+--musical-symbol-final-barline:'\1D102';
+--musical-symbol-fingered-tremolo-1:'\1D16A';
+--musical-symbol-fingered-tremolo-2:'\1D16B';
+--musical-symbol-fingered-tremolo-3:'\1D16C';
+--musical-symbol-five-line-staff:'\1D11A';
+--musical-symbol-flat-down:'\1D12D';
+--musical-symbol-flat-up:'\1D12C';
+--musical-symbol-forte:'\1D191';
+--musical-symbol-four-line-staff:'\1D119';
+--musical-symbol-four-string-fretboard:'\1D11D';
+--musical-symbol-fusa-black:'\1D1C0';
+--musical-symbol-fusa-white:'\1D1BF';
+--musical-symbol-g-clef:'\1D11E';
+--musical-symbol-g-clef-ottava-alta:'\1D11F';
+--musical-symbol-g-clef-ottava-bassa:'\1D120';
+--musical-symbol-glissando-down:'\1D1B2';
+--musical-symbol-glissando-up:'\1D1B1';
+--musical-symbol-grace-note-no-slash:'\1D195';
+--musical-symbol-grace-note-slash:'\1D194';
+--musical-symbol-gregorian-c-clef:'\1D1D0';
+--musical-symbol-gregorian-f-clef:'\1D1D1';
+--musical-symbol-half-note:'\1D15E';
+--musical-symbol-half-pedal-mark:'\1D1B0';
+--musical-symbol-half-rest:'\1D13C';
+--musical-symbol-hauptstimme:'\1D1A6';
+--musical-symbol-inverted-turn:'\1D198';
+--musical-symbol-kievan-c-clef:'\1D1DE';
+--musical-symbol-kievan-eighth-note-stem-down:'\1D1E6';
+--musical-symbol-kievan-eighth-note-stem-up:'\1D1E7';
+--musical-symbol-kievan-end-of-piece:'\1D1DF';
+--musical-symbol-kievan-final-note:'\1D1E0';
+--musical-symbol-kievan-flat-sign:'\1D1E8';
+--musical-symbol-kievan-half-note:'\1D1E3';
+--musical-symbol-kievan-quarter-note-stem-down:'\1D1E4';
+--musical-symbol-kievan-quarter-note-stem-up:'\1D1E5';
+--musical-symbol-kievan-recitative-mark:'\1D1E1';
+--musical-symbol-kievan-whole-note:'\1D1E2';
+--musical-symbol-koron:'\1D1EA';
+--musical-symbol-left-repeat-sign:'\1D106';
+--musical-symbol-longa:'\1D1B7';
+--musical-symbol-longa-imperfecta-rest:'\1D1C2';
+--musical-symbol-longa-perfecta-rest:'\1D1C1';
+--musical-symbol-maxima:'\1D1B6';
+--musical-symbol-mezzo:'\1D190';
+--musical-symbol-minima:'\1D1BB';
+--musical-symbol-minima-black:'\1D1BC';
+--musical-symbol-minima-rest:'\1D1C5';
+--musical-symbol-moon-notehead-black:'\1D153';
+--musical-symbol-moon-notehead-white:'\1D152';
+--musical-symbol-multi-rest:'\1D13A';
+--musical-symbol-multiple-measure-rest:'\1D129';
+--musical-symbol-natural-down:'\1D12F';
+--musical-symbol-natural-up:'\1D12E';
+--musical-symbol-nebenstimme:'\1D1A7';
+--musical-symbol-notehead-black:'\1D158';
+--musical-symbol-null-notehead:'\1D159';
+--musical-symbol-one-hundred-twenty-eighth-note:'\1D164';
+--musical-symbol-one-hundred-twenty-eighth-rest:'\1D142';
+--musical-symbol-one-line-staff:'\1D116';
+--musical-symbol-ornament-stroke-1:'\1D19B';
+--musical-symbol-ornament-stroke-10:'\1D1A4';
+--musical-symbol-ornament-stroke-11:'\1D1A5';
+--musical-symbol-ornament-stroke-2:'\1D19C';
+--musical-symbol-ornament-stroke-3:'\1D19D';
+--musical-symbol-ornament-stroke-4:'\1D19E';
+--musical-symbol-ornament-stroke-5:'\1D19F';
+--musical-symbol-ornament-stroke-6:'\1D1A0';
+--musical-symbol-ornament-stroke-7:'\1D1A1';
+--musical-symbol-ornament-stroke-8:'\1D1A2';
+--musical-symbol-ornament-stroke-9:'\1D1A3';
+--musical-symbol-ottava-alta:'\1D136';
+--musical-symbol-ottava-bassa:'\1D137';
+--musical-symbol-parenthesis-notehead:'\1D156';
+--musical-symbol-pedal-mark:'\1D1AE';
+--musical-symbol-pedal-up-mark:'\1D1AF';
+--musical-symbol-pes-subpunctis:'\1D1DD';
+--musical-symbol-piano:'\1D18F';
+--musical-symbol-plus-notehead:'\1D144';
+--musical-symbol-podatus:'\1D1D4';
+--musical-symbol-porrectus:'\1D1D9';
+--musical-symbol-porrectus-flexus:'\1D1DA';
+--musical-symbol-quarter-note:'\1D15F';
+--musical-symbol-quarter-rest:'\1D13D';
+--musical-symbol-quarter-tone-flat:'\1D133';
+--musical-symbol-quarter-tone-sharp:'\1D132';
+--musical-symbol-quindicesima-alta:'\1D138';
+--musical-symbol-quindicesima-bassa:'\1D139';
+--musical-symbol-repeat-dots:'\1D108';
+--musical-symbol-repeated-figure-1:'\1D10D';
+--musical-symbol-repeated-figure-2:'\1D10E';
+--musical-symbol-repeated-figure-3:'\1D10F';
+--musical-symbol-reverse-final-barline:'\1D103';
+--musical-symbol-right-repeat-sign:'\1D107';
+--musical-symbol-rinforzando:'\1D18C';
+--musical-symbol-scandicus:'\1D1D6';
+--musical-symbol-scandicus-flexus:'\1D1DB';
+--musical-symbol-segno:'\1D10B';
+--musical-symbol-semibrevis-black:'\1D1BA';
+--musical-symbol-semibrevis-rest:'\1D1C4';
+--musical-symbol-semibrevis-white:'\1D1B9';
+--musical-symbol-semiminima-black:'\1D1BE';
+--musical-symbol-semiminima-rest:'\1D1C6';
+--musical-symbol-semiminima-white:'\1D1BD';
+--musical-symbol-sharp-down:'\1D131';
+--musical-symbol-sharp-up:'\1D130';
+--musical-symbol-short-barline:'\1D105';
+--musical-symbol-single-barline:'\1D100';
+--musical-symbol-six-line-staff:'\1D11B';
+--musical-symbol-six-string-fretboard:'\1D11C';
+--musical-symbol-sixteenth-note:'\1D161';
+--musical-symbol-sixteenth-rest:'\1D13F';
+--musical-symbol-sixty-fourth-note:'\1D163';
+--musical-symbol-sixty-fourth-rest:'\1D141';
+--musical-symbol-sori:'\1D1E9';
+--musical-symbol-square-b:'\1D1D2';
+--musical-symbol-square-notehead-black:'\1D147';
+--musical-symbol-square-notehead-white:'\1D146';
+--musical-symbol-subito:'\1D18D';
+--musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta:'\1D1CB';
+--musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta-diminution-1:'\1D1CC';
+--musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta-diminution-2:'\1D1CD';
+--musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta-diminution-3:'\1D1CE';
+--musical-symbol-tempus-imperfectum-cum-prolatione-perfecta:'\1D1CA';
+--musical-symbol-tempus-perfectum-cum-prolatione-imperfecta:'\1D1C8';
+--musical-symbol-tempus-perfectum-cum-prolatione-perfecta:'\1D1C7';
+--musical-symbol-tempus-perfectum-cum-prolatione-perfecta-diminution-1:'\1D1C9';
+--musical-symbol-thirty-second-note:'\1D162';
+--musical-symbol-thirty-second-rest:'\1D140';
+--musical-symbol-three-line-staff:'\1D118';
+--musical-symbol-torculus:'\1D1D8';
+--musical-symbol-torculus-resupinus:'\1D1DC';
+--musical-symbol-tr:'\1D196';
+--musical-symbol-triangle-notehead-down-black:'\1D14F';
+--musical-symbol-triangle-notehead-down-white:'\1D14E';
+--musical-symbol-triangle-notehead-left-black:'\1D14B';
+--musical-symbol-triangle-notehead-left-white:'\1D14A';
+--musical-symbol-triangle-notehead-right-black:'\1D14D';
+--musical-symbol-triangle-notehead-right-white:'\1D14C';
+--musical-symbol-triangle-notehead-up-black:'\1D149';
+--musical-symbol-triangle-notehead-up-right-black:'\1D151';
+--musical-symbol-triangle-notehead-up-right-white:'\1D150';
+--musical-symbol-triangle-notehead-up-white:'\1D148';
+--musical-symbol-triangle-round-notehead-down-black:'\1D155';
+--musical-symbol-triangle-round-notehead-down-white:'\1D154';
+--musical-symbol-turn:'\1D197';
+--musical-symbol-turn-slash:'\1D199';
+--musical-symbol-turn-up:'\1D19A';
+--musical-symbol-two-line-staff:'\1D117';
+--musical-symbol-virga:'\1D1D3';
+--musical-symbol-void-notehead:'\1D157';
+--musical-symbol-whole-note:'\1D15D';
+--musical-symbol-whole-rest:'\1D13B';
+--musical-symbol-with-fingernails:'\1D1B3';
+--musical-symbol-x-notehead:'\1D143';
+--musical-symbol-z:'\1D18E';
+}
+
+
+
+.musical-symbol-arpeggiato-down::before, .musical-symbol-arpeggiato-down-before::before{ content:var(--musical-symbol-arpeggiato-down)}
+.musical-symbol-arpeggiato-down-after::after{content:var(--musical-symbol-arpeggiato-down)}
+.musical-symbol-arpeggiato-down-both::after, .musical-symbol-arpeggiato-down-both::before {content:var(--musical-symbol-arpeggiato-down)}
+.musical-symbol-arpeggiato-down-list { list-style: var(--musical-symbol-arpeggiato-down)}
+
+
+
+.musical-symbol-arpeggiato-up::before, .musical-symbol-arpeggiato-up-before::before{ content:var(--musical-symbol-arpeggiato-up)}
+.musical-symbol-arpeggiato-up-after::after{content:var(--musical-symbol-arpeggiato-up)}
+.musical-symbol-arpeggiato-up-both::after, .musical-symbol-arpeggiato-up-both::before {content:var(--musical-symbol-arpeggiato-up)}
+.musical-symbol-arpeggiato-up-list { list-style: var(--musical-symbol-arpeggiato-up)}
+
+
+
+.musical-symbol-begin-beam::before, .musical-symbol-begin-beam-before::before{ content:var(--musical-symbol-begin-beam)}
+.musical-symbol-begin-beam-after::after{content:var(--musical-symbol-begin-beam)}
+.musical-symbol-begin-beam-both::after, .musical-symbol-begin-beam-both::before {content:var(--musical-symbol-begin-beam)}
+.musical-symbol-begin-beam-list { list-style: var(--musical-symbol-begin-beam)}
+
+
+
+.musical-symbol-begin-phrase::before, .musical-symbol-begin-phrase-before::before{ content:var(--musical-symbol-begin-phrase)}
+.musical-symbol-begin-phrase-after::after{content:var(--musical-symbol-begin-phrase)}
+.musical-symbol-begin-phrase-both::after, .musical-symbol-begin-phrase-both::before {content:var(--musical-symbol-begin-phrase)}
+.musical-symbol-begin-phrase-list { list-style: var(--musical-symbol-begin-phrase)}
+
+
+
+.musical-symbol-begin-slur::before, .musical-symbol-begin-slur-before::before{ content:var(--musical-symbol-begin-slur)}
+.musical-symbol-begin-slur-after::after{content:var(--musical-symbol-begin-slur)}
+.musical-symbol-begin-slur-both::after, .musical-symbol-begin-slur-both::before {content:var(--musical-symbol-begin-slur)}
+.musical-symbol-begin-slur-list { list-style: var(--musical-symbol-begin-slur)}
+
+
+
+.musical-symbol-begin-tie::before, .musical-symbol-begin-tie-before::before{ content:var(--musical-symbol-begin-tie)}
+.musical-symbol-begin-tie-after::after{content:var(--musical-symbol-begin-tie)}
+.musical-symbol-begin-tie-both::after, .musical-symbol-begin-tie-both::before {content:var(--musical-symbol-begin-tie)}
+.musical-symbol-begin-tie-list { list-style: var(--musical-symbol-begin-tie)}
+
+
+
+.musical-symbol-brace::before, .musical-symbol-brace-before::before{ content:var(--musical-symbol-brace)}
+.musical-symbol-brace-after::after{content:var(--musical-symbol-brace)}
+.musical-symbol-brace-both::after, .musical-symbol-brace-both::before {content:var(--musical-symbol-brace)}
+.musical-symbol-brace-list { list-style: var(--musical-symbol-brace)}
+
+
+
+.musical-symbol-bracket::before, .musical-symbol-bracket-before::before{ content:var(--musical-symbol-bracket)}
+.musical-symbol-bracket-after::after{content:var(--musical-symbol-bracket)}
+.musical-symbol-bracket-both::after, .musical-symbol-bracket-both::before {content:var(--musical-symbol-bracket)}
+.musical-symbol-bracket-list { list-style: var(--musical-symbol-bracket)}
+
+
+
+.musical-symbol-breath-mark::before, .musical-symbol-breath-mark-before::before{ content:var(--musical-symbol-breath-mark)}
+.musical-symbol-breath-mark-after::after{content:var(--musical-symbol-breath-mark)}
+.musical-symbol-breath-mark-both::after, .musical-symbol-breath-mark-both::before {content:var(--musical-symbol-breath-mark)}
+.musical-symbol-breath-mark-list { list-style: var(--musical-symbol-breath-mark)}
+
+
+
+.musical-symbol-breve::before, .musical-symbol-breve-before::before{ content:var(--musical-symbol-breve)}
+.musical-symbol-breve-after::after{content:var(--musical-symbol-breve)}
+.musical-symbol-breve-both::after, .musical-symbol-breve-both::before {content:var(--musical-symbol-breve)}
+.musical-symbol-breve-list { list-style: var(--musical-symbol-breve)}
+
+
+
+.musical-symbol-brevis::before, .musical-symbol-brevis-before::before{ content:var(--musical-symbol-brevis)}
+.musical-symbol-brevis-after::after{content:var(--musical-symbol-brevis)}
+.musical-symbol-brevis-both::after, .musical-symbol-brevis-both::before {content:var(--musical-symbol-brevis)}
+.musical-symbol-brevis-list { list-style: var(--musical-symbol-brevis)}
+
+
+
+.musical-symbol-brevis-rest::before, .musical-symbol-brevis-rest-before::before{ content:var(--musical-symbol-brevis-rest)}
+.musical-symbol-brevis-rest-after::after{content:var(--musical-symbol-brevis-rest)}
+.musical-symbol-brevis-rest-both::after, .musical-symbol-brevis-rest-both::before {content:var(--musical-symbol-brevis-rest)}
+.musical-symbol-brevis-rest-list { list-style: var(--musical-symbol-brevis-rest)}
+
+
+
+.musical-symbol-c-clef::before, .musical-symbol-c-clef-before::before{ content:var(--musical-symbol-c-clef)}
+.musical-symbol-c-clef-after::after{content:var(--musical-symbol-c-clef)}
+.musical-symbol-c-clef-both::after, .musical-symbol-c-clef-both::before {content:var(--musical-symbol-c-clef)}
+.musical-symbol-c-clef-list { list-style: var(--musical-symbol-c-clef)}
+
+
+
+.musical-symbol-caesura::before, .musical-symbol-caesura-before::before{ content:var(--musical-symbol-caesura)}
+.musical-symbol-caesura-after::after{content:var(--musical-symbol-caesura)}
+.musical-symbol-caesura-both::after, .musical-symbol-caesura-both::before {content:var(--musical-symbol-caesura)}
+.musical-symbol-caesura-list { list-style: var(--musical-symbol-caesura)}
+
+
+
+.musical-symbol-circle-x-notehead::before, .musical-symbol-circle-x-notehead-before::before{ content:var(--musical-symbol-circle-x-notehead)}
+.musical-symbol-circle-x-notehead-after::after{content:var(--musical-symbol-circle-x-notehead)}
+.musical-symbol-circle-x-notehead-both::after, .musical-symbol-circle-x-notehead-both::before {content:var(--musical-symbol-circle-x-notehead)}
+.musical-symbol-circle-x-notehead-list { list-style: var(--musical-symbol-circle-x-notehead)}
+
+
+
+.musical-symbol-climacus::before, .musical-symbol-climacus-before::before{ content:var(--musical-symbol-climacus)}
+.musical-symbol-climacus-after::after{content:var(--musical-symbol-climacus)}
+.musical-symbol-climacus-both::after, .musical-symbol-climacus-both::before {content:var(--musical-symbol-climacus)}
+.musical-symbol-climacus-list { list-style: var(--musical-symbol-climacus)}
+
+
+
+.musical-symbol-clivis::before, .musical-symbol-clivis-before::before{ content:var(--musical-symbol-clivis)}
+.musical-symbol-clivis-after::after{content:var(--musical-symbol-clivis)}
+.musical-symbol-clivis-both::after, .musical-symbol-clivis-both::before {content:var(--musical-symbol-clivis)}
+.musical-symbol-clivis-list { list-style: var(--musical-symbol-clivis)}
+
+
+
+.musical-symbol-cluster-notehead-black::before, .musical-symbol-cluster-notehead-black-before::before{ content:var(--musical-symbol-cluster-notehead-black)}
+.musical-symbol-cluster-notehead-black-after::after{content:var(--musical-symbol-cluster-notehead-black)}
+.musical-symbol-cluster-notehead-black-both::after, .musical-symbol-cluster-notehead-black-both::before {content:var(--musical-symbol-cluster-notehead-black)}
+.musical-symbol-cluster-notehead-black-list { list-style: var(--musical-symbol-cluster-notehead-black)}
+
+
+
+.musical-symbol-cluster-notehead-white::before, .musical-symbol-cluster-notehead-white-before::before{ content:var(--musical-symbol-cluster-notehead-white)}
+.musical-symbol-cluster-notehead-white-after::after{content:var(--musical-symbol-cluster-notehead-white)}
+.musical-symbol-cluster-notehead-white-both::after, .musical-symbol-cluster-notehead-white-both::before {content:var(--musical-symbol-cluster-notehead-white)}
+.musical-symbol-cluster-notehead-white-list { list-style: var(--musical-symbol-cluster-notehead-white)}
+
+
+
+.musical-symbol-coda::before, .musical-symbol-coda-before::before{ content:var(--musical-symbol-coda)}
+.musical-symbol-coda-after::after{content:var(--musical-symbol-coda)}
+.musical-symbol-coda-both::after, .musical-symbol-coda-both::before {content:var(--musical-symbol-coda)}
+.musical-symbol-coda-list { list-style: var(--musical-symbol-coda)}
+
+
+
+.musical-symbol-combining-accent::before, .musical-symbol-combining-accent-before::before{ content:var(--musical-symbol-combining-accent)}
+.musical-symbol-combining-accent-after::after{content:var(--musical-symbol-combining-accent)}
+.musical-symbol-combining-accent-both::after, .musical-symbol-combining-accent-both::before {content:var(--musical-symbol-combining-accent)}
+.musical-symbol-combining-accent-list { list-style: var(--musical-symbol-combining-accent)}
+
+
+
+.musical-symbol-combining-accent-staccato::before, .musical-symbol-combining-accent-staccato-before::before{ content:var(--musical-symbol-combining-accent-staccato)}
+.musical-symbol-combining-accent-staccato-after::after{content:var(--musical-symbol-combining-accent-staccato)}
+.musical-symbol-combining-accent-staccato-both::after, .musical-symbol-combining-accent-staccato-both::before {content:var(--musical-symbol-combining-accent-staccato)}
+.musical-symbol-combining-accent-staccato-list { list-style: var(--musical-symbol-combining-accent-staccato)}
+
+
+
+.musical-symbol-combining-augmentation-dot::before, .musical-symbol-combining-augmentation-dot-before::before{ content:var(--musical-symbol-combining-augmentation-dot)}
+.musical-symbol-combining-augmentation-dot-after::after{content:var(--musical-symbol-combining-augmentation-dot)}
+.musical-symbol-combining-augmentation-dot-both::after, .musical-symbol-combining-augmentation-dot-both::before {content:var(--musical-symbol-combining-augmentation-dot)}
+.musical-symbol-combining-augmentation-dot-list { list-style: var(--musical-symbol-combining-augmentation-dot)}
+
+
+
+.musical-symbol-combining-bend::before, .musical-symbol-combining-bend-before::before{ content:var(--musical-symbol-combining-bend)}
+.musical-symbol-combining-bend-after::after{content:var(--musical-symbol-combining-bend)}
+.musical-symbol-combining-bend-both::after, .musical-symbol-combining-bend-both::before {content:var(--musical-symbol-combining-bend)}
+.musical-symbol-combining-bend-list { list-style: var(--musical-symbol-combining-bend)}
+
+
+
+.musical-symbol-combining-doit::before, .musical-symbol-combining-doit-before::before{ content:var(--musical-symbol-combining-doit)}
+.musical-symbol-combining-doit-after::after{content:var(--musical-symbol-combining-doit)}
+.musical-symbol-combining-doit-both::after, .musical-symbol-combining-doit-both::before {content:var(--musical-symbol-combining-doit)}
+.musical-symbol-combining-doit-list { list-style: var(--musical-symbol-combining-doit)}
+
+
+
+.musical-symbol-combining-double-tongue::before, .musical-symbol-combining-double-tongue-before::before{ content:var(--musical-symbol-combining-double-tongue)}
+.musical-symbol-combining-double-tongue-after::after{content:var(--musical-symbol-combining-double-tongue)}
+.musical-symbol-combining-double-tongue-both::after, .musical-symbol-combining-double-tongue-both::before {content:var(--musical-symbol-combining-double-tongue)}
+.musical-symbol-combining-double-tongue-list { list-style: var(--musical-symbol-combining-double-tongue)}
+
+
+
+.musical-symbol-combining-down-bow::before, .musical-symbol-combining-down-bow-before::before{ content:var(--musical-symbol-combining-down-bow)}
+.musical-symbol-combining-down-bow-after::after{content:var(--musical-symbol-combining-down-bow)}
+.musical-symbol-combining-down-bow-both::after, .musical-symbol-combining-down-bow-both::before {content:var(--musical-symbol-combining-down-bow)}
+.musical-symbol-combining-down-bow-list { list-style: var(--musical-symbol-combining-down-bow)}
+
+
+
+.musical-symbol-combining-flag-1::before, .musical-symbol-combining-flag-1-before::before{ content:var(--musical-symbol-combining-flag-1)}
+.musical-symbol-combining-flag-1-after::after{content:var(--musical-symbol-combining-flag-1)}
+.musical-symbol-combining-flag-1-both::after, .musical-symbol-combining-flag-1-both::before {content:var(--musical-symbol-combining-flag-1)}
+.musical-symbol-combining-flag-1-list { list-style: var(--musical-symbol-combining-flag-1)}
+
+
+
+.musical-symbol-combining-flag-2::before, .musical-symbol-combining-flag-2-before::before{ content:var(--musical-symbol-combining-flag-2)}
+.musical-symbol-combining-flag-2-after::after{content:var(--musical-symbol-combining-flag-2)}
+.musical-symbol-combining-flag-2-both::after, .musical-symbol-combining-flag-2-both::before {content:var(--musical-symbol-combining-flag-2)}
+.musical-symbol-combining-flag-2-list { list-style: var(--musical-symbol-combining-flag-2)}
+
+
+
+.musical-symbol-combining-flag-3::before, .musical-symbol-combining-flag-3-before::before{ content:var(--musical-symbol-combining-flag-3)}
+.musical-symbol-combining-flag-3-after::after{content:var(--musical-symbol-combining-flag-3)}
+.musical-symbol-combining-flag-3-both::after, .musical-symbol-combining-flag-3-both::before {content:var(--musical-symbol-combining-flag-3)}
+.musical-symbol-combining-flag-3-list { list-style: var(--musical-symbol-combining-flag-3)}
+
+
+
+.musical-symbol-combining-flag-4::before, .musical-symbol-combining-flag-4-before::before{ content:var(--musical-symbol-combining-flag-4)}
+.musical-symbol-combining-flag-4-after::after{content:var(--musical-symbol-combining-flag-4)}
+.musical-symbol-combining-flag-4-both::after, .musical-symbol-combining-flag-4-both::before {content:var(--musical-symbol-combining-flag-4)}
+.musical-symbol-combining-flag-4-list { list-style: var(--musical-symbol-combining-flag-4)}
+
+
+
+.musical-symbol-combining-flag-5::before, .musical-symbol-combining-flag-5-before::before{ content:var(--musical-symbol-combining-flag-5)}
+.musical-symbol-combining-flag-5-after::after{content:var(--musical-symbol-combining-flag-5)}
+.musical-symbol-combining-flag-5-both::after, .musical-symbol-combining-flag-5-both::before {content:var(--musical-symbol-combining-flag-5)}
+.musical-symbol-combining-flag-5-list { list-style: var(--musical-symbol-combining-flag-5)}
+
+
+
+.musical-symbol-combining-flip::before, .musical-symbol-combining-flip-before::before{ content:var(--musical-symbol-combining-flip)}
+.musical-symbol-combining-flip-after::after{content:var(--musical-symbol-combining-flip)}
+.musical-symbol-combining-flip-both::after, .musical-symbol-combining-flip-both::before {content:var(--musical-symbol-combining-flip)}
+.musical-symbol-combining-flip-list { list-style: var(--musical-symbol-combining-flip)}
+
+
+
+.musical-symbol-combining-harmonic::before, .musical-symbol-combining-harmonic-before::before{ content:var(--musical-symbol-combining-harmonic)}
+.musical-symbol-combining-harmonic-after::after{content:var(--musical-symbol-combining-harmonic)}
+.musical-symbol-combining-harmonic-both::after, .musical-symbol-combining-harmonic-both::before {content:var(--musical-symbol-combining-harmonic)}
+.musical-symbol-combining-harmonic-list { list-style: var(--musical-symbol-combining-harmonic)}
+
+
+
+.musical-symbol-combining-loure::before, .musical-symbol-combining-loure-before::before{ content:var(--musical-symbol-combining-loure)}
+.musical-symbol-combining-loure-after::after{content:var(--musical-symbol-combining-loure)}
+.musical-symbol-combining-loure-both::after, .musical-symbol-combining-loure-both::before {content:var(--musical-symbol-combining-loure)}
+.musical-symbol-combining-loure-list { list-style: var(--musical-symbol-combining-loure)}
+
+
+
+.musical-symbol-combining-marcato::before, .musical-symbol-combining-marcato-before::before{ content:var(--musical-symbol-combining-marcato)}
+.musical-symbol-combining-marcato-after::after{content:var(--musical-symbol-combining-marcato)}
+.musical-symbol-combining-marcato-both::after, .musical-symbol-combining-marcato-both::before {content:var(--musical-symbol-combining-marcato)}
+.musical-symbol-combining-marcato-list { list-style: var(--musical-symbol-combining-marcato)}
+
+
+
+.musical-symbol-combining-marcato-staccato::before, .musical-symbol-combining-marcato-staccato-before::before{ content:var(--musical-symbol-combining-marcato-staccato)}
+.musical-symbol-combining-marcato-staccato-after::after{content:var(--musical-symbol-combining-marcato-staccato)}
+.musical-symbol-combining-marcato-staccato-both::after, .musical-symbol-combining-marcato-staccato-both::before {content:var(--musical-symbol-combining-marcato-staccato)}
+.musical-symbol-combining-marcato-staccato-list { list-style: var(--musical-symbol-combining-marcato-staccato)}
+
+
+
+.musical-symbol-combining-rip::before, .musical-symbol-combining-rip-before::before{ content:var(--musical-symbol-combining-rip)}
+.musical-symbol-combining-rip-after::after{content:var(--musical-symbol-combining-rip)}
+.musical-symbol-combining-rip-both::after, .musical-symbol-combining-rip-both::before {content:var(--musical-symbol-combining-rip)}
+.musical-symbol-combining-rip-list { list-style: var(--musical-symbol-combining-rip)}
+
+
+
+.musical-symbol-combining-smear::before, .musical-symbol-combining-smear-before::before{ content:var(--musical-symbol-combining-smear)}
+.musical-symbol-combining-smear-after::after{content:var(--musical-symbol-combining-smear)}
+.musical-symbol-combining-smear-both::after, .musical-symbol-combining-smear-both::before {content:var(--musical-symbol-combining-smear)}
+.musical-symbol-combining-smear-list { list-style: var(--musical-symbol-combining-smear)}
+
+
+
+.musical-symbol-combining-snap-pizzicato::before, .musical-symbol-combining-snap-pizzicato-before::before{ content:var(--musical-symbol-combining-snap-pizzicato)}
+.musical-symbol-combining-snap-pizzicato-after::after{content:var(--musical-symbol-combining-snap-pizzicato)}
+.musical-symbol-combining-snap-pizzicato-both::after, .musical-symbol-combining-snap-pizzicato-both::before {content:var(--musical-symbol-combining-snap-pizzicato)}
+.musical-symbol-combining-snap-pizzicato-list { list-style: var(--musical-symbol-combining-snap-pizzicato)}
+
+
+
+.musical-symbol-combining-sprechgesang-stem::before, .musical-symbol-combining-sprechgesang-stem-before::before{ content:var(--musical-symbol-combining-sprechgesang-stem)}
+.musical-symbol-combining-sprechgesang-stem-after::after{content:var(--musical-symbol-combining-sprechgesang-stem)}
+.musical-symbol-combining-sprechgesang-stem-both::after, .musical-symbol-combining-sprechgesang-stem-both::before {content:var(--musical-symbol-combining-sprechgesang-stem)}
+.musical-symbol-combining-sprechgesang-stem-list { list-style: var(--musical-symbol-combining-sprechgesang-stem)}
+
+
+
+.musical-symbol-combining-staccatissimo::before, .musical-symbol-combining-staccatissimo-before::before{ content:var(--musical-symbol-combining-staccatissimo)}
+.musical-symbol-combining-staccatissimo-after::after{content:var(--musical-symbol-combining-staccatissimo)}
+.musical-symbol-combining-staccatissimo-both::after, .musical-symbol-combining-staccatissimo-both::before {content:var(--musical-symbol-combining-staccatissimo)}
+.musical-symbol-combining-staccatissimo-list { list-style: var(--musical-symbol-combining-staccatissimo)}
+
+
+
+.musical-symbol-combining-staccato::before, .musical-symbol-combining-staccato-before::before{ content:var(--musical-symbol-combining-staccato)}
+.musical-symbol-combining-staccato-after::after{content:var(--musical-symbol-combining-staccato)}
+.musical-symbol-combining-staccato-both::after, .musical-symbol-combining-staccato-both::before {content:var(--musical-symbol-combining-staccato)}
+.musical-symbol-combining-staccato-list { list-style: var(--musical-symbol-combining-staccato)}
+
+
+
+.musical-symbol-combining-stem::before, .musical-symbol-combining-stem-before::before{ content:var(--musical-symbol-combining-stem)}
+.musical-symbol-combining-stem-after::after{content:var(--musical-symbol-combining-stem)}
+.musical-symbol-combining-stem-both::after, .musical-symbol-combining-stem-both::before {content:var(--musical-symbol-combining-stem)}
+.musical-symbol-combining-stem-list { list-style: var(--musical-symbol-combining-stem)}
+
+
+
+.musical-symbol-combining-tenuto::before, .musical-symbol-combining-tenuto-before::before{ content:var(--musical-symbol-combining-tenuto)}
+.musical-symbol-combining-tenuto-after::after{content:var(--musical-symbol-combining-tenuto)}
+.musical-symbol-combining-tenuto-both::after, .musical-symbol-combining-tenuto-both::before {content:var(--musical-symbol-combining-tenuto)}
+.musical-symbol-combining-tenuto-list { list-style: var(--musical-symbol-combining-tenuto)}
+
+
+
+.musical-symbol-combining-tremolo-1::before, .musical-symbol-combining-tremolo-1-before::before{ content:var(--musical-symbol-combining-tremolo-1)}
+.musical-symbol-combining-tremolo-1-after::after{content:var(--musical-symbol-combining-tremolo-1)}
+.musical-symbol-combining-tremolo-1-both::after, .musical-symbol-combining-tremolo-1-both::before {content:var(--musical-symbol-combining-tremolo-1)}
+.musical-symbol-combining-tremolo-1-list { list-style: var(--musical-symbol-combining-tremolo-1)}
+
+
+
+.musical-symbol-combining-tremolo-2::before, .musical-symbol-combining-tremolo-2-before::before{ content:var(--musical-symbol-combining-tremolo-2)}
+.musical-symbol-combining-tremolo-2-after::after{content:var(--musical-symbol-combining-tremolo-2)}
+.musical-symbol-combining-tremolo-2-both::after, .musical-symbol-combining-tremolo-2-both::before {content:var(--musical-symbol-combining-tremolo-2)}
+.musical-symbol-combining-tremolo-2-list { list-style: var(--musical-symbol-combining-tremolo-2)}
+
+
+
+.musical-symbol-combining-tremolo-3::before, .musical-symbol-combining-tremolo-3-before::before{ content:var(--musical-symbol-combining-tremolo-3)}
+.musical-symbol-combining-tremolo-3-after::after{content:var(--musical-symbol-combining-tremolo-3)}
+.musical-symbol-combining-tremolo-3-both::after, .musical-symbol-combining-tremolo-3-both::before {content:var(--musical-symbol-combining-tremolo-3)}
+.musical-symbol-combining-tremolo-3-list { list-style: var(--musical-symbol-combining-tremolo-3)}
+
+
+
+.musical-symbol-combining-triple-tongue::before, .musical-symbol-combining-triple-tongue-before::before{ content:var(--musical-symbol-combining-triple-tongue)}
+.musical-symbol-combining-triple-tongue-after::after{content:var(--musical-symbol-combining-triple-tongue)}
+.musical-symbol-combining-triple-tongue-both::after, .musical-symbol-combining-triple-tongue-both::before {content:var(--musical-symbol-combining-triple-tongue)}
+.musical-symbol-combining-triple-tongue-list { list-style: var(--musical-symbol-combining-triple-tongue)}
+
+
+
+.musical-symbol-combining-up-bow::before, .musical-symbol-combining-up-bow-before::before{ content:var(--musical-symbol-combining-up-bow)}
+.musical-symbol-combining-up-bow-after::after{content:var(--musical-symbol-combining-up-bow)}
+.musical-symbol-combining-up-bow-both::after, .musical-symbol-combining-up-bow-both::before {content:var(--musical-symbol-combining-up-bow)}
+.musical-symbol-combining-up-bow-list { list-style: var(--musical-symbol-combining-up-bow)}
+
+
+
+.musical-symbol-common-time::before, .musical-symbol-common-time-before::before{ content:var(--musical-symbol-common-time)}
+.musical-symbol-common-time-after::after{content:var(--musical-symbol-common-time)}
+.musical-symbol-common-time-both::after, .musical-symbol-common-time-both::before {content:var(--musical-symbol-common-time)}
+.musical-symbol-common-time-list { list-style: var(--musical-symbol-common-time)}
+
+
+
+.musical-symbol-crescendo::before, .musical-symbol-crescendo-before::before{ content:var(--musical-symbol-crescendo)}
+.musical-symbol-crescendo-after::after{content:var(--musical-symbol-crescendo)}
+.musical-symbol-crescendo-both::after, .musical-symbol-crescendo-both::before {content:var(--musical-symbol-crescendo)}
+.musical-symbol-crescendo-list { list-style: var(--musical-symbol-crescendo)}
+
+
+
+.musical-symbol-croix::before, .musical-symbol-croix-before::before{ content:var(--musical-symbol-croix)}
+.musical-symbol-croix-after::after{content:var(--musical-symbol-croix)}
+.musical-symbol-croix-both::after, .musical-symbol-croix-both::before {content:var(--musical-symbol-croix)}
+.musical-symbol-croix-list { list-style: var(--musical-symbol-croix)}
+
+
+
+.musical-symbol-cut-time::before, .musical-symbol-cut-time-before::before{ content:var(--musical-symbol-cut-time)}
+.musical-symbol-cut-time-after::after{content:var(--musical-symbol-cut-time)}
+.musical-symbol-cut-time-both::after, .musical-symbol-cut-time-both::before {content:var(--musical-symbol-cut-time)}
+.musical-symbol-cut-time-list { list-style: var(--musical-symbol-cut-time)}
+
+
+
+.musical-symbol-da-capo::before, .musical-symbol-da-capo-before::before{ content:var(--musical-symbol-da-capo)}
+.musical-symbol-da-capo-after::after{content:var(--musical-symbol-da-capo)}
+.musical-symbol-da-capo-both::after, .musical-symbol-da-capo-both::before {content:var(--musical-symbol-da-capo)}
+.musical-symbol-da-capo-list { list-style: var(--musical-symbol-da-capo)}
+
+
+
+.musical-symbol-dal-segno::before, .musical-symbol-dal-segno-before::before{ content:var(--musical-symbol-dal-segno)}
+.musical-symbol-dal-segno-after::after{content:var(--musical-symbol-dal-segno)}
+.musical-symbol-dal-segno-both::after, .musical-symbol-dal-segno-both::before {content:var(--musical-symbol-dal-segno)}
+.musical-symbol-dal-segno-list { list-style: var(--musical-symbol-dal-segno)}
+
+
+
+.musical-symbol-damp::before, .musical-symbol-damp-before::before{ content:var(--musical-symbol-damp)}
+.musical-symbol-damp-after::after{content:var(--musical-symbol-damp)}
+.musical-symbol-damp-both::after, .musical-symbol-damp-both::before {content:var(--musical-symbol-damp)}
+.musical-symbol-damp-list { list-style: var(--musical-symbol-damp)}
+
+
+
+.musical-symbol-damp-all::before, .musical-symbol-damp-all-before::before{ content:var(--musical-symbol-damp-all)}
+.musical-symbol-damp-all-after::after{content:var(--musical-symbol-damp-all)}
+.musical-symbol-damp-all-both::after, .musical-symbol-damp-all-both::before {content:var(--musical-symbol-damp-all)}
+.musical-symbol-damp-all-list { list-style: var(--musical-symbol-damp-all)}
+
+
+
+.musical-symbol-dashed-barline::before, .musical-symbol-dashed-barline-before::before{ content:var(--musical-symbol-dashed-barline)}
+.musical-symbol-dashed-barline-after::after{content:var(--musical-symbol-dashed-barline)}
+.musical-symbol-dashed-barline-both::after, .musical-symbol-dashed-barline-both::before {content:var(--musical-symbol-dashed-barline)}
+.musical-symbol-dashed-barline-list { list-style: var(--musical-symbol-dashed-barline)}
+
+
+
+.musical-symbol-decrescendo::before, .musical-symbol-decrescendo-before::before{ content:var(--musical-symbol-decrescendo)}
+.musical-symbol-decrescendo-after::after{content:var(--musical-symbol-decrescendo)}
+.musical-symbol-decrescendo-both::after, .musical-symbol-decrescendo-both::before {content:var(--musical-symbol-decrescendo)}
+.musical-symbol-decrescendo-list { list-style: var(--musical-symbol-decrescendo)}
+
+
+
+.musical-symbol-degree-slash::before, .musical-symbol-degree-slash-before::before{ content:var(--musical-symbol-degree-slash)}
+.musical-symbol-degree-slash-after::after{content:var(--musical-symbol-degree-slash)}
+.musical-symbol-degree-slash-both::after, .musical-symbol-degree-slash-both::before {content:var(--musical-symbol-degree-slash)}
+.musical-symbol-degree-slash-list { list-style: var(--musical-symbol-degree-slash)}
+
+
+
+.musical-symbol-double-barline::before, .musical-symbol-double-barline-before::before{ content:var(--musical-symbol-double-barline)}
+.musical-symbol-double-barline-after::after{content:var(--musical-symbol-double-barline)}
+.musical-symbol-double-barline-both::after, .musical-symbol-double-barline-both::before {content:var(--musical-symbol-double-barline)}
+.musical-symbol-double-barline-list { list-style: var(--musical-symbol-double-barline)}
+
+
+
+.musical-symbol-double-flat::before, .musical-symbol-double-flat-before::before{ content:var(--musical-symbol-double-flat)}
+.musical-symbol-double-flat-after::after{content:var(--musical-symbol-double-flat)}
+.musical-symbol-double-flat-both::after, .musical-symbol-double-flat-both::before {content:var(--musical-symbol-double-flat)}
+.musical-symbol-double-flat-list { list-style: var(--musical-symbol-double-flat)}
+
+
+
+.musical-symbol-double-sharp::before, .musical-symbol-double-sharp-before::before{ content:var(--musical-symbol-double-sharp)}
+.musical-symbol-double-sharp-after::after{content:var(--musical-symbol-double-sharp)}
+.musical-symbol-double-sharp-both::after, .musical-symbol-double-sharp-both::before {content:var(--musical-symbol-double-sharp)}
+.musical-symbol-double-sharp-list { list-style: var(--musical-symbol-double-sharp)}
+
+
+
+.musical-symbol-drum-clef-1::before, .musical-symbol-drum-clef-1-before::before{ content:var(--musical-symbol-drum-clef-1)}
+.musical-symbol-drum-clef-1-after::after{content:var(--musical-symbol-drum-clef-1)}
+.musical-symbol-drum-clef-1-both::after, .musical-symbol-drum-clef-1-both::before {content:var(--musical-symbol-drum-clef-1)}
+.musical-symbol-drum-clef-1-list { list-style: var(--musical-symbol-drum-clef-1)}
+
+
+
+.musical-symbol-drum-clef-2::before, .musical-symbol-drum-clef-2-before::before{ content:var(--musical-symbol-drum-clef-2)}
+.musical-symbol-drum-clef-2-after::after{content:var(--musical-symbol-drum-clef-2)}
+.musical-symbol-drum-clef-2-both::after, .musical-symbol-drum-clef-2-both::before {content:var(--musical-symbol-drum-clef-2)}
+.musical-symbol-drum-clef-2-list { list-style: var(--musical-symbol-drum-clef-2)}
+
+
+
+.musical-symbol-eighth-note::before, .musical-symbol-eighth-note-before::before{ content:var(--musical-symbol-eighth-note)}
+.musical-symbol-eighth-note-after::after{content:var(--musical-symbol-eighth-note)}
+.musical-symbol-eighth-note-both::after, .musical-symbol-eighth-note-both::before {content:var(--musical-symbol-eighth-note)}
+.musical-symbol-eighth-note-list { list-style: var(--musical-symbol-eighth-note)}
+
+
+
+.musical-symbol-eighth-rest::before, .musical-symbol-eighth-rest-before::before{ content:var(--musical-symbol-eighth-rest)}
+.musical-symbol-eighth-rest-after::after{content:var(--musical-symbol-eighth-rest)}
+.musical-symbol-eighth-rest-both::after, .musical-symbol-eighth-rest-both::before {content:var(--musical-symbol-eighth-rest)}
+.musical-symbol-eighth-rest-list { list-style: var(--musical-symbol-eighth-rest)}
+
+
+
+.musical-symbol-end-beam::before, .musical-symbol-end-beam-before::before{ content:var(--musical-symbol-end-beam)}
+.musical-symbol-end-beam-after::after{content:var(--musical-symbol-end-beam)}
+.musical-symbol-end-beam-both::after, .musical-symbol-end-beam-both::before {content:var(--musical-symbol-end-beam)}
+.musical-symbol-end-beam-list { list-style: var(--musical-symbol-end-beam)}
+
+
+
+.musical-symbol-end-of-stimme::before, .musical-symbol-end-of-stimme-before::before{ content:var(--musical-symbol-end-of-stimme)}
+.musical-symbol-end-of-stimme-after::after{content:var(--musical-symbol-end-of-stimme)}
+.musical-symbol-end-of-stimme-both::after, .musical-symbol-end-of-stimme-both::before {content:var(--musical-symbol-end-of-stimme)}
+.musical-symbol-end-of-stimme-list { list-style: var(--musical-symbol-end-of-stimme)}
+
+
+
+.musical-symbol-end-phrase::before, .musical-symbol-end-phrase-before::before{ content:var(--musical-symbol-end-phrase)}
+.musical-symbol-end-phrase-after::after{content:var(--musical-symbol-end-phrase)}
+.musical-symbol-end-phrase-both::after, .musical-symbol-end-phrase-both::before {content:var(--musical-symbol-end-phrase)}
+.musical-symbol-end-phrase-list { list-style: var(--musical-symbol-end-phrase)}
+
+
+
+.musical-symbol-end-slur::before, .musical-symbol-end-slur-before::before{ content:var(--musical-symbol-end-slur)}
+.musical-symbol-end-slur-after::after{content:var(--musical-symbol-end-slur)}
+.musical-symbol-end-slur-both::after, .musical-symbol-end-slur-both::before {content:var(--musical-symbol-end-slur)}
+.musical-symbol-end-slur-list { list-style: var(--musical-symbol-end-slur)}
+
+
+
+.musical-symbol-end-tie::before, .musical-symbol-end-tie-before::before{ content:var(--musical-symbol-end-tie)}
+.musical-symbol-end-tie-after::after{content:var(--musical-symbol-end-tie)}
+.musical-symbol-end-tie-both::after, .musical-symbol-end-tie-both::before {content:var(--musical-symbol-end-tie)}
+.musical-symbol-end-tie-list { list-style: var(--musical-symbol-end-tie)}
+
+
+
+.musical-symbol-f-clef::before, .musical-symbol-f-clef-before::before{ content:var(--musical-symbol-f-clef)}
+.musical-symbol-f-clef-after::after{content:var(--musical-symbol-f-clef)}
+.musical-symbol-f-clef-both::after, .musical-symbol-f-clef-both::before {content:var(--musical-symbol-f-clef)}
+.musical-symbol-f-clef-list { list-style: var(--musical-symbol-f-clef)}
+
+
+
+.musical-symbol-f-clef-ottava-alta::before, .musical-symbol-f-clef-ottava-alta-before::before{ content:var(--musical-symbol-f-clef-ottava-alta)}
+.musical-symbol-f-clef-ottava-alta-after::after{content:var(--musical-symbol-f-clef-ottava-alta)}
+.musical-symbol-f-clef-ottava-alta-both::after, .musical-symbol-f-clef-ottava-alta-both::before {content:var(--musical-symbol-f-clef-ottava-alta)}
+.musical-symbol-f-clef-ottava-alta-list { list-style: var(--musical-symbol-f-clef-ottava-alta)}
+
+
+
+.musical-symbol-f-clef-ottava-bassa::before, .musical-symbol-f-clef-ottava-bassa-before::before{ content:var(--musical-symbol-f-clef-ottava-bassa)}
+.musical-symbol-f-clef-ottava-bassa-after::after{content:var(--musical-symbol-f-clef-ottava-bassa)}
+.musical-symbol-f-clef-ottava-bassa-both::after, .musical-symbol-f-clef-ottava-bassa-both::before {content:var(--musical-symbol-f-clef-ottava-bassa)}
+.musical-symbol-f-clef-ottava-bassa-list { list-style: var(--musical-symbol-f-clef-ottava-bassa)}
+
+
+
+.musical-symbol-fermata::before, .musical-symbol-fermata-before::before{ content:var(--musical-symbol-fermata)}
+.musical-symbol-fermata-after::after{content:var(--musical-symbol-fermata)}
+.musical-symbol-fermata-both::after, .musical-symbol-fermata-both::before {content:var(--musical-symbol-fermata)}
+.musical-symbol-fermata-list { list-style: var(--musical-symbol-fermata)}
+
+
+
+.musical-symbol-fermata-below::before, .musical-symbol-fermata-below-before::before{ content:var(--musical-symbol-fermata-below)}
+.musical-symbol-fermata-below-after::after{content:var(--musical-symbol-fermata-below)}
+.musical-symbol-fermata-below-both::after, .musical-symbol-fermata-below-both::before {content:var(--musical-symbol-fermata-below)}
+.musical-symbol-fermata-below-list { list-style: var(--musical-symbol-fermata-below)}
+
+
+
+.musical-symbol-final-barline::before, .musical-symbol-final-barline-before::before{ content:var(--musical-symbol-final-barline)}
+.musical-symbol-final-barline-after::after{content:var(--musical-symbol-final-barline)}
+.musical-symbol-final-barline-both::after, .musical-symbol-final-barline-both::before {content:var(--musical-symbol-final-barline)}
+.musical-symbol-final-barline-list { list-style: var(--musical-symbol-final-barline)}
+
+
+
+.musical-symbol-fingered-tremolo-1::before, .musical-symbol-fingered-tremolo-1-before::before{ content:var(--musical-symbol-fingered-tremolo-1)}
+.musical-symbol-fingered-tremolo-1-after::after{content:var(--musical-symbol-fingered-tremolo-1)}
+.musical-symbol-fingered-tremolo-1-both::after, .musical-symbol-fingered-tremolo-1-both::before {content:var(--musical-symbol-fingered-tremolo-1)}
+.musical-symbol-fingered-tremolo-1-list { list-style: var(--musical-symbol-fingered-tremolo-1)}
+
+
+
+.musical-symbol-fingered-tremolo-2::before, .musical-symbol-fingered-tremolo-2-before::before{ content:var(--musical-symbol-fingered-tremolo-2)}
+.musical-symbol-fingered-tremolo-2-after::after{content:var(--musical-symbol-fingered-tremolo-2)}
+.musical-symbol-fingered-tremolo-2-both::after, .musical-symbol-fingered-tremolo-2-both::before {content:var(--musical-symbol-fingered-tremolo-2)}
+.musical-symbol-fingered-tremolo-2-list { list-style: var(--musical-symbol-fingered-tremolo-2)}
+
+
+
+.musical-symbol-fingered-tremolo-3::before, .musical-symbol-fingered-tremolo-3-before::before{ content:var(--musical-symbol-fingered-tremolo-3)}
+.musical-symbol-fingered-tremolo-3-after::after{content:var(--musical-symbol-fingered-tremolo-3)}
+.musical-symbol-fingered-tremolo-3-both::after, .musical-symbol-fingered-tremolo-3-both::before {content:var(--musical-symbol-fingered-tremolo-3)}
+.musical-symbol-fingered-tremolo-3-list { list-style: var(--musical-symbol-fingered-tremolo-3)}
+
+
+
+.musical-symbol-five-line-staff::before, .musical-symbol-five-line-staff-before::before{ content:var(--musical-symbol-five-line-staff)}
+.musical-symbol-five-line-staff-after::after{content:var(--musical-symbol-five-line-staff)}
+.musical-symbol-five-line-staff-both::after, .musical-symbol-five-line-staff-both::before {content:var(--musical-symbol-five-line-staff)}
+.musical-symbol-five-line-staff-list { list-style: var(--musical-symbol-five-line-staff)}
+
+
+
+.musical-symbol-flat-down::before, .musical-symbol-flat-down-before::before{ content:var(--musical-symbol-flat-down)}
+.musical-symbol-flat-down-after::after{content:var(--musical-symbol-flat-down)}
+.musical-symbol-flat-down-both::after, .musical-symbol-flat-down-both::before {content:var(--musical-symbol-flat-down)}
+.musical-symbol-flat-down-list { list-style: var(--musical-symbol-flat-down)}
+
+
+
+.musical-symbol-flat-up::before, .musical-symbol-flat-up-before::before{ content:var(--musical-symbol-flat-up)}
+.musical-symbol-flat-up-after::after{content:var(--musical-symbol-flat-up)}
+.musical-symbol-flat-up-both::after, .musical-symbol-flat-up-both::before {content:var(--musical-symbol-flat-up)}
+.musical-symbol-flat-up-list { list-style: var(--musical-symbol-flat-up)}
+
+
+
+.musical-symbol-forte::before, .musical-symbol-forte-before::before{ content:var(--musical-symbol-forte)}
+.musical-symbol-forte-after::after{content:var(--musical-symbol-forte)}
+.musical-symbol-forte-both::after, .musical-symbol-forte-both::before {content:var(--musical-symbol-forte)}
+.musical-symbol-forte-list { list-style: var(--musical-symbol-forte)}
+
+
+
+.musical-symbol-four-line-staff::before, .musical-symbol-four-line-staff-before::before{ content:var(--musical-symbol-four-line-staff)}
+.musical-symbol-four-line-staff-after::after{content:var(--musical-symbol-four-line-staff)}
+.musical-symbol-four-line-staff-both::after, .musical-symbol-four-line-staff-both::before {content:var(--musical-symbol-four-line-staff)}
+.musical-symbol-four-line-staff-list { list-style: var(--musical-symbol-four-line-staff)}
+
+
+
+.musical-symbol-four-string-fretboard::before, .musical-symbol-four-string-fretboard-before::before{ content:var(--musical-symbol-four-string-fretboard)}
+.musical-symbol-four-string-fretboard-after::after{content:var(--musical-symbol-four-string-fretboard)}
+.musical-symbol-four-string-fretboard-both::after, .musical-symbol-four-string-fretboard-both::before {content:var(--musical-symbol-four-string-fretboard)}
+.musical-symbol-four-string-fretboard-list { list-style: var(--musical-symbol-four-string-fretboard)}
+
+
+
+.musical-symbol-fusa-black::before, .musical-symbol-fusa-black-before::before{ content:var(--musical-symbol-fusa-black)}
+.musical-symbol-fusa-black-after::after{content:var(--musical-symbol-fusa-black)}
+.musical-symbol-fusa-black-both::after, .musical-symbol-fusa-black-both::before {content:var(--musical-symbol-fusa-black)}
+.musical-symbol-fusa-black-list { list-style: var(--musical-symbol-fusa-black)}
+
+
+
+.musical-symbol-fusa-white::before, .musical-symbol-fusa-white-before::before{ content:var(--musical-symbol-fusa-white)}
+.musical-symbol-fusa-white-after::after{content:var(--musical-symbol-fusa-white)}
+.musical-symbol-fusa-white-both::after, .musical-symbol-fusa-white-both::before {content:var(--musical-symbol-fusa-white)}
+.musical-symbol-fusa-white-list { list-style: var(--musical-symbol-fusa-white)}
+
+
+
+.musical-symbol-g-clef::before, .musical-symbol-g-clef-before::before{ content:var(--musical-symbol-g-clef)}
+.musical-symbol-g-clef-after::after{content:var(--musical-symbol-g-clef)}
+.musical-symbol-g-clef-both::after, .musical-symbol-g-clef-both::before {content:var(--musical-symbol-g-clef)}
+.musical-symbol-g-clef-list { list-style: var(--musical-symbol-g-clef)}
+
+
+
+.musical-symbol-g-clef-ottava-alta::before, .musical-symbol-g-clef-ottava-alta-before::before{ content:var(--musical-symbol-g-clef-ottava-alta)}
+.musical-symbol-g-clef-ottava-alta-after::after{content:var(--musical-symbol-g-clef-ottava-alta)}
+.musical-symbol-g-clef-ottava-alta-both::after, .musical-symbol-g-clef-ottava-alta-both::before {content:var(--musical-symbol-g-clef-ottava-alta)}
+.musical-symbol-g-clef-ottava-alta-list { list-style: var(--musical-symbol-g-clef-ottava-alta)}
+
+
+
+.musical-symbol-g-clef-ottava-bassa::before, .musical-symbol-g-clef-ottava-bassa-before::before{ content:var(--musical-symbol-g-clef-ottava-bassa)}
+.musical-symbol-g-clef-ottava-bassa-after::after{content:var(--musical-symbol-g-clef-ottava-bassa)}
+.musical-symbol-g-clef-ottava-bassa-both::after, .musical-symbol-g-clef-ottava-bassa-both::before {content:var(--musical-symbol-g-clef-ottava-bassa)}
+.musical-symbol-g-clef-ottava-bassa-list { list-style: var(--musical-symbol-g-clef-ottava-bassa)}
+
+
+
+.musical-symbol-glissando-down::before, .musical-symbol-glissando-down-before::before{ content:var(--musical-symbol-glissando-down)}
+.musical-symbol-glissando-down-after::after{content:var(--musical-symbol-glissando-down)}
+.musical-symbol-glissando-down-both::after, .musical-symbol-glissando-down-both::before {content:var(--musical-symbol-glissando-down)}
+.musical-symbol-glissando-down-list { list-style: var(--musical-symbol-glissando-down)}
+
+
+
+.musical-symbol-glissando-up::before, .musical-symbol-glissando-up-before::before{ content:var(--musical-symbol-glissando-up)}
+.musical-symbol-glissando-up-after::after{content:var(--musical-symbol-glissando-up)}
+.musical-symbol-glissando-up-both::after, .musical-symbol-glissando-up-both::before {content:var(--musical-symbol-glissando-up)}
+.musical-symbol-glissando-up-list { list-style: var(--musical-symbol-glissando-up)}
+
+
+
+.musical-symbol-grace-note-no-slash::before, .musical-symbol-grace-note-no-slash-before::before{ content:var(--musical-symbol-grace-note-no-slash)}
+.musical-symbol-grace-note-no-slash-after::after{content:var(--musical-symbol-grace-note-no-slash)}
+.musical-symbol-grace-note-no-slash-both::after, .musical-symbol-grace-note-no-slash-both::before {content:var(--musical-symbol-grace-note-no-slash)}
+.musical-symbol-grace-note-no-slash-list { list-style: var(--musical-symbol-grace-note-no-slash)}
+
+
+
+.musical-symbol-grace-note-slash::before, .musical-symbol-grace-note-slash-before::before{ content:var(--musical-symbol-grace-note-slash)}
+.musical-symbol-grace-note-slash-after::after{content:var(--musical-symbol-grace-note-slash)}
+.musical-symbol-grace-note-slash-both::after, .musical-symbol-grace-note-slash-both::before {content:var(--musical-symbol-grace-note-slash)}
+.musical-symbol-grace-note-slash-list { list-style: var(--musical-symbol-grace-note-slash)}
+
+
+
+.musical-symbol-gregorian-c-clef::before, .musical-symbol-gregorian-c-clef-before::before{ content:var(--musical-symbol-gregorian-c-clef)}
+.musical-symbol-gregorian-c-clef-after::after{content:var(--musical-symbol-gregorian-c-clef)}
+.musical-symbol-gregorian-c-clef-both::after, .musical-symbol-gregorian-c-clef-both::before {content:var(--musical-symbol-gregorian-c-clef)}
+.musical-symbol-gregorian-c-clef-list { list-style: var(--musical-symbol-gregorian-c-clef)}
+
+
+
+.musical-symbol-gregorian-f-clef::before, .musical-symbol-gregorian-f-clef-before::before{ content:var(--musical-symbol-gregorian-f-clef)}
+.musical-symbol-gregorian-f-clef-after::after{content:var(--musical-symbol-gregorian-f-clef)}
+.musical-symbol-gregorian-f-clef-both::after, .musical-symbol-gregorian-f-clef-both::before {content:var(--musical-symbol-gregorian-f-clef)}
+.musical-symbol-gregorian-f-clef-list { list-style: var(--musical-symbol-gregorian-f-clef)}
+
+
+
+.musical-symbol-half-note::before, .musical-symbol-half-note-before::before{ content:var(--musical-symbol-half-note)}
+.musical-symbol-half-note-after::after{content:var(--musical-symbol-half-note)}
+.musical-symbol-half-note-both::after, .musical-symbol-half-note-both::before {content:var(--musical-symbol-half-note)}
+.musical-symbol-half-note-list { list-style: var(--musical-symbol-half-note)}
+
+
+
+.musical-symbol-half-pedal-mark::before, .musical-symbol-half-pedal-mark-before::before{ content:var(--musical-symbol-half-pedal-mark)}
+.musical-symbol-half-pedal-mark-after::after{content:var(--musical-symbol-half-pedal-mark)}
+.musical-symbol-half-pedal-mark-both::after, .musical-symbol-half-pedal-mark-both::before {content:var(--musical-symbol-half-pedal-mark)}
+.musical-symbol-half-pedal-mark-list { list-style: var(--musical-symbol-half-pedal-mark)}
+
+
+
+.musical-symbol-half-rest::before, .musical-symbol-half-rest-before::before{ content:var(--musical-symbol-half-rest)}
+.musical-symbol-half-rest-after::after{content:var(--musical-symbol-half-rest)}
+.musical-symbol-half-rest-both::after, .musical-symbol-half-rest-both::before {content:var(--musical-symbol-half-rest)}
+.musical-symbol-half-rest-list { list-style: var(--musical-symbol-half-rest)}
+
+
+
+.musical-symbol-hauptstimme::before, .musical-symbol-hauptstimme-before::before{ content:var(--musical-symbol-hauptstimme)}
+.musical-symbol-hauptstimme-after::after{content:var(--musical-symbol-hauptstimme)}
+.musical-symbol-hauptstimme-both::after, .musical-symbol-hauptstimme-both::before {content:var(--musical-symbol-hauptstimme)}
+.musical-symbol-hauptstimme-list { list-style: var(--musical-symbol-hauptstimme)}
+
+
+
+.musical-symbol-inverted-turn::before, .musical-symbol-inverted-turn-before::before{ content:var(--musical-symbol-inverted-turn)}
+.musical-symbol-inverted-turn-after::after{content:var(--musical-symbol-inverted-turn)}
+.musical-symbol-inverted-turn-both::after, .musical-symbol-inverted-turn-both::before {content:var(--musical-symbol-inverted-turn)}
+.musical-symbol-inverted-turn-list { list-style: var(--musical-symbol-inverted-turn)}
+
+
+
+.musical-symbol-kievan-c-clef::before, .musical-symbol-kievan-c-clef-before::before{ content:var(--musical-symbol-kievan-c-clef)}
+.musical-symbol-kievan-c-clef-after::after{content:var(--musical-symbol-kievan-c-clef)}
+.musical-symbol-kievan-c-clef-both::after, .musical-symbol-kievan-c-clef-both::before {content:var(--musical-symbol-kievan-c-clef)}
+.musical-symbol-kievan-c-clef-list { list-style: var(--musical-symbol-kievan-c-clef)}
+
+
+
+.musical-symbol-kievan-eighth-note-stem-down::before, .musical-symbol-kievan-eighth-note-stem-down-before::before{ content:var(--musical-symbol-kievan-eighth-note-stem-down)}
+.musical-symbol-kievan-eighth-note-stem-down-after::after{content:var(--musical-symbol-kievan-eighth-note-stem-down)}
+.musical-symbol-kievan-eighth-note-stem-down-both::after, .musical-symbol-kievan-eighth-note-stem-down-both::before {content:var(--musical-symbol-kievan-eighth-note-stem-down)}
+.musical-symbol-kievan-eighth-note-stem-down-list { list-style: var(--musical-symbol-kievan-eighth-note-stem-down)}
+
+
+
+.musical-symbol-kievan-eighth-note-stem-up::before, .musical-symbol-kievan-eighth-note-stem-up-before::before{ content:var(--musical-symbol-kievan-eighth-note-stem-up)}
+.musical-symbol-kievan-eighth-note-stem-up-after::after{content:var(--musical-symbol-kievan-eighth-note-stem-up)}
+.musical-symbol-kievan-eighth-note-stem-up-both::after, .musical-symbol-kievan-eighth-note-stem-up-both::before {content:var(--musical-symbol-kievan-eighth-note-stem-up)}
+.musical-symbol-kievan-eighth-note-stem-up-list { list-style: var(--musical-symbol-kievan-eighth-note-stem-up)}
+
+
+
+.musical-symbol-kievan-end-of-piece::before, .musical-symbol-kievan-end-of-piece-before::before{ content:var(--musical-symbol-kievan-end-of-piece)}
+.musical-symbol-kievan-end-of-piece-after::after{content:var(--musical-symbol-kievan-end-of-piece)}
+.musical-symbol-kievan-end-of-piece-both::after, .musical-symbol-kievan-end-of-piece-both::before {content:var(--musical-symbol-kievan-end-of-piece)}
+.musical-symbol-kievan-end-of-piece-list { list-style: var(--musical-symbol-kievan-end-of-piece)}
+
+
+
+.musical-symbol-kievan-final-note::before, .musical-symbol-kievan-final-note-before::before{ content:var(--musical-symbol-kievan-final-note)}
+.musical-symbol-kievan-final-note-after::after{content:var(--musical-symbol-kievan-final-note)}
+.musical-symbol-kievan-final-note-both::after, .musical-symbol-kievan-final-note-both::before {content:var(--musical-symbol-kievan-final-note)}
+.musical-symbol-kievan-final-note-list { list-style: var(--musical-symbol-kievan-final-note)}
+
+
+
+.musical-symbol-kievan-flat-sign::before, .musical-symbol-kievan-flat-sign-before::before{ content:var(--musical-symbol-kievan-flat-sign)}
+.musical-symbol-kievan-flat-sign-after::after{content:var(--musical-symbol-kievan-flat-sign)}
+.musical-symbol-kievan-flat-sign-both::after, .musical-symbol-kievan-flat-sign-both::before {content:var(--musical-symbol-kievan-flat-sign)}
+.musical-symbol-kievan-flat-sign-list { list-style: var(--musical-symbol-kievan-flat-sign)}
+
+
+
+.musical-symbol-kievan-half-note::before, .musical-symbol-kievan-half-note-before::before{ content:var(--musical-symbol-kievan-half-note)}
+.musical-symbol-kievan-half-note-after::after{content:var(--musical-symbol-kievan-half-note)}
+.musical-symbol-kievan-half-note-both::after, .musical-symbol-kievan-half-note-both::before {content:var(--musical-symbol-kievan-half-note)}
+.musical-symbol-kievan-half-note-list { list-style: var(--musical-symbol-kievan-half-note)}
+
+
+
+.musical-symbol-kievan-quarter-note-stem-down::before, .musical-symbol-kievan-quarter-note-stem-down-before::before{ content:var(--musical-symbol-kievan-quarter-note-stem-down)}
+.musical-symbol-kievan-quarter-note-stem-down-after::after{content:var(--musical-symbol-kievan-quarter-note-stem-down)}
+.musical-symbol-kievan-quarter-note-stem-down-both::after, .musical-symbol-kievan-quarter-note-stem-down-both::before {content:var(--musical-symbol-kievan-quarter-note-stem-down)}
+.musical-symbol-kievan-quarter-note-stem-down-list { list-style: var(--musical-symbol-kievan-quarter-note-stem-down)}
+
+
+
+.musical-symbol-kievan-quarter-note-stem-up::before, .musical-symbol-kievan-quarter-note-stem-up-before::before{ content:var(--musical-symbol-kievan-quarter-note-stem-up)}
+.musical-symbol-kievan-quarter-note-stem-up-after::after{content:var(--musical-symbol-kievan-quarter-note-stem-up)}
+.musical-symbol-kievan-quarter-note-stem-up-both::after, .musical-symbol-kievan-quarter-note-stem-up-both::before {content:var(--musical-symbol-kievan-quarter-note-stem-up)}
+.musical-symbol-kievan-quarter-note-stem-up-list { list-style: var(--musical-symbol-kievan-quarter-note-stem-up)}
+
+
+
+.musical-symbol-kievan-recitative-mark::before, .musical-symbol-kievan-recitative-mark-before::before{ content:var(--musical-symbol-kievan-recitative-mark)}
+.musical-symbol-kievan-recitative-mark-after::after{content:var(--musical-symbol-kievan-recitative-mark)}
+.musical-symbol-kievan-recitative-mark-both::after, .musical-symbol-kievan-recitative-mark-both::before {content:var(--musical-symbol-kievan-recitative-mark)}
+.musical-symbol-kievan-recitative-mark-list { list-style: var(--musical-symbol-kievan-recitative-mark)}
+
+
+
+.musical-symbol-kievan-whole-note::before, .musical-symbol-kievan-whole-note-before::before{ content:var(--musical-symbol-kievan-whole-note)}
+.musical-symbol-kievan-whole-note-after::after{content:var(--musical-symbol-kievan-whole-note)}
+.musical-symbol-kievan-whole-note-both::after, .musical-symbol-kievan-whole-note-both::before {content:var(--musical-symbol-kievan-whole-note)}
+.musical-symbol-kievan-whole-note-list { list-style: var(--musical-symbol-kievan-whole-note)}
+
+
+
+.musical-symbol-koron::before, .musical-symbol-koron-before::before{ content:var(--musical-symbol-koron)}
+.musical-symbol-koron-after::after{content:var(--musical-symbol-koron)}
+.musical-symbol-koron-both::after, .musical-symbol-koron-both::before {content:var(--musical-symbol-koron)}
+.musical-symbol-koron-list { list-style: var(--musical-symbol-koron)}
+
+
+
+.musical-symbol-left-repeat-sign::before, .musical-symbol-left-repeat-sign-before::before{ content:var(--musical-symbol-left-repeat-sign)}
+.musical-symbol-left-repeat-sign-after::after{content:var(--musical-symbol-left-repeat-sign)}
+.musical-symbol-left-repeat-sign-both::after, .musical-symbol-left-repeat-sign-both::before {content:var(--musical-symbol-left-repeat-sign)}
+.musical-symbol-left-repeat-sign-list { list-style: var(--musical-symbol-left-repeat-sign)}
+
+
+
+.musical-symbol-longa::before, .musical-symbol-longa-before::before{ content:var(--musical-symbol-longa)}
+.musical-symbol-longa-after::after{content:var(--musical-symbol-longa)}
+.musical-symbol-longa-both::after, .musical-symbol-longa-both::before {content:var(--musical-symbol-longa)}
+.musical-symbol-longa-list { list-style: var(--musical-symbol-longa)}
+
+
+
+.musical-symbol-longa-imperfecta-rest::before, .musical-symbol-longa-imperfecta-rest-before::before{ content:var(--musical-symbol-longa-imperfecta-rest)}
+.musical-symbol-longa-imperfecta-rest-after::after{content:var(--musical-symbol-longa-imperfecta-rest)}
+.musical-symbol-longa-imperfecta-rest-both::after, .musical-symbol-longa-imperfecta-rest-both::before {content:var(--musical-symbol-longa-imperfecta-rest)}
+.musical-symbol-longa-imperfecta-rest-list { list-style: var(--musical-symbol-longa-imperfecta-rest)}
+
+
+
+.musical-symbol-longa-perfecta-rest::before, .musical-symbol-longa-perfecta-rest-before::before{ content:var(--musical-symbol-longa-perfecta-rest)}
+.musical-symbol-longa-perfecta-rest-after::after{content:var(--musical-symbol-longa-perfecta-rest)}
+.musical-symbol-longa-perfecta-rest-both::after, .musical-symbol-longa-perfecta-rest-both::before {content:var(--musical-symbol-longa-perfecta-rest)}
+.musical-symbol-longa-perfecta-rest-list { list-style: var(--musical-symbol-longa-perfecta-rest)}
+
+
+
+.musical-symbol-maxima::before, .musical-symbol-maxima-before::before{ content:var(--musical-symbol-maxima)}
+.musical-symbol-maxima-after::after{content:var(--musical-symbol-maxima)}
+.musical-symbol-maxima-both::after, .musical-symbol-maxima-both::before {content:var(--musical-symbol-maxima)}
+.musical-symbol-maxima-list { list-style: var(--musical-symbol-maxima)}
+
+
+
+.musical-symbol-mezzo::before, .musical-symbol-mezzo-before::before{ content:var(--musical-symbol-mezzo)}
+.musical-symbol-mezzo-after::after{content:var(--musical-symbol-mezzo)}
+.musical-symbol-mezzo-both::after, .musical-symbol-mezzo-both::before {content:var(--musical-symbol-mezzo)}
+.musical-symbol-mezzo-list { list-style: var(--musical-symbol-mezzo)}
+
+
+
+.musical-symbol-minima::before, .musical-symbol-minima-before::before{ content:var(--musical-symbol-minima)}
+.musical-symbol-minima-after::after{content:var(--musical-symbol-minima)}
+.musical-symbol-minima-both::after, .musical-symbol-minima-both::before {content:var(--musical-symbol-minima)}
+.musical-symbol-minima-list { list-style: var(--musical-symbol-minima)}
+
+
+
+.musical-symbol-minima-black::before, .musical-symbol-minima-black-before::before{ content:var(--musical-symbol-minima-black)}
+.musical-symbol-minima-black-after::after{content:var(--musical-symbol-minima-black)}
+.musical-symbol-minima-black-both::after, .musical-symbol-minima-black-both::before {content:var(--musical-symbol-minima-black)}
+.musical-symbol-minima-black-list { list-style: var(--musical-symbol-minima-black)}
+
+
+
+.musical-symbol-minima-rest::before, .musical-symbol-minima-rest-before::before{ content:var(--musical-symbol-minima-rest)}
+.musical-symbol-minima-rest-after::after{content:var(--musical-symbol-minima-rest)}
+.musical-symbol-minima-rest-both::after, .musical-symbol-minima-rest-both::before {content:var(--musical-symbol-minima-rest)}
+.musical-symbol-minima-rest-list { list-style: var(--musical-symbol-minima-rest)}
+
+
+
+.musical-symbol-moon-notehead-black::before, .musical-symbol-moon-notehead-black-before::before{ content:var(--musical-symbol-moon-notehead-black)}
+.musical-symbol-moon-notehead-black-after::after{content:var(--musical-symbol-moon-notehead-black)}
+.musical-symbol-moon-notehead-black-both::after, .musical-symbol-moon-notehead-black-both::before {content:var(--musical-symbol-moon-notehead-black)}
+.musical-symbol-moon-notehead-black-list { list-style: var(--musical-symbol-moon-notehead-black)}
+
+
+
+.musical-symbol-moon-notehead-white::before, .musical-symbol-moon-notehead-white-before::before{ content:var(--musical-symbol-moon-notehead-white)}
+.musical-symbol-moon-notehead-white-after::after{content:var(--musical-symbol-moon-notehead-white)}
+.musical-symbol-moon-notehead-white-both::after, .musical-symbol-moon-notehead-white-both::before {content:var(--musical-symbol-moon-notehead-white)}
+.musical-symbol-moon-notehead-white-list { list-style: var(--musical-symbol-moon-notehead-white)}
+
+
+
+.musical-symbol-multi-rest::before, .musical-symbol-multi-rest-before::before{ content:var(--musical-symbol-multi-rest)}
+.musical-symbol-multi-rest-after::after{content:var(--musical-symbol-multi-rest)}
+.musical-symbol-multi-rest-both::after, .musical-symbol-multi-rest-both::before {content:var(--musical-symbol-multi-rest)}
+.musical-symbol-multi-rest-list { list-style: var(--musical-symbol-multi-rest)}
+
+
+
+.musical-symbol-multiple-measure-rest::before, .musical-symbol-multiple-measure-rest-before::before{ content:var(--musical-symbol-multiple-measure-rest)}
+.musical-symbol-multiple-measure-rest-after::after{content:var(--musical-symbol-multiple-measure-rest)}
+.musical-symbol-multiple-measure-rest-both::after, .musical-symbol-multiple-measure-rest-both::before {content:var(--musical-symbol-multiple-measure-rest)}
+.musical-symbol-multiple-measure-rest-list { list-style: var(--musical-symbol-multiple-measure-rest)}
+
+
+
+.musical-symbol-natural-down::before, .musical-symbol-natural-down-before::before{ content:var(--musical-symbol-natural-down)}
+.musical-symbol-natural-down-after::after{content:var(--musical-symbol-natural-down)}
+.musical-symbol-natural-down-both::after, .musical-symbol-natural-down-both::before {content:var(--musical-symbol-natural-down)}
+.musical-symbol-natural-down-list { list-style: var(--musical-symbol-natural-down)}
+
+
+
+.musical-symbol-natural-up::before, .musical-symbol-natural-up-before::before{ content:var(--musical-symbol-natural-up)}
+.musical-symbol-natural-up-after::after{content:var(--musical-symbol-natural-up)}
+.musical-symbol-natural-up-both::after, .musical-symbol-natural-up-both::before {content:var(--musical-symbol-natural-up)}
+.musical-symbol-natural-up-list { list-style: var(--musical-symbol-natural-up)}
+
+
+
+.musical-symbol-nebenstimme::before, .musical-symbol-nebenstimme-before::before{ content:var(--musical-symbol-nebenstimme)}
+.musical-symbol-nebenstimme-after::after{content:var(--musical-symbol-nebenstimme)}
+.musical-symbol-nebenstimme-both::after, .musical-symbol-nebenstimme-both::before {content:var(--musical-symbol-nebenstimme)}
+.musical-symbol-nebenstimme-list { list-style: var(--musical-symbol-nebenstimme)}
+
+
+
+.musical-symbol-notehead-black::before, .musical-symbol-notehead-black-before::before{ content:var(--musical-symbol-notehead-black)}
+.musical-symbol-notehead-black-after::after{content:var(--musical-symbol-notehead-black)}
+.musical-symbol-notehead-black-both::after, .musical-symbol-notehead-black-both::before {content:var(--musical-symbol-notehead-black)}
+.musical-symbol-notehead-black-list { list-style: var(--musical-symbol-notehead-black)}
+
+
+
+.musical-symbol-null-notehead::before, .musical-symbol-null-notehead-before::before{ content:var(--musical-symbol-null-notehead)}
+.musical-symbol-null-notehead-after::after{content:var(--musical-symbol-null-notehead)}
+.musical-symbol-null-notehead-both::after, .musical-symbol-null-notehead-both::before {content:var(--musical-symbol-null-notehead)}
+.musical-symbol-null-notehead-list { list-style: var(--musical-symbol-null-notehead)}
+
+
+
+.musical-symbol-one-hundred-twenty-eighth-note::before, .musical-symbol-one-hundred-twenty-eighth-note-before::before{ content:var(--musical-symbol-one-hundred-twenty-eighth-note)}
+.musical-symbol-one-hundred-twenty-eighth-note-after::after{content:var(--musical-symbol-one-hundred-twenty-eighth-note)}
+.musical-symbol-one-hundred-twenty-eighth-note-both::after, .musical-symbol-one-hundred-twenty-eighth-note-both::before {content:var(--musical-symbol-one-hundred-twenty-eighth-note)}
+.musical-symbol-one-hundred-twenty-eighth-note-list { list-style: var(--musical-symbol-one-hundred-twenty-eighth-note)}
+
+
+
+.musical-symbol-one-hundred-twenty-eighth-rest::before, .musical-symbol-one-hundred-twenty-eighth-rest-before::before{ content:var(--musical-symbol-one-hundred-twenty-eighth-rest)}
+.musical-symbol-one-hundred-twenty-eighth-rest-after::after{content:var(--musical-symbol-one-hundred-twenty-eighth-rest)}
+.musical-symbol-one-hundred-twenty-eighth-rest-both::after, .musical-symbol-one-hundred-twenty-eighth-rest-both::before {content:var(--musical-symbol-one-hundred-twenty-eighth-rest)}
+.musical-symbol-one-hundred-twenty-eighth-rest-list { list-style: var(--musical-symbol-one-hundred-twenty-eighth-rest)}
+
+
+
+.musical-symbol-one-line-staff::before, .musical-symbol-one-line-staff-before::before{ content:var(--musical-symbol-one-line-staff)}
+.musical-symbol-one-line-staff-after::after{content:var(--musical-symbol-one-line-staff)}
+.musical-symbol-one-line-staff-both::after, .musical-symbol-one-line-staff-both::before {content:var(--musical-symbol-one-line-staff)}
+.musical-symbol-one-line-staff-list { list-style: var(--musical-symbol-one-line-staff)}
+
+
+
+.musical-symbol-ornament-stroke-1::before, .musical-symbol-ornament-stroke-1-before::before{ content:var(--musical-symbol-ornament-stroke-1)}
+.musical-symbol-ornament-stroke-1-after::after{content:var(--musical-symbol-ornament-stroke-1)}
+.musical-symbol-ornament-stroke-1-both::after, .musical-symbol-ornament-stroke-1-both::before {content:var(--musical-symbol-ornament-stroke-1)}
+.musical-symbol-ornament-stroke-1-list { list-style: var(--musical-symbol-ornament-stroke-1)}
+
+
+
+.musical-symbol-ornament-stroke-10::before, .musical-symbol-ornament-stroke-10-before::before{ content:var(--musical-symbol-ornament-stroke-10)}
+.musical-symbol-ornament-stroke-10-after::after{content:var(--musical-symbol-ornament-stroke-10)}
+.musical-symbol-ornament-stroke-10-both::after, .musical-symbol-ornament-stroke-10-both::before {content:var(--musical-symbol-ornament-stroke-10)}
+.musical-symbol-ornament-stroke-10-list { list-style: var(--musical-symbol-ornament-stroke-10)}
+
+
+
+.musical-symbol-ornament-stroke-11::before, .musical-symbol-ornament-stroke-11-before::before{ content:var(--musical-symbol-ornament-stroke-11)}
+.musical-symbol-ornament-stroke-11-after::after{content:var(--musical-symbol-ornament-stroke-11)}
+.musical-symbol-ornament-stroke-11-both::after, .musical-symbol-ornament-stroke-11-both::before {content:var(--musical-symbol-ornament-stroke-11)}
+.musical-symbol-ornament-stroke-11-list { list-style: var(--musical-symbol-ornament-stroke-11)}
+
+
+
+.musical-symbol-ornament-stroke-2::before, .musical-symbol-ornament-stroke-2-before::before{ content:var(--musical-symbol-ornament-stroke-2)}
+.musical-symbol-ornament-stroke-2-after::after{content:var(--musical-symbol-ornament-stroke-2)}
+.musical-symbol-ornament-stroke-2-both::after, .musical-symbol-ornament-stroke-2-both::before {content:var(--musical-symbol-ornament-stroke-2)}
+.musical-symbol-ornament-stroke-2-list { list-style: var(--musical-symbol-ornament-stroke-2)}
+
+
+
+.musical-symbol-ornament-stroke-3::before, .musical-symbol-ornament-stroke-3-before::before{ content:var(--musical-symbol-ornament-stroke-3)}
+.musical-symbol-ornament-stroke-3-after::after{content:var(--musical-symbol-ornament-stroke-3)}
+.musical-symbol-ornament-stroke-3-both::after, .musical-symbol-ornament-stroke-3-both::before {content:var(--musical-symbol-ornament-stroke-3)}
+.musical-symbol-ornament-stroke-3-list { list-style: var(--musical-symbol-ornament-stroke-3)}
+
+
+
+.musical-symbol-ornament-stroke-4::before, .musical-symbol-ornament-stroke-4-before::before{ content:var(--musical-symbol-ornament-stroke-4)}
+.musical-symbol-ornament-stroke-4-after::after{content:var(--musical-symbol-ornament-stroke-4)}
+.musical-symbol-ornament-stroke-4-both::after, .musical-symbol-ornament-stroke-4-both::before {content:var(--musical-symbol-ornament-stroke-4)}
+.musical-symbol-ornament-stroke-4-list { list-style: var(--musical-symbol-ornament-stroke-4)}
+
+
+
+.musical-symbol-ornament-stroke-5::before, .musical-symbol-ornament-stroke-5-before::before{ content:var(--musical-symbol-ornament-stroke-5)}
+.musical-symbol-ornament-stroke-5-after::after{content:var(--musical-symbol-ornament-stroke-5)}
+.musical-symbol-ornament-stroke-5-both::after, .musical-symbol-ornament-stroke-5-both::before {content:var(--musical-symbol-ornament-stroke-5)}
+.musical-symbol-ornament-stroke-5-list { list-style: var(--musical-symbol-ornament-stroke-5)}
+
+
+
+.musical-symbol-ornament-stroke-6::before, .musical-symbol-ornament-stroke-6-before::before{ content:var(--musical-symbol-ornament-stroke-6)}
+.musical-symbol-ornament-stroke-6-after::after{content:var(--musical-symbol-ornament-stroke-6)}
+.musical-symbol-ornament-stroke-6-both::after, .musical-symbol-ornament-stroke-6-both::before {content:var(--musical-symbol-ornament-stroke-6)}
+.musical-symbol-ornament-stroke-6-list { list-style: var(--musical-symbol-ornament-stroke-6)}
+
+
+
+.musical-symbol-ornament-stroke-7::before, .musical-symbol-ornament-stroke-7-before::before{ content:var(--musical-symbol-ornament-stroke-7)}
+.musical-symbol-ornament-stroke-7-after::after{content:var(--musical-symbol-ornament-stroke-7)}
+.musical-symbol-ornament-stroke-7-both::after, .musical-symbol-ornament-stroke-7-both::before {content:var(--musical-symbol-ornament-stroke-7)}
+.musical-symbol-ornament-stroke-7-list { list-style: var(--musical-symbol-ornament-stroke-7)}
+
+
+
+.musical-symbol-ornament-stroke-8::before, .musical-symbol-ornament-stroke-8-before::before{ content:var(--musical-symbol-ornament-stroke-8)}
+.musical-symbol-ornament-stroke-8-after::after{content:var(--musical-symbol-ornament-stroke-8)}
+.musical-symbol-ornament-stroke-8-both::after, .musical-symbol-ornament-stroke-8-both::before {content:var(--musical-symbol-ornament-stroke-8)}
+.musical-symbol-ornament-stroke-8-list { list-style: var(--musical-symbol-ornament-stroke-8)}
+
+
+
+.musical-symbol-ornament-stroke-9::before, .musical-symbol-ornament-stroke-9-before::before{ content:var(--musical-symbol-ornament-stroke-9)}
+.musical-symbol-ornament-stroke-9-after::after{content:var(--musical-symbol-ornament-stroke-9)}
+.musical-symbol-ornament-stroke-9-both::after, .musical-symbol-ornament-stroke-9-both::before {content:var(--musical-symbol-ornament-stroke-9)}
+.musical-symbol-ornament-stroke-9-list { list-style: var(--musical-symbol-ornament-stroke-9)}
+
+
+
+.musical-symbol-ottava-alta::before, .musical-symbol-ottava-alta-before::before{ content:var(--musical-symbol-ottava-alta)}
+.musical-symbol-ottava-alta-after::after{content:var(--musical-symbol-ottava-alta)}
+.musical-symbol-ottava-alta-both::after, .musical-symbol-ottava-alta-both::before {content:var(--musical-symbol-ottava-alta)}
+.musical-symbol-ottava-alta-list { list-style: var(--musical-symbol-ottava-alta)}
+
+
+
+.musical-symbol-ottava-bassa::before, .musical-symbol-ottava-bassa-before::before{ content:var(--musical-symbol-ottava-bassa)}
+.musical-symbol-ottava-bassa-after::after{content:var(--musical-symbol-ottava-bassa)}
+.musical-symbol-ottava-bassa-both::after, .musical-symbol-ottava-bassa-both::before {content:var(--musical-symbol-ottava-bassa)}
+.musical-symbol-ottava-bassa-list { list-style: var(--musical-symbol-ottava-bassa)}
+
+
+
+.musical-symbol-parenthesis-notehead::before, .musical-symbol-parenthesis-notehead-before::before{ content:var(--musical-symbol-parenthesis-notehead)}
+.musical-symbol-parenthesis-notehead-after::after{content:var(--musical-symbol-parenthesis-notehead)}
+.musical-symbol-parenthesis-notehead-both::after, .musical-symbol-parenthesis-notehead-both::before {content:var(--musical-symbol-parenthesis-notehead)}
+.musical-symbol-parenthesis-notehead-list { list-style: var(--musical-symbol-parenthesis-notehead)}
+
+
+
+.musical-symbol-pedal-mark::before, .musical-symbol-pedal-mark-before::before{ content:var(--musical-symbol-pedal-mark)}
+.musical-symbol-pedal-mark-after::after{content:var(--musical-symbol-pedal-mark)}
+.musical-symbol-pedal-mark-both::after, .musical-symbol-pedal-mark-both::before {content:var(--musical-symbol-pedal-mark)}
+.musical-symbol-pedal-mark-list { list-style: var(--musical-symbol-pedal-mark)}
+
+
+
+.musical-symbol-pedal-up-mark::before, .musical-symbol-pedal-up-mark-before::before{ content:var(--musical-symbol-pedal-up-mark)}
+.musical-symbol-pedal-up-mark-after::after{content:var(--musical-symbol-pedal-up-mark)}
+.musical-symbol-pedal-up-mark-both::after, .musical-symbol-pedal-up-mark-both::before {content:var(--musical-symbol-pedal-up-mark)}
+.musical-symbol-pedal-up-mark-list { list-style: var(--musical-symbol-pedal-up-mark)}
+
+
+
+.musical-symbol-pes-subpunctis::before, .musical-symbol-pes-subpunctis-before::before{ content:var(--musical-symbol-pes-subpunctis)}
+.musical-symbol-pes-subpunctis-after::after{content:var(--musical-symbol-pes-subpunctis)}
+.musical-symbol-pes-subpunctis-both::after, .musical-symbol-pes-subpunctis-both::before {content:var(--musical-symbol-pes-subpunctis)}
+.musical-symbol-pes-subpunctis-list { list-style: var(--musical-symbol-pes-subpunctis)}
+
+
+
+.musical-symbol-piano::before, .musical-symbol-piano-before::before{ content:var(--musical-symbol-piano)}
+.musical-symbol-piano-after::after{content:var(--musical-symbol-piano)}
+.musical-symbol-piano-both::after, .musical-symbol-piano-both::before {content:var(--musical-symbol-piano)}
+.musical-symbol-piano-list { list-style: var(--musical-symbol-piano)}
+
+
+
+.musical-symbol-plus-notehead::before, .musical-symbol-plus-notehead-before::before{ content:var(--musical-symbol-plus-notehead)}
+.musical-symbol-plus-notehead-after::after{content:var(--musical-symbol-plus-notehead)}
+.musical-symbol-plus-notehead-both::after, .musical-symbol-plus-notehead-both::before {content:var(--musical-symbol-plus-notehead)}
+.musical-symbol-plus-notehead-list { list-style: var(--musical-symbol-plus-notehead)}
+
+
+
+.musical-symbol-podatus::before, .musical-symbol-podatus-before::before{ content:var(--musical-symbol-podatus)}
+.musical-symbol-podatus-after::after{content:var(--musical-symbol-podatus)}
+.musical-symbol-podatus-both::after, .musical-symbol-podatus-both::before {content:var(--musical-symbol-podatus)}
+.musical-symbol-podatus-list { list-style: var(--musical-symbol-podatus)}
+
+
+
+.musical-symbol-porrectus::before, .musical-symbol-porrectus-before::before{ content:var(--musical-symbol-porrectus)}
+.musical-symbol-porrectus-after::after{content:var(--musical-symbol-porrectus)}
+.musical-symbol-porrectus-both::after, .musical-symbol-porrectus-both::before {content:var(--musical-symbol-porrectus)}
+.musical-symbol-porrectus-list { list-style: var(--musical-symbol-porrectus)}
+
+
+
+.musical-symbol-porrectus-flexus::before, .musical-symbol-porrectus-flexus-before::before{ content:var(--musical-symbol-porrectus-flexus)}
+.musical-symbol-porrectus-flexus-after::after{content:var(--musical-symbol-porrectus-flexus)}
+.musical-symbol-porrectus-flexus-both::after, .musical-symbol-porrectus-flexus-both::before {content:var(--musical-symbol-porrectus-flexus)}
+.musical-symbol-porrectus-flexus-list { list-style: var(--musical-symbol-porrectus-flexus)}
+
+
+
+.musical-symbol-quarter-note::before, .musical-symbol-quarter-note-before::before{ content:var(--musical-symbol-quarter-note)}
+.musical-symbol-quarter-note-after::after{content:var(--musical-symbol-quarter-note)}
+.musical-symbol-quarter-note-both::after, .musical-symbol-quarter-note-both::before {content:var(--musical-symbol-quarter-note)}
+.musical-symbol-quarter-note-list { list-style: var(--musical-symbol-quarter-note)}
+
+
+
+.musical-symbol-quarter-rest::before, .musical-symbol-quarter-rest-before::before{ content:var(--musical-symbol-quarter-rest)}
+.musical-symbol-quarter-rest-after::after{content:var(--musical-symbol-quarter-rest)}
+.musical-symbol-quarter-rest-both::after, .musical-symbol-quarter-rest-both::before {content:var(--musical-symbol-quarter-rest)}
+.musical-symbol-quarter-rest-list { list-style: var(--musical-symbol-quarter-rest)}
+
+
+
+.musical-symbol-quarter-tone-flat::before, .musical-symbol-quarter-tone-flat-before::before{ content:var(--musical-symbol-quarter-tone-flat)}
+.musical-symbol-quarter-tone-flat-after::after{content:var(--musical-symbol-quarter-tone-flat)}
+.musical-symbol-quarter-tone-flat-both::after, .musical-symbol-quarter-tone-flat-both::before {content:var(--musical-symbol-quarter-tone-flat)}
+.musical-symbol-quarter-tone-flat-list { list-style: var(--musical-symbol-quarter-tone-flat)}
+
+
+
+.musical-symbol-quarter-tone-sharp::before, .musical-symbol-quarter-tone-sharp-before::before{ content:var(--musical-symbol-quarter-tone-sharp)}
+.musical-symbol-quarter-tone-sharp-after::after{content:var(--musical-symbol-quarter-tone-sharp)}
+.musical-symbol-quarter-tone-sharp-both::after, .musical-symbol-quarter-tone-sharp-both::before {content:var(--musical-symbol-quarter-tone-sharp)}
+.musical-symbol-quarter-tone-sharp-list { list-style: var(--musical-symbol-quarter-tone-sharp)}
+
+
+
+.musical-symbol-quindicesima-alta::before, .musical-symbol-quindicesima-alta-before::before{ content:var(--musical-symbol-quindicesima-alta)}
+.musical-symbol-quindicesima-alta-after::after{content:var(--musical-symbol-quindicesima-alta)}
+.musical-symbol-quindicesima-alta-both::after, .musical-symbol-quindicesima-alta-both::before {content:var(--musical-symbol-quindicesima-alta)}
+.musical-symbol-quindicesima-alta-list { list-style: var(--musical-symbol-quindicesima-alta)}
+
+
+
+.musical-symbol-quindicesima-bassa::before, .musical-symbol-quindicesima-bassa-before::before{ content:var(--musical-symbol-quindicesima-bassa)}
+.musical-symbol-quindicesima-bassa-after::after{content:var(--musical-symbol-quindicesima-bassa)}
+.musical-symbol-quindicesima-bassa-both::after, .musical-symbol-quindicesima-bassa-both::before {content:var(--musical-symbol-quindicesima-bassa)}
+.musical-symbol-quindicesima-bassa-list { list-style: var(--musical-symbol-quindicesima-bassa)}
+
+
+
+.musical-symbol-repeat-dots::before, .musical-symbol-repeat-dots-before::before{ content:var(--musical-symbol-repeat-dots)}
+.musical-symbol-repeat-dots-after::after{content:var(--musical-symbol-repeat-dots)}
+.musical-symbol-repeat-dots-both::after, .musical-symbol-repeat-dots-both::before {content:var(--musical-symbol-repeat-dots)}
+.musical-symbol-repeat-dots-list { list-style: var(--musical-symbol-repeat-dots)}
+
+
+
+.musical-symbol-repeated-figure-1::before, .musical-symbol-repeated-figure-1-before::before{ content:var(--musical-symbol-repeated-figure-1)}
+.musical-symbol-repeated-figure-1-after::after{content:var(--musical-symbol-repeated-figure-1)}
+.musical-symbol-repeated-figure-1-both::after, .musical-symbol-repeated-figure-1-both::before {content:var(--musical-symbol-repeated-figure-1)}
+.musical-symbol-repeated-figure-1-list { list-style: var(--musical-symbol-repeated-figure-1)}
+
+
+
+.musical-symbol-repeated-figure-2::before, .musical-symbol-repeated-figure-2-before::before{ content:var(--musical-symbol-repeated-figure-2)}
+.musical-symbol-repeated-figure-2-after::after{content:var(--musical-symbol-repeated-figure-2)}
+.musical-symbol-repeated-figure-2-both::after, .musical-symbol-repeated-figure-2-both::before {content:var(--musical-symbol-repeated-figure-2)}
+.musical-symbol-repeated-figure-2-list { list-style: var(--musical-symbol-repeated-figure-2)}
+
+
+
+.musical-symbol-repeated-figure-3::before, .musical-symbol-repeated-figure-3-before::before{ content:var(--musical-symbol-repeated-figure-3)}
+.musical-symbol-repeated-figure-3-after::after{content:var(--musical-symbol-repeated-figure-3)}
+.musical-symbol-repeated-figure-3-both::after, .musical-symbol-repeated-figure-3-both::before {content:var(--musical-symbol-repeated-figure-3)}
+.musical-symbol-repeated-figure-3-list { list-style: var(--musical-symbol-repeated-figure-3)}
+
+
+
+.musical-symbol-reverse-final-barline::before, .musical-symbol-reverse-final-barline-before::before{ content:var(--musical-symbol-reverse-final-barline)}
+.musical-symbol-reverse-final-barline-after::after{content:var(--musical-symbol-reverse-final-barline)}
+.musical-symbol-reverse-final-barline-both::after, .musical-symbol-reverse-final-barline-both::before {content:var(--musical-symbol-reverse-final-barline)}
+.musical-symbol-reverse-final-barline-list { list-style: var(--musical-symbol-reverse-final-barline)}
+
+
+
+.musical-symbol-right-repeat-sign::before, .musical-symbol-right-repeat-sign-before::before{ content:var(--musical-symbol-right-repeat-sign)}
+.musical-symbol-right-repeat-sign-after::after{content:var(--musical-symbol-right-repeat-sign)}
+.musical-symbol-right-repeat-sign-both::after, .musical-symbol-right-repeat-sign-both::before {content:var(--musical-symbol-right-repeat-sign)}
+.musical-symbol-right-repeat-sign-list { list-style: var(--musical-symbol-right-repeat-sign)}
+
+
+
+.musical-symbol-rinforzando::before, .musical-symbol-rinforzando-before::before{ content:var(--musical-symbol-rinforzando)}
+.musical-symbol-rinforzando-after::after{content:var(--musical-symbol-rinforzando)}
+.musical-symbol-rinforzando-both::after, .musical-symbol-rinforzando-both::before {content:var(--musical-symbol-rinforzando)}
+.musical-symbol-rinforzando-list { list-style: var(--musical-symbol-rinforzando)}
+
+
+
+.musical-symbol-scandicus::before, .musical-symbol-scandicus-before::before{ content:var(--musical-symbol-scandicus)}
+.musical-symbol-scandicus-after::after{content:var(--musical-symbol-scandicus)}
+.musical-symbol-scandicus-both::after, .musical-symbol-scandicus-both::before {content:var(--musical-symbol-scandicus)}
+.musical-symbol-scandicus-list { list-style: var(--musical-symbol-scandicus)}
+
+
+
+.musical-symbol-scandicus-flexus::before, .musical-symbol-scandicus-flexus-before::before{ content:var(--musical-symbol-scandicus-flexus)}
+.musical-symbol-scandicus-flexus-after::after{content:var(--musical-symbol-scandicus-flexus)}
+.musical-symbol-scandicus-flexus-both::after, .musical-symbol-scandicus-flexus-both::before {content:var(--musical-symbol-scandicus-flexus)}
+.musical-symbol-scandicus-flexus-list { list-style: var(--musical-symbol-scandicus-flexus)}
+
+
+
+.musical-symbol-segno::before, .musical-symbol-segno-before::before{ content:var(--musical-symbol-segno)}
+.musical-symbol-segno-after::after{content:var(--musical-symbol-segno)}
+.musical-symbol-segno-both::after, .musical-symbol-segno-both::before {content:var(--musical-symbol-segno)}
+.musical-symbol-segno-list { list-style: var(--musical-symbol-segno)}
+
+
+
+.musical-symbol-semibrevis-black::before, .musical-symbol-semibrevis-black-before::before{ content:var(--musical-symbol-semibrevis-black)}
+.musical-symbol-semibrevis-black-after::after{content:var(--musical-symbol-semibrevis-black)}
+.musical-symbol-semibrevis-black-both::after, .musical-symbol-semibrevis-black-both::before {content:var(--musical-symbol-semibrevis-black)}
+.musical-symbol-semibrevis-black-list { list-style: var(--musical-symbol-semibrevis-black)}
+
+
+
+.musical-symbol-semibrevis-rest::before, .musical-symbol-semibrevis-rest-before::before{ content:var(--musical-symbol-semibrevis-rest)}
+.musical-symbol-semibrevis-rest-after::after{content:var(--musical-symbol-semibrevis-rest)}
+.musical-symbol-semibrevis-rest-both::after, .musical-symbol-semibrevis-rest-both::before {content:var(--musical-symbol-semibrevis-rest)}
+.musical-symbol-semibrevis-rest-list { list-style: var(--musical-symbol-semibrevis-rest)}
+
+
+
+.musical-symbol-semibrevis-white::before, .musical-symbol-semibrevis-white-before::before{ content:var(--musical-symbol-semibrevis-white)}
+.musical-symbol-semibrevis-white-after::after{content:var(--musical-symbol-semibrevis-white)}
+.musical-symbol-semibrevis-white-both::after, .musical-symbol-semibrevis-white-both::before {content:var(--musical-symbol-semibrevis-white)}
+.musical-symbol-semibrevis-white-list { list-style: var(--musical-symbol-semibrevis-white)}
+
+
+
+.musical-symbol-semiminima-black::before, .musical-symbol-semiminima-black-before::before{ content:var(--musical-symbol-semiminima-black)}
+.musical-symbol-semiminima-black-after::after{content:var(--musical-symbol-semiminima-black)}
+.musical-symbol-semiminima-black-both::after, .musical-symbol-semiminima-black-both::before {content:var(--musical-symbol-semiminima-black)}
+.musical-symbol-semiminima-black-list { list-style: var(--musical-symbol-semiminima-black)}
+
+
+
+.musical-symbol-semiminima-rest::before, .musical-symbol-semiminima-rest-before::before{ content:var(--musical-symbol-semiminima-rest)}
+.musical-symbol-semiminima-rest-after::after{content:var(--musical-symbol-semiminima-rest)}
+.musical-symbol-semiminima-rest-both::after, .musical-symbol-semiminima-rest-both::before {content:var(--musical-symbol-semiminima-rest)}
+.musical-symbol-semiminima-rest-list { list-style: var(--musical-symbol-semiminima-rest)}
+
+
+
+.musical-symbol-semiminima-white::before, .musical-symbol-semiminima-white-before::before{ content:var(--musical-symbol-semiminima-white)}
+.musical-symbol-semiminima-white-after::after{content:var(--musical-symbol-semiminima-white)}
+.musical-symbol-semiminima-white-both::after, .musical-symbol-semiminima-white-both::before {content:var(--musical-symbol-semiminima-white)}
+.musical-symbol-semiminima-white-list { list-style: var(--musical-symbol-semiminima-white)}
+
+
+
+.musical-symbol-sharp-down::before, .musical-symbol-sharp-down-before::before{ content:var(--musical-symbol-sharp-down)}
+.musical-symbol-sharp-down-after::after{content:var(--musical-symbol-sharp-down)}
+.musical-symbol-sharp-down-both::after, .musical-symbol-sharp-down-both::before {content:var(--musical-symbol-sharp-down)}
+.musical-symbol-sharp-down-list { list-style: var(--musical-symbol-sharp-down)}
+
+
+
+.musical-symbol-sharp-up::before, .musical-symbol-sharp-up-before::before{ content:var(--musical-symbol-sharp-up)}
+.musical-symbol-sharp-up-after::after{content:var(--musical-symbol-sharp-up)}
+.musical-symbol-sharp-up-both::after, .musical-symbol-sharp-up-both::before {content:var(--musical-symbol-sharp-up)}
+.musical-symbol-sharp-up-list { list-style: var(--musical-symbol-sharp-up)}
+
+
+
+.musical-symbol-short-barline::before, .musical-symbol-short-barline-before::before{ content:var(--musical-symbol-short-barline)}
+.musical-symbol-short-barline-after::after{content:var(--musical-symbol-short-barline)}
+.musical-symbol-short-barline-both::after, .musical-symbol-short-barline-both::before {content:var(--musical-symbol-short-barline)}
+.musical-symbol-short-barline-list { list-style: var(--musical-symbol-short-barline)}
+
+
+
+.musical-symbol-single-barline::before, .musical-symbol-single-barline-before::before{ content:var(--musical-symbol-single-barline)}
+.musical-symbol-single-barline-after::after{content:var(--musical-symbol-single-barline)}
+.musical-symbol-single-barline-both::after, .musical-symbol-single-barline-both::before {content:var(--musical-symbol-single-barline)}
+.musical-symbol-single-barline-list { list-style: var(--musical-symbol-single-barline)}
+
+
+
+.musical-symbol-six-line-staff::before, .musical-symbol-six-line-staff-before::before{ content:var(--musical-symbol-six-line-staff)}
+.musical-symbol-six-line-staff-after::after{content:var(--musical-symbol-six-line-staff)}
+.musical-symbol-six-line-staff-both::after, .musical-symbol-six-line-staff-both::before {content:var(--musical-symbol-six-line-staff)}
+.musical-symbol-six-line-staff-list { list-style: var(--musical-symbol-six-line-staff)}
+
+
+
+.musical-symbol-six-string-fretboard::before, .musical-symbol-six-string-fretboard-before::before{ content:var(--musical-symbol-six-string-fretboard)}
+.musical-symbol-six-string-fretboard-after::after{content:var(--musical-symbol-six-string-fretboard)}
+.musical-symbol-six-string-fretboard-both::after, .musical-symbol-six-string-fretboard-both::before {content:var(--musical-symbol-six-string-fretboard)}
+.musical-symbol-six-string-fretboard-list { list-style: var(--musical-symbol-six-string-fretboard)}
+
+
+
+.musical-symbol-sixteenth-note::before, .musical-symbol-sixteenth-note-before::before{ content:var(--musical-symbol-sixteenth-note)}
+.musical-symbol-sixteenth-note-after::after{content:var(--musical-symbol-sixteenth-note)}
+.musical-symbol-sixteenth-note-both::after, .musical-symbol-sixteenth-note-both::before {content:var(--musical-symbol-sixteenth-note)}
+.musical-symbol-sixteenth-note-list { list-style: var(--musical-symbol-sixteenth-note)}
+
+
+
+.musical-symbol-sixteenth-rest::before, .musical-symbol-sixteenth-rest-before::before{ content:var(--musical-symbol-sixteenth-rest)}
+.musical-symbol-sixteenth-rest-after::after{content:var(--musical-symbol-sixteenth-rest)}
+.musical-symbol-sixteenth-rest-both::after, .musical-symbol-sixteenth-rest-both::before {content:var(--musical-symbol-sixteenth-rest)}
+.musical-symbol-sixteenth-rest-list { list-style: var(--musical-symbol-sixteenth-rest)}
+
+
+
+.musical-symbol-sixty-fourth-note::before, .musical-symbol-sixty-fourth-note-before::before{ content:var(--musical-symbol-sixty-fourth-note)}
+.musical-symbol-sixty-fourth-note-after::after{content:var(--musical-symbol-sixty-fourth-note)}
+.musical-symbol-sixty-fourth-note-both::after, .musical-symbol-sixty-fourth-note-both::before {content:var(--musical-symbol-sixty-fourth-note)}
+.musical-symbol-sixty-fourth-note-list { list-style: var(--musical-symbol-sixty-fourth-note)}
+
+
+
+.musical-symbol-sixty-fourth-rest::before, .musical-symbol-sixty-fourth-rest-before::before{ content:var(--musical-symbol-sixty-fourth-rest)}
+.musical-symbol-sixty-fourth-rest-after::after{content:var(--musical-symbol-sixty-fourth-rest)}
+.musical-symbol-sixty-fourth-rest-both::after, .musical-symbol-sixty-fourth-rest-both::before {content:var(--musical-symbol-sixty-fourth-rest)}
+.musical-symbol-sixty-fourth-rest-list { list-style: var(--musical-symbol-sixty-fourth-rest)}
+
+
+
+.musical-symbol-sori::before, .musical-symbol-sori-before::before{ content:var(--musical-symbol-sori)}
+.musical-symbol-sori-after::after{content:var(--musical-symbol-sori)}
+.musical-symbol-sori-both::after, .musical-symbol-sori-both::before {content:var(--musical-symbol-sori)}
+.musical-symbol-sori-list { list-style: var(--musical-symbol-sori)}
+
+
+
+.musical-symbol-square-b::before, .musical-symbol-square-b-before::before{ content:var(--musical-symbol-square-b)}
+.musical-symbol-square-b-after::after{content:var(--musical-symbol-square-b)}
+.musical-symbol-square-b-both::after, .musical-symbol-square-b-both::before {content:var(--musical-symbol-square-b)}
+.musical-symbol-square-b-list { list-style: var(--musical-symbol-square-b)}
+
+
+
+.musical-symbol-square-notehead-black::before, .musical-symbol-square-notehead-black-before::before{ content:var(--musical-symbol-square-notehead-black)}
+.musical-symbol-square-notehead-black-after::after{content:var(--musical-symbol-square-notehead-black)}
+.musical-symbol-square-notehead-black-both::after, .musical-symbol-square-notehead-black-both::before {content:var(--musical-symbol-square-notehead-black)}
+.musical-symbol-square-notehead-black-list { list-style: var(--musical-symbol-square-notehead-black)}
+
+
+
+.musical-symbol-square-notehead-white::before, .musical-symbol-square-notehead-white-before::before{ content:var(--musical-symbol-square-notehead-white)}
+.musical-symbol-square-notehead-white-after::after{content:var(--musical-symbol-square-notehead-white)}
+.musical-symbol-square-notehead-white-both::after, .musical-symbol-square-notehead-white-both::before {content:var(--musical-symbol-square-notehead-white)}
+.musical-symbol-square-notehead-white-list { list-style: var(--musical-symbol-square-notehead-white)}
+
+
+
+.musical-symbol-subito::before, .musical-symbol-subito-before::before{ content:var(--musical-symbol-subito)}
+.musical-symbol-subito-after::after{content:var(--musical-symbol-subito)}
+.musical-symbol-subito-both::after, .musical-symbol-subito-both::before {content:var(--musical-symbol-subito)}
+.musical-symbol-subito-list { list-style: var(--musical-symbol-subito)}
+
+
+
+.musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta::before, .musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta-before::before{ content:var(--musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta)}
+.musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta-after::after{content:var(--musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta)}
+.musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta-both::after, .musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta-both::before {content:var(--musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta)}
+.musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta-list { list-style: var(--musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta)}
+
+
+
+.musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta-diminution-1::before, .musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta-diminution-1-before::before{ content:var(--musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta-diminution-1)}
+.musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta-diminution-1-after::after{content:var(--musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta-diminution-1)}
+.musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta-diminution-1-both::after, .musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta-diminution-1-both::before {content:var(--musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta-diminution-1)}
+.musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta-diminution-1-list { list-style: var(--musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta-diminution-1)}
+
+
+
+.musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta-diminution-2::before, .musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta-diminution-2-before::before{ content:var(--musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta-diminution-2)}
+.musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta-diminution-2-after::after{content:var(--musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta-diminution-2)}
+.musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta-diminution-2-both::after, .musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta-diminution-2-both::before {content:var(--musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta-diminution-2)}
+.musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta-diminution-2-list { list-style: var(--musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta-diminution-2)}
+
+
+
+.musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta-diminution-3::before, .musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta-diminution-3-before::before{ content:var(--musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta-diminution-3)}
+.musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta-diminution-3-after::after{content:var(--musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta-diminution-3)}
+.musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta-diminution-3-both::after, .musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta-diminution-3-both::before {content:var(--musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta-diminution-3)}
+.musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta-diminution-3-list { list-style: var(--musical-symbol-tempus-imperfectum-cum-prolatione-imperfecta-diminution-3)}
+
+
+
+.musical-symbol-tempus-imperfectum-cum-prolatione-perfecta::before, .musical-symbol-tempus-imperfectum-cum-prolatione-perfecta-before::before{ content:var(--musical-symbol-tempus-imperfectum-cum-prolatione-perfecta)}
+.musical-symbol-tempus-imperfectum-cum-prolatione-perfecta-after::after{content:var(--musical-symbol-tempus-imperfectum-cum-prolatione-perfecta)}
+.musical-symbol-tempus-imperfectum-cum-prolatione-perfecta-both::after, .musical-symbol-tempus-imperfectum-cum-prolatione-perfecta-both::before {content:var(--musical-symbol-tempus-imperfectum-cum-prolatione-perfecta)}
+.musical-symbol-tempus-imperfectum-cum-prolatione-perfecta-list { list-style: var(--musical-symbol-tempus-imperfectum-cum-prolatione-perfecta)}
+
+
+
+.musical-symbol-tempus-perfectum-cum-prolatione-imperfecta::before, .musical-symbol-tempus-perfectum-cum-prolatione-imperfecta-before::before{ content:var(--musical-symbol-tempus-perfectum-cum-prolatione-imperfecta)}
+.musical-symbol-tempus-perfectum-cum-prolatione-imperfecta-after::after{content:var(--musical-symbol-tempus-perfectum-cum-prolatione-imperfecta)}
+.musical-symbol-tempus-perfectum-cum-prolatione-imperfecta-both::after, .musical-symbol-tempus-perfectum-cum-prolatione-imperfecta-both::before {content:var(--musical-symbol-tempus-perfectum-cum-prolatione-imperfecta)}
+.musical-symbol-tempus-perfectum-cum-prolatione-imperfecta-list { list-style: var(--musical-symbol-tempus-perfectum-cum-prolatione-imperfecta)}
+
+
+
+.musical-symbol-tempus-perfectum-cum-prolatione-perfecta::before, .musical-symbol-tempus-perfectum-cum-prolatione-perfecta-before::before{ content:var(--musical-symbol-tempus-perfectum-cum-prolatione-perfecta)}
+.musical-symbol-tempus-perfectum-cum-prolatione-perfecta-after::after{content:var(--musical-symbol-tempus-perfectum-cum-prolatione-perfecta)}
+.musical-symbol-tempus-perfectum-cum-prolatione-perfecta-both::after, .musical-symbol-tempus-perfectum-cum-prolatione-perfecta-both::before {content:var(--musical-symbol-tempus-perfectum-cum-prolatione-perfecta)}
+.musical-symbol-tempus-perfectum-cum-prolatione-perfecta-list { list-style: var(--musical-symbol-tempus-perfectum-cum-prolatione-perfecta)}
+
+
+
+.musical-symbol-tempus-perfectum-cum-prolatione-perfecta-diminution-1::before, .musical-symbol-tempus-perfectum-cum-prolatione-perfecta-diminution-1-before::before{ content:var(--musical-symbol-tempus-perfectum-cum-prolatione-perfecta-diminution-1)}
+.musical-symbol-tempus-perfectum-cum-prolatione-perfecta-diminution-1-after::after{content:var(--musical-symbol-tempus-perfectum-cum-prolatione-perfecta-diminution-1)}
+.musical-symbol-tempus-perfectum-cum-prolatione-perfecta-diminution-1-both::after, .musical-symbol-tempus-perfectum-cum-prolatione-perfecta-diminution-1-both::before {content:var(--musical-symbol-tempus-perfectum-cum-prolatione-perfecta-diminution-1)}
+.musical-symbol-tempus-perfectum-cum-prolatione-perfecta-diminution-1-list { list-style: var(--musical-symbol-tempus-perfectum-cum-prolatione-perfecta-diminution-1)}
+
+
+
+.musical-symbol-thirty-second-note::before, .musical-symbol-thirty-second-note-before::before{ content:var(--musical-symbol-thirty-second-note)}
+.musical-symbol-thirty-second-note-after::after{content:var(--musical-symbol-thirty-second-note)}
+.musical-symbol-thirty-second-note-both::after, .musical-symbol-thirty-second-note-both::before {content:var(--musical-symbol-thirty-second-note)}
+.musical-symbol-thirty-second-note-list { list-style: var(--musical-symbol-thirty-second-note)}
+
+
+
+.musical-symbol-thirty-second-rest::before, .musical-symbol-thirty-second-rest-before::before{ content:var(--musical-symbol-thirty-second-rest)}
+.musical-symbol-thirty-second-rest-after::after{content:var(--musical-symbol-thirty-second-rest)}
+.musical-symbol-thirty-second-rest-both::after, .musical-symbol-thirty-second-rest-both::before {content:var(--musical-symbol-thirty-second-rest)}
+.musical-symbol-thirty-second-rest-list { list-style: var(--musical-symbol-thirty-second-rest)}
+
+
+
+.musical-symbol-three-line-staff::before, .musical-symbol-three-line-staff-before::before{ content:var(--musical-symbol-three-line-staff)}
+.musical-symbol-three-line-staff-after::after{content:var(--musical-symbol-three-line-staff)}
+.musical-symbol-three-line-staff-both::after, .musical-symbol-three-line-staff-both::before {content:var(--musical-symbol-three-line-staff)}
+.musical-symbol-three-line-staff-list { list-style: var(--musical-symbol-three-line-staff)}
+
+
+
+.musical-symbol-torculus::before, .musical-symbol-torculus-before::before{ content:var(--musical-symbol-torculus)}
+.musical-symbol-torculus-after::after{content:var(--musical-symbol-torculus)}
+.musical-symbol-torculus-both::after, .musical-symbol-torculus-both::before {content:var(--musical-symbol-torculus)}
+.musical-symbol-torculus-list { list-style: var(--musical-symbol-torculus)}
+
+
+
+.musical-symbol-torculus-resupinus::before, .musical-symbol-torculus-resupinus-before::before{ content:var(--musical-symbol-torculus-resupinus)}
+.musical-symbol-torculus-resupinus-after::after{content:var(--musical-symbol-torculus-resupinus)}
+.musical-symbol-torculus-resupinus-both::after, .musical-symbol-torculus-resupinus-both::before {content:var(--musical-symbol-torculus-resupinus)}
+.musical-symbol-torculus-resupinus-list { list-style: var(--musical-symbol-torculus-resupinus)}
+
+
+
+.musical-symbol-tr::before, .musical-symbol-tr-before::before{ content:var(--musical-symbol-tr)}
+.musical-symbol-tr-after::after{content:var(--musical-symbol-tr)}
+.musical-symbol-tr-both::after, .musical-symbol-tr-both::before {content:var(--musical-symbol-tr)}
+.musical-symbol-tr-list { list-style: var(--musical-symbol-tr)}
+
+
+
+.musical-symbol-triangle-notehead-down-black::before, .musical-symbol-triangle-notehead-down-black-before::before{ content:var(--musical-symbol-triangle-notehead-down-black)}
+.musical-symbol-triangle-notehead-down-black-after::after{content:var(--musical-symbol-triangle-notehead-down-black)}
+.musical-symbol-triangle-notehead-down-black-both::after, .musical-symbol-triangle-notehead-down-black-both::before {content:var(--musical-symbol-triangle-notehead-down-black)}
+.musical-symbol-triangle-notehead-down-black-list { list-style: var(--musical-symbol-triangle-notehead-down-black)}
+
+
+
+.musical-symbol-triangle-notehead-down-white::before, .musical-symbol-triangle-notehead-down-white-before::before{ content:var(--musical-symbol-triangle-notehead-down-white)}
+.musical-symbol-triangle-notehead-down-white-after::after{content:var(--musical-symbol-triangle-notehead-down-white)}
+.musical-symbol-triangle-notehead-down-white-both::after, .musical-symbol-triangle-notehead-down-white-both::before {content:var(--musical-symbol-triangle-notehead-down-white)}
+.musical-symbol-triangle-notehead-down-white-list { list-style: var(--musical-symbol-triangle-notehead-down-white)}
+
+
+
+.musical-symbol-triangle-notehead-left-black::before, .musical-symbol-triangle-notehead-left-black-before::before{ content:var(--musical-symbol-triangle-notehead-left-black)}
+.musical-symbol-triangle-notehead-left-black-after::after{content:var(--musical-symbol-triangle-notehead-left-black)}
+.musical-symbol-triangle-notehead-left-black-both::after, .musical-symbol-triangle-notehead-left-black-both::before {content:var(--musical-symbol-triangle-notehead-left-black)}
+.musical-symbol-triangle-notehead-left-black-list { list-style: var(--musical-symbol-triangle-notehead-left-black)}
+
+
+
+.musical-symbol-triangle-notehead-left-white::before, .musical-symbol-triangle-notehead-left-white-before::before{ content:var(--musical-symbol-triangle-notehead-left-white)}
+.musical-symbol-triangle-notehead-left-white-after::after{content:var(--musical-symbol-triangle-notehead-left-white)}
+.musical-symbol-triangle-notehead-left-white-both::after, .musical-symbol-triangle-notehead-left-white-both::before {content:var(--musical-symbol-triangle-notehead-left-white)}
+.musical-symbol-triangle-notehead-left-white-list { list-style: var(--musical-symbol-triangle-notehead-left-white)}
+
+
+
+.musical-symbol-triangle-notehead-right-black::before, .musical-symbol-triangle-notehead-right-black-before::before{ content:var(--musical-symbol-triangle-notehead-right-black)}
+.musical-symbol-triangle-notehead-right-black-after::after{content:var(--musical-symbol-triangle-notehead-right-black)}
+.musical-symbol-triangle-notehead-right-black-both::after, .musical-symbol-triangle-notehead-right-black-both::before {content:var(--musical-symbol-triangle-notehead-right-black)}
+.musical-symbol-triangle-notehead-right-black-list { list-style: var(--musical-symbol-triangle-notehead-right-black)}
+
+
+
+.musical-symbol-triangle-notehead-right-white::before, .musical-symbol-triangle-notehead-right-white-before::before{ content:var(--musical-symbol-triangle-notehead-right-white)}
+.musical-symbol-triangle-notehead-right-white-after::after{content:var(--musical-symbol-triangle-notehead-right-white)}
+.musical-symbol-triangle-notehead-right-white-both::after, .musical-symbol-triangle-notehead-right-white-both::before {content:var(--musical-symbol-triangle-notehead-right-white)}
+.musical-symbol-triangle-notehead-right-white-list { list-style: var(--musical-symbol-triangle-notehead-right-white)}
+
+
+
+.musical-symbol-triangle-notehead-up-black::before, .musical-symbol-triangle-notehead-up-black-before::before{ content:var(--musical-symbol-triangle-notehead-up-black)}
+.musical-symbol-triangle-notehead-up-black-after::after{content:var(--musical-symbol-triangle-notehead-up-black)}
+.musical-symbol-triangle-notehead-up-black-both::after, .musical-symbol-triangle-notehead-up-black-both::before {content:var(--musical-symbol-triangle-notehead-up-black)}
+.musical-symbol-triangle-notehead-up-black-list { list-style: var(--musical-symbol-triangle-notehead-up-black)}
+
+
+
+.musical-symbol-triangle-notehead-up-right-black::before, .musical-symbol-triangle-notehead-up-right-black-before::before{ content:var(--musical-symbol-triangle-notehead-up-right-black)}
+.musical-symbol-triangle-notehead-up-right-black-after::after{content:var(--musical-symbol-triangle-notehead-up-right-black)}
+.musical-symbol-triangle-notehead-up-right-black-both::after, .musical-symbol-triangle-notehead-up-right-black-both::before {content:var(--musical-symbol-triangle-notehead-up-right-black)}
+.musical-symbol-triangle-notehead-up-right-black-list { list-style: var(--musical-symbol-triangle-notehead-up-right-black)}
+
+
+
+.musical-symbol-triangle-notehead-up-right-white::before, .musical-symbol-triangle-notehead-up-right-white-before::before{ content:var(--musical-symbol-triangle-notehead-up-right-white)}
+.musical-symbol-triangle-notehead-up-right-white-after::after{content:var(--musical-symbol-triangle-notehead-up-right-white)}
+.musical-symbol-triangle-notehead-up-right-white-both::after, .musical-symbol-triangle-notehead-up-right-white-both::before {content:var(--musical-symbol-triangle-notehead-up-right-white)}
+.musical-symbol-triangle-notehead-up-right-white-list { list-style: var(--musical-symbol-triangle-notehead-up-right-white)}
+
+
+
+.musical-symbol-triangle-notehead-up-white::before, .musical-symbol-triangle-notehead-up-white-before::before{ content:var(--musical-symbol-triangle-notehead-up-white)}
+.musical-symbol-triangle-notehead-up-white-after::after{content:var(--musical-symbol-triangle-notehead-up-white)}
+.musical-symbol-triangle-notehead-up-white-both::after, .musical-symbol-triangle-notehead-up-white-both::before {content:var(--musical-symbol-triangle-notehead-up-white)}
+.musical-symbol-triangle-notehead-up-white-list { list-style: var(--musical-symbol-triangle-notehead-up-white)}
+
+
+
+.musical-symbol-triangle-round-notehead-down-black::before, .musical-symbol-triangle-round-notehead-down-black-before::before{ content:var(--musical-symbol-triangle-round-notehead-down-black)}
+.musical-symbol-triangle-round-notehead-down-black-after::after{content:var(--musical-symbol-triangle-round-notehead-down-black)}
+.musical-symbol-triangle-round-notehead-down-black-both::after, .musical-symbol-triangle-round-notehead-down-black-both::before {content:var(--musical-symbol-triangle-round-notehead-down-black)}
+.musical-symbol-triangle-round-notehead-down-black-list { list-style: var(--musical-symbol-triangle-round-notehead-down-black)}
+
+
+
+.musical-symbol-triangle-round-notehead-down-white::before, .musical-symbol-triangle-round-notehead-down-white-before::before{ content:var(--musical-symbol-triangle-round-notehead-down-white)}
+.musical-symbol-triangle-round-notehead-down-white-after::after{content:var(--musical-symbol-triangle-round-notehead-down-white)}
+.musical-symbol-triangle-round-notehead-down-white-both::after, .musical-symbol-triangle-round-notehead-down-white-both::before {content:var(--musical-symbol-triangle-round-notehead-down-white)}
+.musical-symbol-triangle-round-notehead-down-white-list { list-style: var(--musical-symbol-triangle-round-notehead-down-white)}
+
+
+
+.musical-symbol-turn::before, .musical-symbol-turn-before::before{ content:var(--musical-symbol-turn)}
+.musical-symbol-turn-after::after{content:var(--musical-symbol-turn)}
+.musical-symbol-turn-both::after, .musical-symbol-turn-both::before {content:var(--musical-symbol-turn)}
+.musical-symbol-turn-list { list-style: var(--musical-symbol-turn)}
+
+
+
+.musical-symbol-turn-slash::before, .musical-symbol-turn-slash-before::before{ content:var(--musical-symbol-turn-slash)}
+.musical-symbol-turn-slash-after::after{content:var(--musical-symbol-turn-slash)}
+.musical-symbol-turn-slash-both::after, .musical-symbol-turn-slash-both::before {content:var(--musical-symbol-turn-slash)}
+.musical-symbol-turn-slash-list { list-style: var(--musical-symbol-turn-slash)}
+
+
+
+.musical-symbol-turn-up::before, .musical-symbol-turn-up-before::before{ content:var(--musical-symbol-turn-up)}
+.musical-symbol-turn-up-after::after{content:var(--musical-symbol-turn-up)}
+.musical-symbol-turn-up-both::after, .musical-symbol-turn-up-both::before {content:var(--musical-symbol-turn-up)}
+.musical-symbol-turn-up-list { list-style: var(--musical-symbol-turn-up)}
+
+
+
+.musical-symbol-two-line-staff::before, .musical-symbol-two-line-staff-before::before{ content:var(--musical-symbol-two-line-staff)}
+.musical-symbol-two-line-staff-after::after{content:var(--musical-symbol-two-line-staff)}
+.musical-symbol-two-line-staff-both::after, .musical-symbol-two-line-staff-both::before {content:var(--musical-symbol-two-line-staff)}
+.musical-symbol-two-line-staff-list { list-style: var(--musical-symbol-two-line-staff)}
+
+
+
+.musical-symbol-virga::before, .musical-symbol-virga-before::before{ content:var(--musical-symbol-virga)}
+.musical-symbol-virga-after::after{content:var(--musical-symbol-virga)}
+.musical-symbol-virga-both::after, .musical-symbol-virga-both::before {content:var(--musical-symbol-virga)}
+.musical-symbol-virga-list { list-style: var(--musical-symbol-virga)}
+
+
+
+.musical-symbol-void-notehead::before, .musical-symbol-void-notehead-before::before{ content:var(--musical-symbol-void-notehead)}
+.musical-symbol-void-notehead-after::after{content:var(--musical-symbol-void-notehead)}
+.musical-symbol-void-notehead-both::after, .musical-symbol-void-notehead-both::before {content:var(--musical-symbol-void-notehead)}
+.musical-symbol-void-notehead-list { list-style: var(--musical-symbol-void-notehead)}
+
+
+
+.musical-symbol-whole-note::before, .musical-symbol-whole-note-before::before{ content:var(--musical-symbol-whole-note)}
+.musical-symbol-whole-note-after::after{content:var(--musical-symbol-whole-note)}
+.musical-symbol-whole-note-both::after, .musical-symbol-whole-note-both::before {content:var(--musical-symbol-whole-note)}
+.musical-symbol-whole-note-list { list-style: var(--musical-symbol-whole-note)}
+
+
+
+.musical-symbol-whole-rest::before, .musical-symbol-whole-rest-before::before{ content:var(--musical-symbol-whole-rest)}
+.musical-symbol-whole-rest-after::after{content:var(--musical-symbol-whole-rest)}
+.musical-symbol-whole-rest-both::after, .musical-symbol-whole-rest-both::before {content:var(--musical-symbol-whole-rest)}
+.musical-symbol-whole-rest-list { list-style: var(--musical-symbol-whole-rest)}
+
+
+
+.musical-symbol-with-fingernails::before, .musical-symbol-with-fingernails-before::before{ content:var(--musical-symbol-with-fingernails)}
+.musical-symbol-with-fingernails-after::after{content:var(--musical-symbol-with-fingernails)}
+.musical-symbol-with-fingernails-both::after, .musical-symbol-with-fingernails-both::before {content:var(--musical-symbol-with-fingernails)}
+.musical-symbol-with-fingernails-list { list-style: var(--musical-symbol-with-fingernails)}
+
+
+
+.musical-symbol-x-notehead::before, .musical-symbol-x-notehead-before::before{ content:var(--musical-symbol-x-notehead)}
+.musical-symbol-x-notehead-after::after{content:var(--musical-symbol-x-notehead)}
+.musical-symbol-x-notehead-both::after, .musical-symbol-x-notehead-both::before {content:var(--musical-symbol-x-notehead)}
+.musical-symbol-x-notehead-list { list-style: var(--musical-symbol-x-notehead)}
+
+
+
+.musical-symbol-z::before, .musical-symbol-z-before::before{ content:var(--musical-symbol-z)}
+.musical-symbol-z-after::after{content:var(--musical-symbol-z)}
+.musical-symbol-z-both::after, .musical-symbol-z-both::before {content:var(--musical-symbol-z)}
+.musical-symbol-z-list { list-style: var(--musical-symbol-z)}
+}
